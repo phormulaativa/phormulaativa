@@ -26,10 +26,10 @@
   const CONFIG = {
     // Número do WhatsApp sem símbolos.
     // Usado para montar o link automaticamente.
-    whatsappNumber: "5518997033495",
+    whatsappNumber: "5518988092571",
 
     // Número bonitinho, como aparece na interface para o usuário.
-    phoneDisplay: "(18) 99703-3495",
+    phoneDisplay: "(18) 98809-2571",
 
     // Conjunto de mensagens pré-definidas.
     messages: {
@@ -78,7 +78,7 @@
     const encoded = encodeURIComponent(finalText);
 
     // Retorna o link final completo.
-    // Exemplo: https://wa.me/5518997033495?text=mensagem
+    // Exemplo: https://wa.me/5518988092571?text=mensagem
     return `https://wa.me/${num}?text=${encoded}`;
   }
 
