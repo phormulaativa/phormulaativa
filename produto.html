@@ -3,20 +3,19 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Phormula Ativa – Farmácia de Manipulação</title>
 
-  <!-- CSS externo -->
+  <title>Produto | Phormula Ativa – Farmácia de Manipulação</title>
+
+  <!-- CSS padrão do site -->
   <link rel="stylesheet" href="css/style.css" />
   <link rel="stylesheet" href="css/menu.css" />
   <link rel="stylesheet" href="/css/whatsapp-fab.css">
-  
+
 </head>
 <body>
 
-  <!-- ======================================================
-       HEADER / TOPO
-       ====================================================== -->
-<header class="header">
+  <!-- ================= HEADER (IGUAL AO INDEX) ================= -->
+ <header class="header">
   <div class="container header-content">
   
 
@@ -44,80 +43,32 @@
   <div id="searchResults" class="search-results"></div>
 </div>
 
+    
 
-
-<!-- Ícone do Carrinho -->
+ <!-- Ícone do Carrinho -->
 <div class="cart-icon-wrapper" id="cartIcon" title="Carrinho">
   <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
     <path d="M7 18c-1.1 0-1.99.9-1.99 2S5.9 22 7 22s2-.9 2-2-.9-2-2-2zM1 2v2h2l3.6 7.59-1.35 2.45c-.16.28-.25.61-.25.96 0 1.1.9 2 2 2h12v-2H7.42c-.14 0-.25-.11-.25-.25l.03-.12.9-1.63h7.45c.75 0 1.41-.41 1.75-1.03l3.58-6.49A1.003 1.003 0 0020 4H5.21l-.94-2H1zm16 16c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 2-.9 2-2-.9-2-2-2z"/>
   </svg>
   <span class="cart-badge" id="cartBadge">0</span>
-</div>
+</div>   
 
-
+    
     
 </header>
 
-<!-- ======================================================
-       ADS SPLIDE
-       ====================================================== -->
- 
-  <section class="ads-slider">
-  <div class="ads-container">
-    <div class="ads-track">
-      <img src="assets/ads/ads1.jpg" alt="Promoção 1">
-      <img src="assets/ads/ads2.jpg" alt="Promoção 1">
-      <img src="assets/ads/ads3.jpg" alt="Promoção 1">
-      <img src="assets/ads/ads4.jpg" alt="Promoção 1">
-      
-    </div>
+  <!-- ================= PRODUTO ================= -->
+  <main class="container produto-page">
 
-    <!-- 🔽 BARRA DE PROGRESSO (NOVA) -->
-    <div class="ads-progress">
-      <span class="ads-progress-bar"></span>
-    </div>
-    
-    <div class="ads-dots"></div>
-    </div>
-    
-</section>
-  
-  <!-- ======================================================
-       BANNER DINÂMICO (PROMOÇÕES / DESTAQUES)
-       ====================================================== -->
-  <section class="banner">
-    <div class="container">
-      <h2>Manipulados mais buscados</h2>
+    <!-- CARD DO PRODUTO (GERADO VIA JS) -->
+    <section id="produto-topo"></section>
 
-      <div class="slider banner-slider">
-  <button class="arrow left">‹</button>
+    <!-- DESCRIÇÃO COMPLETA -->
+    <section id="produto-descricao"></section>
 
-  <div id="banner-container" class="slider-track"></div>
-
-  <button class="arrow right">›</button>
-</div>
-
-<div class="slider-dots">
-        <!-- Cards do banner gerados via JS -->
-      </div>
-    </div>
-  </section>
-
-  <!-- ======================================================
-       CONTEÚDO PRINCIPAL
-       ====================================================== -->
-  <main class="main">
-  <div id="produtos-container">
-
-
-      <!-- ==================================================
-           As seções de categorias são criadas via JavaScript
-           Cada categoria vira uma <section>
-           ================================================== -->
-
-    </div>
   </main>
 
+  <!-- ================= FOOTER (IGUAL AO INDEX) ================= -->
   <!-- ======================================================
        FOOTER / RODAPÉ
        ====================================================== -->
@@ -243,24 +194,18 @@
    
 </footer>
 
-
-  <!-- ======================================================
-       SCRIPTS
-       ====================================================== -->
-
-  <!-- Dados (produtos, categorias, banner) -->
+  <!-- ================= SCRIPTS ================= -->
   <script src="js/data.js"></script>
 
-<!-- BUSCA (USA produtos) -->
-<script src="js/search.js"></script>
-  
-<!-- carrega menu -->
+  <script src="js/search.js"></script>
+
+  <!-- carrega menu -->
   <script src="js/menu.js"></script>
+ 
+  <!-- JS DA PÁGINA DE PRODUTO -->
+  <script src="js/produto.js"></script>
 
-  <!-- Lógica do site -->
-  <script src="js/app.js"></script>
-
-   <!-- Corrinho de Compras -->
+  <!-- Corrinho de Compras -->
   <script src="js/cart.js"></script>
 
   <script src="./js/config-whatsapp.js"></script>
@@ -270,6 +215,6 @@
 <script src="./js/load-whatsapp.js"></script>
 <!-- Script para carregar integração/funcionalidade do WhatsApp -->
 
-   
+
 </body>
 </html>
