@@ -24,7 +24,7 @@ const categorias = [
   {
     id: "desempenhofisico",
     nome: "Manipulados para desempenho físico",
-    nomeMenu: "Desempenho Físico",
+    nomeMenu: "Desempenho físico",
     mostrarNoMenu: true
   },
   {
