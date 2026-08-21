@@ -556,22 +556,22 @@ img {
 }
 
 /* ============================================================
-   SLIDER DE PROPAGANDA — PROFISSIONAL
+   SLIDER DE PROPAGANDA — AJUSTADO
    ============================================================ */
 
 .ads-slider {
   width: 100%;
   background-color: transparent;
-  padding: 0px;          /* 🔥 ESSENCIAL padding: 0 16px;  */
-  margin-top: 24px; /* 👈 ESPAÇO ENTRE HEADER E SLIDE */
+  padding: 0 16px;          /* dá um respiro nas laterais no mobile */
+  margin-top: 24px;         /* espaço em relação ao menu */
+  margin-bottom: 8px;
 }
 
-/* container alinhado com o site */
 .ads-container {
-  max-width: 1200px;
+  max-width: 1200px;        /* mesma largura dos cards */
   margin: 0 auto;
   overflow: hidden;
-     /* mesmo raio dos cards border-radius: 16px; */
+  border-radius: 16px;      /* cantos arredondados */
 }
 
 /* trilha */
@@ -584,24 +584,26 @@ img {
 .ads-track img {
   width: 100%;
   flex-shrink: 0;
-  object-fit: contain; /* 🔹 NÃO CORTA */
+  object-fit: cover;        /* ← muda de contain para cover */
   background-color: transparent;
-  
+  display: block;
 }
 
 /* desktop */
 @media (min-width: 769px) {
   .ads-track img {
-    height: 700px;  /* reduziu ~40% (era 700px) */
-    
+    height: 420px;          /* altura reduzida (~40% menor) */
   }
 }
 
 /* mobile */
 @media (max-width: 768px) {
+  .ads-slider {
+    padding: 0 12px;
+  }
+
   .ads-track img {
-    height: 200px; /* um pouco mais baixo também (era 200px) */
-    
+    height: 180px;
   }
 }
 
