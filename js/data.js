@@ -3,7 +3,7 @@
    ============================================================ */
 // Número fixo do WhatsApp da farmácia (formato internacional, sem +)
 // Gerado automaticamente a partir da planilha Google Sheets
-const WHATSAPP_NUMERO = "5518988092571";
+const WHATSAPP_NUMERO = "5518997033495";
 
 /* ============================================================
    CATEGORIAS
@@ -78,7 +78,7 @@ const produtos = [
     },
     destaque: true,
     mostrarlancamento: false,
-    mostrarVideo: true,
+    mostrarVideo: false,
     textoParcelamento: "ou 1x de R\$ 90,00"
   },
   {
@@ -99,7 +99,7 @@ const produtos = [
     },
     destaque: true,
     mostrarlancamento: false,
-    mostrarVideo: true,
+    mostrarVideo: false,
     textoParcelamento: "ou 1x de R\$ 90,00"
   },
   {
@@ -120,7 +120,7 @@ const produtos = [
     },
     destaque: true,
     mostrarlancamento: true,
-    mostrarVideo: true,
+    mostrarVideo: false,
     textoParcelamento: "ou 1x de R\$ 90,00"
   },
   {
@@ -141,7 +141,7 @@ const produtos = [
     },
     destaque: true,
     mostrarlancamento: false,
-    mostrarVideo: true,
+    mostrarVideo: false,
     textoParcelamento: "ou 1x de R\$ 90,00"
   },
   {
@@ -162,7 +162,7 @@ const produtos = [
     },
     destaque: true,
     mostrarlancamento: false,
-    mostrarVideo: true,
+    mostrarVideo: false,
     textoParcelamento: "ou 1x de R\$ 90,00"
   },
   {
@@ -204,7 +204,7 @@ const produtos = [
     },
     destaque: false,
     mostrarlancamento: true,
-    mostrarVideo: true,
+    mostrarVideo: false,
     textoParcelamento: "ou 1x de R\$ 90,00"
   },
   {
@@ -225,7 +225,7 @@ const produtos = [
     },
     destaque: false,
     mostrarlancamento: false,
-    mostrarVideo: true,
+    mostrarVideo: false,
     textoParcelamento: "ou 1x de R\$ 90,00"
   },
   {
@@ -246,7 +246,7 @@ const produtos = [
     },
     destaque: false,
     mostrarlancamento: false,
-    mostrarVideo: true,
+    mostrarVideo: false,
     textoParcelamento: "ou 1x de R\$ 90,00"
   },
   {
@@ -267,7 +267,7 @@ const produtos = [
     },
     destaque: false,
     mostrarlancamento: false,
-    mostrarVideo: true,
+    mostrarVideo: false,
     textoParcelamento: "ou 1x de R\$ 90,00"
   },
   {
@@ -288,7 +288,7 @@ const produtos = [
     },
     destaque: false,
     mostrarlancamento: false,
-    mostrarVideo: true,
+    mostrarVideo: false,
     textoParcelamento: "ou 1x de R\$ 90,00"
   },
   {
@@ -309,7 +309,7 @@ const produtos = [
     },
     destaque: true,
     mostrarlancamento: true,
-    mostrarVideo: true,
+    mostrarVideo: false,
     textoParcelamento: "ou 1x de R\$ 90,00"
   },
   {
@@ -330,7 +330,7 @@ const produtos = [
     },
     destaque: true,
     mostrarlancamento: false,
-    mostrarVideo: true,
+    mostrarVideo: false,
     textoParcelamento: "ou 1x de R\$ 90,00"
   },
   {
@@ -351,7 +351,7 @@ const produtos = [
     },
     destaque: true,
     mostrarlancamento: false,
-    mostrarVideo: true,
+    mostrarVideo: false,
     textoParcelamento: "ou 1x de R\$ 90,00"
   },
   {
@@ -372,7 +372,7 @@ const produtos = [
     },
     destaque: true,
     mostrarlancamento: true,
-    mostrarVideo: true,
+    mostrarVideo: false,
     textoParcelamento: "ou 1x de R\$ 90,00"
   },
   {
