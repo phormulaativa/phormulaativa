@@ -180,16 +180,21 @@ function renderCart() {
 // ======================
 // SUGESTÕES - COMPLETE SEU PEDIDO
 // ======================
+
+
+// ======================
+// SUGESTÕES - COMPLETE SEU PEDIDO (SLIDER HORIZONTAL)
+// ======================
 function renderCartSuggestions() {
-  const container = document.getElementById("cartSuggestionsList");
   const section = document.getElementById("cartSuggestions");
-  if (!container || !section) return;
+  const track = document.getElementById("cartSuggestionsList");
+  if (!section || !track) return;
 
   const cart = getCart();
   const idsNoCarrinho = cart.map(item => item.id);
 
   // Produtos em destaque que ainda NÃO estão no carrinho
-  const sugestoes = (window.produtos || []).filter(p => 
+  const sugestoes = (window.produtos || []).filter(p =>
     p.destaque === true && !idsNoCarrinho.includes(p.id)
   );
 
@@ -198,23 +203,26 @@ function renderCartSuggestions() {
     return;
   }
 
-  // Mostra no máximo 4 sugestões
-  const lista = sugestoes.slice(0, 4);
+  // Limita a 8 sugestões no máximo
+  const lista = sugestoes.slice(0, 8);
 
-  container.innerHTML = lista.map(produto => `
-    <div class="cart-suggestion-item">
+  track.innerHTML = lista.map(produto => `
+    <div class="cart-suggestion-card">
       <img src="${produto.imagem}" alt="${produto.nome}">
       <div class="cart-suggestion-info">
         <span class="cart-suggestion-nome">${produto.nome}</span>
         <span class="cart-suggestion-preco">${formatarPrecoCart(produto.preco)}</span>
       </div>
       <button class="cart-suggestion-btn" onclick="addToCartFromSuggestion('${produto.id}')">
-        +
+        Adicionar
       </button>
     </div>
   `).join("");
 
   section.style.display = "block";
+
+  // Inicializa o slider das sugestões
+  initSuggestionsSlider();
 }
 
 function addToCartFromSuggestion(id) {
@@ -222,6 +230,24 @@ function addToCartFromSuggestion(id) {
   if (produto) {
     addToCart(produto, 1);
   }
+}
+
+function initSuggestionsSlider() {
+  const track = document.getElementById("cartSuggestionsList");
+  const btnLeft = document.getElementById("sugArrowLeft");
+  const btnRight = document.getElementById("sugArrowRight");
+
+  if (!track) return;
+
+  const scrollAmount = 160; // quanto rola a cada clique
+
+  btnLeft?.addEventListener("click", () => {
+    track.scrollBy({ left: -scrollAmount, behavior: "smooth" });
+  });
+
+  btnRight?.addEventListener("click", () => {
+    track.scrollBy({ left: scrollAmount, behavior: "smooth" });
+  });
 }
 
 
@@ -349,9 +375,18 @@ function createCartUI() {
       <div id="cartItems" class="cart-items"></div>
 
       <!-- NOVA SEÇÃO: Complete seu pedido -->
+     <!-- SUGESTÕES - COMPLETE SEU PEDIDO -->
       <div id="cartSuggestions" class="cart-suggestions" style="display: none;">
-        <h4>Complete seu pedido</h4>
-        <div id="cartSuggestionsList" class="cart-suggestions-list"></div>
+        <div class="cart-suggestions-header">
+          <h4>Complete seu pedido</h4>
+          <div class="cart-suggestions-arrows">
+            <button class="cart-sug-arrow left" id="sugArrowLeft">‹</button>
+            <button class="cart-sug-arrow right" id="sugArrowRight">›</button>
+          </div>
+        </div>
+        <div class="cart-suggestions-viewport">
+          <div id="cartSuggestionsList" class="cart-suggestions-track"></div>
+        </div>
       </div>
 
       <div id="cartFooter" class="cart-footer" style="display:none;">
