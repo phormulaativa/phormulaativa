@@ -571,7 +571,7 @@ img {
   max-width: 1200px;
   margin: 0 auto;
   overflow: hidden;
-  border-radius: 16px;     /* mesmo raio dos cards border-radius: 16px; */
+     /* mesmo raio dos cards border-radius: 16px; */
 }
 
 /* trilha */
@@ -592,7 +592,7 @@ img {
 /* desktop */
 @media (min-width: 769px) {
   .ads-track img {
-    height: 420px;  /* reduziu ~40% (era 700px) */
+    height: 700px;  /* reduziu ~40% (era 700px) */
     
   }
 }
@@ -600,7 +600,7 @@ img {
 /* mobile */
 @media (max-width: 768px) {
   .ads-track img {
-    height: 160px; /* um pouco mais baixo também (era 200px) */
+    height: 200px; /* um pouco mais baixo também (era 200px) */
     
   }
 }
