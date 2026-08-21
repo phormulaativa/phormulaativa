@@ -1494,9 +1494,11 @@ img {
   transition: all 0.2s;
 }
 
-.btn-carrinho:hover {
-  background: var(--azul-escuro);
-  color: white;
+.btn-carrinho:hover,
+.card .btn-carrinho:hover {
+  background: var(--azul-escuro) !important;
+  color: #ffffff !important;
+  border-color: var(--azul-escuro) !important;
 }
 
 /* Ajuste no card-acoes para o novo botão */
