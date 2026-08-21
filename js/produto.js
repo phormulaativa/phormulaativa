@@ -110,6 +110,10 @@ function montarProduto(produto) {
       <p>${produto.descricao.advertencias}</p>
     </section>
   `;
+
+    // ----- PRODUTOS RELACIONADOS -----
+  renderProdutosRelacionados(produto);
+  
 }
 
 // ================================
@@ -269,5 +273,140 @@ function adicionarAoCarrinhoProduto() {
     addToCart(produto, quantidadeAtual);
   }
 }
+
+
+
+
+
+
+
+
+
+
+// ================================
+// PRODUTOS RELACIONADOS (MESMA CATEGORIA)
+// ================================
+
+function renderProdutosRelacionados(produtoAtual) {
+  const section = document.getElementById("produtos-relacionados");
+  const container = document.getElementById("relacionados-container");
+  const titulo = document.getElementById("titulo-relacionados");
+
+  if (!section || !container || !produtoAtual) return;
+
+  // Filtra os outros produtos da mesma categoria
+  const relacionados = produtos.filter(p => 
+    p.categoria === produtoAtual.categoria && p.id !== produtoAtual.id
+  );
+
+  // Se não tiver nenhum outro produto, esconde a seção
+  if (relacionados.length === 0) {
+    section.style.display = "none";
+    return;
+  }
+
+  // Atualiza o título com o nome da categoria
+  const categoriaObj = categorias.find(c => c.id === produtoAtual.categoria);
+  if (categoriaObj) {
+    titulo.textContent = `Outros produtos de ${categoriaObj.nomeMenu || categoriaObj.nome}`;
+  }
+
+  // Limpa o container
+  container.innerHTML = "";
+
+  // Cria os cards
+  relacionados.forEach(produto => {
+    const card = document.createElement("div");
+    card.className = "card";
+    card.id = `produto-${produto.id}`;
+
+    card.innerHTML = `
+      ${produto.mostrarlancamento ? `<span class="badge-lancamento">Lançamento</span>` : ``}
+      <img src="${produto.imagem}" alt="${produto.nome}">
+      <h3>${produto.nome}</h3>
+      <a href="produto.html?id=${produto.id}" class="btn-detalhes">Ver produto</a>
+      <span class="preco">${formatarPreco(produto.preco)}</span>
+      ${produto.textoParcelamento ? `<span class="texto-parcelamento">${produto.textoParcelamento}</span>` : ``}
+
+      <div class="card-acoes">
+        <div class="quantidade">
+          <button class="btn-menos">-</button>
+          <span class="qtd">1</span>
+          <button class="btn-mais">+</button>
+        </div>
+        <button class="btn-comprar">Comprar</button>
+      </div>
+
+      <button class="btn-carrinho">Inserir no carrinho</button>
+    `;
+
+    // Lógica de quantidade
+    let quantidade = 1;
+    const btnMenos = card.querySelector(".btn-menos");
+    const btnMais = card.querySelector(".btn-mais");
+    const qtdSpan = card.querySelector(".qtd");
+    const btnComprar = card.querySelector(".btn-comprar");
+    const btnCarrinho = card.querySelector(".btn-carrinho");
+
+    btnMais.addEventListener("click", () => {
+      quantidade++;
+      qtdSpan.textContent = quantidade;
+    });
+
+    btnMenos.addEventListener("click", () => {
+      if (quantidade > 1) {
+        quantidade--;
+        qtdSpan.textContent = quantidade;
+      }
+    });
+
+    // Botão Comprar (WhatsApp)
+    btnComprar.addEventListener("click", () => {
+      const valorUnitario = produto.preco;
+      const valorTotal = valorUnitario * quantidade;
+
+      const basePath = window.location.pathname.split("/").slice(0, -1).join("/");
+      const linkProduto = `${window.location.origin}${basePath}/produto.html?id=${produto.id}`;
+
+      const categoriaObj = categorias.find(c => c.id === produto.categoria);
+      const nomeCategoria = categoriaObj ? categoriaObj.nome : produto.categoria;
+
+      const mensagem =
+        `Olá! Gostaria de fazer um pedido:%0A%0A` +
+        `Produto: ${produto.nome}%0A` +
+        `Categoria: ${nomeCategoria}%0A` +
+        `Quantidade: ${quantidade} unidade(s)%0A` +
+        `Valor unitário: ${formatarPreco(valorUnitario)}%0A` +
+        `Valor total: ${formatarPreco(valorTotal)}%0A%0A` +
+        `Link do produto:%0A${linkProduto}`;
+
+      const url = `https://wa.me/${WHATSAPP_NUMERO}?text=${mensagem}`;
+      window.open(url, "_blank");
+    });
+
+    // Botão Inserir no Carrinho
+    if (btnCarrinho) {
+      btnCarrinho.addEventListener("click", () => {
+        if (typeof addToCart === "function") {
+          addToCart(produto, quantidade);
+        }
+      });
+    }
+
+    container.appendChild(card);
+  });
+
+  // Mostra a seção
+  section.style.display = "block";
+}
+
+
+
+
+
+
+
+
+
 
 
