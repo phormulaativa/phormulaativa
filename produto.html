@@ -69,11 +69,18 @@
   </main>
 
 
-<!-- ================= PRODUTOS DA MESMA CATEGORIA ================= -->
+  <!-- ================= PRODUTOS DA MESMA CATEGORIA ================= -->
   <section id="produtos-relacionados" class="categoria-section" style="display: none;">
     <div class="container">
       <h2 id="titulo-relacionados">Outros produtos desta categoria</h2>
-      <div id="relacionados-container" class="relacionados-grid"></div>
+
+      <div class="slider">
+        <button class="arrow left">‹</button>
+        <div id="relacionados-track" class="slider-track"></div>
+        <button class="arrow right">›</button>
+      </div>
+
+      <div class="slider-dots" id="relacionados-dots"></div>
     </div>
   </section>
 
