@@ -562,16 +562,17 @@ img {
 .ads-slider {
   width: 100%;
   background-color: transparent;
-  padding: 0 16px;          /* dá um respiro nas laterais no mobile */
-  margin-top: 24px;         /* espaço em relação ao menu */
-  margin-bottom: 8px;
+  padding: 0 16px;
+  margin-top: 32px;          /* ← aumentei o espaço em relação ao menu */
+  margin-bottom: 12px;
 }
 
 .ads-container {
-  max-width: 1200px;        /* mesma largura dos cards */
+  max-width: 1200px;
   margin: 0 auto;
   overflow: hidden;
-  border-radius: 16px;      /* cantos arredondados */
+  border-radius: 16px;       /* arredonda os 4 cantos */
+  box-shadow: 0 4px 20px rgba(0,0,0,0.08); /* opcional: dá uma leve profundidade */
 }
 
 /* trilha */
