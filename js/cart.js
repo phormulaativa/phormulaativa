@@ -165,7 +165,70 @@ function renderCart() {
   if (totalEl) {
     totalEl.textContent = formatarPrecoCart(totalGeral);
   }
+
+
+   // Atualiza as sugestões
+  renderCartSuggestions();
+   
 }
+
+
+
+
+
+
+// ======================
+// SUGESTÕES - COMPLETE SEU PEDIDO
+// ======================
+function renderCartSuggestions() {
+  const container = document.getElementById("cartSuggestionsList");
+  const section = document.getElementById("cartSuggestions");
+  if (!container || !section) return;
+
+  const cart = getCart();
+  const idsNoCarrinho = cart.map(item => item.id);
+
+  // Produtos em destaque que ainda NÃO estão no carrinho
+  const sugestoes = (window.produtos || []).filter(p => 
+    p.destaque === true && !idsNoCarrinho.includes(p.id)
+  );
+
+  if (sugestoes.length === 0) {
+    section.style.display = "none";
+    return;
+  }
+
+  // Mostra no máximo 4 sugestões
+  const lista = sugestoes.slice(0, 4);
+
+  container.innerHTML = lista.map(produto => `
+    <div class="cart-suggestion-item">
+      <img src="${produto.imagem}" alt="${produto.nome}">
+      <div class="cart-suggestion-info">
+        <span class="cart-suggestion-nome">${produto.nome}</span>
+        <span class="cart-suggestion-preco">${formatarPrecoCart(produto.preco)}</span>
+      </div>
+      <button class="cart-suggestion-btn" onclick="addToCartFromSuggestion('${produto.id}')">
+        +
+      </button>
+    </div>
+  `).join("");
+
+  section.style.display = "block";
+}
+
+function addToCartFromSuggestion(id) {
+  const produto = (window.produtos || []).find(p => p.id === id);
+  if (produto) {
+    addToCart(produto, 1);
+  }
+}
+
+
+
+
+
+
 
 // ======================
 // ABRIR / FECHAR CARRINHO
@@ -284,6 +347,12 @@ function createCartUI() {
       </div>
 
       <div id="cartItems" class="cart-items"></div>
+
+      <!-- NOVA SEÇÃO: Complete seu pedido -->
+      <div id="cartSuggestions" class="cart-suggestions" style="display: none;">
+        <h4>Complete seu pedido</h4>
+        <div id="cartSuggestionsList" class="cart-suggestions-list"></div>
+      </div>
 
       <div id="cartFooter" class="cart-footer" style="display:none;">
         <div class="cart-total-line">
