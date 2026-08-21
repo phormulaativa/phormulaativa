@@ -24,13 +24,31 @@ const categorias = [
   {
     id: "desempenhofisico",
     nome: "Manipulados para desempenho físico",
-    nomeMenu: "Desempenho físico",
+    nomeMenu: "Desempenho Físico",
     mostrarNoMenu: true
   },
   {
     id: "saude",
     nome: "Manipulados para saúde e bem-estar",
     nomeMenu: "Saúde",
+    mostrarNoMenu: true
+  },
+  {
+    id: "quedacapilar",
+    nome: "Manipulados para queda capilar",
+    nomeMenu: "Queda Capilar",
+    mostrarNoMenu: true
+  },
+  {
+    id: "libido",
+    nome: "Manipulados para libido",
+    nomeMenu: "Libido",
+    mostrarNoMenu: true
+  },
+  {
+    id: "beleza",
+    nome: "Manipulados para beleza",
+    nomeMenu: "Beleza",
     mostrarNoMenu: true
   }
 ];
@@ -181,9 +199,9 @@ const produtos = [
       comoUsar: "Tomar 1 cápsula antes de dormir...",
       advertencias: "Não utilizar sem orientação profissional..."
     },
-    destaque: false,
+    destaque: true,
     mostrarlancamento: false,
-    mostrarVideo: true,
+    mostrarVideo: false,
     textoParcelamento: "ou 1x de R\$ 90,00"
   },
   {
