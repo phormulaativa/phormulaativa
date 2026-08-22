@@ -1604,7 +1604,7 @@ img {
    CORREÇÃO FORTE – BOTÃO CARRINHO NA PÁGINA DO PRODUTO (desktop)
    ============================================================ */
 
-@media (max-width: 2600px) {
+@media (min-width: 769px) {
 
   /* Força a coluna de informações a empilhar os elementos */
   .produto-info {
