@@ -1788,8 +1788,8 @@ img {
 
 /* Ajuste do texto "Comprar agora" para caber no botão */
 .btn-comprar {
-  font-size: 0.82rem !important;
-  padding: 10px 12px !important;
+  font-size: 0.72rem !important;
+  padding: 8px 10px !important;
   white-space: nowrap;
 }
 
