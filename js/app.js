@@ -136,10 +136,10 @@ function criarCardProduto(produto, isBanner = false) {
     <button class="btn-mais">+</button>
   </div>
 
-  <button class="btn-comprar">Comprar</button>
+  <button class="btn-comprar">Comprar agora</button>
 </div>
 
-<button class="btn-carrinho">Inserir no carrinho</button>
+<button class="btn-carrinho">Adicionar ao Carrinho</button>
 
   `;
 
