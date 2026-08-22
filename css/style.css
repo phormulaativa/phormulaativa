@@ -1794,5 +1794,15 @@ img {
 }
 
 
+/* Botão "Ver carrinho" (depois de adicionar) */
+.btn-ver-carrinho {
+  background: var(--azul-escuro) !important;
+  color: #ffffff !important;
+  border-color: var(--azul-escuro) !important;
+}
 
+.btn-ver-carrinho:hover {
+  background: #155d7a !important;
+  color: #ffffff !important;
+}
 
