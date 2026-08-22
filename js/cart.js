@@ -204,7 +204,7 @@ function renderCartSuggestions() {
   }
 
   // Limita a 8 sugestões no máximo
-  const lista = sugestoes.slice(0, 8);
+  const lista = sugestoes;
 
   track.innerHTML = lista.map(produto => `
     <div class="cart-suggestion-card" data-id="${produto.id}">
