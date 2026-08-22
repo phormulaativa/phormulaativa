@@ -188,11 +188,24 @@ btnComprar.addEventListener("click", () => {
 });
 
 
-// Botão Inserir no Carrinho
+// Botão Adicionar ao Carrinho
 const btnCarrinho = card.querySelector(".btn-carrinho");
 if (btnCarrinho) {
   btnCarrinho.addEventListener("click", () => {
     addToCart(produto, quantidade);
+
+    // Transforma o botão em "Ver carrinho"
+    btnCarrinho.textContent = "Ver carrinho";
+    btnCarrinho.classList.add("btn-ver-carrinho");
+
+    // Ao clicar novamente, abre o carrinho
+    btnCarrinho.onclick = (e) => {
+      e.preventDefault();
+      e.stopPropagation();
+      if (typeof openCart === "function") {
+        openCart();
+      }
+    };
   });
 }
 
