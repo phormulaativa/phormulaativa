@@ -194,17 +194,19 @@ function renderCartSuggestions() {
   const idsNoCarrinho = cart.map(item => item.id);
 
   // Produtos em destaque que ainda NÃO estão no carrinho
-  const sugestoes = (window.produtos || []).filter(p =>
-    p.destaque === true && !idsNoCarrinho.includes(p.id)
-  );
+let sugestoes = (window.produtos || []).filter(p =>
+  p.destaque === true && !idsNoCarrinho.includes(p.id)
+);
 
-  if (sugestoes.length === 0) {
-    section.style.display = "none";
-    return;
-  }
+if (sugestoes.length === 0) {
+  section.style.display = "none";
+  return;
+}
 
-  // Limita a 8 sugestões no máximo
-  const lista = sugestoes;
+// Embaralha a ordem (random)
+sugestoes = sugestoes.sort(() => Math.random() - 0.5);
+
+const lista = sugestoes;
 
   track.innerHTML = lista.map(produto => `
     <div class="cart-suggestion-card" data-id="${produto.id}">
