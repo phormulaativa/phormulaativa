@@ -1786,14 +1786,6 @@ img {
 
 
 
-/* Ajuste do texto "Comprar agora" para caber no botão */
-/*.btn-comprar { */
-/*  font-size: 0.92rem !important; */
-/*  padding: 6px 8px !important; */
-/*  white-space: nowrap; */
-/*} */
-
-
 /* Botão "Ver carrinho" (depois de adicionar) */
 .btn-ver-carrinho {
   background: var(--azul-escuro) !important;
@@ -1805,4 +1797,18 @@ img {
   background: #155d7a !important;
   color: #ffffff !important;
 }
+
+
+
+/* Ajuste do texto link título ao passar mouse no card */
+.card-titulo {
+  cursor: pointer;
+  transition: color 0.2s;
+}
+
+.card-titulo:hover {
+  color: var(--azul-escuro);
+}
+
+
 
