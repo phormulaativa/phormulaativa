@@ -20,6 +20,9 @@ function montarProduto(produto) {
 
   // ----- TOPO DO PRODUTO -----
   document.getElementById("produto-topo").innerHTML = `
+
+
+  
     <div class="produto-card">
 
       <div class="produto-imagem">
@@ -94,6 +97,26 @@ function montarProduto(produto) {
 
 
   `;
+
+
+  // ===== LIGA OS BOTÕES DA PÁGINA DO PRODUTO =====
+  const btnComprar = document.querySelector("#produto-topo .btn-comprar");
+  const btnCarrinho = document.querySelector("#produto-topo .btn-carrinho");
+
+  if (btnComprar) {
+    btnComprar.addEventListener("click", () => {
+      comprarProduto();
+    });
+  }
+
+  if (btnCarrinho) {
+    btnCarrinho.addEventListener("click", () => {
+      adicionarAoCarrinhoProduto();
+    });
+  }
+
+
+  
 
   // ----- DESCRIÇÃO COMPLETA -----
   document.getElementById("produto-descricao").innerHTML = `
@@ -276,22 +299,28 @@ document.addEventListener("click", function (event) {
 // ================================
 function adicionarAoCarrinhoProduto() {
   if (!produto) return;
+
   if (typeof addToCart === "function") {
     addToCart(produto, quantidadeAtual);
   }
 
-  // Muda o botão da página do produto
+  // Muda o botão para "Ver carrinho" com ícone
   const btn = document.querySelector(".produto-info .btn-carrinho");
   if (btn) {
-    btn.textContent = "Ver carrinho";
+    btn.innerHTML = `
+      <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor">
+        <path d="M7 18c-1.1 0-1.99.9-1.99 2S5.9 22 7 22s2-.9 2-2-.9-2-2-2zM1 2v2h2l3.6 7.59-1.35 2.45c-.16.28-.25.61-.25.96 0 1.1.9 2 2 2h12v-2H7.42c-.14 0-.25-.11-.25-.25l.03-.12.9-1.63h7.45c.75 0 1.41-.41 1.75-1.03l3.58-6.49A1.003 1.003 0 0020 4H5.21l-.94-2H1zm16 16c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 2-.9 2-2-.9-2-2-2z"/>
+      </svg>
+      Ver carrinho
+    `;
     btn.classList.add("btn-ver-carrinho");
+
     btn.onclick = (e) => {
       e.preventDefault();
       if (typeof openCart === "function") openCart();
     };
   }
 }
-
 
 
 
