@@ -38,15 +38,31 @@ function slugParaNomeCategoria(slug) {
 // ============================================================
 // BANNER DE DESTAQUES
 // ============================================================
+// SEM RENDER>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+//function renderBanner() {
+//  const destaques = produtos.filter(p => p.destaque);
+
+//  destaques.forEach(produto => {
+//    const card = criarCardProduto(produto, true);
+//    bannerContainer.appendChild(card);
+//  });
+//}
+// FIM SEM RENDER>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
 
 function renderBanner() {
-  const destaques = produtos.filter(p => p.destaque);
+  let destaques = produtos.filter(p => p.destaque);
+
+  // Embaralha a ordem dos destaques (random)
+  destaques = destaques.sort(() => Math.random() - 0.5);
 
   destaques.forEach(produto => {
     const card = criarCardProduto(produto, true);
     bannerContainer.appendChild(card);
   });
 }
+
+
 
 // ============================================================
 // RENDERIZAÇÃO DE PRODUTOS POR CATEGORIA
