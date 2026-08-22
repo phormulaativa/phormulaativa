@@ -207,18 +207,31 @@ function renderCartSuggestions() {
   const lista = sugestoes.slice(0, 8);
 
   track.innerHTML = lista.map(produto => `
-    <div class="cart-suggestion-card">
+    <div class="cart-suggestion-card" data-id="${produto.id}">
       <img src="${produto.imagem}" alt="${produto.nome}">
       <div class="cart-suggestion-info">
         <span class="cart-suggestion-nome">${produto.nome}</span>
         <span class="cart-suggestion-preco">${formatarPrecoCart(produto.preco)}</span>
       </div>
-      <button class="cart-suggestion-btn" onclick="addToCartFromSuggestion('${produto.id}')">
+      <button class="cart-suggestion-btn" onclick="event.stopPropagation(); addToCartFromSuggestion('${produto.id}')">
         Adicionar
       </button>
     </div>
   `).join("");
 
+// Torna os cards de sugestão clicáveis (abre a página do produto)
+  track.querySelectorAll(".cart-suggestion-card").forEach(card => {
+    card.addEventListener("click", (e) => {
+      // Se clicou no botão Adicionar, não faz nada aqui
+      if (e.target.closest(".cart-suggestion-btn")) return;
+
+      const id = card.dataset.id;
+      if (id) {
+        window.location.href = `produto.html?id=${id}`;
+      }
+    });
+  });
+   
   section.style.display = "block";
 
   // Inicializa o slider das sugestões
