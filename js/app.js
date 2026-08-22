@@ -118,13 +118,9 @@ function criarCardProduto(produto, isBanner = false) {
   card.innerHTML = `
     ${produto.mostrarlancamento ? `<span class="badge-lancamento">Lançamento</span>` : ``}
     <img src="${produto.imagem}" alt="${produto.nome}">
-    <h3>${produto.nome}</h3>
-    <a 
-  href="produto.html?id=${produto.id}" 
-  class="btn-detalhes"
->
-  Ver produto
-</a>
+    
+    <h3 class="card-titulo">${produto.nome}</h3>
+    
     <p class="descricao">${produto.descricao.resumo}</p>
     <span class="preco">${formatarPreco(produto.preco)}</span>
     ${produto.textoParcelamento ? `<span class="texto-parcelamento">${produto.textoParcelamento}</span>` : ``}
@@ -174,6 +170,29 @@ function criarCardProduto(produto, isBanner = false) {
       qtdSpan.textContent = quantidade;
     }
   });
+
+
+
+   // ===== CARD CLICÁVEL (abre o produto) =====
+card.style.cursor = "pointer";
+
+card.addEventListener("click", (e) => {
+  // Se clicou em algum botão de ação, não abre o produto
+  if (
+    e.target.closest(".btn-menos") ||
+    e.target.closest(".btn-mais") ||
+    e.target.closest(".btn-comprar") ||
+    e.target.closest(".btn-carrinho") ||
+    e.target.closest(".quantidade")
+  ) {
+    return;
+  }
+
+  window.location.href = `produto.html?id=${produto.id}`;
+});
+   
+
+   
 
   // Comprar via WhatsApp
 btnComprar.addEventListener("click", () => {
