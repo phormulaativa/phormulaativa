@@ -78,8 +78,7 @@ img {
 
   width: 100%;
   max-width: 100%;
-  height: 100%;           /* importante */
-   
+     
 }
 
 
@@ -190,7 +189,7 @@ img {
   display: flex;
   align-items: center;
   gap: 12px;
-  margin-top: auto;       /* ← essa é a mágica - antes era margin-top: 12px; */ 
+  margin-top: 12px; 
 }
 
 
@@ -1519,8 +1518,7 @@ img {
   min-height: 44px !important;
   box-sizing: border-box;
   border-radius: 999px;
-  margin-top: 8px;
-}
+  }
 
 
 
