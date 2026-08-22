@@ -72,12 +72,12 @@ function montarProduto(produto) {
   </div>
 
     <button class="btn-comprar" onclick="comprarProduto()">
-  Comprar
+  Comprar agora
 </button>
 
 
 <button class="btn-carrinho" onclick="adicionarAoCarrinhoProduto()">
-  Inserir no carrinho
+  Adicionar ao carrinho
 </button>
 
   </div>
