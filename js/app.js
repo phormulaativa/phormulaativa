@@ -56,8 +56,19 @@ function renderProdutos(listaProdutos) {
   produtosContainer.innerHTML = "";
 
   categorias.forEach(cat => {
-    const produtosDaCategoria = listaProdutos.filter(p => p.categoria === cat.id);
-    if (produtosDaCategoria.length === 0) return;
+    
+     // renderiza em ordem original
+     //const produtosDaCategoria = listaProdutos.filter(p => p.categoria === cat.id);
+     //if (produtosDaCategoria.length === 0) return;
+     // fim
+     
+      // Embaralha a ordem dos produtos da categoria (random)
+      let produtosDaCategoria = listaProdutos.filter(p => p.categoria === cat.id);
+      if (produtosDaCategoria.length === 0) return;
+      // Embaralha a ordem dos produtos da categoria (random)
+      produtosDaCategoria = produtosDaCategoria.sort(() => Math.random() - 0.5);
+      // fim
+     
 
      const section = document.createElement("section");
      section.classList.add("categoria-section");
