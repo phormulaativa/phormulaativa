@@ -222,7 +222,8 @@ btnCarrinho.onclick = (e) => {
     openCart();
   }
 };
-
+});
+}
    
   // Ajustes visuais se for banner
   if (isBanner) {
