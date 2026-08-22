@@ -272,6 +272,17 @@ function adicionarAoCarrinhoProduto() {
   if (typeof addToCart === "function") {
     addToCart(produto, quantidadeAtual);
   }
+
+  // Muda o botão da página do produto
+  const btn = document.querySelector(".produto-info .btn-carrinho");
+  if (btn) {
+    btn.textContent = "Ver carrinho";
+    btn.classList.add("btn-ver-carrinho");
+    btn.onclick = (e) => {
+      e.preventDefault();
+      if (typeof openCart === "function") openCart();
+    };
+  }
 }
 
 
@@ -399,12 +410,24 @@ function criarCardRelacionado(produto) {
 
   // Inserir no carrinho
   if (btnCarrinho) {
-    btnCarrinho.addEventListener("click", () => {
-      if (typeof addToCart === "function") {
-        addToCart(produto, quantidade);
+  btnCarrinho.addEventListener("click", () => {
+    if (typeof addToCart === "function") {
+      addToCart(produto, quantidade);
+    }
+
+    // Transforma o botão em "Ver carrinho"
+    btnCarrinho.textContent = "Ver carrinho";
+    btnCarrinho.classList.add("btn-ver-carrinho");
+
+    btnCarrinho.onclick = (e) => {
+      e.preventDefault();
+      e.stopPropagation();
+      if (typeof openCart === "function") {
+        openCart();
       }
-    });
-  }
+    };
+  });
+}
 
   return card;
 }
