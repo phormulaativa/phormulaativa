@@ -1787,11 +1787,11 @@ img {
 
 
 /* Ajuste do texto "Comprar agora" para caber no botão */
-.btn-comprar {
-  font-size: 0.92rem !important;
-  padding: 6px 8px !important;
-  white-space: nowrap;
-}
+/*.btn-comprar { */
+/*  font-size: 0.92rem !important; */
+/*  padding: 6px 8px !important; */
+/*  white-space: nowrap; */
+/*} */
 
 
 /* Botão "Ver carrinho" (depois de adicionar) */
