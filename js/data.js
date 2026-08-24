@@ -63,7 +63,6 @@ const categorias = [
    PRODUTOS
    ============================================================ */
 const produtos = [
-  
   {
     id: "2",
     nome: "Emagrecimento1",
@@ -402,7 +401,7 @@ const produtos = [
   },
   {
     id: "18",
-    nome: "Ácido Tricloroacético 90% em solução de 10 mL",
+    nome: "Ácido Tricloroacético 90% em solução de 10ml",
     categoria: "podologia",
     preco: 40.00,
     imagem: "assets/img/AcidoTricloroacetico90emsoluçãode10mL.png",
@@ -410,16 +409,16 @@ const produtos = [
       
     ],
     descricao: {
-      resumo: "<p>Desenvolvido para uso exclusivamente profissional em procedimentos podológicos.</p>",
-      oQueE: `<p>O Ácido Tricloroacético 90% é uma solução de alta concentração destinada ao uso profissional em procedimentos podológicos. Sua formulação apresenta Ácido Tricloroacético como componente ativo, associado a veículo em solução de 10 mL, sendo um produto que exige manipulação cuidadosa e aplicação realizada por profissional capacitado.</p> <p>Sua finalidade é atender ao uso profissional em procedimentos podológicos nos quais o Ácido Tricloroacético esteja indicado, sempre de acordo com as orientações do fabricante e os protocolos aplicáveis ao procedimento. Por sua elevada concentração, a utilização requer atenção especial às medidas de segurança.</p> <p>É recomendado para profissionais habilitados e capacitados para a realização de procedimentos podológicos nos quais sua utilização seja apropriada. Não é indicado para uso doméstico ou aplicação por pessoas sem treinamento profissional adequado.</p>`,
-      composicao: "<ul> <li>Ácido Tricloroacético — 90%</li> <li>Veículo — 10 mL</li> </ul> <p><strong>Apresentação:</strong> Solução 10 mL.</p>",
-      comoUsar: "<p>Utilizar exclusivamente conforme as instruções constantes na embalagem e na rotulagem do produto, seguindo as orientações do fabricante e os protocolos profissionais aplicáveis. A utilização deve ser realizada por profissional habilitado e capacitado, observando rigorosamente as medidas de segurança recomendadas para a manipulação e aplicação do produto.</p>",
-      advertencias: "<p>Produto de uso exclusivamente profissional. Devido à alta concentração do Ácido Tricloroacético, sua manipulação e utilização requerem conhecimento técnico, atenção às orientações do fabricante e adoção das medidas de proteção e segurança aplicáveis ao procedimento. Manter fora do alcance de pessoas não autorizadas e utilizar somente conforme as informações fornecidas pelo fabricante e os protocolos profissionais pertinentes.</p> <p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
+      resumo: "Ácido Tricloroacético 90% em solução de 10ml, desenvolvido para <strong>uso profissional em procedimentos podológicos</strong>, com formulação de alta concentração para utilização conforme as orientações do fabricante e do profissional habilitado.</p>",
+      oQueE: `<p>O Ácido Tricloroacético 90% é uma solução de <strong>alta concentração</strong> destinada ao uso profissional em procedimentos podológicos. Sua composição é apresentada de forma objetiva, com 90% de Ácido Tricloroacético e veículo, em uma apresentação prática de 10ml.</p> <p>O produto é indicado para <strong>uso profissional em procedimentos podológicos</strong>, sendo uma opção para profissionais que necessitam utilizar uma solução de Ácido Tricloroacético 90% de acordo com sua finalidade e com as orientações aplicáveis ao procedimento.</p> <p>É destinado a <strong>profissionais habilitados</strong> para sua utilização em procedimentos podológicos, respeitando as orientações presentes na embalagem, na rotulagem e as recomendações do fabricante.</p>`,
+      composicao: "<ul> <li>Ácido Tricloroacético — 90%</li> <li>Veículo — 10ml</li> </ul> <p><strong>Apresentação:</strong> Solução 10ml</p>",
+      comoUsar: "<p>Utilize o produto <strong>conforme as instruções do fabricante</strong> presentes na embalagem e na rotulagem. Quando aplicável, sua utilização deverá seguir a orientação de médico ou profissional de saúde habilitado, especialmente em procedimentos que exijam avaliação e conhecimento técnico específico.</p>",
+      advertencias: "<p>Produto destinado a <strong>uso profissional</strong>. Leia atentamente as informações fornecidas pelo fabricante na embalagem e na rotulagem antes da utilização. Em caso de dúvidas sobre a utilização adequada, procure orientação de médico ou profissional de saúde habilitado.</p> <p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia."
     },
     destaque: true,
     mostrarlancamento: false,
     mostrarVideo: false,
-    textoParcelamento: "ou 1x de R$ 40,00"
+    textoParcelamento: "ou 1x de R\$ 40,00"
   }
 ];
 
