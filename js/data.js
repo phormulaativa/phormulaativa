@@ -419,6 +419,82 @@ const produtos = [
     mostrarlancamento: false,
     mostrarVideo: false,
     textoParcelamento: "ou 1x de R\$ 40,00"
+  },
+  {
+    id: "19",
+    nome: "Fórmula Antimicose Completa",
+    categoria: "podologia",
+    preco: 40.00,
+    imagem: "assets/img/FormulaAntimicoseCompleta.png",
+    videos: [
+      
+    ],
+    descricao: {
+      resumo: "<p>A Fórmula Antimicose Completa é uma solução desenvolvida para auxiliar no cuidado e tratamento de fungos e micoses, reunindo diferentes componentes em uma formulação de uso tópico.</p>",
+      oQueE: `<p>A <strong>Fórmula Antimicose Completa</strong> é uma solução de uso tópico formulada com ácido undecilênico, terbinafina, clotrimazol e extrato glicólico de própolis.</p><p>É destinada a <strong>auxiliar no tratamento de fungos e micoses</strong>, oferecendo uma formulação que reúne diferentes componentes tradicionalmente utilizados em produtos destinados ao cuidado de alterações fúngicas da pele.</p><p>Pode ser indicada para pessoas que necessitam de um produto de uso tópico para auxiliar no cuidado de áreas afetadas por fungos ou micoses, devendo sua utilização observar as orientações do fabricante ou de um profissional de saúde.</p>`,
+      composicao: "<ul>
+<li>ACIDO UNDECILENICO — 20%</li>
+<li>TERBINAFINA CLORIDRATO — 2%</li>
+<li>CLOTRIMAZOL — 1%</li>
+<li>EXTRATO GLICOLICO PROPOLIS — 5%</li>
+<li>PROPILENOGLICOL — 10ML</li>
+</ul><p><strong>Apresentação:</strong> Solução 10ml - Validade 4 meses</p>",
+      comoUsar: "<p>Utilize o produto conforme as <strong>instruções do fabricante</strong> ou de acordo com a orientação de um profissional de saúde. Não altere a forma de utilização recomendada sem orientação profissional.</p>",
+      advertencias: "<p>Utilize o produto somente conforme as orientações fornecidas pelo fabricante. Em caso de dúvidas sobre a utilização, procure orientação de um profissional de saúde. Mantenha o produto em condições adequadas de armazenamento e fora do alcance de crianças.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
+    },
+    destaque: true,
+    mostrarlancamento: false,
+    mostrarVideo: false,
+    textoParcelamento: "ou 1x de R\$ 40,00"
+  },
+  {
+    id: "20",
+    nome: "Ácido Nítrico 65%",
+    categoria: "podologia",
+    preco: 50.00,
+    imagem: "assets/img/acidonitrico65.png",
+    videos: [
+      
+    ],
+    descricao: {
+      resumo: "<p>O Ácido Nítrico 65% é uma solução de uso <strong>exclusivamente profissional podológico</strong>, destinada a aplicações realizadas por profissionais devidamente habilitados e conforme orientação técnica.</p>",
+      oQueE: `<p>O <strong>Ácido Nítrico 65%</strong> é uma solução formulada à base de ácido nítrico fumegante, destinada ao uso profissional no contexto podológico.</p><p>O produto é destinado ao <strong>uso profissional podológico</strong>, devendo sua aplicação ser realizada de acordo com as orientações técnicas e os procedimentos adequados ao uso do produto.</p><p>É recomendado <strong>exclusivamente para profissionais habilitados</strong> que tenham conhecimento técnico para sua utilização no contexto podológico, observando as orientações do fabricante.</p>`,
+      composicao: "<ul>
+<li>ACIDO NITRICO FUMEGANTE — 65%</li>
+<li>VEICULO — 10ML</li>
+</ul><p><strong>Apresentação:</strong> Solução 10ml - Validade 4 meses</p>",
+      comoUsar: "<p>Produto destinado a <strong>uso profissional podológico</strong>. Utilize somente conforme as instruções do fabricante e orientação de profissional devidamente habilitado. Não utilize ou aplique o produto fora das condições e procedimentos recomendados pelo fabricante.</p>",
+      advertencias: "<p>Produto de uso profissional. Manuseie e utilize somente conforme as orientações do fabricante e os procedimentos técnicos aplicáveis ao uso profissional. Mantenha o produto fora do alcance de crianças e em condições adequadas de armazenamento.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
+    },
+    destaque: true,
+    mostrarlancamento: false,
+    mostrarVideo: false,
+    textoParcelamento: "ou 1x de R\$ 50,00"
+  },
+  {
+    id: "21",
+    nome: "Aloe Vera Reparador",
+    categoria: "podologia",
+    preco: 50.00,
+    imagem: "",
+    videos: [
+      "assets/img/AloeVeraReparador.png"
+    ],
+    descricao: {
+      resumo: "<p>O Aloe Vera Reparador é uma solução desenvolvida para <strong>auxiliar na hidratação e regeneração da pele</strong>, proporcionando cuidado tópico em uma formulação com extrato de Aloe Vera.</p>",
+      oQueE: `<p>O <strong>Aloe Vera Reparador</strong> é uma solução de uso tópico formulada com extrato de Aloe Vera, ATA e veículo, destinada ao cuidado da pele.</p><p>Sua finalidade é <strong>auxiliar na hidratação e regeneração da pele</strong>, contribuindo para os cuidados necessários em áreas que demandam atenção e manutenção da condição da pele.</p><p>Pode ser indicado para pessoas que buscam um produto destinado ao <strong>cuidado e hidratação da pele</strong>, observando sempre as orientações do fabricante ou de um profissional de saúde.</p>`,
+      composicao: "<ul>
+<li>EXTRATO ALOE VERA — 1GR</li>
+<li>ATA — 6GR</li>
+<li>VEICULO — 10ML</li>
+</ul><p><strong>Apresentação:</strong> Solução 10ml - Validade 4 meses</p>",
+      comoUsar: "<p>Utilize o produto conforme as <strong>instruções do fabricante</strong> ou de acordo com a orientação de um profissional de saúde. Não altere a forma de utilização recomendada sem orientação profissional.</p>",
+      advertencias: "<p>Utilize o produto somente conforme as orientações fornecidas pelo fabricante. Em caso de dúvidas sobre a utilização, procure orientação de um profissional de saúde. Mantenha o produto em condições adequadas de armazenamento e fora do alcance de crianças.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
+    },
+    destaque: true,
+    mostrarlancamento: false,
+    mostrarVideo: false,
+    textoParcelamento: "ou 1x de R\$ 50,00"
   }
 ];
 
