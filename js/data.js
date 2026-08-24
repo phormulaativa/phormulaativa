@@ -467,9 +467,9 @@ const produtos = [
     nome: "Aloe Vera Reparador",
     categoria: "podologia",
     preco: 50.00,
-    imagem: "",
+    imagem: "AloeVeraReparador.png",
     videos: [
-      "assets/img/AloeVeraReparador.png",
+      
     ],
     descricao: {
       resumo: "<p>O Aloe Vera Reparador é uma solução desenvolvida para <strong>auxiliar na hidratação e regeneração da pele</strong>, proporcionando cuidado tópico em uma formulação com extrato de Aloe Vera.</p>",
