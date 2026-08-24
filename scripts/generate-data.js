@@ -119,11 +119,8 @@ function toBool(val) {
 }
 
 function escapeJsString(str) {
-  if (str == null) return '';
-  return String(str)
-    .replace(/\\/g, '\\\\')
-    .replace(/`/g, '\\`')
-    .replace(/\$/g, '\\$');
+  // Mantida apenas por compatibilidade. Preferimos JSON.stringify.
+  return str == null ? '' : String(str);
 }
 
 function formatPrice(val) {
@@ -209,13 +206,13 @@ async function main() {
 
   console.log(`✅ ${categorias.length} categorias | ${produtos.length} produtos`);
 
-  // Gerar data.js
+    // Gerar data.js
   let js = `/* ============================================================
    CONFIGURAÇÕES GERAIS
    ============================================================ */
 // Número fixo do WhatsApp da farmácia (formato internacional, sem +)
 // Gerado automaticamente a partir da planilha Google Sheets
-const WHATSAPP_NUMERO = "${escapeJsString(whatsapp)}";
+const WHATSAPP_NUMERO = ${JSON.stringify(whatsapp)};
 
 /* ============================================================
    CATEGORIAS
@@ -225,9 +222,9 @@ const categorias = [
 
   categorias.forEach((c, i) => {
     js += `  {
-    id: "${escapeJsString(c.id)}",
-    nome: "${escapeJsString(c.nome)}",
-    nomeMenu: "${escapeJsString(c.nomeMenu)}",
+    id: ${JSON.stringify(c.id)},
+    nome: ${JSON.stringify(c.nome)},
+    nomeMenu: ${JSON.stringify(c.nomeMenu)},
     mostrarNoMenu: ${c.mostrarNoMenu}
   }${i < categorias.length - 1 ? ',' : ''}
 `;
@@ -242,27 +239,28 @@ const produtos = [
 `;
 
   produtos.forEach((p, i) => {
-    const videosStr = p.videos.map(v => `"${escapeJsString(v)}"`).join(',\n      ');
+    const videosStr = p.videos.map(v => JSON.stringify(v)).join(',\n      ');
+
     js += `  {
-    id: "${escapeJsString(p.id)}",
-    nome: "${escapeJsString(p.nome)}",
-    categoria: "${escapeJsString(p.categoria)}",
+    id: ${JSON.stringify(p.id)},
+    nome: ${JSON.stringify(p.nome)},
+    categoria: ${JSON.stringify(p.categoria)},
     preco: ${p.preco.toFixed(2)},
-    imagem: "${escapeJsString(p.imagem)}",
+    imagem: ${JSON.stringify(p.imagem)},
     videos: [
       ${videosStr || ''}
     ],
     descricao: {
-      resumo: "${escapeJsString(p.descricao.resumo)}",
-      oQueE: \`${escapeJsString(p.descricao.oQueE)}\`,
-      composicao: "${escapeJsString(p.descricao.composicao)}",
-      comoUsar: "${escapeJsString(p.descricao.comoUsar)}",
-      advertencias: "${escapeJsString(p.descricao.advertencias)}"
+      resumo: ${JSON.stringify(p.descricao.resumo)},
+      oQueE: ${JSON.stringify(p.descricao.oQueE)},
+      composicao: ${JSON.stringify(p.descricao.composicao)},
+      comoUsar: ${JSON.stringify(p.descricao.comoUsar)},
+      advertencias: ${JSON.stringify(p.descricao.advertencias)}
     },
     destaque: ${p.destaque},
     mostrarlancamento: ${p.mostrarlancamento},
     mostrarVideo: ${p.mostrarVideo},
-    textoParcelamento: "${escapeJsString(p.textoParcelamento)}"
+    textoParcelamento: ${JSON.stringify(p.textoParcelamento)}
   }${i < produtos.length - 1 ? ',' : ''}
 `;
   });
