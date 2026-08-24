@@ -148,7 +148,8 @@ function criarCardProduto(produto, isBanner = false) {
     
     <h3 class="card-titulo">${produto.nome}</h3>
     
-    <p class="descricao">${produto.descricao.resumo}</p>
+    <!-- <p class="descricao">${produto.descricao.resumo}</p> -->
+    
     <span class="preco">${formatarPreco(produto.preco)}</span>
     ${produto.textoParcelamento ? `<span class="texto-parcelamento">${produto.textoParcelamento}</span>` : ``}
 
