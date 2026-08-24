@@ -469,7 +469,7 @@ const produtos = [
     preco: 50.00,
     imagem: "",
     videos: [
-      "assets/img/AloeVeraReparador.png"
+      "assets/img/AloeVeraReparador.png",
     ],
     descricao: {
       resumo: "<p>O Aloe Vera Reparador é uma solução desenvolvida para <strong>auxiliar na hidratação e regeneração da pele</strong>, proporcionando cuidado tópico em uma formulação com extrato de Aloe Vera.</p>",
