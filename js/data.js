@@ -50,6 +50,12 @@ const categorias = [
     nome: "Manipulados para beleza",
     nomeMenu: "Beleza",
     mostrarNoMenu: false
+  },
+  {
+    id: "podologia",
+    nome: "Manipulados para podologia",
+    nomeMenu: "Podologia",
+    mostrarNoMenu: true
   }
 ];
 
@@ -90,8 +96,15 @@ O Chá Verde e a Ioimbina HCL são eficazes em proporcionar energia extra e foco
 Redução de Apetite e Controle de Peso:
 <br>
 O Picolinato de Cromo auxilia na regulação dos níveis de glicose no sangue, o que pode ajudar a controlar o apetite e reduzir os desejos por doces, facilitando o controle do peso.<br>`,
-      composicao: "Cada 1 cápsula contém:<br> Goma Guar 250mg, Cafeína, 105mg, Chá Verde 90mg, Capsiate 2mg, Ioimbina HCL 2mg, Picolinato de Cromo 200mcg.",
-      comoUsar: "Para resultados eficazes, recomenda-se o uso contínuo com a ingestão de 4 cápsulas ao dia. Siga o passo a passo para maximizar os benefícios:<br> Uso Diário: Tome 4 cápsulas do Termogênico Abelhinha com água, ajustando o horário de acordo com sua rotina de treinos:<br> Caso treine no período da tarde: 2 cápsulas pela manhã e 2 cápsulas antes do treino. <br> Caso treine no período da manhã: 2 cápsulas antes do treino e 2 cápsulas antes do café da manhã. <br> Para treinos mais intensos: Tomar as 4 cápsulas antes do treino. <br> Consistência: Use diariamente para garantir uma ação constante na queima de calorias, aceleração do metabolismo e melhora do desempenho físico.<br> Acompanhe os Resultados: Com o uso contínuo, você começará a perceber melhorias na definição corporal, aumento da energia e foco durante os treinos.<br>",
+      composicao: "Cada 1 cápsula contém:<br>
+Goma Guar 250mg, Cafeína, 105mg, Chá Verde 90mg, Capsiate 2mg, Ioimbina HCL 2mg, Picolinato de Cromo 200mcg.",
+      comoUsar: "Para resultados eficazes, recomenda-se o uso contínuo com a ingestão de 4 cápsulas ao dia. Siga o passo a passo para maximizar os benefícios: <br>
+Uso Diário: Tome 4 cápsulas do Termogênico Abelhinha com água, ajustando o horário de acordo com sua rotina de treinos: <br>
+Caso treine no período da tarde: 2 cápsulas pela manhã e 2 cápsulas antes do treino. <br>
+Caso treine no período da manhã: 2 cápsulas antes do treino e 2 cápsulas antes do café da manhã. <br>
+Para treinos mais intensos: Tomar as 4 cápsulas antes do treino. <br>
+Consistência: Use diariamente para garantir uma ação constante na queima de calorias, aceleração do metabolismo e melhora do desempenho físico. <br>
+Acompanhe os Resultados: Com o uso contínuo, você começará a perceber melhorias na definição corporal, aumento da energia e foco durante os treinos.<br>",
       advertencias: "A Goma Guar não deve ser utilizada em pacientes com distúrbios esofágicos e/ou com obstrução intestinal. Não é recomendada a ingestão de doses superiores a 420mg de cafeína ao dia. Este produto é contra indicado para pacientes que sofram de úlcera, doenças renais ou cardíacas, não é recomendado seu uso concomitante com anti-hipertensivo, tranquilizantes e antidepressivos. É contra indicado para pessoas que sofram de insônia e hepatopatas. O capsicum pode interferir com inibidores da MAO e com drogas anti-hipertensivas (pelo aumento da secreção catecolaminergica). Também pode aumentar o metabolismo de determinadas drogas a nível hepático, e se tem observado um aumento da atividade das enzimas G6PD e lipoproteína lípase. Pessoas com hipersensibilidade à substância não devem fazer uso do produto. Em caso de hipersensibilidade ao produto, recomenda-se descontinuar o uso e consultar o médico. Imagens meramente ilustrativas. Não use o produto com o prazo de validade vencido. Manter em temperatura ambiente (15 a 30ºC). Proteger da luz, do calor e da umidade. Nestas condições, o produto se manterá próprio para o consumo, respeitando o prazo de validade indicado na embalagem. Manter fora do alcance das crianças. Nunca compre um produto sem orientação de um profissional habilitado. Este produto não deve ser utilizado por mulheres grávidas sem orientação médica. Siga corretamente o modo de usar. Não desaparecendo os sintomas, procure orientação médica. O uso do produto durante o período de amamentação também não é recomendado. Este produto não deve ser utilizado por menores de 18 anos sem orientação médica. SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia."
     },
     destaque: true,
@@ -434,6 +447,27 @@ O Picolinato de Cromo auxilia na regulação dos níveis de glicose no sangue, o
     mostrarlancamento: false,
     mostrarVideo: false,
     textoParcelamento: "ou 1x de R\$ 90,00"
+  },
+  {
+    id: "18",
+    nome: "Ácido Tricloroacético 90% em solução de 10 mL",
+    categoria: "podologia",
+    preco: 40.00,
+    imagem: "assets/img/AcidoTricloroacetico90emsoluçãode10mL.png",
+    videos: [
+      
+    ],
+    descricao: {
+      resumo: "<p>Ácido Tricloroacético 90% em solução de 10 mL, desenvolvido para uso exclusivamente profissional em procedimentos podológicos que exijam a utilização desse tipo de agente químico, com aplicação que requer conhecimento técnico e rigorosos cuidados de segurança.</p>",
+      oQueE: `<p>O Ácido Tricloroacético 90% é uma solução de alta concentração destinada ao uso profissional em procedimentos podológicos. Sua formulação apresenta Ácido Tricloroacético como componente ativo, associado a veículo em solução de 10 mL, sendo um produto que exige manipulação cuidadosa e aplicação realizada por profissional capacitado.</p> <p>Sua finalidade é atender ao uso profissional em procedimentos podológicos nos quais o Ácido Tricloroacético esteja indicado, sempre de acordo com as orientações do fabricante e os protocolos aplicáveis ao procedimento. Por sua elevada concentração, a utilização requer atenção especial às medidas de segurança.</p> <p>É recomendado para profissionais habilitados e capacitados para a realização de procedimentos podológicos nos quais sua utilização seja apropriada. Não é indicado para uso doméstico ou aplicação por pessoas sem treinamento profissional adequado.</p>`,
+      composicao: "<ul> <li>Ácido Tricloroacético — 90%</li> <li>Veículo — 10 mL</li> </ul> <p><strong>Apresentação:</strong> Solução 10 mL.</p>",
+      comoUsar: "<p>Utilizar exclusivamente conforme as instruções constantes na embalagem e na rotulagem do produto, seguindo as orientações do fabricante e os protocolos profissionais aplicáveis. A utilização deve ser realizada por profissional habilitado e capacitado, observando rigorosamente as medidas de segurança recomendadas para a manipulação e aplicação do produto.</p>",
+      advertencias: "<p>Produto de uso exclusivamente profissional. Devido à alta concentração do Ácido Tricloroacético, sua manipulação e utilização requerem conhecimento técnico, atenção às orientações do fabricante e adoção das medidas de proteção e segurança aplicáveis ao procedimento. Manter fora do alcance de pessoas não autorizadas e utilizar somente conforme as informações fornecidas pelo fabricante e os protocolos profissionais pertinentes.</p> <p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
+    },
+    destaque: true,
+    mostrarlancamento: false,
+    mostrarVideo: false,
+    textoParcelamento: "ou 1x de R\$ 40,00"
   }
 ];
 
