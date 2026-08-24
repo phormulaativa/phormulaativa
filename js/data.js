@@ -467,7 +467,7 @@ const produtos = [
     nome: "Aloe Vera Reparador",
     categoria: "podologia",
     preco: 50.00,
-    imagem: "AloeVeraReparador.png",
+    imagem: "assets/img/AloeVeraReparador.png",
     videos: [
       
     ],
