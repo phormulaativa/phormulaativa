@@ -587,7 +587,7 @@ img {
 .ads-track img {
   width: 100%;
   flex-shrink: 0;
-  object-fit: cover;        /* ← muda de contain para cover */
+  object-fit: contain;        /* ← muda de contain para cover */
   background-color: transparent;
   display: block;
 }
@@ -606,7 +606,7 @@ img {
   }
 
   .ads-track img {
-    height: 240px; /* altura reduzida (antes era 180) */
+    height: 180px; /* altura reduzida (antes era 180) */
   }
 }
 
