@@ -560,21 +560,20 @@ img {
 /* ============================================================
    SLIDER DE PROPAGANDA — AJUSTADO
    ============================================================ */
-
 .ads-slider {
   width: 100%;
   background-color: transparent;
-  padding: 0 16px;
-  margin-top: 32px;          /* ← aumentei o espaço em relação ao menu */
-  margin-bottom: 12px;
+  padding: 0 10px;              /* ← reduzido de 16px para 10px (laterais menores) */
+  margin-top: 20px;             /* ← reduzido de 32px para 20px (borda branca menor acima) */
+  margin-bottom: 10px;          /* ← um pouco menor também embaixo */
 }
 
 .ads-container {
   max-width: 1200px;
   margin: 0 auto;
   overflow: hidden;
-  border-radius: 16px;       /* arredonda os 4 cantos */
-  box-shadow: 0 4px 20px rgba(0,0,0,0.08); /* opcional: dá uma leve profundidade */
+  border-radius: 16px;          /* mantém o arredondamento do container */
+  box-shadow: 0 4px 20px rgba(0,0,0,0.08);
 }
 
 /* trilha */
@@ -587,26 +586,28 @@ img {
 .ads-track img {
   width: 100%;
   flex-shrink: 0;
-  object-fit: contain;        /* ← muda de contain para cover */
+  object-fit: contain;
   background-color: transparent;
   display: block;
+  border-radius: 16px;          /* ← NOVO: arredonda a própria imagem dentro do container */
 }
 
 /* desktop */
 @media (min-width: 769px) {
   .ads-track img {
-    height: 420px;          /* altura reduzida (~40% menor) */
+    height: 420px;
   }
 }
 
 /* mobile */
 @media (max-width: 768px) {
   .ads-slider {
-    padding: 0 12px;
+    padding: 0 8px;             /* ← ainda menor no mobile */
+    margin-top: 16px;           /* ← borda branca ainda menor no mobile */
   }
-
   .ads-track img {
-    height: 180px; /* altura reduzida (antes era 180) */
+    height: 180px;
+    border-radius: 12px;        /* ← arredondamento um pouco menor no mobile */
   }
 }
 
