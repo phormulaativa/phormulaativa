@@ -611,7 +611,7 @@ img {
     flex-shrink: 0;
     background-color: transparent;
     display: block;
-    height: 160px; /* altura reduzida (antes era 180) */
+    height: 220px; /* altura reduzida (antes era 180) */
     object-fit: contain;      /* ← contain no celular (não corta a imagem) */
     
   }
