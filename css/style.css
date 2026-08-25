@@ -590,7 +590,7 @@ img {
   object-fit: cover;        /* ← muda de contain para cover */
   background-color: transparent;
   display: block;
-  border-radius: 16px;          /* ← NOVO: arredonda a própria imagem dentro do container */
+  /*border-radius: 16px;           ← NOVO: arredonda a própria imagem dentro do container */
 }
 
 /* desktop */
