@@ -564,16 +564,16 @@ img {
 .ads-slider {
   width: 100%;
   background-color: transparent;
-  padding: 0 16px;
-  margin-top: 32px;          /* ← aumentei o espaço em relação ao menu */
-  margin-bottom: 12px;
+  padding: 0 10px; /* ← reduzido de 16px para 10px (laterais menores) */
+  margin-top: 35px;          /* ← aumentei o espaço em relação ao menu */
+  margin-bottom: 5px;      /* ← um pouco menor também embaixo */
 }
 
 .ads-container {
   max-width: 1200px;
   margin: 0 auto;
   overflow: hidden;
-  border-radius: 16px;       /* arredonda os 4 cantos */
+  border-radius: 16px;       /* arredonda os 4 cantos do container */
   box-shadow: 0 4px 20px rgba(0,0,0,0.08); /* opcional: dá uma leve profundidade */
 }
 
@@ -590,6 +590,7 @@ img {
   object-fit: contain;        /* ← muda de contain para cover */
   background-color: transparent;
   display: block;
+  border-radius: 16px;          /* ← NOVO: arredonda a própria imagem dentro do container */
 }
 
 /* desktop */
