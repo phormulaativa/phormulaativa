@@ -587,7 +587,7 @@ img {
 .ads-track img {
   width: 100%;
   flex-shrink: 0;
-  object-fit: contain;        /* ← muda de contain para cover */
+  object-fit: cover;        /* ← muda de contain para cover */
   background-color: transparent;
   display: block;
   border-radius: 16px;          /* ← NOVO: arredonda a própria imagem dentro do container */
@@ -607,7 +607,7 @@ img {
   }
 
   .ads-track img {
-    height: 180px; /* altura reduzida (antes era 180) */
+    height: 200px; /* altura reduzida (antes era 180) */
   }
 }
 
