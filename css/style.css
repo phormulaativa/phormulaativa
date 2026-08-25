@@ -606,7 +606,7 @@ img {
   }
 
   .ads-track img {
-    height: 200px;
+    height: 240px; /* altura reduzida (antes era 180) */
   }
 }
 
