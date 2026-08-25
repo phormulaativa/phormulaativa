@@ -108,7 +108,7 @@ const produtos = [
   {
     id: "20",
     nome: "Ácido Nítrico 65% - Solução 10ml",
-    categoria: "inicio",
+    categoria: "podologia",
     preco: 50.00,
     imagem: "assets/img/acidonitrico65.png",
     videos: [
