@@ -603,8 +603,8 @@ img {
 /* mobile */
 @media (max-width: 768px) {
   .ads-slider {
-    padding: 0 12px;
-    margin-top: 16px;
+    padding: 0 10px;
+    margin-top: 10px;
   }
 
   .ads-track img {
@@ -612,7 +612,7 @@ img {
     flex-shrink: 0;
     background-color: transparent;
     display: block;
-    height: 139px; /* altura reduzida (antes era 180) */
+    height: 138px; /* altura reduzida (antes era 180) */
     object-fit: contain;      /* ← contain no celular (não corta a imagem) */
     
   }
