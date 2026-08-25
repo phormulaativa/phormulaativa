@@ -608,6 +608,8 @@ img {
 
   .ads-track img {
     height: 200px; /* altura reduzida (antes era 180) */
+    object-fit: contain;      /* ← contain no celular (não corta a imagem) */
+    border-radius: 12px;
   }
 }
 
