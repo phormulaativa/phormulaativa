@@ -25,19 +25,19 @@ const categorias = [
     id: "emagrecimento",
     nome: "Manipulados para emagrecimento",
     nomeMenu: "Emagrecimento",
-    mostrarNoMenu: true
+    mostrarNoMenu: false
   },
   {
     id: "desempenhofisico",
     nome: "Manipulados para desempenho físico",
     nomeMenu: "Desempenho físico",
-    mostrarNoMenu: true
+    mostrarNoMenu: false
   },
   {
     id: "saude",
     nome: "Manipulados para saúde e bem-estar",
     nomeMenu: "Saúde",
-    mostrarNoMenu: true
+    mostrarNoMenu: false
   },
   {
     id: "quedacapilar",
@@ -64,260 +64,8 @@ const categorias = [
    ============================================================ */
 const produtos = [
   {
-    id: "2",
-    nome: "Emagrecimento1",
-    categoria: "emagrecimento",
-    preco: 90.00,
-    imagem: "assets/img/imgpoteteste.png",
-    videos: [
-      "assets/videos/5htp.mp4"
-    ],
-    descricao: {
-      resumo: "Deseja melhorar o humor e dormir de forma tranquila?",
-      oQueE: "O 5-HTP é um precursor da serotonina...",
-      composicao: "5-Hidroxitriptofano 50mg...",
-      comoUsar: "Tomar 1 cápsula antes de dormir...",
-      advertencias: "Não utilizar sem orientação profissional..."
-    },
-    destaque: true,
-    mostrarlancamento: false,
-    mostrarVideo: false,
-    textoParcelamento: "ou 1x de R$ 90,00"
-  },
-  {
-    id: "3",
-    nome: "Emagrecimento2",
-    categoria: "emagrecimento",
-    preco: 90.00,
-    imagem: "assets/img/imgpoteteste.png",
-    videos: [
-      "assets/videos/5htp.mp4"
-    ],
-    descricao: {
-      resumo: "Deseja melhorar o humor e dormir de forma tranquila?",
-      oQueE: "O 5-HTP é um precursor da serotonina...",
-      composicao: "5-Hidroxitriptofano 50mg...",
-      comoUsar: "Tomar 1 cápsula antes de dormir...",
-      advertencias: "Não utilizar sem orientação profissional..."
-    },
-    destaque: true,
-    mostrarlancamento: false,
-    mostrarVideo: false,
-    textoParcelamento: "ou 1x de R$ 90,00"
-  },
-  {
-    id: "4",
-    nome: "Emagrecimento3",
-    categoria: "emagrecimento",
-    preco: 90.00,
-    imagem: "assets/img/imgpoteteste.png",
-    videos: [
-      "assets/videos/5htp.mp4"
-    ],
-    descricao: {
-      resumo: "Deseja melhorar o humor e dormir de forma tranquila?",
-      oQueE: "O 5-HTP é um precursor da serotonina...",
-      composicao: "5-Hidroxitriptofano 50mg...",
-      comoUsar: "Tomar 1 cápsula antes de dormir...",
-      advertencias: "Não utilizar sem orientação profissional..."
-    },
-    destaque: true,
-    mostrarlancamento: true,
-    mostrarVideo: false,
-    textoParcelamento: "ou 1x de R$ 90,00"
-  },
-  {
-    id: "5",
-    nome: "Emagrecimento4",
-    categoria: "emagrecimento",
-    preco: 90.00,
-    imagem: "assets/img/imgpoteteste.png",
-    videos: [
-      "assets/videos/5htp.mp4"
-    ],
-    descricao: {
-      resumo: "Deseja melhorar o humor e dormir de forma tranquila?",
-      oQueE: "O 5-HTP é um precursor da serotonina...",
-      composicao: "5-Hidroxitriptofano 50mg...",
-      comoUsar: "Tomar 1 cápsula antes de dormir...",
-      advertencias: "Não utilizar sem orientação profissional..."
-    },
-    destaque: true,
-    mostrarlancamento: false,
-    mostrarVideo: false,
-    textoParcelamento: "ou 1x de R$ 90,00"
-  },
-  {
-    id: "7",
-    nome: "Desempenho Físico",
-    categoria: "desempenhofisico",
-    preco: 90.00,
-    imagem: "assets/img/imgpoteteste.png",
-    videos: [
-      "assets/videos/5htp.mp4"
-    ],
-    descricao: {
-      resumo: "Deseja melhorar o humor e dormir de forma tranquila?",
-      oQueE: "O 5-HTP é um precursor da serotonina...",
-      composicao: "5-Hidroxitriptofano 50mg...",
-      comoUsar: "Tomar 1 cápsula antes de dormir...",
-      advertencias: "Não utilizar sem orientação profissional..."
-    },
-    destaque: true,
-    mostrarlancamento: false,
-    mostrarVideo: false,
-    textoParcelamento: "ou 1x de R$ 90,00"
-  },
-  {
-    id: "8",
-    nome: "Desempenho Físico1",
-    categoria: "desempenhofisico",
-    preco: 90.00,
-    imagem: "assets/img/imgpoteteste.png",
-    videos: [
-      "assets/videos/5htp.mp4"
-    ],
-    descricao: {
-      resumo: "Deseja melhorar o humor e dormir de forma tranquila?",
-      oQueE: "O 5-HTP é um precursor da serotonina...",
-      composicao: "5-Hidroxitriptofano 50mg...",
-      comoUsar: "Tomar 1 cápsula antes de dormir...",
-      advertencias: "Não utilizar sem orientação profissional..."
-    },
-    destaque: false,
-    mostrarlancamento: true,
-    mostrarVideo: false,
-    textoParcelamento: "ou 1x de R$ 90,00"
-  },
-  {
-    id: "9",
-    nome: "Desempenho Físico2",
-    categoria: "desempenhofisico",
-    preco: 90.00,
-    imagem: "assets/img/imgpoteteste.png",
-    videos: [
-      "assets/videos/5htp.mp4"
-    ],
-    descricao: {
-      resumo: "Deseja melhorar o humor e dormir de forma tranquila?",
-      oQueE: "O 5-HTP é um precursor da serotonina...",
-      composicao: "5-Hidroxitriptofano 50mg...",
-      comoUsar: "Tomar 1 cápsula antes de dormir...",
-      advertencias: "Não utilizar sem orientação profissional..."
-    },
-    destaque: false,
-    mostrarlancamento: false,
-    mostrarVideo: false,
-    textoParcelamento: "ou 1x de R$ 90,00"
-  },
-  {
-    id: "10",
-    nome: "Desempenho Físico3",
-    categoria: "desempenhofisico",
-    preco: 90.00,
-    imagem: "assets/img/imgpoteteste.png",
-    videos: [
-      "assets/videos/5htp.mp4"
-    ],
-    descricao: {
-      resumo: "Deseja melhorar o humor e dormir de forma tranquila?",
-      oQueE: "O 5-HTP é um precursor da serotonina...",
-      composicao: "5-Hidroxitriptofano 50mg...",
-      comoUsar: "Tomar 1 cápsula antes de dormir...",
-      advertencias: "Não utilizar sem orientação profissional..."
-    },
-    destaque: false,
-    mostrarlancamento: false,
-    mostrarVideo: false,
-    textoParcelamento: "ou 1x de R$ 90,00"
-  },
-  {
-    id: "13",
-    nome: "Saúde",
-    categoria: "saude",
-    preco: 90.00,
-    imagem: "assets/img/imgpoteteste.png",
-    videos: [
-      "assets/videos/5htp.mp4"
-    ],
-    descricao: {
-      resumo: "Deseja melhorar o humor e dormir de forma tranquila?",
-      oQueE: "O 5-HTP é um precursor da serotonina...",
-      composicao: "5-Hidroxitriptofano 50mg...",
-      comoUsar: "Tomar 1 cápsula antes de dormir...",
-      advertencias: "Não utilizar sem orientação profissional..."
-    },
-    destaque: true,
-    mostrarlancamento: true,
-    mostrarVideo: false,
-    textoParcelamento: "ou 1x de R$ 90,00"
-  },
-  {
-    id: "14",
-    nome: "Saúde1",
-    categoria: "saude",
-    preco: 90.00,
-    imagem: "assets/img/imgpoteteste.png",
-    videos: [
-      "assets/videos/5htp.mp4"
-    ],
-    descricao: {
-      resumo: "Deseja melhorar o humor e dormir de forma tranquila?",
-      oQueE: "O 5-HTP é um precursor da serotonina...",
-      composicao: "5-Hidroxitriptofano 50mg...",
-      comoUsar: "Tomar 1 cápsula antes de dormir...",
-      advertencias: "Não utilizar sem orientação profissional..."
-    },
-    destaque: true,
-    mostrarlancamento: false,
-    mostrarVideo: false,
-    textoParcelamento: "ou 1x de R$ 90,00"
-  },
-  {
-    id: "15",
-    nome: "Saúde2",
-    categoria: "saude",
-    preco: 90.00,
-    imagem: "assets/img/imgpoteteste.png",
-    videos: [
-      "assets/videos/5htp.mp4"
-    ],
-    descricao: {
-      resumo: "Deseja melhorar o humor e dormir de forma tranquila?",
-      oQueE: "O 5-HTP é um precursor da serotonina...",
-      composicao: "5-Hidroxitriptofano 50mg...",
-      comoUsar: "Tomar 1 cápsula antes de dormir...",
-      advertencias: "Não utilizar sem orientação profissional..."
-    },
-    destaque: true,
-    mostrarlancamento: false,
-    mostrarVideo: false,
-    textoParcelamento: "ou 1x de R$ 90,00"
-  },
-  {
-    id: "16",
-    nome: "Saúde3",
-    categoria: "saude",
-    preco: 90.00,
-    imagem: "assets/img/imgpoteteste.png",
-    videos: [
-      "assets/videos/5htp.mp4"
-    ],
-    descricao: {
-      resumo: "Deseja melhorar o humor e dormir de forma tranquila?",
-      oQueE: "O 5-HTP é um precursor da serotonina...",
-      composicao: "5-Hidroxitriptofano 50mg...",
-      comoUsar: "Tomar 1 cápsula antes de dormir...",
-      advertencias: "Não utilizar sem orientação profissional..."
-    },
-    destaque: true,
-    mostrarlancamento: true,
-    mostrarVideo: false,
-    textoParcelamento: "ou 1x de R$ 90,00"
-  },
-  {
     id: "18",
-    nome: "Ácido Tricloroacético 90%",
+    nome: "Ácido Tricloroacético 90% - Solução 10ml",
     categoria: "podologia",
     preco: 40.00,
     imagem: "assets/img/AcidoTricloroacetico90emsoluçãode10mL.png",
@@ -338,7 +86,7 @@ const produtos = [
   },
   {
     id: "19",
-    nome: "Fórmula Antimicose Completa",
+    nome: "Fórmula Antimicose Completa - Solução 10ml",
     categoria: "podologia",
     preco: 40.00,
     imagem: "assets/img/FormulaAntimicoseCompleta.png",
@@ -359,8 +107,8 @@ const produtos = [
   },
   {
     id: "20",
-    nome: "Ácido Nítrico 65%",
-    categoria: "podologia",
+    nome: "Ácido Nítrico 65% - Solução 10ml",
+    categoria: "inicio",
     preco: 50.00,
     imagem: "assets/img/acidonitrico65.png",
     videos: [
@@ -380,7 +128,7 @@ const produtos = [
   },
   {
     id: "21",
-    nome: "Aloe Vera Reparador",
+    nome: "Aloe Vera Reparador - Solução 10ml",
     categoria: "podologia",
     preco: 50.00,
     imagem: "assets/img/AloeVeraReparador.png",
@@ -401,7 +149,7 @@ const produtos = [
   },
   {
     id: "22",
-    nome: "Ácido Salicílico 40%",
+    nome: "Ácido Salicílico 40% - Creme 30g",
     categoria: "podologia",
     preco: 30.00,
     imagem: "assets/img/acidosalicilico40.png",
@@ -422,7 +170,7 @@ const produtos = [
   },
   {
     id: "23",
-    nome: "Anestésico Tópico",
+    nome: "Anestésico Tópico - Creme 20g",
     categoria: "podologia",
     preco: 50.00,
     imagem: "assets/img/AnestesicoTopico.png",
@@ -443,7 +191,7 @@ const produtos = [
   },
   {
     id: "24",
-    nome: "Base Fortalecedora",
+    nome: "Base Fortalecedora - Solução 10ml",
     categoria: "podologia",
     preco: 40.00,
     imagem: "assets/img/BaseFortalecedora.png",
@@ -464,7 +212,7 @@ const produtos = [
   },
   {
     id: "25",
-    nome: "Fluconazol + Terbinafina",
+    nome: "Fluconazol + Terbinafina - Solução 10ml",
     categoria: "podologia",
     preco: 20.00,
     imagem: "assets/img/FluconazolTerbinafina.png",
@@ -474,7 +222,7 @@ const produtos = [
     descricao: {
       resumo: "<p>O Fluconazol + Terbinafina é uma fórmula antifúngica fortalecida desenvolvida para auxiliar nos cuidados relacionados a alterações causadas por fungos, com uma combinação de componentes em solução de uso tópico.</p>",
       oQueE: "<p>O <strong>Fluconazol + Terbinafina</strong> é uma solução formulada com fluconazol, óleo de melaleuca, óleo de cravo essencial, Trivalin SF e óleo de girassol.</p><p>Sua finalidade é oferecer uma <strong>fórmula antifúngica fortalecida</strong>, destinada a auxiliar nos cuidados relacionados à presença de fungos, conforme a indicação e orientação adequada para utilização do produto.</p><p>Pode ser indicado para pessoas que necessitam de um produto de uso tópico destinado ao <strong>cuidado antifúngico</strong>, devendo sua utilização seguir as orientações do fabricante ou de um profissional habilitado.</p>",
-      composicao: "<ul> <li>FLUCONAZOL — 0.2%</li> \n<li>OLEO DE MELALEUCA — 2%</li>\n<li>OLEO DE CRAVO ESSENCIAL — 2%</li>\n<li>TRIVALIN SF — 2%</li><li>OLEO DE GIRASSOL — 10ML</li></ul>\n<p><strong>Apresentação:</strong> Solução 10ml - Validade 4 meses</p>",
+      composicao: "<ul> <li>FLUCONAZOL — 0.2%</li> \n<li>OLEO DE MELALEUCA — 4%</li>\n<li>OLEO DE GIRASSOL OZONIZADO — 2%</li>\n<li>TERBINAFINA CLORIDRATO — 0.2% </li><li>VEICULO 10ML — 10ML</li></ul>\n<p><strong>Apresentação:</strong> Solução 10ml - Validade 4 meses</p>",
       comoUsar: "<p>Utilize o produto conforme as <strong>instruções do fabricante</strong> ou de acordo com a orientação de um profissional habilitado. Não altere a forma de utilização recomendada sem orientação profissional.</p>",
       advertencias: "<p>Utilize o produto somente conforme as orientações fornecidas pelo fabricante. Em caso de dúvidas sobre a utilização, procure orientação de um profissional habilitado. Mantenha o produto em condições adequadas de armazenamento e fora do alcance de crianças.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
     },
@@ -482,6 +230,27 @@ const produtos = [
     mostrarlancamento: false,
     mostrarVideo: false,
     textoParcelamento: "ou 1x de R$ 20,00"
+  },
+  {
+    id: "26",
+    nome: "Fluconazol + Trivalin - Solução 10ml",
+    categoria: "podologia",
+    preco: 20.00,
+    imagem: "assets/img/FluconazolTrivalin.png",
+    videos: [
+      
+    ],
+    descricao: {
+      resumo: "<p>O Fluconazol + Trivalin é uma solução desenvolvida para <strong>auxiliar no cuidado antifúngico das unhas</strong>, reunindo diferentes componentes em uma formulação de uso tópico.</p>",
+      oQueE: "<p>O <strong>Fluconazol + Trivalin</strong> é uma solução de uso tópico formulada com fluconazol, óleo de melaleuca, óleo de cravo essencial, Trivalin SF e óleo de girassol.</p><p>Sua finalidade é <strong>auxiliar no cuidado antifúngico das unhas</strong>, oferecendo uma formulação destinada ao cuidado tópico relacionado à presença de fungos nas unhas.</p><p>Pode ser indicado para pessoas que necessitam de um produto destinado ao <strong>cuidado antifúngico das unhas</strong>, devendo sua utilização seguir as orientações do fabricante ou de um profissional habilitado.</p>",
+      composicao: "<ul>\n<li>FLUCONAZOL — 0.2%</li>\n<li>OLEO DE MELALEUCA — 2%</li>\n<li>OLEO DE CRAVO ESSENCIAL — 2%</li>\n<li>TRIVALIN SF — 2%</li>\n<li>OLEO DE GIRASSOL — 10ML</li>\n</ul><p><strong>Apresentação:</strong> Solução 10ml - Validade 4 meses</p>",
+      comoUsar: "<p>Utilize o produto conforme as <strong>instruções do fabricante</strong> ou de acordo com a orientação de um profissional habilitado. Não altere a forma de utilização recomendada sem orientação profissional.</p>",
+      advertencias: "<p>Utilize o produto somente conforme as orientações fornecidas pelo fabricante. Em caso de dúvidas sobre a utilização, procure orientação de um profissional habilitado. Mantenha o produto em condições adequadas de armazenamento e fora do alcance de crianças.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
+    },
+    destaque: true,
+    mostrarlancamento: false,
+    mostrarVideo: false,
+    textoParcelamento: "ou 1 x de R$ 20,00"
   }
 ];
 
