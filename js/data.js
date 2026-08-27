@@ -440,6 +440,27 @@ const produtos = [
     mostrarlancamento: false,
     mostrarVideo: false,
     textoParcelamento: "ou 1x de R$ 30,00"
+  },
+  {
+    id: "36",
+    nome: "testeproduto123",
+    categoria: "podologia",
+    preco: 1000000.00,
+    imagem: "assets/img/testeproduto.png",
+    videos: [
+      
+    ],
+    descricao: {
+      resumo: "<p><strong>testeproduto</strong> é uma solução de teste desenvolvida para apresentação e avaliação do produto no site, com composição especificada para essa finalidade.</p>",
+      oQueE: "<p>O <strong>testeproduto</strong> é uma solução de teste apresentada em frasco de 30ml, formulada com azul de metileno e demais componentes descritos em sua composição.</p><p>Sua finalidade é servir como <strong>produto de teste para o site</strong>, permitindo a apresentação das características e informações cadastradas para essa formulação.</p><p>É destinado à <strong>avaliação e apresentação do produto</strong>, devendo sua utilização observar as informações do fabricante e, quando aplicável, orientação profissional.</p>",
+      composicao: "<ul>\n<li>AZUL DE METILENO — 1%</li>\n<li>SUBLINGUAL 500MCG/GOTA — MG</li>\n<li>VEICULO — 30ML</li>\n</ul><p><strong>Apresentação:</strong> solução de teste - validade 0 meses</p>",
+      comoUsar: "<p>Utilize o produto conforme as <strong>instruções do fabricante</strong> ou orientação de profissional habilitado. Não estabeleça dose, frequência, horários ou quantidade de uso sem orientação específica.</p>",
+      advertencias: "<p>Utilize o produto somente de acordo com as orientações fornecidas pelo fabricante ou por profissional habilitado. Observe as informações de composição, apresentação e validade antes da utilização.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
+    },
+    destaque: true,
+    mostrarlancamento: false,
+    mostrarVideo: false,
+    textoParcelamento: "ou 1x de R$ 100000"
   }
 ];
 
