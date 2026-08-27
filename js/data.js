@@ -138,7 +138,7 @@ const produtos = [
     descricao: {
       resumo: "<p>O Aloe Vera Reparador é uma solução desenvolvida para <strong>auxiliar na hidratação e regeneração da pele</strong>, proporcionando cuidado tópico em uma formulação com extrato de Aloe Vera.</p>",
       oQueE: "<p>O <strong>Aloe Vera Reparador</strong> é uma solução de uso tópico formulada com extrato de Aloe Vera, ATA e veículo, destinada ao cuidado da pele.</p><p>Sua finalidade é <strong>auxiliar na hidratação e regeneração da pele</strong>, contribuindo para os cuidados necessários em áreas que demandam atenção e manutenção da condição da pele.</p><p>Pode ser indicado para pessoas que buscam um produto destinado ao <strong>cuidado e hidratação da pele</strong>, observando sempre as orientações do fabricante ou de um profissional de saúde.</p>",
-      composicao: "<ul><li>EXTRATO ALOE VERA — 1GR</li><li>ATA — 6GR</li>\n<li>VEICULO — 10ML</li></ul><p><strong>Apresentação:</strong> Solução 10ml - Validade 4 meses</p>",
+      composicao: "<ul><li>EXTRATO ALOE VERA — 1GR</li><li>ATA — 6GR</li>\n<li>VEICULO — 10ML</li></ul><p><strong>Apresentaç��o:</strong> Solução 10ml - Validade 4 meses</p>",
       comoUsar: "<p>Utilize o produto conforme as <strong>instruções do fabricante</strong> ou de acordo com a orientação de um profissional de saúde. Não altere a forma de utilização recomendada sem orientação profissional.</p>",
       advertencias: "<p>Utilize o produto somente conforme as orientações fornecidas pelo fabricante. Em caso de dúvidas sobre a utilização, procure orientação de um profissional de saúde. Mantenha o produto em condições adequadas de armazenamento e fora do alcance de crianças.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
     },
@@ -440,6 +440,153 @@ const produtos = [
     mostrarlancamento: false,
     mostrarVideo: false,
     textoParcelamento: "ou 1x de R$ 30,00"
+  },
+  {
+    id: "36",
+    nome: "Azul de Metileno 1% - Solução 30ml",
+    categoria: "podologia",
+    preco: 60.00,
+    imagem: "assets/img/azul-de-metileno-1-solucao-30ml.png",
+    videos: [
+      
+    ],
+    descricao: {
+      resumo: "<p><strong>Azul de Metileno 1%</strong> é uma solução de uso oral e tópico apresentada em frasco de 30ml, desenvolvida com ação antimicrobiana conforme a finalidade informada para o produto.</p>",
+      oQueE: "<p>O <strong>Azul de Metileno 1%</strong> é uma solução formulada com azul de metileno na concentração indicada, destinada ao uso oral e tópico conforme a apresentação do produto.</p><p>Sua finalidade é proporcionar <strong>ação antimicrobiana</strong>, de acordo com as características e indicações informadas pelo fabricante, sem promessa de cura ou resultados específicos.</p><p>É indicado para pessoas que tenham recebido orientação adequada para utilização da formulação, devendo o uso oral ou tópico observar as <strong>orientações do fabricante ou de profissional habilitado</strong>.</p>",
+      composicao: "<ul>\n<li>AZUL DE METILENO — 1%</li>\n<li>SUBLINGUAL 500MCG/GOTA — MG</li>\n<li>VEICULO — 30ML</li>\n</ul><p><strong>Apresentação:</strong> Solução 30ml - USO ORAL / Tópico - Validade 4 meses</p>",
+      comoUsar: "<p>Utilize o produto conforme as <strong>instruções do fabricante</strong> ou orientação de profissional habilitado. Não estabeleça dose, frequência, horários ou quantidade de uso sem orientação específica.</p>",
+      advertencias: "<p>Utilize o produto de acordo com sua apresentação e finalidade, observando as orientações fornecidas pelo fabricante ou por profissional habilitado. Não altere a forma de utilização recomendada sem orientação adequada.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
+    },
+    destaque: true,
+    mostrarlancamento: false,
+    mostrarVideo: false,
+    textoParcelamento: "ou 1x de R$ 60,00"
+  },
+  {
+    id: "37",
+    nome: "Ungueal DMSO - Solução 30ml",
+    categoria: "podologia",
+    preco: 50.00,
+    imagem: "assets/img/ungueal-dmso-solucao-30ml.png",
+    videos: [
+      
+    ],
+    descricao: {
+      resumo: "<p>Ungueal DMSO é uma solução de uso tópico desenvolvida para <strong>auxiliar no cuidado e na recuperação das unhas</strong>, reunindo diferentes componentes em uma formulação de aplicação local.</p>",
+      oQueE: "<p>O Ungueal DMSO é uma solução de uso tópico formulada com miconazol, fluconazol, ciclopirox olamina, terbinafina cloridrato, óleo de melaleuca, ureia, queratina líquida, biotina e DMSO.</p><p>Sua finalidade é <strong>auxiliar no cuidado das unhas</strong>, especialmente em situações nas quais é necessário um cuidado antifúngico associado à manutenção das condições adequadas da estrutura ungueal.</p><p>É indicado para pessoas que buscam um produto de aplicação tópica destinado ao <strong>cuidado das unhas</strong>, devendo sua utilização observar as orientações do fabricante ou de um profissional habilitado.</p>",
+      composicao: "<ul>\n<li>MICONAZOL — 2%</li>\n<li>FLUCONAZOL — 2%</li>\n<li>CICLOPIROX OLAMINA — 1%</li>\n<li>TERBINAFINA CLORIDRATO — 1%</li>\n<li>OLEO DE MELALEUCA — 2%</li>\n<li>UREIA — 10%</li>\n<li>QUERATINA LIQUIDA — 2%</li>\n<li>BIOTINA — 0.5%</li>\n<li>DMSO — 30ML</li>\n</ul><p><strong>Apresentação:</strong> Solução 30ml - Validade 4 meses</p>",
+      comoUsar: "<p>Utilize o produto conforme as <strong>instruções do fabricante</strong> ou de acordo com a orientação de um profissional habilitado. Não estabeleça dose, frequência ou horários de utilização diferentes daqueles indicados na orientação recebida.</p>",
+      advertencias: "<p>Produto destinado ao uso conforme orientação do fabricante. Observe atentamente as instruções de utilização e as informações presentes na embalagem. Em caso de dúvidas sobre a utilização, procure orientação de um profissional habilitado.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
+    },
+    destaque: true,
+    mostrarlancamento: false,
+    mostrarVideo: false,
+    textoParcelamento: "ou 1x de R$ 50,00"
+  },
+  {
+    id: "38",
+    nome: "Terbinafina 5% - Solução 10ml",
+    categoria: "podologia",
+    preco: 20.00,
+    imagem: "assets/img/terbinafina-5-solucao-10ml.png",
+    videos: [
+      
+    ],
+    descricao: {
+      resumo: "<p>Terbinafina 5% é uma solução de uso tópico desenvolvida para <strong>auxiliar no cuidado de micoses resistentes</strong>, com formulação concentrada para aplicação local.</p>",
+      oQueE: "<p>Terbinafina 5% é uma solução de uso tópico formulada com terbinafina cloridrato a 5%, destinada ao cuidado da pele e das áreas indicadas para sua aplicação.</p><p>Sua finalidade é <strong>auxiliar no tratamento de micoses resistentes</strong>, oferecendo uma opção de aplicação local dentro dos cuidados antifúngicos recomendados.</p><p>Pode ser indicada para pessoas que necessitam de cuidado tópico relacionado a micoses, especialmente quando houver <strong>orientação profissional</strong> para utilização de uma formulação com terbinafina.</p>",
+      composicao: "<ul>\n<li>TERBINAFINA CLORIDRATO — 5%</li>\n<li>VEICULO — 10ML</li>\n</ul><p><strong>Apresentação:</strong> Solução 10ml - Validade 4 meses</p>",
+      comoUsar: "<p>Utilize o produto conforme as <strong>instruções do fabricante</strong> ou de acordo com a orientação de um profissional habilitado. Não estabeleça dose, frequência ou horários de utilização diferentes daqueles indicados na orientação recebida.</p>",
+      advertencias: "<p>Utilize o produto de acordo com as orientações fornecidas pelo fabricante. Em caso de dúvidas sobre a utilização ou sobre a persistência dos sintomas, procure orientação de um profissional habilitado.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
+    },
+    destaque: true,
+    mostrarlancamento: false,
+    mostrarVideo: false,
+    textoParcelamento: "ou 1x de R$ 20,00"
+  },
+  {
+    id: "39",
+    nome: "Ureia 10% + Ácido Salicílico 40% - Creme 30g",
+    categoria: "podologia",
+    preco: 40.00,
+    imagem: "assets/img/ureia-10-acido-salicilico-40-creme-30g.png",
+    videos: [
+      
+    ],
+    descricao: {
+      resumo: "<p>Creme formulado com <strong>ureia 10% e ácido salicílico 40%</strong>, desenvolvido para auxiliar no cuidado de áreas com calosidades e verrugas.</p>",
+      oQueE: "<p>É um creme de uso tópico que combina ácido salicílico e ureia em uma formulação destinada ao cuidado localizado da pele.</p><p>Sua finalidade é <strong>auxiliar na remoção de calosidades e verrugas</strong>, contribuindo para o cuidado das áreas que apresentam essas alterações.</p><p>Pode ser indicado para pessoas que necessitam de cuidado tópico direcionado a calosidades ou verrugas, preferencialmente mediante <strong>orientação profissional</strong>.</p>",
+      composicao: "<ul>\n<li>ACIDO SALICILICO — 40%</li>\n<li>UREIA — 10%</li>\n<li>SEM ESSENCIA — MG</li>\n<li>CREME BASE — 30GR</li>\n</ul><p><strong>Apresentação:</strong> Creme 30g - Validade 4 meses</p>",
+      comoUsar: "<p>Utilize o produto conforme as <strong>instruções do fabricante</strong> ou de acordo com a orientação de um profissional habilitado. Não estabeleça dose, frequência ou horários de utilização diferentes daqueles indicados na orientação recebida.</p>",
+      advertencias: "<p>Utilize o produto de acordo com as orientações fornecidas pelo fabricante. Em caso de dúvidas sobre a utilização, procure orientação de um profissional habilitado.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
+    },
+    destaque: true,
+    mostrarlancamento: false,
+    mostrarVideo: false,
+    textoParcelamento: "ou 1x de R$ 40,00"
+  },
+  {
+    id: "40",
+    nome: "Terbinafina Aprimorada - Solução 10ml",
+    categoria: "podologia",
+    preco: 25.00,
+    imagem: "assets/img/terbinafina-aprimorada-solucao-10ml.png",
+    videos: [
+      
+    ],
+    descricao: {
+      resumo: "<p>Terbinafina Aprimorada é uma solução de uso tópico desenvolvida para <strong>auxiliar no cuidado de micoses resistentes</strong>, reunindo diferentes componentes em uma formulação de aplicação local.</p>",
+      oQueE: "<p>Terbinafina Aprimorada é uma solução de uso tópico formulada com terbinafina cloridrato, ciclopirox olamina, miconazol, fluconazol, ácido salicílico, ureia, óleo de melaleuca e propilenoglicol.</p><p>Sua finalidade é <strong>auxiliar no tratamento de micoses resistentes</strong>, oferecendo uma formulação destinada ao cuidado antifúngico tópico, sem promessa de cura ou resultado garantido.</p><p>Pode ser indicada para pessoas que necessitam de cuidado tópico relacionado a micoses resistentes, especialmente quando houver <strong>orientação de um profissional habilitado</strong> para utilização da formulação.</p>",
+      composicao: "<ul>\n<li>TERBINAFINA CLORIDRATO — 1%</li>\n<li>CICLOPIROX OLAMINA — 8%</li>\n<li>MICONAZOL — 2%</li>\n<li>FLUCONAZOL — 2%</li>\n<li>ACIDO SALICILICO — 3%</li>\n<li>UREIA — 10%</li>\n<li>OLEO DE MELALEUCA ESS — 2%</li>\n<li>PROPILENOGLICOL — 10ML</li>\n</ul><p><strong>Apresentação:</strong> Solução 10ml - Validade 4 meses</p>",
+      comoUsar: "<p>Utilize o produto conforme as <strong>instruções do fabricante</strong> ou de acordo com a orientação de um profissional habilitado. Não estabeleça dose, frequência ou horários de utilização diferentes daqueles indicados na orientação recebida.</p>",
+      advertencias: "<p>Utilize o produto de acordo com as orientações fornecidas pelo fabricante. Em caso de dúvidas sobre a utilização ou sobre a persistência dos sintomas, procure orientação de um profissional habilitado.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
+    },
+    destaque: true,
+    mostrarlancamento: false,
+    mostrarVideo: false,
+    textoParcelamento: "ou 1x de R$ 25,00"
+  },
+  {
+    id: "41",
+    nome: "Terbinafina Aprimorara Ozonizada - Solução 10ml",
+    categoria: "podologia",
+    preco: 25.00,
+    imagem: "assets/img/terbinafina-aprimorara-ozonizada-solucao-10ml.png",
+    videos: [
+      
+    ],
+    descricao: {
+      resumo: "<p>Terbinafina Aprimorara Ozonizada é uma solução de uso tópico desenvolvida para <strong>auxiliar no cuidado de micoses resistentes</strong>, combinando ativos antifúngicos e óleo de girassol ozonizado em uma formulação de aplicação local.</p>",
+      oQueE: "<p>Terbinafina Aprimorara Ozonizada é uma solução de uso tópico formulada com terbinafina cloridrato, ciclopirox olamina, miconazol, fluconazol, ácido salicílico, ureia, óleo de girassol ozonizado e propilenoglicol.</p><p>Sua finalidade é <strong>auxiliar no tratamento de micoses resistentes</strong>, oferecendo uma formulação destinada ao cuidado antifúngico tópico, sem promessa de cura ou resultado garantido.</p><p>Pode ser indicada para pessoas que necessitam de cuidado tópico relacionado a micoses resistentes, especialmente quando houver <strong>orientação de um profissional habilitado</strong> para utilização da formulação.</p>",
+      composicao: "<ul>\n<li>TERBINAFINA CLORIDRATO — 1%</li>\n<li>CICLOPIROX OLAMINA — 8%</li>\n<li>MICONAZOL — 2%</li>\n<li>FLUCONAZOL — 2%</li>\n<li>ACIDO SALICILICO — 3%</li>\n<li>UREIA — 10%</li>\n<li>OLEO DE GIRASSOL OZONIZADO — 2%</li>\n<li>PROPILENOGLICOL — 10ML</li>\n</ul><p><strong>Apresentação:</strong> Solução 10ml - Validade 4 meses</p>",
+      comoUsar: "<p>Utilize o produto conforme as <strong>instruções do fabricante</strong> ou de acordo com a orientação de um profissional habilitado. Não estabeleça dose, frequência ou horários de utilização diferentes daqueles indicados na orientação recebida.</p>",
+      advertencias: "<p>Utilize o produto de acordo com as orientações fornecidas pelo fabricante. Em caso de dúvidas sobre a utilização ou sobre a persistência dos sintomas, procure orientação de um profissional habilitado.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
+    },
+    destaque: true,
+    mostrarlancamento: false,
+    mostrarVideo: false,
+    textoParcelamento: "ou 1x de R$ 25,00"
+  },
+  {
+    id: "42",
+    nome: "TRICHOPHYTON - Solução 10ml",
+    categoria: "podologia",
+    preco: 20.00,
+    imagem: "assets/img/trichophyton-solucao-10ml.png",
+    videos: [
+      
+    ],
+    descricao: {
+      resumo: "<p>TRICHOPHYTON é uma solução de uso tópico desenvolvida para <strong>auxiliar no tratamento do Trichophyton</strong>, com uma formulação direcionada ao cuidado das áreas afetadas.</p>",
+      oQueE: "<p>TRICHOPHYTON é uma solução de uso tópico que reúne ativos selecionados em uma formulação voltada ao cuidado das áreas afetadas por Trichophyton.</p><p>Sua finalidade é <strong>auxiliar no tratamento do Trichophyton</strong>, contribuindo para o cuidado local conforme a indicação e orientação de uso do produto.</p><p>É indicado para pessoas que necessitam de um produto de uso tópico destinado ao <strong>cuidado de áreas afetadas por Trichophyton</strong>, especialmente quando houver orientação profissional para sua utilização.</p>",
+      composicao: "<ul>\n<li>TERBINAFINA CLORIDRATO — 1%</li>\n<li>CICLOPIROX OLAMINA — 8%</li>\n<li>ACIDO SALICILICO — 2%</li>\n<li>PROPILENOGLICOL — 10ML</li>\n</ul><p><strong>Apresentação:</strong> Solução 10ml - Validade 4 meses</p>",
+      comoUsar: "<p>Utilize o produto seguindo <strong>as instruções do fabricante</strong> ou a orientação de um profissional de saúde. Não estabeleça dose, frequência, horários ou quantidade de uso além do que estiver indicado na orientação profissional ou na embalagem do produto.</p>",
+      advertencias: "<p>Produto destinado ao uso conforme orientação do fabricante ou profissional de saúde. Utilize corretamente e observe as orientações apresentadas na embalagem. Em caso de dúvidas sobre a utilização do produto, procure orientação profissional.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
+    },
+    destaque: true,
+    mostrarlancamento: false,
+    mostrarVideo: false,
+    textoParcelamento: "ou 1x de R$ 20,00"
   }
 ];
 
