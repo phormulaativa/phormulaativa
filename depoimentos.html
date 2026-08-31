@@ -5,9 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 
 
-<link rel="stylesheet" href="/css/style.css">
-<link rel="stylesheet" href="/css/menu.css">
-<link rel="stylesheet" href="/css/whatsapp-fab.css">
+<!-- CSS do site -->
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/menu.css" />
+  <link rel="stylesheet" href="css/whatsapp-fab.css" />
 
 <link rel="canonical" href="https://www.phormulaativa.com.br/">
 <title>Avaliar Produto</title>
@@ -27,18 +28,68 @@
 
   
 </style>
-  
+
+
+ 
   
 </head>
   
 <body>
+
+
+<!-- ======================================================
+       HEADER / TOPO
+       ====================================================== -->
+<header class="header">
+  <div class="container header-content">
+  
+
+    
+    <div class="logo">
+  <img src="assets/img/logophormula1.png" alt="Logo da Farmácia">
+</div>
+
+    <button class="menu-toggle" id="menuToggle">☰</button>
+    
+    <nav class="nav">
+    <div class="menu-overlay" id="menuOverlay"></div>
+      
+      <ul id="menu-categorias"></ul>
+    </nav>
+
+    <div class="search-box search-wrapper">
+  <input
+    type="text"
+    id="searchInput"
+    class="search-input"
+    placeholder="O que você está buscando?"
+    autocomplete="off"
+  />
+  <div id="searchResults" class="search-results"></div>
+</div>
+
+
+
+<!-- Ícone do Carrinho -->
+<div class="cart-icon-wrapper" id="cartIcon" title="Carrinho">
+  <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+    <path d="M7 18c-1.1 0-1.99.9-1.99 2S5.9 22 7 22s2-.9 2-2-.9-2-2-2zM1 2v2h2l3.6 7.59-1.35 2.45c-.16.28-.25.61-.25.96 0 1.1.9 2 2 2h12v-2H7.42c-.14 0-.25-.11-.25-.25l.03-.12.9-1.63h7.45c.75 0 1.41-.41 1.75-1.03l3.58-6.49A1.003 1.003 0 0020 4H5.21l-.94-2H1zm16 16c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 2-.9 2-2-.9-2-2-2z"/>
+  </svg>
+  <span class="cart-badge" id="cartBadge">0</span>
+</div>
+
+
+    
+</header>
+  
+  
 
   <main>
   <div class="container section-card agenda-card">
 
 <iframe 
   id="agendaFrame"
-  src="https://script.google.com/macros/s/AKfycbwUHsEd3b_0-pntgxtmPSWLPbbiC_qc29ts-2UdW_DudWms2vuUUHYPChtyFGzwn5ib/exec?page=app">
+  src="https://script.google.com/macros/s/AKfycby2UrhTBsgh9cqV_LifrHNdzIHvYFaK9GypS8sHzNI1cIC2pb3NZ-2JTFSLR-QmSrM21w/exec?page=app">
 </iframe>
 
 
