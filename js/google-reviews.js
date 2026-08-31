@@ -1,5 +1,5 @@
 const REVIEWS_URL =
-"https://script.google.com";
+"https://script.google.com/macros/s/AKfycby2UrhTBsgh9cqV_LifrHNdzIHvYFaK9GypS8sHzNI1cIC2pb3NZ-2JTFSLR-QmSrM21w/exec";
 
 fetch(REVIEWS_URL)
 .then(r => r.json())
