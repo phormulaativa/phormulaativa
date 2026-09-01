@@ -5,6 +5,10 @@
 // pega o id da URL
 const params = new URLSearchParams(window.location.search);
 const produtoId = params.get("id");
+const produtoIdAtual = parametrosProduto.get('id');
+
+// busca o produto
+const REVIEWS_URL = '/js/reviews.json';
 
 // busca o produto
 const produto = produtos.find(p => p.id == produtoId);
@@ -326,6 +330,442 @@ function adicionarAoCarrinhoProduto() {
 
 
 
+// ================================
+// CARREGAR AVALIAÇÕES DO PRODUTO
+// ================================
+
+
+function carregarAvaliacoesProduto() {
+
+  const track =
+    document.querySelector(
+      '#testimonials .tc-track'
+    );
+
+  const dots =
+    document.querySelector(
+      '#testimonials .tc-dots'
+    );
+
+  if (!track || !dots) {
+    return;
+  }
+
+
+  fetch(REVIEWS_URL)
+
+    .then(response => {
+
+      if (!response.ok) {
+        throw new Error(
+          'Não foi possível carregar as avaliações.'
+        );
+      }
+
+      return response.json();
+
+    })
+
+    .then(avaliacoes => {
+
+      const avaliacoesDoProduto =
+        avaliacoes.filter(avaliacao => {
+
+          return String(
+            avaliacao.produtoId
+          ) === String(
+            produtoIdAtual
+          );
+
+        });
+
+
+      montarCarrosselAvaliacoes(
+        avaliacoesDoProduto
+      );
+
+    })
+
+    .catch(error => {
+
+      console.error(
+        'Erro ao carregar avaliações:',
+        error
+      );
+
+    });
+
+}
+
+
+
+
+
+// ================================
+// MONTAR CARROSSEL DE AVALIAÇÕES DOS PRODUTOS
+// ================================
+
+
+
+function montarCarrosselAvaliacoes(avaliacoes) {
+
+  const track =
+    document.querySelector(
+      '#testimonials .tc-track'
+    );
+
+  const dots =
+    document.querySelector(
+      '#testimonials .tc-dots'
+    );
+
+  const prev =
+    document.querySelector(
+      '#testimonials .tc-prev'
+    );
+
+  const next =
+    document.querySelector(
+      '#testimonials .tc-next'
+    );
+
+
+  if (!track || !dots) {
+    return;
+  }
+
+
+  track.innerHTML = '';
+  dots.innerHTML = '';
+
+
+  // Nenhuma avaliação para este produto
+  if (avaliacoes.length === 0) {
+
+    track.innerHTML = `
+      <div class="tc-slide active">
+        <div class="review-card">
+          <p class="review-text">
+            Este produto ainda não possui avaliações.
+          </p>
+        </div>
+      </div>
+    `;
+
+    return;
+
+  }
+
+
+  avaliacoes.forEach(
+    (avaliacao, index) => {
+
+      const slide =
+        document.createElement('div');
+
+      slide.className =
+        'tc-slide';
+
+
+      if (index === 0) {
+        slide.classList.add('active');
+      }
+
+
+      const nota =
+        Number(avaliacao.nota) || 0;
+
+
+      const estrelas =
+        '★'.repeat(nota) +
+        '☆'.repeat(5 - nota);
+
+
+      const nome =
+        avaliacao.nome || 'Cliente';
+
+
+      const comentario =
+        avaliacao.comentario || '';
+
+
+      slide.innerHTML = `
+
+        <div class="review-card">
+
+          <div class="review-header">
+
+            <div class="review-avatar">
+              ${nome
+                .charAt(0)
+                .toUpperCase()}
+            </div>
+
+            <div class="review-user">
+
+              <h3>
+                ${escapeHtmlProduto(nome)}
+              </h3>
+
+            </div>
+
+          </div>
+
+
+          <div class="stars">
+            ${estrelas}
+          </div>
+
+
+          <p class="review-text">
+            "${escapeHtmlProduto(comentario)}"
+          </p>
+
+        </div>
+
+      `;
+
+
+      track.appendChild(slide);
+
+
+      const dot =
+        document.createElement('div');
+
+      dot.className =
+        'tc-dot';
+
+
+      if (index === 0) {
+        dot.classList.add('active');
+      }
+
+
+      dots.appendChild(dot);
+
+    }
+  );
+
+
+  configurarNavegacaoAvaliacoes();
+
+}
+
+
+
+
+
+
+// ================================
+// CRIAR MOVIMENTAÇÃO DO CARROSSEL DOTS
+// ================================
+
+
+
+
+
+function configurarNavegacaoAvaliacoes() {
+
+  const slides =
+    [
+      ...document.querySelectorAll(
+        '#testimonials .tc-slide'
+      )
+    ];
+
+
+  const dots =
+    [
+      ...document.querySelectorAll(
+        '#testimonials .tc-dot'
+      )
+    ];
+
+
+  const prev =
+    document.querySelector(
+      '#testimonials .tc-prev'
+    );
+
+
+  const next =
+    document.querySelector(
+      '#testimonials .tc-next'
+    );
+
+
+  if (slides.length <= 1) {
+
+    if (prev) {
+      prev.style.display = 'none';
+    }
+
+    if (next) {
+      next.style.display = 'none';
+    }
+
+    return;
+
+  }
+
+
+  let atual = 0;
+
+
+  function irPara(indice) {
+
+    slides.forEach(slide => {
+
+      slide.classList.remove(
+        'active'
+      );
+
+    });
+
+
+    dots.forEach(dot => {
+
+      dot.classList.remove(
+        'active'
+      );
+
+    });
+
+
+    slides[indice]
+      .classList
+      .add('active');
+
+
+    dots[indice]
+      .classList
+      .add('active');
+
+
+    atual = indice;
+
+  }
+
+
+  if (next) {
+
+    next.addEventListener(
+      'click',
+      function() {
+
+        let proximo =
+          atual + 1;
+
+        if (
+          proximo >=
+          slides.length
+        ) {
+
+          proximo = 0;
+
+        }
+
+        irPara(proximo);
+
+      }
+    );
+
+  }
+
+
+  if (prev) {
+
+    prev.addEventListener(
+      'click',
+      function() {
+
+        let anterior =
+          atual - 1;
+
+        if (anterior < 0) {
+
+          anterior =
+            slides.length - 1;
+
+        }
+
+        irPara(anterior);
+
+      }
+    );
+
+  }
+
+
+  dots.forEach(
+    (dot, indice) => {
+
+      dot.addEventListener(
+        'click',
+        function() {
+
+          irPara(indice);
+
+        }
+      );
+
+    }
+  );
+
+}
+
+
+
+function escapeHtmlProduto(texto) {
+
+  const div =
+    document.createElement('div');
+
+  div.textContent =
+    texto || '';
+
+  return div.innerHTML;
+
+}
+
+
+
+
+
+
+
+// ================================
+// FUNÇÃO PARA ABRIR CHAMAR A PÁGINA DE DEPOIMENTOS.HTML
+// ================================
+
+
+
+function abrirFormularioAvaliacao() {
+
+  if (!produtoIdAtual) {
+
+    alert(
+      'Não foi possível identificar o produto.'
+    );
+
+    return;
+
+  }
+
+
+  const url =
+    'depoimentos.html?produtoId=' +
+    encodeURIComponent(
+      produtoIdAtual
+    );
+
+
+  window.location.href = url;
+
+}
+
+
+
 
 
 
@@ -589,9 +1029,34 @@ function inicializarSliderRelacionados(section) {
 
 
 
+// --------------------------------------
+// Inicialização PARA ABRIR AS AVALIAÇÕES CORRETAMENTE
+// --------------------------------------
 
 
+document.addEventListener(
+  'DOMContentLoaded',
+  function() {
+
+    const botao =
+      document.getElementById(
+        'btn-deixar-avaliacao'
+      );
 
 
+    if (botao) {
+
+      botao.addEventListener(
+        'click',
+        abrirFormularioAvaliacao
+      );
+
+    }
+
+
+    carregarAvaliacoesProduto();
+
+  }
+);
 
 
