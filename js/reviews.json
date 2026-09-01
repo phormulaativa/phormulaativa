@@ -4,5 +4,17 @@
     "nota": 5,
     "comentario": "Ótimo produto. Recomendo!!!",
     "produtoId": 28
+  },
+  {
+    "nome": "Rafael",
+    "nota": 5,
+    "comentario": "Gostei bastante",
+    "produtoId": 28
+  },
+  {
+    "nome": "Maria",
+    "nota": 4,
+    "comentario": "O produto é bom",
+    "produtoId": 28
   }
 ]
