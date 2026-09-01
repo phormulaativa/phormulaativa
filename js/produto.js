@@ -1272,29 +1272,19 @@ window.addEventListener(
 
 function abrirFormularioAvaliacao() {
 
+  // O ID do produto precisa existir
   if (!produtoIdAtual) {
-
-    alert(
-      'Não foi possível identificar o produto.'
-    );
-
+    alert('Não foi possível identificar o produto.');
     return;
-
   }
 
-
+  // Mantém o ID explicitamente na URL
   const url =
-    'depoimentos.html?produtoId=' +
-    encodeURIComponent(
-      produtoIdAtual
-    );
+    'depoimentos.html?page=app&produtoId=' +
+    encodeURIComponent(produtoIdAtual);
 
-
-  window.location.href =
-    url;
-
+  window.location.href = url;
 }
-
 
 // ============================================================
 // INICIALIZAÇÃO
