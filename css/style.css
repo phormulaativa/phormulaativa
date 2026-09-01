@@ -2375,3 +2375,54 @@ img {
   transform: translateY(0);
 
 }
+
+
+
+
+
+/* ============================================================
+   AVALIAÇÕES — CENTRALIZAÇÃO DOS CARDS
+   ============================================================ */
+
+#testimonials .reviews-page {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  gap: 24px;
+  box-sizing: border-box;
+}
+
+/* DESKTOP — até 3 cards */
+#testimonials .reviews-page .review-card {
+  flex: 0 0 calc((100% - 48px) / 3);
+  max-width: calc((100% - 48px) / 3);
+}
+
+/* TABLET — até 2 cards */
+@media (max-width: 1024px) {
+
+  #testimonials .reviews-page {
+    gap: 16px;
+  }
+
+  #testimonials .reviews-page .review-card {
+    flex: 0 0 calc((100% - 16px) / 2);
+    max-width: calc((100% - 16px) / 2);
+  }
+
+}
+
+/* MOBILE — 1 card */
+@media (max-width: 768px) {
+
+  #testimonials .reviews-page {
+    gap: 0;
+  }
+
+  #testimonials .reviews-page .review-card {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+}
