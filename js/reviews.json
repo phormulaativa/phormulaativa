@@ -1,1 +1,8 @@
-[]
+[
+  {
+    "nome": "William",
+    "nota": 5,
+    "comentario": "Ótimo produto. Recomendo!!!",
+    "produtoId": 28
+  }
+]
