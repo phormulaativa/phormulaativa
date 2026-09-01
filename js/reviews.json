@@ -1,20 +1,8 @@
 [
   {
-    "nome": "William",
+    "nome": "Bento",
     "nota": 5,
-    "comentario": "Ótimo produto. Recomendo!!!",
-    "produtoId": 28
-  },
-  {
-    "nome": "Rafael",
-    "nota": 5,
-    "comentario": "Gostei bastante",
-    "produtoId": 28
-  },
-  {
-    "nome": "Maria",
-    "nota": 4,
-    "comentario": "O produto é bom",
+    "comentario": "em poucos dias melhorou muito",
     "produtoId": 28
   },
   {
@@ -24,9 +12,21 @@
     "produtoId": 28
   },
   {
-    "nome": "Bento",
+    "nome": "Maria",
+    "nota": 4,
+    "comentario": "O produto é bom",
+    "produtoId": 28
+  },
+  {
+    "nome": "Rafael",
     "nota": 5,
-    "comentario": "em poucos dias melhorou muito",
+    "comentario": "Gostei bastante",
+    "produtoId": 28
+  },
+  {
+    "nome": "William",
+    "nota": 5,
+    "comentario": "Ótimo produto. Recomendo!!!",
     "produtoId": 28
   }
 ]
