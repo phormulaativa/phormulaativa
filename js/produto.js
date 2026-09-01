@@ -636,6 +636,35 @@ function quantidadeAvaliacoesVisiveis() {
 }
 
 
+
+
+
+
+function textoTempoAvaliacao(dataIso) {
+  if (!dataIso) return "";
+
+  const data = new Date(dataIso);
+  if (isNaN(data.getTime())) return "";
+
+  const agora = new Date();
+  const diffMs = agora - data;
+  const dias = Math.floor(diffMs / 86400000);
+
+  if (dias < 1) return "hoje";
+  if (dias === 1) return "há 1 dia";
+  if (dias < 30) return "há " + dias + " dias";
+
+  const meses = Math.floor(dias / 30);
+  if (meses === 1) return "há 1 mês";
+  if (meses < 12) return "há " + meses + " meses";
+
+  const anos = Math.floor(meses / 12);
+  return anos === 1 ? "há 1 ano" : "há " + anos + " anos";
+}
+
+
+
+
 // ============================================================
 // CARREGAR AVALIAÇÕES
 // ============================================================
@@ -975,6 +1004,11 @@ function montarCarrosselAvaliacoes(
             '';
 
 
+          // ===== NOVO: tempo relativo =====
+              const tempo =
+                textoTempoAvaliacao(avaliacao.data);
+          
+          
           const card =
             document.createElement(
               'div'
@@ -1007,6 +1041,14 @@ function montarCarrosselAvaliacoes(
                     nome
                   )}
                 </h3>
+
+
+                  ${
+                  tempo
+                    ? `<span class="review-tempo">${tempo}</span>`
+                    : ``
+                }
+
 
               </div>
 
