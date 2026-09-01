@@ -232,55 +232,90 @@
 
 <!-- ================= AVALIAÇÕES DO PRODUTO ================= -->
 
-<section id="testimonials" class="product-testimonials">
+<!-- ============================================================
+     AVALIAÇÕES DO PRODUTO
+     ============================================================ -->
 
-  <div class="container">
+<section id="avaliacoes-produto">
 
-    <div class="testimonials-header">
+  <div class="container section-card">
 
-      <h2>Avaliações dos clientes</h2>
+    <h2>Avaliações dos clientes</h2>
 
-      <p>
-        Veja o que nossos clientes dizem sobre este produto.
-      </p>
+    <p class="avaliacoes-subtitulo">
+      Veja o que nossos clientes dizem sobre este produto.
+    </p>
 
-    </div>
+    <!-- RESUMO DAS AVALIAÇÕES -->
+    <div
+      id="avaliacoes-resumo"
+      class="avaliacoes-resumo"
+      style="display:none;"
+    >
 
+      <strong id="avaliacoes-media">0,0</strong>
 
-    <div class="testimonials-carousel">
+      <span class="avaliacoes-estrelas">★★★★★</span>
 
-      <button
-  type="button"
-  class="tc-btn tc-prev"
-  aria-label="Avaliação anterior">
-  ‹
-</button>
-
-
-      <div class="tc-track"></div>
-
-
-      <button
-  type="button"
-  class="tc-btn tc-next"
-  aria-label="Próxima avaliação">
-  ›
-</button>
-
-
-      <div class="tc-dots"></div>
+      <span id="avaliacoes-total">
+        0 avaliações
+      </span>
 
     </div>
 
 
-    <div class="testimonial-action">
+    <!-- CARROSSEL -->
+
+    <div
+      class="testimonials-carousel"
+      id="testimonials"
+    >
 
       <button
-  type="button"
-  id="btn-deixar-avaliacao"
-  class="tc-review-btn">
-  ⭐ Deixar minha avaliação
-</button>
+        type="button"
+        class="tc-btn tc-prev"
+        aria-label="Avaliação anterior"
+      >
+        ‹
+      </button>
+
+
+      <div
+        class="tc-track"
+        aria-live="polite"
+      >
+      </div>
+
+
+      <button
+        type="button"
+        class="tc-btn tc-next"
+        aria-label="Próxima avaliação"
+      >
+        ›
+      </button>
+
+
+      <div
+        class="tc-dots"
+        aria-hidden="false"
+      >
+      </div>
+
+    </div>
+
+
+    <!-- BOTÃO AVALIAR -->
+
+    <div class="avaliacoes-cta">
+
+      <button
+        type="button"
+        id="btn-deixar-avaliacao"
+        class="btn-avaliar-produto"
+      >
+        ⭐ Deixar minha avaliação
+      </button>
 
     </div>
 
