@@ -1,8 +1,29 @@
 const REVIEWS_URL = "/js/reviews.json";
 
+
+const params = new URLSearchParams(
+  window.location.search
+);
+
+const produtoIdAtual =
+  params.get("id");
+
+
 fetch(REVIEWS_URL)
 .then(r => r.json())
 .then(reviews => {
+
+  const reviewsDoProduto =
+    reviews.filter(review =>
+      String(review.produtoId) ===
+      String(produtoIdAtual)
+    );
+
+  if (reviewsDoProduto.length === 0) {
+  track.innerHTML = '';
+  dotsCont.innerHTML = '';
+  return;
+}
 
   const track =
     document.querySelector('#testimonials .tc-track');
@@ -19,7 +40,7 @@ fetch(REVIEWS_URL)
   track.innerHTML = '';
   dotsCont.innerHTML = '';
 
-  reviews.forEach((review,index)=>{
+  reviewsDoProduto.forEach((review, index) => {
 
     const slide =
       document.createElement('div');
@@ -43,12 +64,7 @@ fetch(REVIEWS_URL)
 
       <h3>${review.nome}</h3>
 
-      <span class="review-meta">
-      ${review.tipo ? review.tipo : 'Avaliação'}
-      </span>
-
     </div>
-
   </div>
 
   <div class="stars">
