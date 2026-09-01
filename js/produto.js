@@ -5,9 +5,11 @@
 // pega o id da URL
 const params = new URLSearchParams(window.location.search);
 const produtoId = params.get("id");
-const produtoIdAtual = parametrosProduto.get('id');
 
-// busca o produto
+// ID usado pelo sistema de avaliações
+const produtoIdAtual = produtoId;
+
+// URL do arquivo de avaliações
 const REVIEWS_URL = '/js/reviews.json';
 
 // busca o produto
