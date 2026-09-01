@@ -88,8 +88,7 @@
   <div class="container section-card agenda-card">
 
 <iframe 
-  id="agendaFrame"
-  src="https://script.google.com/macros/s/AKfycby2UrhTBsgh9cqV_LifrHNdzIHvYFaK9GypS8sHzNI1cIC2pb3NZ-2JTFSLR-QmSrM21w/exec?page=app">
+  id="agendaFrame">
 </iframe>
 
 
@@ -237,6 +236,61 @@
        SCRIPTS
        ====================================================== -->
 
+
+
+  <script>
+document.addEventListener('DOMContentLoaded', function () {
+
+  const iframe =
+    document.getElementById('agendaFrame');
+
+  if (!iframe) {
+    return;
+  }
+
+
+  // Pega o produtoId recebido pela depoimentos.html
+  const params =
+    new URLSearchParams(
+      window.location.search
+    );
+
+  const produtoId =
+    params.get('produtoId');
+
+
+  // URL do Web App do Apps Script
+  const webAppUrl =
+    'https://script.google.com/macros/s/AKfycby2UrhTBsgh9cqV_LifrHNdzIHvYFaK9GypS8sHzNI1cIC2pb3NZ-2JTFSLR-QmSrM21w/exec';
+
+
+  // Monta a URL do Apps Script
+  let url =
+    webAppUrl +
+    '?page=app';
+
+
+  // Se recebeu ProdutoID,
+  // acrescenta na URL
+  if (produtoId) {
+
+    url +=
+      '&produtoId=' +
+      encodeURIComponent(produtoId);
+
+  }
+
+
+  // Finalmente carrega o Apps Script
+  iframe.src = url;
+
+});
+</script>
+
+
+
+
+  
   <!-- Dados (produtos, categorias, banner) -->
   <script src="js/data.js"></script>
 
@@ -259,6 +313,9 @@
 <script src="./js/load-whatsapp.js"></script>
 <!-- Script para carregar integração/funcionalidade do WhatsApp -->
 
+
+
+  
 
 
 </body>
