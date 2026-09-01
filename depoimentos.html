@@ -88,7 +88,8 @@
   <div class="container section-card agenda-card">
 
 <iframe 
-  id="agendaFrame">
+  id="agendaFrame"
+  src="">
 </iframe>
 
 
@@ -238,51 +239,31 @@
 
 
 
-  <script>
-document.addEventListener('DOMContentLoaded', function () {
+<script>
+document.addEventListener("DOMContentLoaded", function () {
 
-  const iframe =
-    document.getElementById('agendaFrame');
+  const params = new URLSearchParams(window.location.search);
+  const produtoId = params.get("produtoId");
 
-  if (!iframe) {
-    return;
-  }
+  const iframe = document.getElementById("agendaFrame");
 
+  const baseUrl =
+    "https://script.google.com/macros/s/AKfycby2UrhTBsgh9cqV_LifrHNdzIHvYFaK9GypS8sHzNI1cIC2pb3NZ-2JTFSLR-QmSrM21w/exec";
 
-  // Pega o produtoId recebido pela depoimentos.html
-  const params =
-    new URLSearchParams(
-      window.location.search
-    );
-
-  const produtoId =
-    params.get('produtoId');
-
-
-  // URL do Web App do Apps Script
-  const webAppUrl =
-    'https://script.google.com/macros/s/AKfycby2UrhTBsgh9cqV_LifrHNdzIHvYFaK9GypS8sHzNI1cIC2pb3NZ-2JTFSLR-QmSrM21w/exec';
-
-
-  // Monta a URL do Apps Script
-  let url =
-    webAppUrl +
-    '?page=app';
-
-
-  // Se recebeu ProdutoID,
-  // acrescenta na URL
   if (produtoId) {
 
-    url +=
-      '&produtoId=' +
+    iframe.src =
+      baseUrl +
+      "?page=app&produtoId=" +
       encodeURIComponent(produtoId);
 
+  } else {
+
+    iframe.src =
+      baseUrl +
+      "?page=app";
+
   }
-
-
-  // Finalmente carrega o Apps Script
-  iframe.src = url;
 
 });
 </script>
