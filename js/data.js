@@ -61,7 +61,7 @@ const categorias = [
     id: "podologia1",
     nome: "Manipulados para podologia",
     nomeMenu: "Podologia",
-    mostrarNoMenu: true
+    mostrarNoMenu: false
   }
 ];
 
@@ -110,27 +110,6 @@ const produtos = [
     mostrarlancamento: false,
     mostrarVideo: false,
     textoParcelamento: "ou 1x de R$ 40,00"
-  },
-  {
-    id: "20",
-    nome: "Ácido Nítrico 65% - Solução 10ml",
-    categoria: "podologia1",
-    preco: 57.00,
-    imagem: "assets/img/acidonitrico65.png",
-    videos: [
-      
-    ],
-    descricao: {
-      resumo: "<p>O Ácido Nítrico 65% é uma solução de uso <strong>exclusivamente profissional podológico</strong>, destinada a aplicações realizadas por profissionais devidamente habilitados e conforme orientação técnica.</p>",
-      oQueE: "<p>O <strong>Ácido Nítrico 65%</strong> é uma solução formulada à base de ácido nítrico fumegante, destinada ao uso profissional no contexto podológico.</p><p>O produto é destinado ao <strong>uso profissional podológico</strong>, devendo sua aplicação ser realizada de acordo com as orientações técnicas e os procedimentos adequados ao uso do produto.</p><p>É recomendado <strong>exclusivamente para profissionais habilitados</strong> que tenham conhecimento técnico para sua utilização no contexto podológico, observando as orientações do fabricante.</p>",
-      composicao: "<ul><li>ACIDO NITRICO FUMEGANTE — 65%</li><li>VEICULO — 10ML</li></ul><p><strong>Apresentação:</strong> Solução 10ml - Validade 4 meses</p>",
-      comoUsar: "<p>Produto destinado a <strong>uso profissional podológico</strong>. Utilize somente conforme as instruções do fabricante e orientação de profissional devidamente habilitado. Não utilize ou aplique o produto fora das condições e procedimentos recomendados pelo fabricante.</p>",
-      advertencias: "<p>Produto de uso profissional. Manuseie e utilize somente conforme as orientações do fabricante e os procedimentos técnicos aplicáveis ao uso profissional. Mantenha o produto fora do alcance de crianças e em condições adequadas de armazenamento.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
-    },
-    destaque: false,
-    mostrarlancamento: false,
-    mostrarVideo: false,
-    textoParcelamento: "ou 1x de R$ 50,00"
   },
   {
     id: "21",
@@ -323,7 +302,7 @@ const produtos = [
   },
   {
     id: "30",
-    nome: "Caneta para Micose - Solução 10ml",
+    nome: "Caneta para Micose - Solução 10ml - Exclusividade Phormula Ativa",
     categoria: "podologia",
     preco: 47.00,
     imagem: "assets/img/CanetaparaMicose10ml.png",
@@ -331,7 +310,7 @@ const produtos = [
       
     ],
     descricao: {
-      resumo: "<p>A Caneta para Micose é uma solução de aplicação tópica desenvolvida para <strong>auxiliar no combate à micose ungueal</strong>, apresentada em formato de caneta para facilitar a aplicação localizada.</p>",
+      resumo: "<p>A Caneta para Micose é um produto de <strong>EXCLUSIVIDADE PHORMULA ATIVA.</strong>  É uma solução de aplicação tópica desenvolvida para <strong>auxiliar no combate à micose ungueal</strong>, apresentada em formato de caneta para facilitar a aplicação localizada.</p>",
       oQueE: "<p>A <strong>Caneta para Micose - Caneta 10ml</strong> é uma solução de uso tópico formulada com componentes destinados ao cuidado das unhas afetadas por micose.</p><p>Sua finalidade é <strong>auxiliar no combate à micose ungueal</strong>, oferecendo uma formulação destinada ao cuidado tópico das unhas conforme a indicação e orientação adequadas.</p><p>Pode ser indicada para pessoas que necessitam de um produto destinado ao <strong>cuidado antifúngico das unhas</strong>, devendo sua utilização seguir as orientações do fabricante ou de um profissional habilitado.</p>",
       composicao: "<ul>\n<li>MICOSE UNHA SOLUCAO — 1%</li>\n<li>FLUCONAZOL — MG</li>\n<li>5-METIL FENOL — MG</li>\n<li>CICLOPIROX OLAMINA — MG</li>\n<li>ACIDO UNDEC-10 ENOICO — MG</li>\n<li>OLEO DE MELALEUCA — MG</li>\n<li>VEICULO — 10ML</li>\n</ul><p><strong>Apresentação:</strong> Caneta 10ml - Validade 4 meses</p>",
       comoUsar: "<p>Utilize o produto conforme as <strong>instruções do fabricante</strong> ou de acordo com a orientação de um profissional habilitado. Não altere a forma de utilização recomendada sem orientação profissional.</p>",
@@ -439,7 +418,7 @@ const produtos = [
       resumo: "<p>Solução de uso profissional desenvolvida para auxiliar no cuidado e na recuperação das unhas, com uma composição específica para integrar protocolos de cuidados ungueais.</p>",
       oQueE: "<p>O Ungueal Terbinafina é uma solução de uso profissional formulada com terbinafina cloridrato, ciclopirox olamina e ácido salicílico, em veículo de propilenoglicol.</p><p>Sua finalidade é <strong>auxiliar na recuperação das unhas</strong>, oferecendo uma composição direcionada ao cuidado ungueal e ao suporte dos protocolos profissionais.</p><p>É recomendado para <strong>uso profissional</strong>, especialmente por profissionais que realizam procedimentos e cuidados relacionados às unhas e considerem sua utilização adequada conforme a avaliação de cada caso.</p>",
       composicao: "<ul>\n<li>TERBINAFINA CLORIDRATO — 1%</li>\n<li>CICLOPIROX OLAMINA — 8%</li>\n<li>ACIDO SALICILICO — 2%</li>\n<li>PROPILENOGLICOL — 10ML</li>\n</ul><p><strong>Apresentação:</strong> Solução 10ml - Validade 4 meses</p>",
-      comoUsar: "<p>Utilize o produto conforme as <strong>instruções do fabricante</strong> e/ou orienta��ão de um profissional habilitado. A forma de utilização deve respeitar a avaliação do caso e o protocolo profissional adotado, sem estabelecer dose, frequência ou horários diferentes dos recomendados.</p>",
+      comoUsar: "<p>Utilize o produto conforme as <strong>instruções do fabricante</strong> e/ou orientação de um profissional habilitado. A forma de utilização deve respeitar a avaliação do caso e o protocolo profissional adotado, sem estabelecer dose, frequência ou horários diferentes dos recomendados.</p>",
       advertencias: "<p>Produto destinado ao uso conforme orientação profissional. Leia atentamente as informações do produto antes da utilização e siga as recomendações do fabricante. Em caso de dúvidas sobre a utilização, procure orientação de um profissional habilitado.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
     },
     destaque: false,
@@ -478,7 +457,7 @@ const produtos = [
       
     ],
     descricao: {
-      resumo: "<p>Ungueal DMSO é uma solução de uso tópico desenvolvida para <strong>auxiliar no cuidado e na recuperação das unhas</strong>, reunindo diferentes componentes em uma formulação de aplicação local.</p>",
+      resumo: "<p>Ungueal DMSO é uma solução de uso tópico desenvolvida para <strong>auxiliar no cuidado e na recuperação das unhas</strong>, reunindo diferentes componentes em uma formulação de aplica��ão local.</p>",
       oQueE: "<p>O Ungueal DMSO é uma solução de uso tópico formulada com miconazol, fluconazol, ciclopirox olamina, terbinafina cloridrato, óleo de melaleuca, ureia, queratina líquida, biotina e DMSO.</p><p>Sua finalidade é <strong>auxiliar no cuidado das unhas</strong>, especialmente em situações nas quais é necessário um cuidado antifúngico associado à manutenção das condições adequadas da estrutura ungueal.</p><p>É indicado para pessoas que buscam um produto de aplicação tópica destinado ao <strong>cuidado das unhas</strong>, devendo sua utilização observar as orientações do fabricante ou de um profissional habilitado.</p>",
       composicao: "<ul>\n<li>MICONAZOL — 2%</li>\n<li>FLUCONAZOL — 2%</li>\n<li>CICLOPIROX OLAMINA — 1%</li>\n<li>TERBINAFINA CLORIDRATO — 1%</li>\n<li>OLEO DE MELALEUCA — 2%</li>\n<li>UREIA — 10%</li>\n<li>QUERATINA LIQUIDA — 2%</li>\n<li>BIOTINA — 0.5%</li>\n<li>DMSO — 30ML</li>\n</ul><p><strong>Apresentação:</strong> Solução 30ml - Validade 4 meses</p>",
       comoUsar: "<p>Utilize o produto conforme as <strong>instruções do fabricante</strong> ou de acordo com a orientação de um profissional habilitado. Não estabeleça dose, frequência ou horários de utilização diferentes daqueles indicados na orientação recebida.</p>",
