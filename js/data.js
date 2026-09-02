@@ -17,8 +17,8 @@ const categorias = [
   },
   {
     id: "podologia",
-    nome: "Manipulados para podologia - Ana Antunes",
-    nomeMenu: "Podologia",
+    nome: "Podologia - Ana Antunes",
+    nomeMenu: "Podologia - Ana Antunes",
     mostrarNoMenu: true
   },
   {
@@ -56,6 +56,12 @@ const categorias = [
     nome: "Manipulados para beleza",
     nomeMenu: "Beleza",
     mostrarNoMenu: false
+  },
+  {
+    id: "podologia1",
+    nome: "Manipulados para podologia",
+    nomeMenu: "Podologia",
+    mostrarNoMenu: true
   }
 ];
 
@@ -67,7 +73,7 @@ const produtos = [
     id: "18",
     nome: "Ácido Tricloroacético 90% - Solução 10ml",
     categoria: "podologia",
-    preco: 40.00,
+    preco: 47.00,
     imagem: "assets/img/AcidoTricloroacetico90emsoluçãode10mL.png",
     videos: [
       
@@ -87,8 +93,8 @@ const produtos = [
   {
     id: "19",
     nome: "Fórmula Antimicose Completa - Solução 10ml",
-    categoria: "podologia",
-    preco: 40.00,
+    categoria: "inicio",
+    preco: 47.00,
     imagem: "assets/img/FormulaAntimicoseCompleta.png",
     videos: [
       
@@ -108,8 +114,8 @@ const produtos = [
   {
     id: "20",
     nome: "Ácido Nítrico 65% - Solução 10ml",
-    categoria: "podologia",
-    preco: 50.00,
+    categoria: "podologia1",
+    preco: 57.00,
     imagem: "assets/img/acidonitrico65.png",
     videos: [
       
@@ -130,7 +136,7 @@ const produtos = [
     id: "21",
     nome: "Aloe Vera Reparador - Solução 10ml",
     categoria: "podologia",
-    preco: 50.00,
+    preco: 57.00,
     imagem: "assets/img/AloeVeraReparador.png",
     videos: [
       
@@ -151,7 +157,7 @@ const produtos = [
     id: "22",
     nome: "Ácido Salicílico 40% - Creme 30g",
     categoria: "podologia",
-    preco: 30.00,
+    preco: 37.00,
     imagem: "assets/img/acidosalicilico40.png",
     videos: [
       
@@ -172,7 +178,7 @@ const produtos = [
     id: "23",
     nome: "Anestésico Tópico - Creme 20g",
     categoria: "podologia",
-    preco: 50.00,
+    preco: 57.00,
     imagem: "assets/img/AnestesicoTopico.png",
     videos: [
       
@@ -193,7 +199,7 @@ const produtos = [
     id: "24",
     nome: "Base Fortalecedora - Solução 10ml",
     categoria: "podologia",
-    preco: 40.00,
+    preco: 47.00,
     imagem: "assets/img/BaseFortalecedora.png",
     videos: [
       
@@ -214,7 +220,7 @@ const produtos = [
     id: "25",
     nome: "Fluconazol + Terbinafina - Solução 10ml",
     categoria: "podologia",
-    preco: 20.00,
+    preco: 27.00,
     imagem: "assets/img/FluconazolTerbinafina.png",
     videos: [
       
@@ -235,7 +241,7 @@ const produtos = [
     id: "26",
     nome: "Fluconazol + Trivalin - Solução 10ml",
     categoria: "podologia",
-    preco: 20.00,
+    preco: 27.00,
     imagem: "assets/img/FluconazolTrivalin.png",
     videos: [
       
@@ -256,7 +262,7 @@ const produtos = [
     id: "27",
     nome: "Mix Miconazol + Fluconazol - Solução 30ml",
     categoria: "podologia",
-    preco: 30.00,
+    preco: 37.00,
     imagem: "assets/img/MixMiconazolFluconazol.png",
     videos: [
       
@@ -277,7 +283,7 @@ const produtos = [
     id: "28",
     nome: "Ciclopirox Spray - Solução 20ml",
     categoria: "podologia",
-    preco: 30.00,
+    preco: 37.00,
     imagem: "assets/img/CiclopiroxSpray.png",
     videos: [
       
@@ -298,7 +304,7 @@ const produtos = [
     id: "29",
     nome: "Gel Terbinafina 5% - Gel 20gr",
     categoria: "podologia",
-    preco: 30.00,
+    preco: 37.00,
     imagem: "assets/img/GelTerbinafina.png",
     videos: [
       
@@ -319,7 +325,7 @@ const produtos = [
     id: "30",
     nome: "Caneta para Micose - Solução 10ml",
     categoria: "podologia",
-    preco: 40.00,
+    preco: 47.00,
     imagem: "assets/img/CanetaparaMicose10ml.png",
     videos: [
       
@@ -340,7 +346,7 @@ const produtos = [
     id: "31",
     nome: "Fórmula Terbinafina 5% - Solução 10ml",
     categoria: "podologia",
-    preco: 30.00,
+    preco: 37.00,
     imagem: "assets/img/FormulaTerbinafina5.png",
     videos: [
       
@@ -361,7 +367,7 @@ const produtos = [
     id: "32",
     nome: "Timol Antifúngico - Solução 10ml",
     categoria: "podologia",
-    preco: 50.00,
+    preco: 57.00,
     imagem: "assets/img/TimolAntifungico10ml.png",
     videos: [
       
@@ -371,7 +377,7 @@ const produtos = [
       oQueE: "<p>O Timol Antifúngico é uma solução de uso profissional formulada com timol e outros componentes de ação antifúngica, destinada ao cuidado das unhas.</p><p>Sua finalidade é <strong>auxiliar no tratamento antifúngico</strong>, integrando diferentes componentes à rotina de cuidados profissionais das unhas, conforme avaliação e orientação adequada.</p><p>É indicado para <strong>uso profissional</strong>, especialmente por profissionais que realizam procedimentos e cuidados relacionados às unhas e que considerem sua utilização apropriada dentro de um protocolo profissional.</p>",
       composicao: "<ul>\n<li>TIMOL — 5%</li>\n<li>FLUCONAZOL — 1%</li>\n<li>TERBINAFINA CLORIDRATO — 1%</li>\n<li>CICLOPIROX OLAMINA — 8%</li>\n<li>OLEO DE MELALEUCA — 5%</li>\n<li>OLEO DE GIRASSOL OZONIZADO — 10ML</li>\n</ul><p><strong>Apresentação:</strong> Solução 10ml - Validade 4 meses</p>",
       comoUsar: "<p>Utilize o produto conforme as <strong>instruções do fabricante</strong> e/ou de acordo com a orientação de um profissional habilitado. A forma de utilização deve respeitar a avaliação do caso e o protocolo profissional adotado, sem estabelecer dose, frequência ou horários diferentes dos recomendados.</p>",
-      advertencias: "<p>Produto destinado ao uso conforme orientação profissional. Leia atentamente as informações do produto antes da utilizaç��o e siga as recomendações do fabricante. Em caso de dúvidas sobre a utilização, procure orientação de um profissional habilitado.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
+      advertencias: "<p>Produto destinado ao uso conforme orientação profissional. Leia atentamente as informações do produto antes da utilização e siga as recomendações do fabricante. Em caso de dúvidas sobre a utilização, procure orientação de um profissional habilitado.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
     },
     destaque: false,
     mostrarlancamento: false,
@@ -381,8 +387,8 @@ const produtos = [
   {
     id: "33",
     nome: "Ungueal Ciclopirox - Solução 10ml",
-    categoria: "podologia",
-    preco: 30.00,
+    categoria: "inicio",
+    preco: 37.00,
     imagem: "assets/img/UnguealCiclopirox10ml.png",
     videos: [
       
@@ -402,8 +408,8 @@ const produtos = [
   {
     id: "34",
     nome: "Ungueal Nistatina - Solução 10ml",
-    categoria: "podologia",
-    preco: 30.00,
+    categoria: "inicio",
+    preco: 37.00,
     imagem: "assets/img/UnguealNistatina10ml.png",
     videos: [
       
@@ -424,7 +430,7 @@ const produtos = [
     id: "35",
     nome: "Ungueal Terbinafina - Solução 10ml",
     categoria: "podologia",
-    preco: 30.00,
+    preco: 37.00,
     imagem: "assets/img/UnguealTerbinafina10ml.png",
     videos: [
       
@@ -445,7 +451,7 @@ const produtos = [
     id: "36",
     nome: "Azul de Metileno 1% - Solução 30ml",
     categoria: "podologia",
-    preco: 60.00,
+    preco: 67.00,
     imagem: "assets/img/azul-de-metileno-1-solucao-30ml.png",
     videos: [
       
@@ -466,7 +472,7 @@ const produtos = [
     id: "37",
     nome: "Ungueal DMSO - Solução 30ml",
     categoria: "podologia",
-    preco: 50.00,
+    preco: 57.00,
     imagem: "assets/img/ungueal-dmso-solucao-30ml.png",
     videos: [
       
@@ -486,8 +492,8 @@ const produtos = [
   {
     id: "38",
     nome: "Terbinafina 5% - Solução 10ml",
-    categoria: "podologia",
-    preco: 20.00,
+    categoria: "inicio",
+    preco: 27.00,
     imagem: "assets/img/terbinafina-5-solucao-10ml.png",
     videos: [
       
@@ -508,7 +514,7 @@ const produtos = [
     id: "39",
     nome: "Ureia 10% + Ácido Salicílico 40% - Creme 30g",
     categoria: "podologia",
-    preco: 40.00,
+    preco: 47.00,
     imagem: "assets/img/ureia-10-acido-salicilico-40-creme-30g.png",
     videos: [
       
@@ -529,7 +535,7 @@ const produtos = [
     id: "40",
     nome: "Terbinafina Aprimorada - Solução 10ml",
     categoria: "podologia",
-    preco: 25.00,
+    preco: 32.00,
     imagem: "assets/img/terbinafina-aprimorada-solucao-10ml.png",
     videos: [
       
@@ -550,7 +556,7 @@ const produtos = [
     id: "41",
     nome: "Terbinafina Aprimorara Ozonizada - Solução 10ml",
     categoria: "podologia",
-    preco: 25.00,
+    preco: 32.00,
     imagem: "assets/img/terbinafina-aprimorara-ozonizada-solucao-10ml.png",
     videos: [
       
@@ -571,7 +577,7 @@ const produtos = [
     id: "42",
     nome: "TRICHOPHYTON - Solução 10ml",
     categoria: "podologia",
-    preco: 20.00,
+    preco: 27.00,
     imagem: "assets/img/trichophyton-solucao-10ml.png",
     videos: [
       
@@ -592,7 +598,7 @@ const produtos = [
     id: "43",
     nome: "FUSARIUM - Solução 10ml",
     categoria: "podologia",
-    preco: 150.00,
+    preco: 157.00,
     imagem: "assets/img/fusarium-solucao-10ml.png",
     videos: [
       
@@ -613,7 +619,7 @@ const produtos = [
     id: "44",
     nome: "ASPERGILLUS - Solução 10ml",
     categoria: "podologia",
-    preco: 25.00,
+    preco: 27.00,
     imagem: "assets/img/aspergillus-solucao-10ml.png",
     videos: [
       
