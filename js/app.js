@@ -1,3 +1,54 @@
+/**
+ * Retorna o cupom válido para um produto seguindo a prioridade:
+ * Site > Categoria > Produto
+ */
+function obterCupomValido(produto) {
+  const hoje = new Date().toISOString().slice(0, 10); // YYYY-MM-DD
+
+  // 1. Cupom do Site
+  if (window.cupomSite && window.cupomSite.ativo && window.cupomSite.codigo) {
+    if (!window.cupomSite.validade || window.cupomSite.validade >= hoje) {
+      return {
+        tipo: 'site',
+        porcentagem: window.cupomSite.porcentagem,
+        codigo: window.cupomSite.codigo,
+        mensagem: window.cupomSite.mensagemTag || `${window.cupomSite.porcentagem}% de desconto no fechamento do pedido`
+      };
+    }
+  }
+
+  // 2. Cupom da Categoria
+  const categoria = (window.categorias || []).find(c => c.id === produto.categoria);
+  if (categoria && categoria.cupomAtivo && categoria.cupomCodigo) {
+    if (!categoria.cupomValidade || categoria.cupomValidade >= hoje) {
+      return {
+        tipo: 'categoria',
+        porcentagem: categoria.cupomPorcentagem,
+        codigo: categoria.cupomCodigo,
+        mensagem: categoria.cupomMensagemTag || `${categoria.cupomPorcentagem}% de desconto no fechamento do pedido`
+      };
+    }
+  }
+
+  // 3. Cupom do Produto
+  if (produto.cupomAtivo && produto.cupomCodigo) {
+    if (!produto.cupomValidade || produto.cupomValidade >= hoje) {
+      return {
+        tipo: 'produto',
+        porcentagem: produto.cupomPorcentagem,
+        codigo: produto.cupomCodigo,
+        mensagem: produto.cupomMensagemTag || `${produto.cupomPorcentagem}% de desconto no fechamento do pedido`
+      };
+    }
+  }
+
+  return null; // nenhum cupom válido
+}
+
+
+
+
+
 /* ============================================================
    APP.JS – LÓGICA PRINCIPAL DO SITE
    ============================================================ */
@@ -142,18 +193,23 @@ function criarCardProduto(produto, isBanner = false) {
   card.classList.add("card");
   card.id = `produto-${produto.id}`;
 
-  card.innerHTML = `
-    ${produto.mostrarlancamento ? `<span class="badge-lancamento">Lançamento</span>` : ``}
-    <img src="${produto.imagem}" alt="${produto.nome}">
-    
-    <h3 class="card-titulo">${produto.nome}</h3>
-    
-    <!-- <p class="descricao">${produto.descricao.resumo}</p> -->
-    
-    <span class="preco">${formatarPreco(produto.preco)}</span>
-    ${produto.textoParcelamento ? `<span class="texto-parcelamento">${produto.textoParcelamento}</span>` : ``}
+  const cupom = obterCupomValido(produto);
+const tagDesconto = cupom
+  ? `<span class="badge-desconto">${cupom.mensagem}</span>`
+  : '';
 
-    <div class="card-acoes">
+card.innerHTML = `
+  ${produto.mostrarlancamento ? `<span class="badge-lancamento">Lançamento</span>` : ``}
+  ${tagDesconto}
+  <img src="${produto.imagem}" alt="${produto.nome}">
+  
+  <h3 class="card-titulo">${produto.nome}</h3>
+  
+  <span class="preco">${formatarPreco(produto.preco)}</span>
+  ${produto.textoParcelamento ? `<span class="texto-parcelamento">${produto.textoParcelamento}</span>` : ``}
+
+  <div class="card-acoes">
+    
   <div class="quantidade">
     <button class="btn-menos">-</button>
     <span class="qtd">1</span>
@@ -224,6 +280,10 @@ card.addEventListener("click", (e) => {
 
   // Comprar via WhatsApp
 btnComprar.addEventListener("click", () => {
+  const cupom = obterCupomValido(produto);
+  if (cupom) {
+    abrirModalCupom(produto, quantidade);
+  } else {
 
   // 1️⃣ calcula o total
   const valorUnitario = produto.preco;
@@ -278,7 +338,108 @@ btnCarrinho.onclick = (e) => {
   }
 
   return card;
+
 }
+
+
+
+
+
+
+
+
+
+
+let produtoComprarAtual = null;
+let quantidadeComprarAtual = 1;
+
+function abrirModalCupom(produto, quantidade) {
+  produtoComprarAtual = produto;
+  quantidadeComprarAtual = quantidade || 1;
+
+  const modal = document.getElementById('modalCupomComprar');
+  const input = document.getElementById('inputCupomComprar');
+  const msg = document.getElementById('msgCupomComprar');
+
+  if (input) input.value = '';
+  if (msg) msg.textContent = '';
+  if (modal) modal.style.display = 'flex';
+}
+
+function fecharModalCupom() {
+  const modal = document.getElementById('modalCupomComprar');
+  if (modal) modal.style.display = 'none';
+  produtoComprarAtual = null;
+}
+
+function comprarSemCupom() {
+  if (!produtoComprarAtual) return;
+  enviarPedidoWhatsApp(produtoComprarAtual, quantidadeComprarAtual, null);
+  fecharModalCupom();
+}
+
+function validarCupomComprar() {
+  const input = document.getElementById('inputCupomComprar');
+  const msg = document.getElementById('msgCupomComprar');
+  const codigo = (input.value || '').trim().toUpperCase();
+
+  if (!codigo) {
+    msg.textContent = 'Digite o cupom.';
+    msg.style.color = '#c1121f';
+    return;
+  }
+
+  const cupom = obterCupomValido(produtoComprarAtual);
+  if (!cupom || cupom.codigo !== codigo) {
+    msg.textContent = 'Cupom inválido ou expirado para este produto.';
+    msg.style.color = '#c1121f';
+    return;
+  }
+
+  // Cupom válido
+  enviarPedidoWhatsApp(produtoComprarAtual, quantidadeComprarAtual, cupom);
+  fecharModalCupom();
+}
+
+function enviarPedidoWhatsApp(produto, quantidade, cupom) {
+  const valorUnitario = produto.preco;
+  const valorTotalOriginal = valorUnitario * quantidade;
+  let valorFinal = valorTotalOriginal;
+  let economia = 0;
+
+  if (cupom) {
+    economia = valorTotalOriginal * (cupom.porcentagem / 100);
+    valorFinal = valorTotalOriginal - economia;
+  }
+
+  const basePath = window.location.pathname.split("/").slice(0, -1).join("/");
+  const linkProduto = `${window.location.origin}${basePath}/produto.html?id=${produto.id}`;
+
+  const cat = (window.categorias || []).find(c => c.id === produto.categoria);
+  const nomeCategoria = cat ? cat.nome : produto.categoria;
+
+  let mensagem = `Olá! Gostaria de fazer um pedido:%0A%0A`;
+  mensagem += `Produto: ${produto.nome}%0A`;
+  mensagem += `Categoria: ${nomeCategoria}%0A`;
+  mensagem += `Quantidade: ${quantidade} unidade(s)%0A`;
+
+  if (cupom) {
+    mensagem += `Valor original: ${formatarPreco(valorTotalOriginal)}%0A`;
+    mensagem += `Valor com desconto: ${formatarPreco(valorFinal)}%0A`;
+    mensagem += `Cupom usado: *${cupom.codigo}*%0A`;
+    mensagem += `Você economizou ${formatarPreco(economia)} nesta compra!%0A%0A`;
+  } else {
+    mensagem += `Valor total: ${formatarPreco(valorTotalOriginal)}%0A%0A`;
+  }
+
+  mensagem += `Link do produto:%0A${linkProduto}`;
+
+  const url = `https://wa.me/${WHATSAPP_NUMERO}?text=${mensagem}`;
+  window.open(url, "_blank");
+}
+
+
+
 
 
 
@@ -506,4 +667,8 @@ function inicializarAds() {
 
 // inicia quando DOM estiver pronto
 document.addEventListener("DOMContentLoaded", inicializarAds);
+
+
+
+
 
