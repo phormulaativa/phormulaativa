@@ -1,7 +1,6 @@
-
 /**
- * Retorna o cupom válido para um produto
- * Prioridade: Site > Categoria > Produto
+ * Retorna o cupom válido para um produto seguindo a prioridade:
+ * Site > Categoria > Produto
  */
 function obterCupomValido(produto) {
   if (!produto) return null;
@@ -15,20 +14,22 @@ function obterCupomValido(produto) {
         tipo: 'site',
         porcentagem: Number(window.cupomSite.porcentagem) || 0,
         codigo: window.cupomSite.codigo,
-        mensagem: window.cupomSite.mensagemTag || (window.cupomSite.porcentagem + '% de desconto no fechamento do pedido')
+        mensagem: window.cupomSite.mensagemTag || (window.cupomSite.porcentagem + '% de desconto no fechamento do pedido'),
+        ocultarTag: !!window.cupomSite.ocultarTagCupom
       };
     }
   }
 
   // 2. Cupom da Categoria
-  const categoria = (window.categorias || categorias || []).find(c => c.id === produto.categoria);
+  const categoria = (window.categorias || []).find(c => c.id === produto.categoria);
   if (categoria && categoria.cupomAtivo && categoria.cupomCodigo) {
     if (!categoria.cupomValidade || categoria.cupomValidade >= hoje) {
       return {
         tipo: 'categoria',
         porcentagem: Number(categoria.cupomPorcentagem) || 0,
         codigo: categoria.cupomCodigo,
-        mensagem: categoria.cupomMensagemTag || (categoria.cupomPorcentagem + '% de desconto no fechamento do pedido')
+        mensagem: categoria.cupomMensagemTag || (categoria.cupomPorcentagem + '% de desconto no fechamento do pedido'),
+        ocultarTag: !!categoria.cupomOcultarTag
       };
     }
   }
@@ -40,7 +41,8 @@ function obterCupomValido(produto) {
         tipo: 'produto',
         porcentagem: Number(produto.cupomPorcentagem) || 0,
         codigo: produto.cupomCodigo,
-        mensagem: produto.cupomMensagemTag || (produto.cupomPorcentagem + '% de desconto no fechamento do pedido')
+        mensagem: produto.cupomMensagemTag || (produto.cupomPorcentagem + '% de desconto no fechamento do pedido'),
+        ocultarTag: !!produto.cupomOcultarTag
       };
     }
   }
@@ -538,7 +540,7 @@ function criarCardRelacionado(produto) {
   card.id = `produto-${produto.id}`;
 
 const cupom = obterCupomValido(produto);
-const tagDesconto = cupom
+const tagDesconto = (cupom && !cupom.ocultarTag)
   ? `<span class="badge-desconto">${cupom.mensagem}</span>`
   : '';
 
