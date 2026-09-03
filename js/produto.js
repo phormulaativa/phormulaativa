@@ -1,3 +1,68 @@
+
+/**
+ * Retorna o cupom válido para um produto
+ * Prioridade: Site > Categoria > Produto
+ */
+function obterCupomValido(produto) {
+  if (!produto) return null;
+
+  const hoje = new Date().toISOString().slice(0, 10);
+
+  // 1. Cupom do Site
+  if (window.cupomSite && window.cupomSite.ativo && window.cupomSite.codigo) {
+    if (!window.cupomSite.validade || window.cupomSite.validade >= hoje) {
+      return {
+        tipo: 'site',
+        porcentagem: Number(window.cupomSite.porcentagem) || 0,
+        codigo: window.cupomSite.codigo,
+        mensagem: window.cupomSite.mensagemTag || (window.cupomSite.porcentagem + '% de desconto no fechamento do pedido')
+      };
+    }
+  }
+
+  // 2. Cupom da Categoria
+  const categoria = (window.categorias || categorias || []).find(c => c.id === produto.categoria);
+  if (categoria && categoria.cupomAtivo && categoria.cupomCodigo) {
+    if (!categoria.cupomValidade || categoria.cupomValidade >= hoje) {
+      return {
+        tipo: 'categoria',
+        porcentagem: Number(categoria.cupomPorcentagem) || 0,
+        codigo: categoria.cupomCodigo,
+        mensagem: categoria.cupomMensagemTag || (categoria.cupomPorcentagem + '% de desconto no fechamento do pedido')
+      };
+    }
+  }
+
+  // 3. Cupom do Produto
+  if (produto.cupomAtivo && produto.cupomCodigo) {
+    if (!produto.cupomValidade || produto.cupomValidade >= hoje) {
+      return {
+        tipo: 'produto',
+        porcentagem: Number(produto.cupomPorcentagem) || 0,
+        codigo: produto.cupomCodigo,
+        mensagem: produto.cupomMensagemTag || (produto.cupomPorcentagem + '% de desconto no fechamento do pedido')
+      };
+    }
+  }
+
+  return null;
+}
+
+function formatarPreco(valor) {
+  return Number(valor || 0).toLocaleString('pt-BR', {
+    style: 'currency',
+    currency: 'BRL'
+  });
+}
+
+
+
+
+
+
+
+
+
 // ================================
 // PÁGINA DE PRODUTO
 // ================================
@@ -223,6 +288,36 @@ function comprarProduto() {
   const quantidade = quantidadeAtual;
   const valorTotal = valorUnitario * quantidade;
 
+  const basePath = window.location.pathname.split('/').slice(0, -1).join('/');
+  const linkProduto = window.location.origin + basePath + '/produto.html?id=' + produto.id;
+
+  const categoriaObj = (window.categorias || categorias || []).find(c => c.id === produto.categoria);
+  const nomeCategoria = categoriaObj ? categoriaObj.nome : produto.categoria;
+
+  const mensagem =
+    'Olá! Gostaria de fazer um pedido:%0A%0A' +
+    'Produto: ' + produto.nome + '%0A' +
+    'Categoria: ' + nomeCategoria + '%0A' +
+    'Quantidade: ' + quantidade + ' unidade(s)%0A' +
+    'Valor unitário: ' + formatarPreco(valorUnitario) + '%0A' +
+    'Valor total: ' + formatarPreco(valorTotal) + '%0A%0A' +
+    'Link do produto:%0A' + linkProduto;
+
+  window.open('https://wa.me/' + WHATSAPP_NUMERO + '?text=' + mensagem, '_blank');
+} {
+  if (!produto) return;
+
+  const cupom = obterCupomValido(produto);
+
+  if (cupom) {
+    abrirModalCupom(produto, quantidadeAtual);
+    return;
+  }
+
+  const valorUnitario = produto.preco;
+  const quantidade = quantidadeAtual;
+  const valorTotal = valorUnitario * quantidade;
+
   const basePath = window.location.pathname
     .split("/")
     .slice(0, -1)
@@ -246,19 +341,6 @@ function comprarProduto() {
   const url = `https://wa.me/${WHATSAPP_NUMERO}?text=${mensagem}`;
   window.open(url, "_blank");
 }
-
-
-
-function formatarPreco(valor) {
-  return valor.toLocaleString("pt-BR", {
-    style: "currency",
-    currency: "BRL"
-  });
-}
-
-
-
-
 
 
 
