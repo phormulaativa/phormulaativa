@@ -153,7 +153,8 @@ async function main() {
     porcentagem: formatPrice(config.CUPOM_SITE_PORCENTAGEM) || 0,
     codigo: (config.CUPOM_SITE_CODIGO || '').trim().toUpperCase(),
     validade: (config.CUPOM_SITE_VALIDADE || '').trim(),
-    mensagemTag: config.CUPOM_SITE_MENSAGEM_TAG || 'X% de desconto no fechamento do pedido'
+    mensagemTag: config.CUPOM_SITE_MENSAGEM_TAG || 'X% de desconto no fechamento do pedido',
+    ocultarTagCupom: toBool(config.CUPOM_SITE_OCULTAR_TAG)
   };
 
   // Categorias
@@ -168,6 +169,7 @@ async function main() {
       cupomPorcentagem: formatPrice(r.cupomPorcentagem) || 0,
       cupomCodigo: (r.cupomCodigo || '').trim().toUpperCase(),
       cupomValidade: (r.cupomValidade || '').trim(),
+      cupomOcultarTag: toBool(r.cupomOcultarTag),
       cupomMensagemTag: r.cupomMensagemTag || ''
     }));
 
@@ -217,6 +219,7 @@ async function main() {
       cupomPorcentagem: formatPrice(r.cupomPorcentagem) || 0,
       cupomCodigo: (r.cupomCodigo || '').trim().toUpperCase(),
       cupomValidade: (r.cupomValidade || '').trim(),
+      cupomOcultarTag: toBool(r.cupomOcultarTag),
       cupomMensagemTag: r.cupomMensagemTag || ''
     });
   }
