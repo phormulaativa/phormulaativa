@@ -226,16 +226,93 @@ async function main() {
    ============================================================ */
 // Número fixo do WhatsApp da farmácia (formato internacional, sem +)
 // Gerado automaticamente a partir da planilha Google Sheets
+  const whatsapp = config.WHATSAPP_NUMERO || '5518988092571';
+
+  // ===== CUPOM DO SITE (variável Node) =====
+  const cupomSite = {
+    ativo: toBool(config.CUPOM_SITE_ATIVO),
+    porcentagem: formatPrice(config.CUPOM_SITE_PORCENTAGEM) || 0,
+    codigo: (config.CUPOM_SITE_CODIGO || '').trim().toUpperCase(),
+    validade: (config.CUPOM_SITE_VALIDADE || '').trim(),
+    mensagemTag: config.CUPOM_SITE_MENSAGEM_TAG || 'X% de desconto no fechamento do pedido'
+  };
+
+  // Categorias
+  const categorias = categoriasRaw
+    .filter(r => r.id)
+    .map(r => ({
+      id: r.id,
+      nome: r.nome || '',
+      nomeMenu: r.nomeMenu || r.nome || '',
+      mostrarNoMenu: toBool(r.mostrarNoMenu),
+      cupomAtivo: toBool(r.cupomAtivo),
+      cupomPorcentagem: formatPrice(r.cupomPorcentagem) || 0,
+      cupomCodigo: (r.cupomCodigo || '').trim().toUpperCase(),
+      cupomValidade: (r.cupomValidade || '').trim(),
+      cupomMensagemTag: r.cupomMensagemTag || ''
+    }));
+
+  const catIds = new Set(categorias.map(c => c.id));
+
+  // Produtos
+  const produtos = [];
+  const seenIds = new Set();
+
+  for (const r of produtosRaw) {
+    if (!r.id) continue;
+
+    if (seenIds.has(r.id)) {
+      console.warn(`⚠️  id duplicado ignorado: ${r.id}`);
+      continue;
+    }
+    seenIds.add(r.id);
+
+    if (r.categoria && !catIds.has(r.categoria)) {
+      console.warn(`⚠️  Produto ${r.id} tem categoria inexistente: "${r.categoria}"`);
+    }
+
+    const videos = (r.videos || '')
+      .split(',')
+      .map(v => v.trim())
+      .filter(Boolean);
+
+    produtos.push({
+      id: String(r.id),
+      nome: r.nome || '',
+      categoria: r.categoria || '',
+      preco: formatPrice(r.preco),
+      imagem: r.imagem || '',
+      videos,
+      descricao: {
+        resumo: r.resumo || '',
+        oQueE: r.oQueE || '',
+        composicao: r.composicao || '',
+        comoUsar: r.comoUsar || '',
+        advertencias: r.advertencias || '',
+      },
+      destaque: toBool(r.destaque),
+      mostrarlancamento: toBool(r.mostrarlancamento),
+      mostrarVideo: toBool(r.mostrarVideo),
+      textoParcelamento: r.textoParcelamento || '',
+      cupomAtivo: toBool(r.cupomAtivo),
+      cupomPorcentagem: formatPrice(r.cupomPorcentagem) || 0,
+      cupomCodigo: (r.cupomCodigo || '').trim().toUpperCase(),
+      cupomValidade: (r.cupomValidade || '').trim(),
+      cupomMensagemTag: r.cupomMensagemTag || ''
+    });
+  }
+
+  console.log(`✅ ${categorias.length} categorias | ${produtos.length} produtos`);
+
+  // ===================== GERAR data.js =====================
+  let js = `/* ============================================================
+   CONFIGURAÇÕES GERAIS
+   ============================================================ */
+// Número fixo do WhatsApp da farmácia (formato internacional, sem +)
+// Gerado automaticamente a partir da planilha Google Sheets
 const WHATSAPP_NUMERO = ${JSON.stringify(whatsapp)};
 
-const cupomSite = {
-  ativo: toBool(config.CUPOM_SITE_ATIVO),
-  porcentagem: formatPrice(config.CUPOM_SITE_PORCENTAGEM) || 0,
-  codigo: (config.CUPOM_SITE_CODIGO || '').trim().toUpperCase(),
-  validade: (config.CUPOM_SITE_VALIDADE || '').trim(),
-  mensagemTag: config.CUPOM_SITE_MENSAGEM_TAG || 'X% de desconto no fechamento do pedido'
-};
-
+const cupomSite = ${JSON.stringify(cupomSite, null, 2)};
 
 /* ============================================================
    CATEGORIAS
@@ -248,7 +325,12 @@ const categorias = [
     id: ${JSON.stringify(c.id)},
     nome: ${JSON.stringify(c.nome)},
     nomeMenu: ${JSON.stringify(c.nomeMenu)},
-    mostrarNoMenu: ${c.mostrarNoMenu}
+    mostrarNoMenu: ${c.mostrarNoMenu},
+    cupomAtivo: ${c.cupomAtivo},
+    cupomPorcentagem: ${c.cupomPorcentagem},
+    cupomCodigo: ${JSON.stringify(c.cupomCodigo)},
+    cupomValidade: ${JSON.stringify(c.cupomValidade)},
+    cupomMensagemTag: ${JSON.stringify(c.cupomMensagemTag)}
   }${i < categorias.length - 1 ? ',' : ''}
 `;
   });
@@ -283,25 +365,22 @@ const produtos = [
     destaque: ${p.destaque},
     mostrarlancamento: ${p.mostrarlancamento},
     mostrarVideo: ${p.mostrarVideo},
-    textoParcelamento: ${JSON.stringify(p.textoParcelamento)}
+    textoParcelamento: ${JSON.stringify(p.textoParcelamento)},
+    cupomAtivo: ${p.cupomAtivo},
+    cupomPorcentagem: ${p.cupomPorcentagem},
+    cupomCodigo: ${JSON.stringify(p.cupomCodigo)},
+    cupomValidade: ${JSON.stringify(p.cupomValidade)},
+    cupomMensagemTag: ${JSON.stringify(p.cupomMensagemTag)}
   }${i < produtos.length - 1 ? ',' : ''}
 `;
   });
 
   js += `];
 
-
-
-const cupomSite = ${JSON.stringify(cupomSite)};
 window.produtos = produtos;
 window.categorias = categorias;
 window.WHATSAPP_NUMERO = WHATSAPP_NUMERO;
 window.cupomSite = cupomSite;
-
-
-
-
-
 
 /* ============================================================
    OBSERVAÇÕES IMPORTANTES
@@ -318,8 +397,3 @@ window.cupomSite = cupomSite;
   fs.writeFileSync(OUTPUT_PATH, js, 'utf8');
   console.log(`📝 Arquivo gerado: ${OUTPUT_PATH}`);
 }
-
-main().catch(err => {
-  console.error('❌ Erro:', err.message);
-  process.exit(1);
-});
