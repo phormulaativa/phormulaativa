@@ -7,9 +7,9 @@ const WHATSAPP_NUMERO = "5518997033495";
 const cupomSite = {
   "ativo": true,
   "porcentagem": 15,
-  "codigo": "CUPOM5%OFF",
+  "codigo": "TODOSITE5%OFF",
   "validade": "",
-  "mensagemTag": "USE: CUPOM5%OFF",
+  "mensagemTag": "TODOSITE5%OFF",
   "ocultarTagCupom": false
 };
 
@@ -150,7 +150,7 @@ const produtos = [
     destaque: false,
     mostrarlancamento: false,
     mostrarVideo: false,
-    textoParcelamento: "",
+    textoParcelamento: "🎟️ Use o cupom no carrinho e ganhe desconto",
     cupomAtivo: true,
     cupomPorcentagem: 15,
     cupomCodigo: "PROMO15",
