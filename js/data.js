@@ -9,7 +9,8 @@ const cupomSite = {
   "porcentagem": 0,
   "codigo": "",
   "validade": "",
-  "mensagemTag": "X% de desconto no fechamento do pedido"
+  "mensagemTag": "X% de desconto no fechamento do pedido",
+  "ocultarTagCupom": false
 };
 
 /* ============================================================
@@ -141,11 +142,11 @@ const produtos = [
     mostrarlancamento: false,
     mostrarVideo: false,
     textoParcelamento: "",
-    cupomAtivo: false,
+    cupomAtivo: true,
     cupomPorcentagem: 15,
     cupomCodigo: "PROMO15",
     cupomValidade: "2026-09-05",
-    cupomMensagemTag: "CUPOM 15%OFF"
+    cupomMensagemTag: "CUPOM ATIVO"
   },
   {
     id: "19",
