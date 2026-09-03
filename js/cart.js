@@ -1,3 +1,57 @@
+
+/**
+ * Retorna o cupom válido para um produto seguindo a prioridade:
+ * Site > Categoria > Produto
+ */
+function obterCupomValido(produto) {
+  const hoje = new Date().toISOString().slice(0, 10); // YYYY-MM-DD
+
+  // 1. Cupom do Site
+  if (window.cupomSite && window.cupomSite.ativo && window.cupomSite.codigo) {
+    if (!window.cupomSite.validade || window.cupomSite.validade >= hoje) {
+      return {
+        tipo: 'site',
+        porcentagem: window.cupomSite.porcentagem,
+        codigo: window.cupomSite.codigo,
+        mensagem: window.cupomSite.mensagemTag || `${window.cupomSite.porcentagem}% de desconto no fechamento do pedido`
+      };
+    }
+  }
+
+  // 2. Cupom da Categoria
+  const categoria = (window.categorias || []).find(c => c.id === produto.categoria);
+  if (categoria && categoria.cupomAtivo && categoria.cupomCodigo) {
+    if (!categoria.cupomValidade || categoria.cupomValidade >= hoje) {
+      return {
+        tipo: 'categoria',
+        porcentagem: categoria.cupomPorcentagem,
+        codigo: categoria.cupomCodigo,
+        mensagem: categoria.cupomMensagemTag || `${categoria.cupomPorcentagem}% de desconto no fechamento do pedido`
+      };
+    }
+  }
+
+  // 3. Cupom do Produto
+  if (produto.cupomAtivo && produto.cupomCodigo) {
+    if (!produto.cupomValidade || produto.cupomValidade >= hoje) {
+      return {
+        tipo: 'produto',
+        porcentagem: produto.cupomPorcentagem,
+        codigo: produto.cupomCodigo,
+        mensagem: produto.cupomMensagemTag || `${produto.cupomPorcentagem}% de desconto no fechamento do pedido`
+      };
+    }
+  }
+
+  return null; // nenhum cupom válido
+}
+
+
+
+
+
+
+
 /* ============================================================
    CART.JS – Sistema de Carrinho (localStorage)
    ============================================================ */
@@ -122,17 +176,27 @@ function renderCart() {
     container.innerHTML = "";
     if (emptyMsg) emptyMsg.style.display = "block";
     if (footer) footer.style.display = "none";
+    cupomAplicado = null;
     return;
   }
 
   if (emptyMsg) emptyMsg.style.display = "none";
   if (footer) footer.style.display = "block";
 
-  let totalGeral = 0;
+  let totalOriginal = 0;
+  let totalFinal = 0;
 
   container.innerHTML = cart.map(item => {
-    const subtotal = item.preco * item.quantidade;
-    totalGeral += subtotal;
+    const produto = (window.produtos || []).find(p => p.id === item.id) || item;
+    const calc = calcularPrecoComDesconto(produto, item.quantidade);
+
+    totalOriginal += calc.original;
+    totalFinal += calc.final;
+
+    const precoHtml = calc.economia > 0
+      ? `<span class="preco-original-riscado">${formatarPrecoCart(calc.original)}</span>
+         <span class="preco-com-desconto">${formatarPrecoCart(calc.final)}</span>`
+      : `<span class="cart-item-preco">${formatarPrecoCart(calc.original)}</span>`;
 
     return `
       <div class="cart-item" data-id="${item.id}">
@@ -140,7 +204,7 @@ function renderCart() {
         
         <div class="cart-item-info">
           <h4>${item.nome}</h4>
-          <span class="cart-item-preco">${formatarPrecoCart(item.preco)}</span>
+          ${precoHtml}
           
           <div class="cart-item-acoes">
             <div class="cart-qty">
@@ -149,27 +213,41 @@ function renderCart() {
               <button class="cart-qty-btn" onclick="updateCartQty('${item.id}', 1)">+</button>
             </div>
             
-            <button class="cart-remove" onclick="removeFromCart('${item.id}')" title="Remover">
-              ✕
-            </button>
+            <button class="cart-remove" onclick="removeFromCart('${item.id}')" title="Remover">✕</button>
           </div>
           
           <div class="cart-item-subtotal">
-            Subtotal: <strong>${formatarPrecoCart(subtotal)}</strong>
+            Subtotal: <strong>${formatarPrecoCart(calc.final)}</strong>
           </div>
         </div>
       </div>
     `;
   }).join("");
 
+  // Total + economia
   if (totalEl) {
-    totalEl.textContent = formatarPrecoCart(totalGeral);
+    totalEl.textContent = formatarPrecoCart(totalFinal);
   }
 
+  // Mostra economia
+  let economiaEl = document.getElementById('cartEconomia');
+  if (!economiaEl) {
+    economiaEl = document.createElement('div');
+    economiaEl.id = 'cartEconomia';
+    economiaEl.className = 'cart-economia';
+    const totalLine = document.querySelector('.cart-total-line');
+    if (totalLine) totalLine.after(economiaEl);
+  }
 
-   // Atualiza as sugestões
+  const economia = totalOriginal - totalFinal;
+  if (economia > 0) {
+    economiaEl.textContent = `Você economizou ${formatarPrecoCart(economia)} nesta compra`;
+    economiaEl.style.display = 'block';
+  } else {
+    economiaEl.style.display = 'none';
+  }
+
   renderCartSuggestions();
-   
 }
 
 
@@ -298,20 +376,19 @@ function finalizarPedido() {
   if (cart.length === 0) return;
 
   let mensagem = `Olá! Gostaria de fazer um pedido:%0A%0A`;
-  let totalGeral = 0;
+  let totalOriginal = 0;
+  let totalFinal = 0;
 
   cart.forEach((item, index) => {
-    const subtotal = item.preco * item.quantidade;
-    totalGeral += subtotal;
+    const produto = (window.produtos || []).find(p => p.id === item.id) || item;
+    const calc = calcularPrecoComDesconto(produto, item.quantidade);
 
-    // Link do produto
-    const basePath = window.location.pathname
-      .split("/")
-      .slice(0, -1)
-      .join("/");
+    totalOriginal += calc.original;
+    totalFinal += calc.final;
+
+    const basePath = window.location.pathname.split("/").slice(0, -1).join("/");
     const linkProduto = `${window.location.origin}${basePath}/produto.html?id=${item.id}`;
 
-    // Nome da categoria
     const cat = (typeof categorias !== "undefined")
       ? categorias.find(c => c.id === item.categoria)
       : null;
@@ -320,13 +397,31 @@ function finalizarPedido() {
     mensagem += `*${index + 1}. ${item.nome}*%0A`;
     mensagem += `Categoria: ${nomeCategoria}%0A`;
     mensagem += `Quantidade: ${item.quantidade} unidade(s)%0A`;
-    mensagem += `Valor unitário: ${formatarPrecoCart(item.preco)}%0A`;
-    mensagem += `Subtotal: ${formatarPrecoCart(subtotal)}%0A`;
+
+    if (calc.economia > 0) {
+      mensagem += `Valor original: ${formatarPrecoCart(calc.original)}%0A`;
+      mensagem += `Valor com desconto: ${formatarPrecoCart(calc.final)}%0A`;
+    } else {
+      mensagem += `Valor: ${formatarPrecoCart(calc.original)}%0A`;
+    }
+
     mensagem += `Link: ${linkProduto}%0A%0A`;
   });
 
   mensagem += `────────────────%0A`;
-  mensagem += `*TOTAL DO PEDIDO: ${formatarPrecoCart(totalGeral)}*%0A%0A`;
+
+  if (totalOriginal > totalFinal) {
+    mensagem += `*Subtotal original: ${formatarPrecoCart(totalOriginal)}*%0A`;
+    mensagem += `*Desconto aplicado: ${formatarPrecoCart(totalOriginal - totalFinal)}*%0A`;
+    mensagem += `*TOTAL COM DESCONTO: ${formatarPrecoCart(totalFinal)}*%0A`;
+    mensagem += `Você economizou ${formatarPrecoCart(totalOriginal - totalFinal)} nesta compra!%0A%0A`;
+    if (cupomAplicado) {
+      mensagem += `Cupom usado: *${cupomAplicado.codigo}*%0A%0A`;
+    }
+  } else {
+    mensagem += `*TOTAL DO PEDIDO: ${formatarPrecoCart(totalFinal)}*%0A%0A`;
+  }
+
   mensagem += `Aguardo confirmação. Obrigado!`;
 
   const url = `https://wa.me/${WHATSAPP_NUMERO}?text=${mensagem}`;
@@ -345,7 +440,23 @@ document.addEventListener("DOMContentLoaded", () => {
   updateCartBadge();
   renderCart();
 
-  // Eventos
+
+   
+// Eventos
+   
+const btnAplicarCupom = document.getElementById('btnAplicarCupom');
+if (btnAplicarCupom) {
+  btnAplicarCupom.addEventListener('click', aplicarCupomCarrinho);
+}
+
+// Também permite Enter no input
+const cupomInput = document.getElementById('cartCupomInput');
+if (cupomInput) {
+  cupomInput.addEventListener('keypress', (e) => {
+    if (e.key === 'Enter') aplicarCupomCarrinho();
+  });
+}
+ 
   const cartIcon = document.getElementById("cartIcon");
   if (cartIcon) {
     cartIcon.addEventListener("click", openCart);
@@ -405,6 +516,16 @@ function createCartUI() {
       </div>
 
       <div id="cartFooter" class="cart-footer" style="display:none;">
+
+            <!-- Campo de Cupom -->
+            <div class="cart-cupom-box">
+              <div class="cart-cupom-input-wrap">
+                <input type="text" id="cartCupomInput" placeholder="Cupom de desconto" autocomplete="off">
+                <button type="button" id="btnAplicarCupom" class="btn-aplicar-cupom">Aplicar</button>
+              </div>
+              <div id="cartCupomMsg" class="cart-cupom-msg"></div>
+            </div>
+      
         <div class="cart-total-line">
           <span>Total do pedido:</span>
           <strong id="cartTotal">R$ 0,00</strong>
@@ -422,4 +543,82 @@ function createCartUI() {
   `;
 
   document.body.insertAdjacentHTML("beforeend", html);
+}
+
+
+
+
+// ============================================================
+// CUPOM NO CARRINHO
+// ============================================================
+let cupomAplicado = null; // { tipo, porcentagem, codigo, mensagem }
+
+function aplicarCupomCarrinho() {
+  const input = document.getElementById('cartCupomInput');
+  const msgEl = document.getElementById('cartCupomMsg');
+  if (!input || !msgEl) return;
+
+  const codigo = (input.value || '').trim().toUpperCase();
+  if (!codigo) {
+    msgEl.textContent = 'Digite um cupom.';
+    msgEl.className = 'cart-cupom-msg erro';
+    return;
+  }
+
+  const cart = getCart();
+  let encontrado = null;
+
+  // 1. Verifica cupom do site
+  if (window.cupomSite && window.cupomSite.ativo && window.cupomSite.codigo === codigo) {
+    const hoje = new Date().toISOString().slice(0, 10);
+    if (!window.cupomSite.validade || window.cupomSite.validade >= hoje) {
+      encontrado = {
+        tipo: 'site',
+        porcentagem: Number(window.cupomSite.porcentagem) || 0,
+        codigo: window.cupomSite.codigo,
+        mensagem: window.cupomSite.mensagemTag
+      };
+    }
+  }
+
+  // 2. Se não for site, procura nos produtos do carrinho (respeitando prioridade)
+  if (!encontrado) {
+    for (const item of cart) {
+      const produto = (window.produtos || []).find(p => p.id === item.id);
+      if (!produto) continue;
+
+      const cupom = obterCupomValido(produto);
+      if (cupom && cupom.codigo === codigo) {
+        encontrado = cupom;
+        break;
+      }
+    }
+  }
+
+  if (!encontrado) {
+    cupomAplicado = null;
+    msgEl.textContent = 'Cupom inválido ou expirado.';
+    msgEl.className = 'cart-cupom-msg erro';
+  } else {
+    cupomAplicado = encontrado;
+    msgEl.textContent = `Cupom ${codigo} aplicado com sucesso!`;
+    msgEl.className = 'cart-cupom-msg sucesso';
+  }
+
+  renderCart();
+}
+
+function calcularPrecoComDesconto(produto, quantidade) {
+  const precoOriginal = produto.preco * quantidade;
+  if (!cupomAplicado) return { original: precoOriginal, final: precoOriginal, economia: 0 };
+
+  // Só aplica se o cupom for válido para este produto
+  const cupomDoProduto = obterCupomValido(produto);
+  if (!cupomDoProduto || cupomDoProduto.codigo !== cupomAplicado.codigo) {
+    return { original: precoOriginal, final: precoOriginal, economia: 0 };
+  }
+
+  const desconto = precoOriginal * (cupomAplicado.porcentagem / 100);
+  const final = precoOriginal - desconto;
+  return { original: precoOriginal, final, economia: desconto };
 }
