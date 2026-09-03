@@ -5,12 +5,12 @@
 const WHATSAPP_NUMERO = "5518997033495";
 
 const cupomSite = {
-  "ativo": true,
+  "ativo": false,
   "porcentagem": 5,
   "codigo": "5OFF",
   "validade": "2026-09-05",
   "mensagemTag": "15%OFF",
-  "ocultarTagCupom": false
+  "ocultarTagCupom": true
 };
 
 /* ============================================================
