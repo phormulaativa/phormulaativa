@@ -157,6 +157,12 @@ async function main() {
       nome: r.nome || '',
       nomeMenu: r.nomeMenu || r.nome || '',
       mostrarNoMenu: toBool(r.mostrarNoMenu),
+      // ===== NOVOS CAMPOS DE CUPOM =====
+      cupomAtivo: toBool(r.cupomAtivo),
+      cupomPorcentagem: formatPrice(r.cupomPorcentagem) || 0,
+      cupomCodigo: (r.cupomCodigo || '').trim().toUpperCase(),
+      cupomValidade: (r.cupomValidade || '').trim(),
+      cupomMensagemTag: r.cupomMensagemTag || ''
     }));
 
   const catIds = new Set(categorias.map(c => c.id));
@@ -201,6 +207,14 @@ async function main() {
       mostrarlancamento: toBool(r.mostrarlancamento),
       mostrarVideo: toBool(r.mostrarVideo),
       textoParcelamento: r.textoParcelamento || '',
+
+      // ===== NOVOS CAMPOS DE CUPOM =====
+      cupomAtivo: toBool(r.cupomAtivo),
+      cupomPorcentagem: formatPrice(r.cupomPorcentagem) || 0,
+      cupomCodigo: (r.cupomCodigo || '').trim().toUpperCase(),
+      cupomValidade: (r.cupomValidade || '').trim(),
+      cupomMensagemTag: r.cupomMensagemTag || ''
+      
     });
   }
 
@@ -213,6 +227,15 @@ async function main() {
 // Número fixo do WhatsApp da farmácia (formato internacional, sem +)
 // Gerado automaticamente a partir da planilha Google Sheets
 const WHATSAPP_NUMERO = ${JSON.stringify(whatsapp)};
+
+const cupomSite = {
+  ativo: toBool(config.CUPOM_SITE_ATIVO),
+  porcentagem: formatPrice(config.CUPOM_SITE_PORCENTAGEM) || 0,
+  codigo: (config.CUPOM_SITE_CODIGO || '').trim().toUpperCase(),
+  validade: (config.CUPOM_SITE_VALIDADE || '').trim(),
+  mensagemTag: config.CUPOM_SITE_MENSAGEM_TAG || 'X% de desconto no fechamento do pedido'
+};
+
 
 /* ============================================================
    CATEGORIAS
@@ -267,9 +290,18 @@ const produtos = [
 
   js += `];
 
+
+
+const cupomSite = ${JSON.stringify(cupomSite)};
 window.produtos = produtos;
 window.categorias = categorias;
 window.WHATSAPP_NUMERO = WHATSAPP_NUMERO;
+window.cupomSite = cupomSite;
+
+
+
+
+
 
 /* ============================================================
    OBSERVAÇÕES IMPORTANTES
