@@ -226,7 +226,7 @@ async function main() {
 
   console.log(categorias.length + ' categorias | ' + produtos.length + ' produtos');
 
-  // ===================== GERAR data.js =====================
+    // ===================== GERAR data.js =====================
   let js = '';
   js += '/* ============================================================\n';
   js += '   CONFIGURACOES GERAIS\n';
@@ -249,7 +249,8 @@ async function main() {
     js += '    cupomPorcentagem: ' + c.cupomPorcentagem + ',\n';
     js += '    cupomCodigo: ' + JSON.stringify(c.cupomCodigo) + ',\n';
     js += '    cupomValidade: ' + JSON.stringify(c.cupomValidade) + ',\n';
-    js += '    cupomMensagemTag: ' + JSON.stringify(c.cupomMensagemTag) + '\n';
+    js += '    cupomMensagemTag: ' + JSON.stringify(c.cupomMensagemTag) + ',\n';
+    js += '    cupomOcultarTag: ' + c.cupomOcultarTag + '\n';
     js += '  }' + (i < categorias.length - 1 ? ',' : '') + '\n';
   });
 
@@ -288,7 +289,8 @@ async function main() {
     js += '    cupomPorcentagem: ' + p.cupomPorcentagem + ',\n';
     js += '    cupomCodigo: ' + JSON.stringify(p.cupomCodigo) + ',\n';
     js += '    cupomValidade: ' + JSON.stringify(p.cupomValidade) + ',\n';
-    js += '    cupomMensagemTag: ' + JSON.stringify(p.cupomMensagemTag) + '\n';
+    js += '    cupomMensagemTag: ' + JSON.stringify(p.cupomMensagemTag) + ',\n';
+    js += '    cupomOcultarTag: ' + p.cupomOcultarTag + '\n';
     js += '  }' + (i < produtos.length - 1 ? ',' : '') + '\n';
   });
 
@@ -308,8 +310,3 @@ async function main() {
   fs.writeFileSync(OUTPUT_PATH, js, 'utf8');
   console.log('Arquivo gerado: ' + OUTPUT_PATH);
 }
-
-main().catch(err => {
-  console.error('Erro:', err.message);
-  process.exit(1);
-});
