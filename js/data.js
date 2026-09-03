@@ -136,18 +136,6 @@ const categorias = [
     cupomValidade: "",
     cupomMensagemTag: "",
     cupomOcultarTag: false
-  },
-  {
-    id: "oculta",
-    nome: "Indisponível",
-    nomeMenu: "indisponivel",
-    mostrarNoMenu: false,
-    cupomAtivo: false,
-    cupomPorcentagem: 0,
-    cupomCodigo: "",
-    cupomValidade: "",
-    cupomMensagemTag: "",
-    cupomOcultarTag: false
   }
 ];
 
@@ -399,33 +387,6 @@ const produtos = [
     cupomOcultarTag: false
   },
   {
-    id: "28",
-    nome: "Ciclopirox Spray - Solução 20ml",
-    categoria: "oculta",
-    preco: 37.00,
-    imagem: "assets/img/CiclopiroxSpray.png",
-    videos: [
-      
-    ],
-    descricao: {
-      resumo: "<p>O Ciclopirox Spray é uma solução alcoólica de uso tópico desenvolvida para <strong>auxiliar no tratamento antifúngico</strong>, reunindo diferentes componentes em uma formulação prática para aplicação localizada.</p>",
-      oQueE: "<p>O <strong>Ciclopirox Spray</strong> é uma solução alcoólica de uso tópico formulada com ciclopirox olamina, terbinafina cloridrato, ureia, propilenoglicol e ácido salicílico.</p><p>Sua finalidade é <strong>auxiliar no tratamento antifúngico</strong>, sendo destinada ao cuidado tópico de áreas que necessitam de atenção relacionada à presença de fungos.</p><p>Pode ser indicado para pessoas que necessitam de uma formulação de uso tópico para <strong>cuidado antifúngico</strong>, devendo sua utilização seguir as orientações do fabricante ou de um profissional habilitado.</p>",
-      composicao: "<ul>\n<li>CICLOPIROX OLAMINA — 8%</li>\n<li>TERBINAFINA CLORIDRATO — 2%</li>\n<li>UREIA — 10%</li>\n<li>PROPILENOGLICOL — 10%</li>\n<li>ACIDO SALICILICO — 2%</li>\n<li>ALCOOL 70% — 20ML</li>\n</ul><p><strong>Apresentação:</strong> Solução alcoólica 20ml - Validade 4 meses</p>",
-      comoUsar: "<p>Utilize o produto conforme as <strong>instruções do fabricante</strong> ou de acordo com a orientação de um profissional habilitado. Não altere a forma de utilização recomendada sem orientação profissional.</p>",
-      advertencias: "<p>Utilize o produto somente conforme as orientações fornecidas pelo fabricante. Em caso de dúvidas sobre a utilização, procure orientação de um profissional habilitado. Mantenha o produto em condições adequadas de armazenamento e fora do alcance de crianças.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
-    },
-    destaque: true,
-    mostrarlancamento: false,
-    mostrarVideo: false,
-    textoParcelamento: "🎟️ Cupom válido no carrinho. 💳 Consulte parcelamento no checkout",
-    cupomAtivo: false,
-    cupomPorcentagem: 0,
-    cupomCodigo: "",
-    cupomValidade: "",
-    cupomMensagemTag: "",
-    cupomOcultarTag: false
-  },
-  {
     id: "29",
     nome: "Gel Terbinafina 5% - Gel 20gr",
     categoria: "podologia",
@@ -599,7 +560,7 @@ const produtos = [
     descricao: {
       resumo: "<p>Solução de uso profissional desenvolvida para auxiliar no cuidado e na recuperação das unhas, com uma composição específica para integrar protocolos de cuidados ungueais.</p>",
       oQueE: "<p>O Ungueal Terbinafina é uma solução de uso profissional formulada com terbinafina cloridrato, ciclopirox olamina e ácido salicílico, em veículo de propilenoglicol.</p><p>Sua finalidade é <strong>auxiliar na recuperação das unhas</strong>, oferecendo uma composição direcionada ao cuidado ungueal e ao suporte dos protocolos profissionais.</p><p>É recomendado para <strong>uso profissional</strong>, especialmente por profissionais que realizam procedimentos e cuidados relacionados às unhas e considerem sua utilização adequada conforme a avaliação de cada caso.</p>",
-      composicao: "<ul>\n<li>TERBINAFINA CLORIDRATO — 1%</li>\n<li>CICLOPIROX OLAMINA — 8%</li>\n<li>ACIDO SALICILICO — 2%</li>\n<li>PROPILENOGLICOL — 10ML</li>\n</ul><p><strong>Apresentaç��o:</strong> Solução 10ml - Validade 4 meses</p>",
+      composicao: "<ul>\n<li>TERBINAFINA CLORIDRATO — 1%</li>\n<li>CICLOPIROX OLAMINA — 8%</li>\n<li>ACIDO SALICILICO — 2%</li>\n<li>PROPILENOGLICOL — 10ML</li>\n</ul><p><strong>Apresentação:</strong> Solução 10ml - Validade 4 meses</p>",
       comoUsar: "<p>Utilize o produto conforme as <strong>instruções do fabricante</strong> e/ou orientação de um profissional habilitado. A forma de utilização deve respeitar a avaliação do caso e o protocolo profissional adotado, sem estabelecer dose, frequência ou horários diferentes dos recomendados.</p>",
       advertencias: "<p>Produto destinado ao uso conforme orientação profissional. Leia atentamente as informações do produto antes da utilização e siga as recomendações do fabricante. Em caso de dúvidas sobre a utilização, procure orientação de um profissional habilitado.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
     },
@@ -841,7 +802,7 @@ const produtos = [
     ],
     descricao: {
       resumo: "<p>ASPERGILLUS - Solução 10ml é uma solução de uso tópico desenvolvida para <strong>auxiliar no tratamento do Aspergillus</strong>, com uma composição que reúne ativos selecionados para o cuidado da região afetada.</p>",
-      oQueE: "<p>ASPERGILLUS - Solução 10ml é uma solução de uso tópico formulada com ativos selecionados para auxiliar no cuidado de condições relacionadas ao Aspergillus.</p><p>Sua finalidade é <strong>auxiliar no tratamento do Aspergillus</strong>, contribuindo para o cuidado da regi��o afetada conforme a orientação adequada para utilização do produto.</p><p>É indicado para pessoas que necessitam de uma solução tópica para auxiliar no tratamento do Aspergillus, devendo sua utilização ser realizada conforme orientação do fabricante ou de um profissional habilitado.</p>",
+      oQueE: "<p>ASPERGILLUS - Solução 10ml é uma solução de uso tópico formulada com ativos selecionados para auxiliar no cuidado de condições relacionadas ao Aspergillus.</p><p>Sua finalidade é <strong>auxiliar no tratamento do Aspergillus</strong>, contribuindo para o cuidado da região afetada conforme a orientação adequada para utilização do produto.</p><p>É indicado para pessoas que necessitam de uma solução tópica para auxiliar no tratamento do Aspergillus, devendo sua utilização ser realizada conforme orientação do fabricante ou de um profissional habilitado.</p>",
       composicao: "<ul>\n<li>CICLOPIROX OLAMINA — 8%</li>\n<li>TIOCONAZOL — 2%</li>\n<li>ACIDO SALICILICO — 3%</li>\n<li>UREIA — 10%</li>\n<li>VEICULO — 10ML</li>\n</ul><p><strong>Apresentação:</strong> Solução 10ml - Validade 4 meses</p>",
       comoUsar: "<p>Utilize o produto conforme as <strong>instruções do fabricante</strong> ou de acordo com a orientação de um profissional habilitado. Não utilize dose, frequência ou horário diferentes daqueles recomendados na orientação recebida.</p>",
       advertencias: "<p>Utilize o produto conforme orientação do fabricante ou de profissional habilitado. Em caso de dúvidas sobre a utilização do produto, procure orientação profissional.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
@@ -924,7 +885,34 @@ const produtos = [
       resumo: "<p>Embalagem de vidro âmbar Esmalte Elegance de 10ml, com <strong>design diferenciado</strong> e formato tipo esmalte, desenvolvida para o acondicionamento de formulações destinadas aos cuidados e tratamentos das unhas das mãos e dos pés.</p>",
       oQueE: "<p>A <strong>Embalagem Esmalte Elegance 10ml</strong> é um frasco de vidro na cor âmbar, com apresentação inspirada em embalagens de esmalte, desenvolvido para a acomodação de formulações.</p><p>Sua finalidade é oferecer uma opção prática para o <strong>acondicionamento de fórmulas</strong> destinadas aos cuidados e tratamentos das unhas das mãos e dos pés, incluindo formulações para micose, fungos e fortalecimento das unhas.</p><p>É recomendada para profissionais, farmácias de manipulação e estabelecimentos que necessitam de uma embalagem apropriada para acondicionar formulações destinadas às unhas, conforme a finalidade específica do produto acondicionado.</p>",
       composicao: "<ul>\n<li>Não se aplica ao produto</li>\n</ul><p><strong>Apresentação:</strong> Embalagem de vidro - Capacidade 10ml</p>",
-      comoUsar: "<p>Utilize a embalagem para o acondicionamento da formulação conforme sua finalidade. Siga as <strong>instruções do fabricante</strong> e, quando aplic��vel, a orientação de um profissional habilitado quanto ao preparo, acondicionamento e utilização da formulação.</p>",
+      comoUsar: "<p>Utilize a embalagem para o acondicionamento da formulação conforme sua finalidade. Siga as <strong>instruções do fabricante</strong> e, quando aplicável, a orientação de um profissional habilitado quanto ao preparo, acondicionamento e utilização da formulação.</p>",
+      advertencias: "<p>Utilize a embalagem de acordo com sua finalidade e mantenha-a em condições adequadas de conservação. Para informações específicas sobre a formulação acondicionada, siga as orientações do fabricante ou de um profissional habilitado.</p>"
+    },
+    destaque: false,
+    mostrarlancamento: false,
+    mostrarVideo: false,
+    textoParcelamento: "🎟️ Cupom válido no carrinho. 💳 Consulte parcelamento no checkout",
+    cupomAtivo: false,
+    cupomPorcentagem: 0,
+    cupomCodigo: "",
+    cupomValidade: "",
+    cupomMensagemTag: "",
+    cupomOcultarTag: false
+  },
+  {
+    id: "48",
+    nome: "Embalagem Conta Gotas Vidro Euro Âmbar 20ml",
+    categoria: "embalagens",
+    preco: 7.00,
+    imagem: "assets/img/embalagem-conta-gotas-vidro-euro-ambar-20ml.png",
+    videos: [
+      
+    ],
+    descricao: {
+      resumo: "<p>Embalagem de vidro Euro âmbar de 20ml, com <strong>rosca 18</strong> e sistema conta-gotas, desenvolvida para o acondicionamento prático de diferentes tipos de soluções e preparações líquidas.</p>",
+      oQueE: "<p>A <strong>Embalagem Conta Gotas Vidro Euro Âmbar 20ml</strong> é um frasco de vidro na cor âmbar, com rosca 18 e conta-gotas, indicado para o acondicionamento de diferentes formulações.</p><p>Sua finalidade é oferecer uma embalagem prática para armazenar <strong>soluções líquidas ou em glóbulos</strong>, xaropes, homeopatias, florais, entre outras preparações, conforme a necessidade de acondicionamento.</p><p>É recomendada para farmácias de manipulação, profissionais e estabelecimentos que necessitam de uma embalagem adequada para o acondicionamento de preparações líquidas ou em glóbulos, de acordo com a finalidade da formulação.</p>",
+      composicao: "<ul>\n<li>Não se Aplica ao produto.</li>\n</ul><p><strong>Apresentação:</strong> Embalagem em Vidro - Capacidade 20ml</p>",
+      comoUsar: "<p>Utilize a embalagem para o acondicionamento da formulação conforme sua finalidade. Siga as <strong>instruções do fabricante</strong> e, quando aplicável, a orientação de um profissional habilitado quanto ao acondicionamento e utilização da preparação.</p>",
       advertencias: "<p>Utilize a embalagem de acordo com sua finalidade e mantenha-a em condições adequadas de conservação. Para informações específicas sobre a formulação acondicionada, siga as orientações do fabricante ou de um profissional habilitado.</p>"
     },
     destaque: false,
