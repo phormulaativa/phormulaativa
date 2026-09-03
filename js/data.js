@@ -9,8 +9,8 @@ const cupomSite = {
   "porcentagem": 0,
   "codigo": "",
   "validade": "",
-  "mensagemTag": "X% de desconto no fechamento do pedido",
-  "ocultarTagCupom": true
+  "mensagemTag": "15%OFF",
+  "ocultarTagCupom": false
 };
 
 /* ============================================================
@@ -26,18 +26,20 @@ const categorias = [
     cupomPorcentagem: 0,
     cupomCodigo: "",
     cupomValidade: "",
-    cupomMensagemTag: ""
+    cupomMensagemTag: "",
+    cupomOcultarTag: false
   },
   {
     id: "podologia",
     nome: "Podologia - Ana Antunes",
     nomeMenu: "Podologia - Ana Antunes",
     mostrarNoMenu: true,
-    cupomAtivo: false,
+    cupomAtivo: true,
     cupomPorcentagem: 15,
     cupomCodigo: "ANTUNES15",
     cupomValidade: "2026-09-05",
-    cupomMensagemTag: "CUPOM ATIVO"
+    cupomMensagemTag: "CUPOM ATIVO",
+    cupomOcultarTag: false
   },
   {
     id: "emagrecimento",
@@ -48,7 +50,8 @@ const categorias = [
     cupomPorcentagem: 0,
     cupomCodigo: "",
     cupomValidade: "",
-    cupomMensagemTag: ""
+    cupomMensagemTag: "",
+    cupomOcultarTag: false
   },
   {
     id: "desempenhofisico",
@@ -59,7 +62,8 @@ const categorias = [
     cupomPorcentagem: 0,
     cupomCodigo: "",
     cupomValidade: "",
-    cupomMensagemTag: ""
+    cupomMensagemTag: "",
+    cupomOcultarTag: false
   },
   {
     id: "saude",
@@ -70,7 +74,8 @@ const categorias = [
     cupomPorcentagem: 0,
     cupomCodigo: "",
     cupomValidade: "",
-    cupomMensagemTag: ""
+    cupomMensagemTag: "",
+    cupomOcultarTag: false
   },
   {
     id: "quedacapilar",
@@ -81,7 +86,8 @@ const categorias = [
     cupomPorcentagem: 0,
     cupomCodigo: "",
     cupomValidade: "",
-    cupomMensagemTag: ""
+    cupomMensagemTag: "",
+    cupomOcultarTag: false
   },
   {
     id: "libido",
@@ -92,7 +98,8 @@ const categorias = [
     cupomPorcentagem: 0,
     cupomCodigo: "",
     cupomValidade: "",
-    cupomMensagemTag: ""
+    cupomMensagemTag: "",
+    cupomOcultarTag: false
   },
   {
     id: "beleza",
@@ -103,7 +110,8 @@ const categorias = [
     cupomPorcentagem: 0,
     cupomCodigo: "",
     cupomValidade: "",
-    cupomMensagemTag: ""
+    cupomMensagemTag: "",
+    cupomOcultarTag: false
   },
   {
     id: "podologia1",
@@ -114,7 +122,8 @@ const categorias = [
     cupomPorcentagem: 0,
     cupomCodigo: "",
     cupomValidade: "",
-    cupomMensagemTag: ""
+    cupomMensagemTag: "",
+    cupomOcultarTag: false
   }
 ];
 
@@ -146,7 +155,8 @@ const produtos = [
     cupomPorcentagem: 15,
     cupomCodigo: "PROMO15",
     cupomValidade: "2026-09-05",
-    cupomMensagemTag: "CUPOM ATIVO"
+    cupomMensagemTag: "CUPOM ATIVO",
+    cupomOcultarTag: true
   },
   {
     id: "19",
@@ -172,7 +182,8 @@ const produtos = [
     cupomPorcentagem: 0,
     cupomCodigo: "",
     cupomValidade: "",
-    cupomMensagemTag: ""
+    cupomMensagemTag: "",
+    cupomOcultarTag: false
   },
   {
     id: "21",
@@ -198,7 +209,8 @@ const produtos = [
     cupomPorcentagem: 0,
     cupomCodigo: "",
     cupomValidade: "",
-    cupomMensagemTag: ""
+    cupomMensagemTag: "",
+    cupomOcultarTag: false
   },
   {
     id: "22",
@@ -224,7 +236,8 @@ const produtos = [
     cupomPorcentagem: 0,
     cupomCodigo: "",
     cupomValidade: "",
-    cupomMensagemTag: ""
+    cupomMensagemTag: "",
+    cupomOcultarTag: false
   },
   {
     id: "23",
@@ -250,7 +263,8 @@ const produtos = [
     cupomPorcentagem: 0,
     cupomCodigo: "",
     cupomValidade: "",
-    cupomMensagemTag: ""
+    cupomMensagemTag: "",
+    cupomOcultarTag: false
   },
   {
     id: "24",
@@ -276,7 +290,8 @@ const produtos = [
     cupomPorcentagem: 0,
     cupomCodigo: "",
     cupomValidade: "",
-    cupomMensagemTag: ""
+    cupomMensagemTag: "",
+    cupomOcultarTag: false
   },
   {
     id: "25",
@@ -302,7 +317,8 @@ const produtos = [
     cupomPorcentagem: 0,
     cupomCodigo: "",
     cupomValidade: "",
-    cupomMensagemTag: ""
+    cupomMensagemTag: "",
+    cupomOcultarTag: false
   },
   {
     id: "26",
@@ -328,7 +344,8 @@ const produtos = [
     cupomPorcentagem: 0,
     cupomCodigo: "",
     cupomValidade: "",
-    cupomMensagemTag: ""
+    cupomMensagemTag: "",
+    cupomOcultarTag: false
   },
   {
     id: "27",
@@ -354,7 +371,8 @@ const produtos = [
     cupomPorcentagem: 0,
     cupomCodigo: "",
     cupomValidade: "",
-    cupomMensagemTag: ""
+    cupomMensagemTag: "",
+    cupomOcultarTag: false
   },
   {
     id: "28",
@@ -380,7 +398,8 @@ const produtos = [
     cupomPorcentagem: 0,
     cupomCodigo: "",
     cupomValidade: "",
-    cupomMensagemTag: ""
+    cupomMensagemTag: "",
+    cupomOcultarTag: false
   },
   {
     id: "29",
@@ -406,7 +425,8 @@ const produtos = [
     cupomPorcentagem: 0,
     cupomCodigo: "",
     cupomValidade: "",
-    cupomMensagemTag: ""
+    cupomMensagemTag: "",
+    cupomOcultarTag: false
   },
   {
     id: "30",
@@ -432,7 +452,8 @@ const produtos = [
     cupomPorcentagem: 0,
     cupomCodigo: "",
     cupomValidade: "",
-    cupomMensagemTag: ""
+    cupomMensagemTag: "",
+    cupomOcultarTag: false
   },
   {
     id: "31",
@@ -458,7 +479,8 @@ const produtos = [
     cupomPorcentagem: 0,
     cupomCodigo: "",
     cupomValidade: "",
-    cupomMensagemTag: ""
+    cupomMensagemTag: "",
+    cupomOcultarTag: false
   },
   {
     id: "32",
@@ -484,7 +506,8 @@ const produtos = [
     cupomPorcentagem: 0,
     cupomCodigo: "",
     cupomValidade: "",
-    cupomMensagemTag: ""
+    cupomMensagemTag: "",
+    cupomOcultarTag: false
   },
   {
     id: "33",
@@ -510,7 +533,8 @@ const produtos = [
     cupomPorcentagem: 0,
     cupomCodigo: "",
     cupomValidade: "",
-    cupomMensagemTag: ""
+    cupomMensagemTag: "",
+    cupomOcultarTag: false
   },
   {
     id: "34",
@@ -536,7 +560,8 @@ const produtos = [
     cupomPorcentagem: 0,
     cupomCodigo: "",
     cupomValidade: "",
-    cupomMensagemTag: ""
+    cupomMensagemTag: "",
+    cupomOcultarTag: false
   },
   {
     id: "35",
@@ -562,7 +587,8 @@ const produtos = [
     cupomPorcentagem: 0,
     cupomCodigo: "",
     cupomValidade: "",
-    cupomMensagemTag: ""
+    cupomMensagemTag: "",
+    cupomOcultarTag: false
   },
   {
     id: "36",
@@ -588,7 +614,8 @@ const produtos = [
     cupomPorcentagem: 0,
     cupomCodigo: "",
     cupomValidade: "",
-    cupomMensagemTag: ""
+    cupomMensagemTag: "",
+    cupomOcultarTag: false
   },
   {
     id: "37",
@@ -614,7 +641,8 @@ const produtos = [
     cupomPorcentagem: 0,
     cupomCodigo: "",
     cupomValidade: "",
-    cupomMensagemTag: ""
+    cupomMensagemTag: "",
+    cupomOcultarTag: false
   },
   {
     id: "38",
@@ -627,7 +655,7 @@ const produtos = [
     ],
     descricao: {
       resumo: "<p>Terbinafina 5% é uma solução de uso tópico desenvolvida para <strong>auxiliar no cuidado de micoses resistentes</strong>, com formulação concentrada para aplicação local.</p>",
-      oQueE: "<p>Terbinafina 5% é uma solução de uso tópico formulada com terbinafina cloridrato a 5%, destinada ao cuidado da pele e das áreas indicadas para sua aplicação.</p><p>Sua finalidade é <strong>auxiliar no tratamento de micoses resistentes</strong>, oferecendo uma opção de aplicação local dentro dos cuidados antifúngicos recomendados.</p><p>Pode ser indicada para pessoas que necessitam de cuidado tópico relacionado a micoses, especialmente quando houver <strong>orientação profissional</strong> para utilização de uma formulação com terbinafina.</p>",
+      oQueE: "<p>Terbinafina 5% é uma solução de uso tópico formulada com terbinafina cloridrato a 5%, destinada ao cuidado da pele e das áreas indicadas para sua aplicação.</p><p>Sua finalidade é <strong>auxiliar no tratamento de micoses resistentes</strong>, oferecendo uma opção de aplicação local dentro dos cuidados antifúngicos recomendados.</p><p>Pode ser indicada para pessoas que necessitam de cuidado tópico relacionado a micoses, especialmente quando houver <strong>orientação profissional</strong> para utilização de uma formula��ão com terbinafina.</p>",
       composicao: "<ul>\n<li>TERBINAFINA CLORIDRATO — 5%</li>\n<li>VEICULO — 10ML</li>\n</ul><p><strong>Apresentação:</strong> Solução 10ml - Validade 4 meses</p>",
       comoUsar: "<p>Utilize o produto conforme as <strong>instruções do fabricante</strong> ou de acordo com a orientação de um profissional habilitado. Não estabeleça dose, frequência ou horários de utilização diferentes daqueles indicados na orientação recebida.</p>",
       advertencias: "<p>Utilize o produto de acordo com as orientações fornecidas pelo fabricante. Em caso de dúvidas sobre a utilização ou sobre a persistência dos sintomas, procure orientação de um profissional habilitado.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
@@ -640,7 +668,8 @@ const produtos = [
     cupomPorcentagem: 0,
     cupomCodigo: "",
     cupomValidade: "",
-    cupomMensagemTag: ""
+    cupomMensagemTag: "",
+    cupomOcultarTag: false
   },
   {
     id: "39",
@@ -666,7 +695,8 @@ const produtos = [
     cupomPorcentagem: 0,
     cupomCodigo: "",
     cupomValidade: "",
-    cupomMensagemTag: ""
+    cupomMensagemTag: "",
+    cupomOcultarTag: false
   },
   {
     id: "40",
@@ -680,7 +710,7 @@ const produtos = [
     descricao: {
       resumo: "<p>Terbinafina Aprimorada é uma solução de uso tópico desenvolvida para <strong>auxiliar no cuidado de micoses resistentes</strong>, reunindo diferentes componentes em uma formulação de aplicação local.</p>",
       oQueE: "<p>Terbinafina Aprimorada é uma solução de uso tópico formulada com terbinafina cloridrato, ciclopirox olamina, miconazol, fluconazol, ácido salicílico, ureia, óleo de melaleuca e propilenoglicol.</p><p>Sua finalidade é <strong>auxiliar no tratamento de micoses resistentes</strong>, oferecendo uma formulação destinada ao cuidado antifúngico tópico, sem promessa de cura ou resultado garantido.</p><p>Pode ser indicada para pessoas que necessitam de cuidado tópico relacionado a micoses resistentes, especialmente quando houver <strong>orientação de um profissional habilitado</strong> para utilização da formulação.</p>",
-      composicao: "<ul>\n<li>TERBINAFINA CLORIDRATO — 1%</li>\n<li>CICLOPIROX OLAMINA — 8%</li>\n<li>MICONAZOL — 2%</li>\n<li>FLUCONAZOL — 2%</li>\n<li>ACIDO SALICILICO — 3%</li>\n<li>UREIA — 10%</li>\n<li>OLEO DE MELALEUCA ESS — 2%</li>\n<li>PROPILENOGLICOL — 10ML</li>\n</ul><p><strong>Apresentação:</strong> Solução 10ml - Validade 4 meses</p>",
+      composicao: "<ul>\n<li>TERBINAFINA CLORIDRATO — 1%</li>\n<li>CICLOPIROX OLAMINA — 8%</li>\n<li>MICONAZOL — 2%</li>\n<li>FLUCONAZOL ��� 2%</li>\n<li>ACIDO SALICILICO — 3%</li>\n<li>UREIA — 10%</li>\n<li>OLEO DE MELALEUCA ESS — 2%</li>\n<li>PROPILENOGLICOL — 10ML</li>\n</ul><p><strong>Apresentação:</strong> Solução 10ml - Validade 4 meses</p>",
       comoUsar: "<p>Utilize o produto conforme as <strong>instruções do fabricante</strong> ou de acordo com a orientação de um profissional habilitado. Não estabeleça dose, frequência ou horários de utilização diferentes daqueles indicados na orientação recebida.</p>",
       advertencias: "<p>Utilize o produto de acordo com as orientações fornecidas pelo fabricante. Em caso de dúvidas sobre a utilização ou sobre a persistência dos sintomas, procure orientação de um profissional habilitado.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
     },
@@ -692,7 +722,8 @@ const produtos = [
     cupomPorcentagem: 0,
     cupomCodigo: "",
     cupomValidade: "",
-    cupomMensagemTag: ""
+    cupomMensagemTag: "",
+    cupomOcultarTag: false
   },
   {
     id: "41",
@@ -718,7 +749,8 @@ const produtos = [
     cupomPorcentagem: 0,
     cupomCodigo: "",
     cupomValidade: "",
-    cupomMensagemTag: ""
+    cupomMensagemTag: "",
+    cupomOcultarTag: false
   },
   {
     id: "42",
@@ -744,7 +776,8 @@ const produtos = [
     cupomPorcentagem: 0,
     cupomCodigo: "",
     cupomValidade: "",
-    cupomMensagemTag: ""
+    cupomMensagemTag: "",
+    cupomOcultarTag: false
   },
   {
     id: "43",
@@ -770,7 +803,8 @@ const produtos = [
     cupomPorcentagem: 0,
     cupomCodigo: "",
     cupomValidade: "",
-    cupomMensagemTag: ""
+    cupomMensagemTag: "",
+    cupomOcultarTag: false
   },
   {
     id: "44",
@@ -796,7 +830,8 @@ const produtos = [
     cupomPorcentagem: 0,
     cupomCodigo: "",
     cupomValidade: "",
-    cupomMensagemTag: ""
+    cupomMensagemTag: "",
+    cupomOcultarTag: false
   }
 ];
 
