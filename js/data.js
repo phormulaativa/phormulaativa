@@ -37,7 +37,7 @@ const categorias = [
     cupomPorcentagem: 15,
     cupomCodigo: "ANTUNES15",
     cupomValidade: "2026-09-05",
-    cupomMensagemTag: "CUPOM DE 15%OFF"
+    cupomMensagemTag: "CUPOM ATIVO"
   },
   {
     id: "emagrecimento",
