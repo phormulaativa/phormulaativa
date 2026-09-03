@@ -281,27 +281,26 @@ card.addEventListener("click", (e) => {
   // Comprar via WhatsApp
 btnComprar.addEventListener("click", () => {
   const cupom = obterCupomValido(produto);
+
   if (cupom) {
     abrirModalCupom(produto, quantidade);
   } else {
+    const valorUnitario = produto.preco;
+    const valorTotal = valorUnitario * quantidade;
+    const linkProduto = `${window.location.origin}${window.location.pathname}%23produto-${produto.id}`;
 
-  // 1️⃣ calcula o total
-  const valorUnitario = produto.preco;
-  const valorTotal = valorUnitario * quantidade;
-  const linkProduto = `${window.location.origin}${window.location.pathname}%23produto-${produto.id}`;
-  // 2️⃣ monta a mensagem
-  const mensagem =
-    `Olá! Gostaria de fazer um pedido:%0A%0A` +
-    `Produto: ${produto.nome}%0A` +
-    `Categoria: ${slugParaNomeCategoria(produto.categoria)}%0A` +
-    `Quantidade: ${quantidade} unidade(s)%0A` +
-    `Valor unitário: ${formatarPreco(valorUnitario)}%0A` +
-    `Valor total: ${formatarPreco(valorTotal)}%0A%0A` +
-    `Link do produto:%0A${linkProduto}`;
+    const mensagem =
+      `Olá! Gostaria de fazer um pedido:%0A%0A` +
+      `Produto: ${produto.nome}%0A` +
+      `Categoria: ${slugParaNomeCategoria(produto.categoria)}%0A` +
+      `Quantidade: ${quantidade} unidade(s)%0A` +
+      `Valor unitário: ${formatarPreco(valorUnitario)}%0A` +
+      `Valor total: ${formatarPreco(valorTotal)}%0A%0A` +
+      `Link do produto:%0A${linkProduto}`;
 
-  // 3️⃣ abre o WhatsApp
-  const url = `https://wa.me/${WHATSAPP_NUMERO}?text=${mensagem}`;
-  window.open(url, "_blank");
+    const url = `https://wa.me/${WHATSAPP_NUMERO}?text=${mensagem}`;
+    window.open(url, "_blank");
+  }
 });
 
 
