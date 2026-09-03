@@ -4,16 +4,18 @@
  * Site > Categoria > Produto
  */
 function obterCupomValido(produto) {
-  const hoje = new Date().toISOString().slice(0, 10); // YYYY-MM-DD
+  if (!produto) return null;
+
+  const hoje = new Date().toISOString().slice(0, 10);
 
   // 1. Cupom do Site
   if (window.cupomSite && window.cupomSite.ativo && window.cupomSite.codigo) {
     if (!window.cupomSite.validade || window.cupomSite.validade >= hoje) {
       return {
         tipo: 'site',
-        porcentagem: window.cupomSite.porcentagem,
+        porcentagem: Number(window.cupomSite.porcentagem) || 0,
         codigo: window.cupomSite.codigo,
-        mensagem: window.cupomSite.mensagemTag || `${window.cupomSite.porcentagem}% de desconto no fechamento do pedido`
+        mensagem: window.cupomSite.mensagemTag || (window.cupomSite.porcentagem + '% de desconto no fechamento do pedido')
       };
     }
   }
@@ -24,9 +26,9 @@ function obterCupomValido(produto) {
     if (!categoria.cupomValidade || categoria.cupomValidade >= hoje) {
       return {
         tipo: 'categoria',
-        porcentagem: categoria.cupomPorcentagem,
+        porcentagem: Number(categoria.cupomPorcentagem) || 0,
         codigo: categoria.cupomCodigo,
-        mensagem: categoria.cupomMensagemTag || `${categoria.cupomPorcentagem}% de desconto no fechamento do pedido`
+        mensagem: categoria.cupomMensagemTag || (categoria.cupomPorcentagem + '% de desconto no fechamento do pedido')
       };
     }
   }
@@ -36,14 +38,14 @@ function obterCupomValido(produto) {
     if (!produto.cupomValidade || produto.cupomValidade >= hoje) {
       return {
         tipo: 'produto',
-        porcentagem: produto.cupomPorcentagem,
+        porcentagem: Number(produto.cupomPorcentagem) || 0,
         codigo: produto.cupomCodigo,
-        mensagem: produto.cupomMensagemTag || `${produto.cupomPorcentagem}% de desconto no fechamento do pedido`
+        mensagem: produto.cupomMensagemTag || (produto.cupomPorcentagem + '% de desconto no fechamento do pedido')
       };
     }
   }
 
-  return null; // nenhum cupom válido
+  return null;
 }
 
 
