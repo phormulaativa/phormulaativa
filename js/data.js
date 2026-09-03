@@ -10,7 +10,7 @@ const cupomSite = {
   "codigo": "",
   "validade": "",
   "mensagemTag": "X% de desconto no fechamento do pedido",
-  "ocultarTagCupom": false
+  "ocultarTagCupom": true
 };
 
 /* ============================================================
