@@ -310,3 +310,8 @@ async function main() {
   fs.writeFileSync(OUTPUT_PATH, js, 'utf8');
   console.log('Arquivo gerado: ' + OUTPUT_PATH);
 }
+
+main().catch(err => {
+  console.error('Erro:', err.message);
+  process.exit(1);
+});
