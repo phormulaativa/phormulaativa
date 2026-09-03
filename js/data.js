@@ -33,7 +33,7 @@ const categorias = [
     nome: "Podologia - Ana Antunes",
     nomeMenu: "Podologia - Ana Antunes",
     mostrarNoMenu: true,
-    cupomAtivo: true,
+    cupomAtivo: false,
     cupomPorcentagem: 15,
     cupomCodigo: "ANTUNES15",
     cupomValidade: "2026-09-05",
