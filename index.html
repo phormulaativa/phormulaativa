@@ -443,6 +443,30 @@
 <script src="./js/load-whatsapp.js"></script>
 <!-- Script para carregar integração/funcionalidade do WhatsApp -->
 
+
+
+
+
+
+<!-- Modal Cupom - Comprar Direto -->
+<div id="modalCupomComprar" class="modal-cupom-overlay" style="display:none;">
+  <div class="modal-cupom">
+    <button class="modal-cupom-close" onclick="fecharModalCupom()">✕</button>
+    <h3>Cupom de Desconto</h3>
+    <p>Este produto possui desconto disponível. Insira o cupom ou continue sem ele.</p>
+    
+    <input type="text" id="inputCupomComprar" placeholder="Digite o cupom" style="text-transform:uppercase;">
+    
+    <div class="modal-cupom-botoes">
+      <button class="btn-validar-cupom" onclick="validarCupomComprar()">Validar cupom</button>
+      <button class="btn-sem-cupom" onclick="comprarSemCupom()">Não tenho cupom</button>
+    </div>
+    
+    <div id="msgCupomComprar" class="modal-cupom-msg"></div>
+  </div>
+</div>  
+  
+  
    
 </body>
 </html>
