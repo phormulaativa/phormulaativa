@@ -304,43 +304,8 @@ function comprarProduto() {
     'Link do produto:%0A' + linkProduto;
 
   window.open('https://wa.me/' + WHATSAPP_NUMERO + '?text=' + mensagem, '_blank');
-} {
-  if (!produto) return;
-
-  const cupom = obterCupomValido(produto);
-
-  if (cupom) {
-    abrirModalCupom(produto, quantidadeAtual);
-    return;
-  }
-
-  const valorUnitario = produto.preco;
-  const quantidade = quantidadeAtual;
-  const valorTotal = valorUnitario * quantidade;
-
-  const basePath = window.location.pathname
-    .split("/")
-    .slice(0, -1)
-    .join("/");
-
-  const linkProduto =
-    `${window.location.origin}${basePath}/produto.html?id=${produto.id}`;
-
-  const categoriaObj = categorias.find(c => c.id === produto.categoria);
-  const nomeCategoria = categoriaObj ? categoriaObj.nome : produto.categoria;
-
-  const mensagem =
-    `Olá! Gostaria de fazer um pedido:%0A%0A` +
-    `Produto: ${produto.nome}%0A` +
-    `Categoria: ${nomeCategoria}%0A` +
-    `Quantidade: ${quantidade} unidade(s)%0A` +
-    `Valor unitário: ${formatarPreco(valorUnitario)}%0A` +
-    `Valor total: ${formatarPreco(valorTotal)}%0A%0A` +
-    `Link do produto:%0A${linkProduto}`;
-
-  const url = `https://wa.me/${WHATSAPP_NUMERO}?text=${mensagem}`;
-  window.open(url, "_blank");
 }
+
 
 
 
