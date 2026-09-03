@@ -14,7 +14,8 @@ function obterCupomValido(produto) {
         tipo: 'site',
         porcentagem: Number(window.cupomSite.porcentagem) || 0,
         codigo: window.cupomSite.codigo,
-        mensagem: window.cupomSite.mensagemTag || (window.cupomSite.porcentagem + '% de desconto no fechamento do pedido')
+        mensagem: window.cupomSite.mensagemTag || (window.cupomSite.porcentagem + '% de desconto no fechamento do pedido'),
+        ocultarTag: !!window.cupomSite.ocultarTagCupom
       };
     }
   }
@@ -27,7 +28,8 @@ function obterCupomValido(produto) {
         tipo: 'categoria',
         porcentagem: Number(categoria.cupomPorcentagem) || 0,
         codigo: categoria.cupomCodigo,
-        mensagem: categoria.cupomMensagemTag || (categoria.cupomPorcentagem + '% de desconto no fechamento do pedido')
+        mensagem: categoria.cupomMensagemTag || (categoria.cupomPorcentagem + '% de desconto no fechamento do pedido'),
+        ocultarTag: !!categoria.cupomOcultarTag
       };
     }
   }
@@ -39,7 +41,8 @@ function obterCupomValido(produto) {
         tipo: 'produto',
         porcentagem: Number(produto.cupomPorcentagem) || 0,
         codigo: produto.cupomCodigo,
-        mensagem: produto.cupomMensagemTag || (produto.cupomPorcentagem + '% de desconto no fechamento do pedido')
+        mensagem: produto.cupomMensagemTag || (produto.cupomPorcentagem + '% de desconto no fechamento do pedido'),
+        ocultarTag: !!produto.cupomOcultarTag
       };
     }
   }
@@ -196,7 +199,7 @@ function criarCardProduto(produto, isBanner = false) {
   card.id = `produto-${produto.id}`;
 
   const cupom = obterCupomValido(produto);
-const tagDesconto = cupom
+const tagDesconto = (cupom && !cupom.ocultarTag)
   ? `<span class="badge-desconto">${cupom.mensagem}</span>`
   : '';
 
