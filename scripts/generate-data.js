@@ -175,13 +175,13 @@ async function main() {
     if (!r.id) continue;
 
     if (seenIds.has(r.id)) {
-      console.warn(`⚠️  id duplicado ignorado: ${r.id}`);
+      console.warn('id duplicado ignorado: ' + r.id);
       continue;
     }
     seenIds.add(r.id);
 
     if (r.categoria && !catIds.has(r.categoria)) {
-      console.warn(`⚠️  Produto ${r.id} tem categoria inexistente: "${r.categoria}"`);
+      console.warn('Produto ' + r.id + ' tem categoria inexistente: "' + r.categoria + '"');
     }
 
     const videos = (r.videos || '')
@@ -262,13 +262,13 @@ async function main() {
     if (!r.id) continue;
 
     if (seenIds.has(r.id)) {
-      console.warn(`⚠️  id duplicado ignorado: ${r.id}`);
+      console.warn('id duplicado ignorado: ' + r.id);
       continue;
     }
     seenIds.add(r.id);
 
     if (r.categoria && !catIds.has(r.categoria)) {
-      console.warn(`⚠️  Produto ${r.id} tem categoria inexistente: "${r.categoria}"`);
+      console.warn('Produto ' + r.id + ' tem categoria inexistente: "' + r.categoria + '"');
     }
 
     const videos = (r.videos || '')
