@@ -1,9 +1,16 @@
 /* ============================================================
-   CONFIGURAÇÕES GERAIS
+   CONFIGURACOES GERAIS
    ============================================================ */
-// Número fixo do WhatsApp da farmácia (formato internacional, sem +)
 // Gerado automaticamente a partir da planilha Google Sheets
 const WHATSAPP_NUMERO = "5518997033495";
+
+const cupomSite = {
+  "ativo": false,
+  "porcentagem": 0,
+  "codigo": "",
+  "validade": "",
+  "mensagemTag": "X% de desconto no fechamento do pedido"
+};
 
 /* ============================================================
    CATEGORIAS
@@ -13,55 +20,100 @@ const categorias = [
     id: "inicio",
     nome: "#",
     nomeMenu: "Início",
-    mostrarNoMenu: true
+    mostrarNoMenu: true,
+    cupomAtivo: false,
+    cupomPorcentagem: 0,
+    cupomCodigo: "",
+    cupomValidade: "",
+    cupomMensagemTag: ""
   },
   {
     id: "podologia",
     nome: "Podologia - Ana Antunes",
     nomeMenu: "Podologia - Ana Antunes",
-    mostrarNoMenu: true
+    mostrarNoMenu: true,
+    cupomAtivo: false,
+    cupomPorcentagem: 0,
+    cupomCodigo: "",
+    cupomValidade: "",
+    cupomMensagemTag: ""
   },
   {
     id: "emagrecimento",
     nome: "Manipulados para emagrecimento",
     nomeMenu: "Emagrecimento",
-    mostrarNoMenu: false
+    mostrarNoMenu: false,
+    cupomAtivo: false,
+    cupomPorcentagem: 0,
+    cupomCodigo: "",
+    cupomValidade: "",
+    cupomMensagemTag: ""
   },
   {
     id: "desempenhofisico",
     nome: "Manipulados para desempenho físico",
     nomeMenu: "Desempenho físico",
-    mostrarNoMenu: false
+    mostrarNoMenu: false,
+    cupomAtivo: false,
+    cupomPorcentagem: 0,
+    cupomCodigo: "",
+    cupomValidade: "",
+    cupomMensagemTag: ""
   },
   {
     id: "saude",
     nome: "Manipulados para saúde e bem-estar",
     nomeMenu: "Saúde",
-    mostrarNoMenu: false
+    mostrarNoMenu: false,
+    cupomAtivo: false,
+    cupomPorcentagem: 0,
+    cupomCodigo: "",
+    cupomValidade: "",
+    cupomMensagemTag: ""
   },
   {
     id: "quedacapilar",
     nome: "Manipulados para queda capilar",
     nomeMenu: "Queda Capilar",
-    mostrarNoMenu: false
+    mostrarNoMenu: false,
+    cupomAtivo: false,
+    cupomPorcentagem: 0,
+    cupomCodigo: "",
+    cupomValidade: "",
+    cupomMensagemTag: ""
   },
   {
     id: "libido",
     nome: "Manipulados para libido",
     nomeMenu: "Libido",
-    mostrarNoMenu: false
+    mostrarNoMenu: false,
+    cupomAtivo: false,
+    cupomPorcentagem: 0,
+    cupomCodigo: "",
+    cupomValidade: "",
+    cupomMensagemTag: ""
   },
   {
     id: "beleza",
     nome: "Manipulados para beleza",
     nomeMenu: "Beleza",
-    mostrarNoMenu: false
+    mostrarNoMenu: false,
+    cupomAtivo: false,
+    cupomPorcentagem: 0,
+    cupomCodigo: "",
+    cupomValidade: "",
+    cupomMensagemTag: ""
   },
   {
     id: "podologia1",
     nome: "Manipulados para podologia",
     nomeMenu: "Podologia",
-    mostrarNoMenu: false
+    mostrarNoMenu: false,
+    cupomAtivo: false,
+    cupomPorcentagem: 0,
+    cupomCodigo: "",
+    cupomValidade: "",
+    cupomMensagemTag: ""
   }
 ];
 
@@ -88,7 +140,12 @@ const produtos = [
     destaque: false,
     mostrarlancamento: false,
     mostrarVideo: false,
-    textoParcelamento: "ou 1x de R$ 40,00"
+    textoParcelamento: "ou 1x de R$ 40,00",
+    cupomAtivo: false,
+    cupomPorcentagem: 0,
+    cupomCodigo: "",
+    cupomValidade: "",
+    cupomMensagemTag: ""
   },
   {
     id: "19",
@@ -109,7 +166,12 @@ const produtos = [
     destaque: false,
     mostrarlancamento: false,
     mostrarVideo: false,
-    textoParcelamento: "ou 1x de R$ 40,00"
+    textoParcelamento: "ou 1x de R$ 40,00",
+    cupomAtivo: false,
+    cupomPorcentagem: 0,
+    cupomCodigo: "",
+    cupomValidade: "",
+    cupomMensagemTag: ""
   },
   {
     id: "21",
@@ -130,7 +192,12 @@ const produtos = [
     destaque: false,
     mostrarlancamento: false,
     mostrarVideo: false,
-    textoParcelamento: "ou 1x de R$ 50,00"
+    textoParcelamento: "ou 1x de R$ 50,00",
+    cupomAtivo: false,
+    cupomPorcentagem: 0,
+    cupomCodigo: "",
+    cupomValidade: "",
+    cupomMensagemTag: ""
   },
   {
     id: "22",
@@ -151,7 +218,12 @@ const produtos = [
     destaque: false,
     mostrarlancamento: false,
     mostrarVideo: false,
-    textoParcelamento: "ou 1x de R$ 30,00"
+    textoParcelamento: "ou 1x de R$ 30,00",
+    cupomAtivo: false,
+    cupomPorcentagem: 0,
+    cupomCodigo: "",
+    cupomValidade: "",
+    cupomMensagemTag: ""
   },
   {
     id: "23",
@@ -172,7 +244,12 @@ const produtos = [
     destaque: true,
     mostrarlancamento: false,
     mostrarVideo: false,
-    textoParcelamento: "ou 1x de R$ 50,00"
+    textoParcelamento: "ou 1x de R$ 50,00",
+    cupomAtivo: false,
+    cupomPorcentagem: 0,
+    cupomCodigo: "",
+    cupomValidade: "",
+    cupomMensagemTag: ""
   },
   {
     id: "24",
@@ -193,7 +270,12 @@ const produtos = [
     destaque: false,
     mostrarlancamento: false,
     mostrarVideo: false,
-    textoParcelamento: "ou 1 x de R$ 40,00"
+    textoParcelamento: "ou 1 x de R$ 40,00",
+    cupomAtivo: false,
+    cupomPorcentagem: 0,
+    cupomCodigo: "",
+    cupomValidade: "",
+    cupomMensagemTag: ""
   },
   {
     id: "25",
@@ -214,7 +296,12 @@ const produtos = [
     destaque: false,
     mostrarlancamento: false,
     mostrarVideo: false,
-    textoParcelamento: "ou 1x de R$ 20,00"
+    textoParcelamento: "ou 1x de R$ 20,00",
+    cupomAtivo: false,
+    cupomPorcentagem: 0,
+    cupomCodigo: "",
+    cupomValidade: "",
+    cupomMensagemTag: ""
   },
   {
     id: "26",
@@ -235,7 +322,12 @@ const produtos = [
     destaque: false,
     mostrarlancamento: false,
     mostrarVideo: false,
-    textoParcelamento: "ou 1 x de R$ 20,00"
+    textoParcelamento: "ou 1 x de R$ 20,00",
+    cupomAtivo: false,
+    cupomPorcentagem: 0,
+    cupomCodigo: "",
+    cupomValidade: "",
+    cupomMensagemTag: ""
   },
   {
     id: "27",
@@ -256,7 +348,12 @@ const produtos = [
     destaque: true,
     mostrarlancamento: false,
     mostrarVideo: false,
-    textoParcelamento: "ou 1x de R$ 30,00"
+    textoParcelamento: "ou 1x de R$ 30,00",
+    cupomAtivo: false,
+    cupomPorcentagem: 0,
+    cupomCodigo: "",
+    cupomValidade: "",
+    cupomMensagemTag: ""
   },
   {
     id: "28",
@@ -277,7 +374,12 @@ const produtos = [
     destaque: true,
     mostrarlancamento: false,
     mostrarVideo: false,
-    textoParcelamento: "ou 1x de R$ 30,00"
+    textoParcelamento: "ou 1x de R$ 30,00",
+    cupomAtivo: false,
+    cupomPorcentagem: 0,
+    cupomCodigo: "",
+    cupomValidade: "",
+    cupomMensagemTag: ""
   },
   {
     id: "29",
@@ -298,7 +400,12 @@ const produtos = [
     destaque: true,
     mostrarlancamento: false,
     mostrarVideo: false,
-    textoParcelamento: "ou 1x de R$ 30,00"
+    textoParcelamento: "ou 1x de R$ 30,00",
+    cupomAtivo: false,
+    cupomPorcentagem: 0,
+    cupomCodigo: "",
+    cupomValidade: "",
+    cupomMensagemTag: ""
   },
   {
     id: "30",
@@ -319,7 +426,12 @@ const produtos = [
     destaque: true,
     mostrarlancamento: false,
     mostrarVideo: false,
-    textoParcelamento: "ou 1x de R$ 40,00"
+    textoParcelamento: "ou 1x de R$ 40,00",
+    cupomAtivo: false,
+    cupomPorcentagem: 0,
+    cupomCodigo: "",
+    cupomValidade: "",
+    cupomMensagemTag: ""
   },
   {
     id: "31",
@@ -340,7 +452,12 @@ const produtos = [
     destaque: false,
     mostrarlancamento: false,
     mostrarVideo: false,
-    textoParcelamento: "ou 1x de R$"
+    textoParcelamento: "ou 1x de R$",
+    cupomAtivo: false,
+    cupomPorcentagem: 0,
+    cupomCodigo: "",
+    cupomValidade: "",
+    cupomMensagemTag: ""
   },
   {
     id: "32",
@@ -361,7 +478,12 @@ const produtos = [
     destaque: false,
     mostrarlancamento: false,
     mostrarVideo: false,
-    textoParcelamento: "ou 1x de R$ 50,00"
+    textoParcelamento: "ou 1x de R$ 50,00",
+    cupomAtivo: false,
+    cupomPorcentagem: 0,
+    cupomCodigo: "",
+    cupomValidade: "",
+    cupomMensagemTag: ""
   },
   {
     id: "33",
@@ -382,7 +504,12 @@ const produtos = [
     destaque: false,
     mostrarlancamento: false,
     mostrarVideo: false,
-    textoParcelamento: "ou 1 x de R$ 30,00"
+    textoParcelamento: "ou 1 x de R$ 30,00",
+    cupomAtivo: false,
+    cupomPorcentagem: 0,
+    cupomCodigo: "",
+    cupomValidade: "",
+    cupomMensagemTag: ""
   },
   {
     id: "34",
@@ -403,7 +530,12 @@ const produtos = [
     destaque: false,
     mostrarlancamento: false,
     mostrarVideo: false,
-    textoParcelamento: "ou 1x de R$ 30,00"
+    textoParcelamento: "ou 1x de R$ 30,00",
+    cupomAtivo: false,
+    cupomPorcentagem: 0,
+    cupomCodigo: "",
+    cupomValidade: "",
+    cupomMensagemTag: ""
   },
   {
     id: "35",
@@ -424,7 +556,12 @@ const produtos = [
     destaque: false,
     mostrarlancamento: false,
     mostrarVideo: false,
-    textoParcelamento: "ou 1x de R$ 30,00"
+    textoParcelamento: "ou 1x de R$ 30,00",
+    cupomAtivo: false,
+    cupomPorcentagem: 0,
+    cupomCodigo: "",
+    cupomValidade: "",
+    cupomMensagemTag: ""
   },
   {
     id: "36",
@@ -445,7 +582,12 @@ const produtos = [
     destaque: true,
     mostrarlancamento: false,
     mostrarVideo: false,
-    textoParcelamento: "ou 1x de R$ 60,00"
+    textoParcelamento: "ou 1x de R$ 60,00",
+    cupomAtivo: false,
+    cupomPorcentagem: 0,
+    cupomCodigo: "",
+    cupomValidade: "",
+    cupomMensagemTag: ""
   },
   {
     id: "37",
@@ -457,7 +599,7 @@ const produtos = [
       
     ],
     descricao: {
-      resumo: "<p>Ungueal DMSO é uma solução de uso tópico desenvolvida para <strong>auxiliar no cuidado e na recuperação das unhas</strong>, reunindo diferentes componentes em uma formulação de aplica��ão local.</p>",
+      resumo: "<p>Ungueal DMSO é uma solução de uso tópico desenvolvida para <strong>auxiliar no cuidado e na recuperação das unhas</strong>, reunindo diferentes componentes em uma formulação de aplicação local.</p>",
       oQueE: "<p>O Ungueal DMSO é uma solução de uso tópico formulada com miconazol, fluconazol, ciclopirox olamina, terbinafina cloridrato, óleo de melaleuca, ureia, queratina líquida, biotina e DMSO.</p><p>Sua finalidade é <strong>auxiliar no cuidado das unhas</strong>, especialmente em situações nas quais é necessário um cuidado antifúngico associado à manutenção das condições adequadas da estrutura ungueal.</p><p>É indicado para pessoas que buscam um produto de aplicação tópica destinado ao <strong>cuidado das unhas</strong>, devendo sua utilização observar as orientações do fabricante ou de um profissional habilitado.</p>",
       composicao: "<ul>\n<li>MICONAZOL — 2%</li>\n<li>FLUCONAZOL — 2%</li>\n<li>CICLOPIROX OLAMINA — 1%</li>\n<li>TERBINAFINA CLORIDRATO — 1%</li>\n<li>OLEO DE MELALEUCA — 2%</li>\n<li>UREIA — 10%</li>\n<li>QUERATINA LIQUIDA — 2%</li>\n<li>BIOTINA — 0.5%</li>\n<li>DMSO — 30ML</li>\n</ul><p><strong>Apresentação:</strong> Solução 30ml - Validade 4 meses</p>",
       comoUsar: "<p>Utilize o produto conforme as <strong>instruções do fabricante</strong> ou de acordo com a orientação de um profissional habilitado. Não estabeleça dose, frequência ou horários de utilização diferentes daqueles indicados na orientação recebida.</p>",
@@ -466,7 +608,12 @@ const produtos = [
     destaque: true,
     mostrarlancamento: false,
     mostrarVideo: false,
-    textoParcelamento: "ou 1x de R$ 50,00"
+    textoParcelamento: "ou 1x de R$ 50,00",
+    cupomAtivo: false,
+    cupomPorcentagem: 0,
+    cupomCodigo: "",
+    cupomValidade: "",
+    cupomMensagemTag: ""
   },
   {
     id: "38",
@@ -487,7 +634,12 @@ const produtos = [
     destaque: false,
     mostrarlancamento: false,
     mostrarVideo: false,
-    textoParcelamento: "ou 1x de R$ 20,00"
+    textoParcelamento: "ou 1x de R$ 20,00",
+    cupomAtivo: false,
+    cupomPorcentagem: 0,
+    cupomCodigo: "",
+    cupomValidade: "",
+    cupomMensagemTag: ""
   },
   {
     id: "39",
@@ -508,7 +660,12 @@ const produtos = [
     destaque: true,
     mostrarlancamento: false,
     mostrarVideo: false,
-    textoParcelamento: "ou 1x de R$ 40,00"
+    textoParcelamento: "ou 1x de R$ 40,00",
+    cupomAtivo: false,
+    cupomPorcentagem: 0,
+    cupomCodigo: "",
+    cupomValidade: "",
+    cupomMensagemTag: ""
   },
   {
     id: "40",
@@ -529,7 +686,12 @@ const produtos = [
     destaque: false,
     mostrarlancamento: false,
     mostrarVideo: false,
-    textoParcelamento: "ou 1x de R$ 25,00"
+    textoParcelamento: "ou 1x de R$ 25,00",
+    cupomAtivo: false,
+    cupomPorcentagem: 0,
+    cupomCodigo: "",
+    cupomValidade: "",
+    cupomMensagemTag: ""
   },
   {
     id: "41",
@@ -543,14 +705,19 @@ const produtos = [
     descricao: {
       resumo: "<p>Terbinafina Aprimorara Ozonizada é uma solução de uso tópico desenvolvida para <strong>auxiliar no cuidado de micoses resistentes</strong>, combinando ativos antifúngicos e óleo de girassol ozonizado em uma formulação de aplicação local.</p>",
       oQueE: "<p>Terbinafina Aprimorara Ozonizada é uma solução de uso tópico formulada com terbinafina cloridrato, ciclopirox olamina, miconazol, fluconazol, ácido salicílico, ureia, óleo de girassol ozonizado e propilenoglicol.</p><p>Sua finalidade é <strong>auxiliar no tratamento de micoses resistentes</strong>, oferecendo uma formulação destinada ao cuidado antifúngico tópico, sem promessa de cura ou resultado garantido.</p><p>Pode ser indicada para pessoas que necessitam de cuidado tópico relacionado a micoses resistentes, especialmente quando houver <strong>orientação de um profissional habilitado</strong> para utilização da formulação.</p>",
-      composicao: "<ul>\n<li>TERBINAFINA CLORIDRATO — 1%</li>\n<li>CICLOPIROX OLAMINA — 8%</li>\n<li>MICONAZOL — 2%</li>\n<li>FLUCONAZOL — 2%</li>\n<li>ACIDO SALICILICO — 3%</li>\n<li>UREIA — 10%</li>\n<li>OLEO DE GIRASSOL OZONIZADO — 2%</li>\n<li>PROPILENOGLICOL — 10ML</li>\n</ul><p><strong>Apresentação:</strong> Solução 10ml - Validade 4 meses</p>",
+      composicao: "<ul>\n<li>TERBINAFINA CLORIDRATO — 1%</li>\n<li>CICLOPIROX OLAMINA — 8%</li>\n<li>MICONAZOL — 2%</li>\n<li>FLUCONAZOL — 2%</li>\n<li>ACIDO SALICILICO — 3%</li>\n<li>UREIA ��� 10%</li>\n<li>OLEO DE GIRASSOL OZONIZADO — 2%</li>\n<li>PROPILENOGLICOL — 10ML</li>\n</ul><p><strong>Apresentação:</strong> Solução 10ml - Validade 4 meses</p>",
       comoUsar: "<p>Utilize o produto conforme as <strong>instruções do fabricante</strong> ou de acordo com a orientação de um profissional habilitado. Não estabeleça dose, frequência ou horários de utilização diferentes daqueles indicados na orientação recebida.</p>",
       advertencias: "<p>Utilize o produto de acordo com as orientações fornecidas pelo fabricante. Em caso de dúvidas sobre a utilização ou sobre a persistência dos sintomas, procure orientação de um profissional habilitado.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
     },
     destaque: false,
     mostrarlancamento: false,
     mostrarVideo: false,
-    textoParcelamento: "ou 1x de R$ 25,00"
+    textoParcelamento: "ou 1x de R$ 25,00",
+    cupomAtivo: false,
+    cupomPorcentagem: 0,
+    cupomCodigo: "",
+    cupomValidade: "",
+    cupomMensagemTag: ""
   },
   {
     id: "42",
@@ -566,12 +733,17 @@ const produtos = [
       oQueE: "<p>TRICHOPHYTON é uma solução de uso tópico que reúne ativos selecionados em uma formulação voltada ao cuidado das áreas afetadas por Trichophyton.</p><p>Sua finalidade é <strong>auxiliar no tratamento do Trichophyton</strong>, contribuindo para o cuidado local conforme a indicação e orientação de uso do produto.</p><p>É indicado para pessoas que necessitam de um produto de uso tópico destinado ao <strong>cuidado de áreas afetadas por Trichophyton</strong>, especialmente quando houver orientação profissional para sua utilização.</p>",
       composicao: "<ul>\n<li>TERBINAFINA CLORIDRATO — 1%</li>\n<li>CICLOPIROX OLAMINA — 8%</li>\n<li>ACIDO SALICILICO — 2%</li>\n<li>PROPILENOGLICOL — 10ML</li>\n</ul><p><strong>Apresentação:</strong> Solução 10ml - Validade 4 meses</p>",
       comoUsar: "<p>Utilize o produto seguindo <strong>as instruções do fabricante</strong> ou a orientação de um profissional de saúde. Não estabeleça dose, frequência, horários ou quantidade de uso além do que estiver indicado na orientação profissional ou na embalagem do produto.</p>",
-      advertencias: "<p>Produto destinado ao uso conforme orientação do fabricante ou profissional de saúde. Utilize corretamente e observe as orientações apresentadas na embalagem. Em caso de dúvidas sobre a utilização do produto, procure orientação profissional.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
+      advertencias: "<p>Produto destinado ao uso conforme orientação do fabricante ou profissional de saúde. Utilize corretamente e observe as orientações apresentadas na embalagem. Em caso de dúvidas sobre a utilização do produto, procure orientaç��o profissional.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
     },
     destaque: false,
     mostrarlancamento: false,
     mostrarVideo: false,
-    textoParcelamento: "ou 1x de R$ 20,00"
+    textoParcelamento: "ou 1x de R$ 20,00",
+    cupomAtivo: false,
+    cupomPorcentagem: 0,
+    cupomCodigo: "",
+    cupomValidade: "",
+    cupomMensagemTag: ""
   },
   {
     id: "43",
@@ -592,7 +764,12 @@ const produtos = [
     destaque: true,
     mostrarlancamento: false,
     mostrarVideo: false,
-    textoParcelamento: "ou 1x de R$ 150,00"
+    textoParcelamento: "ou 1x de R$ 150,00",
+    cupomAtivo: false,
+    cupomPorcentagem: 0,
+    cupomCodigo: "",
+    cupomValidade: "",
+    cupomMensagemTag: ""
   },
   {
     id: "44",
@@ -613,21 +790,24 @@ const produtos = [
     destaque: true,
     mostrarlancamento: false,
     mostrarVideo: false,
-    textoParcelamento: "ou 1x de R$ 25,00"
+    textoParcelamento: "ou 1x de R$ 25,00",
+    cupomAtivo: false,
+    cupomPorcentagem: 0,
+    cupomCodigo: "",
+    cupomValidade: "",
+    cupomMensagemTag: ""
   }
 ];
 
 window.produtos = produtos;
 window.categorias = categorias;
 window.WHATSAPP_NUMERO = WHATSAPP_NUMERO;
+window.cupomSite = cupomSite;
 
 /* ============================================================
-   OBSERVAÇÕES IMPORTANTES
+   OBSERVACOES IMPORTANTES
    ============================================================ */
 /*
-- Este arquivo é GERADO AUTOMATICAMENTE pelo GitHub Action.
-- NÃO edite manualmente. Altere a planilha Google Sheets.
-- Para adicionar uma nova categoria: edite a aba Categorias.
-- Para adicionar um novo produto: edite a aba Produtos (id único).
-- Depois rode o workflow "Update data.js from Google Sheets".
+- Este arquivo e GERADO AUTOMATICAMENTE pelo GitHub Action.
+- NAO edite manualmente. Altere a planilha Google Sheets.
 */
