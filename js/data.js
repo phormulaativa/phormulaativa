@@ -39,7 +39,7 @@ const categorias = [
     cupomCodigo: "ANTUNES15",
     cupomValidade: "2026-09-05",
     cupomMensagemTag: "CUPOM ATIVO",
-    cupomOcultarTag: false
+    cupomOcultarTag: true
   },
   {
     id: "emagrecimento",
