@@ -75,6 +75,67 @@ const bannerContainer = document.getElementById("banner-container");
 const searchInput = document.getElementById("searchInput");
 const whatsappFooter = document.getElementById("whatsappFooter");
 
+
+
+
+
+
+/* ============================================================
+   BANNERS INTERMEDIÁRIOS (entre categorias)
+   ============================================================
+   Como usar:
+   - afterCategory = id da categoria DEPOIS da qual o banner deve aparecer
+   - imagem = caminho da imagem
+   - alt = texto alternativo
+   ============================================================ */
+const bannersIntermediarios = [
+  // Exemplo (pode apagar ou comentar se não quiser nenhum ainda):
+  // {
+  //   afterCategory: "emagrecimento",
+  //   imagem: "assets/ads/banner-emagrecimento.jpg",
+  //   alt: "Promoção Emagrecimento"
+  // },
+  // {
+  //   afterCategory: "podologia",
+  //   imagem: "assets/ads/banner-podologia.jpg",
+  //   alt: "Linha Podologia Pro"
+  // }
+];
+
+
+
+
+
+
+/* ============================================================
+   CRIA BANNER INTERMEDIÁRIO (só imagem, estilo card)
+   ============================================================ */
+function criarBannerIntermediario(banner) {
+  const section = document.createElement("section");
+  section.classList.add("categoria-section", "banner-intermediario");
+
+  const container = document.createElement("div");
+  container.classList.add("container");
+
+  const card = document.createElement("div");
+  card.classList.add("card", "card-banner-only");
+
+  card.innerHTML = `
+    <img src="${banner.imagem}" alt="${banner.alt || ''}" loading="lazy">
+  `;
+
+  container.appendChild(card);
+  section.appendChild(container);
+
+  return section;
+}
+
+
+
+
+
+
+
 // ============================================================
 // UTILIDADES
 // ============================================================
@@ -183,9 +244,28 @@ container.appendChild(slider);
 container.appendChild(dots);
 section.appendChild(container);
 produtosContainer.appendChild(section);
+
+
+// ===== BANNER INTERMEDIÁRIO (após esta categoria) =====
+const bannersDestaCategoria = bannersIntermediarios.filter(
+  b => b.afterCategory === cat.id
+);
+
+bannersDestaCategoria.forEach(banner => {
+  const bannerSection = criarBannerIntermediario(banner);
+  produtosContainer.appendChild(bannerSection);
+});    
+
+    
      
   });
 }
+
+
+
+
+
+
 
 // ============================================================
 // CARD DE PRODUTO
