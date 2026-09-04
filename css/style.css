@@ -1,6 +1,6 @@
 
 /* ============================================================
-   BANNER INTERMEDIÁRIO (entre categorias) - VERSÃO FINAL
+   BANNER INTERMEDIÁRIO - FORÇANDO ALTURA IGUAL AOS PRODUTOS
    ============================================================ */
 .banner-intermediario {
   padding: 28px 0;
@@ -15,33 +15,33 @@
 }
 
 /* Card do banner */
-.card-banner-only {
+.banner-intermediario .card-banner-only {
   padding: 0 !important;
+  margin: 0 !important;
   overflow: hidden;
   border: 1.3px solid var(--cinza);
   border-radius: 16px;
   background: transparent;
-  display: flex;
-  flex-direction: column;
   width: 100%;
+  height: 480px;                 /* altura total do card (igual visual dos produtos) */
 }
 
-/* Imagem ocupa o card inteiro (sem espaço branco) */
-.card-banner-only img {
-  width: 100%;
-  height: 760px;                 /* bem mais alto para legibilidade */
-  object-fit: cover;             /* preenche 100% sem deixar espaço */
+/* Imagem preenche o card inteiro */
+.banner-intermediario .card-banner-only img {
+  width: 100% !important;
+  height: 100% !important;       /* ocupa 100% da altura do card */
+  object-fit: cover !important;
   display: block;
   background: transparent;
 }
 
-/* No slider: mesma largura dos cards de produto */
+/* Largura igual aos produtos */
 .banner-intermediario .slider-track .card-banner-only {
-  flex: 0 0 260px;
-  max-width: 260px;
+  flex: 0 0 260px !important;
+  max-width: 260px !important;
 }
 
-/* Desktop: 4 cards por vez */
+/* Desktop: 4 cards */
 @media (min-width: 1024px) {
   .banner-intermediario .slider-track {
     width: calc((260px * 4) + (16px * 3));
@@ -54,13 +54,13 @@
     padding: 18px 0;
   }
 
-  .card-banner-only img {
-    height: 420px;               /* ainda mais alto no celular para ler o texto */
+  .banner-intermediario .card-banner-only {
+    height: 520px;               /* um pouco mais alto no celular */
   }
 
   .banner-intermediario .slider-track .card-banner-only {
-    flex: 0 0 99%;
-    max-width: 99%;
+    flex: 0 0 99% !important;
+    max-width: 99% !important;
   }
 }
 
