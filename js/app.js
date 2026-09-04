@@ -92,14 +92,17 @@ const whatsappFooter = document.getElementById("whatsappFooter");
    ============================================================ */
 const bannersIntermediarios = [
   // Exemplo com várias imagens (slider):
-  // {
-  //   afterCategory: "emagrecimento",
-  //   imagens: [
-  //     { src: "assets/ads/banner-emagrecimento-1.jpg", alt: "Promoção 1" },
-  //     { src: "assets/ads/banner-emagrecimento-2.jpg", alt: "Promoção 2" },
-  //     { src: "assets/ads/banner-emagrecimento-3.jpg", alt: "Promoção 3" }
-  //   ]
-  // },
+  {
+     afterCategory: "podologia",
+     imagens: [
+       { src: "assets/adsmeio/bloome1.png", alt: "bloome 1" },
+       { src: "assets/adsmeio/bloome2.png", alt: "bloome 2" },
+       { src: "assets/adsmeio/bloome3.png", alt: "bloome 3" },
+       { src: "assets/adsmeio/bloome4.png", alt: "bloome 4" },
+       { src: "assets/adsmeio/bloome5.png", alt: "bloome 5" },
+       { src: "assets/adsmeio/bloome6.png", alt: "bloome 6" }
+     ]
+   },
 
   // Exemplo com 1 imagem só:
   // {
