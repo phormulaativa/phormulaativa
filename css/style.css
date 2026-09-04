@@ -3,43 +3,62 @@
    BANNER INTERMEDIÁRIO (entre categorias)
    ============================================================ */
 .banner-intermediario {
-  padding: 24px 0;
+  padding: 28px 0;
   margin-bottom: 8px;
   background-color: var(--branco);
 }
 
 .banner-intermediario .container {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 
+/* Card só com imagem */
 .card-banner-only {
-  width: 100%;
-  max-width: 100%;
-  padding: 0;                    /* remove o padding interno do card normal */
+  padding: 0 !important;
   overflow: hidden;
   border: 1.3px solid var(--cinza);
   border-radius: 16px;
   background: transparent;
+  display: flex;
+  flex-direction: column;
 }
 
 .card-banner-only img {
   width: 100%;
-  height: 280px;                 /* altura no desktop */
-  object-fit: cover;             /* preenche o card (pode trocar por contain se preferir) */
+  height: 260px;
+  object-fit: cover;
   display: block;
   background: transparent;
 }
 
+/* Quando é slider → cards um pouco mais largos */
+.banner-intermediario .slider-track .card-banner-only {
+  flex: 0 0 320px;
+  max-width: 320px;
+}
+
+/* Desktop: limita a largura do track do banner */
+@media (min-width: 1024px) {
+  .banner-intermediario .slider-track {
+    width: calc((320px * 3) + (16px * 2)); /* mostra até 3 banners */
+  }
+}
+
 /* Mobile */
 @media (max-width: 768px) {
-  .card-banner-only img {
-    height: 160px;
-    object-fit: cover;
+  .banner-intermediario {
+    padding: 18px 0;
   }
 
-  .banner-intermediario {
-    padding: 16px 0;
+  .card-banner-only img {
+    height: 170px;
+  }
+
+  .banner-intermediario .slider-track .card-banner-only {
+    flex: 0 0 99%;
+    max-width: 99%;
   }
 }
 
