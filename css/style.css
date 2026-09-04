@@ -1,6 +1,6 @@
 
 /* ============================================================
-   BANNER INTERMEDIÁRIO (entre categorias)
+   BANNER INTERMEDIÁRIO (entre categorias) - AJUSTADO
    ============================================================ */
 .banner-intermediario {
   padding: 28px 0;
@@ -14,7 +14,7 @@
   align-items: center;
 }
 
-/* Card só com imagem */
+/* Card do banner - mesmo tamanho dos cards de produto */
 .card-banner-only {
   padding: 0 !important;
   overflow: hidden;
@@ -23,26 +23,28 @@
   background: transparent;
   display: flex;
   flex-direction: column;
+  width: 100%;
 }
 
+/* Imagem preenche o card sem espaço branco */
 .card-banner-only img {
   width: 100%;
-  height: 260px;
-  object-fit: cover;
+  height: 220px;                 /* mesma altura da imagem dos produtos */
+  object-fit: cover;             /* preenche sem deixar espaço branco */
   display: block;
   background: transparent;
 }
 
-/* Quando é slider → cards um pouco mais largos */
+/* No slider: cards com a mesma largura dos produtos (260px) */
 .banner-intermediario .slider-track .card-banner-only {
-  flex: 0 0 320px;
-  max-width: 320px;
+  flex: 0 0 260px;
+  max-width: 260px;
 }
 
-/* Desktop: limita a largura do track do banner */
+/* Desktop: mostra exatamente 4 cards (igual produtos) */
 @media (min-width: 1024px) {
   .banner-intermediario .slider-track {
-    width: calc((320px * 3) + (16px * 2)); /* mostra até 3 banners */
+    width: calc((260px * 4) + (16px * 3)); /* 4 cards + 3 gaps */
   }
 }
 
@@ -53,7 +55,7 @@
   }
 
   .card-banner-only img {
-    height: 170px;
+    height: 300px;               /* mesma altura mobile dos produtos */
   }
 
   .banner-intermediario .slider-track .card-banner-only {
@@ -61,7 +63,6 @@
     max-width: 99%;
   }
 }
-
 
 
 
