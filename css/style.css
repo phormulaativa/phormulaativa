@@ -29,7 +29,7 @@
 /* Imagem ocupa o card inteiro (sem espaço branco) */
 .card-banner-only img {
   width: 100%;
-  height: 760pxpx;                 /* bem mais alto para legibilidade */
+  height: 760px;                 /* bem mais alto para legibilidade */
   object-fit: cover;             /* preenche 100% sem deixar espaço */
   display: block;
   background: transparent;
