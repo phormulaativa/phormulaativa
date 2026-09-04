@@ -85,20 +85,28 @@ const whatsappFooter = document.getElementById("whatsappFooter");
    ============================================================
    Como usar:
    - afterCategory = id da categoria DEPOIS da qual o banner deve aparecer
-   - imagem = caminho da imagem
-   - alt = texto alternativo
+   - imagens = array de objetos { src, alt }
+   
+   - 1 imagem  → aparece como card único
+   - 2+ imagens → vira slider (setas + dots + rolagem)
    ============================================================ */
 const bannersIntermediarios = [
-  // Exemplo (pode apagar ou comentar se não quiser nenhum ainda):
+  // Exemplo com várias imagens (slider):
   // {
   //   afterCategory: "emagrecimento",
-  //   imagem: "assets/ads/banner-emagrecimento.jpg",
-  //   alt: "Promoção Emagrecimento"
+  //   imagens: [
+  //     { src: "assets/ads/banner-emagrecimento-1.jpg", alt: "Promoção 1" },
+  //     { src: "assets/ads/banner-emagrecimento-2.jpg", alt: "Promoção 2" },
+  //     { src: "assets/ads/banner-emagrecimento-3.jpg", alt: "Promoção 3" }
+  //   ]
   // },
+
+  // Exemplo com 1 imagem só:
   // {
   //   afterCategory: "podologia",
-  //   imagem: "assets/ads/banner-podologia.jpg",
-  //   alt: "Linha Podologia Pro"
+  //   imagens: [
+  //     { src: "assets/ads/banner-podologia.jpg", alt: "Linha Podologia" }
+  //   ]
   // }
 ];
 
