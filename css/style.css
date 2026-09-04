@@ -1,6 +1,6 @@
 
 /* ============================================================
-   BANNER INTERMEDIÁRIO - SEM CORTAR A ARTE
+   BANNER INTERMEDIÁRIO - PROPORÇÃO CORRETA (sem corte e sem espaço)
    ============================================================ */
 .banner-intermediario {
   padding: 28px 0;
@@ -14,23 +14,23 @@
   align-items: center;
 }
 
-/* Card do banner */
+/* Card com a proporção exata das imagens 1080x1350 */
 .banner-intermediario .card-banner-only {
   padding: 0 !important;
   margin: 0 !important;
   overflow: hidden;
   border: 1.3px solid var(--cinza);
   border-radius: 16px;
-  background: #000;              /* fundo preto para não aparecer branco */
+  background: transparent;
   width: 100%;
-  height: 420px;                 /* altura boa para legibilidade */
+  height: 325px;                 /* proporção perfeita para 1080x1350 */
 }
 
-/* Imagem completa, sem cortar */
+/* Imagem preenche 100% sem cortar e sem espaço */
 .banner-intermediario .card-banner-only img {
   width: 100% !important;
   height: 100% !important;
-  object-fit: contain !important;  /* ← NÃO CORTA A ARTE */
+  object-fit: cover !important;
   display: block;
   background: transparent;
 }
@@ -55,7 +55,7 @@
   }
 
   .banner-intermediario .card-banner-only {
-    height: 480px;
+    height: 420px;               /* proporção ajustada no mobile */
   }
 
   .banner-intermediario .slider-track .card-banner-only {
@@ -63,7 +63,6 @@
     max-width: 99% !important;
   }
 }
-
 
 
 
