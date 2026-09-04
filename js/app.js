@@ -116,7 +116,9 @@ const bannersIntermediarios = [
 
 
 /* ============================================================
-   CRIA BANNER INTERMEDIÁRIO (só imagem, estilo card)
+   CRIA BANNER INTERMEDIÁRIO
+   - 1 imagem  → card simples
+   - 2+ imagens → slider completo (reutiliza o sistema de slider do site)
    ============================================================ */
 function criarBannerIntermediario(banner) {
   const section = document.createElement("section");
@@ -125,14 +127,54 @@ function criarBannerIntermediario(banner) {
   const container = document.createElement("div");
   container.classList.add("container");
 
-  const card = document.createElement("div");
-  card.classList.add("card", "card-banner-only");
+  // === CASO 1: apenas 1 imagem → card simples ===
+  if (!banner.imagens || banner.imagens.length <= 1) {
+    const imgData = banner.imagens?.[0] || { src: banner.imagem, alt: banner.alt || "" };
 
-  card.innerHTML = `
-    <img src="${banner.imagem}" alt="${banner.alt || ''}" loading="lazy">
-  `;
+    const card = document.createElement("div");
+    card.classList.add("card", "card-banner-only");
+    card.innerHTML = `
+      <img src="${imgData.src}" alt="${imgData.alt || ''}" loading="lazy">
+    `;
 
-  container.appendChild(card);
+    container.appendChild(card);
+    section.appendChild(container);
+    return section;
+  }
+
+  // === CASO 2: várias imagens → slider ===
+  const slider = document.createElement("div");
+  slider.classList.add("slider");
+
+  const arrowLeft = document.createElement("button");
+  arrowLeft.className = "arrow left";
+  arrowLeft.innerHTML = "‹";
+
+  const arrowRight = document.createElement("button");
+  arrowRight.className = "arrow right";
+  arrowRight.innerHTML = "›";
+
+  const track = document.createElement("div");
+  track.classList.add("slider-track");
+
+  banner.imagens.forEach(img => {
+    const card = document.createElement("div");
+    card.classList.add("card", "card-banner-only");
+    card.innerHTML = `
+      <img src="${img.src}" alt="${img.alt || ''}" loading="lazy">
+    `;
+    track.appendChild(card);
+  });
+
+  const dots = document.createElement("div");
+  dots.classList.add("slider-dots");
+
+  slider.appendChild(arrowLeft);
+  slider.appendChild(track);
+  slider.appendChild(arrowRight);
+
+  container.appendChild(slider);
+  container.appendChild(dots);
   section.appendChild(container);
 
   return section;
@@ -262,7 +304,7 @@ const bannersDestaCategoria = bannersIntermediarios.filter(
 bannersDestaCategoria.forEach(banner => {
   const bannerSection = criarBannerIntermediario(banner);
   produtosContainer.appendChild(bannerSection);
-});    
+});  
 
     
      
