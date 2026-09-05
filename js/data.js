@@ -1000,7 +1000,7 @@ const produtos = [
     nome: "Bloomé 500mg - 30 Cápsulas",
     categoria: "quedacapilar",
     preco: 290.00,
-    imagem: "assets/img/bloome-250mg-30-capsulas.png",
+    imagem: "assets/img/bloome-500mg-30-capsulas.png",
     videos: [
       
     ],
