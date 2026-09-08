@@ -5,7 +5,7 @@
 .banner-intermediario {
   padding: 28px 0;
   margin-bottom: 8px;
-  background-color: var(--branco);
+  background-color: #F4F8F9; /* var(--branco); */
 }
 
 .banner-intermediario .container {
@@ -314,7 +314,7 @@ img {
    BANNER DINÂMICO
    ============================================================ */
 .banner {
-  background-color: var(--branco);
+  background-color: #F4F8F9; /*var(--branco); */
   padding: 48px 0;
   margin-bottom: 8px; /* 👈 ESPAÇO ENTRE DESTAQUES E CATEGORIAS */
 }
@@ -329,7 +329,7 @@ img {
    CARD DE PRODUTO
    ============================================================ */
 .card {
-  background-color: transparent; /* 🔹 remove fundo branco */
+  background-color: #FFFFFF; /*transparent; /* 🔹 remove fundo branco */
   border: 1.3px solid var(--cinza); /* 🔹 contorno azul */
   border-radius: 16px;
 
@@ -676,7 +676,7 @@ img {
 
 .categoria-section {
   width: 100%;
-  background-color: var(--branco); /* MESMO CINZA DOS DESTAQUES */
+  background-color: #F4F8F9; /* var(--branco); /* MESMO CINZA DOS DESTAQUES */
   padding: 32px 0; /* 🔹 espaço interno da sessão */
   margin-bottom: 8px; /* 🔹 espaço ENTRE uma sessão e outra */
 }
