@@ -321,7 +321,7 @@ img {
 
 .banner h2 {
   margin-bottom: 16px;
-  color: var(--azul-escuro);
+  color: #000000; /*var(--azul-escuro);*/
 }
 
 
