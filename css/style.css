@@ -330,7 +330,7 @@ img {
    ============================================================ */
 .card {
   background-color: #F4F8F9; /*transparent; /* 🔹 remove fundo branco */
-  border: 1px solid #D6E5E9; /* border: 1.3px solid var(--cinza); 🔹 contorno azul */
+  border: 1.3px solid var(--cinza);  /* 🔹 contorno azul   border: 1px solid #D6E5E9*/
   border-radius: 16px;
 
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.10); /*box-shadow: none; /* 🔹 remove sombra pesada */
@@ -348,7 +348,6 @@ img {
 
 
 .card:hover {
-  transform: translateY(-3px);
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.14);
 }
 
