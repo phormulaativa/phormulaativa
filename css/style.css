@@ -330,10 +330,11 @@ img {
    ============================================================ */
 .card {
   background-color: #F4F8F9; /*transparent; /* 🔹 remove fundo branco */
-  border: 1.3px solid var(--cinza); /* 🔹 contorno azul */
+  border: 1px solid #D6E5E9; /* border: 1.3px solid var(--cinza); 🔹 contorno azul */
   border-radius: 16px;
 
-  box-shadow: none; /* 🔹 remove sombra pesada */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.10); /*box-shadow: none; /* 🔹 remove sombra pesada */
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
   padding: 16px;
 
   display: flex;
@@ -343,6 +344,12 @@ img {
   width: 100%;
   max-width: 100%;
      
+}
+
+
+.card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.14);
 }
 
 
@@ -684,7 +691,7 @@ img {
 /* título da categoria */
 .categoria-section h2 {
   margin-bottom: 24px;
-  color: var(--azul-escuro);
+  color: #000000; /*var(--azul-escuro);*/
 }
 
 /* ============================================================
