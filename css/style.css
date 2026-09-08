@@ -314,7 +314,7 @@ img {
    BANNER DINÂMICO
    ============================================================ */
 .banner {
-  background-color: #F4F8F9; /*var(--branco); */
+  background-color: var(--branco);
   padding: 48px 0;
   margin-bottom: 8px; /* 👈 ESPAÇO ENTRE DESTAQUES E CATEGORIAS */
 }
