@@ -521,7 +521,7 @@ img {
    FOOTER
    ============================================================ */
 .footer {
-  background-color: #000000; /* var(--azul-escuro);*/
+  background-color: #144d69; /* var(--azul-escuro);*/
   color: var(--branco);
   padding: 32px 0;
 }
