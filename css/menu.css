@@ -16,7 +16,7 @@ body {
   left: 0;
   width: 100%;
   z-index: 999;
-  background-color: #000000; /*  var(--azul-escuro);  #1b7396;*/
+  background-color: #144d69; /*  var(--azul-escuro);  #1b7396;*/
   color: var(--branco);
   padding: 16px 0;
 }
