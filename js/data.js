@@ -94,7 +94,7 @@ const categorias = [
     nome: "Manipulados para saúde e bem-estar",
     nomeMenu: "Saúde",
     mostrarNoMenu: false,
-    cupomAtivo: false,
+    cupomAtivo: true,
     cupomPorcentagem: 0,
     cupomCodigo: "",
     cupomValidade: "",
@@ -955,7 +955,7 @@ const produtos = [
       oQueE: "<p>Sweet Beet 500mg é formulado com extrato seco de beterraba, ingrediente naturalmente rico em nitratos, vitaminas e compostos antioxidantes. Sua composição concentra os componentes naturais da beterraba em uma apresentação prática em cápsulas.</p><p>O produto é utilizado como auxiliar no <strong>suporte à circulação e à oxigenação</strong>, contribuindo também para aspectos relacionados à saúde cardiovascular, ao metabolismo e à digestão. Por suas características, pode fazer parte de uma rotina voltada ao bem-estar e à prática de atividades físicas.</p><p>É recomendado para adultos que buscam <strong>suporte à circulação, oxigenação e desempenho físico</strong>, especialmente dentro de uma rotina que inclua alimentação equilibrada e atividade física. Pessoas que utilizam medicamentos para pressão arterial ou que possuem condições específicas de saúde devem consultar um profissional habilitado antes do uso.</p>",
       composicao: "<p><strong>Cada 1 cápsula contém:</strong></p>\n<ul>\n<li>Sweet Beet (Beterraba Extrato Seco) — 500mg</li>\n<li>Excipiente q.s.p 1cápsula</li>\n</ul><p><strong>Apresentação:</strong> 30 Cápsulas</p>",
       comoUsar: "<p>Tomar <strong>1 cápsula ao dia</strong>, preferencialmente com uma refeição, ou conforme orientação profissional.</p>",
-      advertencias: "<p>Pessoas com hipersensibilidade à substância não devem fazer uso do produto. Em caso de hipersensibilidade, recomenda-se descontinuar o uso e consultar o médico. A beterraba pode ocasionar alteração temporária na coloração da urina ou das fezes, geralmente sem gravidade.</p><p>Pode haver intera��ão com medicamentos para pressão alta, pois os nitratos presentes na beterraba podem potencializar seus efeitos. Nesses casos, consulte o médico antes de utilizar o produto. Não use com o prazo de validade vencido. Manter em temperatura ambiente, entre 15 e 30ºC, protegido da luz, do calor e da umidade e fora do alcance das crianças.</p><p>Mulheres grávidas não devem utilizar o produto sem orientação médica. O uso durante o período de amamentação não é recomendado. Este produto não deve ser utilizado por menores de 18 anos sem orientação médica. Siga corretamente o modo de usar e, caso os sintomas não desapareçam, procure orientação médica. Imagens meramente ilustrativas.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
+      advertencias: "<p>Pessoas com hipersensibilidade à substância não devem fazer uso do produto. Em caso de hipersensibilidade, recomenda-se descontinuar o uso e consultar o médico. A beterraba pode ocasionar alteração temporária na coloração da urina ou das fezes, geralmente sem gravidade.</p><p>Pode haver interação com medicamentos para pressão alta, pois os nitratos presentes na beterraba podem potencializar seus efeitos. Nesses casos, consulte o médico antes de utilizar o produto. Não use com o prazo de validade vencido. Manter em temperatura ambiente, entre 15 e 30ºC, protegido da luz, do calor e da umidade e fora do alcance das crianças.</p><p>Mulheres grávidas não devem utilizar o produto sem orientação médica. O uso durante o período de amamentação não é recomendado. Este produto não deve ser utilizado por menores de 18 anos sem orientação médica. Siga corretamente o modo de usar e, caso os sintomas não desapareçam, procure orientação médica. Imagens meramente ilustrativas.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
     },
     destaque: true,
     mostrarlancamento: false,
@@ -1000,7 +1000,7 @@ const produtos = [
     nome: "Bloomé 500mg - 30 Cápsulas",
     categoria: "quedacapilar",
     preco: 290.00,
-    imagem: "assets/img/bloome-500mg-30-capsulas.png",
+    imagem: "assets/img/bloome-250mg-30-capsulas.png",
     videos: [
       
     ],
@@ -1037,6 +1037,114 @@ const produtos = [
       composicao: "<ul>\n<li>MITBURN — 50MG</li>\n<li>TAURINA-L — 100MG</li>\n<li>Excipiente q.s.p 1 cápsula</li>\n</ul><p><strong>Apresentação:</strong> 60 Cápsulas</p>",
       comoUsar: "<p>Tomar <strong>1 cápsula</strong> após o café da manhã ou antes do treino.</p>",
       advertencias: "<p>Utilize o produto conforme as orientações de uso. Não exceda a recomendação de utilização. Em caso de dúvidas sobre o uso, especialmente na presença de condições de saúde específicas ou utilização de outros produtos, procure orientação de um profissional habilitado.</p><p>Manter o produto adequadamente armazenado e fora do alcance de crianças. Não utilize com o prazo de validade vencido. Imagens meramente ilustrativas.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
+    },
+    destaque: true,
+    mostrarlancamento: false,
+    mostrarVideo: false,
+    textoParcelamento: "🎟️ Cupom válido no carrinho. 💳 Consulte parcelamento no checkout",
+    cupomAtivo: false,
+    cupomPorcentagem: 0,
+    cupomCodigo: "",
+    cupomValidade: "",
+    cupomMensagemTag: "",
+    cupomOcultarTag: false
+  },
+  {
+    id: "54",
+    nome: "Menopausa / Climáterio - 30 Cápsulas",
+    categoria: "saude",
+    preco: 90.00,
+    imagem: "assets/img/menopausa-climaterio.png",
+    videos: [
+      
+    ],
+    descricao: {
+      resumo: "<p>Fórmula desenvolvida para complementar os cuidados relacionados ao <strong>climatério e à menopausa</strong>, reunindo diferentes componentes em uma apresentação prática para a rotina de cuidados com a saúde da mulher.</p>",
+      oQueE: "<p>Menopausa / Climatério é uma fórmula composta por diferentes ingredientes, como magnésio, maca peruana, black cohosh, isoflavona, Morus nigra, vitex agnus castus e extratos vegetais, desenvolvida para integrar os cuidados durante essa fase da vida da mulher.</p><p>O produto tem como finalidade <strong>auxiliar nos cuidados relacionados ao climatério e à menopausa</strong>, oferecendo uma composição com diferentes ativos tradicionalmente utilizados nesse contexto. Sua utilização deve fazer parte de uma rotina de cuidados orientada de forma individualizada.</p><p>É destinado a mulheres que estejam vivenciando o <strong>climatério ou a menopausa</strong> e que busquem complementar seus cuidados nessa fase. A indicação e o uso devem considerar as necessidades individuais e, quando necessário, a orientação de um profissional de saúde.</p>",
+      composicao: "<ul>\n<li>MAGNESIO — MG</li>\n<li>MACA PERUANA — MG</li>\n<li>BLACK COHOSH — MG</li>\n<li>YAM MEXICANO EXTRACT — MG</li>\n<li>ISOFLAVONA — MG</li>\n<li>MORUS NIGRA — MG</li>\n<li>QUERCETINA DIHIDRATADA — MG</li>\n<li>VITEX AGNUS CASTUS — MG</li>\n<li>RED CLOVER EXTRACT — MG</li>\n</ul><p><strong>Apresentação:</strong> 30 Cápsulas</p>",
+      comoUsar: "<p>Utilize o produto conforme as <strong>instruções do fabricante</strong> ou de acordo com a orientação de um profissional de saúde. Não altere a forma de utilização recomendada na embalagem ou na prescrição profissional.</p>",
+      advertencias: "<p>Utilize este produto de acordo com as orientações do fabricante. Em caso de dúvidas sobre a utilização, procure orientação de um profissional de saúde. Mantenha o produto fora do alcance de crianças e conserve-o conforme as condições indicadas pelo fabricante.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
+    },
+    destaque: true,
+    mostrarlancamento: false,
+    mostrarVideo: false,
+    textoParcelamento: "🎟️ Cupom válido no carrinho. 💳 Consulte parcelamento no checkout",
+    cupomAtivo: false,
+    cupomPorcentagem: 0,
+    cupomCodigo: "",
+    cupomValidade: "",
+    cupomMensagemTag: "",
+    cupomOcultarTag: false
+  },
+  {
+    id: "55",
+    nome: "Verbascosideo +  Eclipta Alba - 30 Cápsulas",
+    categoria: "quedacapilar",
+    preco: 70.00,
+    imagem: "assets/img/verbascosideo-eclipta-alba-30-capsulas.png",
+    videos: [
+      
+    ],
+    descricao: {
+      resumo: "<p>Uma fórmula desenvolvida para os cuidados com a <strong>saúde capilar</strong>, reunindo Verbascosideo e Eclipta Alba em uma composição direcionada ao cuidado dos cabelos e à proteção celular.</p>",
+      oQueE: "<p>Verbascosideo + Eclipta Alba é uma fórmula composta por dois ativos, Verbascosideo e Eclipta Alba extrato seco, desenvolvida para integrar uma rotina de cuidados voltada à <strong>saúde capilar</strong> e ao equilíbrio celular.</p><p>Sua finalidade está relacionada principalmente aos <strong>cuidados com a queda capilar</strong> e ao estímulo dos cuidados com os cabelos, além de fornecer componentes associados à ação antioxidante e ao cuidado da pele e do equilíbrio celular.</p><p>É indicado para pessoas que buscam complementar sua rotina de cuidados com os cabelos, especialmente aquelas interessadas em <strong>cuidados capilares e redução da queda</strong>. A utilização deve considerar as necessidades individuais e, quando necessário, contar com orientação de um profissional de saúde.</p>",
+      composicao: "<ul>\n<li>VERBASCOSIDEO — 15MG</li>\n<li>ECLIPTA ALBA EXTRATO SECO — 150MG</li>\n</ul><p><strong>Apresentação:</strong> 30 Cápsulas</p>",
+      comoUsar: "<p>Utilize o produto conforme as <strong>instruções do fabricante</strong> ou de acordo com a orientação de um profissional de saúde. Não altere a forma de utilização recomendada na embalagem ou na orientação profissional.</p>",
+      advertencias: "<p>Utilize este produto de acordo com as orientações do fabricante. Em caso de dúvidas sobre a utilização, procure orientação de um profissional de saúde. Mantenha o produto fora do alcance de crianças e conserve-o conforme as condições indicadas pelo fabricante.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
+    },
+    destaque: true,
+    mostrarlancamento: false,
+    mostrarVideo: false,
+    textoParcelamento: "🎟️ Cupom válido no carrinho. 💳 Consulte parcelamento no checkout",
+    cupomAtivo: false,
+    cupomPorcentagem: 0,
+    cupomCodigo: "",
+    cupomValidade: "",
+    cupomMensagemTag: "",
+    cupomOcultarTag: false
+  },
+  {
+    id: "56",
+    nome: "TESTO BLACK FEMME - 60 Cápsulas",
+    categoria: "desempenhofisico",
+    preco: 70.00,
+    imagem: "assets/img/testo-black-femme-60-capsulas.png",
+    videos: [
+      
+    ],
+    descricao: {
+      resumo: "<p>O <strong>Testo Black Femme</strong> é uma fórmula em cápsulas desenvolvida para complementar a rotina de suplementação, com foco em vitalidade, desempenho físico e sexual e suporte aos níveis de testosterona.</p>",
+      oQueE: "<p>Testo Black Femme é um suplemento em cápsulas composto por Feno Grego, Selenoforce, Maca Peruana, Arginina Cloridrato, Picolinato de Cromo e Ginseng Panax, desenvolvido para integrar uma rotina de cuidados voltada à <strong>energia, vitalidade e desempenho</strong>.</p><p>Sua finalidade está relacionada ao suporte aos níveis de testosterona, ao aumento do fluxo sanguíneo e ao desempenho físico e sexual, conforme a finalidade informada para o produto. Sua utilização deve ser associada a hábitos de vida equilibrados e prática regular de exercícios.</p><p>De acordo com as informações fornecidas, o produto é destinado a <strong>adultos</strong> que buscam complementar sua rotina de suplementação com foco em vitalidade, desempenho físico e sexual e desenvolvimento muscular. Recomenda-se acompanhamento médico antes de iniciar a suplementação.</p>",
+      composicao: "<ul>\n<li>FENO GREGO EXTRATO — 125MG</li>\n<li>SELENOFORCE — 12,5MCG</li>\n<li>MACA PERUANA — 150MG</li>\n<li>ARGINA CLORIDRATO — 150MG</li>\n<li>PICOLINATO DE CROMO — 75MCG</li>\n<li>GINSENG PANAX — 100MG</li>\n</ul><p><strong>Apresentação:</strong> 60 Cápsulas</p>",
+      comoUsar: "<p>Para resultados eficazes, recomenda-se o uso contínuo com a ingestão de <strong>2 cápsulas ao dia</strong>. Siga o passo a passo para maximizar os benefícios.</p><p><strong>Uso diário:</strong> Tomar 2 cápsulas do Testo Black com água, preferencialmente 30 minutos antes do treino, para garantir uma ação constante no aumento dos níveis de testosterona e na melhoria do desempenho físico.</p><p><strong>Rotina de treinamento:</strong> Combine o uso do Testo Black com uma rotina de exercícios regulares para potencializar os efeitos do suplemento e maximizar os ganhos em força e resistência.</p><p><strong>Acompanhe os resultados:</strong> Após algumas semanas de uso contínuo, observe as melhorias na força, resistência e vitalidade geral, acompanhando a evolução do seu desempenho físico e bem-estar.</p>",
+      advertencias: "<p>Não deve ser utilizado por mulheres, sendo indicado, conforme as informações fornecidas, para uso exclusivo por homens. Não se deve utilizar Ginseng no curso de enfermidades agudas, trombose coronária, doenças cardíacas severas e hemorragias. Pessoas com hipersensibilidade nervosa, esquizofrenia ou histeria devem ter atenção especial.</p><p>Deverão ser tomados cuidados em caso de hipertensão arterial, terapias estrogênicas e diabetes. Alguns ativos podem interagir com medicamentos ou condições de saúde específicas. A administração de Tadalafil a pacientes em uso de qualquer forma de nitrato orgânico é contraindicada, pois pode potencializar os efeitos hipotensivos dos nitratos. A administração concomitante com antiácidos, como hidróxido de magnésio e hidróxido de alumínio, diminui a absorção de tadalafil.</p><p>Não deve ser usado em pacientes com insuficiência hepática ou renal grave. Tadalafil não é indicado para homens que não apresentam disfunção erétil. Pessoas com hipersensibilidade à substância não devem fazer uso do produto. Em caso de hipersensibilidade ao produto, recomenda-se descontinuar o uso e consultar o médico.</p><p>Não use o produto com o prazo de validade vencido. Manter em temperatura ambiente, entre 15 e 30ºC, protegido da luz, do calor e da umidade. Manter fora do alcance das crianças. Nunca compre um produto sem orientação de um profissional habilitado. Este produto não deve ser utilizado por mulheres grávidas sem orientação médica. O uso durante o período de amamentação também não é recomendado. Este produto não deve ser utilizado por menores de 18 anos sem orientação médica. Siga corretamente o modo de usar.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
+    },
+    destaque: true,
+    mostrarlancamento: false,
+    mostrarVideo: false,
+    textoParcelamento: "🎟️ Cupom válido no carrinho. 💳 Consulte parcelamento no checkout",
+    cupomAtivo: false,
+    cupomPorcentagem: 0,
+    cupomCodigo: "",
+    cupomValidade: "",
+    cupomMensagemTag: "",
+    cupomOcultarTag: false
+  },
+  {
+    id: "57",
+    nome: "TESTO BLACK - 30 Cápsulas",
+    categoria: "desempenhofisico",
+    preco: 100.00,
+    imagem: "assets/img/testo-black-30-capsulas.png",
+    videos: [
+      
+    ],
+    descricao: {
+      resumo: "<p>O <strong>Testo Black</strong> é uma fórmula em cápsulas desenvolvida para homens que buscam suporte à <strong>vitalidade, energia e desempenho físico e sexual</strong>, integrando diferentes componentes em uma única apresentação.</p>",
+      oQueE: "<p>O <strong>Testo Black</strong> é um produto em cápsulas composto por Epimedium Icariin, Long Jack, Ginseng Coreano e Tadalafil, desenvolvido para homens que buscam uma opção voltada ao suporte da vitalidade, disposição e desempenho.</p><p>Sua finalidade está relacionada ao <strong>suporte à libido, à produção natural de testosterona, à energia, à disposição e ao desempenho físico e sexual</strong>. Entre os componentes da fórmula, o Long Jack (Eurycoma longifolia) é associado ao suporte aos níveis de testosterona, enquanto o Ginseng Coreano é tradicionalmente utilizado como adaptógeno. O Epimedium Icariin é associado ao suporte à libido e ao desempenho sexual.</p><p>O produto é destinado a <strong>homens que buscam maior vitalidade e disposição</strong>, incluindo aqueles interessados em suporte ao desempenho físico, à força, à energia diária e ao desempenho sexual. Mulheres não devem consumir o produto.</p>",
+      composicao: "<ul>\n<li>EPIMEDIUM ICARIIN — 200MG</li>\n<li>LONG JACK EXTRATO SECO — 300MG</li>\n<li>GINSENG COREANO — 80MG</li>\n<li>TADALAFIL — 3MG</li>\n</ul><p><strong>Apresentação:</strong> 30 Cápsulas</p>",
+      comoUsar: "<p>Para resultados eficazes, recomenda-se o uso contínuo com a ingestão de <strong>2 cápsulas ao dia</strong>. Siga o passo a passo para maximizar os benefícios:</p><p><strong>Uso diário:</strong> Tomar 2 cápsulas do Testo Black com água, preferencialmente 30 minutos antes do treino, para garantir uma ação constante no aumento dos níveis de testosterona e na melhoria do desempenho físico.</p><p><strong>Rotina de treinamento:</strong> Combine o uso do Testo Black com uma rotina de exercícios regulares para potencializar os efeitos do suplemento e maximizar os ganhos em força e resistência.</p><p><strong>Acompanhe os resultados:</strong> Após algumas semanas de uso contínuo, observe as melhorias na força, resistência e vitalidade geral, acompanhando a evolução do seu desempenho físico e bem-estar.</p>",
+      advertencias: "<p>Este produto contém <strong>Tadalafil 3mg</strong> em sua composição. Por se tratar de um princípio ativo de uso medicinal, seu consumo deve ser realizado somente conforme orientação de profissional de saúde. Não utilize o produto sem avaliação adequada quanto à sua indicação e ao seu uso.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
     },
     destaque: true,
     mostrarlancamento: false,
