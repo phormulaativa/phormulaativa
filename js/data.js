@@ -78,9 +78,9 @@ const categorias = [
     cupomOcultarTag: false
   },
   {
-    id: "embalagens",
-    nome: "Embalagens",
-    nomeMenu: "Embalagens",
+    id: "saude",
+    nome: "Manipulados para saúde e bem-estar",
+    nomeMenu: "Saúde",
     mostrarNoMenu: true,
     cupomAtivo: false,
     cupomPorcentagem: 0,
@@ -90,11 +90,11 @@ const categorias = [
     cupomOcultarTag: false
   },
   {
-    id: "saude",
-    nome: "Manipulados para saúde e bem-estar",
-    nomeMenu: "Saúde",
-    mostrarNoMenu: false,
-    cupomAtivo: true,
+    id: "embalagens",
+    nome: "Embalagens",
+    nomeMenu: "Embalagens",
+    mostrarNoMenu: true,
+    cupomAtivo: false,
     cupomPorcentagem: 0,
     cupomCodigo: "",
     cupomValidade: "",
