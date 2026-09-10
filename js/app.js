@@ -739,7 +739,7 @@ function inicializarAds() {
   if (!adsTrack || adsImages.length === 0) return;
 
   let adsIndex = Math.floor(Math.random() * adsImages.length);
-  const adsInterval = 8000;
+  const adsInterval = 25000; // ← 8000 = 8 segundos tempo do banner duração banner transição banner
 
   // cria dots
   adsDotsContainer.innerHTML = "";
