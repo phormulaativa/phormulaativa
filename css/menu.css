@@ -163,6 +163,29 @@ body {
   .search-box input {
     width: 100%;
   }
+
+
+ /* esconde o texto “+ Mais” no celular */
+.menu-mais > span {
+  display: none;
+}
+
+/* submenu vira lista normal no celular */
+.submenu-mais {
+  position: static !important;
+  display: flex !important;
+  flex-direction: column;
+  gap: 8px !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  background: transparent !important;
+  box-shadow: none !important;
+  opacity: 1 !important;
+  transform: none !important;
+  min-width: auto !important;
+}  
+
+   
 }
 
 
@@ -214,13 +237,13 @@ body {
     flex-direction: column;
 
     background: #ffffff;
-    min-width: 220px;
+    min-width: 260px;
     padding: 10px 16px;
     border-radius: 10px;
     box-shadow: 0 12px 30px rgba(0,0,0,0.18);
     z-index: 3000;
-    gap: 0;                    /* ← adiciona isso (mata o espaço exagerado) */
-    padding: 8px 16px;         /* ← opcional: deixa um pouco mais apertado */
+    gap: 0 !important;                    /* ← adiciona isso (mata o espaço exagerado) */
+    padding: 6px 14px;         /* ← opcional: deixa um pouco mais apertado */
 
     /* micro suavização profissional */
     opacity: 0;
@@ -245,11 +268,11 @@ body {
   .submenu-mais a {
     color: #222;
     font-size: 0.9rem;
-    padding: 6px 0;
+    padding: 5px 0;
     text-decoration: none;
     display: block;
-    line-height: 1.35;         /* ← adiciona isso (ajuda o nome longo não ficar estranho) */
-   
+    line-height: 1.3;         /* ← adiciona isso (ajuda o nome longo não ficar estranho) */
+    white-space: nowrap;       /* ← impede quebra do texto longo */
   }
 
   .submenu-mais a:hover {
