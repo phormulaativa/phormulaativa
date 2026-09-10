@@ -93,7 +93,7 @@ const whatsappFooter = document.getElementById("whatsappFooter");
 const bannersIntermediarios = [
   // Exemplo com várias imagens (slider):
   {
-     afterCategory: "emagrecimento",
+     afterCategory: "podologia",
      random: true,                    // ← true = embaralha | false = mantém a ordem
      imagens: [
        { src: "assets/adsmeio/beterraba.png", alt: "Beterraba" },
@@ -105,7 +105,7 @@ const bannersIntermediarios = [
    },
 
   {
-     afterCategory: "podologia",
+     afterCategory: "emagrecimento",
      random: false,                    // ← true = embaralha | false = mantém a ordem
      imagens: [
        { src: "assets/adsmeio/bloome1.png", alt: "bloome 1" },
