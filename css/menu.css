@@ -146,7 +146,7 @@ body {
   .nav ul {
     flex-direction: column;
     padding: 16px;
-    gap: 16px;
+    gap: 8px;
   }
 
   .nav a {
@@ -219,6 +219,8 @@ body {
     border-radius: 10px;
     box-shadow: 0 12px 30px rgba(0,0,0,0.18);
     z-index: 3000;
+    gap: 0;                    /* ← adiciona isso (mata o espaço exagerado) */
+    padding: 8px 16px;         /* ← opcional: deixa um pouco mais apertado */
 
     /* micro suavização profissional */
     opacity: 0;
@@ -236,6 +238,8 @@ body {
   /* itens do submenu */
   .submenu-mais li {
     list-style: none;
+   margin: 0;                 /* ← adiciona */
+  padding: 0;                /* ← adiciona */
   }
 
   .submenu-mais a {
@@ -244,6 +248,8 @@ body {
     padding: 6px 0;
     text-decoration: none;
     display: block;
+    line-height: 1.35;         /* ← adiciona isso (ajuda o nome longo não ficar estranho) */
+   
   }
 
   .submenu-mais a:hover {
