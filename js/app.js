@@ -94,6 +94,7 @@ const bannersIntermediarios = [
   // Exemplo com várias imagens (slider):
   {
      afterCategory: "podologia",
+     random: true,                    // ← true = embaralha | false = mantém a ordem
      imagens: [
        { src: "assets/adsmeio/bloome1.png", alt: "bloome 1" },
        { src: "assets/adsmeio/bloome2.png", alt: "bloome 2" },
@@ -107,6 +108,7 @@ const bannersIntermediarios = [
   // Exemplo com 1 imagem só:
   // {
   //   afterCategory: "podologia",
+  // random: true,                    // ← true = embaralha | false = mantém a ordem
   //   imagens: [
   //     { src: "assets/ads/banner-podologia.jpg", alt: "Linha Podologia" }
   //   ]
@@ -124,6 +126,13 @@ const bannersIntermediarios = [
    - 2+ imagens → slider completo (reutiliza o sistema de slider do site)
    ============================================================ */
 function criarBannerIntermediario(banner) {
+  // ===== NOVO: embaralha as imagens se random === true =====
+  let imagens = banner.imagens ? [...banner.imagens] : [];
+  if (banner.random === true && imagens.length > 1) {
+    imagens = imagens.sort(() => Math.random() - 0.5);
+  }
+  // ========================================================
+
   const section = document.createElement("section");
   section.classList.add("categoria-section", "banner-intermediario");
 
@@ -131,15 +140,13 @@ function criarBannerIntermediario(banner) {
   container.classList.add("container");
 
   // === CASO 1: apenas 1 imagem → card simples ===
-  if (!banner.imagens || banner.imagens.length <= 1) {
-    const imgData = banner.imagens?.[0] || { src: banner.imagem, alt: banner.alt || "" };
-
+  if (!imagens || imagens.length <= 1) {
+    const imgData = imagens?.[0] || { src: banner.imagem, alt: banner.alt || "" };
     const card = document.createElement("div");
     card.classList.add("card", "card-banner-only");
     card.innerHTML = `
       <img src="${imgData.src}" alt="${imgData.alt || ''}" loading="lazy">
     `;
-
     container.appendChild(card);
     section.appendChild(container);
     return section;
@@ -160,7 +167,7 @@ function criarBannerIntermediario(banner) {
   const track = document.createElement("div");
   track.classList.add("slider-track");
 
-  banner.imagens.forEach(img => {
+  imagens.forEach(img => {                    // ← agora usa a variável "imagens" (já embaralhada se necessário)
     const card = document.createElement("div");
     card.classList.add("card", "card-banner-only");
     card.innerHTML = `
