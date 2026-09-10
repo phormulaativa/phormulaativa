@@ -54,18 +54,6 @@ const categorias = [
     cupomOcultarTag: false
   },
   {
-    id: "desempenhofisico",
-    nome: "Manipulados para desempenho físico",
-    nomeMenu: "Desempenho físico",
-    mostrarNoMenu: true,
-    cupomAtivo: false,
-    cupomPorcentagem: 0,
-    cupomCodigo: "",
-    cupomValidade: "",
-    cupomMensagemTag: "",
-    cupomOcultarTag: false
-  },
-  {
     id: "quedacapilar",
     nome: "Manipulados para queda capilar",
     nomeMenu: "Queda Capilar",
@@ -78,9 +66,33 @@ const categorias = [
     cupomOcultarTag: false
   },
   {
+    id: "beleza",
+    nome: "Manipulados para dermatologia e beleza",
+    nomeMenu: "Dermato & Beleza",
+    mostrarNoMenu: true,
+    cupomAtivo: false,
+    cupomPorcentagem: 0,
+    cupomCodigo: "",
+    cupomValidade: "",
+    cupomMensagemTag: "",
+    cupomOcultarTag: false
+  },
+  {
+    id: "desempenhofisico",
+    nome: "Manipulados para desempenho físico e vitalidade",
+    nomeMenu: "Desempenho físico & Vitalidade",
+    mostrarNoMenu: true,
+    cupomAtivo: false,
+    cupomPorcentagem: 0,
+    cupomCodigo: "",
+    cupomValidade: "",
+    cupomMensagemTag: "",
+    cupomOcultarTag: false
+  },
+  {
     id: "saude",
     nome: "Manipulados para saúde e bem-estar",
-    nomeMenu: "Saúde",
+    nomeMenu: "Saúde & Bem Estar",
     mostrarNoMenu: true,
     cupomAtivo: false,
     cupomPorcentagem: 0,
@@ -105,18 +117,6 @@ const categorias = [
     id: "libido",
     nome: "Manipulados para libido",
     nomeMenu: "Libido",
-    mostrarNoMenu: false,
-    cupomAtivo: false,
-    cupomPorcentagem: 0,
-    cupomCodigo: "",
-    cupomValidade: "",
-    cupomMensagemTag: "",
-    cupomOcultarTag: false
-  },
-  {
-    id: "beleza",
-    nome: "Manipulados para beleza",
-    nomeMenu: "Beleza",
     mostrarNoMenu: false,
     cupomAtivo: false,
     cupomPorcentagem: 0,
@@ -955,7 +955,7 @@ const produtos = [
       oQueE: "<p>Sweet Beet 500mg é formulado com extrato seco de beterraba, ingrediente naturalmente rico em nitratos, vitaminas e compostos antioxidantes. Sua composição concentra os componentes naturais da beterraba em uma apresentação prática em cápsulas.</p><p>O produto é utilizado como auxiliar no <strong>suporte à circulação e à oxigenação</strong>, contribuindo também para aspectos relacionados à saúde cardiovascular, ao metabolismo e à digestão. Por suas características, pode fazer parte de uma rotina voltada ao bem-estar e à prática de atividades físicas.</p><p>É recomendado para adultos que buscam <strong>suporte à circulação, oxigenação e desempenho físico</strong>, especialmente dentro de uma rotina que inclua alimentação equilibrada e atividade física. Pessoas que utilizam medicamentos para pressão arterial ou que possuem condições específicas de saúde devem consultar um profissional habilitado antes do uso.</p>",
       composicao: "<p><strong>Cada 1 cápsula contém:</strong></p>\n<ul>\n<li>Sweet Beet (Beterraba Extrato Seco) — 500mg</li>\n<li>Excipiente q.s.p 1cápsula</li>\n</ul><p><strong>Apresentação:</strong> 30 Cápsulas</p>",
       comoUsar: "<p>Tomar <strong>1 cápsula ao dia</strong>, preferencialmente com uma refeição, ou conforme orientação profissional.</p>",
-      advertencias: "<p>Pessoas com hipersensibilidade à substância não devem fazer uso do produto. Em caso de hipersensibilidade, recomenda-se descontinuar o uso e consultar o médico. A beterraba pode ocasionar alteração temporária na coloração da urina ou das fezes, geralmente sem gravidade.</p><p>Pode haver intera��ão com medicamentos para pressão alta, pois os nitratos presentes na beterraba podem potencializar seus efeitos. Nesses casos, consulte o médico antes de utilizar o produto. Não use com o prazo de validade vencido. Manter em temperatura ambiente, entre 15 e 30ºC, protegido da luz, do calor e da umidade e fora do alcance das crianças.</p><p>Mulheres grávidas não devem utilizar o produto sem orientação médica. O uso durante o período de amamentação não é recomendado. Este produto não deve ser utilizado por menores de 18 anos sem orientação médica. Siga corretamente o modo de usar e, caso os sintomas não desapareçam, procure orientação médica. Imagens meramente ilustrativas.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
+      advertencias: "<p>Pessoas com hipersensibilidade à substância não devem fazer uso do produto. Em caso de hipersensibilidade, recomenda-se descontinuar o uso e consultar o médico. A beterraba pode ocasionar alteração temporária na coloração da urina ou das fezes, geralmente sem gravidade.</p><p>Pode haver interação com medicamentos para pressão alta, pois os nitratos presentes na beterraba podem potencializar seus efeitos. Nesses casos, consulte o médico antes de utilizar o produto. Não use com o prazo de validade vencido. Manter em temperatura ambiente, entre 15 e 30ºC, protegido da luz, do calor e da umidade e fora do alcance das crianças.</p><p>Mulheres grávidas não devem utilizar o produto sem orientação médica. O uso durante o período de amamentação não é recomendado. Este produto não deve ser utilizado por menores de 18 anos sem orientação médica. Siga corretamente o modo de usar e, caso os sintomas não desapareçam, procure orientação médica. Imagens meramente ilustrativas.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
     },
     destaque: true,
     mostrarlancamento: false,
@@ -1090,7 +1090,7 @@ const produtos = [
       oQueE: "<p>Verbascosideo + Eclipta Alba é uma fórmula composta por dois ativos, Verbascosideo e Eclipta Alba extrato seco, desenvolvida para integrar uma rotina de cuidados voltada à <strong>saúde capilar</strong> e ao equilíbrio celular.</p><p>Sua finalidade está relacionada principalmente aos <strong>cuidados com a queda capilar</strong> e ao estímulo dos cuidados com os cabelos, além de fornecer componentes associados à ação antioxidante e ao cuidado da pele e do equilíbrio celular.</p><p>É indicado para pessoas que buscam complementar sua rotina de cuidados com os cabelos, especialmente aquelas interessadas em <strong>cuidados capilares e redução da queda</strong>. A utilização deve considerar as necessidades individuais e, quando necessário, contar com orientação de um profissional de saúde.</p>",
       composicao: "<ul>\n<li>VERBASCOSIDEO — 15MG</li>\n<li>ECLIPTA ALBA EXTRATO SECO — 150MG</li>\n</ul><p><strong>Apresentação:</strong> 30 Cápsulas</p>",
       comoUsar: "<p>Utilize o produto conforme as <strong>instruções do fabricante</strong> ou de acordo com a orientação de um profissional de saúde. Não altere a forma de utilização recomendada na embalagem ou na orientação profissional.</p>",
-      advertencias: "<p>Utilize este produto de acordo com as orientações do fabricante. Em caso de dúvidas sobre a utilização, procure orientação de um profissional de saúde. Mantenha o produto fora do alcance de crianças e conserve-o conforme as condições indicadas pelo fabricante.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
+      advertencias: "<p>Utilize este produto de acordo com as orientações do fabricante. Em caso de dúvidas sobre a utilização, procure orientação de um profissional de saúde. Mantenha o produto fora do alcance de crianças e conserve-o conforme as condições indicadas pelo fabricante.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentaç��o, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
     },
     destaque: true,
     mostrarlancamento: false,
@@ -1144,7 +1144,88 @@ const produtos = [
       oQueE: "<p>O <strong>Testo Black</strong> é um produto em cápsulas composto por Epimedium Icariin, Long Jack, Ginseng Coreano e Tadalafil, desenvolvido para homens que buscam uma opção voltada ao suporte da vitalidade, disposição e desempenho.</p><p>Sua finalidade está relacionada ao <strong>suporte à libido, à produção natural de testosterona, à energia, à disposição e ao desempenho físico e sexual</strong>. Entre os componentes da fórmula, o Long Jack (Eurycoma longifolia) é associado ao suporte aos níveis de testosterona, enquanto o Ginseng Coreano é tradicionalmente utilizado como adaptógeno. O Epimedium Icariin é associado ao suporte à libido e ao desempenho sexual.</p><p>O produto é destinado a <strong>homens que buscam maior vitalidade e disposição</strong>, incluindo aqueles interessados em suporte ao desempenho físico, à força, à energia diária e ao desempenho sexual. Mulheres não devem consumir o produto.</p>",
       composicao: "<ul>\n<li>EPIMEDIUM ICARIIN — 200MG</li>\n<li>LONG JACK EXTRATO SECO — 300MG</li>\n<li>GINSENG COREANO — 80MG</li>\n<li>TADALAFIL — 3MG</li>\n</ul><p><strong>Apresentação:</strong> 30 Cápsulas</p>",
       comoUsar: "<p>Para resultados eficazes, recomenda-se o uso contínuo com a ingestão de <strong>2 cápsulas ao dia</strong>. Siga o passo a passo para maximizar os benefícios:</p><p><strong>Uso diário:</strong> Tomar 2 cápsulas do Testo Black com água, preferencialmente 30 minutos antes do treino, para garantir uma ação constante no aumento dos níveis de testosterona e na melhoria do desempenho físico.</p><p><strong>Rotina de treinamento:</strong> Combine o uso do Testo Black com uma rotina de exercícios regulares para potencializar os efeitos do suplemento e maximizar os ganhos em força e resistência.</p><p><strong>Acompanhe os resultados:</strong> Após algumas semanas de uso contínuo, observe as melhorias na força, resistência e vitalidade geral, acompanhando a evolução do seu desempenho físico e bem-estar.</p>",
-      advertencias: "<p>Este produto contém <strong>Tadalafil 3mg</strong> em sua composição. Por se tratar de um princípio ativo de uso medicinal, seu consumo deve ser realizado somente conforme orientação de profissional de saúde. Não utilize o produto sem avaliação adequada quanto à sua indicação e ao seu uso.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exerc��cios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
+      advertencias: "<p>Este produto contém <strong>Tadalafil 3mg</strong> em sua composição. Por se tratar de um princípio ativo de uso medicinal, seu consumo deve ser realizado somente conforme orientação de profissional de saúde. Não utilize o produto sem avaliação adequada quanto à sua indicação e ao seu uso.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
+    },
+    destaque: true,
+    mostrarlancamento: false,
+    mostrarVideo: false,
+    textoParcelamento: "🎟️ Cupom válido no carrinho. 💳 Consulte parcelamento no checkout",
+    cupomAtivo: false,
+    cupomPorcentagem: 0,
+    cupomCodigo: "",
+    cupomValidade: "",
+    cupomMensagemTag: "",
+    cupomOcultarTag: false
+  },
+  {
+    id: "58",
+    nome: "TESTO PRIME MAM - 30 Cápsulas",
+    categoria: "desempenhofisico",
+    preco: 100.00,
+    imagem: "assets/img/testo-prime-mam.png",
+    videos: [
+      
+    ],
+    descricao: {
+      resumo: "<p>TESTO PRIME MAM é uma formulação voltada à <strong>performance masculina</strong>, reunindo ativos selecionados para complementar estratégias relacionadas à vitalidade, disposição, libido e desempenho sexual masculino.</p>",
+      oQueE: "<p>TESTO PRIME MAM é uma formulação destinada ao público masculino, composta por Epimedium Icariin, Long Jack, Ginseng Coreano e Tadalafil, combinando diferentes componentes em uma apresentação prática de 30 cápsulas.</p><p>Sua finalidade está relacionada à <strong>vitalidade, libido, disposição e desempenho sexual masculino</strong>, oferecendo uma formulação direcionada às necessidades de homens que buscam suporte para sua performance e bem-estar.</p><p>É indicado para <strong>homens adultos</strong> quando houver indicação e orientação adequada de profissional habilitado, especialmente por conter tadalafil em sua composição.</p>",
+      composicao: "<ul>\n<li>EPIMEDIUM ICARIIN — 200MG</li>\n<li>LONG JACK EXTRATO SECO — 300MG</li>\n<li>GINSENG COREANO — 80MG</li>\n<li>TADALAFIL — 3MG</li>\n</ul><p><strong>Apresentação:</strong> 30 Cápsulas</p>",
+      comoUsar: "<p>Utilize o produto <strong>conforme as instruções do fabricante ou orientação de profissional habilitado</strong>. Não altere a forma de utilização, dose ou frequência recomendada sem orientação profissional.</p>",
+      advertencias: "<p>Uso conforme orientação do fabricante e de profissional habilitado. Por conter tadalafil, sua utilização deve ser realizada com <strong>orientação profissional adequada</strong>. Não utilize de forma diferente da recomendada na prescrição ou orientação recebida.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
+    },
+    destaque: true,
+    mostrarlancamento: false,
+    mostrarVideo: false,
+    textoParcelamento: "🎟️ Cupom válido no carrinho. 💳 Consulte parcelamento no checkout",
+    cupomAtivo: false,
+    cupomPorcentagem: 0,
+    cupomCodigo: "",
+    cupomValidade: "",
+    cupomMensagemTag: "",
+    cupomOcultarTag: false
+  },
+  {
+    id: "59",
+    nome: "BLACK GINGER POWER PRE-TREINO- 15 Cápsulas",
+    categoria: "desempenhofisico",
+    preco: 120.00,
+    imagem: "assets/img/black-ginger-power-pre-treino-15-capsulas.png",
+    videos: [
+      
+    ],
+    descricao: {
+      resumo: "<p>BLACK GINGER POWER PRE-TREINO é uma formulação desenvolvida para complementar a rotina de treinos, com foco em <strong>energia, resistência e performance física</strong>, reunindo ativos relacionados ao suporte ao desempenho durante exercícios.</p>",
+      oQueE: "<p>BLACK GINGER POWER PRE-TREINO é uma formulação em cápsulas que reúne diferentes ativos selecionados para integrar estratégias voltadas à <strong>performance esportiva</strong>, resistência e capacidade de treinamento.</p><p>Sua finalidade está relacionada ao suporte à <strong>energia, disposição, resistência e desempenho físico</strong> durante a prática de exercícios. A presença de NO3, AAKG e Norvaline também direciona a formulação para o suporte relacionado ao fluxo sanguíneo e à performance durante o treinamento.</p><p>É destinado a <strong>adultos fisicamente ativos</strong> que buscam complementar sua rotina de exercícios com uma formulação direcionada à performance e resistência. Seu uso deve considerar as orientações do fabricante ou de profissional habilitado.</p>",
+      composicao: "<ul>\n<li>BLACK GINGER — POWDER</li>\n<li>BLACK GINGER — MG</li>\n<li>PHYTOTESTO — MG</li>\n<li>FURASTANOL (FENOSIDEO) — MG</li>\n<li>PIPERINA — MG</li>\n<li>ENDURFIT — MG</li>\n<li>NO3 — MG</li>\n<li>AAKG — MG</li>\n<li>NORVALINE — MG</li>\n<li>COBRE QUELATO — MG</li>\n<li>ZINCO QUELATO — MG</li>\n<li>MANGANES QUELATO — MG</li>\n<li>FERRO QUELATO — MG</li>\n<li>SELENIO METIONINA — MCG</li>\n<li>COLEUS FORSKOHLII EXTRATO — MG</li>\n<li>EGCG 98% — MG</li>\n<li>THIOMUCASE — UTR</li>\n</ul><p><strong>Apresentação:</strong> 15 Cápsulas</p>",
+      comoUsar: "<p>Utilize o produto <strong>conforme as instruções do fabricante ou orientação de profissional habilitado</strong>. Não altere a dose, frequência ou forma de utilização recomendada sem orientação profissional.</p>",
+      advertencias: "<p>Utilize o produto de acordo com as orientações do fabricante e, quando necessário, com acompanhamento de profissional habilitado. Não exceda a recomendação de uso indicada na embalagem ou orientação recebida.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
+    },
+    destaque: true,
+    mostrarlancamento: false,
+    mostrarVideo: false,
+    textoParcelamento: "🎟️ Cupom válido no carrinho. 💳 Consulte parcelamento no checkout",
+    cupomAtivo: false,
+    cupomPorcentagem: 0,
+    cupomCodigo: "",
+    cupomValidade: "",
+    cupomMensagemTag: "",
+    cupomOcultarTag: false
+  },
+  {
+    id: "60",
+    nome: "CLASCOTERONA - ACNE - Creme 15g",
+    categoria: "beleza",
+    preco: 150.00,
+    imagem: "assets/img/clascoterona-acne-creme-15g.png",
+    videos: [
+      
+    ],
+    descricao: {
+      resumo: "<p>CLASCOTERONA - ACNE é um medicamento de uso tópico desenvolvido para o <strong>tratamento da acne vulgar</strong>, com clascoterona 1% em uma formulação em creme para aplicação sobre a pele.</p>",
+      oQueE: "<p>CLASCOTERONA - ACNE é uma formulação tópica em creme que contém <strong>clascoterona 1%</strong>, ativo direcionado ao tratamento da acne vulgar e desenvolvido para atuar localmente sobre os receptores androgênicos da pele.</p><p>Sua finalidade é auxiliar no <strong>tratamento tópico da acne vulgar</strong>, especialmente nos quadros em que a atividade androgênica da pele participa dos processos relacionados à produção de sebo e à inflamação.</p><p>Pode ser indicado para <strong>pessoas com acne vulgar</strong>, conforme avaliação e prescrição de médico ou outro profissional habilitado, considerando as características individuais da pele e a necessidade de tratamento tópico.</p>",
+      composicao: "<ul>\n<li>CLASCOTERONA — 1%</li>\n<li>SKINBIOTICS LACTO B — 2%</li>\n<li>ESSENCIA — 1%</li>\n<li>HYDRA FRESH — 15GR</li>\n</ul><p><strong>Apresentação:</strong> Creme - 15 gramas</p>",
+      comoUsar: "<p>Aplicar <strong>conforme orientação médica ou prescrição profissional</strong>. Utilizar exclusivamente sobre a pele, na área indicada, seguindo a quantidade, frequência e duração do tratamento determinadas pelo profissional responsável.</p>",
+      advertencias: "<p>Uso tópico. Utilize o produto de acordo com a prescrição médica ou orientação de profissional habilitado. Evite utilizar o produto de forma diferente da recomendada e observe a resposta da pele durante o tratamento.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
     },
     destaque: true,
     mostrarlancamento: false,
