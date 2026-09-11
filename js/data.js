@@ -1090,7 +1090,7 @@ const produtos = [
       oQueE: "<p>Verbascosideo + Eclipta Alba é uma fórmula composta por dois ativos, Verbascosideo e Eclipta Alba extrato seco, desenvolvida para integrar uma rotina de cuidados voltada à <strong>saúde capilar</strong> e ao equilíbrio celular.</p><p>Sua finalidade está relacionada principalmente aos <strong>cuidados com a queda capilar</strong> e ao estímulo dos cuidados com os cabelos, além de fornecer componentes associados à ação antioxidante e ao cuidado da pele e do equilíbrio celular.</p><p>É indicado para pessoas que buscam complementar sua rotina de cuidados com os cabelos, especialmente aquelas interessadas em <strong>cuidados capilares e redução da queda</strong>. A utilização deve considerar as necessidades individuais e, quando necessário, contar com orientação de um profissional de saúde.</p>",
       composicao: "<ul>\n<li>VERBASCOSIDEO — 15MG</li>\n<li>ECLIPTA ALBA EXTRATO SECO — 150MG</li>\n</ul><p><strong>Apresentação:</strong> 30 Cápsulas</p>",
       comoUsar: "<p>Utilize o produto conforme as <strong>instruções do fabricante</strong> ou de acordo com a orientação de um profissional de saúde. Não altere a forma de utilização recomendada na embalagem ou na orientação profissional.</p>",
-      advertencias: "<p>Utilize este produto de acordo com as orientações do fabricante. Em caso de dúvidas sobre a utilização, procure orientação de um profissional de saúde. Mantenha o produto fora do alcance de crianças e conserve-o conforme as condições indicadas pelo fabricante.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
+      advertencias: "<p>Utilize este produto de acordo com as orientações do fabricante. Em caso de dúvidas sobre a utilizaç��o, procure orientação de um profissional de saúde. Mantenha o produto fora do alcance de crianças e conserve-o conforme as condições indicadas pelo fabricante.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
     },
     destaque: true,
     mostrarlancamento: false,
@@ -1117,7 +1117,7 @@ const produtos = [
       oQueE: "<p>Testo Black Femme é um suplemento em cápsulas composto por Feno Grego, Selenoforce, Maca Peruana, Arginina Cloridrato, Picolinato de Cromo e Ginseng Panax, desenvolvido para integrar uma rotina de cuidados voltada à <strong>energia, vitalidade e desempenho</strong>.</p><p>Sua finalidade está relacionada ao suporte aos níveis de testosterona, ao aumento do fluxo sanguíneo e ao desempenho físico e sexual, conforme a finalidade informada para o produto. Sua utilização deve ser associada a hábitos de vida equilibrados e prática regular de exercícios.</p><p>De acordo com as informações fornecidas, o produto é destinado a <strong>adultos</strong> que buscam complementar sua rotina de suplementação com foco em vitalidade, desempenho físico e sexual e desenvolvimento muscular. Recomenda-se acompanhamento médico antes de iniciar a suplementação.</p>",
       composicao: "<ul>\n<li>FENO GREGO EXTRATO — 125MG</li>\n<li>SELENOFORCE — 12,5MCG</li>\n<li>MACA PERUANA — 150MG</li>\n<li>ARGINA CLORIDRATO — 150MG</li>\n<li>PICOLINATO DE CROMO — 75MCG</li>\n<li>GINSENG PANAX — 100MG</li>\n</ul><p><strong>Apresentação:</strong> 60 Cápsulas</p>",
       comoUsar: "<p>Para resultados eficazes, recomenda-se o uso contínuo com a ingestão de <strong>2 cápsulas ao dia</strong>. Siga o passo a passo para maximizar os benefícios.</p><p><strong>Uso diário:</strong> Tomar 2 cápsulas do Testo Black com água, preferencialmente 30 minutos antes do treino, para garantir uma ação constante no aumento dos níveis de testosterona e na melhoria do desempenho físico.</p><p><strong>Rotina de treinamento:</strong> Combine o uso do Testo Black com uma rotina de exercícios regulares para potencializar os efeitos do suplemento e maximizar os ganhos em força e resistência.</p><p><strong>Acompanhe os resultados:</strong> Após algumas semanas de uso contínuo, observe as melhorias na força, resistência e vitalidade geral, acompanhando a evolução do seu desempenho físico e bem-estar.</p>",
-      advertencias: "<p>Não deve ser utilizado por mulheres, sendo indicado, conforme as informações fornecidas, para uso exclusivo por homens. Não se deve utilizar Ginseng no curso de enfermidades agudas, trombose coronária, doenças cardíacas severas e hemorragias. Pessoas com hipersensibilidade nervosa, esquizofrenia ou histeria devem ter atenção especial.</p><p>Deverão ser tomados cuidados em caso de hipertensão arterial, terapias estrogênicas e diabetes. Alguns ativos podem interagir com medicamentos ou condições de saúde específicas. A administração de Tadalafil a pacientes em uso de qualquer forma de nitrato orgânico é contraindicada, pois pode potencializar os efeitos hipotensivos dos nitratos. A administração concomitante com antiácidos, como hidróxido de magnésio e hidróxido de alumínio, diminui a absorção de tadalafil.</p><p>Não deve ser usado em pacientes com insuficiência hepática ou renal grave. Tadalafil não é indicado para homens que não apresentam disfunção erétil. Pessoas com hipersensibilidade à substância não devem fazer uso do produto. Em caso de hipersensibilidade ao produto, recomenda-se descontinuar o uso e consultar o médico.</p><p>Não use o produto com o prazo de validade vencido. Manter em temperatura ambiente, entre 15 e 30ºC, protegido da luz, do calor e da umidade. Manter fora do alcance das crianças. Nunca compre um produto sem orienta��ão de um profissional habilitado. Este produto não deve ser utilizado por mulheres grávidas sem orientação médica. O uso durante o período de amamentação também não é recomendado. Este produto não deve ser utilizado por menores de 18 anos sem orientação médica. Siga corretamente o modo de usar.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
+      advertencias: "<p>Não deve ser utilizado por mulheres, sendo indicado, conforme as informações fornecidas, para uso exclusivo por homens. Não se deve utilizar Ginseng no curso de enfermidades agudas, trombose coronária, doenças cardíacas severas e hemorragias. Pessoas com hipersensibilidade nervosa, esquizofrenia ou histeria devem ter atenção especial.</p><p>Deverão ser tomados cuidados em caso de hipertensão arterial, terapias estrogênicas e diabetes. Alguns ativos podem interagir com medicamentos ou condições de saúde específicas. A administração de Tadalafil a pacientes em uso de qualquer forma de nitrato orgânico é contraindicada, pois pode potencializar os efeitos hipotensivos dos nitratos. A administração concomitante com antiácidos, como hidróxido de magnésio e hidróxido de alumínio, diminui a absorção de tadalafil.</p><p>Não deve ser usado em pacientes com insuficiência hepática ou renal grave. Tadalafil não é indicado para homens que não apresentam disfunção erétil. Pessoas com hipersensibilidade à substância não devem fazer uso do produto. Em caso de hipersensibilidade ao produto, recomenda-se descontinuar o uso e consultar o médico.</p><p>Não use o produto com o prazo de validade vencido. Manter em temperatura ambiente, entre 15 e 30ºC, protegido da luz, do calor e da umidade. Manter fora do alcance das crianças. Nunca compre um produto sem orientação de um profissional habilitado. Este produto não deve ser utilizado por mulheres grávidas sem orientação médica. O uso durante o período de amamentação também não é recomendado. Este produto não deve ser utilizado por menores de 18 anos sem orientação médica. Siga corretamente o modo de usar.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
     },
     destaque: true,
     mostrarlancamento: false,
@@ -1196,7 +1196,7 @@ const produtos = [
     descricao: {
       resumo: "<p>BLACK GINGER POWER PRE-TREINO é uma formulação desenvolvida para complementar a rotina de treinos, com foco em <strong>energia, resistência e performance física</strong>, reunindo ativos relacionados ao suporte ao desempenho durante exercícios.</p>",
       oQueE: "<p>BLACK GINGER POWER PRE-TREINO é uma formulação em cápsulas que reúne diferentes ativos selecionados para integrar estratégias voltadas à <strong>performance esportiva</strong>, resistência e capacidade de treinamento.</p><p>Sua finalidade está relacionada ao suporte à <strong>energia, disposição, resistência e desempenho físico</strong> durante a prática de exercícios. A presença de NO3, AAKG e Norvaline também direciona a formulação para o suporte relacionado ao fluxo sanguíneo e à performance durante o treinamento.</p><p>É destinado a <strong>adultos fisicamente ativos</strong> que buscam complementar sua rotina de exercícios com uma formulação direcionada à performance e resistência. Seu uso deve considerar as orientações do fabricante ou de profissional habilitado.</p>",
-      composicao: "<ul>\n<li>BLACK GINGER — POWDER</li>\n<li>BLACK GINGER — MG</li>\n<li>PHYTOTESTO — MG</li>\n<li>FURASTANOL (FENOSIDEO) — MG</li>\n<li>PIPERINA — MG</li>\n<li>ENDURFIT — MG</li>\n<li>NO3 — MG</li>\n<li>AAKG — MG</li>\n<li>NORVALINE — MG</li>\n<li>COBRE QUELATO — MG</li>\n<li>ZINCO QUELATO — MG</li>\n<li>MANGANES QUELATO — MG</li>\n<li>FERRO QUELATO �� MG</li>\n<li>SELENIO METIONINA — MCG</li>\n<li>COLEUS FORSKOHLII EXTRATO — MG</li>\n<li>EGCG 98% — MG</li>\n<li>THIOMUCASE — UTR</li>\n</ul><p><strong>Apresentação:</strong> 15 Cápsulas</p>",
+      composicao: "<ul>\n<li>BLACK GINGER — POWDER</li>\n<li>BLACK GINGER — MG</li>\n<li>PHYTOTESTO — MG</li>\n<li>FURASTANOL (FENOSIDEO) — MG</li>\n<li>PIPERINA — MG</li>\n<li>ENDURFIT — MG</li>\n<li>NO3 — MG</li>\n<li>AAKG — MG</li>\n<li>NORVALINE — MG</li>\n<li>COBRE QUELATO — MG</li>\n<li>ZINCO QUELATO — MG</li>\n<li>MANGANES QUELATO — MG</li>\n<li>FERRO QUELATO — MG</li>\n<li>SELENIO METIONINA — MCG</li>\n<li>COLEUS FORSKOHLII EXTRATO — MG</li>\n<li>EGCG 98% — MG</li>\n<li>THIOMUCASE — UTR</li>\n</ul><p><strong>Apresentação:</strong> 15 Cápsulas</p>",
       comoUsar: "<p>Utilize o produto <strong>conforme as instruções do fabricante ou orientação de profissional habilitado</strong>. Não altere a dose, frequência ou forma de utilização recomendada sem orientação profissional.</p>",
       advertencias: "<p>Utilize o produto de acordo com as orientações do fabricante e, quando necessário, com acompanhamento de profissional habilitado. Não exceda a recomendação de uso indicada na embalagem ou orientação recebida.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
     },
@@ -1334,6 +1334,141 @@ const produtos = [
       composicao: "<ul>\n<li>PILL FOOD — TURBINADO</li>\n<li>METIONINA — MG</li>\n<li>CISTEINA — MG</li>\n<li>CISTINA-L — MG</li>\n<li>PANTOTENATO DE CALCIO — MG</li>\n<li>COMPLEXO B — MG</li>\n<li>VITAMINA E PO — MG</li>\n<li>SELENIO QUELATO — MG</li>\n<li>ACIDO AMINOBENZOICO — MG</li>\n<li>QUERATINA PO — MG</li>\n<li>BIOTINA — MG</li>\n<li>SILICIO QUELATO — MG</li>\n</ul><p><strong>Apresentação:</strong> 90 Cápsulas</p>",
       comoUsar: "<p>Tomar <strong>1 cápsula duas vezes ao dia</strong>, preferencialmente antes do almoço e do jantar.</p>",
       advertencias: "<p>A administração de colágeno hidrolisado em pó não é recomendada para pessoas portadoras de doenças renais e hepáticas, com níveis elevados de ácido úrico ou gota. Pessoas com hipersensibilidade à substância não devem usar o produto. Em caso de hipersensibilidade, recomenda-se descontinuar o uso e consultar o médico.</p><p>Não use o produto com o prazo de validade vencido. Manter em temperatura ambiente (15 a 30ºC), protegido da luz, do calor e da umidade, e fora do alcance das crianças. Mulheres grávidas, lactantes e menores de 18 anos não devem utilizar o produto sem orientação médica. Nunca compre um produto sem orientação de um profissional habilitado. Siga corretamente o modo de usar.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
+    },
+    destaque: false,
+    mostrarlancamento: false,
+    mostrarVideo: false,
+    textoParcelamento: "🎟️ Cupom válido no carrinho. 💳 Consulte parcelamento no checkout",
+    cupomAtivo: false,
+    cupomPorcentagem: 0,
+    cupomCodigo: "",
+    cupomValidade: "",
+    cupomMensagemTag: "",
+    cupomOcultarTag: false
+  },
+  {
+    id: "65",
+    nome: "PANTOGAR TURBINADO - 60 Cápsulas",
+    categoria: "beleza",
+    preco: 90.00,
+    imagem: "assets/img/pantogar-turbinado-60-capsulas.png",
+    videos: [
+      
+    ],
+    descricao: {
+      resumo: "<p>Suporte nutricional para <strong>cabelos e unhas</strong>, com combinação de nutrientes envolvidos na formação e manutenção da queratina, contribuindo para uma rotina de cuidados voltada à saúde e resistência dos fios e unhas.</p>",
+      oQueE: "<p>O <strong>Pantogar Turbinado</strong> é uma fórmula composta por nutrientes como aminoácidos, vitaminas, queratina, biotina, silício e ferro, desenvolvida para oferecer <strong>suporte nutricional aos cabelos e unhas</strong>.</p><p>Sua composição é utilizada como complemento nutricional em situações relacionadas a <strong>cabelos fracos, quebradiços ou afinados</strong> e unhas frágeis, além de fornecer nutrientes envolvidos no metabolismo e na formação de estruturas queratinizadas. A biotina, a cisteína e a queratina, por exemplo, estão relacionadas à estrutura dos fios e unhas, enquanto o ferro participa do transporte de oxigênio pelo organismo.</p><p>Pode ser recomendado para adultos que buscam <strong>suporte nutricional para cabelos e unhas</strong>, especialmente quando existe necessidade de complementar a ingestão de determinados nutrientes. A indicação deve considerar as características individuais e, quando necessário, a orientação de um profissional de saúde.</p>",
+      composicao: "<ul>\n<li>Pantotenato de cálcio — MG</li>\n<li>Cisteína — MG</li>\n<li>Tiamina cloridrato — MG</li>\n<li>Levedura medicinal — MG</li>\n<li>Queratina pó — MG</li>\n<li>Ácido aminobenzoico — MG</li>\n<li>Biotina — MG</li>\n<li>Silício quelato — MG</li>\n<li>Ferro quelato — MG</li>\n</ul><p><strong>Apresentação:</strong> 60 Cápsulas</p>",
+      comoUsar: "<p>Utilize o produto <strong>conforme as instruções do fabricante</strong> ou de acordo com a orientação de médico, nutricionista ou outro profissional de saúde habilitado. Não altere a forma de utilização recomendada sem orientação profissional.</p>",
+      advertencias: "<p>Este produto deve ser utilizado de acordo com sua finalidade e orientação de uso. <strong>Não exceda a recomendação de uso</strong> indicada pelo fabricante ou profissional de saúde. Mantenha fora do alcance de crianças e conserve o produto conforme as orientações de armazenamento da embalagem.</p><p>Em caso de dúvidas sobre a utilização, especialmente durante períodos de gestação, amamentação ou diante de condições específicas de saúde, procure orientação de um profissional de saúde antes do uso.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
+    },
+    destaque: true,
+    mostrarlancamento: false,
+    mostrarVideo: false,
+    textoParcelamento: "🎟️ Cupom válido no carrinho. 💳 Consulte parcelamento no checkout",
+    cupomAtivo: false,
+    cupomPorcentagem: 0,
+    cupomCodigo: "",
+    cupomValidade: "",
+    cupomMensagemTag: "",
+    cupomOcultarTag: false
+  },
+  {
+    id: "66",
+    nome: "OLIVE LEAF EXTRACT - 30 Cápsulas",
+    categoria: "saude",
+    preco: 50.00,
+    imagem: "assets/img/olive-leaf-extract-30-capsulas.png",
+    videos: [
+      
+    ],
+    descricao: {
+      resumo: "<p>Suplemento à base de <strong>extrato de folha de oliveira</strong>, padronizado em 10% de hidroxitirosol, desenvolvido para complementar a ingestão de compostos fenólicos e oferecer suporte nutricional com foco na <strong>ação antioxidante</strong>.</p>",
+      oQueE: "<p>O <strong>Olive Leaf Extract</strong> é um suplemento alimentar elaborado com extrato de folhas da oliveira (Olea europaea), padronizado para fornecer 10% de hidroxitirosol, um dos principais compostos fenólicos presentes na oliveira.</p><p>Sua composição fornece <strong>compostos fenólicos com atividade antioxidante</strong>, podendo integrar estratégias nutricionais voltadas ao suporte da proteção celular contra o estresse oxidativo e ao consumo adequado de polifenóis. Os compostos da oliveira também são estudados em relação à saúde cardiovascular e a parâmetros metabólicos.</p><p>É indicado para adultos que buscam <strong>suporte nutricional antioxidante</strong> e desejam complementar sua alimentação com compostos fenólicos provenientes do extrato de folha de oliveira. A utilização deve considerar as necessidades individuais e, quando necessário, contar com orientação de um profissional de saúde.</p>",
+      composicao: "<ul>\n<li>OLIVE LEAF 10% HIDROXITIROSOL — 300MG</li>\n</ul><p><strong>Apresentação:</strong> 30 Cápsulas</p>",
+      comoUsar: "<p>Utilize o produto <strong>conforme as instruções do fabricante</strong> ou de acordo com a orientação de médico, nutricionista ou outro profissional de saúde habilitado. Não altere a forma de utilização recomendada sem orientação profissional.</p>",
+      advertencias: "<p>Este produto deve ser utilizado de acordo com sua finalidade e orientação de uso. <strong>Não exceda a recomendação de uso</strong> indicada pelo fabricante ou profissional de saúde. Mantenha fora do alcance de crianças e conserve o produto conforme as orientações de armazenamento da embalagem.</p><p>Este produto não substitui uma alimentação equilibrada nem tratamentos prescritos por profissionais de saúde. Em caso de dúvidas sobre a utilização, procure orientação de um profissional de saúde.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
+    },
+    destaque: false,
+    mostrarlancamento: false,
+    mostrarVideo: false,
+    textoParcelamento: "🎟️ Cupom válido no carrinho. 💳 Consulte parcelamento no checkout",
+    cupomAtivo: false,
+    cupomPorcentagem: 0,
+    cupomCodigo: "",
+    cupomValidade: "",
+    cupomMensagemTag: "",
+    cupomOcultarTag: false
+  },
+  {
+    id: "67",
+    nome: "RED YEAST RICE 300mg - 60 Cápsulas",
+    categoria: "saude",
+    preco: 60.00,
+    imagem: "assets/img/red-yeast-rice-300mg-60-capsulas.png",
+    videos: [
+      
+    ],
+    descricao: {
+      resumo: "<p>Suplemento alimentar à base de <strong>arroz vermelho fermentado</strong>, fonte de compostos bioativos tradicionalmente estudados por sua relação com o metabolismo lipídico, especialmente como complemento de uma alimentação equilibrada e de hábitos de vida saudáveis.</p>",
+      oQueE: "<p>O <strong>Red Yeast Rice</strong> é um suplemento alimentar elaborado a partir do arroz vermelho fermentado, processo que pode resultar na formação de diferentes compostos bioativos, incluindo monacolinas. É um ingrediente tradicionalmente utilizado e estudado por sua relação com o metabolismo das gorduras.</p><p>Sua finalidade está relacionada ao <strong>suporte ao metabolismo lipídico</strong>, fornecendo compostos provenientes do processo de fermentação do arroz. Os componentes presentes no arroz vermelho fermentado são estudados principalmente em relação ao metabolismo do colesterol, dentro de uma abordagem que também considera alimentação equilibrada e hábitos de vida saudáveis.</p><p>É destinado a adultos que buscam <strong>suporte nutricional para o metabolismo lipídico</strong> e desejam complementar sua rotina com um ingrediente de origem fermentada. A utilização deve considerar as características individuais e, especialmente quando houver uso de medicamentos ou acompanhamento por alterações metabólicas, contar com orientação de um profissional de saúde.</p>",
+      composicao: "<ul>\n<li>RED YEAST RICE — 300MG</li>\n</ul><p><strong>Apresentação:</strong> 60 Cápsulas</p>",
+      comoUsar: "<p>Utilize o produto <strong>conforme as instruções do fabricante</strong> ou de acordo com a orientação de médico, nutricionista ou outro profissional de saúde habilitado. Não altere a forma de utilização recomendada sem orientação profissional.</p>",
+      advertencias: "<p>Este produto deve ser utilizado de acordo com as orientações do fabricante. <strong>Não exceda a recomendação de uso</strong> indicada na embalagem ou por profissional de saúde.</p><p>O arroz vermelho fermentado pode conter monacolinas, cuja quantidade pode variar de acordo com a matéria-prima e o processo de fabricação. Pessoas que utilizam medicamentos ou possuem condições específicas de saúde devem consultar um profissional de saúde antes de utilizar o produto.</p><p>O suplemento não deve ser utilizado para substituir medicamentos, tratamentos prescritos ou uma alimentação equilibrada. Mantenha fora do alcance de crianças e conserve o produto de acordo com as orientações de armazenamento do fabricante.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
+    },
+    destaque: false,
+    mostrarlancamento: false,
+    mostrarVideo: false,
+    textoParcelamento: "🎟️ Cupom válido no carrinho. 💳 Consulte parcelamento no checkout",
+    cupomAtivo: false,
+    cupomPorcentagem: 0,
+    cupomCodigo: "",
+    cupomValidade: "",
+    cupomMensagemTag: "",
+    cupomOcultarTag: false
+  },
+  {
+    id: "68",
+    nome: "CYANOTIS VAGA EXTRATO 200mg - 60 Cápsulas",
+    categoria: "desempenhofisico",
+    preco: 150.00,
+    imagem: "assets/img/cyanotis-vaga-extrato-200mg-60-capsulas.png",
+    videos: [
+      
+    ],
+    descricao: {
+      resumo: "<p>Suplemento à base de <strong>extrato de Cyanotis vaga</strong>, desenvolvido para integrar estratégias de suplementação esportiva voltadas ao suporte à massa muscular, resistência e desempenho físico.</p>",
+      oQueE: "<p>O <strong>Cyanotis Vaga Extrato</strong> é um suplemento à base do extrato da planta Cyanotis vaga, fonte de compostos bioativos como a beta-ecdisterona ou beta-ecdisona. O ingrediente é utilizado em formulações de suplementação alimentar e em diferentes aplicações.</p><p>Sua utilização está associada a estratégias de <strong>suporte ao desempenho físico e à composição corporal</strong>, especialmente em contextos de treinamento e atividade física. O produto pode complementar uma rotina voltada ao desenvolvimento e à manutenção da massa muscular, sem substituir alimentação adequada, treinamento ou acompanhamento profissional.</p><p>É destinado a adultos que praticam atividades físicas e buscam <strong>suporte nutricional para seus objetivos esportivos</strong>, especialmente aqueles relacionados à massa muscular, resistência e desempenho físico. A utilização deve considerar as características individuais e, quando necessário, contar com orientação de um profissional habilitado.</p>",
+      composicao: "<ul>\n<li>CYANOTIS VAGA EXTRATO — 200MG</li>\n</ul><p><strong>Apresentação:</strong> 60 Cápsulas</p>",
+      comoUsar: "<p>Tomar <strong>1 cápsula ao dia, 1 hora antes dos exercícios</strong>, ou conforme orientação de profissional habilitado.</p>",
+      advertencias: "<p>Pessoas com hipersensibilidade à substância não devem fazer uso do produto. Em caso de hipersensibilidade ao produto, recomenda-se descontinuar o uso e consultar o médico. Não use o produto com o prazo de validade vencido. Manter em temperatura ambiente (15 a 30ºC), protegido da luz, do calor e da umidade.</p><p>Manter fora do alcance das crianças. Este produto não deve ser utilizado por mulheres grávidas ou durante o período de amamentação sem orientação médica. Este produto não deve ser utilizado por menores de 18 anos sem orientação médica. Siga corretamente o modo de usar. Nunca compre medicamento sem orientação de um profissional habilitado.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
+    },
+    destaque: false,
+    mostrarlancamento: false,
+    mostrarVideo: false,
+    textoParcelamento: "🎟️ Cupom válido no carrinho. 💳 Consulte parcelamento no checkout",
+    cupomAtivo: false,
+    cupomPorcentagem: 0,
+    cupomCodigo: "",
+    cupomValidade: "",
+    cupomMensagemTag: "",
+    cupomOcultarTag: false
+  },
+  {
+    id: "69",
+    nome: "Ácido Tricloroacético 60% - Solução 10ml",
+    categoria: "podologia",
+    preco: 47.00,
+    imagem: "assets/img/acido-tricloroacetico-60-solucao-10ml.png",
+    videos: [
+      
+    ],
+    descricao: {
+      resumo: "<p>Solução de <strong>Ácido Tricloroacético 60%</strong>, destinada ao uso profissional em procedimentos podológicos específicos que necessitam de ação química controlada.</p>",
+      oQueE: "<p>O Ácido Tricloroacético 60% é uma solução de uso profissional formulada com alta concentração de ácido tricloroacético, indicada para aplicações específicas em procedimentos podológicos.</p><p>É utilizado em <strong>procedimentos podológicos específicos</strong> que necessitam de ação química controlada, conforme avaliação e indicação profissional.</p><p>É recomendado para <strong>profissionais habilitados</strong> que realizam procedimentos podológicos nos quais a utilização do ácido tricloroacético esteja devidamente indicada.</p>",
+      composicao: "<ul>\n<li>Ácido Tricloroacético — 60%</li>\n<li>Veículo — 10ml</li>\n</ul><p><strong>Apresentação:</strong> Solução 10ml — Validade 4 meses</p>",
+      comoUsar: "<p>Utilize o produto exclusivamente conforme as <strong>instruções do fabricante</strong> ou de acordo com a orientação de profissional habilitado. Não utilize dose, frequência ou horário diferentes daqueles recomendados para o produto.</p>",
+      advertencias: "<p>Produto destinado ao <strong>uso profissional</strong>. A utilização deve ser realizada de acordo com a finalidade indicada e mediante avaliação profissional. Em caso de dúvidas sobre a utilização, procure orientação de profissional habilitado.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
     },
     destaque: false,
     mostrarlancamento: false,
