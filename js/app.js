@@ -105,7 +105,7 @@ const bannersIntermediarios = [
    },
 
   {
-     afterCategory: "emagrecimento",
+     afterCategory: "quedacapilar",
      random: false,                    // ← true = embaralha | false = mantém a ordem
      imagens: [
        { src: "assets/adsmeio/bloome1.png", alt: "bloome 1" },
@@ -114,6 +114,19 @@ const bannersIntermediarios = [
        { src: "assets/adsmeio/bloome4.png", alt: "bloome 4" },
        { src: "assets/adsmeio/bloome5.png", alt: "bloome 5" },
        { src: "assets/adsmeio/bloome6.png", alt: "bloome 6" }
+     ]
+   },
+
+
+  {
+     afterCategory: "emagrecimento",
+     random: true,                    // ← true = embaralha | false = mantém a ordem
+     imagens: [
+       { src: "assets/adsmeio/pantogar.png", alt: "Pantogar Turbinado" },
+       { src: "assets/adsmeio/cyanotis.png", alt: "Cyanotis" },
+       { src: "assets/adsmeio/oliveleaf.png", alt: "Olive" },
+       { src: "assets/adsmeio/redrice.png", alt: "Red Rice" }
+       
      ]
    },
 
