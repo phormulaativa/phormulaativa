@@ -42,66 +42,6 @@ const categorias = [
     cupomOcultarTag: true
   },
   {
-    id: "emagrecimento",
-    nome: "Manipulados para emagrecimento",
-    nomeMenu: "Emagrecimento",
-    mostrarNoMenu: true,
-    cupomAtivo: false,
-    cupomPorcentagem: 0,
-    cupomCodigo: "",
-    cupomValidade: "",
-    cupomMensagemTag: "",
-    cupomOcultarTag: false
-  },
-  {
-    id: "quedacapilar",
-    nome: "Manipulados para queda capilar",
-    nomeMenu: "Queda Capilar",
-    mostrarNoMenu: true,
-    cupomAtivo: false,
-    cupomPorcentagem: 0,
-    cupomCodigo: "",
-    cupomValidade: "",
-    cupomMensagemTag: "",
-    cupomOcultarTag: false
-  },
-  {
-    id: "beleza",
-    nome: "Manipulados para dermatologia e beleza",
-    nomeMenu: "Dermato & Beleza",
-    mostrarNoMenu: true,
-    cupomAtivo: false,
-    cupomPorcentagem: 0,
-    cupomCodigo: "",
-    cupomValidade: "",
-    cupomMensagemTag: "",
-    cupomOcultarTag: false
-  },
-  {
-    id: "desempenhofisico",
-    nome: "Manipulados para desempenho físico e vitalidade",
-    nomeMenu: "Desempenho físico & Vitalidade",
-    mostrarNoMenu: true,
-    cupomAtivo: false,
-    cupomPorcentagem: 0,
-    cupomCodigo: "",
-    cupomValidade: "",
-    cupomMensagemTag: "",
-    cupomOcultarTag: false
-  },
-  {
-    id: "saude",
-    nome: "Manipulados para saúde e bem-estar",
-    nomeMenu: "Saúde & Bem Estar",
-    mostrarNoMenu: true,
-    cupomAtivo: false,
-    cupomPorcentagem: 0,
-    cupomCodigo: "",
-    cupomValidade: "",
-    cupomMensagemTag: "",
-    cupomOcultarTag: false
-  },
-  {
     id: "embalagens",
     nome: "Embalagens",
     nomeMenu: "Embalagens",
@@ -114,10 +54,58 @@ const categorias = [
     cupomOcultarTag: false
   },
   {
-    id: "libido",
-    nome: "Manipulados para libido",
-    nomeMenu: "Libido",
-    mostrarNoMenu: false,
+    id: "emagrecimento",
+    nome: "Emagrecimento",
+    nomeMenu: "Emagrecimento",
+    mostrarNoMenu: true,
+    cupomAtivo: false,
+    cupomPorcentagem: 0,
+    cupomCodigo: "",
+    cupomValidade: "",
+    cupomMensagemTag: "",
+    cupomOcultarTag: false
+  },
+  {
+    id: "quedacapilar",
+    nome: "Queda capilar",
+    nomeMenu: "Queda Capilar",
+    mostrarNoMenu: true,
+    cupomAtivo: false,
+    cupomPorcentagem: 0,
+    cupomCodigo: "",
+    cupomValidade: "",
+    cupomMensagemTag: "",
+    cupomOcultarTag: false
+  },
+  {
+    id: "beleza",
+    nome: "Dermatologia e beleza",
+    nomeMenu: "Dermato & Beleza",
+    mostrarNoMenu: true,
+    cupomAtivo: false,
+    cupomPorcentagem: 0,
+    cupomCodigo: "",
+    cupomValidade: "",
+    cupomMensagemTag: "",
+    cupomOcultarTag: false
+  },
+  {
+    id: "desempenhofisico",
+    nome: "Desempenho físico e vitalidade",
+    nomeMenu: "Desempenho físico & Vitalidade",
+    mostrarNoMenu: true,
+    cupomAtivo: false,
+    cupomPorcentagem: 0,
+    cupomCodigo: "",
+    cupomValidade: "",
+    cupomMensagemTag: "",
+    cupomOcultarTag: false
+  },
+  {
+    id: "saude",
+    nome: "Saúde e bem-estar",
+    nomeMenu: "Saúde & Bem Estar",
+    mostrarNoMenu: true,
     cupomAtivo: false,
     cupomPorcentagem: 0,
     cupomCodigo: "",
@@ -1090,7 +1078,7 @@ const produtos = [
       oQueE: "<p>Verbascosideo + Eclipta Alba é uma fórmula composta por dois ativos, Verbascosideo e Eclipta Alba extrato seco, desenvolvida para integrar uma rotina de cuidados voltada à <strong>saúde capilar</strong> e ao equilíbrio celular.</p><p>Sua finalidade está relacionada principalmente aos <strong>cuidados com a queda capilar</strong> e ao estímulo dos cuidados com os cabelos, além de fornecer componentes associados à ação antioxidante e ao cuidado da pele e do equilíbrio celular.</p><p>É indicado para pessoas que buscam complementar sua rotina de cuidados com os cabelos, especialmente aquelas interessadas em <strong>cuidados capilares e redução da queda</strong>. A utilização deve considerar as necessidades individuais e, quando necessário, contar com orientação de um profissional de saúde.</p>",
       composicao: "<ul>\n<li>VERBASCOSIDEO — 15MG</li>\n<li>ECLIPTA ALBA EXTRATO SECO — 150MG</li>\n</ul><p><strong>Apresentação:</strong> 30 Cápsulas</p>",
       comoUsar: "<p>Utilize o produto conforme as <strong>instruções do fabricante</strong> ou de acordo com a orientação de um profissional de saúde. Não altere a forma de utilização recomendada na embalagem ou na orientação profissional.</p>",
-      advertencias: "<p>Utilize este produto de acordo com as orientações do fabricante. Em caso de dúvidas sobre a utilizaç��o, procure orientação de um profissional de saúde. Mantenha o produto fora do alcance de crianças e conserve-o conforme as condições indicadas pelo fabricante.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
+      advertencias: "<p>Utilize este produto de acordo com as orientações do fabricante. Em caso de dúvidas sobre a utilização, procure orientação de um profissional de saúde. Mantenha o produto fora do alcance de crianças e conserve-o conforme as condições indicadas pelo fabricante.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
     },
     destaque: true,
     mostrarlancamento: false,
@@ -1466,9 +1454,90 @@ const produtos = [
     descricao: {
       resumo: "<p>Solução de <strong>Ácido Tricloroacético 60%</strong>, destinada ao uso profissional em procedimentos podológicos específicos que necessitam de ação química controlada.</p>",
       oQueE: "<p>O Ácido Tricloroacético 60% é uma solução de uso profissional formulada com alta concentração de ácido tricloroacético, indicada para aplicações específicas em procedimentos podológicos.</p><p>É utilizado em <strong>procedimentos podológicos específicos</strong> que necessitam de ação química controlada, conforme avaliação e indicação profissional.</p><p>É recomendado para <strong>profissionais habilitados</strong> que realizam procedimentos podológicos nos quais a utilização do ácido tricloroacético esteja devidamente indicada.</p>",
-      composicao: "<ul>\n<li>Ácido Tricloroacético — 60%</li>\n<li>Veículo — 10ml</li>\n</ul><p><strong>Apresentação:</strong> Solução 10ml — Validade 4 meses</p>",
+      composicao: "<ul>\n<li>��cido Tricloroacético — 60%</li>\n<li>Veículo — 10ml</li>\n</ul><p><strong>Apresentação:</strong> Solução 10ml — Validade 4 meses</p>",
       comoUsar: "<p>Utilize o produto exclusivamente conforme as <strong>instruções do fabricante</strong> ou de acordo com a orientação de profissional habilitado. Não utilize dose, frequência ou horário diferentes daqueles recomendados para o produto.</p>",
       advertencias: "<p>Produto destinado ao <strong>uso profissional</strong>. A utilização deve ser realizada de acordo com a finalidade indicada e mediante avaliação profissional. Em caso de dúvidas sobre a utilização, procure orientação de profissional habilitado.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
+    },
+    destaque: false,
+    mostrarlancamento: false,
+    mostrarVideo: false,
+    textoParcelamento: "🎟️ Cupom válido no carrinho. 💳 Consulte parcelamento no checkout",
+    cupomAtivo: false,
+    cupomPorcentagem: 0,
+    cupomCodigo: "",
+    cupomValidade: "",
+    cupomMensagemTag: "",
+    cupomOcultarTag: false
+  },
+  {
+    id: "70",
+    nome: "TPC COM CLOMIFENO - 60 Cápsulas",
+    categoria: "desempenhofisico",
+    preco: 200.00,
+    imagem: "assets/img/tpc-com-clomifeno-60-capsulas.png",
+    videos: [
+      
+    ],
+    descricao: {
+      resumo: "<p><strong>TPC com Clomifeno</strong> é uma fórmula desenvolvida para auxiliar na <strong>recuperação e equilíbrio hormonal masculino</strong>, oferecendo suporte à produção natural de testosterona, libido, disposição, próstata e metabolismo.</p>",
+      oQueE: "<p>O <strong>TPC com Clomifeno</strong> é uma fórmula composta por ativos selecionados para oferecer suporte ao <strong>equilíbrio hormonal masculino</strong>, especialmente em situações relacionadas à redução da produção natural de testosterona.</p><p>Sua finalidade é <strong>auxiliar na recuperação do equilíbrio hormonal</strong>, contribuindo para o suporte à produção natural de testosterona, à libido e à disposição, além de oferecer componentes voltados ao suporte da próstata, função urinária, fígado e metabolismo.</p><p>Pode ser indicado para <strong>homens que necessitam de suporte à recuperação e ao equilíbrio hormonal</strong>, conforme avaliação e orientação de profissional habilitado. A utilização de seus componentes hormonais deve ser acompanhada por orientação profissional.</p>",
+      composicao: "<ul>\n<li>Silimarina — 150MG</li>\n<li>Pygeum Africanum — 80MG</li>\n<li>Indol 3 Carbinol — 30MG</li>\n<li>Urtiga Dioica Extrato Seco — 80MG</li>\n<li>Tribulus Terrestris L. — 200MG</li>\n<li>Metionina — 50MG</li>\n<li>Tamoxifeno Citrato — 10MG</li>\n<li>Clomifeno Cloridrato — 50MG</li>\n</ul><p><strong>Apresentação:</strong> 60 Cápsulas</p>",
+      comoUsar: "<p>Utilize o produto <strong>conforme as instruções do fabricante ou orientação de profissional habilitado</strong>. Não utilize por conta própria nem altere a forma de uso recomendada.</p>",
+      advertencias: "<p>Este produto deve ser utilizado de acordo com as orientações do fabricante ou de profissional habilitado. Em caso de dúvidas sobre sua utilização, procure orientação profissional.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
+    },
+    destaque: false,
+    mostrarlancamento: false,
+    mostrarVideo: false,
+    textoParcelamento: "🎟️ Cupom válido no carrinho. 💳 Consulte parcelamento no checkout",
+    cupomAtivo: false,
+    cupomPorcentagem: 0,
+    cupomCodigo: "",
+    cupomValidade: "",
+    cupomMensagemTag: "",
+    cupomOcultarTag: false
+  },
+  {
+    id: "71",
+    nome: "BOSWELLIA SERRATA - 30 Cápsulas",
+    categoria: "saude",
+    preco: 50.00,
+    imagem: "assets/img/boswellia-serrata-30-capsulas.png",
+    videos: [
+      
+    ],
+    descricao: {
+      resumo: "<p><strong>Boswellia Serrata</strong> é uma fórmula desenvolvida para oferecer suporte ao <strong>conforto e à saúde das articulações</strong>, com foco no bem-estar e na manutenção da mobilidade.</p>",
+      oQueE: "<p>A <strong>Boswellia Serrata</strong> é um extrato obtido de uma planta tradicionalmente utilizada na medicina e conhecida por seus componentes associados ao suporte do <strong>equilíbrio da resposta inflamatória</strong> do organismo.</p><p>Sua utilização está relacionada ao suporte à <strong>saúde e ao conforto das articulações</strong>, podendo auxiliar na manutenção da mobilidade e da flexibilidade. Também é estudada por seu potencial de contribuir para o bem-estar em situações relacionadas ao desconforto articular.</p><p>Pode ser indicada para <strong>adultos que buscam suporte para a saúde das articulações, mobilidade e conforto físico</strong>, especialmente quando houver orientação de um profissional habilitado para sua utilização.</p>",
+      composicao: "<ul>\n<li>BOSWELLIA SERRATA 30% — 50MG</li>\n</ul><p><strong>Apresentação:</strong> 30 Cápsulas</p>",
+      comoUsar: "<p>Utilize o produto <strong>conforme as instruções do fabricante ou orientação de profissional habilitado</strong>. Não altere a forma de uso recomendada e, em caso de dúvidas, procure orientação profissional.</p>",
+      advertencias: "<p>O uso do produto é contraindicado para pessoas com <strong>cálculo biliar, obstrução dos ductos biliares ou úlcera gastroduodenal</strong>, bem como para pessoas com hipersensibilidade à substância. Não deve ser utilizado simultaneamente com anticoagulantes sem orientação profissional.</p><p>Em caso de hipersensibilidade ao produto, recomenda-se descontinuar o uso e consultar um médico. Este produto não deve ser utilizado por mulheres grávidas ou durante o período de amamentação sem orientação médica. Não deve ser utilizado por menores de 18 anos sem orientação médica.</p><p>Não use o produto com o prazo de validade vencido. Manter em temperatura ambiente (15 a 30ºC), protegido da luz, do calor e da umidade e fora do alcance das crianças. Nunca compre medicamento sem orientação de um profissional habilitado. Siga corretamente o modo de usar. Imagens meramente ilustrativas.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
+    },
+    destaque: false,
+    mostrarlancamento: false,
+    mostrarVideo: false,
+    textoParcelamento: "🎟️ Cupom válido no carrinho. 💳 Consulte parcelamento no checkout",
+    cupomAtivo: false,
+    cupomPorcentagem: 0,
+    cupomCodigo: "",
+    cupomValidade: "",
+    cupomMensagemTag: "",
+    cupomOcultarTag: false
+  },
+  {
+    id: "72",
+    nome: "SILICIO ORGANICO 300mg - 30 Cápsulas",
+    categoria: "saude",
+    preco: 80.00,
+    imagem: "assets/img/silicio-organico-300mg-30-capsulas.png",
+    videos: [
+      
+    ],
+    descricao: {
+      resumo: "<p><strong>Silício Orgânico 300 mg</strong> é uma fórmula desenvolvida para oferecer suporte à <strong>saúde da pele, cabelos, unhas, ossos e tecidos conjuntivos</strong>, contribuindo para a manutenção da estrutura e do bem-estar do organismo.</p>",
+      oQueE: "<p>O <strong>Silício Orgânico 300 mg</strong> é uma fórmula que fornece silício orgânico, mineral relacionado à estrutura e à manutenção dos tecidos conjuntivos, incluindo componentes como colágeno e elastina.</p><p>Sua utilização está associada ao suporte à <strong>firmeza e elasticidade da pele</strong>, à estrutura e resistência dos cabelos e unhas, além da manutenção dos tecidos conjuntivos e do metabolismo ósseo.</p><p>Pode ser indicado para <strong>adultos que buscam suporte nutricional para a saúde da pele, cabelos, unhas, ossos e tecidos conjuntivos</strong>, especialmente quando houver orientação de um profissional habilitado.</p>",
+      composicao: "<ul>\n<li>SILICIO ORGANICO — 300MG</li>\n</ul><p><strong>Apresentação:</strong> 30 Cápsulas</p>",
+      comoUsar: "<p>Utilize o produto <strong>conforme as instruções do fabricante ou orientação de profissional habilitado</strong>. Não altere a forma de uso recomendada e, em caso de dúvidas, procure orientação profissional.</p>",
+      advertencias: "<p>Conservar o produto adequadamente e mantê-lo fora do alcance das crianças. Não utilizar em caso de hipersensibilidade a qualquer componente da fórmula. Em caso de dúvidas sobre o uso, procure orientação de um profissional habilitado.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
     },
     destaque: false,
     mostrarlancamento: false,
