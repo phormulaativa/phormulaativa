@@ -130,6 +130,22 @@ const bannersIntermediarios = [
      ]
    },
 
+
+
+
+  {
+     afterCategory: "desempenhofisico",
+     random: true,                    // ← true = embaralha | false = mantém a ordem
+     imagens: [
+       { src: "assets/adsmeio/biosil.png", alt: "Biosil" },
+       { src: "assets/adsmeio/formulaemagrecedora.png", alt: "Fórmula Emagrecedora" },
+       { src: "assets/adsmeio/rhodiola.png", alt: "Rhodiola" },
+       { src: "assets/adsmeio/circulacao.png", alt: "Circulação Retenção Líquido" },
+       { src: "assets/adsmeio/fomecontrol.png", alt: "Fome Control" }
+       
+     ]
+   },
+
   // Exemplo com 1 imagem só:
   // {
   //   afterCategory: "podologia",
