@@ -805,7 +805,7 @@ const produtos = [
     ],
     descricao: {
       resumo: "<p>O Ciclopirox é uma solução alcoólica de uso tópico desenvolvida para <strong>auxiliar no tratamento antifúngico</strong>, reunindo diferentes componentes em uma formulação prática para aplicação localizada.</p>",
-      oQueE: "<p>O <strong>Ciclopirox</strong> é uma solução alcoólica de uso tópico formulada com ciclopirox olamina, terbinafina cloridrato, ureia, propilenoglicol e ácido salicílico.</p><p>Sua finalidade é <strong>auxiliar no tratamento antifúngico</strong>, sendo destinada ao cuidado tópico de áreas que necessitam de atenção relacionada à presença de fungos.</p><p>Pode ser indicado para pessoas que necessitam de uma formulação de uso tópico para <strong>cuidado antifúngico</strong>, devendo sua utilização seguir as orientações do fabricante ou de um profissional habilitado.</p>",
+      oQueE: "<p>O <strong>Ciclopirox</strong> é uma solu��ão alcoólica de uso tópico formulada com ciclopirox olamina, terbinafina cloridrato, ureia, propilenoglicol e ácido salicílico.</p><p>Sua finalidade é <strong>auxiliar no tratamento antifúngico</strong>, sendo destinada ao cuidado tópico de áreas que necessitam de atenção relacionada à presença de fungos.</p><p>Pode ser indicado para pessoas que necessitam de uma formulação de uso tópico para <strong>cuidado antifúngico</strong>, devendo sua utilização seguir as orientações do fabricante ou de um profissional habilitado.</p>",
       composicao: "<ul>\n<li>CICLOPIROX OLAMINA — 8%</li>\n<li>TERBINAFINA CLORIDRATO — 2%</li>\n<li>UREIA — 10%</li>\n<li>PROPILENOGLICOL — 10%</li>\n<li>ACIDO SALICILICO — 2%</li>\n<li>ALCOOL 70% — 20ML</li>\n</ul><p><strong>Apresentação:</strong> Solução alcoólica 20ml - Validade 4 meses</p>",
       comoUsar: "<p>Utilize o produto conforme as <strong>instruções do fabricante</strong> ou de acordo com a orientação de um profissional habilitado. Não altere a forma de utilização recomendada sem orientação profissional.</p>",
       advertencias: "<p>Utilize o produto somente conforme as orientações fornecidas pelo fabricante. Em caso de dúvidas sobre a utilização, procure orientação de um profissional habilitado. Mantenha o produto em condições adequadas de armazenamento e fora do alcance de crianças.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
@@ -1078,7 +1078,7 @@ const produtos = [
       oQueE: "<p>Verbascosideo + Eclipta Alba é uma fórmula composta por dois ativos, Verbascosideo e Eclipta Alba extrato seco, desenvolvida para integrar uma rotina de cuidados voltada à <strong>saúde capilar</strong> e ao equilíbrio celular.</p><p>Sua finalidade está relacionada principalmente aos <strong>cuidados com a queda capilar</strong> e ao estímulo dos cuidados com os cabelos, além de fornecer componentes associados à ação antioxidante e ao cuidado da pele e do equilíbrio celular.</p><p>É indicado para pessoas que buscam complementar sua rotina de cuidados com os cabelos, especialmente aquelas interessadas em <strong>cuidados capilares e redução da queda</strong>. A utilização deve considerar as necessidades individuais e, quando necessário, contar com orientação de um profissional de saúde.</p>",
       composicao: "<ul>\n<li>VERBASCOSIDEO — 15MG</li>\n<li>ECLIPTA ALBA EXTRATO SECO — 150MG</li>\n</ul><p><strong>Apresentação:</strong> 30 Cápsulas</p>",
       comoUsar: "<p>Utilize o produto conforme as <strong>instruções do fabricante</strong> ou de acordo com a orientação de um profissional de saúde. Não altere a forma de utilização recomendada na embalagem ou na orientação profissional.</p>",
-      advertencias: "<p>Utilize este produto de acordo com as orientações do fabricante. Em caso de dúvidas sobre a utilizaç��o, procure orientação de um profissional de saúde. Mantenha o produto fora do alcance de crianças e conserve-o conforme as condições indicadas pelo fabricante.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
+      advertencias: "<p>Utilize este produto de acordo com as orientações do fabricante. Em caso de dúvidas sobre a utilização, procure orientação de um profissional de saúde. Mantenha o produto fora do alcance de crianças e conserve-o conforme as condições indicadas pelo fabricante.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
     },
     destaque: true,
     mostrarlancamento: false,
@@ -1538,6 +1538,141 @@ const produtos = [
       composicao: "<ul>\n<li>SILICIO ORGANICO — 300MG</li>\n</ul><p><strong>Apresentação:</strong> 30 Cápsulas</p>",
       comoUsar: "<p>Utilize o produto <strong>conforme as instruções do fabricante ou orientação de profissional habilitado</strong>. Não altere a forma de uso recomendada e, em caso de dúvidas, procure orientação profissional.</p>",
       advertencias: "<p>Conservar o produto adequadamente e mantê-lo fora do alcance das crianças. Não utilizar em caso de hipersensibilidade a qualquer componente da fórmula. Em caso de dúvidas sobre o uso, procure orientação de um profissional habilitado.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
+    },
+    destaque: false,
+    mostrarlancamento: false,
+    mostrarVideo: false,
+    textoParcelamento: "🎟️ Cupom válido no carrinho. 💳 Consulte parcelamento no checkout",
+    cupomAtivo: false,
+    cupomPorcentagem: 0,
+    cupomCodigo: "",
+    cupomValidade: "",
+    cupomMensagemTag: "",
+    cupomOcultarTag: false
+  },
+  {
+    id: "73",
+    nome: "Biosil 520mg - 30 Cápsulas",
+    categoria: "beleza",
+    preco: 160.00,
+    imagem: "assets/img/biosil-520mg-30-capsulas.png",
+    videos: [
+      
+    ],
+    descricao: {
+      resumo: "<p>O <strong>Biosil 520mg</strong> é desenvolvido para auxiliar nos cuidados com pele, cabelos, unhas, ossos e articulações, por meio da ativação das vias relacionadas à produção de colágeno.</p>",
+      oQueE: "<p>O <strong>Biosil 520mg</strong> é um produto desenvolvido com ácido ortosilícico estabilizado em colina, utilizando a tecnologia ch-OSA™, que proporciona estabilidade e biodisponibilidade ao ingrediente.</p><p>É utilizado como suporte aos cuidados com <strong>pele, cabelos, unhas, ossos e articulações</strong>, estando relacionado à ativação das vias de produção de colágeno. Entre as finalidades descritas pelo fabricante estão auxiliar na elasticidade da pele, fortalecer os fios de cabelo, reduzir a fragilidade das unhas e contribuir para a redução da profundidade das linhas de expressão.</p><p>É indicado para adultos que buscam complementar os cuidados com a <strong>saúde da pele, cabelos, unhas, ossos e articulações</strong>. Pessoas com hipersensibilidade à substância não devem fazer uso do produto.</p>",
+      composicao: "<ul>\n<li>BIOSIL — 520MG</li>\n</ul><p><strong>Apresentação:</strong> 30 Cápsulas</p>",
+      comoUsar: "<p>Tomar <strong>1 cápsula ao dia</strong>.</p>",
+      advertencias: "<p>Pessoas com hipersensibilidade à substância não devem fazer uso do produto. Em caso de hipersensibilidade ao produto, recomenda-se descontinuar o uso e consultar o médico. Não use o produto com o prazo de validade vencido. Manter em temperatura ambiente (15 a 30ºC), protegido da luz, do calor e da umidade e fora do alcance das crianças.</p><p>Mulheres grávidas não devem utilizar o produto sem orientação médica. O uso durante o período de amamentação não é recomendado. Este produto não deve ser utilizado por menores de 18 anos sem orientação médica. Nunca compre medicamento sem orientação de um profissional habilitado. Siga corretamente o modo de usar e, caso os sintomas não desapareçam, procure orientação médica.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
+    },
+    destaque: false,
+    mostrarlancamento: false,
+    mostrarVideo: false,
+    textoParcelamento: "🎟️ Cupom válido no carrinho. 💳 Consulte parcelamento no checkout",
+    cupomAtivo: false,
+    cupomPorcentagem: 0,
+    cupomCodigo: "",
+    cupomValidade: "",
+    cupomMensagemTag: "",
+    cupomOcultarTag: false
+  },
+  {
+    id: "74",
+    nome: "FOME CONTROL - 30 Cápsulas",
+    categoria: "emagrecimento",
+    preco: 60.00,
+    imagem: "assets/img/fome-control-30-capsulas.png",
+    videos: [
+      
+    ],
+    descricao: {
+      resumo: "<p>O <strong>Fome Control</strong> é um suplemento desenvolvido para auxiliar no <strong>controle do apetite</strong>, contribuindo para a sensação de saciedade e para o controle da vontade de consumir doces durante processos de reeducação alimentar.</p>",
+      oQueE: "<p>O <strong>Fome Control</strong> é um suplemento alimentar em cápsulas que combina diferentes ativos, como Garcinia Cambogia, Gymnema Silvestre, Vanádio Quelato, Picolinato de Cromo e Psyllium.</p><p>Sua formulação foi desenvolvida para auxiliar na <strong>redução da vontade por doces</strong>, no aumento da saciedade e no controle do apetite, além de contribuir como suporte aos objetivos relacionados ao controle do peso e à redução de gordura corporal.</p><p>É indicado para <strong>homens e mulheres</strong> que estejam buscando apoio durante processos de emagrecimento e reeducação alimentar, especialmente aqueles que desejam controlar o apetite, aumentar a saciedade e diminuir a vontade de consumir doces.</p>",
+      composicao: "<ul>\n<li>GARCINIA CAMBOGIA EXTRATO — 400MG</li>\n<li>GYMNEMA SILVESTRE — 200MG</li>\n<li>VANADIO QUELATO — 55MCG</li>\n<li>PICOLINATO DE CROMO — 200MCG</li>\n<li>PSYLLIUM — 300MG</li>\n</ul><p><strong>Apresentação:</strong> 30 Cápsulas</p>",
+      comoUsar: "<p>Tomar <strong>1 dose (2 cápsulas) ao dia</strong>, com água.</p>",
+      advertencias: "<p>Pessoas com hipersensibilidade à substância não devem fazer uso do produto. Em caso de hipersensibilidade ao produto, recomenda-se descontinuar o uso e consultar o médico. Não use o produto com o prazo de validade vencido. Manter em temperatura ambiente (15 a 30ºC), protegido da luz, do calor e da umidade, e fora do alcance das crianças.</p><p>Nunca compre medicamento sem orientação de um profissional habilitado. Este produto não deve ser utilizado por mulheres grávidas sem orientação médica. O uso do produto durante o período de amamentação também não é recomendado. Este produto não deve ser utilizado por menores de 18 anos sem orientação médica. Siga corretamente o modo de usar e, não desaparecendo os sintomas, procure orientação médica.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
+    },
+    destaque: false,
+    mostrarlancamento: false,
+    mostrarVideo: false,
+    textoParcelamento: "🎟️ Cupom válido no carrinho. 💳 Consulte parcelamento no checkout",
+    cupomAtivo: false,
+    cupomPorcentagem: 0,
+    cupomCodigo: "",
+    cupomValidade: "",
+    cupomMensagemTag: "",
+    cupomOcultarTag: false
+  },
+  {
+    id: "75",
+    nome: "FÓRMULA EMAGRECEDORA - 60 Cápsulas",
+    categoria: "emagrecimento",
+    preco: 95.00,
+    imagem: "assets/img/formula-emagrecedora-60-capsulas.png",
+    videos: [
+      
+    ],
+    descricao: {
+      resumo: "<p>A <strong>Fórmula Emagrecedora</strong> com combinação de ativos selecionados para oferecer suporte ao <strong>controle do peso, apetite, saciedade e metabolismo energético</strong>, como coadjuvante de uma rotina de alimentação equilibrada e atividade física.</p>",
+      oQueE: "<p>A <strong>Fórmula Emagrecedora</strong> é uma combinação de ativos apresentada em cápsulas, reunindo ingredientes como Gymnema, Cinnamomum, café verde, psyllium, Garcinia, gengibre, cafeína, cromo, minerais, aminoácidos e outros componentes.</p><p>Sua composição foi desenvolvida para atuar como <strong>coadjuvante no controle do apetite e da saciedade</strong>, além de oferecer suporte ao metabolismo energético e às estratégias relacionadas ao controle do peso, sempre associada a hábitos alimentares equilibrados e atividade física.</p><p>Pode ser indicada para pessoas que buscam <strong>suporte ao controle do peso</strong> e desejam complementar estratégias de reeducação alimentar. Por conter ativos com ações farmacológicas, incluindo furosemida e ioimbina, sua utilização deve ocorrer exclusivamente conforme prescrição e orientação médica.</p>",
+      composicao: "<ul>\n<li>GYMNEMA — 50MG</li>\n<li>CINNAMOMUM — 40MG</li>\n<li>VANADIO — 50MCG</li>\n<li>CAFE VERDE — 10MG</li>\n<li>PHOLIA MAGRA — 10MG</li>\n<li>BIGUANIDA — 100MG</li>\n<li>FEIJAO BRANCO — 10MG</li>\n<li>CITRAMAX — 50MG</li>\n<li>HIBISCUS — 20MG</li>\n<li>PSYLLIUM — 30MG</li>\n<li>FUROSEMIDE — 5MG</li>\n<li>SELENIO — 30MCG</li>\n<li>ZINCO — 5MG</li>\n<li>MAGNESIO — 5MG</li>\n<li>CROMO — 100MCG</li>\n<li>ARGININA — 10MG</li>\n<li>VALINA — 15MG</li>\n<li>THEANIN — 20MG</li>\n<li>YOIMBINA — 1MG</li>\n<li>CAFEINA — 30MG</li>\n<li>VITAMINA D — 800UI</li>\n<li>GARCINIA — 50MG</li>\n<li>GENGIBRE — 20MG</li>\n<li>BAUHINIA — 80MG</li>\n</ul><p><strong>Apresentação:</strong> 60 Cápsulas</p>",
+      comoUsar: "<p>Utilizar conforme as <strong>instruções do fabricante ou orientação de profissional habilitado</strong>, respeitando a dose, frequência e indicação individualizadas. Não utilizar posologia diferente da prescrita.</p>",
+      advertencias: "<p>Por conter diversos ativos com ações farmacológicas, incluindo furosemida e ioimbina, o uso deste produto deve ser feito <strong>exclusivamente conforme prescrição e orientação médica</strong>, respeitando a dose e a indicação individual. Pessoas com hipersensibilidade à substância não devem fazer uso do produto. Em caso de hipersensibilidade ao produto, recomenda-se descontinuar o uso e consultar o médico.</p><p>Não use o produto com o prazo de validade vencido. Manter em temperatura ambiente (15 a 30ºC), protegido da luz, do calor e da umidade, e fora do alcance das crianças. Este produto não deve ser utilizado por mulheres grávidas sem orientação médica. O uso do produto durante o período de amamentação também não é recomendado. Este produto não deve ser utilizado por menores de 18 anos sem orientação médica. Siga corretamente o modo de usar e, não desaparecendo os sintomas, procure orientação médica.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
+    },
+    destaque: false,
+    mostrarlancamento: false,
+    mostrarVideo: false,
+    textoParcelamento: "🎟️ Cupom válido no carrinho. 💳 Consulte parcelamento no checkout",
+    cupomAtivo: false,
+    cupomPorcentagem: 0,
+    cupomCodigo: "",
+    cupomValidade: "",
+    cupomMensagemTag: "",
+    cupomOcultarTag: false
+  },
+  {
+    id: "76",
+    nome: "Circulação - Retenção Líquido - 60 Cápsulas",
+    categoria: "saude",
+    preco: 70.00,
+    imagem: "assets/img/circulacao-retencao-liquido-60-capsulas.png",
+    videos: [
+      
+    ],
+    descricao: {
+      resumo: "<p>O <strong>Circulação - Retenção Líquido</strong> é uma fórmula desenvolvida para oferecer suporte à <strong>circulação periférica</strong>, ao conforto das pernas e ao equilíbrio da retenção de líquidos, complementando uma rotina de cuidados com a saúde.</p>",
+      oQueE: "<p>O <strong>Circulação - Retenção Líquido</strong> é uma fórmula em cápsulas que combina Castanha da Índia, Rutina, Ginkgo Biloba, Vitamina B12 e Hamamelis Virginica, reunindo ativos selecionados para o suporte aos cuidados relacionados à circulação.</p><p>Sua composição oferece suporte à <strong>circulação sanguínea periférica</strong> e ao equilíbrio da retenção de líquidos, podendo contribuir para o conforto das pernas e para a sensação de bem-estar no dia a dia.</p><p>É uma opção para pessoas que buscam complementar os <strong>cuidados com a circulação e o equilíbrio hídrico</strong> do organismo, sempre associada a hábitos saudáveis e à orientação de profissional habilitado quando necessário.</p>",
+      composicao: "<ul>\n<li>CASTANHA DA INDIA EXTRACT — 200MG</li>\n<li>RUTINA — 150MG</li>\n<li>GINKGO BILOBA EXTRATO 24% — 60MG</li>\n<li>VITAMINA B12 — 1000MCG</li>\n<li>HAMAMELIS VIRGINICA EXTRACT PO — 100MG</li>\n</ul><p><strong>Apresentação:</strong> 60 Cápsulas</p>",
+      comoUsar: "<p>Utilizar conforme as <strong>instruções do fabricante ou orientação de profissional habilitado</strong>, respeitando a dose, a frequência e a indicação recomendadas. Não utilizar posologia diferente da orientada.</p>",
+      advertencias: "<p>Pessoas com hipersensibilidade a qualquer componente da fórmula não devem fazer uso do produto. Em caso de hipersensibilidade ao produto, recomenda-se descontinuar o uso e consultar um profissional de saúde. Não use o produto com o prazo de validade vencido. Manter em temperatura ambiente, protegido da luz, do calor e da umidade, e fora do alcance das crianças.</p><p>Mulheres grávidas, pessoas em período de amamentação e menores de 18 anos devem utilizar o produto somente mediante orientação de profissional habilitado. Siga corretamente as orientações de uso. Não desaparecendo os sintomas, procure orientação médica.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, pr��tica de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
+    },
+    destaque: false,
+    mostrarlancamento: false,
+    mostrarVideo: false,
+    textoParcelamento: "🎟️ Cupom válido no carrinho. 💳 Consulte parcelamento no checkout",
+    cupomAtivo: false,
+    cupomPorcentagem: 0,
+    cupomCodigo: "",
+    cupomValidade: "",
+    cupomMensagemTag: "",
+    cupomOcultarTag: false
+  },
+  {
+    id: "77",
+    nome: "RHODIOLA ANSILESS - 30 Cápsulas",
+    categoria: "saude",
+    preco: 0.00,
+    imagem: "assets/img/rhodiola-ansiless-30-capsulas.png",
+    videos: [
+      
+    ],
+    descricao: {
+      resumo: "<p>O <strong>RHODIOLA ANSILESS</strong> combina dois ativos selecionados para oferecer suporte ao <strong>equilíbrio emocional, adaptação ao estresse e bem-estar mental</strong>, contribuindo para uma rotina com maior disposição e equilíbrio.</p>",
+      oQueE: "<p>O <strong>RHODIOLA ANSILESS</strong> é uma fórmula em cápsulas que combina Rhodiola Rosea e Ansiless, dois ativos com propostas complementares voltadas ao suporte ao equilíbrio emocional e à resposta do organismo ao estresse.</p><p>Sua composição foi desenvolvida para auxiliar na <strong>adaptação ao estresse</strong>, no equilíbrio emocional e no bem-estar mental, podendo também oferecer suporte à disposição, concentração e resistência à fadiga relacionada ao estresse.</p><p>É uma opção para pessoas que enfrentam <strong>rotinas intensas, estresse ou cansaço mental</strong> e buscam complementar os cuidados relacionados ao equilíbrio emocional e ao bem-estar, sempre considerando a orientação de profissional habilitado.</p>",
+      composicao: "<ul>\n<li>RHODIOLA ROSEA — 300MG</li>\n<li>ANSILESS — 100MG</li>\n</ul><p><strong>Apresentação:</strong> 30 Cápsulas</p>",
+      comoUsar: "<p>Utilizar conforme as <strong>instruções do fabricante ou orientação de profissional habilitado</strong>, respeitando a dose, a frequência e a indicação recomendadas. Não utilizar posologia diferente da orientada.</p>",
+      advertencias: "<p>Pessoas com hipersensibilidade a qualquer componente da fórmula não devem fazer uso do produto. Em caso de hipersensibilidade ao produto, recomenda-se descontinuar o uso e consultar um profissional de saúde. Não use o produto com o prazo de validade vencido. Manter em temperatura ambiente, protegido da luz, do calor e da umidade, e fora do alcance das crianças.</p><p>Mulheres grávidas, pessoas em período de amamentação e menores de 18 anos devem utilizar o produto somente mediante orientação de profissional habilitado. Siga corretamente as orientações de uso. Não desaparecendo os sintomas, procure orientação médica.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
     },
     destaque: false,
     mostrarlancamento: false,
