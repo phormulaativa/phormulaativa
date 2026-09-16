@@ -125,7 +125,8 @@ const bannersIntermediarios = [
        { src: "assets/adsmeio/pantogar.png", alt: "Pantogar Turbinado" },
        { src: "assets/adsmeio/cyanotis.png", alt: "Cyanotis" },
        { src: "assets/adsmeio/oliveleaf.png", alt: "Olive" },
-       { src: "assets/adsmeio/redrice.png", alt: "Red Rice" }
+       { src: "assets/adsmeio/redrice.png", alt: "Red Rice" },
+       { src: "assets/adsmeio/peg4000350gr.png", alt: "PEG 4000" }
        
      ]
    },
