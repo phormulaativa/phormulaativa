@@ -805,7 +805,7 @@ const produtos = [
     ],
     descricao: {
       resumo: "<p>O Ciclopirox é uma solução alcoólica de uso tópico desenvolvida para <strong>auxiliar no tratamento antifúngico</strong>, reunindo diferentes componentes em uma formulação prática para aplicação localizada.</p>",
-      oQueE: "<p>O <strong>Ciclopirox</strong> é uma solu��ão alcoólica de uso tópico formulada com ciclopirox olamina, terbinafina cloridrato, ureia, propilenoglicol e ácido salicílico.</p><p>Sua finalidade é <strong>auxiliar no tratamento antifúngico</strong>, sendo destinada ao cuidado tópico de áreas que necessitam de atenção relacionada à presença de fungos.</p><p>Pode ser indicado para pessoas que necessitam de uma formulação de uso tópico para <strong>cuidado antifúngico</strong>, devendo sua utilização seguir as orientações do fabricante ou de um profissional habilitado.</p>",
+      oQueE: "<p>O <strong>Ciclopirox</strong> é uma solução alcoólica de uso tópico formulada com ciclopirox olamina, terbinafina cloridrato, ureia, propilenoglicol e ácido salicílico.</p><p>Sua finalidade é <strong>auxiliar no tratamento antifúngico</strong>, sendo destinada ao cuidado tópico de áreas que necessitam de atenção relacionada à presença de fungos.</p><p>Pode ser indicado para pessoas que necessitam de uma formulação de uso tópico para <strong>cuidado antifúngico</strong>, devendo sua utilização seguir as orientações do fabricante ou de um profissional habilitado.</p>",
       composicao: "<ul>\n<li>CICLOPIROX OLAMINA — 8%</li>\n<li>TERBINAFINA CLORIDRATO — 2%</li>\n<li>UREIA — 10%</li>\n<li>PROPILENOGLICOL — 10%</li>\n<li>ACIDO SALICILICO — 2%</li>\n<li>ALCOOL 70% — 20ML</li>\n</ul><p><strong>Apresentação:</strong> Solução alcoólica 20ml - Validade 4 meses</p>",
       comoUsar: "<p>Utilize o produto conforme as <strong>instruções do fabricante</strong> ou de acordo com a orientação de um profissional habilitado. Não altere a forma de utilização recomendada sem orientação profissional.</p>",
       advertencias: "<p>Utilize o produto somente conforme as orientações fornecidas pelo fabricante. Em caso de dúvidas sobre a utilização, procure orientação de um profissional habilitado. Mantenha o produto em condições adequadas de armazenamento e fora do alcance de crianças.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
@@ -1645,7 +1645,7 @@ const produtos = [
       oQueE: "<p>O <strong>Circulação - Retenção Líquido</strong> é uma fórmula em cápsulas que combina Castanha da Índia, Rutina, Ginkgo Biloba, Vitamina B12 e Hamamelis Virginica, reunindo ativos selecionados para o suporte aos cuidados relacionados à circulação.</p><p>Sua composição oferece suporte à <strong>circulação sanguínea periférica</strong> e ao equilíbrio da retenção de líquidos, podendo contribuir para o conforto das pernas e para a sensação de bem-estar no dia a dia.</p><p>É uma opção para pessoas que buscam complementar os <strong>cuidados com a circulação e o equilíbrio hídrico</strong> do organismo, sempre associada a hábitos saudáveis e à orientação de profissional habilitado quando necessário.</p>",
       composicao: "<ul>\n<li>CASTANHA DA INDIA EXTRACT — 200MG</li>\n<li>RUTINA — 150MG</li>\n<li>GINKGO BILOBA EXTRATO 24% — 60MG</li>\n<li>VITAMINA B12 — 1000MCG</li>\n<li>HAMAMELIS VIRGINICA EXTRACT PO — 100MG</li>\n</ul><p><strong>Apresentação:</strong> 60 Cápsulas</p>",
       comoUsar: "<p>Utilizar conforme as <strong>instruções do fabricante ou orientação de profissional habilitado</strong>, respeitando a dose, a frequência e a indicação recomendadas. Não utilizar posologia diferente da orientada.</p>",
-      advertencias: "<p>Pessoas com hipersensibilidade a qualquer componente da fórmula não devem fazer uso do produto. Em caso de hipersensibilidade ao produto, recomenda-se descontinuar o uso e consultar um profissional de saúde. Não use o produto com o prazo de validade vencido. Manter em temperatura ambiente, protegido da luz, do calor e da umidade, e fora do alcance das crianças.</p><p>Mulheres grávidas, pessoas em período de amamentação e menores de 18 anos devem utilizar o produto somente mediante orientação de profissional habilitado. Siga corretamente as orientações de uso. Não desaparecendo os sintomas, procure orientação médica.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, pr��tica de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
+      advertencias: "<p>Pessoas com hipersensibilidade a qualquer componente da fórmula não devem fazer uso do produto. Em caso de hipersensibilidade ao produto, recomenda-se descontinuar o uso e consultar um profissional de saúde. Não use o produto com o prazo de validade vencido. Manter em temperatura ambiente, protegido da luz, do calor e da umidade, e fora do alcance das crianças.</p><p>Mulheres grávidas, pessoas em período de amamentação e menores de 18 anos devem utilizar o produto somente mediante orientação de profissional habilitado. Siga corretamente as orientações de uso. Não desaparecendo os sintomas, procure orientação médica.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
     },
     destaque: false,
     mostrarlancamento: false,
@@ -1673,6 +1673,114 @@ const produtos = [
       composicao: "<ul>\n<li>RHODIOLA ROSEA — 300MG</li>\n<li>ANSILESS — 100MG</li>\n</ul><p><strong>Apresentação:</strong> 30 Cápsulas</p>",
       comoUsar: "<p>Utilizar conforme as <strong>instruções do fabricante ou orientação de profissional habilitado</strong>, respeitando a dose, a frequência e a indicação recomendadas. Não utilizar posologia diferente da orientada.</p>",
       advertencias: "<p>Pessoas com hipersensibilidade a qualquer componente da fórmula não devem fazer uso do produto. Em caso de hipersensibilidade ao produto, recomenda-se descontinuar o uso e consultar um profissional de saúde. Não use o produto com o prazo de validade vencido. Manter em temperatura ambiente, protegido da luz, do calor e da umidade, e fora do alcance das crianças.</p><p>Mulheres grávidas, pessoas em período de amamentação e menores de 18 anos devem utilizar o produto somente mediante orientação de profissional habilitado. Siga corretamente as orientações de uso. Não desaparecendo os sintomas, procure orientação médica.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
+    },
+    destaque: false,
+    mostrarlancamento: false,
+    mostrarVideo: false,
+    textoParcelamento: "🎟️ Cupom válido no carrinho. 💳 Consulte parcelamento no checkout",
+    cupomAtivo: false,
+    cupomPorcentagem: 0,
+    cupomCodigo: "",
+    cupomValidade: "",
+    cupomMensagemTag: "",
+    cupomOcultarTag: false
+  },
+  {
+    id: "78",
+    nome: "VITAMINA D3 + VITAMINA K2 MK-7 - 30 Cápsulas",
+    categoria: "saude",
+    preco: 50.00,
+    imagem: "assets/img/vitamina-d3-vitamina-k2-mk-7-30-capsulas.png",
+    videos: [
+      
+    ],
+    descricao: {
+      resumo: "<p>Uma combinação de <strong>Vitamina D3 e Vitamina K2 MK-7</strong> que atua de forma complementar no organismo, oferecendo suporte à saúde óssea, ao metabolismo do cálcio e ao funcionamento adequado do sistema imunológico.</p>",
+      oQueE: "<p>A <strong>Vitamina D3 + Vitamina K2 MK-7</strong> reúne duas vitaminas importantes para o organismo em uma fórmula prática, desenvolvida para complementar a ingestão desses nutrientes.</p><p>A Vitamina D3 contribui para a <strong>absorção e utilização do cálcio</strong>, participando da manutenção da saúde óssea e do funcionamento adequado do sistema imunológico. A Vitamina K2, na forma MK-7, participa do metabolismo do cálcio e contribui para a manutenção da saúde dos ossos e dos vasos sanguíneos.</p><p>Pode ser indicada para adultos que necessitem complementar a ingestão dessas vitaminas, especialmente quando houver orientação de um <strong>profissional de saúde</strong> para sua utilização.</p>",
+      composicao: "<ul>\n<li>VITAMINA D3 — 10000UI</li>\n<li>VITAMINA K2-MK7 — 200MCG</li>\n</ul><p><strong>Apresentação:</strong> 30 Cápsulas</p>",
+      comoUsar: "<p>Utilize o produto conforme as <strong>instruções do fabricante</strong> ou de acordo com a orientação de um profissional de saúde. Não altere a forma de uso recomendada sem orientação profissional.</p>",
+      advertencias: "<p>Este produto deve ser utilizado conforme as orientações do fabricante. Em caso de dúvidas sobre a utilização, procure a orientação de um profissional de saúde.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
+    },
+    destaque: false,
+    mostrarlancamento: false,
+    mostrarVideo: false,
+    textoParcelamento: "🎟️ Cupom válido no carrinho. 💳 Consulte parcelamento no checkout",
+    cupomAtivo: false,
+    cupomPorcentagem: 0,
+    cupomCodigo: "",
+    cupomValidade: "",
+    cupomMensagemTag: "",
+    cupomOcultarTag: false
+  },
+  {
+    id: "79",
+    nome: "RHODIOLA 400mg - 30 Cápsulas",
+    categoria: "saude",
+    preco: 50.00,
+    imagem: "assets/img/rhodiola-400mg-30-capsulas-mu2kj7l3.png",
+    videos: [
+      
+    ],
+    descricao: {
+      resumo: "<p>A <strong>Rhodiola Rosea 400mg</strong> é uma fórmula desenvolvida para complementar a rotina de quem busca suporte ao <strong>bem-estar físico e mental</strong>, especialmente em períodos de estresse, cansaço e alta demanda de concentração.</p>",
+      oQueE: "<p>A <strong>Rhodiola Rosea 400mg</strong> é um suplemento em cápsulas que fornece 400mg de Rhodiola Rosea por cápsula, um ingrediente tradicionalmente utilizado como suporte à resistência física e mental.</p><p>Sua utilização está associada ao suporte ao <strong>desempenho mental</strong>, concentração, atenção e resistência diante de períodos de estresse físico e psicológico, além de apresentar ação antioxidante e contribuir para a sensação de bem-estar.</p><p>Pode ser indicada para adultos que buscam suporte à rotina de <strong>trabalho, estudos ou atividade física</strong>, especialmente em períodos de maior demanda física ou mental. A utilização deve considerar a orientação de um profissional de saúde quando necessário.</p>",
+      composicao: "<ul>\n<li>RHODIOLA ROSEA — 400MG</li>\n</ul><p><strong>Apresentação:</strong> 30 Cápsulas</p>",
+      comoUsar: "<p>Tomar <strong>1 cápsula diariamente</strong>.</p>",
+      advertencias: "<p>Seu uso é contraindicado em casos de excitação por ter efeito ativador de antidepressivo. Não deve ser utilizado por indivíduos com transtorno bipolar ou por pessoas com hipersensibilidade à substância. Em caso de hipersensibilidade ao produto, recomenda-se descontinuar o uso e consultar o médico.</p><p>Não utilizar com o prazo de validade vencido. Manter em temperatura ambiente (15 a 30ºC), protegido da luz, do calor e da umidade e fora do alcance das crianças. Este produto não deve ser utilizado por mulheres grávidas sem orientação médica. O uso durante o período de amamentação não é recomendado. Este produto não deve ser utilizado por menores de 18 anos sem orientação médica.</p><p>Siga corretamente o modo de usar. Nunca compre medicamento sem orientação de um profissional habilitado. Imagens meramente ilustrativas.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
+    },
+    destaque: false,
+    mostrarlancamento: false,
+    mostrarVideo: false,
+    textoParcelamento: "🎟️ Cupom válido no carrinho. 💳 Consulte parcelamento no checkout",
+    cupomAtivo: false,
+    cupomPorcentagem: 0,
+    cupomCodigo: "",
+    cupomValidade: "",
+    cupomMensagemTag: "",
+    cupomOcultarTag: false
+  },
+  {
+    id: "80",
+    nome: "Própolis 500mg - 60 Cápsulas",
+    categoria: "saude",
+    preco: 50.00,
+    imagem: "assets/img/propolis-500mg-60-capsulas-mu2ksrgu.png",
+    videos: [
+      
+    ],
+    descricao: {
+      resumo: "<p>A <strong>Própolis 500mg</strong> é uma fórmula desenvolvida para complementar a rotina de cuidados com o organismo, oferecendo suporte às <strong>defesas naturais</strong> e à proteção antioxidante.</p>",
+      oQueE: "<p>A <strong>Própolis 500mg</strong> é um suplemento em cápsulas à base de extrato de própolis verde, uma substância resinosa produzida pelas abelhas a partir de materiais vegetais.</p><p>O produto fornece <strong>500mg de extrato de própolis verde</strong> e é utilizado como suporte antioxidante e ao funcionamento adequado do sistema imunológico, além de contribuir para a manutenção do bem-estar geral.</p><p>Pode ser indicada para adultos que buscam complementar a rotina de cuidados com a saúde e o aporte de compostos presentes na própolis, especialmente aqueles interessados em <strong>suporte antioxidante e imunológico</strong>. A utilização deve considerar a orientação de um profissional de saúde quando necessário.</p>",
+      composicao: "<ul>\n<li>PROPOLIS VERDE EXTRATO — 500MG</li>\n</ul><p><strong>Apresentação:</strong> 60 Cápsulas</p>",
+      comoUsar: "<p>Tomar <strong>1 ou 2 cápsulas ao dia</strong> ou conforme a orientação profissional.</p>",
+      advertencias: "<p>Pessoas com hipersensibilidade à substância não devem fazer uso do produto. Em caso de hipersensibilidade, recomenda-se descontinuar o uso e consultar o médico.</p><p>Não utilizar com o prazo de validade vencido. Manter em temperatura ambiente (15 a 30ºC), protegido da luz, do calor e da umidade e fora do alcance das crianças. Este produto não deve ser utilizado por mulheres grávidas sem orientação médica. O uso durante o período de amamentação não é recomendado. Este produto não deve ser utilizado por menores de 18 anos sem orientação médica.</p><p>Siga corretamente o modo de usar. Nunca compre medicamento sem orientação de um profissional habilitado. Imagens meramente ilustrativas.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
+    },
+    destaque: false,
+    mostrarlancamento: false,
+    mostrarVideo: false,
+    textoParcelamento: "🎟️ Cupom válido no carrinho. 💳 Consulte parcelamento no checkout",
+    cupomAtivo: false,
+    cupomPorcentagem: 0,
+    cupomCodigo: "",
+    cupomValidade: "",
+    cupomMensagemTag: "",
+    cupomOcultarTag: false
+  },
+  {
+    id: "81",
+    nome: "GANHO DE MASSA - 60 Cápsulas",
+    categoria: "desempenhofisico",
+    preco: 95.00,
+    imagem: "assets/img/ganho-de-massa-60-capsulas-mu2l6bz0.png",
+    videos: [
+      
+    ],
+    descricao: {
+      resumo: "<p>A fórmula <strong>Ganho de Massa</strong> reúne ativos, aminoácido, vitaminas e nutrientes que podem contribuir para o <strong>suporte nutricional e aumento do apetite</strong>, auxiliando a rotina de pessoas que buscam favorecer uma maior ingestão alimentar.</p>",
+      oQueE: "<p><strong>Ganho de Massa</strong> é uma fórmula composta por ciproheptadina, buclisina, L-lisina, vitaminas do complexo B, vitamina C e L-carnitina, reunindo diferentes componentes em cápsulas para suporte nutricional.</p><p>A fórmula está relacionada principalmente ao <strong>suporte ao apetite e à ingestão alimentar</strong>. Seus componentes também participam de diferentes processos metabólicos do organismo. O ganho de massa corporal, entretanto, depende de fatores como alimentação adequada, ingestão suficiente de proteínas e calorias, atividade física e condições individuais.</p><p>Pode ser considerada para <strong>adultos com dificuldade de manter uma ingestão alimentar adequada</strong> ou que apresentem necessidade de suporte nutricional, desde que a utilização da fórmula seja avaliada e orientada por um profissional habilitado.</p>",
+      composicao: "<ul>\n<li>CIPROHEPTADINE CLORIDRATO — MG</li>\n<li>L-LISINA — MG</li>\n<li>VITAMINA B12 — MG</li>\n<li>BUCLISINA CLORIDRATO — MG</li>\n<li>VITAMINA B1 — MG</li>\n<li>VITAMINA C REVESTIDA — MG</li>\n<li>DL CARNITINA — MG</li>\n<li>VITAMINA B6 — MG</li>\n<li>VITAMINA B2 — MG</li>\n</ul><p><strong>Apresentação:</strong> 60 Cápsulas</p>",
+      comoUsar: "<p>Utilizar conforme as <strong>instruções do fabricante</strong> ou de acordo com a orientação de um profissional habilitado. Não estabeleça ou altere dose, frequência ou horários de utilização sem orientação profissional.</p>",
+      advertencias: "<p>Devido à presença de ciproheptadina e buclisina na fórmula, pode ocorrer <strong>sonolência e redução da atenção</strong>. Avalie a utilização com um profissional habilitado, especialmente em caso de uso de outros medicamentos, gestação, amamentação, idade avançada ou condições de saúde específicas.</p><p>Não utilize sem orientação de um profissional habilitado. Siga corretamente as orientações de uso e mantenha o produto fora do alcance de crianças. Em caso de dúvidas ou ocorrência de sintomas indesejados, procure orientação profissional.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
     },
     destaque: false,
     mostrarlancamento: false,
