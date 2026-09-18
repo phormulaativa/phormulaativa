@@ -99,7 +99,8 @@ const bannersIntermediarios = [
        { src: "assets/adsmeio/beterraba.png", alt: "Beterraba" },
        { src: "assets/adsmeio/blackginger.png", alt: "Black Ginger" },
        { src: "assets/adsmeio/akkermat.png", alt: "Akkermat" },
-       { src: "assets/adsmeio/canetamicose.png", alt: "Caneta Micose" }
+       { src: "assets/adsmeio/canetamicose.png", alt: "Caneta Micose" },
+       { src: "assets/adsmeio/3mmagnesio1.png", alt: "3M Magnésio" }
        
      ]
    },
