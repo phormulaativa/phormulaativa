@@ -997,7 +997,7 @@ const produtos = [
       oQueE: "<p>Bloomé 500mg é um suplemento oral formulado com ativos naturais de origem asiática, desenvolvido para complementar os cuidados com os cabelos. Sua fórmula reúne extratos de <em>Cudrania tricuspidata</em> e <em>Sargassum fusiforme</em>, associados ao suporte à saúde e à vitalidade capilar.</p><p>O produto é utilizado como auxiliar no <strong>cuidado dos fios e do couro cabeludo</strong>, contribuindo para sua vitalidade e fortalecimento. Seus componentes apresentam propriedades associadas à proteção contra o estresse oxidativo e à manutenção das condições fisiológicas do couro cabeludo.</p><p>É indicado para adultos que apresentam <strong>queda capilar, enfraquecimento dos fios ou alopecia androgenética</strong> e buscam uma opção oral para complementar os cuidados com a saúde capilar. Em casos de alopecia diagnosticada, recomenda-se acompanhamento e orientação de um médico ou dermatologista.</p>",
       composicao: "<p><strong>Cada 1 cápsula contém:</strong></p>\n<ul>\n<li>Bloomé — 500mg</li>\n<li>Excipiente qsp 1 cápsula</li>\n</ul><p><strong>Apresentação:</strong> 30 Cápsulas</p>",
       comoUsar: "<p>Tomar <strong>1 cápsula</strong> após o café da manhã ou almoço.</p>",
-      advertencias: "<p>Pessoas com hipersensibilidade �� substância não devem fazer uso do produto. Em caso de hipersensibilidade, recomenda-se descontinuar o uso e consultar o médico. Não utilize o produto com o prazo de validade vencido.</p><p>Manter em temperatura ambiente, entre 15 e 30ºC, protegido da luz, do calor e da umidade e fora do alcance das crianças. Mulheres grávidas não devem utilizar o produto sem orientação médica. O uso durante o período de amamentação não é recomendado. Este produto não deve ser utilizado por menores de 18 anos sem orientação médica.</p><p>Siga corretamente o modo de usar. Caso os sintomas não desapareçam, procure orientação médica. Nunca compre ou utilize o produto sem orientação de um profissional habilitado. Imagens meramente ilustrativas.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
+      advertencias: "<p>Pessoas com hipersensibilidade à substância não devem fazer uso do produto. Em caso de hipersensibilidade, recomenda-se descontinuar o uso e consultar o médico. Não utilize o produto com o prazo de validade vencido.</p><p>Manter em temperatura ambiente, entre 15 e 30ºC, protegido da luz, do calor e da umidade e fora do alcance das crianças. Mulheres grávidas não devem utilizar o produto sem orientação médica. O uso durante o período de amamentação não é recomendado. Este produto não deve ser utilizado por menores de 18 anos sem orientação médica.</p><p>Siga corretamente o modo de usar. Caso os sintomas não desapareçam, procure orientação médica. Nunca compre ou utilize o produto sem orientação de um profissional habilitado. Imagens meramente ilustrativas.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
     },
     destaque: true,
     mostrarlancamento: false,
@@ -1078,7 +1078,7 @@ const produtos = [
       oQueE: "<p>Verbascosideo + Eclipta Alba é uma fórmula composta por dois ativos, Verbascosideo e Eclipta Alba extrato seco, desenvolvida para integrar uma rotina de cuidados voltada à <strong>saúde capilar</strong> e ao equilíbrio celular.</p><p>Sua finalidade está relacionada principalmente aos <strong>cuidados com a queda capilar</strong> e ao estímulo dos cuidados com os cabelos, além de fornecer componentes associados à ação antioxidante e ao cuidado da pele e do equilíbrio celular.</p><p>É indicado para pessoas que buscam complementar sua rotina de cuidados com os cabelos, especialmente aquelas interessadas em <strong>cuidados capilares e redução da queda</strong>. A utilização deve considerar as necessidades individuais e, quando necessário, contar com orientação de um profissional de saúde.</p>",
       composicao: "<ul>\n<li>VERBASCOSIDEO — 15MG</li>\n<li>ECLIPTA ALBA EXTRATO SECO — 150MG</li>\n</ul><p><strong>Apresentação:</strong> 30 Cápsulas</p>",
       comoUsar: "<p>Utilize o produto conforme as <strong>instruções do fabricante</strong> ou de acordo com a orientação de um profissional de saúde. Não altere a forma de utilização recomendada na embalagem ou na orientação profissional.</p>",
-      advertencias: "<p>Utilize este produto de acordo com as orientações do fabricante. Em caso de dúvidas sobre a utilização, procure orientação de um profissional de saúde. Mantenha o produto fora do alcance de crianças e conserve-o conforme as condições indicadas pelo fabricante.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
+      advertencias: "<p>Utilize este produto de acordo com as orientações do fabricante. Em caso de dúvidas sobre a utilizaç��o, procure orientação de um profissional de saúde. Mantenha o produto fora do alcance de crianças e conserve-o conforme as condições indicadas pelo fabricante.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
     },
     destaque: true,
     mostrarlancamento: false,
@@ -1157,7 +1157,7 @@ const produtos = [
     descricao: {
       resumo: "<p>TESTO PRIME MAM é uma formulação voltada à <strong>performance masculina</strong>, reunindo ativos selecionados para complementar estratégias relacionadas à vitalidade, disposição, libido e desempenho sexual masculino.</p>",
       oQueE: "<p>TESTO PRIME MAM é uma formulação destinada ao público masculino, composta por Epimedium Icariin, Long Jack, Ginseng Coreano e Tadalafil, combinando diferentes componentes em uma apresentação prática de 30 cápsulas.</p><p>Sua finalidade está relacionada à <strong>vitalidade, libido, disposição e desempenho sexual masculino</strong>, oferecendo uma formulação direcionada às necessidades de homens que buscam suporte para sua performance e bem-estar.</p><p>É indicado para <strong>homens adultos</strong> quando houver indicação e orientação adequada de profissional habilitado, especialmente por conter tadalafil em sua composição.</p>",
-      composicao: "<ul>\n<li>EPIMEDIUM ICARIIN ��� 200MG</li>\n<li>LONG JACK EXTRATO SECO — 300MG</li>\n<li>GINSENG COREANO — 80MG</li>\n<li>TADALAFIL — 3MG</li>\n</ul><p><strong>Apresentação:</strong> 30 Cápsulas</p>",
+      composicao: "<ul>\n<li>EPIMEDIUM ICARIIN — 200MG</li>\n<li>LONG JACK EXTRATO SECO — 300MG</li>\n<li>GINSENG COREANO — 80MG</li>\n<li>TADALAFIL — 3MG</li>\n</ul><p><strong>Apresentação:</strong> 30 Cápsulas</p>",
       comoUsar: "<p>Utilize o produto <strong>conforme as instruções do fabricante ou orientação de profissional habilitado</strong>. Não altere a forma de utilização, dose ou frequência recomendada sem orientação profissional.</p>",
       advertencias: "<p>Uso conforme orientação do fabricante e de profissional habilitado. Por conter tadalafil, sua utilização deve ser realizada com <strong>orientação profissional adequada</strong>. Não utilize de forma diferente da recomendada na prescrição ou orientação recebida.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
     },
@@ -1401,7 +1401,7 @@ const produtos = [
       resumo: "<p>Suplemento alimentar à base de <strong>arroz vermelho fermentado</strong>, fonte de compostos bioativos tradicionalmente estudados por sua relação com o metabolismo lipídico, especialmente como complemento de uma alimentação equilibrada e de hábitos de vida saudáveis.</p>",
       oQueE: "<p>O <strong>Red Yeast Rice</strong> é um suplemento alimentar elaborado a partir do arroz vermelho fermentado, processo que pode resultar na formação de diferentes compostos bioativos, incluindo monacolinas. É um ingrediente tradicionalmente utilizado e estudado por sua relação com o metabolismo das gorduras.</p><p>Sua finalidade está relacionada ao <strong>suporte ao metabolismo lipídico</strong>, fornecendo compostos provenientes do processo de fermentação do arroz. Os componentes presentes no arroz vermelho fermentado são estudados principalmente em relação ao metabolismo do colesterol, dentro de uma abordagem que também considera alimentação equilibrada e hábitos de vida saudáveis.</p><p>É destinado a adultos que buscam <strong>suporte nutricional para o metabolismo lipídico</strong> e desejam complementar sua rotina com um ingrediente de origem fermentada. A utilização deve considerar as características individuais e, especialmente quando houver uso de medicamentos ou acompanhamento por alterações metabólicas, contar com orientação de um profissional de saúde.</p>",
       composicao: "<ul>\n<li>RED YEAST RICE — 300MG</li>\n</ul><p><strong>Apresentação:</strong> 60 Cápsulas</p>",
-      comoUsar: "<p>Utilize o produto <strong>conforme as instruções do fabricante</strong> ou de acordo com a orientação de m��dico, nutricionista ou outro profissional de saúde habilitado. Não altere a forma de utilização recomendada sem orientação profissional.</p>",
+      comoUsar: "<p>Utilize o produto <strong>conforme as instruções do fabricante</strong> ou de acordo com a orientação de médico, nutricionista ou outro profissional de saúde habilitado. Não altere a forma de utilização recomendada sem orientação profissional.</p>",
       advertencias: "<p>Este produto deve ser utilizado de acordo com as orientações do fabricante. <strong>Não exceda a recomendação de uso</strong> indicada na embalagem ou por profissional de saúde.</p><p>O arroz vermelho fermentado pode conter monacolinas, cuja quantidade pode variar de acordo com a matéria-prima e o processo de fabricação. Pessoas que utilizam medicamentos ou possuem condições específicas de saúde devem consultar um profissional de saúde antes de utilizar o produto.</p><p>O suplemento não deve ser utilizado para substituir medicamentos, tratamentos prescritos ou uma alimentação equilibrada. Mantenha fora do alcance de crianças e conserve o produto de acordo com as orientações de armazenamento do fabricante.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
     },
     destaque: false,
@@ -1645,7 +1645,7 @@ const produtos = [
       oQueE: "<p>O <strong>Circulação - Retenção Líquido</strong> é uma fórmula em cápsulas que combina Castanha da Índia, Rutina, Ginkgo Biloba, Vitamina B12 e Hamamelis Virginica, reunindo ativos selecionados para o suporte aos cuidados relacionados à circulação.</p><p>Sua composição oferece suporte à <strong>circulação sanguínea periférica</strong> e ao equilíbrio da retenção de líquidos, podendo contribuir para o conforto das pernas e para a sensação de bem-estar no dia a dia.</p><p>É uma opção para pessoas que buscam complementar os <strong>cuidados com a circulação e o equilíbrio hídrico</strong> do organismo, sempre associada a hábitos saudáveis e à orientação de profissional habilitado quando necessário.</p>",
       composicao: "<ul>\n<li>CASTANHA DA INDIA EXTRACT — 200MG</li>\n<li>RUTINA — 150MG</li>\n<li>GINKGO BILOBA EXTRATO 24% — 60MG</li>\n<li>VITAMINA B12 — 1000MCG</li>\n<li>HAMAMELIS VIRGINICA EXTRACT PO — 100MG</li>\n</ul><p><strong>Apresentação:</strong> 60 Cápsulas</p>",
       comoUsar: "<p>Utilizar conforme as <strong>instruções do fabricante ou orientação de profissional habilitado</strong>, respeitando a dose, a frequência e a indicação recomendadas. Não utilizar posologia diferente da orientada.</p>",
-      advertencias: "<p>Pessoas com hipersensibilidade a qualquer componente da fórmula não devem fazer uso do produto. Em caso de hipersensibilidade ao produto, recomenda-se descontinuar o uso e consultar um profissional de saúde. Não use o produto com o prazo de validade vencido. Manter em temperatura ambiente, protegido da luz, do calor e da umidade, e fora do alcance das crianças.</p><p>Mulheres grávidas, pessoas em período de amamentação e menores de 18 anos devem utilizar o produto somente mediante orientação de profissional habilitado. Siga corretamente as orientações de uso. Não desaparecendo os sintomas, procure orientação médica.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentaç��o, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
+      advertencias: "<p>Pessoas com hipersensibilidade a qualquer componente da fórmula não devem fazer uso do produto. Em caso de hipersensibilidade ao produto, recomenda-se descontinuar o uso e consultar um profissional de saúde. Não use o produto com o prazo de validade vencido. Manter em temperatura ambiente, protegido da luz, do calor e da umidade, e fora do alcance das crianças.</p><p>Mulheres grávidas, pessoas em período de amamentação e menores de 18 anos devem utilizar o produto somente mediante orientação de profissional habilitado. Siga corretamente as orientações de uso. Não desaparecendo os sintomas, procure orientação médica.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
     },
     destaque: false,
     mostrarlancamento: false,
@@ -1726,7 +1726,7 @@ const produtos = [
       oQueE: "<p>A <strong>Rhodiola Rosea 400mg</strong> é um suplemento em cápsulas que fornece 400mg de Rhodiola Rosea por cápsula, um ingrediente tradicionalmente utilizado como suporte à resistência física e mental.</p><p>Sua utilização está associada ao suporte ao <strong>desempenho mental</strong>, concentração, atenção e resistência diante de períodos de estresse físico e psicológico, além de apresentar ação antioxidante e contribuir para a sensação de bem-estar.</p><p>Pode ser indicada para adultos que buscam suporte à rotina de <strong>trabalho, estudos ou atividade física</strong>, especialmente em períodos de maior demanda física ou mental. A utilização deve considerar a orientação de um profissional de saúde quando necessário.</p>",
       composicao: "<ul>\n<li>RHODIOLA ROSEA — 400MG</li>\n</ul><p><strong>Apresentação:</strong> 30 Cápsulas</p>",
       comoUsar: "<p>Tomar <strong>1 cápsula diariamente</strong>.</p>",
-      advertencias: "<p>Seu uso é contraindicado em casos de excitação por ter efeito ativador de antidepressivo. Não deve ser utilizado por indivíduos com transtorno bipolar ou por pessoas com hipersensibilidade à substância. Em caso de hipersensibilidade ao produto, recomenda-se descontinuar o uso e consultar o médico.</p><p>Não utilizar com o prazo de validade vencido. Manter em temperatura ambiente (15 a 30ºC), protegido da luz, do calor e da umidade e fora do alcance das crianças. Este produto não deve ser utilizado por mulheres grávidas sem orientação médica. O uso durante o período de amamentação não é recomendado. Este produto não deve ser utilizado por menores de 18 anos sem orientação médica.</p><p>Siga corretamente o modo de usar. Nunca compre medicamento sem orientação de um profissional habilitado. Imagens meramente ilustrativas.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
+      advertencias: "<p>Seu uso é contraindicado em casos de excitação por ter efeito ativador de antidepressivo. Não deve ser utilizado por indivíduos com transtorno bipolar ou por pessoas com hipersensibilidade à substância. Em caso de hipersensibilidade ao produto, recomenda-se descontinuar o uso e consultar o médico.</p><p>Não utilizar com o prazo de validade vencido. Manter em temperatura ambiente (15 a 30ºC), protegido da luz, do calor e da umidade e fora do alcance das crianças. Este produto não deve ser utilizado por mulheres grávidas sem orientação médica. O uso durante o per��odo de amamentação não é recomendado. Este produto não deve ser utilizado por menores de 18 anos sem orientação médica.</p><p>Siga corretamente o modo de usar. Nunca compre medicamento sem orientação de um profissional habilitado. Imagens meramente ilustrativas.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
     },
     destaque: false,
     mostrarlancamento: false,
@@ -1839,7 +1839,7 @@ const produtos = [
     destaque: false,
     mostrarlancamento: false,
     mostrarVideo: false,
-    textoParcelamento: "🎟️ Cupom válido no carrinho. �� Consulte parcelamento no checkout",
+    textoParcelamento: "🎟️ Cupom válido no carrinho. 💳 Consulte parcelamento no checkout",
     cupomAtivo: false,
     cupomPorcentagem: 0,
     cupomCodigo: "",
@@ -1886,7 +1886,7 @@ const produtos = [
     descricao: {
       resumo: "<p><strong>Ácido Alfa Lipóico 250mg</strong> é uma fórmula antioxidante desenvolvida para complementar a rotina de cuidados com o organismo, oferecendo suporte ao <strong>metabolismo energético</strong> e à proteção contra o estresse oxidativo.</p>",
       oQueE: "<p>O Ácido Alfa Lipóico é um composto com ação antioxidante que participa de processos relacionados à produção de energia nas células. Sua fórmula em cápsulas oferece uma maneira prática de complementar a ingestão desse composto.</p><p>Sua principal finalidade é oferecer <strong>suporte antioxidante e metabólico</strong>, contribuindo para a neutralização de radicais livres e para processos relacionados ao metabolismo energético. Também é estudado em contextos relacionados à sensibilidade à insulina e à resposta inflamatória.</p><p>É indicado para <strong>adultos</strong> que desejam complementar sua rotina de cuidados com suporte antioxidante e metabólico. Pessoas que estejam em tratamento de condições de saúde, especialmente relacionadas ao metabolismo, devem utilizar o produto com orientação de um profissional habilitado.</p>",
-      composicao: "<ul>\n<li>ACIDO ALFA LIPOICO — 250MG</li>\n</ul><p><strong>Apresentação:</strong> 60 Cápsulas</p>",
+      composicao: "<ul>\n<li>ACIDO ALFA LIPOICO — 250MG</li>\n</ul><p><strong>Apresentação:</strong> 60 C��psulas</p>",
       comoUsar: "<p>Tomar de <strong>1 cápsula a 2 cápsulas ao dia</strong>, ingerindo a cápsula com água.</p><p>Como opção de uso, tomar 1 cápsula após o almoço. Ou então, tomar 1 cápsula após o almoço e 1 cápsula após o jantar.</p>",
       advertencias: "<p>Pessoas com hipersensibilidade à substância não devem fazer uso do produto. Em caso de hipersensibilidade ao produto, recomenda-se descontinuar o uso e consultar o médico. Imagens meramente ilustrativas. Não use o produto com o prazo de validade vencido.</p><p>Manter em temperatura ambiente (15 a 30ºC). Proteger da luz, do calor e da umidade. Nestas condições, o produto se manterá próprio para o consumo, respeitando o prazo de validade indicado na embalagem. Manter fora do alcance das crianças.</p><p>Nunca compre um produto sem orientação de um profissional habilitado. Este produto não deve ser utilizado por mulheres grávidas sem orientação médica. Siga corretamente o modo de usar. Não desaparecendo os sintomas, procure orientação médica. O uso do produto durante o período de amamentação também não é recomendado. Este produto não deve ser utilizado por menores de 18 anos sem orientação médica.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
     },
@@ -1916,6 +1916,114 @@ const produtos = [
       composicao: "<ul>\n<li>Polietilenoglicol — 4000</li>\n<li>Sem — Eletrólitos</li>\n</ul><p><strong>Apresentação:</strong> 350 Gramas</p>",
       comoUsar: "<p>Utilize o produto exclusivamente conforme as <strong>instruções do fabricante</strong> ou de acordo com a orientação de profissional habilitado. Não utilize dose, frequência ou horário diferentes daqueles recomendados para o produto.</p>",
       advertencias: "<p>Pessoas com hipersensibilidade à substância não devem fazer uso do produto. Em caso de hipersensibilidade ao produto, recomenda-se descontinuar o uso e consultar o médico. Não use o produto com o prazo de validade vencido. Manter em temperatura ambiente (15 a 30ºC), protegido da luz, do calor e da umidade e fora do alcance das crianças. Nunca compre medicamento sem orientação de um profissional habilitado. Este produto não deve ser utilizado por mulheres grávidas sem orientação médica. Siga corretamente o modo de usar. O uso do produto durante o período de amamentação também não é recomendado. Este produto não deve ser utilizado por menores de 18 anos sem orientação médica.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
+    },
+    destaque: false,
+    mostrarlancamento: false,
+    mostrarVideo: false,
+    textoParcelamento: "🎟️ Cupom válido no carrinho. 💳 Consulte parcelamento no checkout",
+    cupomAtivo: false,
+    cupomPorcentagem: 0,
+    cupomCodigo: "",
+    cupomValidade: "",
+    cupomMensagemTag: "",
+    cupomOcultarTag: false
+  },
+  {
+    id: "87",
+    nome: "Ácido Folínico 5mg - 30 Cápsulas",
+    categoria: "saude",
+    preco: 50.00,
+    imagem: "assets/img/acido-folinico-5mg-30-capsulas-mu7053a1.png",
+    videos: [
+      
+    ],
+    descricao: {
+      resumo: "<p>O <strong>Ácido Folínico 5mg</strong> é uma apresentação de folinato, uma forma ativa relacionada ao folato (vitamina B9), destinada a situações específicas em que sua utilização seja indicada por profissional de saúde.</p>",
+      oQueE: "<p>O Ácido Folínico 5mg é um produto à base de <strong>ácido folínico (folinato)</strong>, uma forma ativa do folato, nutriente envolvido em processos importantes do organismo, incluindo a formação e renovação das células.</p><p>O ácido folínico pode ser utilizado em situações específicas relacionadas ao metabolismo do folato e à formação das células sanguíneas, além de fazer parte de determinados protocolos terapêuticos sob orientação profissional.</p><p>É indicado para pessoas que tenham <strong>indicação específica para utilização de ácido folínico</strong>, conforme avaliação e orientação de médico ou outro profissional de saúde habilitado. A necessidade de uso deve considerar as condições individuais de cada pessoa.</p>",
+      composicao: "<ul>\n<li>ACIDO FOLINICO — 5MG</li>\n</ul><p><strong>Apresentação:</strong> 30 Cápsulas</p>",
+      comoUsar: "<p>Utilize o produto <strong>conforme as instruções do fabricante</strong> ou de acordo com a orientação de um profissional de saúde. Não altere a forma de utilização recomendada sem orientação profissional.</p>",
+      advertencias: "<p>O uso de ácido folínico deve ser realizado de forma responsável e, quando necessário, sob orientação de profissional de saúde. Não utilize o produto para substituir tratamentos prescritos ou para corrigir condições de saúde sem avaliação adequada. Em caso de dúvidas sobre a necessidade de utilização, procure orientação profissional.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
+    },
+    destaque: false,
+    mostrarlancamento: false,
+    mostrarVideo: false,
+    textoParcelamento: "🎟️ Cupom válido no carrinho. 💳 Consulte parcelamento no checkout",
+    cupomAtivo: false,
+    cupomPorcentagem: 0,
+    cupomCodigo: "",
+    cupomValidade: "",
+    cupomMensagemTag: "",
+    cupomOcultarTag: false
+  },
+  {
+    id: "88",
+    nome: "Ácido Úrico Gota - 10 Cápsulas",
+    categoria: "saude",
+    preco: 30.00,
+    imagem: "assets/img/acido-urico-gota-10-capsulas-mu70eg5z.png",
+    videos: [
+      
+    ],
+    descricao: {
+      resumo: "<p>O <strong>Ácido Úrico Gota</strong> é uma fórmula composta por ativos com diferentes funções no manejo da gota e da hiperuricemia, reunindo componentes destinados ao controle da <strong>dor e inflamação</strong> e ao controle dos níveis de ácido úrico.</p>",
+      oQueE: "<p>O Ácido Úrico Gota é uma fórmula composta por <strong>cetoprofeno, colchicina, indometacina, benzobromarona, alopurinol e famotidina</strong>, reunindo ativos com diferentes mecanismos de ação relacionados ao controle da inflamação e do ácido úrico.</p><p>Sua finalidade está relacionada ao <strong>manejo da gota e da hiperuricemia</strong>. Cetoprofeno, indometacina e colchicina atuam principalmente no controle da dor e dos processos inflamatórios associados às crises, enquanto alopurinol e benzobromarona atuam no controle do ácido úrico por mecanismos distintos.</p><p>É destinado a pessoas com <strong>indicação específica para utilização dessa combinação</strong>, conforme avaliação e prescrição de médico ou profissional de saúde habilitado. A necessidade, duração e forma de utilização devem ser determinadas individualmente.</p>",
+      composicao: "<ul>\n<li>CETOPROFENO — 100MG</li>\n<li>COLCHICINA — 0.3MG</li>\n<li>INDOMETACINA — 50MG</li>\n<li>BENZOBROMARONA — 100MG</li>\n<li>ALOPURINOL — 100MG</li>\n<li>FAMOTIDINA — 20MG</li>\n</ul><p><strong>Apresentação:</strong> 10 Cápsulas</p>",
+      comoUsar: "<p>Utilize o produto <strong>conforme as instruções do fabricante e a orientação do profissional de saúde responsável pela prescrição</strong>. Não altere a dose, frequência ou duração do tratamento por conta própria.</p>",
+      advertencias: "<p>Este produto contém medicamentos de ação farmacológica e deve ser utilizado <strong>sob orientação e acompanhamento profissional</strong>. A associação de cetoprofeno e indometacina requer atenção, pois ambos são anti-inflamatórios e sua utilização simultânea pode aumentar a possibilidade de efeitos adversos. Não utilize por conta própria nem associe outros medicamentos sem orientação profissional.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
+    },
+    destaque: false,
+    mostrarlancamento: false,
+    mostrarVideo: false,
+    textoParcelamento: "🎟️ Cupom válido no carrinho. 💳 Consulte parcelamento no checkout",
+    cupomAtivo: false,
+    cupomPorcentagem: 0,
+    cupomCodigo: "",
+    cupomValidade: "",
+    cupomMensagemTag: "",
+    cupomOcultarTag: false
+  },
+  {
+    id: "89",
+    nome: "30 + SUPLEMENTO - 30 Cápsulas",
+    categoria: "saude",
+    preco: 50.00,
+    imagem: "assets/img/30-suplemento-30-capsulas-mu70mefe.png",
+    videos: [
+      
+    ],
+    descricao: {
+      resumo: "<p>O <strong>30+ Suplemento</strong> combina vitaminas, minerais, colágeno e coenzima Q10 em uma fórmula desenvolvida para oferecer <strong>suporte nutricional ao organismo adulto</strong>, contribuindo para funções relacionadas à energia, imunidade, músculos, ossos e tecidos.</p>",
+      oQueE: "<p>O 30+ Suplemento é uma combinação de nutrientes que reúne <strong>magnésio, vitamina C, coenzima Q10, colágeno hidrolisado, vitamina D e zinco</strong> em cápsulas, proporcionando uma composição nutricional diversificada para o público adulto.</p><p>Sua finalidade é complementar a alimentação com nutrientes envolvidos em diferentes funções do organismo, incluindo <strong>metabolismo energético, funcionamento muscular, sistema imunológico, manutenção dos ossos e formação de colágeno</strong>.</p><p>É indicado para adultos que buscam <strong>complementação nutricional</strong> por meio de uma fórmula que reúne diferentes vitaminas, minerais e outros componentes nutricionais. A necessidade de suplementação deve considerar a alimentação, as condições individuais e a orientação de um profissional de saúde quando necessário.</p>",
+      composicao: "<ul>\n<li>MAGNESIO DIMALATO — MG</li>\n<li>VITAMINA C REVESTIDA — MG</li>\n<li>COENZIMA Q 10 PO — MG</li>\n<li>COLAGENO HIDROLISADO PO — MG</li>\n<li>VIT D — UI</li>\n<li>ZINCO QUELATO — MG</li>\n</ul><p><strong>Apresentação:</strong> 30 Cápsulas</p>",
+      comoUsar: "<p>Utilize o produto <strong>conforme as instruções do fabricante</strong> ou de acordo com a orientação de um profissional de saúde. Não altere a forma de utilização recomendada.</p>",
+      advertencias: "<p>Este produto é destinado à <strong>suplementação nutricional</strong> e não substitui uma alimentação equilibrada. Utilize conforme as orientações do fabricante. Em caso de dúvidas sobre a utilização, especialmente quando houver uso de outros produtos ou medicamentos, procure orientação de um profissional de saúde.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
+    },
+    destaque: false,
+    mostrarlancamento: false,
+    mostrarVideo: false,
+    textoParcelamento: "🎟️ Cupom válido no carrinho. 💳 Consulte parcelamento no checkout",
+    cupomAtivo: false,
+    cupomPorcentagem: 0,
+    cupomCodigo: "",
+    cupomValidade: "",
+    cupomMensagemTag: "",
+    cupomOcultarTag: false
+  },
+  {
+    id: "90",
+    nome: "3M Magnésio - 60 Cápsulas",
+    categoria: "saude",
+    preco: 70.00,
+    imagem: "assets/img/3m-magnesio-60-capsulas-mu70u2hq.png",
+    videos: [
+      
+    ],
+    descricao: {
+      resumo: "<p>O <strong>3M Magnésio</strong> combina três formas de magnésio em uma única fórmula, oferecendo uma opção de <strong>suplementação nutricional</strong> para complementar a ingestão desse mineral essencial.</p>",
+      oQueE: "<p>O 3M Magnésio é um suplemento alimentar em cápsulas que reúne <strong>magnésio dimalato, magnésio glicina e magnésio treonato</strong>, três formas de magnésio presentes na composição.</p><p>O magnésio participa de diversas funções do organismo, incluindo <strong>funcionamento muscular e neuromuscular, metabolismo energético e funcionamento do sistema nervoso</strong>. A combinação de diferentes formas oferece uma composição diversificada para a suplementação desse mineral.</p><p>É indicado para adultos que desejam <strong>complementar a ingestão de magnésio</strong> por meio de uma fórmula que reúne diferentes formas desse mineral. A necessidade de suplementação deve considerar a alimentação e as condições individuais de cada pessoa.</p>",
+      composicao: "<ul>\n<li>MAGNESIO DIMALATO — 150MG</li>\n<li>MAGNESIO GLICINA — 150MG</li>\n<li>MAGNESIO TREONATE — 150MG</li>\n</ul><p><strong>Apresentação:</strong> 60 Cápsulas</p>",
+      comoUsar: "<p>Utilize o produto <strong>conforme as instruções do fabricante</strong> ou de acordo com a orientação de um profissional de saúde. Não altere a forma de utilização recomendada.</p>",
+      advertencias: "<p>Este produto é destinado à <strong>suplementação nutricional</strong> e não substitui uma alimentação equilibrada. Utilize conforme as orientações do fabricante. Em caso de dúvidas sobre a utilização ou sobre a necessidade de suplementação, procure orientação de um profissional de saúde.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
     },
     destaque: false,
     mostrarlancamento: false,
