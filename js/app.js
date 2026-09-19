@@ -156,7 +156,8 @@ const bannersIntermediarios = [
        { src: "assets/adsmeio/ganhodemassa.png", alt: "Ganho de Massa" },
        { src: "assets/adsmeio/d3k2.png", alt: "Vitamina D3 + K2" },
        { src: "assets/adsmeio/rhodiola2.png", alt: "Rhodiola" },
-       { src: "assets/adsmeio/propolis2.png", alt: "Própolis" }
+       { src: "assets/adsmeio/propolis2.png", alt: "Própolis" },
+       { src: "assets/adsmeio/pillfoddturbinado.png", alt: "Pill Food Turbinado" }
               
      ]
    },
