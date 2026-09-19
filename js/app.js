@@ -486,21 +486,14 @@ btnComprar.addEventListener("click", () => {
   if (cupom) {
     abrirModalCupom(produto, quantidade);
   } else {
-    const valorUnitario = produto.preco;
-    const valorTotal = valorUnitario * quantidade;
-    const linkProduto = `${window.location.origin}${window.location.pathname}%23produto-${produto.id}`;
-
-    const mensagem =
-      `Olá! Gostaria de fazer um pedido:%0A%0A` +
-      `Produto: ${produto.nome}%0A` +
-      `Categoria: ${slugParaNomeCategoria(produto.categoria)}%0A` +
-      `Quantidade: ${quantidade} unidade(s)%0A` +
-      `Valor unitário: ${formatarPreco(valorUnitario)}%0A` +
-      `Valor total: ${formatarPreco(valorTotal)}%0A%0A` +
-      `Link do produto:%0A${linkProduto}`;
-
-    const url = `https://wa.me/${WHATSAPP_NUMERO}?text=${mensagem}`;
-    window.open(url, "_blank");
+    // Solicita dados do cliente antes de abrir o WhatsApp
+    if (typeof abrirModalDadosCliente === "function") {
+      abrirModalDadosCliente(function (dadosCliente) {
+        enviarPedidoWhatsApp(produto, quantidade, null, dadosCliente);
+      });
+    } else {
+      enviarPedidoWhatsApp(produto, quantidade, null, null);
+    }
   }
 });
 
@@ -571,8 +564,16 @@ function fecharModalCupom() {
 
 function comprarSemCupom() {
   if (!produtoComprarAtual) return;
-  enviarPedidoWhatsApp(produtoComprarAtual, quantidadeComprarAtual, null);
+  const prod = produtoComprarAtual;
+  const qtd = quantidadeComprarAtual;
   fecharModalCupom();
+  if (typeof abrirModalDadosCliente === "function") {
+    abrirModalDadosCliente(function (dadosCliente) {
+      enviarPedidoWhatsApp(prod, qtd, null, dadosCliente);
+    });
+  } else {
+    enviarPedidoWhatsApp(prod, qtd, null, null);
+  }
 }
 
 function validarCupomComprar() {
@@ -593,12 +594,20 @@ function validarCupomComprar() {
     return;
   }
 
-  // Cupom válido
-  enviarPedidoWhatsApp(produtoComprarAtual, quantidadeComprarAtual, cupom);
+  // Cupom válido — pede dados do cliente e depois envia
+  const prod = produtoComprarAtual;
+  const qtd = quantidadeComprarAtual;
   fecharModalCupom();
+  if (typeof abrirModalDadosCliente === "function") {
+    abrirModalDadosCliente(function (dadosCliente) {
+      enviarPedidoWhatsApp(prod, qtd, cupom, dadosCliente);
+    });
+  } else {
+    enviarPedidoWhatsApp(prod, qtd, cupom, null);
+  }
 }
 
-function enviarPedidoWhatsApp(produto, quantidade, cupom) {
+function enviarPedidoWhatsApp(produto, quantidade, cupom, dadosCliente) {
   const valorUnitario = produto.preco;
   const valorTotalOriginal = valorUnitario * quantidade;
   let valorFinal = valorTotalOriginal;
@@ -616,6 +625,13 @@ function enviarPedidoWhatsApp(produto, quantidade, cupom) {
   const nomeCategoria = cat ? cat.nome : produto.categoria;
 
   let mensagem = `Olá! Gostaria de fazer um pedido:%0A%0A`;
+
+  // Dados do cliente (quando disponíveis)
+  if (dadosCliente && typeof formatarDadosClienteWhatsApp === "function") {
+    mensagem += formatarDadosClienteWhatsApp(dadosCliente);
+    mensagem += `%0A────────────────%0A%0A`;
+  }
+
   mensagem += `Produto: ${produto.nome}%0A`;
   mensagem += `Categoria: ${nomeCategoria}%0A`;
   mensagem += `Quantidade: ${quantidade} unidade(s)%0A`;
