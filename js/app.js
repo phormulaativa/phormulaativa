@@ -162,6 +162,19 @@ const bannersIntermediarios = [
      ]
    },
 
+
+  {
+     afterCategory: "saude",
+     random: true,                    // ← true = embaralha | false = mantém a ordem
+     imagens: [
+       { src: "assets/adsmeio/abelhinhatermogenico.png", alt: "Abelhinha Termogênico" },
+       { src: "assets/adsmeio/5mmagnesio.png", alt: "5M Magnésio" },
+       { src: "assets/adsmeio/50mais.png", alt: "50 + Suplemento" },
+       { src: "assets/adsmeio/retinol.png", alt: "8:1 Retinol" }
+                     
+     ]
+   },
+
   // Exemplo com 1 imagem só:
   // {
   //   afterCategory: "podologia",
