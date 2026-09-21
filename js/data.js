@@ -510,7 +510,7 @@ const produtos = [
       resumo: "<p>Solução de uso profissional desenvolvida para auxiliar no cuidado e na recuperação das unhas, reunindo uma composição com diferentes componentes destinados aos protocolos de cuidados ungueais.</p>",
       oQueE: "<p>O Ungueal Nistatina é uma solução de uso profissional formulada com fluconazol, nistatina, ciclopirox olamina e óleo de melaleuca, em veículo adequado à apresentação.</p><p>Sua finalidade é <strong>auxiliar na recuperação das unhas</strong>, integrando uma composição voltada ao cuidado ungueal e ao suporte dos protocolos profissionais.</p><p>É recomendado para <strong>uso profissional</strong>, especialmente por profissionais que realizam procedimentos e cuidados relacionados às unhas e considerem sua utilização adequada conforme a avaliação de cada caso.</p>",
       composicao: "<ul>\n<li>FLUCONAZOL — 2%</li>\n<li>NISTATINA — 100000UI</li>\n<li>CICLOPIROX OLAMINA — 5%</li>\n<li>OLEO DE MELALEUCA — 2%</li>\n<li>VEICULO — 10ML</li>\n</ul><p><strong>Apresentação:</strong> Solução 10ml - Validade 4 meses</p>",
-      comoUsar: "<p>Utilize o produto conforme as <strong>instruções do fabricante</strong> e/ou orientação de um profissional habilitado. A forma de utilização deve respeitar a avaliação do caso e o protocolo profissional adotado, sem estabelecer dose, frequência ou horários diferentes dos recomendados.</p>",
+      comoUsar: "<p>Utilize o produto conforme as <strong>instruções do fabricante</strong> e/ou orientação de um profissional habilitado. A forma de utilizaç��o deve respeitar a avaliação do caso e o protocolo profissional adotado, sem estabelecer dose, frequência ou horários diferentes dos recomendados.</p>",
       advertencias: "<p>Produto destinado ao uso conforme orientação profissional. Leia atentamente as informações do produto antes da utilização e siga as recomendações do fabricante. Em caso de dúvidas sobre a utilização, procure orientação de um profissional habilitado.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
     },
     destaque: false,
@@ -1184,7 +1184,7 @@ const produtos = [
     descricao: {
       resumo: "<p>BLACK GINGER POWER PRE-TREINO é uma formulação desenvolvida para complementar a rotina de treinos, com foco em <strong>energia, resistência e performance física</strong>, reunindo ativos relacionados ao suporte ao desempenho durante exercícios.</p>",
       oQueE: "<p>BLACK GINGER POWER PRE-TREINO é uma formulação em cápsulas que reúne diferentes ativos selecionados para integrar estratégias voltadas à <strong>performance esportiva</strong>, resistência e capacidade de treinamento.</p><p>Sua finalidade está relacionada ao suporte à <strong>energia, disposição, resistência e desempenho físico</strong> durante a prática de exercícios. A presença de NO3, AAKG e Norvaline também direciona a formulação para o suporte relacionado ao fluxo sanguíneo e à performance durante o treinamento.</p><p>É destinado a <strong>adultos fisicamente ativos</strong> que buscam complementar sua rotina de exercícios com uma formulação direcionada à performance e resistência. Seu uso deve considerar as orientações do fabricante ou de profissional habilitado.</p>",
-      composicao: "<ul>\n<li>BLACK GINGER — POWDER</li>\n<li>BLACK GINGER — MG</li>\n<li>PHYTOTESTO — MG</li>\n<li>FURASTANOL (FENOSIDEO) — MG</li>\n<li>PIPERINA — MG</li>\n<li>ENDURFIT — MG</li>\n<li>NO3 — MG</li>\n<li>AAKG — MG</li>\n<li>NORVALINE — MG</li>\n<li>COBRE QUELATO — MG</li>\n<li>ZINCO QUELATO — MG</li>\n<li>MANGANES QUELATO — MG</li>\n<li>FERRO QUELATO — MG</li>\n<li>SELENIO METIONINA — MCG</li>\n<li>COLEUS FORSKOHLII EXTRATO — MG</li>\n<li>EGCG 98% — MG</li>\n<li>THIOMUCASE — UTR</li>\n</ul><p><strong>Apresentação:</strong> 15 Cápsulas</p>",
+      composicao: "<ul>\n<li>BLACK GINGER — POWDER</li>\n<li>BLACK GINGER — MG</li>\n<li>PHYTOTESTO — MG</li>\n<li>FURASTANOL (FENOSIDEO) — MG</li>\n<li>PIPERINA — MG</li>\n<li>ENDURFIT — MG</li>\n<li>NO3 — MG</li>\n<li>AAKG — MG</li>\n<li>NORVALINE — MG</li>\n<li>COBRE QUELATO — MG</li>\n<li>ZINCO QUELATO — MG</li>\n<li>MANGANES QUELATO — MG</li>\n<li>FERRO QUELATO — MG</li>\n<li>SELENIO METIONINA — MCG</li>\n<li>COLEUS FORSKOHLII EXTRATO — MG</li>\n<li>EGCG 98% ��� MG</li>\n<li>THIOMUCASE — UTR</li>\n</ul><p><strong>Apresentação:</strong> 15 Cápsulas</p>",
       comoUsar: "<p>Utilize o produto <strong>conforme as instruções do fabricante ou orientação de profissional habilitado</strong>. Não altere a dose, frequência ou forma de utilização recomendada sem orientação profissional.</p>",
       advertencias: "<p>Utilize o produto de acordo com as orientações do fabricante e, quando necessário, com acompanhamento de profissional habilitado. Não exceda a recomendação de uso indicada na embalagem ou orientação recebida.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
     },
@@ -1510,7 +1510,7 @@ const produtos = [
       oQueE: "<p>A <strong>Boswellia Serrata</strong> é um extrato obtido de uma planta tradicionalmente utilizada na medicina e conhecida por seus componentes associados ao suporte do <strong>equilíbrio da resposta inflamatória</strong> do organismo.</p><p>Sua utilização está relacionada ao suporte à <strong>saúde e ao conforto das articulações</strong>, podendo auxiliar na manutenção da mobilidade e da flexibilidade. Também é estudada por seu potencial de contribuir para o bem-estar em situações relacionadas ao desconforto articular.</p><p>Pode ser indicada para <strong>adultos que buscam suporte para a saúde das articulações, mobilidade e conforto físico</strong>, especialmente quando houver orientação de um profissional habilitado para sua utilização.</p>",
       composicao: "<ul>\n<li>BOSWELLIA SERRATA 30% — 50MG</li>\n</ul><p><strong>Apresentação:</strong> 30 Cápsulas</p>",
       comoUsar: "<p>Utilize o produto <strong>conforme as instruções do fabricante ou orientação de profissional habilitado</strong>. Não altere a forma de uso recomendada e, em caso de dúvidas, procure orientação profissional.</p>",
-      advertencias: "<p>O uso do produto é contraindicado para pessoas com <strong>cálculo biliar, obstrução dos ductos biliares ou úlcera gastroduodenal</strong>, bem como para pessoas com hipersensibilidade à substância. Não deve ser utilizado simultaneamente com anticoagulantes sem orientação profissional.</p><p>Em caso de hipersensibilidade ao produto, recomenda-se descontinuar o uso e consultar um médico. Este produto não deve ser utilizado por mulheres grávidas ou durante o período de amamentação sem orientação médica. Não deve ser utilizado por menores de 18 anos sem orientação médica.</p><p>Não use o produto com o prazo de validade vencido. Manter em temperatura ambiente (15 a 30ºC), protegido da luz, do calor e da umidade e fora do alcance das crianças. Nunca compre medicamento sem orientação de um profissional habilitado. Siga corretamente o modo de usar. Imagens meramente ilustrativas.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
+      advertencias: "<p>O uso do produto é contraindicado para pessoas com <strong>cálculo biliar, obstrução dos ductos biliares ou úlcera gastroduodenal</strong>, bem como para pessoas com hipersensibilidade à substância. Não deve ser utilizado simultaneamente com anticoagulantes sem orientação profissional.</p><p>Em caso de hipersensibilidade ao produto, recomenda-se descontinuar o uso e consultar um médico. Este produto não deve ser utilizado por mulheres grávidas ou durante o per��odo de amamentação sem orientação médica. Não deve ser utilizado por menores de 18 anos sem orientação médica.</p><p>Não use o produto com o prazo de validade vencido. Manter em temperatura ambiente (15 a 30ºC), protegido da luz, do calor e da umidade e fora do alcance das crianças. Nunca compre medicamento sem orientação de um profissional habilitado. Siga corretamente o modo de usar. Imagens meramente ilustrativas.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
     },
     destaque: false,
     mostrarlancamento: false,
@@ -1726,7 +1726,7 @@ const produtos = [
       oQueE: "<p>A <strong>Rhodiola Rosea 400mg</strong> é um suplemento em cápsulas que fornece 400mg de Rhodiola Rosea por cápsula, um ingrediente tradicionalmente utilizado como suporte à resistência física e mental.</p><p>Sua utilização está associada ao suporte ao <strong>desempenho mental</strong>, concentração, atenção e resistência diante de períodos de estresse físico e psicológico, além de apresentar ação antioxidante e contribuir para a sensação de bem-estar.</p><p>Pode ser indicada para adultos que buscam suporte à rotina de <strong>trabalho, estudos ou atividade física</strong>, especialmente em períodos de maior demanda física ou mental. A utilização deve considerar a orientação de um profissional de saúde quando necessário.</p>",
       composicao: "<ul>\n<li>RHODIOLA ROSEA — 400MG</li>\n</ul><p><strong>Apresentação:</strong> 30 Cápsulas</p>",
       comoUsar: "<p>Tomar <strong>1 cápsula diariamente</strong>.</p>",
-      advertencias: "<p>Seu uso é contraindicado em casos de excitação por ter efeito ativador de antidepressivo. Não deve ser utilizado por indivíduos com transtorno bipolar ou por pessoas com hipersensibilidade à substância. Em caso de hipersensibilidade ao produto, recomenda-se descontinuar o uso e consultar o médico.</p><p>Não utilizar com o prazo de validade vencido. Manter em temperatura ambiente (15 a 30ºC), protegido da luz, do calor e da umidade e fora do alcance das crianças. Este produto não deve ser utilizado por mulheres grávidas sem orientação médica. O uso durante o per��odo de amamentação não é recomendado. Este produto não deve ser utilizado por menores de 18 anos sem orientação médica.</p><p>Siga corretamente o modo de usar. Nunca compre medicamento sem orientação de um profissional habilitado. Imagens meramente ilustrativas.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
+      advertencias: "<p>Seu uso é contraindicado em casos de excitação por ter efeito ativador de antidepressivo. Não deve ser utilizado por indivíduos com transtorno bipolar ou por pessoas com hipersensibilidade à substância. Em caso de hipersensibilidade ao produto, recomenda-se descontinuar o uso e consultar o médico.</p><p>Não utilizar com o prazo de validade vencido. Manter em temperatura ambiente (15 a 30ºC), protegido da luz, do calor e da umidade e fora do alcance das crianças. Este produto não deve ser utilizado por mulheres grávidas sem orientação médica. O uso durante o período de amamentação não é recomendado. Este produto não deve ser utilizado por menores de 18 anos sem orientação médica.</p><p>Siga corretamente o modo de usar. Nunca compre medicamento sem orientação de um profissional habilitado. Imagens meramente ilustrativas.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
     },
     destaque: false,
     mostrarlancamento: false,
@@ -1886,7 +1886,7 @@ const produtos = [
     descricao: {
       resumo: "<p><strong>Ácido Alfa Lipóico 250mg</strong> é uma fórmula antioxidante desenvolvida para complementar a rotina de cuidados com o organismo, oferecendo suporte ao <strong>metabolismo energético</strong> e à proteção contra o estresse oxidativo.</p>",
       oQueE: "<p>O Ácido Alfa Lipóico é um composto com ação antioxidante que participa de processos relacionados à produção de energia nas células. Sua fórmula em cápsulas oferece uma maneira prática de complementar a ingestão desse composto.</p><p>Sua principal finalidade é oferecer <strong>suporte antioxidante e metabólico</strong>, contribuindo para a neutralização de radicais livres e para processos relacionados ao metabolismo energético. Também é estudado em contextos relacionados à sensibilidade à insulina e à resposta inflamatória.</p><p>É indicado para <strong>adultos</strong> que desejam complementar sua rotina de cuidados com suporte antioxidante e metabólico. Pessoas que estejam em tratamento de condições de saúde, especialmente relacionadas ao metabolismo, devem utilizar o produto com orientação de um profissional habilitado.</p>",
-      composicao: "<ul>\n<li>ACIDO ALFA LIPOICO — 250MG</li>\n</ul><p><strong>Apresentação:</strong> 60 C��psulas</p>",
+      composicao: "<ul>\n<li>ACIDO ALFA LIPOICO — 250MG</li>\n</ul><p><strong>Apresentação:</strong> 60 Cápsulas</p>",
       comoUsar: "<p>Tomar de <strong>1 cápsula a 2 cápsulas ao dia</strong>, ingerindo a cápsula com água.</p><p>Como opção de uso, tomar 1 cápsula após o almoço. Ou então, tomar 1 cápsula após o almoço e 1 cápsula após o jantar.</p>",
       advertencias: "<p>Pessoas com hipersensibilidade à substância não devem fazer uso do produto. Em caso de hipersensibilidade ao produto, recomenda-se descontinuar o uso e consultar o médico. Imagens meramente ilustrativas. Não use o produto com o prazo de validade vencido.</p><p>Manter em temperatura ambiente (15 a 30ºC). Proteger da luz, do calor e da umidade. Nestas condições, o produto se manterá próprio para o consumo, respeitando o prazo de validade indicado na embalagem. Manter fora do alcance das crianças.</p><p>Nunca compre um produto sem orientação de um profissional habilitado. Este produto não deve ser utilizado por mulheres grávidas sem orientação médica. Siga corretamente o modo de usar. Não desaparecendo os sintomas, procure orientação médica. O uso do produto durante o período de amamentação também não é recomendado. Este produto não deve ser utilizado por menores de 18 anos sem orientação médica.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
     },
@@ -2024,6 +2024,141 @@ const produtos = [
       composicao: "<ul>\n<li>MAGNESIO DIMALATO — 150MG</li>\n<li>MAGNESIO GLICINA — 150MG</li>\n<li>MAGNESIO TREONATE — 150MG</li>\n</ul><p><strong>Apresentação:</strong> 60 Cápsulas</p>",
       comoUsar: "<p>Utilize o produto <strong>conforme as instruções do fabricante</strong> ou de acordo com a orientação de um profissional de saúde. Não altere a forma de utilização recomendada.</p>",
       advertencias: "<p>Este produto é destinado à <strong>suplementação nutricional</strong> e não substitui uma alimentação equilibrada. Utilize conforme as orientações do fabricante. Em caso de dúvidas sobre a utilização ou sobre a necessidade de suplementação, procure orientação de um profissional de saúde.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
+    },
+    destaque: false,
+    mostrarlancamento: false,
+    mostrarVideo: false,
+    textoParcelamento: "🎟️ Cupom válido no carrinho. 💳 Consulte parcelamento no checkout",
+    cupomAtivo: false,
+    cupomPorcentagem: 0,
+    cupomCodigo: "",
+    cupomValidade: "",
+    cupomMensagemTag: "",
+    cupomOcultarTag: false
+  },
+  {
+    id: "91",
+    nome: "Pill Food Turbinado - 90 Cápsulas",
+    categoria: "beleza",
+    preco: 80.00,
+    imagem: "assets/img/pill-food-turbinado-90-capsulas-mu8hdwsn.png",
+    videos: [
+      
+    ],
+    descricao: {
+      resumo: "<p><strong>Pill Food Turbinado</strong> é um suplemento com vitaminas, proteínas e aminoácidos, desenvolvido para complementar a rotina de cuidados com <strong>cabelos, pele e unhas</strong>, contribuindo para seu fortalecimento e aparência saudável.</p>",
+      oQueE: "<p>O <strong>Pill Food Turbinado</strong> é um composto formulado com vitaminas, proteínas e aminoácidos essenciais, desenvolvido para complementar os cuidados diários com cabelos, unhas e pele.</p><p>Seu uso contínuo colabora para o <strong>fortalecimento dos fios</strong>, melhora da aparência da pele e maior resistência das unhas. A fórmula conta ainda com <strong>Silício</strong> e <strong>MSM</strong>, componentes presentes na composição do produto.</p><p>É indicado para <strong>homens e mulheres</strong> que desejam cuidar dos cabelos, pele e unhas, especialmente em períodos de estresse, dietas restritivas, uso frequente de químicas nos cabelos, alterações hormonais ou após períodos de queda capilar temporária. Pessoas veganas devem consultar um profissional antes do uso, pois a fórmula contém colágeno hidrolisado, geralmente de origem animal.</p>",
+      composicao: "<ul>\n<li>Metionina — MG</li>\n<li>Cisteína — MG</li>\n<li>Cistina-L — MG</li>\n<li>Pantotenato de Cálcio — MG</li>\n<li>Complexo B — MG</li>\n<li>Vitamina E Pó — MG</li>\n<li>Selênio Quelato — MG</li>\n<li>Ácido Aminobenzoico — MG</li>\n<li>Queratina Pó — MG</li>\n<li>Biotina — MG</li>\n<li>Silício Quelato — MG</li>\n</ul><p><strong>Apresentação:</strong> 90 Cápsulas</p>",
+      comoUsar: "<p>Tomar <strong>1 cápsula duas vezes ao dia</strong>, preferencialmente antes do almoço e do jantar.</p>",
+      advertencias: "<p>A administração de colágeno hidrolisado em pó não é recomendada para pessoas portadoras de doenças renais e hepáticas, com níveis elevados de ácido úrico ou gota. Pessoas com hipersensibilidade à substância não devem usar o produto. Em caso de hipersensibilidade ao produto, recomenda-se descontinuar o uso e consultar o médico.</p><p>Não use o produto com o prazo de validade vencido. Manter em temperatura ambiente (15 a 30ºC), protegido da luz, do calor e da umidade. Manter fora do alcance das crianças.</p><p>Este produto não deve ser utilizado por mulheres grávidas sem orientação médica. O uso durante o período de amamentação também não é recomendado. Este produto não deve ser utilizado por menores de 18 anos sem orientação médica. Siga corretamente o modo de usar. Nunca compre um produto sem orientação de um profissional habilitado. Não desaparecendo os sintomas, procure orientação médica.</p><p>Imagens meramente ilustrativas. Nestas condições de armazenamento, o produto se manterá próprio para o consumo, respeitando o prazo de validade indicado na embalagem.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
+    },
+    destaque: false,
+    mostrarlancamento: false,
+    mostrarVideo: false,
+    textoParcelamento: "🎟️ Cupom válido no carrinho. 💳 Consulte parcelamento no checkout",
+    cupomAtivo: false,
+    cupomPorcentagem: 0,
+    cupomCodigo: "",
+    cupomValidade: "",
+    cupomMensagemTag: "",
+    cupomOcultarTag: false
+  },
+  {
+    id: "92",
+    nome: "50 + SUPLEMENTO - 30 Cápsulas",
+    categoria: "saude",
+    preco: 100.00,
+    imagem: "assets/img/50-suplemento-30-capsulas-mub07yb0.png",
+    videos: [
+      
+    ],
+    descricao: {
+      resumo: "<p>Fórmula desenvolvida especialmente para adultos 50+, reunindo nutrientes e extratos vegetais que auxiliam no <strong>metabolismo, equilíbrio antioxidante, saúde cardiovascular e manutenção da pele e dos tecidos</strong>.</p>",
+      oQueE: "<p>O 50 + SUPLEMENTO é uma fórmula nutricional que combina sete componentes selecionados para complementar a rotina de cuidados e nutrição de adultos a partir dos 50 anos.</p><p>Sua composição reúne ingredientes associados ao <strong>metabolismo energético e celular</strong>, à proteção antioxidante, ao funcionamento muscular, à saúde vascular e à manutenção da elasticidade e hidratação da pele.</p><p>É destinado principalmente a <strong>adultos 50+</strong> que buscam complementar sua alimentação com uma combinação de nutrientes e extratos vegetais, dentro de uma rotina equilibrada e hábitos de vida saudáveis.</p>",
+      composicao: "<ul>\n<li>INOSITOL — 100MG</li>\n<li>CURCUMA LONGA L. — 150MG</li>\n<li>BERBERINA — 100MG</li>\n<li>VERISOL — 200MG</li>\n<li>MAGNESIO DIMALATO — 100MG</li>\n<li>GYNOSTEMMA PENTAPHYLLUM — 100MG</li>\n<li>HESPERIDINA — 50MG</li>\n</ul><p><strong>Apresentação:</strong> 30 Cápsulas</p>",
+      comoUsar: "<p>Utilize o produto conforme as <strong>instruções do fabricante</strong> ou de acordo com a orientação de médico, nutricionista ou outro profissional habilitado. Não altere a forma de uso recomendada.</p>",
+      advertencias: "<p>Este produto deve ser utilizado como complemento à alimentação e aos hábitos saudáveis. Os efeitos podem variar de pessoa para pessoa, de acordo com características individuais, alimentação e rotina. <strong>Suplementos não substituem uma alimentação equilibrada nem tratamentos prescritos por profissionais de saúde.</strong></p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
+    },
+    destaque: false,
+    mostrarlancamento: false,
+    mostrarVideo: false,
+    textoParcelamento: "🎟️ Cupom válido no carrinho. 💳 Consulte parcelamento no checkout",
+    cupomAtivo: false,
+    cupomPorcentagem: 0,
+    cupomCodigo: "",
+    cupomValidade: "",
+    cupomMensagemTag: "",
+    cupomOcultarTag: false
+  },
+  {
+    id: "93",
+    nome: "5M MAGNÉSIO - 30 Cápsulas",
+    categoria: "saude",
+    preco: 60.00,
+    imagem: "assets/img/5m-magnesio-30-capsulas-mub0f2ia.png",
+    videos: [
+      
+    ],
+    descricao: {
+      resumo: "<p>O 5M MAGNÉSIO reúne diferentes formas de magnésio em uma única fórmula, contribuindo para o <strong>funcionamento muscular, neurológico e metabolismo energético</strong>.</p>",
+      oQueE: "<p>O 5M MAGNÉSIO é um suplemento alimentar que combina diferentes formas de magnésio, oferecendo uma composição diversificada para complementar a ingestão desse mineral.</p><p>O magnésio participa de diversas funções do organismo, contribuindo para o <strong>funcionamento muscular e neurológico</strong>, o metabolismo energético e a manutenção do equilíbrio do organismo.</p><p>É indicado para adultos que buscam complementar a ingestão de magnésio, especialmente quando houver necessidade nutricional identificada, sempre considerando uma alimentação equilibrada e, quando necessário, <strong>orientação de um profissional de saúde</strong>.</p>",
+      composicao: "<ul>\n<li>MAGNESIO TAURATO — MG</li>\n<li>OXIDO DE MAGNESIO — MG</li>\n<li>DIMALATO DE MAGNESIO — MG</li>\n<li>BISGLICINATO DE MAGNESIO — MG</li>\n<li>CLORETO DE MAGNESIO PO — MG</li>\n</ul><p><strong>Apresentação:</strong> 30 Cápsulas</p>",
+      comoUsar: "<p>Utilize o produto conforme as <strong>instruções do fabricante</strong> ou de acordo com a orientação de médico, nutricionista ou outro profissional habilitado. Não altere a forma de uso recomendada.</p>",
+      advertencias: "<p>Este produto deve ser utilizado como complemento à alimentação e aos hábitos saudáveis. Os benefícios podem variar de acordo com as necessidades individuais e a quantidade de magnésio efetivamente fornecida pela fórmula. <strong>Não substitua uma alimentação equilibrada nem tratamentos orientados por profissionais de saúde.</strong></p><p>As quantidades individuais das diferentes formas de magnésio não foram informadas na composição apresentada. Por isso, não é possível determinar a quantidade de magnésio elementar fornecida pelo produto.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
+    },
+    destaque: false,
+    mostrarlancamento: false,
+    mostrarVideo: false,
+    textoParcelamento: "🎟️ Cupom válido no carrinho. 💳 Consulte parcelamento no checkout",
+    cupomAtivo: false,
+    cupomPorcentagem: 0,
+    cupomCodigo: "",
+    cupomValidade: "",
+    cupomMensagemTag: "",
+    cupomOcultarTag: false
+  },
+  {
+    id: "94",
+    nome: "8:1 RETINOL - 30 Cápsulas",
+    categoria: "beleza",
+    preco: 80.00,
+    imagem: "assets/img/8-1-retinol-30-capsulas-mub0ljfi.png",
+    videos: [
+      
+    ],
+    descricao: {
+      resumo: "<p>Fórmula desenvolvida para complementar a rotina de cuidados com a <strong>pele, tecidos conjuntivos e proteção antioxidante</strong>, reunindo retinol, vitaminas, colágeno, ácido hialurônico e silício orgânico.</p>",
+      oQueE: "<p>O 8:1 RETINOL é um suplemento alimentar que combina diferentes nutrientes e compostos utilizados em fórmulas voltadas à manutenção da pele e dos tecidos, incluindo retinol, vitaminas C, E e K2-MK7, Verisol®, ácido hialurônico, trans-resveratrol e silício orgânico.</p><p>Sua composição fornece nutrientes relacionados à <strong>manutenção da pele, formação de colágeno e proteção das células contra o estresse oxidativo</strong>, além de componentes associados à hidratação e à manutenção dos tecidos conjuntivos.</p><p>É indicado para adultos que desejam complementar a ingestão de nutrientes associados à <strong>saúde da pele e dos tecidos</strong>, considerando as necessidades individuais, uma alimentação equilibrada e orientação de profissional de saúde quando necessário.</p>",
+      composicao: "<ul>\n<li>RETINOL PO — MG</li>\n<li>VIT K2-MK7 — MCG</li>\n<li>TRANS RESVERATROL EXTRATO — MG</li>\n<li>VERISOL — MG</li>\n<li>VIT C REVESTIDA — MG</li>\n<li>VIT E — MG</li>\n<li>ACIDO HIALURONICO PO — MG</li>\n<li>SILICIO ORGANICO — MG</li>\n</ul><p><strong>Apresentação:</strong> 30 Cápsulas</p>",
+      comoUsar: "<p>Utilize o produto conforme as <strong>instruções do fabricante</strong> ou de acordo com a orientação de médico, nutricionista ou outro profissional habilitado. Não altere a forma de uso recomendada.</p>",
+      advertencias: "<p>Este produto deve ser utilizado como complemento à alimentação e aos hábitos saudáveis. Os resultados podem variar de acordo com as necessidades individuais e as concentrações dos componentes presentes na fórmula. <strong>Suplementos não substituem uma alimentação equilibrada nem tratamentos orientados por profissionais de saúde.</strong></p><p>As quantidades individuais dos componentes não foram informadas na composição apresentada. Portanto, a avaliação da adequação nutricional da fórmula depende das concentrações efetivamente presentes em cada cápsula.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
+    },
+    destaque: false,
+    mostrarlancamento: false,
+    mostrarVideo: false,
+    textoParcelamento: "🎟️ Cupom válido no carrinho. 💳 Consulte parcelamento no checkout",
+    cupomAtivo: false,
+    cupomPorcentagem: 0,
+    cupomCodigo: "",
+    cupomValidade: "",
+    cupomMensagemTag: "",
+    cupomOcultarTag: false
+  },
+  {
+    id: "95",
+    nome: "Abelhinha Termogênico - 120 Cápsulas",
+    categoria: "emagrecimento",
+    preco: 100.00,
+    imagem: "assets/img/abelhinha-termogenico-120-capsulas-mub0t1ia.png",
+    videos: [
+      
+    ],
+    descricao: {
+      resumo: "<p>Suplemento termogênico desenvolvido para adultos saudáveis que buscam complementar sua rotina de treinos com ingredientes associados ao <strong>metabolismo energético, termogênese, disposição e controle do apetite</strong>.</p>",
+      oQueE: "<p>O Abelhinha Termogênico é um suplemento alimentar em cápsulas que combina goma guar, cafeína, extrato de chá verde, capsiate, ioimbina e picolinato de cromo em uma fórmula voltada à suplementação de pessoas que praticam atividades físicas.</p><p>Sua composição reúne ingredientes associados à <strong>termogênese, energia, foco e controle do apetite</strong>, podendo complementar uma rotina que inclua alimentação equilibrada e prática regular de exercícios físicos.</p><p>É destinado a <strong>adultos saudáveis</strong> que buscam complementar seus esforços relacionados ao controle do peso, disposição para os treinos e rotina de atividade física, considerando suas necessidades individuais e orientação profissional quando necessário.</p>",
+      composicao: "<ul>\n<li>GOMA GUAR — 250MG</li>\n<li>CAFEINA — 105MG</li>\n<li>CHA VERDE EXTRATO SECO — 90MG</li>\n<li>CAPSIATE — 2MG</li>\n<li>IOIMBINA CLORIDRATO — 2MG</li>\n<li>PICOLINATO DE CROMO — 200MCG</li>\n</ul><p><strong>Apresentação:</strong> 120 Cápsulas</p>",
+      comoUsar: "<p>Para resultados eficazes, recomenda-se o uso contínuo com a ingestão de <strong>4 cápsulas ao dia</strong>. Siga o passo a passo para maximizar os benefícios:</p><p><strong>Uso Diário:</strong> Tome 4 cápsulas do Termogênico Abelhinha com água, ajustando o horário de acordo com sua rotina de treinos.</p><p><strong>Caso treine no período da tarde:</strong> 2 cápsulas pela manhã e 2 cápsulas antes do treino.</p><p><strong>Caso treine no período da manhã:</strong> 2 cápsulas antes do treino e 2 cápsulas antes do café da manhã.</p><p><strong>Para treinos mais intensos:</strong> Tomar as 4 cápsulas antes do treino.</p><p><strong>Consistência:</strong> Use diariamente para garantir uma ação constante na queima de calorias, aceleração do metabolismo e melhora do desempenho físico.</p><p><strong>Acompanhe os Resultados:</strong> Com o uso contínuo, você começará a perceber melhorias na definição corporal, aumento da energia e foco durante os treinos.</p>",
+      advertencias: "<p>Este produto deve ser utilizado conforme a orientação de uso indicada e não substitui uma alimentação equilibrada nem a prática de hábitos saudáveis. <strong>O uso deve considerar as necessidades individuais e a orientação de um profissional de saúde quando necessário.</strong></p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
     },
     destaque: false,
     mostrarlancamento: false,
