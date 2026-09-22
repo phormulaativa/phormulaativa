@@ -1,0 +1,1352 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <title>Ficha de Atendimento – Terapia Floral</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+  <style>
+    :root {
+      --primary: #2c5f4a;
+      --primary-light: #3d7a62;
+      --accent: #8b7355;
+      --bg: #f7f5f2;
+      --card: #ffffff;
+      --border: #d9d3c9;
+      --text: #2c2c2c;
+      --muted: #6b6b6b;
+      --danger: #b33a3a;
+      --success: #2c5f4a;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Segoe UI', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.5;
+      padding: 0;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    .container {
+      max-width: 820px;
+      margin: 0 auto;
+      padding: 20px 16px 80px;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 28px;
+      padding-top: 12px;
+    }
+
+    header h1 {
+      font-size: 1.55rem;
+      color: var(--primary);
+      font-weight: 700;
+      letter-spacing: -0.02em;
+    }
+
+    header p {
+      color: var(--muted);
+      font-size: 0.95rem;
+      margin-top: 6px;
+    }
+
+    .card {
+      background: var(--card);
+      border-radius: 14px;
+      border: 1px solid var(--border);
+      padding: 22px 20px;
+      margin-bottom: 18px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+    }
+
+    .card h2 {
+      font-size: 1.05rem;
+      color: var(--primary);
+      margin-bottom: 16px;
+      padding-bottom: 8px;
+      border-bottom: 2px solid #e8e4dc;
+      font-weight: 600;
+    }
+
+    .grid-2 {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 14px;
+    }
+
+    .grid-3 {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 14px;
+    }
+
+    @media (max-width: 640px) {
+      .grid-2, .grid-3 {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    .field {
+      margin-bottom: 14px;
+    }
+
+    .field label {
+      display: block;
+      font-size: 0.82rem;
+      font-weight: 600;
+      color: var(--muted);
+      margin-bottom: 5px;
+      text-transform: uppercase;
+      letter-spacing: 0.03em;
+    }
+
+    .field input[type="text"],
+    .field input[type="email"],
+    .field input[type="tel"],
+    .field input[type="date"],
+    .field input[type="number"],
+    .field input[type="time"],
+    .field select,
+    .field textarea {
+      width: 100%;
+      padding: 11px 13px;
+      border: 1.5px solid var(--border);
+      border-radius: 9px;
+      font-size: 1rem;
+      background: #fafaf8;
+      color: var(--text);
+      transition: border-color 0.2s, box-shadow 0.2s;
+      font-family: inherit;
+    }
+
+    .field input:focus,
+    .field select:focus,
+    .field textarea:focus {
+      outline: none;
+      border-color: var(--primary);
+      box-shadow: 0 0 0 3px rgba(44, 95, 74, 0.12);
+      background: #fff;
+    }
+
+    .field input.invalid,
+    .field textarea.invalid {
+      border-color: var(--danger);
+      box-shadow: 0 0 0 3px rgba(179, 58, 58, 0.12);
+    }
+
+    .field .error-msg {
+      display: none;
+      font-size: 0.78rem;
+      color: var(--danger);
+      margin-top: 4px;
+      font-weight: 500;
+    }
+
+    .field .error-msg.show {
+      display: block;
+    }
+
+    .field textarea {
+      min-height: 80px;
+      resize: vertical;
+    }
+
+    /* Força maiúsculo visualmente nos campos de texto */
+    .field input[type="text"],
+    .field textarea {
+      text-transform: uppercase;
+    }
+
+    /* E-mail sempre minúsculo */
+    .field input[type="email"] {
+      text-transform: lowercase;
+    }
+
+    .radio-group, .check-group {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px 18px;
+      margin-top: 4px;
+    }
+
+    .radio-group label, .check-group label {
+      display: flex;
+      align-items: center;
+      gap: 7px;
+      font-size: 0.95rem;
+      font-weight: 500;
+      color: var(--text);
+      text-transform: none;
+      letter-spacing: 0;
+      cursor: pointer;
+    }
+
+    .radio-group input, .check-group input {
+      width: 18px;
+      height: 18px;
+      accent-color: var(--primary);
+    }
+
+    /* Signature */
+    .signature-box {
+      border: 2px dashed var(--border);
+      border-radius: 12px;
+      background: #fafaf8;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .signature-box canvas {
+      display: block;
+      width: 100%;
+      height: 180px;
+      touch-action: none;
+      cursor: crosshair;
+    }
+
+    .signature-actions {
+      display: flex;
+      gap: 10px;
+      margin-top: 10px;
+    }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 10px;
+      font-size: 1rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.2s;
+      font-family: inherit;
+    }
+
+    .btn-secondary {
+      background: #eeebe6;
+      color: var(--text);
+    }
+
+    .btn-secondary:hover {
+      background: #e2ddd5;
+    }
+
+    .btn-primary {
+      background: var(--primary);
+      color: #fff;
+      width: 100%;
+      padding: 16px;
+      font-size: 1.08rem;
+      margin-top: 8px;
+      box-shadow: 0 4px 14px rgba(44, 95, 74, 0.25);
+    }
+
+    .btn-primary:hover {
+      background: var(--primary-light);
+      transform: translateY(-1px);
+    }
+
+    .btn-primary:disabled {
+      opacity: 0.6;
+      cursor: not-allowed;
+      transform: none;
+    }
+
+    .termo {
+      background: #f9f7f3;
+      border-left: 4px solid var(--primary);
+      padding: 16px;
+      border-radius: 0 10px 10px 0;
+      font-size: 0.92rem;
+      line-height: 1.6;
+      color: #3a3a3a;
+      margin-bottom: 18px;
+    }
+
+    .footer-note {
+      text-align: center;
+      font-size: 0.8rem;
+      color: var(--muted);
+      margin-top: 24px;
+    }
+
+    #loading {
+      display: none;
+      position: fixed;
+      inset: 0;
+      background: rgba(255,255,255,0.88);
+      z-index: 9999;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      gap: 14px;
+    }
+
+    #loading.active {
+      display: flex;
+    }
+
+    .spinner {
+      width: 42px;
+      height: 42px;
+      border: 4px solid #e0ddd6;
+      border-top-color: var(--primary);
+      border-radius: 50%;
+      animation: spin 0.8s linear infinite;
+    }
+
+    @keyframes spin {
+      to { transform: rotate(360deg); }
+    }
+
+    .required::after {
+      content: " *";
+      color: var(--danger);
+    }
+
+    .parent-block {
+      background: #f9f7f3;
+      border-radius: 10px;
+      padding: 14px;
+      margin-bottom: 12px;
+    }
+
+    .parent-block h3 {
+      font-size: 0.95rem;
+      color: var(--primary);
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div id="loading">
+    <div class="spinner"></div>
+    <p style="font-weight:600;color:var(--primary)">Gerando PDF...</p>
+    <p style="font-size:0.9rem;color:var(--muted)">Aguarde alguns segundos</p>
+  </div>
+
+  <div class="container">
+    <header>
+      <h1>Ficha de Atendimento para Terapia Floral</h1>
+      <p>Preencha com atenção. Todos os dados são confidenciais.</p>
+    </header>
+
+    <!-- DADOS DE IDENTIFICAÇÃO -->
+    <div class="card">
+      <h2>Dados de Identificação</h2>
+      <div class="grid-2">
+        <div class="field">
+          <label class="required">Data</label>
+          <input type="date" id="data" required />
+        </div>
+        <div class="field">
+          <label>Horário</label>
+          <input type="time" id="horario" readonly />
+        </div>
+      </div>
+      <div class="field">
+        <label class="required">Nome completo</label>
+        <input type="text" id="nome" required placeholder="SEU NOME COMPLETO" autocomplete="name" />
+      </div>
+      <div class="grid-2">
+        <div class="field">
+          <label>Telefone / WhatsApp</label>
+          <input type="tel" id="telefone" placeholder="(18) 99999-9999" inputmode="numeric" />
+          <div class="error-msg" id="erro-telefone">Telefone inválido. Use DDD + número (10 ou 11 dígitos).</div>
+        </div>
+        <div class="field">
+          <label>E-mail</label>
+          <input type="email" id="email" placeholder="seu@email.com" autocomplete="email" />
+          <div class="error-msg" id="erro-email">E-mail inválido.</div>
+        </div>
+      </div>
+      <div class="field">
+        <label>Endereço</label>
+        <input type="text" id="endereco" placeholder="RUA, NÚMERO, BAIRRO" />
+      </div>
+      <div class="grid-2">
+        <div class="field">
+          <label>Cidade</label>
+          <input type="text" id="cidade" value="ILHA SOLTEIRA / SP" />
+        </div>
+        <div class="field">
+          <label>Local do atendimento</label>
+          <input type="text" id="local" placeholder="CONSULTÓRIO / ONLINE" />
+        </div>
+      </div>
+      <div class="grid-3">
+        <div class="field">
+          <label>Data de nascimento</label>
+          <input type="date" id="nascimento" />
+        </div>
+        <div class="field">
+          <label>Idade</label>
+          <input type="number" id="idade" min="0" max="120" />
+        </div>
+        <div class="field">
+          <label>Profissão atual</label>
+          <input type="text" id="profissao" />
+        </div>
+      </div>
+      <div class="grid-2">
+        <div class="field">
+          <label>Gosta da profissão?</label>
+          <div class="radio-group">
+            <label><input type="radio" name="gosta_profissao" value="SIM" /> Sim</label>
+            <label><input type="radio" name="gosta_profissao" value="NÃO" /> Não</label>
+            <label><input type="radio" name="gosta_profissao" value="MAIS OU MENOS" /> Mais ou menos</label>
+          </div>
+        </div>
+        <div class="field">
+          <label>Gestação / Tipo de parto</label>
+          <input type="text" id="gestacao" placeholder="EX: NORMAL, CESÁREA..." />
+        </div>
+      </div>
+      <div class="field">
+        <label>Filhos? (quantos)</label>
+        <input type="text" id="filhos" placeholder="EX: 2 FILHOS" />
+      </div>
+    </div>
+
+    <!-- DADOS COMPLEMENTARES -->
+    <div class="card">
+      <h2>Dados Complementares</h2>
+      <div class="grid-2">
+        <div class="field">
+          <label>Fuma?</label>
+          <div class="radio-group">
+            <label><input type="radio" name="fuma" value="SIM" /> Sim</label>
+            <label><input type="radio" name="fuma" value="NÃO" /> Não</label>
+            <label><input type="radio" name="fuma" value="ÀS VEZES" /> Às vezes</label>
+          </div>
+        </div>
+        <div class="field">
+          <label>Faz atividade física?</label>
+          <div class="radio-group">
+            <label><input type="radio" name="atividade" value="SIM" /> Sim</label>
+            <label><input type="radio" name="atividade" value="NÃO" /> Não</label>
+          </div>
+        </div>
+      </div>
+      <div class="grid-2">
+        <div class="field">
+          <label>Qual atividade?</label>
+          <input type="text" id="atividade_qual" placeholder="EX: CAMINHADA, YOGA..." />
+        </div>
+        <div class="field">
+          <label>Frequência</label>
+          <input type="text" id="atividade_freq" placeholder="EX: 3X POR SEMANA" />
+        </div>
+      </div>
+      <div class="grid-2">
+        <div class="field">
+          <label>Sono (horas por noite)</label>
+          <input type="text" id="sono_horas" placeholder="EX: 6 A 7 HORAS" />
+        </div>
+        <div class="field">
+          <label>Dorme bem?</label>
+          <div class="radio-group">
+            <label><input type="radio" name="dorme_bem" value="SIM" /> Sim</label>
+            <label><input type="radio" name="dorme_bem" value="NÃO" /> Não</label>
+            <label><input type="radio" name="dorme_bem" value="ÀS VEZES" /> Às vezes</label>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- DADOS PESSOAIS -->
+    <div class="card">
+      <h2>Dados Pessoais / Histórico</h2>
+
+      <div class="field">
+        <label>Já ouviu falar de terapia floral?</label>
+        <div class="radio-group">
+          <label><input type="radio" name="ouviu_floral" value="SIM" /> Sim</label>
+          <label><input type="radio" name="ouviu_floral" value="NÃO" /> Não</label>
+        </div>
+      </div>
+
+      <div class="field">
+        <label>Sabe como a terapia floral age?</label>
+        <div class="radio-group">
+          <label><input type="radio" name="sabe_como_age" value="SIM" /> Sim</label>
+          <label><input type="radio" name="sabe_como_age" value="NÃO" /> Não</label>
+          <label><input type="radio" name="sabe_como_age" value="UM POUCO" /> Um pouco</label>
+        </div>
+      </div>
+
+      <div class="field">
+        <label>Já se tratou com florais de Bach ou outros sistemas?</label>
+        <div class="radio-group">
+          <label><input type="radio" name="ja_tratou" value="SIM" /> Sim</label>
+          <label><input type="radio" name="ja_tratou" value="NÃO" /> Não</label>
+        </div>
+      </div>
+
+      <div class="field">
+        <label>Faz acompanhamento médico ou tratamento?</label>
+        <input type="text" id="acompanhamento_medico" placeholder="DESCREVA SE HOUVER" />
+      </div>
+
+      <div class="grid-2">
+        <div class="field">
+          <label>Tem TPM?</label>
+          <div class="radio-group">
+            <label><input type="radio" name="tpm" value="SIM" /> Sim</label>
+            <label><input type="radio" name="tpm" value="NÃO" /> Não</label>
+            <label><input type="radio" name="tpm" value="NÃO SE APLICA" /> N/A</label>
+          </div>
+        </div>
+        <div class="field">
+          <label>Tem cólicas menstruais?</label>
+          <div class="radio-group">
+            <label><input type="radio" name="colicas" value="SIM" /> Sim</label>
+            <label><input type="radio" name="colicas" value="NÃO" /> Não</label>
+            <label><input type="radio" name="colicas" value="NÃO SE APLICA" /> N/A</label>
+          </div>
+        </div>
+      </div>
+
+      <div class="field">
+        <label>Como se sente (em relação às cólicas / TPM)?</label>
+        <input type="text" id="como_se_sente_tpm" />
+      </div>
+
+      <div class="grid-2">
+        <div class="field">
+          <label>Medicamentos atuais</label>
+          <input type="text" id="medicamentos" placeholder="LISTE SE HOUVER" />
+        </div>
+        <div class="field">
+          <label>Cirurgias</label>
+          <input type="text" id="cirurgias" placeholder="LISTE SE HOUVER" />
+        </div>
+      </div>
+
+      <div class="field">
+        <label>Come doce (fuga)?</label>
+        <div class="radio-group">
+          <label><input type="radio" name="come_doce" value="SIM" /> Sim</label>
+          <label><input type="radio" name="come_doce" value="NÃO" /> Não</label>
+          <label><input type="radio" name="come_doce" value="ÀS VEZES" /> Às vezes</label>
+        </div>
+      </div>
+
+      <div class="field">
+        <label>Ocorreu algum evento traumático?</label>
+        <div class="radio-group">
+          <label><input type="radio" name="evento_traumatico" value="SIM" /> Sim</label>
+          <label><input type="radio" name="evento_traumatico" value="NÃO" /> Não</label>
+        </div>
+      </div>
+      <div class="field">
+        <label>Descreva o evento (se sim)</label>
+        <textarea id="evento_descreva" placeholder="PODE ESCREVER COM SUAS PALAVRAS..."></textarea>
+      </div>
+
+      <div class="field">
+        <label>Tem medos?</label>
+        <div class="radio-group">
+          <label><input type="radio" name="tem_medos" value="SIM" /> Sim</label>
+          <label><input type="radio" name="tem_medos" value="NÃO" /> Não</label>
+        </div>
+      </div>
+      <div class="field">
+        <label>Descreva os medos</label>
+        <textarea id="medos_descreva"></textarea>
+      </div>
+
+      <div class="grid-2">
+        <div class="field">
+          <label>Tem sonhos / pesadelos?</label>
+          <div class="radio-group">
+            <label><input type="radio" name="sonhos" value="SIM" /> Sim</label>
+            <label><input type="radio" name="sonhos" value="NÃO" /> Não</label>
+          </div>
+        </div>
+        <div class="field">
+          <label>Frequência</label>
+          <input type="text" id="sonhos_freq" placeholder="EX: QUASE TODA NOITE" />
+        </div>
+      </div>
+
+      <div class="grid-2">
+        <div class="field">
+          <label>Fez ou faz xixi na cama?</label>
+          <div class="radio-group">
+            <label><input type="radio" name="xixi_cama" value="SIM" /> Sim</label>
+            <label><input type="radio" name="xixi_cama" value="NÃO" /> Não</label>
+            <label><input type="radio" name="xixi_cama" value="JÁ FEZ" /> Já fez</label>
+          </div>
+        </div>
+        <div class="field">
+          <label>Fala enquanto dorme?</label>
+          <div class="radio-group">
+            <label><input type="radio" name="fala_dorme" value="SIM" /> Sim</label>
+            <label><input type="radio" name="fala_dorme" value="NÃO" /> Não</label>
+            <label><input type="radio" name="fala_dorme" value="ÀS VEZES" /> Às vezes</label>
+          </div>
+        </div>
+      </div>
+
+      <div class="field">
+        <label>Diante das responsabilidades / dificuldades, como reage?</label>
+        <textarea id="reage_dificuldades"></textarea>
+      </div>
+
+      <div class="field">
+        <label>Quando está doente, como se comporta?</label>
+        <textarea id="quando_doente"></textarea>
+      </div>
+
+      <div class="grid-2">
+        <div class="field">
+          <label>Pede ajuda?</label>
+          <div class="radio-group">
+            <label><input type="radio" name="pede_ajuda" value="SIM" /> Sim</label>
+            <label><input type="radio" name="pede_ajuda" value="NÃO" /> Não</label>
+            <label><input type="radio" name="pede_ajuda" value="ÀS VEZES" /> Às vezes</label>
+          </div>
+        </div>
+        <div class="field">
+          <label>Se entrega?</label>
+          <div class="radio-group">
+            <label><input type="radio" name="se_entrega" value="SIM" /> Sim</label>
+            <label><input type="radio" name="se_entrega" value="NÃO" /> Não</label>
+            <label><input type="radio" name="se_entrega" value="ÀS VEZES" /> Às vezes</label>
+          </div>
+        </div>
+      </div>
+
+      <div class="field">
+        <label>Aceita ou não o tratamento médico?</label>
+        <input type="text" id="aceita_tratamento" />
+      </div>
+
+      <div class="field">
+        <label>Quando está cansado, pede “para parar” ou não tem limites?</label>
+        <input type="text" id="quando_cansado" />
+      </div>
+
+      <div class="field">
+        <label>Convívio social é satisfatório?</label>
+        <div class="radio-group">
+          <label><input type="radio" name="convivio" value="SIM" /> Sim</label>
+          <label><input type="radio" name="convivio" value="NÃO" /> Não</label>
+          <label><input type="radio" name="convivio" value="MAIS OU MENOS" /> Mais ou menos</label>
+        </div>
+      </div>
+
+      <div class="field">
+        <label>Possui amigo(a) com quem compartilha seus problemas?</label>
+        <div class="radio-group">
+          <label><input type="radio" name="amigo_confidente" value="SIM" /> Sim</label>
+          <label><input type="radio" name="amigo_confidente" value="NÃO" /> Não</label>
+        </div>
+      </div>
+
+      <div class="field">
+        <label>Procura se divertir?</label>
+        <div class="radio-group">
+          <label><input type="radio" name="se_divertir" value="SIM" /> Sim</label>
+          <label><input type="radio" name="se_divertir" value="NÃO" /> Não</label>
+          <label><input type="radio" name="se_divertir" value="ÀS VEZES" /> Às vezes</label>
+        </div>
+      </div>
+
+      <div class="field">
+        <label>A relação com a família é satisfatória?</label>
+        <div class="radio-group">
+          <label><input type="radio" name="familia" value="SIM" /> Sim</label>
+          <label><input type="radio" name="familia" value="NÃO" /> Não</label>
+          <label><input type="radio" name="familia" value="MAIS OU MENOS" /> Mais ou menos</label>
+        </div>
+      </div>
+
+      <div class="field">
+        <label>Julga-se adaptado ao mundo que o rodeia?</label>
+        <div class="radio-group">
+          <label><input type="radio" name="adaptado" value="SIM" /> Sim</label>
+          <label><input type="radio" name="adaptado" value="NÃO" /> Não</label>
+          <label><input type="radio" name="adaptado" value="MAIS OU MENOS" /> Mais ou menos</label>
+        </div>
+      </div>
+    </div>
+
+    <!-- MÃE E PAI -->
+    <div class="card">
+      <h2>Família de Origem</h2>
+
+      <div class="parent-block">
+        <h3>Mãe</h3>
+        <div class="field">
+          <label>3 características emocionais</label>
+          <input type="text" id="mae_caracteristicas" placeholder="EX: CARINHOSA, ANSIOSA, PROTETORA..." />
+        </div>
+        <div class="field">
+          <label>Doenças / Características físicas</label>
+          <input type="text" id="mae_doencas" />
+        </div>
+        <div class="field">
+          <label>Presença</label>
+          <div class="radio-group">
+            <label><input type="radio" name="mae_presenca" value="PRESENTE" /> Presente</label>
+            <label><input type="radio" name="mae_presenca" value="AUSENTE" /> Ausente</label>
+          </div>
+        </div>
+      </div>
+
+      <div class="parent-block">
+        <h3>Pai</h3>
+        <div class="field">
+          <label>3 características emocionais</label>
+          <input type="text" id="pai_caracteristicas" placeholder="EX: TRABALHADOR, DISTANTE, PROTETOR..." />
+        </div>
+        <div class="field">
+          <label>Doenças / Características físicas</label>
+          <input type="text" id="pai_doencas" />
+        </div>
+        <div class="field">
+          <label>Presença</label>
+          <div class="radio-group">
+            <label><input type="radio" name="pai_presenca" value="PRESENTE" /> Presente</label>
+            <label><input type="radio" name="pai_presenca" value="AUSENTE" /> Ausente</label>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- MOTIVO DA CONSULTA -->
+    <div class="card">
+      <h2>Motivo da Consulta</h2>
+      <div class="field">
+        <label class="required">Qual sua queixa principal?</label>
+        <textarea id="queixa_principal" required placeholder="DESCREVA O QUE MAIS TE INCOMODA OU TROUXE ATÉ AQUI..."></textarea>
+      </div>
+      <div class="field">
+        <label>Quando começou?</label>
+        <input type="text" id="quando_comecou" />
+      </div>
+      <div class="field">
+        <label>O que você acha que causou isso?</label>
+        <textarea id="causa"></textarea>
+      </div>
+      <div class="field">
+        <label>Como reage a este problema?</label>
+        <textarea id="reage_problema"></textarea>
+      </div>
+      <div class="field">
+        <label class="required">Seu desejo com o tratamento</label>
+        <textarea id="desejo_tratamento" required placeholder="O QUE VOCÊ ESPERA ALCANÇAR COM A TERAPIA FLORAL?"></textarea>
+      </div>
+    </div>
+
+    <!-- TERMO + ASSINATURA -->
+    <div class="card">
+      <h2>Termo de Responsabilidade</h2>
+      <div class="termo">
+        Pelo presente instrumento, declaro a quem possa interessar que minha participação nesta terapia é de minha livre, espontânea vontade e escolha. Responsabilizo-me pelas informações aqui transmitidas como sendo a verdade. Autorizo o tratamento recomendado responsabilizando-me pelos dados aqui mencionados.
+      </div>
+
+      <div class="grid-2">
+        <div class="field">
+          <label>Local</label>
+          <input type="text" id="termo_local" value="ILHA SOLTEIRA" />
+        </div>
+        <div class="field">
+          <label>Data do termo</label>
+          <input type="date" id="termo_data" />
+        </div>
+      </div>
+
+      <div class="field">
+        <label>CPF</label>
+        <input type="text" id="cpf" placeholder="000.000.000-00" inputmode="numeric" maxlength="14" />
+        <div class="error-msg" id="erro-cpf">CPF inválido.</div>
+      </div>
+
+      <div class="field">
+        <label class="required">Assinatura (assine com o dedo ou mouse)</label>
+        <div class="signature-box">
+          <canvas id="signature-canvas"></canvas>
+        </div>
+        <div class="signature-actions">
+          <button type="button" class="btn btn-secondary" id="btn-clear-signature">Limpar assinatura</button>
+        </div>
+      </div>
+
+      <div class="field" style="margin-top:18px">
+        <label>Aluno (Terapeuta)</label>
+        <input type="text" id="terapeuta" placeholder="NOME DO TERAPEUTA / ALUNO" />
+      </div>
+    </div>
+
+    <button type="button" class="btn btn-primary" id="btn-gerar-pdf">
+      Gerar PDF Assinado e Baixar
+    </button>
+
+    <p class="footer-note">
+      Após baixar o PDF, envie-o para o terapeuta via WhatsApp ou e-mail.<br>
+      Formulário 100% local — nenhum dado é enviado para servidores.
+    </p>
+  </div>
+
+  <script>
+    // ========== ASSINATURA ==========
+    const canvas = document.getElementById('signature-canvas');
+    const ctx = canvas.getContext('2d');
+    let drawing = false;
+    let hasSignature = false;
+
+    function resizeCanvas() {
+      const ratio = Math.max(window.devicePixelRatio || 1, 1);
+      const rect = canvas.getBoundingClientRect();
+      canvas.width = rect.width * ratio;
+      canvas.height = 180 * ratio;
+      ctx.scale(ratio, ratio);
+      ctx.lineWidth = 2.2;
+      ctx.lineCap = 'round';
+      ctx.lineJoin = 'round';
+      ctx.strokeStyle = '#1a1a1a';
+    }
+
+    resizeCanvas();
+
+    function getPos(e) {
+      const rect = canvas.getBoundingClientRect();
+      const clientX = e.touches ? e.touches[0].clientX : e.clientX;
+      const clientY = e.touches ? e.touches[0].clientY : e.clientY;
+      return {
+        x: clientX - rect.left,
+        y: clientY - rect.top
+      };
+    }
+
+    function startDraw(e) {
+      e.preventDefault();
+      drawing = true;
+      const pos = getPos(e);
+      ctx.beginPath();
+      ctx.moveTo(pos.x, pos.y);
+    }
+
+    function draw(e) {
+      if (!drawing) return;
+      e.preventDefault();
+      const pos = getPos(e);
+      ctx.lineTo(pos.x, pos.y);
+      ctx.stroke();
+      hasSignature = true;
+    }
+
+    function endDraw(e) {
+      if (!drawing) return;
+      e.preventDefault();
+      drawing = false;
+    }
+
+    canvas.addEventListener('mousedown', startDraw);
+    canvas.addEventListener('mousemove', draw);
+    canvas.addEventListener('mouseup', endDraw);
+    canvas.addEventListener('mouseout', endDraw);
+    canvas.addEventListener('touchstart', startDraw, { passive: false });
+    canvas.addEventListener('touchmove', draw, { passive: false });
+    canvas.addEventListener('touchend', endDraw);
+
+    document.getElementById('btn-clear-signature').addEventListener('click', () => {
+      ctx.clearRect(0, 0, canvas.width, canvas.height);
+      hasSignature = false;
+    });
+
+    // ========== HELPERS ==========
+    function getRadio(name) {
+      const el = document.querySelector(`input[name="${name}"]:checked`);
+      return el ? el.value : '';
+    }
+
+    function val(id) {
+      const el = document.getElementById(id);
+      return el ? el.value.trim() : '';
+    }
+
+    // ========== DATA E HORÁRIO AUTOMÁTICOS ==========
+    function setDateAndTime() {
+      const now = new Date();
+      const today = now.toISOString().split('T')[0];
+      const hours = String(now.getHours()).padStart(2, '0');
+      const minutes = String(now.getMinutes()).padStart(2, '0');
+
+      if (!document.getElementById('data').value) {
+        document.getElementById('data').value = today;
+      }
+      document.getElementById('horario').value = `${hours}:${minutes}`;
+
+      if (!document.getElementById('termo_data').value) {
+        document.getElementById('termo_data').value = today;
+      }
+    }
+    setDateAndTime();
+
+    // ========== CAIXA ALTA AUTOMÁTICA (exceto e-mail) ==========
+    document.querySelectorAll('input[type="text"], textarea').forEach(el => {
+      el.addEventListener('input', function () {
+        const start = this.selectionStart;
+        const end = this.selectionEnd;
+        this.value = this.value.toUpperCase();
+        this.setSelectionRange(start, end);
+      });
+    });
+
+    // E-mail sempre minúsculo
+    document.getElementById('email').addEventListener('input', function () {
+      const start = this.selectionStart;
+      const end = this.selectionEnd;
+      this.value = this.value.toLowerCase();
+      this.setSelectionRange(start, end);
+    });
+
+    // ========== MÁSCARA E VALIDAÇÃO DE CPF ==========
+    function formatCPF(value) {
+      value = value.replace(/\D/g, '').slice(0, 11);
+      if (value.length > 9) {
+        return value.replace(/(\d{3})(\d{3})(\d{3})(\d{1,2})/, '$1.$2.$3-$4');
+      } else if (value.length > 6) {
+        return value.replace(/(\d{3})(\d{3})(\d{1,3})/, '$1.$2.$3');
+      } else if (value.length > 3) {
+        return value.replace(/(\d{3})(\d{1,3})/, '$1.$2');
+      }
+      return value;
+    }
+
+    function validarCPF(cpf) {
+      cpf = cpf.replace(/\D/g, '');
+      if (cpf.length !== 11) return false;
+      if (/^(\d)\1+$/.test(cpf)) return false;
+
+      let soma = 0;
+      for (let i = 0; i < 9; i++) soma += parseInt(cpf.charAt(i)) * (10 - i);
+      let resto = (soma * 10) % 11;
+      if (resto === 10 || resto === 11) resto = 0;
+      if (resto !== parseInt(cpf.charAt(9))) return false;
+
+      soma = 0;
+      for (let i = 0; i < 10; i++) soma += parseInt(cpf.charAt(i)) * (11 - i);
+      resto = (soma * 10) % 11;
+      if (resto === 10 || resto === 11) resto = 0;
+      if (resto !== parseInt(cpf.charAt(10))) return false;
+
+      return true;
+    }
+
+    const cpfInput = document.getElementById('cpf');
+    cpfInput.addEventListener('input', function () {
+      this.value = formatCPF(this.value);
+      const erro = document.getElementById('erro-cpf');
+      if (this.value.replace(/\D/g, '').length === 11) {
+        if (!validarCPF(this.value)) {
+          this.classList.add('invalid');
+          erro.classList.add('show');
+        } else {
+          this.classList.remove('invalid');
+          erro.classList.remove('show');
+        }
+      } else {
+        this.classList.remove('invalid');
+        erro.classList.remove('show');
+      }
+    });
+
+    // ========== MÁSCARA E VALIDAÇÃO DE TELEFONE ==========
+    function formatTelefone(value) {
+      value = value.replace(/\D/g, '').slice(0, 11);
+      if (value.length > 10) {
+        return value.replace(/(\d{2})(\d{5})(\d{4})/, '($1) $2-$3');
+      } else if (value.length > 6) {
+        return value.replace(/(\d{2})(\d{4})(\d{0,4})/, '($1) $2-$3');
+      } else if (value.length > 2) {
+        return value.replace(/(\d{2})(\d{0,5})/, '($1) $2');
+      } else if (value.length > 0) {
+        return value.replace(/(\d{0,2})/, '($1');
+      }
+      return value;
+    }
+
+    function validarTelefone(tel) {
+      const digits = tel.replace(/\D/g, '');
+      return digits.length === 10 || digits.length === 11;
+    }
+
+    const telInput = document.getElementById('telefone');
+    telInput.addEventListener('input', function () {
+      this.value = formatTelefone(this.value);
+      const erro = document.getElementById('erro-telefone');
+      const digits = this.value.replace(/\D/g, '');
+      if (digits.length >= 10) {
+        if (!validarTelefone(this.value)) {
+          this.classList.add('invalid');
+          erro.classList.add('show');
+        } else {
+          this.classList.remove('invalid');
+          erro.classList.remove('show');
+        }
+      } else {
+        this.classList.remove('invalid');
+        erro.classList.remove('show');
+      }
+    });
+
+    // ========== VALIDAÇÃO DE E-MAIL ==========
+    function validarEmail(email) {
+      if (!email) return true; // opcional
+      return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
+    }
+
+    const emailInput = document.getElementById('email');
+    emailInput.addEventListener('blur', function () {
+      const erro = document.getElementById('erro-email');
+      if (this.value && !validarEmail(this.value)) {
+        this.classList.add('invalid');
+        erro.classList.add('show');
+      } else {
+        this.classList.remove('invalid');
+        erro.classList.remove('show');
+      }
+    });
+
+    // ========== GERAR PDF ==========
+    document.getElementById('btn-gerar-pdf').addEventListener('click', async () => {
+      const nome = val('nome');
+      const queixa = val('queixa_principal');
+      const desejo = val('desejo_tratamento');
+      const cpf = val('cpf');
+      const email = val('email');
+      const telefone = val('telefone');
+
+      if (!nome) {
+        alert('Por favor, preencha o Nome completo.');
+        document.getElementById('nome').focus();
+        return;
+      }
+      if (!queixa) {
+        alert('Por favor, preencha a Queixa principal.');
+        document.getElementById('queixa_principal').focus();
+        return;
+      }
+      if (!desejo) {
+        alert('Por favor, preencha o Desejo com o tratamento.');
+        document.getElementById('desejo_tratamento').focus();
+        return;
+      }
+      if (!hasSignature) {
+        alert('Por favor, assine no campo de assinatura antes de gerar o PDF.');
+        return;
+      }
+
+      // Validar CPF se preenchido
+      if (cpf && !validarCPF(cpf)) {
+        alert('CPF inválido. Verifique e corrija.');
+        document.getElementById('cpf').focus();
+        return;
+      }
+
+      // Validar e-mail se preenchido
+      if (email && !validarEmail(email)) {
+        alert('E-mail inválido. Verifique e corrija.');
+        document.getElementById('email').focus();
+        return;
+      }
+
+      // Validar telefone se preenchido
+      if (telefone && !validarTelefone(telefone)) {
+        alert('Telefone inválido. Use DDD + número (10 ou 11 dígitos).');
+        document.getElementById('telefone').focus();
+        return;
+      }
+
+      const loading = document.getElementById('loading');
+      loading.classList.add('active');
+      const btn = document.getElementById('btn-gerar-pdf');
+      btn.disabled = true;
+
+      try {
+        await generatePDF();
+      } catch (err) {
+        console.error(err);
+        alert('Ocorreu um erro ao gerar o PDF. Tente novamente.');
+      } finally {
+        loading.classList.remove('active');
+        btn.disabled = false;
+      }
+    });
+
+    async function generatePDF() {
+      const { jsPDF } = window.jspdf;
+      const doc = new jsPDF({
+        orientation: 'portrait',
+        unit: 'mm',
+        format: 'a4'
+      });
+
+      const pageWidth = doc.internal.pageSize.getWidth();
+      const pageHeight = doc.internal.pageSize.getHeight();
+      const margin = 14;
+      const contentWidth = pageWidth - margin * 2;
+      let y = margin;
+
+      const primary = [44, 95, 74];
+      const muted = [100, 100, 100];
+      const dark = [40, 40, 40];
+
+      function checkPage(needed = 12) {
+        if (y + needed > pageHeight - 18) {
+          doc.addPage();
+          y = margin;
+          return true;
+        }
+        return false;
+      }
+
+      function title(text) {
+        checkPage(14);
+        doc.setFont('helvetica', 'bold');
+        doc.setFontSize(13);
+        doc.setTextColor(...primary);
+        doc.text(text, margin, y);
+        y += 2;
+        doc.setDrawColor(...primary);
+        doc.setLineWidth(0.4);
+        doc.line(margin, y, pageWidth - margin, y);
+        y += 7;
+      }
+
+      function subtitle(text) {
+        checkPage(10);
+        doc.setFont('helvetica', 'bold');
+        doc.setFontSize(10.5);
+        doc.setTextColor(...primary);
+        doc.text(text, margin, y);
+        y += 6;
+      }
+
+      function field(label, value) {
+        if (!value) value = '—';
+        checkPage(9);
+        doc.setFont('helvetica', 'bold');
+        doc.setFontSize(8);
+        doc.setTextColor(...muted);
+        doc.text(label.toUpperCase(), margin, y);
+        y += 4;
+        doc.setFont('helvetica', 'normal');
+        doc.setFontSize(10);
+        doc.setTextColor(...dark);
+        const lines = doc.splitTextToSize(String(value), contentWidth);
+        doc.text(lines, margin, y);
+        y += lines.length * 4.8 + 3.5;
+      }
+
+      function fieldInline(pairs) {
+        checkPage(12);
+        const colW = contentWidth / pairs.length;
+        pairs.forEach((p, i) => {
+          const x = margin + i * colW;
+          doc.setFont('helvetica', 'bold');
+          doc.setFontSize(7.5);
+          doc.setTextColor(...muted);
+          doc.text(p.label.toUpperCase(), x, y);
+          doc.setFont('helvetica', 'normal');
+          doc.setFontSize(9.5);
+          doc.setTextColor(...dark);
+          const valStr = p.value || '—';
+          const lines = doc.splitTextToSize(String(valStr), colW - 4);
+          doc.text(lines, x, y + 4.2);
+        });
+        y += 12;
+      }
+
+      // CABEÇALHO
+      doc.setFillColor(...primary);
+      doc.rect(0, 0, pageWidth, 22, 'F');
+      doc.setFont('helvetica', 'bold');
+      doc.setFontSize(14);
+      doc.setTextColor(255, 255, 255);
+      doc.text('Ficha de Atendimento – Terapia Floral', pageWidth / 2, 10, { align: 'center' });
+      doc.setFontSize(9);
+      doc.setFont('helvetica', 'normal');
+      doc.text('Documento preenchido e assinado digitalmente', pageWidth / 2, 16.5, { align: 'center' });
+      y = 30;
+
+      // 1. IDENTIFICAÇÃO
+      title('1. Dados de Identificação');
+      fieldInline([
+        { label: 'Data', value: val('data') },
+        { label: 'Horário', value: val('horario') },
+        { label: 'Local', value: val('local') }
+      ]);
+      field('Nome completo', val('nome'));
+      fieldInline([
+        { label: 'Telefone', value: val('telefone') },
+        { label: 'E-mail', value: val('email') }
+      ]);
+      field('Endereço', val('endereco'));
+      fieldInline([
+        { label: 'Cidade', value: val('cidade') },
+        { label: 'Data nasc.', value: val('nascimento') },
+        { label: 'Idade', value: val('idade') }
+      ]);
+      fieldInline([
+        { label: 'Profissão', value: val('profissao') },
+        { label: 'Gosta?', value: getRadio('gosta_profissao') }
+      ]);
+      fieldInline([
+        { label: 'Gestação / Parto', value: val('gestacao') },
+        { label: 'Filhos', value: val('filhos') }
+      ]);
+
+      // 2. COMPLEMENTARES
+      title('2. Dados Complementares');
+      fieldInline([
+        { label: 'Fuma?', value: getRadio('fuma') },
+        { label: 'Atividade física?', value: getRadio('atividade') }
+      ]);
+      fieldInline([
+        { label: 'Qual atividade', value: val('atividade_qual') },
+        { label: 'Frequência', value: val('atividade_freq') }
+      ]);
+      fieldInline([
+        { label: 'Sono (horas)', value: val('sono_horas') },
+        { label: 'Dorme bem?', value: getRadio('dorme_bem') }
+      ]);
+
+      // 3. DADOS PESSOAIS
+      title('3. Dados Pessoais / Histórico');
+      field('Já ouviu falar de terapia floral?', getRadio('ouviu_floral'));
+      field('Sabe como a terapia floral age?', getRadio('sabe_como_age'));
+      field('Já se tratou com florais de Bach ou outros?', getRadio('ja_tratou'));
+      field('Acompanhamento médico / tratamento', val('acompanhamento_medico'));
+      fieldInline([
+        { label: 'TPM', value: getRadio('tpm') },
+        { label: 'Cólicas menstruais', value: getRadio('colicas') }
+      ]);
+      field('Como se sente (TPM/cólicas)', val('como_se_sente_tpm'));
+      fieldInline([
+        { label: 'Medicamentos', value: val('medicamentos') },
+        { label: 'Cirurgias', value: val('cirurgias') }
+      ]);
+      field('Come doce (fuga)?', getRadio('come_doce'));
+      field('Evento traumático?', getRadio('evento_traumatico'));
+      if (val('evento_descreva')) field('Descrição do evento', val('evento_descreva'));
+      field('Tem medos?', getRadio('tem_medos'));
+      if (val('medos_descreva')) field('Descrição dos medos', val('medos_descreva'));
+      fieldInline([
+        { label: 'Sonhos/pesadelos', value: getRadio('sonhos') },
+        { label: 'Frequência', value: val('sonhos_freq') }
+      ]);
+      fieldInline([
+        { label: 'Xixi na cama', value: getRadio('xixi_cama') },
+        { label: 'Fala dormindo', value: getRadio('fala_dorme') }
+      ]);
+      field('Reação perante responsabilidades/dificuldades', val('reage_dificuldades'));
+      field('Comportamento quando doente', val('quando_doente'));
+      fieldInline([
+        { label: 'Pede ajuda?', value: getRadio('pede_ajuda') },
+        { label: 'Se entrega?', value: getRadio('se_entrega') }
+      ]);
+      field('Aceita tratamento médico?', val('aceita_tratamento'));
+      field('Quando cansado: pede para parar ou não tem limites?', val('quando_cansado'));
+      field('Convívio social satisfatório?', getRadio('convivio'));
+      field('Tem amigo(a) confidente?', getRadio('amigo_confidente'));
+      field('Procura se divertir?', getRadio('se_divertir'));
+      field('Relação familiar satisfatória?', getRadio('familia'));
+      field('Sente-se adaptado ao mundo?', getRadio('adaptado'));
+
+      // 4. FAMÍLIA
+      title('4. Família de Origem');
+      subtitle('Mãe');
+      field('Características emocionais', val('mae_caracteristicas'));
+      field('Doenças / Características físicas', val('mae_doencas'));
+      field('Presença', getRadio('mae_presenca'));
+      subtitle('Pai');
+      field('Características emocionais', val('pai_caracteristicas'));
+      field('Doenças / Características físicas', val('pai_doencas'));
+      field('Presença', getRadio('pai_presenca'));
+
+      // 5. MOTIVO
+      title('5. Motivo da Consulta');
+      field('Queixa principal', val('queixa_principal'));
+      field('Quando começou?', val('quando_comecou'));
+      field('O que você acha que causou isso?', val('causa'));
+      field('Como reage a este problema?', val('reage_problema'));
+      field('Desejo com o tratamento', val('desejo_tratamento'));
+
+      // 6. TERMO
+      title('6. Termo de Responsabilidade');
+      checkPage(35);
+      doc.setFont('helvetica', 'normal');
+      doc.setFontSize(9);
+      doc.setTextColor(...dark);
+      const termoTexto = 'Pelo presente instrumento, declaro a quem possa interessar que minha participação nesta terapia é de minha livre, espontânea vontade e escolha. Responsabilizo-me pelas informações aqui transmitidas como sendo a verdade. Autorizo o tratamento recomendado responsabilizando-me pelos dados aqui mencionados.';
+      const termoLines = doc.splitTextToSize(termoTexto, contentWidth);
+      doc.text(termoLines, margin, y);
+      y += termoLines.length * 4.5 + 8;
+
+      fieldInline([
+        { label: 'Local', value: val('termo_local') },
+        { label: 'Data', value: val('termo_data') },
+        { label: 'CPF', value: val('cpf') }
+      ]);
+
+      // Assinatura
+      checkPage(45);
+      doc.setFont('helvetica', 'bold');
+      doc.setFontSize(8);
+      doc.setTextColor(...muted);
+      doc.text('ASSINATURA DO(A) PACIENTE', margin, y);
+      y += 5;
+
+      const sigData = canvas.toDataURL('image/png');
+      const sigWidth = 70;
+      const sigHeight = 28;
+      doc.addImage(sigData, 'PNG', margin, y, sigWidth, sigHeight);
+      y += sigHeight + 3;
+      doc.setDrawColor(180, 180, 180);
+      doc.setLineWidth(0.3);
+      doc.line(margin, y, margin + sigWidth + 10, y);
+      y += 5;
+      doc.setFont('helvetica', 'normal');
+      doc.setFontSize(9);
+      doc.setTextColor(...dark);
+      doc.text(val('nome') || 'PACIENTE', margin, y);
+      y += 8;
+
+      field('Aluno (Terapeuta)', val('terapeuta'));
+
+      // Rodapé
+      const totalPages = doc.internal.getNumberOfPages();
+      for (let i = 1; i <= totalPages; i++) {
+        doc.setPage(i);
+        doc.setFont('helvetica', 'normal');
+        doc.setFontSize(7.5);
+        doc.setTextColor(140, 140, 140);
+        doc.text(`Página ${i} de ${totalPages}`, pageWidth / 2, pageHeight - 8, { align: 'center' });
+        doc.text('Documento gerado eletronicamente – Terapia Floral', margin, pageHeight - 8);
+      }
+
+      const safeName = (val('nome') || 'paciente').replace(/[^a-zA-Z0-9À-ÿ\s]/g, '').replace(/\s+/g, '_').substring(0, 40);
+      const fileName = `Ficha_Terapia_Floral_${safeName}.pdf`;
+      doc.save(fileName);
+    }
+  </script>
+</body>
+</html>
