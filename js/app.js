@@ -170,7 +170,8 @@ const bannersIntermediarios = [
        { src: "assets/adsmeio/abelhinhatermogenico.png", alt: "Abelhinha Termogênico" },
        { src: "assets/adsmeio/5mmagnesio.png", alt: "5M Magnésio" },
        { src: "assets/adsmeio/50mais.png", alt: "50 + Suplemento" },
-       { src: "assets/adsmeio/retinol.png", alt: "8:1 Retinol" }
+       { src: "assets/adsmeio/retinol.png", alt: "8:1 Retinol" },
+       { src: "assets/adsmeio/phormulavet.png", alt: "Biscoito Veterinário" }
                      
      ]
    },
