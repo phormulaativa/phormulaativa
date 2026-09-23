@@ -510,7 +510,7 @@ const produtos = [
       resumo: "<p>Solução de uso profissional desenvolvida para auxiliar no cuidado e na recuperação das unhas, reunindo uma composição com diferentes componentes destinados aos protocolos de cuidados ungueais.</p>",
       oQueE: "<p>O Ungueal Nistatina é uma solução de uso profissional formulada com fluconazol, nistatina, ciclopirox olamina e óleo de melaleuca, em veículo adequado à apresentação.</p><p>Sua finalidade é <strong>auxiliar na recuperação das unhas</strong>, integrando uma composição voltada ao cuidado ungueal e ao suporte dos protocolos profissionais.</p><p>É recomendado para <strong>uso profissional</strong>, especialmente por profissionais que realizam procedimentos e cuidados relacionados às unhas e considerem sua utilização adequada conforme a avaliação de cada caso.</p>",
       composicao: "<ul>\n<li>FLUCONAZOL — 2%</li>\n<li>NISTATINA — 100000UI</li>\n<li>CICLOPIROX OLAMINA — 5%</li>\n<li>OLEO DE MELALEUCA — 2%</li>\n<li>VEICULO — 10ML</li>\n</ul><p><strong>Apresentação:</strong> Solução 10ml - Validade 4 meses</p>",
-      comoUsar: "<p>Utilize o produto conforme as <strong>instruções do fabricante</strong> e/ou orientação de um profissional habilitado. A forma de utilizaç��o deve respeitar a avaliação do caso e o protocolo profissional adotado, sem estabelecer dose, frequência ou horários diferentes dos recomendados.</p>",
+      comoUsar: "<p>Utilize o produto conforme as <strong>instruções do fabricante</strong> e/ou orientação de um profissional habilitado. A forma de utilização deve respeitar a avaliação do caso e o protocolo profissional adotado, sem estabelecer dose, frequência ou horários diferentes dos recomendados.</p>",
       advertencias: "<p>Produto destinado ao uso conforme orientação profissional. Leia atentamente as informações do produto antes da utilização e siga as recomendações do fabricante. Em caso de dúvidas sobre a utilização, procure orientação de um profissional habilitado.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
     },
     destaque: false,
@@ -1184,7 +1184,7 @@ const produtos = [
     descricao: {
       resumo: "<p>BLACK GINGER POWER PRE-TREINO é uma formulação desenvolvida para complementar a rotina de treinos, com foco em <strong>energia, resistência e performance física</strong>, reunindo ativos relacionados ao suporte ao desempenho durante exercícios.</p>",
       oQueE: "<p>BLACK GINGER POWER PRE-TREINO é uma formulação em cápsulas que reúne diferentes ativos selecionados para integrar estratégias voltadas à <strong>performance esportiva</strong>, resistência e capacidade de treinamento.</p><p>Sua finalidade está relacionada ao suporte à <strong>energia, disposição, resistência e desempenho físico</strong> durante a prática de exercícios. A presença de NO3, AAKG e Norvaline também direciona a formulação para o suporte relacionado ao fluxo sanguíneo e à performance durante o treinamento.</p><p>É destinado a <strong>adultos fisicamente ativos</strong> que buscam complementar sua rotina de exercícios com uma formulação direcionada à performance e resistência. Seu uso deve considerar as orientações do fabricante ou de profissional habilitado.</p>",
-      composicao: "<ul>\n<li>BLACK GINGER — POWDER</li>\n<li>BLACK GINGER — MG</li>\n<li>PHYTOTESTO — MG</li>\n<li>FURASTANOL (FENOSIDEO) — MG</li>\n<li>PIPERINA — MG</li>\n<li>ENDURFIT — MG</li>\n<li>NO3 — MG</li>\n<li>AAKG — MG</li>\n<li>NORVALINE — MG</li>\n<li>COBRE QUELATO — MG</li>\n<li>ZINCO QUELATO — MG</li>\n<li>MANGANES QUELATO — MG</li>\n<li>FERRO QUELATO — MG</li>\n<li>SELENIO METIONINA — MCG</li>\n<li>COLEUS FORSKOHLII EXTRATO — MG</li>\n<li>EGCG 98% ��� MG</li>\n<li>THIOMUCASE — UTR</li>\n</ul><p><strong>Apresentação:</strong> 15 Cápsulas</p>",
+      composicao: "<ul>\n<li>BLACK GINGER — POWDER</li>\n<li>BLACK GINGER — MG</li>\n<li>PHYTOTESTO — MG</li>\n<li>FURASTANOL (FENOSIDEO) — MG</li>\n<li>PIPERINA — MG</li>\n<li>ENDURFIT — MG</li>\n<li>NO3 — MG</li>\n<li>AAKG — MG</li>\n<li>NORVALINE — MG</li>\n<li>COBRE QUELATO — MG</li>\n<li>ZINCO QUELATO — MG</li>\n<li>MANGANES QUELATO — MG</li>\n<li>FERRO QUELATO — MG</li>\n<li>SELENIO METIONINA — MCG</li>\n<li>COLEUS FORSKOHLII EXTRATO — MG</li>\n<li>EGCG 98% — MG</li>\n<li>THIOMUCASE — UTR</li>\n</ul><p><strong>Apresentação:</strong> 15 Cápsulas</p>",
       comoUsar: "<p>Utilize o produto <strong>conforme as instruções do fabricante ou orientação de profissional habilitado</strong>. Não altere a dose, frequência ou forma de utilização recomendada sem orientação profissional.</p>",
       advertencias: "<p>Utilize o produto de acordo com as orientações do fabricante e, quando necessário, com acompanhamento de profissional habilitado. Não exceda a recomendação de uso indicada na embalagem ou orientação recebida.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
     },
@@ -1454,7 +1454,7 @@ const produtos = [
     descricao: {
       resumo: "<p>Solução de <strong>Ácido Tricloroacético 60%</strong>, destinada ao uso profissional em procedimentos podológicos específicos que necessitam de ação química controlada.</p>",
       oQueE: "<p>O Ácido Tricloroacético 60% é uma solução de uso profissional formulada com alta concentração de ácido tricloroacético, indicada para aplicações específicas em procedimentos podológicos.</p><p>É utilizado em <strong>procedimentos podológicos específicos</strong> que necessitam de ação química controlada, conforme avaliação e indicação profissional.</p><p>É recomendado para <strong>profissionais habilitados</strong> que realizam procedimentos podológicos nos quais a utilização do ácido tricloroacético esteja devidamente indicada.</p>",
-      composicao: "<ul>\n<li>Ácido Tricloroacético — 60%</li>\n<li>Veículo — 10ml</li>\n</ul><p><strong>Apresentação:</strong> Solução 10ml — Validade 4 meses</p>",
+      composicao: "<ul>\n<li>Ácido Tricloroacético — 60%</li>\n<li>Ve��culo — 10ml</li>\n</ul><p><strong>Apresentação:</strong> Solução 10ml — Validade 4 meses</p>",
       comoUsar: "<p>Utilize o produto exclusivamente conforme as <strong>instruções do fabricante</strong> ou de acordo com a orientação de profissional habilitado. Não utilize dose, frequência ou horário diferentes daqueles recomendados para o produto.</p>",
       advertencias: "<p>Produto destinado ao <strong>uso profissional</strong>. A utilização deve ser realizada de acordo com a finalidade indicada e mediante avaliação profissional. Em caso de dúvidas sobre a utilização, procure orientação de profissional habilitado.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
     },
@@ -1510,7 +1510,7 @@ const produtos = [
       oQueE: "<p>A <strong>Boswellia Serrata</strong> é um extrato obtido de uma planta tradicionalmente utilizada na medicina e conhecida por seus componentes associados ao suporte do <strong>equilíbrio da resposta inflamatória</strong> do organismo.</p><p>Sua utilização está relacionada ao suporte à <strong>saúde e ao conforto das articulações</strong>, podendo auxiliar na manutenção da mobilidade e da flexibilidade. Também é estudada por seu potencial de contribuir para o bem-estar em situações relacionadas ao desconforto articular.</p><p>Pode ser indicada para <strong>adultos que buscam suporte para a saúde das articulações, mobilidade e conforto físico</strong>, especialmente quando houver orientação de um profissional habilitado para sua utilização.</p>",
       composicao: "<ul>\n<li>BOSWELLIA SERRATA 30% — 50MG</li>\n</ul><p><strong>Apresentação:</strong> 30 Cápsulas</p>",
       comoUsar: "<p>Utilize o produto <strong>conforme as instruções do fabricante ou orientação de profissional habilitado</strong>. Não altere a forma de uso recomendada e, em caso de dúvidas, procure orientação profissional.</p>",
-      advertencias: "<p>O uso do produto é contraindicado para pessoas com <strong>cálculo biliar, obstrução dos ductos biliares ou úlcera gastroduodenal</strong>, bem como para pessoas com hipersensibilidade à substância. Não deve ser utilizado simultaneamente com anticoagulantes sem orientação profissional.</p><p>Em caso de hipersensibilidade ao produto, recomenda-se descontinuar o uso e consultar um médico. Este produto não deve ser utilizado por mulheres grávidas ou durante o per��odo de amamentação sem orientação médica. Não deve ser utilizado por menores de 18 anos sem orientação médica.</p><p>Não use o produto com o prazo de validade vencido. Manter em temperatura ambiente (15 a 30ºC), protegido da luz, do calor e da umidade e fora do alcance das crianças. Nunca compre medicamento sem orientação de um profissional habilitado. Siga corretamente o modo de usar. Imagens meramente ilustrativas.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
+      advertencias: "<p>O uso do produto é contraindicado para pessoas com <strong>cálculo biliar, obstrução dos ductos biliares ou úlcera gastroduodenal</strong>, bem como para pessoas com hipersensibilidade à substância. Não deve ser utilizado simultaneamente com anticoagulantes sem orientação profissional.</p><p>Em caso de hipersensibilidade ao produto, recomenda-se descontinuar o uso e consultar um médico. Este produto não deve ser utilizado por mulheres grávidas ou durante o período de amamentação sem orientação médica. Não deve ser utilizado por menores de 18 anos sem orientação médica.</p><p>Não use o produto com o prazo de validade vencido. Manter em temperatura ambiente (15 a 30ºC), protegido da luz, do calor e da umidade e fora do alcance das crianças. Nunca compre medicamento sem orientação de um profissional habilitado. Siga corretamente o modo de usar. Imagens meramente ilustrativas.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
     },
     destaque: false,
     mostrarlancamento: false,
@@ -2092,7 +2092,7 @@ const produtos = [
   },
   {
     id: "93",
-    nome: "5M MAGNÉSIO - 30 Cápsulas",
+    nome: "5M MAGNÉSIO - 30 C��psulas",
     categoria: "saude",
     preco: 60.00,
     imagem: "assets/img/5m-magnesio-30-capsulas-mub0f2ia.png",
@@ -2159,6 +2159,114 @@ const produtos = [
       composicao: "<ul>\n<li>GOMA GUAR — 250MG</li>\n<li>CAFEINA — 105MG</li>\n<li>CHA VERDE EXTRATO SECO — 90MG</li>\n<li>CAPSIATE — 2MG</li>\n<li>IOIMBINA CLORIDRATO — 2MG</li>\n<li>PICOLINATO DE CROMO — 200MCG</li>\n</ul><p><strong>Apresentação:</strong> 120 Cápsulas</p>",
       comoUsar: "<p>Para resultados eficazes, recomenda-se o uso contínuo com a ingestão de <strong>4 cápsulas ao dia</strong>. Siga o passo a passo para maximizar os benefícios:</p><p><strong>Uso Diário:</strong> Tome 4 cápsulas do Termogênico Abelhinha com água, ajustando o horário de acordo com sua rotina de treinos.</p><p><strong>Caso treine no período da tarde:</strong> 2 cápsulas pela manhã e 2 cápsulas antes do treino.</p><p><strong>Caso treine no período da manhã:</strong> 2 cápsulas antes do treino e 2 cápsulas antes do café da manhã.</p><p><strong>Para treinos mais intensos:</strong> Tomar as 4 cápsulas antes do treino.</p><p><strong>Consistência:</strong> Use diariamente para garantir uma ação constante na queima de calorias, aceleração do metabolismo e melhora do desempenho físico.</p><p><strong>Acompanhe os Resultados:</strong> Com o uso contínuo, você começará a perceber melhorias na definição corporal, aumento da energia e foco durante os treinos.</p>",
       advertencias: "<p>Este produto deve ser utilizado conforme a orientação de uso indicada e não substitui uma alimentação equilibrada nem a prática de hábitos saudáveis. <strong>O uso deve considerar as necessidades individuais e a orientação de um profissional de saúde quando necessário.</strong></p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
+    },
+    destaque: false,
+    mostrarlancamento: false,
+    mostrarVideo: false,
+    textoParcelamento: "🎟️ Cupom válido no carrinho. 💳 Consulte parcelamento no checkout",
+    cupomAtivo: false,
+    cupomPorcentagem: 0,
+    cupomCodigo: "",
+    cupomValidade: "",
+    cupomMensagemTag: "",
+    cupomOcultarTag: false
+  },
+  {
+    id: "96",
+    nome: "Ação Potente Dores - 30 Cápsulas",
+    categoria: "saude",
+    preco: 100.00,
+    imagem: "assets/img/acao-potente-dores-30-capsulas-mue1cmfv.png",
+    videos: [
+      
+    ],
+    descricao: {
+      resumo: "<p>Fórmula desenvolvida para <strong>auxiliar no cuidado das articulações</strong>, contribuindo para o conforto, a mobilidade e a manutenção da saúde articular no dia a dia.</p>",
+      oQueE: "<p>Ação Potente Dores é uma fórmula composta por <strong>colágeno tipo II, Boswellia serrata, cúrcuma e ômega-3</strong>, ingredientes selecionados para oferecer suporte nutricional ao cuidado das articulações.</p><p>Sua finalidade é <strong>auxiliar na manutenção da saúde articular</strong>, contribuindo para o conforto e a mobilidade, especialmente em situações de maior desgaste ou desconforto articular.</p><p>Pode ser recomendado para pessoas que desejam <strong>cuidar da saúde das articulações</strong> e complementar sua rotina de cuidados, sempre considerando orientação de profissional habilitado quando necessário.</p>",
+      composicao: "<ul>\n<li>Colágeno Tipo II — MG</li>\n<li>Boswellia Serrata 20% — MG</li>\n<li>Cúrcuma Longa L. — MG</li>\n<li>Ômega 3 PO — MG</li>\n</ul><p><strong>Apresentação:</strong> 30 Cápsulas</p>",
+      comoUsar: "<p>Utilize o produto <strong>conforme as instruções do fabricante</strong> ou de acordo com a orientação de um profissional habilitado. Não altere a forma de utilização recomendada.</p>",
+      advertencias: "<p>Produto destinado ao uso conforme orientação do fabricante. Em caso de dúvidas sobre a utilização, procure orientação de um profissional habilitado. <strong>Não exceda a recomendação de uso indicada pelo fabricante.</strong></p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
+    },
+    destaque: false,
+    mostrarlancamento: false,
+    mostrarVideo: false,
+    textoParcelamento: "🎟️ Cupom válido no carrinho. 💳 Consulte parcelamento no checkout",
+    cupomAtivo: false,
+    cupomPorcentagem: 0,
+    cupomCodigo: "",
+    cupomValidade: "",
+    cupomMensagemTag: "",
+    cupomOcultarTag: false
+  },
+  {
+    id: "97",
+    nome: "MENTE SAUDÁVEL - 30 Cápsulas",
+    categoria: "saude",
+    preco: 50.00,
+    imagem: "assets/img/mente-saudavel-30-capsulas-mue56yc1.png",
+    videos: [
+      
+    ],
+    descricao: {
+      resumo: "<p>Fórmula desenvolvida para oferecer <strong>suporte nutricional ao funcionamento do organismo</strong>, reunindo magnésio, vitamina D, L-metilfolato e ômega-3 em uma composição complementar para a rotina de cuidados com a saúde e o bem-estar.</p>",
+      oQueE: "<p>MENTE SAUDÁVEL é uma fórmula nutricional que combina <strong>magnésio, vitamina D, L-metilfolato e ômega-3</strong>, nutrientes selecionados para complementar a alimentação e apoiar diferentes funções do organismo.</p><p>Sua finalidade é oferecer <strong>suporte nutricional ao funcionamento normal do organismo</strong>, contribuindo para a manutenção da saúde óssea e muscular, processos metabólicos e formação celular, além de fornecer nutrientes relacionados à saúde cardiovascular.</p><p>Pode ser indicada para pessoas que desejam <strong>complementar a ingestão desses nutrientes</strong> e manter uma rotina de cuidados com a saúde, equilíbrio nutricional e bem-estar, especialmente quando houver orientação profissional para sua utilização.</p>",
+      composicao: "<ul>\n<li>MAGNESIO DIMALATO — MG</li>\n<li>VIT D — UI</li>\n<li>L-METILFOLATO — MCG</li>\n<li>OMEGA 3 PO — MG</li>\n</ul><p><strong>Apresentação:</strong> 30 Cápsulas</p>",
+      comoUsar: "<p>Utilize o produto <strong>conforme as instruções do fabricante</strong> ou de acordo com a orientação de um profissional habilitado. Não altere a forma de utilização recomendada.</p>",
+      advertencias: "<p>Produto destinado ao uso conforme orientação do fabricante. Em caso de dúvidas sobre a utilização, procure orientação de um profissional habilitado. <strong>Não exceda a recomendação de uso indicada pelo fabricante.</strong></p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
+    },
+    destaque: false,
+    mostrarlancamento: false,
+    mostrarVideo: false,
+    textoParcelamento: "🎟️ Cupom válido no carrinho. 💳 Consulte parcelamento no checkout",
+    cupomAtivo: false,
+    cupomPorcentagem: 0,
+    cupomCodigo: "",
+    cupomValidade: "",
+    cupomMensagemTag: "",
+    cupomOcultarTag: false
+  },
+  {
+    id: "98",
+    nome: "ACTRISAVE 250mg - 30 Cápsulas",
+    categoria: "quedacapilar",
+    preco: 120.00,
+    imagem: "assets/img/actrisave-250mg-30-capsulas-mue5g4gm.png",
+    videos: [
+      
+    ],
+    descricao: {
+      resumo: "<p>ACTRISAVE 250mg é uma fórmula desenvolvida para <strong>auxiliar no cuidado dos cabelos</strong>, contribuindo para a redução da queda capilar, o equilíbrio da oleosidade e a manutenção da saúde do couro cabeludo.</p>",
+      oQueE: "<p>ACTRISAVE 250mg é uma fórmula composta por <strong>Actrisave</strong>, desenvolvida para atuar como suporte no cuidado capilar e na manutenção da saúde dos fios e do couro cabeludo.</p><p>Sua finalidade é <strong>auxiliar na redução da queda capilar</strong>, contribuir para o crescimento dos fios na fase anágena, favorecer a saúde do couro cabeludo e auxiliar no controle da oleosidade, além de oferecer ação antioxidante.</p><p>Pode ser indicado para pessoas que buscam suporte no <strong>cuidado com a saúde capilar</strong>, especialmente em situações relacionadas à queda dos fios e à oleosidade, mediante orientação de profissional habilitado.</p>",
+      composicao: "<ul>\n<li>ACTRISAVE — 250MG</li>\n</ul><p><strong>Apresentação:</strong> 30 Cápsulas</p>",
+      comoUsar: "<p>Tomar <strong>1 cápsula ao dia</strong> ou conforme orientação profissional.</p>",
+      advertencias: "<p>Pessoas com hipersensibilidade à substância não devem fazer uso do produto. Em caso de hipersensibilidade ao produto, recomenda-se descontinuar o uso e consultar o médico. Não use o produto com o prazo de validade vencido. Manter em temperatura ambiente (15 a 30ºC), protegido da luz, do calor e da umidade. Manter fora do alcance das crianças.</p><p>Este produto não deve ser utilizado por mulheres grávidas sem orientação médica. O uso do produto durante o período de amamentação também não é recomendado. Este produto não deve ser utilizado por menores de 18 anos sem orientação médica. Siga corretamente o modo de usar. Não desaparecendo os sintomas, procure orientação médica.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
+    },
+    destaque: false,
+    mostrarlancamento: false,
+    mostrarVideo: false,
+    textoParcelamento: "🎟️ Cupom válido no carrinho. 💳 Consulte parcelamento no checkout",
+    cupomAtivo: false,
+    cupomPorcentagem: 0,
+    cupomCodigo: "",
+    cupomValidade: "",
+    cupomMensagemTag: "",
+    cupomOcultarTag: false
+  },
+  {
+    id: "99",
+    nome: "Acelera Bronze By Nutri - 30 Cápsulas",
+    categoria: "beleza",
+    preco: 100.00,
+    imagem: "assets/img/acelera-bronze-by-nutri-30-capsulas-mue5oq8i.png",
+    videos: [
+      
+    ],
+    descricao: {
+      resumo: "<p>Fórmula desenvolvida para <strong>auxiliar no cuidado da pele</strong>, reunindo carotenoides e outros compostos com ação antioxidante para complementar a rotina de cuidados durante períodos de exposição solar.</p>",
+      oQueE: "<p>Acelera Bronze By Nutri é uma fórmula que combina <strong>carotenoides e compostos antioxidantes</strong>, como astaxantina, luteína, licopeno, betacaroteno e Polypodium leucotomos.</p><p>Sua finalidade é oferecer <strong>suporte nutricional à saúde da pele</strong>, contribuindo para a proteção antioxidante e para a manutenção da integridade da pele durante períodos de exposição ao sol.</p><p>Pode ser indicada para pessoas que desejam <strong>complementar os cuidados com a pele</strong> antes e durante períodos de exposição solar, dentro de uma rotina de cuidados adequada.</p>",
+      composicao: "<ul>\n<li>RED ORANGE COMPLEX — 50MG</li>\n<li>ASTAXANTINA — 2MG</li>\n<li>LUTEINA — 10MG</li>\n<li>LICOPENO — 5MG</li>\n<li>BETACAROTENO REVESTIDO — 5MG</li>\n<li>POLIPODIUM LEUCOTOMAS — 200MG</li>\n</ul><p><strong>Apresentação:</strong> 30 Cápsulas</p>",
+      comoUsar: "<p>Utilize o produto <strong>conforme as instruções do fabricante</strong> ou de acordo com a orientação de um profissional habilitado. Não altere a forma de utilização recomendada.</p>",
+      advertencias: "<p>Utilize o produto conforme as orientações do fabricante. Em caso de dúvidas sobre a utilização, procure orientação de um profissional habilitado. Este produto não substitui uma alimentação equilibrada nem os cuidados necessários durante a exposição solar.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
     },
     destaque: false,
     mostrarlancamento: false,
