@@ -1294,7 +1294,7 @@ const produtos = [
       oQueE: "<p>A <strong>L-Treonina</strong> é um aminoácido essencial que o organismo não produz sozinho, sendo necessário obtê-lo por meio da alimentação ou suplementação. A TREONINA-L 500mg oferece esse aminoácido em cápsulas, de forma prática e direta.</p><p>A treonina está presente na estrutura de diversas proteínas e participa da síntese de glicina e serina, compostos relacionados à produção de <strong>colágeno e elastina</strong>. Também contribui para o balanço proteico geral do organismo e para o funcionamento do sistema nervoso central.</p><p>É indicada para <strong>adultos</strong> que buscam suporte à firmeza da pele e ao equilíbrio do sistema nervoso central, incluindo veganos e vegetarianos que podem apresentar menor ingestão desse aminoácido pela alimentação. Seu uso deve seguir a orientação de um profissional habilitado.</p>",
       composicao: "<ul>\n<li>L-TREONINA — 500MG</li>\n<li>excipiente q.s.p.</li>\n</ul><p><strong>Apresentação:</strong> 60 Cápsulas</p>",
       comoUsar: "<p>Tomar <strong>1 cápsula ao dia</strong>, preferencialmente junto com uma das principais refeições ou conforme orientação de um profissional.</p>",
-      advertencias: "<p>Este produto não deve ser utilizado por gestantes, lactantes, crianças ou menores de 18 anos sem orientação médica. O uso durante a amamentação também não é recomendado. Pessoas com hipersensibilidade à substância não devem fazer uso do produto. Em caso de hipersensibilidade, descontinue o uso e consulte um médico.</p><p>Não use o produto com o prazo de validade vencido. Siga corretamente o modo de usar. Manter em temperatura ambiente (15 a 30ºC), protegido da luz, do calor e da umidade, fora do alcance das crianças. Nunca compre um produto sem orientação de um profissional habilitado. Imagens meramente ilustrativas.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
+      advertencias: "<p>Este produto não deve ser utilizado por gestantes, lactantes, crianças ou menores de 18 anos sem orientação médica. O uso durante a amamentação também não é recomendado. Pessoas com hipersensibilidade à substância não devem fazer uso do produto. Em caso de hipersensibilidade, descontinue o uso e consulte um médico.</p><p>Não use o produto com o prazo de validade vencido. Siga corretamente o modo de usar. Manter em temperatura ambiente (15 a 30ºC), protegido da luz, do calor e da umidade, fora do alcance das crianças. Nunca compre um produto sem orientação de um profissional habilitado. Imagens meramente ilustrativas.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimenta��ão, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
     },
     destaque: false,
     mostrarlancamento: false,
@@ -1454,7 +1454,7 @@ const produtos = [
     descricao: {
       resumo: "<p>Solução de <strong>Ácido Tricloroacético 60%</strong>, destinada ao uso profissional em procedimentos podológicos específicos que necessitam de ação química controlada.</p>",
       oQueE: "<p>O Ácido Tricloroacético 60% é uma solução de uso profissional formulada com alta concentração de ácido tricloroacético, indicada para aplicações específicas em procedimentos podológicos.</p><p>É utilizado em <strong>procedimentos podológicos específicos</strong> que necessitam de ação química controlada, conforme avaliação e indicação profissional.</p><p>É recomendado para <strong>profissionais habilitados</strong> que realizam procedimentos podológicos nos quais a utilização do ácido tricloroacético esteja devidamente indicada.</p>",
-      composicao: "<ul>\n<li>Ácido Tricloroacético — 60%</li>\n<li>Ve��culo — 10ml</li>\n</ul><p><strong>Apresentação:</strong> Solução 10ml — Validade 4 meses</p>",
+      composicao: "<ul>\n<li>Ácido Tricloroacético — 60%</li>\n<li>Veículo — 10ml</li>\n</ul><p><strong>Apresentação:</strong> Solução 10ml — Validade 4 meses</p>",
       comoUsar: "<p>Utilize o produto exclusivamente conforme as <strong>instruções do fabricante</strong> ou de acordo com a orientação de profissional habilitado. Não utilize dose, frequência ou horário diferentes daqueles recomendados para o produto.</p>",
       advertencias: "<p>Produto destinado ao <strong>uso profissional</strong>. A utilização deve ser realizada de acordo com a finalidade indicada e mediante avaliação profissional. Em caso de dúvidas sobre a utilização, procure orientação de profissional habilitado.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
     },
@@ -1623,7 +1623,7 @@ const produtos = [
     destaque: false,
     mostrarlancamento: false,
     mostrarVideo: false,
-    textoParcelamento: "🎟️ Cupom válido no carrinho. 💳 Consulte parcelamento no checkout",
+    textoParcelamento: "🎟️ Cupom válido no carrinho. �� Consulte parcelamento no checkout",
     cupomAtivo: false,
     cupomPorcentagem: 0,
     cupomCodigo: "",
@@ -2092,7 +2092,7 @@ const produtos = [
   },
   {
     id: "93",
-    nome: "5M MAGNÉSIO - 30 C��psulas",
+    nome: "5M MAGNÉSIO - 30 Cápsulas",
     categoria: "saude",
     preco: 60.00,
     imagem: "assets/img/5m-magnesio-30-capsulas-mub0f2ia.png",
@@ -2267,6 +2267,222 @@ const produtos = [
       composicao: "<ul>\n<li>RED ORANGE COMPLEX — 50MG</li>\n<li>ASTAXANTINA — 2MG</li>\n<li>LUTEINA — 10MG</li>\n<li>LICOPENO — 5MG</li>\n<li>BETACAROTENO REVESTIDO — 5MG</li>\n<li>POLIPODIUM LEUCOTOMAS — 200MG</li>\n</ul><p><strong>Apresentação:</strong> 30 Cápsulas</p>",
       comoUsar: "<p>Utilize o produto <strong>conforme as instruções do fabricante</strong> ou de acordo com a orientação de um profissional habilitado. Não altere a forma de utilização recomendada.</p>",
       advertencias: "<p>Utilize o produto conforme as orientações do fabricante. Em caso de dúvidas sobre a utilização, procure orientação de um profissional habilitado. Este produto não substitui uma alimentação equilibrada nem os cuidados necessários durante a exposição solar.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
+    },
+    destaque: false,
+    mostrarlancamento: false,
+    mostrarVideo: false,
+    textoParcelamento: "🎟️ Cupom válido no carrinho. 💳 Consulte parcelamento no checkout",
+    cupomAtivo: false,
+    cupomPorcentagem: 0,
+    cupomCodigo: "",
+    cupomValidade: "",
+    cupomMensagemTag: "",
+    cupomOcultarTag: false
+  },
+  {
+    id: "100",
+    nome: "Bom Sono By Nutri - 30 Cápsulas",
+    categoria: "saude",
+    preco: 90.00,
+    imagem: "assets/img/bom-sono-by-nutri-30-capsulas-mugxyxjl.png",
+    videos: [
+      
+    ],
+    descricao: {
+      resumo: "<p>O <strong>Bom Sono By Nutri</strong> é uma fórmula composta por magnésio quelato, mio-inositol e triptofano, desenvolvida para auxiliar no <strong>relaxamento e na qualidade do sono</strong>, contribuindo para uma rotina de descanso mais tranquila.</p>",
+      oQueE: "<p>O <strong>Bom Sono By Nutri</strong> é um suplemento alimentar em cápsulas que combina magnésio quelato, mio-inositol e triptofano em uma fórmula voltada ao suporte do relaxamento e do bem-estar relacionado ao sono.</p><p>Sua finalidade é <strong>auxiliar no relaxamento e na qualidade do sono</strong>, podendo contribuir para uma noite de descanso mais tranquila e para o bem-estar ao despertar.</p><p>Pode ser indicado para pessoas que buscam suporte nutricional para <strong>relaxar e manter uma rotina de sono adequada</strong>. Seu uso deve considerar as orientações do fabricante ou de um profissional habilitado.</p>",
+      composicao: "<ul>\n<li>MAGNESIO QUELATO — 250MG</li>\n<li>MIO INOSITOL — 2GR</li>\n<li>TRIPTOFANO — 50MG</li>\n</ul><p><strong>Apresentação:</strong> 30 Cápsulas</p>",
+      comoUsar: "<p>Utilize o produto conforme as <strong>instruções do fabricante</strong> ou de acordo com a orientação de um profissional habilitado. Não altere a forma de utilização recomendada.</p>",
+      advertencias: "<p>Este produto é um suplemento alimentar e deve ser utilizado de acordo com as orientações do fabricante. Em caso de dúvidas sobre o uso, procure orientação de um profissional habilitado. Os efeitos podem variar de pessoa para pessoa.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
+    },
+    destaque: false,
+    mostrarlancamento: false,
+    mostrarVideo: false,
+    textoParcelamento: "🎟️ Cupom válido no carrinho. 💳 Consulte parcelamento no checkout",
+    cupomAtivo: false,
+    cupomPorcentagem: 0,
+    cupomCodigo: "",
+    cupomValidade: "",
+    cupomMensagemTag: "",
+    cupomOcultarTag: false
+  },
+  {
+    id: "101",
+    nome: "Lipedema By Nutri - 60 Cápsulas",
+    categoria: "beleza",
+    preco: 50.00,
+    imagem: "assets/img/lipedema-by-nutri-60-capsulas-mugyfubs.png",
+    videos: [
+      
+    ],
+    descricao: {
+      resumo: "<p>O <strong>Lipedema By Nutri</strong> combina ativos de origem vegetal tradicionalmente utilizados como suporte ao <strong>funcionamento intestinal e digestivo</strong>, contribuindo para a regularidade intestinal.</p>",
+      oQueE: "<p>O <strong>Lipedema By Nutri</strong> é uma fórmula composta por aloína, cáscara sagrada, carqueja e extrato seco de dente-de-leão, reunindo componentes de uso tradicional relacionados ao funcionamento intestinal e digestivo.</p><p>Sua finalidade é oferecer <strong>suporte à regularidade intestinal</strong> e às funções digestivas, especialmente em situações de constipação ocasional, conforme orientação profissional.</p><p>Pode ser indicado para adultos que buscam suporte à <strong>regularidade intestinal e ao funcionamento digestivo</strong>. O uso deve ser realizado de acordo com a orientação do fabricante ou de um profissional habilitado.</p>",
+      composicao: "<ul>\n<li>ALOINA — 30MG</li>\n<li>CASCARA SAGRADA — 200MG</li>\n<li>CARQUEJA — 150MG</li>\n<li>DENTE DE LEAO EXTRATO SECO — 180MG</li>\n</ul><p><strong>Apresentação:</strong> 30 Cápsulas</p>",
+      comoUsar: "<p>Utilize o produto conforme as <strong>instruções do fabricante</strong> ou de acordo com a orientação de um profissional habilitado. Não altere a forma de utilização recomendada.</p>",
+      advertencias: "<p>Este produto deve ser utilizado de forma responsável e conforme as orientações do fabricante. A cáscara sagrada possui ação laxativa estimulante, portanto seu uso prolongado não é recomendado. Em caso de dúvidas sobre a utilização do produto, procure orientação de um profissional habilitado.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
+    },
+    destaque: false,
+    mostrarlancamento: false,
+    mostrarVideo: false,
+    textoParcelamento: "🎟️ Cupom válido no carrinho. 💳 Consulte parcelamento no checkout",
+    cupomAtivo: false,
+    cupomPorcentagem: 0,
+    cupomCodigo: "",
+    cupomValidade: "",
+    cupomMensagemTag: "",
+    cupomOcultarTag: false
+  },
+  {
+    id: "102",
+    nome: "FERTILIDADE FEMININA - 60 Cápsulas",
+    categoria: "saude",
+    preco: 100.00,
+    imagem: "assets/img/fertilidade-feminina-60-capsulas-mugylgc3.png",
+    videos: [
+      
+    ],
+    descricao: {
+      resumo: "<p>Fórmula nutricional desenvolvida para oferecer <strong>suporte nutricional à saúde feminina</strong>, reunindo vitaminas, minerais e nutrientes importantes para o organismo durante o planejamento da gestação.</p>",
+      oQueE: "<p><strong>Fertilidade Feminina</strong> é um suplemento alimentar em cápsulas que reúne vitaminas e minerais selecionados, incluindo ácido fólico, ferro, zinco, selênio, magnésio e vitaminas dos complexos B, C, D e E.</p><p>Sua finalidade é fornecer <strong>suporte nutricional ao organismo feminino</strong>, contribuindo para o aporte adequado de nutrientes envolvidos em diferentes funções metabólicas relacionadas à saúde e ao bem-estar.</p><p>Pode ser indicado para mulheres que buscam <strong>suporte nutricional durante o período de planejamento da gestação</strong>. A utilização deve ser orientada por profissional habilitado, especialmente durante o período de pré-concepção e gestação.</p>",
+      composicao: "<ul>\n<li>VIT E — 50UI</li>\n<li>VIT C — 50MG</li>\n<li>VIT D — 1000UI</li>\n<li>VIT B1 — 40MG</li>\n<li>VIT B2 — 46MG</li>\n<li>VIT B3 — 53MG</li>\n<li>VIT B6 — 130MG</li>\n<li>ACIDO FOLICO — 2MG</li>\n<li>VIT B12 — 1000MCG</li>\n<li>FERRO QUELATO — 25MG</li>\n<li>ZINCO — 20MG</li>\n<li>SELENIO — 55MCG</li>\n<li>MAGNESIO BISGLICINATO — 87MG</li>\n</ul><p><strong>Apresentação:</strong> 60 Cápsulas</p>",
+      comoUsar: "<p>Utilize o produto conforme as <strong>instruções do fabricante</strong> ou de acordo com a orientação de um profissional habilitado. Não altere a dose, frequência ou forma de utilização recomendada.</p>",
+      advertencias: "<p>Este produto é um suplemento alimentar e deve ser utilizado de acordo com as orientações do fabricante ou de profissional habilitado. Durante o planejamento da gestação, procure orientação profissional para avaliar a adequação da suplementação às suas necessidades nutricionais.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
+    },
+    destaque: false,
+    mostrarlancamento: false,
+    mostrarVideo: false,
+    textoParcelamento: "🎟️ Cupom válido no carrinho. 💳 Consulte parcelamento no checkout",
+    cupomAtivo: false,
+    cupomPorcentagem: 0,
+    cupomCodigo: "",
+    cupomValidade: "",
+    cupomMensagemTag: "",
+    cupomOcultarTag: false
+  },
+  {
+    id: "103",
+    nome: "POWDER LIMP - 30 Cápsulas",
+    categoria: "emagrecimento",
+    preco: 160.00,
+    imagem: "assets/img/powder-limp-30-capsulas-mugys0dc.png",
+    videos: [
+      
+    ],
+    descricao: {
+      resumo: "<p>POWDER LIMP é uma fórmula composta por ativos selecionados para complementar estratégias de <strong>controle de peso, metabolismo energético e composição corporal</strong>, associando suporte ao equilíbrio hídrico e ao metabolismo.</p>",
+      oQueE: "<p>POWDER LIMP é uma fórmula em cápsulas que reúne <strong>Powder Limp, Picolinato de Cromo, Citrus Sinensis e MITBurn</strong>, combinando ingredientes destinados a diferentes aspectos do suporte metabólico.</p><p>Sua finalidade é complementar estratégias voltadas ao <strong>metabolismo energético, equilíbrio hídrico e gerenciamento de peso</strong>, sempre associada a hábitos de vida saudáveis, como alimentação equilibrada e atividade física.</p><p>Pode ser recomendado para pessoas que buscam <strong>suporte ao metabolismo e à composição corporal</strong>, como complemento de uma rotina saudável e conforme orientação profissional.</p>",
+      composicao: "<ul>\n<li>POWDER LIMP — 500MG</li>\n<li>PICOLINATO DE CROMO — 150MCG</li>\n<li>CITRUS SINENSIS EXTRATO — 300MG</li>\n<li>MITBURN — 50MG</li>\n</ul><p><strong>Apresentação:</strong> 30 Cápsulas</p>",
+      comoUsar: "<p>Utilize o produto conforme as <strong>instruções do fabricante</strong> ou de acordo com a orientação de um profissional habilitado. Não altere a forma de utilização recomendada na embalagem ou pelo profissional responsável.</p>",
+      advertencias: "<p>Este produto deve ser utilizado conforme as orientações do fabricante. Mantenha fora do alcance de crianças e conserve de acordo com as condições indicadas na embalagem. Em caso de dúvidas sobre o uso, procure orientação de um profissional de saúde.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
+    },
+    destaque: false,
+    mostrarlancamento: false,
+    mostrarVideo: false,
+    textoParcelamento: "🎟️ Cupom válido no carrinho. 💳 Consulte parcelamento no checkout",
+    cupomAtivo: false,
+    cupomPorcentagem: 0,
+    cupomCodigo: "",
+    cupomValidade: "",
+    cupomMensagemTag: "",
+    cupomOcultarTag: false
+  },
+  {
+    id: "104",
+    nome: "BERBERINA PIC - 60 Cápsulas",
+    categoria: "emagrecimento",
+    preco: 140.00,
+    imagem: "assets/img/berberina-pic-60-capsulas-mugyzeey.png",
+    videos: [
+      
+    ],
+    descricao: {
+      resumo: "<p>BERBERINA PIC é uma fórmula que combina fibras e ativos de origem vegetal para complementar estratégias de <strong>saciedade, controle alimentar e suporte ao metabolismo</strong>, integrada a uma rotina de hábitos saudáveis.</p>",
+      oQueE: "<p>BERBERINA PIC é uma fórmula em cápsulas que reúne <strong>glucomanan, psyllium, feno-grego, garcinia cambogia, berberina e picolinato de cromo</strong>, combinando fibras e ingredientes de origem vegetal.</p><p>Sua finalidade é complementar estratégias voltadas à <strong>sensação de saciedade, controle alimentar e suporte ao metabolismo</strong>, especialmente dentro de uma rotina que inclua alimentação equilibrada e atividade física.</p><p>Pode ser indicada para pessoas que buscam <strong>suporte à saciedade, ao funcionamento intestinal e ao equilíbrio metabólico</strong>, sempre considerando orientação profissional quando necessária.</p>",
+      composicao: "<ul>\n<li>GLUCOMANAM — 500MG</li>\n<li>PSYLLIUM — 500MG</li>\n<li>FENO GREGO EXTRATO — 100MG</li>\n<li>GARCINIA CAMBOGIA EXTRATO — 300MG</li>\n<li>BERBERINA — 100MG</li>\n<li>PICOLINATO DE CROMO — 300MCG</li>\n</ul><p><strong>Apresentação:</strong> 60 Cápsulas</p>",
+      comoUsar: "<p>Utilize o produto conforme as <strong>instruções do fabricante</strong> ou de acordo com a orientação de um profissional habilitado. Não altere a forma de utilização recomendada na embalagem ou pelo profissional responsável.</p>",
+      advertencias: "<p>Este produto deve ser utilizado conforme as orientações do fabricante. Mantenha fora do alcance de crianças e conserve de acordo com as condições indicadas na embalagem. Em caso de dúvidas sobre o uso, procure orientação de um profissional de saúde.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
+    },
+    destaque: false,
+    mostrarlancamento: false,
+    mostrarVideo: false,
+    textoParcelamento: "🎟️ Cupom válido no carrinho. 💳 Consulte parcelamento no checkout",
+    cupomAtivo: false,
+    cupomPorcentagem: 0,
+    cupomCodigo: "",
+    cupomValidade: "",
+    cupomMensagemTag: "",
+    cupomOcultarTag: false
+  },
+  {
+    id: "105",
+    nome: "Infecção Urinária - 60 Cápsulas",
+    categoria: "saude",
+    preco: 60.00,
+    imagem: "assets/img/infeccao-urinaria-60-capsulas-mugz5s0m.png",
+    videos: [
+      
+    ],
+    descricao: {
+      resumo: "<p>Infecção Urinária é uma fórmula com <strong>cranberry e unha-de-gato</strong>, desenvolvida para complementar os cuidados com o bem-estar do trato urinário e a manutenção do organismo.</p>",
+      oQueE: "<p>Infecção Urinária é uma fórmula em cápsulas que reúne <strong>extrato seco de cranberry e unha-de-gato</strong>, dois ingredientes de origem vegetal selecionados para complementar uma rotina de cuidados.</p><p>Sua finalidade é oferecer <strong>suporte ao bem-estar do trato urinário</strong>, podendo o cranberry contribuir para a redução do risco de episódios recorrentes de infecção urinária em algumas mulheres. O produto não se destina ao tratamento de uma infecção urinária já instalada.</p><p>Pode ser indicado como complemento de cuidados para pessoas que buscam <strong>manutenção da saúde urinária</strong>, especialmente dentro de uma rotina de hábitos saudáveis e conforme orientação de um profissional habilitado.</p>",
+      composicao: "<ul>\n<li>CRAMBERRY EXTRATO SECO — 200MG</li>\n<li>UNHA DE GATO — 200MG</li>\n</ul><p><strong>Apresentação:</strong> 60 Cápsulas</p>",
+      comoUsar: "<p>Utilize o produto conforme as <strong>instruções do fabricante</strong> ou de acordo com a orientação de um profissional habilitado. Não altere a forma de utilização recomendada na embalagem ou pelo profissional responsável.</p>",
+      advertencias: "<p>Este produto deve ser utilizado conforme as orientações do fabricante. Não utilize como substituto de avaliação ou tratamento médico em caso de sintomas de infecção urinária. Em caso de dúvidas sobre o uso, procure orientação de um profissional de saúde.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
+    },
+    destaque: false,
+    mostrarlancamento: false,
+    mostrarVideo: false,
+    textoParcelamento: "🎟️ Cupom válido no carrinho. 💳 Consulte parcelamento no checkout",
+    cupomAtivo: false,
+    cupomPorcentagem: 0,
+    cupomCodigo: "",
+    cupomValidade: "",
+    cupomMensagemTag: "",
+    cupomOcultarTag: false
+  },
+  {
+    id: "106",
+    nome: "N ACETILCISTEINA (NAC) 500mg - 60 Cápsulas",
+    categoria: "saude",
+    preco: 50.00,
+    imagem: "assets/img/n-acetilcisteina-nac-500mg-60-capsulas-mugzfgha.png",
+    videos: [
+      
+    ],
+    descricao: {
+      resumo: "<p>A N-Acetilcisteína (NAC) 500 mg é uma fórmula desenvolvida para complementar cuidados com a <strong>proteção antioxidante e a saúde respiratória</strong>, fornecendo um precursor da glutationa.</p>",
+      oQueE: "<p>A N-Acetilcisteína (NAC) é um composto utilizado como precursor da <strong>glutationa</strong>, um importante antioxidante produzido pelo organismo. A fórmula fornece 500 mg de N-Acetilcisteína por cápsula.</p><p>Sua finalidade é complementar estratégias voltadas à <strong>defesa antioxidante e ao bem-estar respiratório</strong>. A NAC também apresenta propriedades mucolíticas, contribuindo para a fluidificação das secreções respiratórias.</p><p>Pode ser indicada para pessoas que buscam <strong>suporte antioxidante e respiratório</strong>, incluindo praticantes de atividades físicas que desejam complementar sua rotina de cuidados. Seu uso deve considerar as necessidades individuais e orientação de profissional habilitado.</p>",
+      composicao: "<ul>\n<li>N ACETIL CISTEINA — 500MG</li>\n</ul><p><strong>Apresentação:</strong> 60 Cápsulas</p>",
+      comoUsar: "<p>Tomar <strong>1 cápsula ao dia</strong>. O consumo da N-Acetilcisteína (NAC) deve ser feito em conjunto com água.</p><p>A cápsula pode ser tomada <strong>em jejum</strong> ou <strong>após o almoço</strong>, conforme a orientação fornecida.</p>",
+      advertencias: "<p>Pessoas com hipersensibilidade à substância não devem fazer uso do produto. Em caso de hipersensibilidade ao produto, recomenda-se descontinuar o uso e consultar o médico. Não use o produto com o prazo de validade vencido. Manter em temperatura ambiente (15 a 30ºC), protegido da luz, do calor e da umidade. Manter fora do alcance das crianças. Nunca compre um produto sem orientação de um profissional habilitado. Este produto não deve ser utilizado por mulheres grávidas sem orientação médica. O uso durante o período de amamentação e por menores de 18 anos deve ocorrer somente mediante orientação médica. Siga corretamente o modo de usar.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
+    },
+    destaque: false,
+    mostrarlancamento: false,
+    mostrarVideo: false,
+    textoParcelamento: "🎟️ Cupom válido no carrinho. 💳 Consulte parcelamento no checkout",
+    cupomAtivo: false,
+    cupomPorcentagem: 0,
+    cupomCodigo: "",
+    cupomValidade: "",
+    cupomMensagemTag: "",
+    cupomOcultarTag: false
+  },
+  {
+    id: "107",
+    nome: "ORLISTAT 120mg - 30 Cápsulas",
+    categoria: "emagrecimento",
+    preco: 45.00,
+    imagem: "assets/img/orlistat-120mg-30-capsulas-mugznbc4.png",
+    videos: [
+      
+    ],
+    descricao: {
+      resumo: "<p>ORLISTAT 120 mg é um medicamento utilizado como parte de estratégias de <strong>controle e redução de peso</strong>, atuando na diminuição da absorção de parte das gorduras provenientes da alimentação.</p>",
+      oQueE: "<p>ORLISTAT 120 mg é uma formulação que contém <strong>Orlistat</strong>, ativo que atua no trato gastrointestinal reduzindo a absorção de parte da gordura ingerida nas refeições.</p><p>Sua finalidade é auxiliar no <strong>controle do peso</strong> em conjunto com uma alimentação adequada e estratégias de emagrecimento, contribuindo para a redução da quantidade de gordura absorvida pelo organismo.</p><p>Pode ser indicado para pessoas que necessitam de <strong>auxílio no controle do peso</strong>, especialmente como parte de uma estratégia de emagrecimento orientada por profissional habilitado.</p>",
+      composicao: "<ul>\n<li>ORLISTAT — 120MG</li>\n</ul><p><strong>Apresentação:</strong> 30 Cápsulas</p>",
+      comoUsar: "<p>A dose indicada é de <strong>1 cápsula, 2 vezes ao dia</strong>, antes ou durante as refeições, especificamente no almoço e no jantar.</p><p>Doses superiores a <strong>360 mg por dia (3 cápsulas/dia)</strong> não apresentam eficácia superior, por isso, não estão indicadas.</p>",
+      advertencias: "<p>Utilize o produto conforme orientação de profissional habilitado e siga corretamente a forma de uso recomendada. Não utilize doses superiores às indicadas. Em caso de dúvidas sobre o tratamento ou sobre a utilização do produto, procure orientação médica.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
     },
     destaque: false,
     mostrarlancamento: false,
