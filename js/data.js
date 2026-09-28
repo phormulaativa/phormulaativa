@@ -121,7 +121,7 @@ const categorias = [
 const produtos = [
   {
     id: "18",
-    nome: "Ácido Tricloroacético 90% - Solução 10ml",
+    nome: "Ácido Tricloroacético 90% - Solução 10ml (PA2)",
     categoria: "podologia",
     preco: 47.00,
     imagem: "assets/img/AcidoTricloroacetico90emsoluçãode10mL.png",
@@ -148,7 +148,7 @@ const produtos = [
   },
   {
     id: "19",
-    nome: "Fórmula Antimicose Completa - Solução 10ml",
+    nome: "Fórmula Antimicose Completa - Solução 10ml (PA3)",
     categoria: "podologia",
     preco: 47.00,
     imagem: "assets/img/FormulaAntimicoseCompleta.png",
@@ -175,7 +175,7 @@ const produtos = [
   },
   {
     id: "21",
-    nome: "Aloe Vera Reparador - Solução 10ml",
+    nome: "Aloe Vera Reparador - Solução 10ml (PA5)",
     categoria: "podologia",
     preco: 57.00,
     imagem: "assets/img/AloeVeraReparador.png",
@@ -202,7 +202,7 @@ const produtos = [
   },
   {
     id: "22",
-    nome: "Ácido Salicílico 40% - Creme 30g",
+    nome: "Ácido Salicílico 40% - Creme 30g (PA1)",
     categoria: "podologia",
     preco: 37.00,
     imagem: "assets/img/acidosalicilico40.png",
@@ -229,7 +229,7 @@ const produtos = [
   },
   {
     id: "23",
-    nome: "Anestésico Tópico - Creme 20g",
+    nome: "Anestésico Tópico - Creme 20g (PA6)",
     categoria: "podologia",
     preco: 57.00,
     imagem: "assets/img/AnestesicoTopico.png",
@@ -256,7 +256,7 @@ const produtos = [
   },
   {
     id: "24",
-    nome: "Base Fortalecedora - Solução 10ml",
+    nome: "Base Fortalecedora - Solução 10ml (PA7)",
     categoria: "podologia",
     preco: 47.00,
     imagem: "assets/img/BaseFortalecedora.png",
@@ -283,7 +283,7 @@ const produtos = [
   },
   {
     id: "25",
-    nome: "Fluconazol + Terbinafina - Solução 10ml",
+    nome: "Fluconazol + Terbinafina - Solução 10ml (PA10)",
     categoria: "podologia",
     preco: 27.00,
     imagem: "assets/img/FluconazolTerbinafina.png",
@@ -310,7 +310,7 @@ const produtos = [
   },
   {
     id: "26",
-    nome: "Fluconazol + Trivalin - Solução 10ml",
+    nome: "Fluconazol + Trivalin - Solução 10ml (PA11)",
     categoria: "podologia",
     preco: 27.00,
     imagem: "assets/img/FluconazolTrivalin.png",
@@ -337,7 +337,7 @@ const produtos = [
   },
   {
     id: "27",
-    nome: "Mix Miconazol + Fluconazol - Solução 30ml",
+    nome: "Mix Miconazol + Fluconazol - Solução 30ml (PA13)",
     categoria: "podologia",
     preco: 37.00,
     imagem: "assets/img/MixMiconazolFluconazol.png",
@@ -364,7 +364,7 @@ const produtos = [
   },
   {
     id: "29",
-    nome: "Gel Terbinafina 5% - Gel 20gr",
+    nome: "Gel Terbinafina 5% - Gel 20gr (PA12)",
     categoria: "podologia",
     preco: 37.00,
     imagem: "assets/img/GelTerbinafina.png",
@@ -391,7 +391,7 @@ const produtos = [
   },
   {
     id: "30",
-    nome: "Caneta para Micose - Solução 10ml - Exclusividade Phormula Ativa",
+    nome: "Caneta para Micose - Solução 10ml - Exclusividade Phormula Ativa (PA8)",
     categoria: "podologia",
     preco: 47.00,
     imagem: "assets/img/CanetaparaMicose10ml.png",
@@ -418,7 +418,7 @@ const produtos = [
   },
   {
     id: "31",
-    nome: "Fórmula Terbinafina 5% - Solução 10ml",
+    nome: "Fórmula Terbinafina 5% - Solução 10ml (PA14)",
     categoria: "podologia",
     preco: 37.00,
     imagem: "assets/img/FormulaTerbinafina5.png",
@@ -427,7 +427,7 @@ const produtos = [
     ],
     descricao: {
       resumo: "<p>A Fórmula Terbinafina 5% é uma solução desenvolvida para <strong>auxiliar no tratamento de micoses resistentes</strong>, reunindo diferentes componentes em uma formulação de uso tópico.</p>",
-      oQueE: "<p>A <strong>Fórmula Terbinafina 5%</strong> é uma solução de uso tópico formulada com fluconazol, óleo de melaleuca, óleo de girassol ozonizado e terbinafina cloridrato.</p><p>Sua finalidade é <strong>auxiliar no tratamento de micoses resistentes</strong>, oferecendo uma formulação destinada ao cuidado tópico relacionado à presença de fungos.</p><p>Pode ser indicada para pessoas que necessitam de um produto de uso tópico destinado ao <strong>cuidado antifúngico</strong>, especialmente conforme avaliação e orientação de um profissional habilitado.</p>",
+      oQueE: "<p>A <strong>F��rmula Terbinafina 5%</strong> é uma solução de uso tópico formulada com fluconazol, óleo de melaleuca, óleo de girassol ozonizado e terbinafina cloridrato.</p><p>Sua finalidade é <strong>auxiliar no tratamento de micoses resistentes</strong>, oferecendo uma formulação destinada ao cuidado tópico relacionado à presença de fungos.</p><p>Pode ser indicada para pessoas que necessitam de um produto de uso tópico destinado ao <strong>cuidado antifúngico</strong>, especialmente conforme avaliação e orientação de um profissional habilitado.</p>",
       composicao: "<ul>\n<li>FLUCONAZOL — 0.2%</li>\n<li>OLEO DE MELALEUCA — 4%</li>\n<li>OLEO DE GIRASSOL OZONIZADO — 2%</li>\n<li>TERBINAFINA CLORIDRATO — 5%</li>\n<li>VEICULO — 10ML</li>\n</ul><p><strong>Apresentação:</strong> Solução 10ml - Validade 4 meses</p>",
       comoUsar: "<p>Utilize o produto conforme as <strong>instruções do fabricante</strong> ou de acordo com a orientação de um profissional habilitado. Não altere a forma de utilização recomendada sem orientação profissional.</p>",
       advertencias: "<p>Utilize o produto somente conforme as orientações fornecidas pelo fabricante. Em caso de dúvidas sobre a utilização, procure orientação de um profissional habilitado. Mantenha o produto em condições adequadas de armazenamento e fora do alcance de crianças.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
@@ -445,7 +445,7 @@ const produtos = [
   },
   {
     id: "32",
-    nome: "Timol Antifúngico - Solução 10ml",
+    nome: "Timol Antifúngico - Solução 10ml (PA15)",
     categoria: "podologia",
     preco: 57.00,
     imagem: "assets/img/TimolAntifungico10ml.png",
@@ -472,7 +472,7 @@ const produtos = [
   },
   {
     id: "33",
-    nome: "Ungueal Ciclopirox - Solução 10ml",
+    nome: "Ungueal Ciclopirox - Solução 10ml (PA16)",
     categoria: "podologia",
     preco: 37.00,
     imagem: "assets/img/UnguealCiclopirox10ml.png",
@@ -499,7 +499,7 @@ const produtos = [
   },
   {
     id: "34",
-    nome: "Ungueal Nistatina - Solução 10ml",
+    nome: "Ungueal Nistatina - Solução 10ml (PA17)",
     categoria: "podologia",
     preco: 37.00,
     imagem: "assets/img/UnguealNistatina10ml.png",
@@ -526,7 +526,7 @@ const produtos = [
   },
   {
     id: "35",
-    nome: "Ungueal Terbinafina - Solução 10ml",
+    nome: "Ungueal Terbinafina - Solução 10ml (PA18)",
     categoria: "podologia",
     preco: 37.00,
     imagem: "assets/img/UnguealTerbinafina10ml.png",
@@ -553,7 +553,7 @@ const produtos = [
   },
   {
     id: "36",
-    nome: "Azul de Metileno 1% - Solução 30ml",
+    nome: "Azul de Metileno 1% - Solução 30ml (PA19)",
     categoria: "podologia",
     preco: 67.00,
     imagem: "assets/img/azul-de-metileno-1-solucao-30ml.png",
@@ -580,7 +580,7 @@ const produtos = [
   },
   {
     id: "37",
-    nome: "Ungueal DMSO - Solução 30ml",
+    nome: "Ungueal DMSO - Solução 30ml (PA20)",
     categoria: "podologia",
     preco: 57.00,
     imagem: "assets/img/ungueal-dmso-solucao-30ml.png",
@@ -607,7 +607,7 @@ const produtos = [
   },
   {
     id: "38",
-    nome: "Terbinafina 5% - Solução 10ml",
+    nome: "Terbinafina 5% - Solução 10ml (PA21)",
     categoria: "podologia",
     preco: 27.00,
     imagem: "assets/img/terbinafina-5-solucao-10ml.png",
@@ -634,7 +634,7 @@ const produtos = [
   },
   {
     id: "39",
-    nome: "Ureia 10% + Ácido Salicílico 40% - Creme 30g",
+    nome: "Ureia 10% + Ácido Salicílico 40% - Creme 30g (PA22)",
     categoria: "podologia",
     preco: 47.00,
     imagem: "assets/img/ureia-10-acido-salicilico-40-creme-30g.png",
@@ -661,7 +661,7 @@ const produtos = [
   },
   {
     id: "40",
-    nome: "Terbinafina Aprimorada - Solução 10ml",
+    nome: "Terbinafina Aprimorada - Solução 10ml (PA23)",
     categoria: "podologia",
     preco: 32.00,
     imagem: "assets/img/terbinafina-aprimorada-solucao-10ml.png",
@@ -688,7 +688,7 @@ const produtos = [
   },
   {
     id: "41",
-    nome: "Terbinafina Aprimorara Ozonizada - Solução 10ml",
+    nome: "Terbinafina Aprimorara Ozonizada - Solução 10ml (PA24)",
     categoria: "podologia",
     preco: 32.00,
     imagem: "assets/img/terbinafina-aprimorara-ozonizada-solucao-10ml.png",
@@ -715,7 +715,7 @@ const produtos = [
   },
   {
     id: "42",
-    nome: "TRICHOPHYTON - Solução 10ml",
+    nome: "TRICHOPHYTON - Solução 10ml (PA25)",
     categoria: "podologia",
     preco: 27.00,
     imagem: "assets/img/trichophyton-solucao-10ml.png",
@@ -742,7 +742,7 @@ const produtos = [
   },
   {
     id: "43",
-    nome: "FUSARIUM - Solução 10ml",
+    nome: "FUSARIUM - Solução 10ml (PA26)",
     categoria: "podologia",
     preco: 157.00,
     imagem: "assets/img/fusarium-solucao-10ml.png",
@@ -769,7 +769,7 @@ const produtos = [
   },
   {
     id: "44",
-    nome: "ASPERGILLUS - Solução 10ml",
+    nome: "ASPERGILLUS - Solução 10ml (PA27)",
     categoria: "podologia",
     preco: 27.00,
     imagem: "assets/img/aspergillus-solucao-10ml.png",
@@ -796,7 +796,7 @@ const produtos = [
   },
   {
     id: "45",
-    nome: "Ciclopirox - Solução 20ml",
+    nome: "Ciclopirox - Solução 20ml (PA9)",
     categoria: "podologia",
     preco: 37.00,
     imagem: "assets/img/ciclopirox-solucao-20ml.png",
@@ -1372,7 +1372,7 @@ const produtos = [
     ],
     descricao: {
       resumo: "<p>Suplemento alimentar à base de <strong>arroz vermelho fermentado</strong>, fonte de compostos bioativos tradicionalmente estudados por sua relação com o metabolismo lipídico, especialmente como complemento de uma alimentação equilibrada e de hábitos de vida saudáveis.</p>",
-      oQueE: "<p>O <strong>Red Yeast Rice</strong> é um suplemento alimentar elaborado a partir do arroz vermelho fermentado, processo que pode resultar na formação de diferentes compostos bioativos, incluindo monacolinas. É um ingrediente tradicionalmente utilizado e estudado por sua relação com o metabolismo das gorduras.</p><p>Sua finalidade est�� relacionada ao <strong>suporte ao metabolismo lipídico</strong>, fornecendo compostos provenientes do processo de fermentação do arroz. Os componentes presentes no arroz vermelho fermentado são estudados principalmente em relação ao metabolismo do colesterol, dentro de uma abordagem que também considera alimentação equilibrada e hábitos de vida saudáveis.</p><p>É destinado a adultos que buscam <strong>suporte nutricional para o metabolismo lipídico</strong> e desejam complementar sua rotina com um ingrediente de origem fermentada. A utilização deve considerar as características individuais e, especialmente quando houver uso de medicamentos ou acompanhamento por alterações metabólicas, contar com orientação de um profissional de saúde.</p>",
+      oQueE: "<p>O <strong>Red Yeast Rice</strong> é um suplemento alimentar elaborado a partir do arroz vermelho fermentado, processo que pode resultar na formação de diferentes compostos bioativos, incluindo monacolinas. É um ingrediente tradicionalmente utilizado e estudado por sua relação com o metabolismo das gorduras.</p><p>Sua finalidade está relacionada ao <strong>suporte ao metabolismo lipídico</strong>, fornecendo compostos provenientes do processo de fermentação do arroz. Os componentes presentes no arroz vermelho fermentado são estudados principalmente em relação ao metabolismo do colesterol, dentro de uma abordagem que também considera alimentação equilibrada e hábitos de vida saudáveis.</p><p>É destinado a adultos que buscam <strong>suporte nutricional para o metabolismo lipídico</strong> e desejam complementar sua rotina com um ingrediente de origem fermentada. A utilização deve considerar as características individuais e, especialmente quando houver uso de medicamentos ou acompanhamento por alterações metabólicas, contar com orientação de um profissional de saúde.</p>",
       composicao: "<ul>\n<li>RED YEAST RICE — 300MG</li>\n</ul><p><strong>Apresentação:</strong> 60 Cápsulas</p>",
       comoUsar: "<p>Utilize o produto <strong>conforme as instruções do fabricante</strong> ou de acordo com a orientação de médico, nutricionista ou outro profissional de saúde habilitado. Não altere a forma de utilização recomendada sem orientação profissional.</p>",
       advertencias: "<p>Este produto deve ser utilizado de acordo com as orientações do fabricante. <strong>Não exceda a recomendação de uso</strong> indicada na embalagem ou por profissional de saúde.</p><p>O arroz vermelho fermentado pode conter monacolinas, cuja quantidade pode variar de acordo com a matéria-prima e o processo de fabricação. Pessoas que utilizam medicamentos ou possuem condições específicas de saúde devem consultar um profissional de saúde antes de utilizar o produto.</p><p>O suplemento não deve ser utilizado para substituir medicamentos, tratamentos prescritos ou uma alimentação equilibrada. Mantenha fora do alcance de crianças e conserve o produto de acordo com as orientações de armazenamento do fabricante.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
@@ -1417,7 +1417,7 @@ const produtos = [
   },
   {
     id: "69",
-    nome: "Ácido Tricloroacético 60% - Solução 10ml",
+    nome: "Ácido Tricloroacético 60% - Solução 10ml (PA28)",
     categoria: "podologia",
     preco: 47.00,
     imagem: "assets/img/acido-tricloroacetico-60-solucao-10ml.png",
@@ -1480,7 +1480,7 @@ const produtos = [
     ],
     descricao: {
       resumo: "<p><strong>Boswellia Serrata</strong> é uma fórmula desenvolvida para oferecer suporte ao <strong>conforto e à saúde das articulações</strong>, com foco no bem-estar e na manutenção da mobilidade.</p>",
-      oQueE: "<p>A <strong>Boswellia Serrata</strong> é um extrato obtido de uma planta tradicionalmente utilizada na medicina e conhecida por seus componentes associados ao suporte do <strong>equilíbrio da resposta inflamatória</strong> do organismo.</p><p>Sua utilização está relacionada ao suporte à <strong>saúde e ao conforto das articulações</strong>, podendo auxiliar na manutenção da mobilidade e da flexibilidade. Também �� estudada por seu potencial de contribuir para o bem-estar em situações relacionadas ao desconforto articular.</p><p>Pode ser indicada para <strong>adultos que buscam suporte para a saúde das articulações, mobilidade e conforto físico</strong>, especialmente quando houver orientação de um profissional habilitado para sua utilização.</p>",
+      oQueE: "<p>A <strong>Boswellia Serrata</strong> é um extrato obtido de uma planta tradicionalmente utilizada na medicina e conhecida por seus componentes associados ao suporte do <strong>equilíbrio da resposta inflamatória</strong> do organismo.</p><p>Sua utilização está relacionada ao suporte à <strong>saúde e ao conforto das articulações</strong>, podendo auxiliar na manutenção da mobilidade e da flexibilidade. Também é estudada por seu potencial de contribuir para o bem-estar em situações relacionadas ao desconforto articular.</p><p>Pode ser indicada para <strong>adultos que buscam suporte para a saúde das articulações, mobilidade e conforto físico</strong>, especialmente quando houver orientação de um profissional habilitado para sua utilização.</p>",
       composicao: "<ul>\n<li>BOSWELLIA SERRATA 30% — 50MG</li>\n</ul><p><strong>Apresentação:</strong> 30 Cápsulas</p>",
       comoUsar: "<p>Utilize o produto <strong>conforme as instruções do fabricante ou orientação de profissional habilitado</strong>. Não altere a forma de uso recomendada e, em caso de dúvidas, procure orientação profissional.</p>",
       advertencias: "<p>O uso do produto é contraindicado para pessoas com <strong>cálculo biliar, obstrução dos ductos biliares ou úlcera gastroduodenal</strong>, bem como para pessoas com hipersensibilidade à substância. Não deve ser utilizado simultaneamente com anticoagulantes sem orientação profissional.</p><p>Em caso de hipersensibilidade ao produto, recomenda-se descontinuar o uso e consultar um médico. Este produto não deve ser utilizado por mulheres grávidas ou durante o período de amamentação sem orientação médica. Não deve ser utilizado por menores de 18 anos sem orientação médica.</p><p>Não use o produto com o prazo de validade vencido. Manter em temperatura ambiente (15 a 30ºC), protegido da luz, do calor e da umidade e fora do alcance das crianças. Nunca compre medicamento sem orientação de um profissional habilitado. Siga corretamente o modo de usar. Imagens meramente ilustrativas.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
@@ -1542,7 +1542,7 @@ const produtos = [
     destaque: false,
     mostrarlancamento: false,
     mostrarVideo: false,
-    textoParcelamento: "🎟�� Cupom válido no carrinho. 💳 Consulte parcelamento no checkout",
+    textoParcelamento: "🎟️ Cupom válido no carrinho. 💳 Consulte parcelamento no checkout",
     cupomAtivo: false,
     cupomPorcentagem: 0,
     cupomCodigo: "",
@@ -1645,7 +1645,7 @@ const produtos = [
       oQueE: "<p>O <strong>RHODIOLA ANSILESS</strong> é uma fórmula em cápsulas que combina Rhodiola Rosea e Ansiless, dois ativos com propostas complementares voltadas ao suporte ao equilíbrio emocional e à resposta do organismo ao estresse.</p><p>Sua composição foi desenvolvida para auxiliar na <strong>adaptação ao estresse</strong>, no equilíbrio emocional e no bem-estar mental, podendo também oferecer suporte à disposição, concentração e resistência à fadiga relacionada ao estresse.</p><p>É uma opção para pessoas que enfrentam <strong>rotinas intensas, estresse ou cansaço mental</strong> e buscam complementar os cuidados relacionados ao equilíbrio emocional e ao bem-estar, sempre considerando a orientação de profissional habilitado.</p>",
       composicao: "<ul>\n<li>RHODIOLA ROSEA — 300MG</li>\n<li>ANSILESS — 100MG</li>\n</ul><p><strong>Apresentação:</strong> 30 Cápsulas</p>",
       comoUsar: "<p>Utilizar conforme as <strong>instruções do fabricante ou orientação de profissional habilitado</strong>, respeitando a dose, a frequência e a indicação recomendadas. Não utilizar posologia diferente da orientada.</p>",
-      advertencias: "<p>Pessoas com hipersensibilidade a qualquer componente da f��rmula não devem fazer uso do produto. Em caso de hipersensibilidade ao produto, recomenda-se descontinuar o uso e consultar um profissional de saúde. Não use o produto com o prazo de validade vencido. Manter em temperatura ambiente, protegido da luz, do calor e da umidade, e fora do alcance das crianças.</p><p>Mulheres grávidas, pessoas em período de amamentação e menores de 18 anos devem utilizar o produto somente mediante orientação de profissional habilitado. Siga corretamente as orientações de uso. Não desaparecendo os sintomas, procure orientação médica.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
+      advertencias: "<p>Pessoas com hipersensibilidade a qualquer componente da fórmula não devem fazer uso do produto. Em caso de hipersensibilidade ao produto, recomenda-se descontinuar o uso e consultar um profissional de saúde. Não use o produto com o prazo de validade vencido. Manter em temperatura ambiente, protegido da luz, do calor e da umidade, e fora do alcance das crianças.</p><p>Mulheres grávidas, pessoas em período de amamentação e menores de 18 anos devem utilizar o produto somente mediante orientação de profissional habilitado. Siga corretamente as orientações de uso. Não desaparecendo os sintomas, procure orientação médica.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
     },
     destaque: false,
     mostrarlancamento: false,
@@ -1726,7 +1726,7 @@ const produtos = [
       oQueE: "<p>A <strong>Própolis 500mg</strong> é um suplemento em cápsulas à base de extrato de própolis verde, uma substância resinosa produzida pelas abelhas a partir de materiais vegetais.</p><p>O produto fornece <strong>500mg de extrato de própolis verde</strong> e é utilizado como suporte antioxidante e ao funcionamento adequado do sistema imunológico, além de contribuir para a manutenção do bem-estar geral.</p><p>Pode ser indicada para adultos que buscam complementar a rotina de cuidados com a saúde e o aporte de compostos presentes na própolis, especialmente aqueles interessados em <strong>suporte antioxidante e imunológico</strong>. A utilização deve considerar a orientação de um profissional de saúde quando necessário.</p>",
       composicao: "<ul>\n<li>PROPOLIS VERDE EXTRATO — 500MG</li>\n</ul><p><strong>Apresentação:</strong> 60 Cápsulas</p>",
       comoUsar: "<p>Tomar <strong>1 ou 2 cápsulas ao dia</strong> ou conforme a orientação profissional.</p>",
-      advertencias: "<p>Pessoas com hipersensibilidade à substância não devem fazer uso do produto. Em caso de hipersensibilidade, recomenda-se descontinuar o uso e consultar o médico.</p><p>Não utilizar com o prazo de validade vencido. Manter em temperatura ambiente (15 a 30ºC), protegido da luz, do calor e da umidade e fora do alcance das crianças. Este produto não deve ser utilizado por mulheres grávidas sem orientação médica. O uso durante o período de amamentação não é recomendado. Este produto não deve ser utilizado por menores de 18 anos sem orientação médica.</p><p>Siga corretamente o modo de usar. Nunca compre medicamento sem orientação de um profissional habilitado. Imagens meramente ilustrativas.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. N��o garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
+      advertencias: "<p>Pessoas com hipersensibilidade à substância não devem fazer uso do produto. Em caso de hipersensibilidade, recomenda-se descontinuar o uso e consultar o médico.</p><p>Não utilizar com o prazo de validade vencido. Manter em temperatura ambiente (15 a 30ºC), protegido da luz, do calor e da umidade e fora do alcance das crianças. Este produto não deve ser utilizado por mulheres grávidas sem orientação médica. O uso durante o período de amamentação não é recomendado. Este produto não deve ser utilizado por menores de 18 anos sem orientação médica.</p><p>Siga corretamente o modo de usar. Nunca compre medicamento sem orientação de um profissional habilitado. Imagens meramente ilustrativas.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
     },
     destaque: false,
     mostrarlancamento: false,
@@ -2019,7 +2019,7 @@ const produtos = [
       
     ],
     descricao: {
-      resumo: "<p><strong>Pill Food Turbinado</strong> é um suplemento com vitaminas, proteínas e aminoácidos, desenvolvido para complementar a rotina de cuidados com <strong>cabelos, pele e unhas</strong>, contribuindo para seu fortalecimento e aparência saudável.</p>",
+      resumo: "<p><strong>Pill Food Turbinado</strong> é um suplemento com vitaminas, proteínas e aminoácidos, desenvolvido para complementar a rotina de cuidados com <strong>cabelos, pele e unhas</strong>, contribuindo para seu fortalecimento e apar��ncia saudável.</p>",
       oQueE: "<p>O <strong>Pill Food Turbinado</strong> é um composto formulado com vitaminas, proteínas e aminoácidos essenciais, desenvolvido para complementar os cuidados diários com cabelos, unhas e pele.</p><p>Seu uso contínuo colabora para o <strong>fortalecimento dos fios</strong>, melhora da aparência da pele e maior resistência das unhas. A fórmula conta ainda com <strong>Silício</strong> e <strong>MSM</strong>, componentes presentes na composição do produto.</p><p>É indicado para <strong>homens e mulheres</strong> que desejam cuidar dos cabelos, pele e unhas, especialmente em períodos de estresse, dietas restritivas, uso frequente de químicas nos cabelos, alterações hormonais ou após períodos de queda capilar temporária. Pessoas veganas devem consultar um profissional antes do uso, pois a fórmula contém colágeno hidrolisado, geralmente de origem animal.</p>",
       composicao: "<ul>\n<li>Metionina — MG</li>\n<li>Cisteína — MG</li>\n<li>Cistina-L — MG</li>\n<li>Pantotenato de Cálcio — MG</li>\n<li>Complexo B — MG</li>\n<li>Vitamina E Pó — MG</li>\n<li>Selênio Quelato — MG</li>\n<li>Ácido Aminobenzoico — MG</li>\n<li>Queratina Pó — MG</li>\n<li>Biotina — MG</li>\n<li>Silício Quelato — MG</li>\n</ul><p><strong>Apresentação:</strong> 90 Cápsulas</p>",
       comoUsar: "<p>Tomar <strong>1 cápsula duas vezes ao dia</strong>, preferencialmente antes do almoço e do jantar.</p>",
@@ -2482,7 +2482,7 @@ const produtos = [
       oQueE: "<p>A N-Acetilcisteína (NAC) é um composto utilizado como precursor da <strong>glutationa</strong>, um importante antioxidante produzido pelo organismo. A fórmula fornece 600 mg de N-Acetilcisteína por cápsula.</p><p>Sua finalidade é complementar estratégias voltadas à <strong>defesa antioxidante e ao bem-estar respiratório</strong>. A NAC também apresenta propriedades mucolíticas, contribuindo para a fluidificação das secreções respiratórias.</p><p>Pode ser indicada para pessoas que buscam <strong>suporte antioxidante e respiratório</strong>, incluindo praticantes de atividades físicas que desejam complementar sua rotina de cuidados. Seu uso deve considerar as necessidades individuais e orientação de profissional habilitado.</p>",
       composicao: "<ul>\n<li>N ACETIL CISTEINA — 600MG</li>\n</ul><p><strong>Apresentação:</strong> 60 Cápsulas</p>",
       comoUsar: "<p>Tomar <strong>1 cápsula ao dia</strong>. O consumo da N-Acetilcisteína (NAC) deve ser feito em conjunto com água.</p><p>A cápsula pode ser tomada <strong>em jejum</strong> ou <strong>após o almoço</strong>, conforme a orientação fornecida.</p>",
-      advertencias: "<p>Pessoas com hipersensibilidade à substância n��o devem fazer uso do produto. Em caso de hipersensibilidade ao produto, recomenda-se descontinuar o uso e consultar o médico. Não use o produto com o prazo de validade vencido. Manter em temperatura ambiente (15 a 30ºC), protegido da luz, do calor e da umidade. Manter fora do alcance das crianças. Nunca compre um produto sem orientação de um profissional habilitado. Este produto não deve ser utilizado por mulheres grávidas sem orientação médica. O uso durante o período de amamentação e por menores de 18 anos deve ocorrer somente mediante orientação médica. Siga corretamente o modo de usar.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
+      advertencias: "<p>Pessoas com hipersensibilidade à substância não devem fazer uso do produto. Em caso de hipersensibilidade ao produto, recomenda-se descontinuar o uso e consultar o médico. Não use o produto com o prazo de validade vencido. Manter em temperatura ambiente (15 a 30ºC), protegido da luz, do calor e da umidade. Manter fora do alcance das crianças. Nunca compre um produto sem orientação de um profissional habilitado. Este produto não deve ser utilizado por mulheres grávidas sem orientação médica. O uso durante o período de amamentação e por menores de 18 anos deve ocorrer somente mediante orientação médica. Siga corretamente o modo de usar.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
     },
     destaque: true,
     mostrarlancamento: false,
@@ -2532,7 +2532,7 @@ const produtos = [
       
     ],
     descricao: {
-      resumo: "<p>A <strong>Metilcobalamina 1000mcg Sublingual</strong> é uma fórmula de vitamina B12 desenvolvida para complementar a ingestão desse nutriente, contribuindo para funções importantes do organismo, como o metabolismo energético e o funcionamento do sistema nervoso.</p>",
+      resumo: "<p>A <strong>Metilcobalamina 1000mcg Sublingual</strong> é uma f��rmula de vitamina B12 desenvolvida para complementar a ingestão desse nutriente, contribuindo para funções importantes do organismo, como o metabolismo energético e o funcionamento do sistema nervoso.</p>",
       oQueE: "<p>A Metilcobalamina 1000mcg é uma fórmula de <strong>vitamina B12 na forma de metilcobalamina</strong>, apresentada em cápsulas sublinguais e desenvolvida para complementar a ingestão desse nutriente na rotina.</p><p>A vitamina B12 contribui para o <strong>metabolismo energético</strong>, o funcionamento normal do sistema nervoso e a formação das células vermelhas do sangue. Também participa do metabolismo de proteínas e carboidratos.</p><p>É indicada para pessoas que necessitam complementar a ingestão de <strong>vitamina B12</strong>, especialmente quando houver orientação profissional para suplementação desse nutriente.</p>",
       composicao: "<ul>\n<li>METILCOBALAMINA — 1000MCG</li>\n<li>SUBLINGUAL TAPIOCA CAPS — MG</li>\n</ul><p><strong>Apresentação:</strong> 30 Cápsulas Sublingual</p>",
       comoUsar: "<p>Utilizar conforme as <strong>instruções do fabricante</strong> ou de acordo com a orientação de profissional habilitado. Não altere a forma de uso recomendada sem orientação profissional.</p>",
