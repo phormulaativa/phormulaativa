@@ -916,7 +916,7 @@ const produtos = [
       oQueE: "<p>Akkermat® 150mg é um fitocomplexo de capsaicinoides, composto por capsaicina, dihidrocapsaicina e nordihidrocapsaicina, extraído dos frutos de <em>Capsicum frutescens</em> e microencapsulado com tecnologia patenteada para melhorar sua biodisponibilidade e diminuir os efeitos gastrointestinais.</p><p>O produto é utilizado como auxiliar no <strong>gerenciamento do peso</strong>, contribuindo para a redução do apetite e para o aumento da sensação de saciedade. Também apresenta ação termogênica e propriedades relacionadas ao suporte do metabolismo e do perfil lipídico.</p><p>É indicado para adultos que buscam <strong>auxílio no controle do apetite e no gerenciamento do peso</strong>, associado a hábitos alimentares equilibrados e à prática de atividades físicas. Seu uso deve respeitar as orientações de utilização e as recomendações de um profissional habilitado.</p>",
       composicao: "<ul>\n<li>AKKERMAT — 150MG</li>\n<li>Excipiente q.s.p 1 cápsula</li>\n</ul><p><strong>Apresentação:</strong> 30 Cápsulas</p>",
       comoUsar: "<p>Tomar <strong>1 cápsula ao dia</strong>, após uma refeição.</p>",
-      advertencias: "<p>Não deve ser utilizado por pacientes que apresentam doenças intestinais, úlcera gástrica, cistite crônica e de repetição, hemorroida ou alergia à pimenta. Pessoas com hipersensibilidade à substância não devem fazer uso do produto. Em caso de hipersensibilidade, recomenda-se descontinuar o uso e consultar o médico.</p><p>Não utilize o produto com o prazo de validade vencido. Manter em temperatura ambiente, entre 15 e 30ºC, protegido da luz, do calor e da umidade e fora do alcance das crianças. Mulheres grávidas não devem utilizar o produto sem orientação médica. O uso durante o período de amamentação não é recomendado. Este produto não deve ser utilizado por menores de 18 anos sem orientação médica.</p><p>Siga corretamente o modo de usar e, caso os sintomas não desapareçam, procure orientação médica. Nunca compre ou utilize o produto sem orientação de um profissional habilitado. Imagens meramente ilustrativas.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
+      advertencias: "<p>Não deve ser utilizado por pacientes que apresentam doenças intestinais, úlcera gástrica, cistite crônica e de repetição, hemorroida ou alergia à pimenta. Pessoas com hipersensibilidade à substância não devem fazer uso do produto. Em caso de hipersensibilidade, recomenda-se descontinuar o uso e consultar o médico.</p><p>Não utilize o produto com o prazo de validade vencido. Manter em temperatura ambiente, entre 15 e 30ºC, protegido da luz, do calor e da umidade e fora do alcance das crianças. Mulheres grávidas não devem utilizar o produto sem orientação médica. O uso durante o período de amamentação não é recomendado. Este produto não deve ser utilizado por menores de 18 anos sem orientação m��dica.</p><p>Siga corretamente o modo de usar e, caso os sintomas não desapareçam, procure orientação médica. Nunca compre ou utilize o produto sem orientação de um profissional habilitado. Imagens meramente ilustrativas.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
     },
     destaque: true,
     mostrarlancamento: false,
@@ -1053,7 +1053,7 @@ const produtos = [
       comoUsar: "<p>Utilize o produto conforme as <strong>instruções do fabricante</strong> ou de acordo com a orientação de um profissional de saúde. Não altere a forma de utilização recomendada na embalagem ou na prescrição profissional.</p>",
       advertencias: "<p>Utilize este produto de acordo com as orientações do fabricante. Em caso de dúvidas sobre a utilização, procure orientação de um profissional de saúde. Mantenha o produto fora do alcance de crianças e conserve-o conforme as condições indicadas pelo fabricante.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
     },
-    destaque: true,
+    destaque: false,
     mostrarlancamento: false,
     mostrarVideo: false,
     textoParcelamento: "🎟️ Cupom válido no carrinho. 💳 Consulte parcelamento no checkout",
@@ -1078,9 +1078,9 @@ const produtos = [
       oQueE: "<p>Verbascosideo + Eclipta Alba é uma fórmula composta por dois ativos, Verbascosideo e Eclipta Alba extrato seco, desenvolvida para integrar uma rotina de cuidados voltada à <strong>saúde capilar</strong> e ao equilíbrio celular.</p><p>Sua finalidade está relacionada principalmente aos <strong>cuidados com a queda capilar</strong> e ao estímulo dos cuidados com os cabelos, além de fornecer componentes associados à ação antioxidante e ao cuidado da pele e do equilíbrio celular.</p><p>É indicado para pessoas que buscam complementar sua rotina de cuidados com os cabelos, especialmente aquelas interessadas em <strong>cuidados capilares e redução da queda</strong>. A utilização deve considerar as necessidades individuais e, quando necessário, contar com orientação de um profissional de saúde.</p>",
       composicao: "<ul>\n<li>VERBASCOSIDEO — 15MG</li>\n<li>ECLIPTA ALBA EXTRATO SECO — 150MG</li>\n</ul><p><strong>Apresentação:</strong> 30 Cápsulas</p>",
       comoUsar: "<p>Utilize o produto conforme as <strong>instruções do fabricante</strong> ou de acordo com a orientação de um profissional de saúde. Não altere a forma de utilização recomendada na embalagem ou na orientação profissional.</p>",
-      advertencias: "<p>Utilize este produto de acordo com as orientações do fabricante. Em caso de dúvidas sobre a utilizaç��o, procure orientação de um profissional de saúde. Mantenha o produto fora do alcance de crianças e conserve-o conforme as condições indicadas pelo fabricante.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
+      advertencias: "<p>Utilize este produto de acordo com as orientações do fabricante. Em caso de dúvidas sobre a utilização, procure orientação de um profissional de saúde. Mantenha o produto fora do alcance de crianças e conserve-o conforme as condições indicadas pelo fabricante.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
     },
-    destaque: true,
+    destaque: false,
     mostrarlancamento: false,
     mostrarVideo: false,
     textoParcelamento: "🎟️ Cupom válido no carrinho. 💳 Consulte parcelamento no checkout",
@@ -1294,7 +1294,7 @@ const produtos = [
       oQueE: "<p>A <strong>L-Treonina</strong> é um aminoácido essencial que o organismo não produz sozinho, sendo necessário obtê-lo por meio da alimentação ou suplementação. A TREONINA-L 500mg oferece esse aminoácido em cápsulas, de forma prática e direta.</p><p>A treonina está presente na estrutura de diversas proteínas e participa da síntese de glicina e serina, compostos relacionados à produção de <strong>colágeno e elastina</strong>. Também contribui para o balanço proteico geral do organismo e para o funcionamento do sistema nervoso central.</p><p>É indicada para <strong>adultos</strong> que buscam suporte à firmeza da pele e ao equilíbrio do sistema nervoso central, incluindo veganos e vegetarianos que podem apresentar menor ingestão desse aminoácido pela alimentação. Seu uso deve seguir a orientação de um profissional habilitado.</p>",
       composicao: "<ul>\n<li>L-TREONINA — 500MG</li>\n<li>excipiente q.s.p.</li>\n</ul><p><strong>Apresentação:</strong> 60 Cápsulas</p>",
       comoUsar: "<p>Tomar <strong>1 cápsula ao dia</strong>, preferencialmente junto com uma das principais refeições ou conforme orientação de um profissional.</p>",
-      advertencias: "<p>Este produto não deve ser utilizado por gestantes, lactantes, crianças ou menores de 18 anos sem orientação médica. O uso durante a amamentação também não é recomendado. Pessoas com hipersensibilidade à substância não devem fazer uso do produto. Em caso de hipersensibilidade, descontinue o uso e consulte um médico.</p><p>Não use o produto com o prazo de validade vencido. Siga corretamente o modo de usar. Manter em temperatura ambiente (15 a 30ºC), protegido da luz, do calor e da umidade, fora do alcance das crianças. Nunca compre um produto sem orientação de um profissional habilitado. Imagens meramente ilustrativas.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimenta��ão, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
+      advertencias: "<p>Este produto não deve ser utilizado por gestantes, lactantes, crianças ou menores de 18 anos sem orientação médica. O uso durante a amamentação também não é recomendado. Pessoas com hipersensibilidade à substância não devem fazer uso do produto. Em caso de hipersensibilidade, descontinue o uso e consulte um médico.</p><p>Não use o produto com o prazo de validade vencido. Siga corretamente o modo de usar. Manter em temperatura ambiente (15 a 30ºC), protegido da luz, do calor e da umidade, fora do alcance das crianças. Nunca compre um produto sem orientação de um profissional habilitado. Imagens meramente ilustrativas.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
     },
     destaque: false,
     mostrarlancamento: false,
@@ -1323,7 +1323,7 @@ const produtos = [
       comoUsar: "<p>Tomar <strong>1 cápsula duas vezes ao dia</strong>, preferencialmente antes do almoço e do jantar.</p>",
       advertencias: "<p>A administração de colágeno hidrolisado em pó não é recomendada para pessoas portadoras de doenças renais e hepáticas, com níveis elevados de ácido úrico ou gota. Pessoas com hipersensibilidade à substância não devem usar o produto. Em caso de hipersensibilidade, recomenda-se descontinuar o uso e consultar o médico.</p><p>Não use o produto com o prazo de validade vencido. Manter em temperatura ambiente (15 a 30ºC), protegido da luz, do calor e da umidade, e fora do alcance das crianças. Mulheres grávidas, lactantes e menores de 18 anos não devem utilizar o produto sem orientação médica. Nunca compre um produto sem orientação de um profissional habilitado. Siga corretamente o modo de usar.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
     },
-    destaque: false,
+    destaque: true,
     mostrarlancamento: false,
     mostrarVideo: false,
     textoParcelamento: "🎟️ Cupom válido no carrinho. 💳 Consulte parcelamento no checkout",
@@ -1512,7 +1512,7 @@ const produtos = [
       comoUsar: "<p>Utilize o produto <strong>conforme as instruções do fabricante ou orientação de profissional habilitado</strong>. Não altere a forma de uso recomendada e, em caso de dúvidas, procure orientação profissional.</p>",
       advertencias: "<p>O uso do produto é contraindicado para pessoas com <strong>cálculo biliar, obstrução dos ductos biliares ou úlcera gastroduodenal</strong>, bem como para pessoas com hipersensibilidade à substância. Não deve ser utilizado simultaneamente com anticoagulantes sem orientação profissional.</p><p>Em caso de hipersensibilidade ao produto, recomenda-se descontinuar o uso e consultar um médico. Este produto não deve ser utilizado por mulheres grávidas ou durante o período de amamentação sem orientação médica. Não deve ser utilizado por menores de 18 anos sem orientação médica.</p><p>Não use o produto com o prazo de validade vencido. Manter em temperatura ambiente (15 a 30ºC), protegido da luz, do calor e da umidade e fora do alcance das crianças. Nunca compre medicamento sem orientação de um profissional habilitado. Siga corretamente o modo de usar. Imagens meramente ilustrativas.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
     },
-    destaque: false,
+    destaque: true,
     mostrarlancamento: false,
     mostrarVideo: false,
     textoParcelamento: "🎟️ Cupom válido no carrinho. 💳 Consulte parcelamento no checkout",
@@ -1593,7 +1593,7 @@ const produtos = [
       comoUsar: "<p>Tomar <strong>1 dose (2 cápsulas) ao dia</strong>, com água.</p>",
       advertencias: "<p>Pessoas com hipersensibilidade à substância não devem fazer uso do produto. Em caso de hipersensibilidade ao produto, recomenda-se descontinuar o uso e consultar o médico. Não use o produto com o prazo de validade vencido. Manter em temperatura ambiente (15 a 30ºC), protegido da luz, do calor e da umidade, e fora do alcance das crianças.</p><p>Nunca compre medicamento sem orientação de um profissional habilitado. Este produto não deve ser utilizado por mulheres grávidas sem orientação médica. O uso do produto durante o período de amamentação também não é recomendado. Este produto não deve ser utilizado por menores de 18 anos sem orientação médica. Siga corretamente o modo de usar e, não desaparecendo os sintomas, procure orientação médica.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
     },
-    destaque: false,
+    destaque: true,
     mostrarlancamento: false,
     mostrarVideo: false,
     textoParcelamento: "🎟️ Cupom válido no carrinho. 💳 Consulte parcelamento no checkout",
@@ -1623,7 +1623,7 @@ const produtos = [
     destaque: false,
     mostrarlancamento: false,
     mostrarVideo: false,
-    textoParcelamento: "🎟️ Cupom válido no carrinho. �� Consulte parcelamento no checkout",
+    textoParcelamento: "🎟️ Cupom válido no carrinho. 💳 Consulte parcelamento no checkout",
     cupomAtivo: false,
     cupomPorcentagem: 0,
     cupomCodigo: "",
@@ -1726,7 +1726,7 @@ const produtos = [
       oQueE: "<p>A <strong>Rhodiola Rosea 400mg</strong> é um suplemento em cápsulas que fornece 400mg de Rhodiola Rosea por cápsula, um ingrediente tradicionalmente utilizado como suporte à resistência física e mental.</p><p>Sua utilização está associada ao suporte ao <strong>desempenho mental</strong>, concentração, atenção e resistência diante de períodos de estresse físico e psicológico, além de apresentar ação antioxidante e contribuir para a sensação de bem-estar.</p><p>Pode ser indicada para adultos que buscam suporte à rotina de <strong>trabalho, estudos ou atividade física</strong>, especialmente em períodos de maior demanda física ou mental. A utilização deve considerar a orientação de um profissional de saúde quando necessário.</p>",
       composicao: "<ul>\n<li>RHODIOLA ROSEA — 400MG</li>\n</ul><p><strong>Apresentação:</strong> 30 Cápsulas</p>",
       comoUsar: "<p>Tomar <strong>1 cápsula diariamente</strong>.</p>",
-      advertencias: "<p>Seu uso é contraindicado em casos de excitação por ter efeito ativador de antidepressivo. Não deve ser utilizado por indivíduos com transtorno bipolar ou por pessoas com hipersensibilidade à substância. Em caso de hipersensibilidade ao produto, recomenda-se descontinuar o uso e consultar o médico.</p><p>Não utilizar com o prazo de validade vencido. Manter em temperatura ambiente (15 a 30ºC), protegido da luz, do calor e da umidade e fora do alcance das crianças. Este produto não deve ser utilizado por mulheres grávidas sem orientação médica. O uso durante o período de amamentação não é recomendado. Este produto não deve ser utilizado por menores de 18 anos sem orientação médica.</p><p>Siga corretamente o modo de usar. Nunca compre medicamento sem orientação de um profissional habilitado. Imagens meramente ilustrativas.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
+      advertencias: "<p>Seu uso é contraindicado em casos de excitação por ter efeito ativador de antidepressivo. Não deve ser utilizado por indivíduos com transtorno bipolar ou por pessoas com hipersensibilidade à substância. Em caso de hipersensibilidade ao produto, recomenda-se descontinuar o uso e consultar o médico.</p><p>Não utilizar com o prazo de validade vencido. Manter em temperatura ambiente (15 a 30ºC), protegido da luz, do calor e da umidade e fora do alcance das crianças. Este produto não deve ser utilizado por mulheres grávidas sem orienta��ão médica. O uso durante o período de amamentação não é recomendado. Este produto não deve ser utilizado por menores de 18 anos sem orientação médica.</p><p>Siga corretamente o modo de usar. Nunca compre medicamento sem orientação de um profissional habilitado. Imagens meramente ilustrativas.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
     },
     destaque: false,
     mostrarlancamento: false,
@@ -1917,7 +1917,7 @@ const produtos = [
       comoUsar: "<p>Utilize o produto exclusivamente conforme as <strong>instruções do fabricante</strong> ou de acordo com a orientação de profissional habilitado. Não utilize dose, frequência ou horário diferentes daqueles recomendados para o produto.</p>",
       advertencias: "<p>Pessoas com hipersensibilidade à substância não devem fazer uso do produto. Em caso de hipersensibilidade ao produto, recomenda-se descontinuar o uso e consultar o médico. Não use o produto com o prazo de validade vencido. Manter em temperatura ambiente (15 a 30ºC), protegido da luz, do calor e da umidade e fora do alcance das crianças. Nunca compre medicamento sem orientação de um profissional habilitado. Este produto não deve ser utilizado por mulheres grávidas sem orientação médica. Siga corretamente o modo de usar. O uso do produto durante o período de amamentação também não é recomendado. Este produto não deve ser utilizado por menores de 18 anos sem orientação médica.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
     },
-    destaque: false,
+    destaque: true,
     mostrarlancamento: false,
     mostrarVideo: false,
     textoParcelamento: "🎟️ Cupom válido no carrinho. 💳 Consulte parcelamento no checkout",
@@ -2025,7 +2025,7 @@ const produtos = [
       comoUsar: "<p>Utilize o produto <strong>conforme as instruções do fabricante</strong> ou de acordo com a orientação de um profissional de saúde. Não altere a forma de utilização recomendada.</p>",
       advertencias: "<p>Este produto é destinado à <strong>suplementação nutricional</strong> e não substitui uma alimentação equilibrada. Utilize conforme as orientações do fabricante. Em caso de dúvidas sobre a utilização ou sobre a necessidade de suplementação, procure orientação de um profissional de saúde.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
     },
-    destaque: false,
+    destaque: true,
     mostrarlancamento: false,
     mostrarVideo: false,
     textoParcelamento: "🎟️ Cupom válido no carrinho. 💳 Consulte parcelamento no checkout",
@@ -2052,7 +2052,7 @@ const produtos = [
       comoUsar: "<p>Tomar <strong>1 cápsula duas vezes ao dia</strong>, preferencialmente antes do almoço e do jantar.</p>",
       advertencias: "<p>A administração de colágeno hidrolisado em pó não é recomendada para pessoas portadoras de doenças renais e hepáticas, com níveis elevados de ácido úrico ou gota. Pessoas com hipersensibilidade à substância não devem usar o produto. Em caso de hipersensibilidade ao produto, recomenda-se descontinuar o uso e consultar o médico.</p><p>Não use o produto com o prazo de validade vencido. Manter em temperatura ambiente (15 a 30ºC), protegido da luz, do calor e da umidade. Manter fora do alcance das crianças.</p><p>Este produto não deve ser utilizado por mulheres grávidas sem orientação médica. O uso durante o período de amamentação também não é recomendado. Este produto não deve ser utilizado por menores de 18 anos sem orientação médica. Siga corretamente o modo de usar. Nunca compre um produto sem orientação de um profissional habilitado. Não desaparecendo os sintomas, procure orientação médica.</p><p>Imagens meramente ilustrativas. Nestas condições de armazenamento, o produto se manterá próprio para o consumo, respeitando o prazo de validade indicado na embalagem.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
     },
-    destaque: false,
+    destaque: true,
     mostrarlancamento: false,
     mostrarVideo: false,
     textoParcelamento: "🎟️ Cupom válido no carrinho. 💳 Consulte parcelamento no checkout",
@@ -2109,7 +2109,7 @@ const produtos = [
     destaque: false,
     mostrarlancamento: false,
     mostrarVideo: false,
-    textoParcelamento: "🎟️ Cupom válido no carrinho. 💳 Consulte parcelamento no checkout",
+    textoParcelamento: "��️ Cupom válido no carrinho. 💳 Consulte parcelamento no checkout",
     cupomAtivo: false,
     cupomPorcentagem: 0,
     cupomCodigo: "",
@@ -2160,7 +2160,7 @@ const produtos = [
       comoUsar: "<p>Para resultados eficazes, recomenda-se o uso contínuo com a ingestão de <strong>4 cápsulas ao dia</strong>. Siga o passo a passo para maximizar os benefícios:</p><p><strong>Uso Diário:</strong> Tome 4 cápsulas do Termogênico Abelhinha com água, ajustando o horário de acordo com sua rotina de treinos.</p><p><strong>Caso treine no período da tarde:</strong> 2 cápsulas pela manhã e 2 cápsulas antes do treino.</p><p><strong>Caso treine no período da manhã:</strong> 2 cápsulas antes do treino e 2 cápsulas antes do café da manhã.</p><p><strong>Para treinos mais intensos:</strong> Tomar as 4 cápsulas antes do treino.</p><p><strong>Consistência:</strong> Use diariamente para garantir uma ação constante na queima de calorias, aceleração do metabolismo e melhora do desempenho físico.</p><p><strong>Acompanhe os Resultados:</strong> Com o uso contínuo, você começará a perceber melhorias na definição corporal, aumento da energia e foco durante os treinos.</p>",
       advertencias: "<p>Este produto deve ser utilizado conforme a orientação de uso indicada e não substitui uma alimentação equilibrada nem a prática de hábitos saudáveis. <strong>O uso deve considerar as necessidades individuais e a orientação de um profissional de saúde quando necessário.</strong></p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
     },
-    destaque: false,
+    destaque: true,
     mostrarlancamento: false,
     mostrarVideo: false,
     textoParcelamento: "🎟️ Cupom válido no carrinho. 💳 Consulte parcelamento no checkout",
@@ -2376,7 +2376,7 @@ const produtos = [
       comoUsar: "<p>Utilize o produto conforme as <strong>instruções do fabricante</strong> ou de acordo com a orientação de um profissional habilitado. Não altere a forma de utilização recomendada na embalagem ou pelo profissional responsável.</p>",
       advertencias: "<p>Este produto deve ser utilizado conforme as orientações do fabricante. Mantenha fora do alcance de crianças e conserve de acordo com as condições indicadas na embalagem. Em caso de dúvidas sobre o uso, procure orientação de um profissional de saúde.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
     },
-    destaque: false,
+    destaque: true,
     mostrarlancamento: false,
     mostrarVideo: false,
     textoParcelamento: "🎟️ Cupom válido no carrinho. 💳 Consulte parcelamento no checkout",
@@ -2485,6 +2485,276 @@ const produtos = [
       advertencias: "<p>Utilize o produto conforme orientação de profissional habilitado e siga corretamente a forma de uso recomendada. Não utilize doses superiores às indicadas. Em caso de dúvidas sobre o tratamento ou sobre a utilização do produto, procure orientação médica.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
     },
     destaque: false,
+    mostrarlancamento: false,
+    mostrarVideo: false,
+    textoParcelamento: "🎟️ Cupom válido no carrinho. 💳 Consulte parcelamento no checkout",
+    cupomAtivo: false,
+    cupomPorcentagem: 0,
+    cupomCodigo: "",
+    cupomValidade: "",
+    cupomMensagemTag: "",
+    cupomOcultarTag: false
+  },
+  {
+    id: "108",
+    nome: "N ACETILCISTEINA (NAC) 600mg - 60 Cápsulas",
+    categoria: "saude",
+    preco: 60.00,
+    imagem: "assets/img/n-acetilcisteina-nac-600mg-60-capsulas-muij8pek.png",
+    videos: [
+      
+    ],
+    descricao: {
+      resumo: "<p>A N-Acetilcisteína (NAC) 600 mg é uma fórmula desenvolvida para complementar cuidados com a <strong>proteção antioxidante e a saúde respiratória</strong>, fornecendo um precursor da glutationa.</p>",
+      oQueE: "<p>A N-Acetilcisteína (NAC) é um composto utilizado como precursor da <strong>glutationa</strong>, um importante antioxidante produzido pelo organismo. A fórmula fornece 600 mg de N-Acetilcisteína por cápsula.</p><p>Sua finalidade é complementar estratégias voltadas à <strong>defesa antioxidante e ao bem-estar respiratório</strong>. A NAC também apresenta propriedades mucolíticas, contribuindo para a fluidificação das secreções respiratórias.</p><p>Pode ser indicada para pessoas que buscam <strong>suporte antioxidante e respiratório</strong>, incluindo praticantes de atividades físicas que desejam complementar sua rotina de cuidados. Seu uso deve considerar as necessidades individuais e orientação de profissional habilitado.</p>",
+      composicao: "<ul>\n<li>N ACETIL CISTEINA — 600MG</li>\n</ul><p><strong>Apresentação:</strong> 60 Cápsulas</p>",
+      comoUsar: "<p>Tomar <strong>1 cápsula ao dia</strong>. O consumo da N-Acetilcisteína (NAC) deve ser feito em conjunto com água.</p><p>A cápsula pode ser tomada <strong>em jejum</strong> ou <strong>após o almoço</strong>, conforme a orientação fornecida.</p>",
+      advertencias: "<p>Pessoas com hipersensibilidade à substância não devem fazer uso do produto. Em caso de hipersensibilidade ao produto, recomenda-se descontinuar o uso e consultar o médico. Não use o produto com o prazo de validade vencido. Manter em temperatura ambiente (15 a 30ºC), protegido da luz, do calor e da umidade. Manter fora do alcance das crianças. Nunca compre um produto sem orientação de um profissional habilitado. Este produto não deve ser utilizado por mulheres grávidas sem orientação médica. O uso durante o período de amamentação e por menores de 18 anos deve ocorrer somente mediante orientação médica. Siga corretamente o modo de usar.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
+    },
+    destaque: true,
+    mostrarlancamento: false,
+    mostrarVideo: false,
+    textoParcelamento: "🎟️ Cupom válido no carrinho. 💳 Consulte parcelamento no checkout",
+    cupomAtivo: false,
+    cupomPorcentagem: 0,
+    cupomCodigo: "",
+    cupomValidade: "",
+    cupomMensagemTag: "",
+    cupomOcultarTag: false
+  },
+  {
+    id: "109",
+    nome: "EPIMEDIUM ICARIIN 500mg - 30 Cápsulas",
+    categoria: "desempenhofisico",
+    preco: 70.00,
+    imagem: "assets/img/epimedium-icariin-500mg-30-capsulas-muijizi0.png",
+    videos: [
+      
+    ],
+    descricao: {
+      resumo: "<p>O <strong>Epimedium Icariin 500mg</strong> é um suplemento alimentar desenvolvido para oferecer suporte à saúde sexual, à disposição física e ao equilíbrio hormonal, em uma fórmula prática com 30 cápsulas.</p>",
+      oQueE: "<p>O Epimedium Icariin é um suplemento à base de extrato de <em>Epimedium sagittatum</em>, tendo a <strong>icariin</strong> como seu principal composto ativo. A fórmula foi desenvolvida para complementar a rotina de pessoas que buscam suporte à saúde sexual e ao bem-estar.</p><p>Sua finalidade está relacionada ao <strong>suporte à saúde sexual, disposição física e equilíbrio hormonal</strong>, podendo fazer parte de uma rotina voltada ao bem-estar e à manutenção dessas funções do organismo. Seus efeitos podem variar conforme as características individuais de cada pessoa.</p><p>É destinado a <strong>adultos que buscam suporte à libido, saúde sexual e disposição</strong>, incluindo homens e mulheres. Pode ser considerado por pessoas que apresentam redução do desejo sexual ou que desejam complementar os cuidados relacionados ao bem-estar hormonal, sempre considerando orientação de profissional habilitado quando necessário.</p>",
+      composicao: "<ul>\n<li>EPIMEDIUM ICARIIN — 500MG</li>\n</ul><p><strong>Apresentação:</strong> 30 Cápsulas</p>",
+      comoUsar: "<p>Tomar <strong>1 cápsula ao dia</strong>, preferencialmente pela manhã, ou conforme orientação profissional habilitado.</p>",
+      advertencias: "<p>Este produto deve ser utilizado conforme a posologia indicada. Em caso de dúvidas sobre o uso, procure orientação de profissional habilitado. Não altere a quantidade ou a frequência de uso sem orientação profissional.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
+    },
+    destaque: false,
+    mostrarlancamento: false,
+    mostrarVideo: false,
+    textoParcelamento: "🎟️ Cupom válido no carrinho. 💳 Consulte parcelamento no checkout",
+    cupomAtivo: false,
+    cupomPorcentagem: 0,
+    cupomCodigo: "",
+    cupomValidade: "",
+    cupomMensagemTag: "",
+    cupomOcultarTag: false
+  },
+  {
+    id: "110",
+    nome: "METILCOBALAMINA 1000MCG Sublingual - 30 Cápsulas",
+    categoria: "saude",
+    preco: 30.00,
+    imagem: "assets/img/metilcobalamina-1000mcg-sublingual-30-capsulas-muijwzc8.png",
+    videos: [
+      
+    ],
+    descricao: {
+      resumo: "<p>A <strong>Metilcobalamina 1000mcg Sublingual</strong> é uma fórmula de vitamina B12 desenvolvida para complementar a ingestão desse nutriente, contribuindo para funções importantes do organismo, como o metabolismo energético e o funcionamento do sistema nervoso.</p>",
+      oQueE: "<p>A Metilcobalamina 1000mcg é uma fórmula de <strong>vitamina B12 na forma de metilcobalamina</strong>, apresentada em cápsulas sublinguais e desenvolvida para complementar a ingestão desse nutriente na rotina.</p><p>A vitamina B12 contribui para o <strong>metabolismo energético</strong>, o funcionamento normal do sistema nervoso e a formação das células vermelhas do sangue. Também participa do metabolismo de proteínas e carboidratos.</p><p>É indicada para pessoas que necessitam complementar a ingestão de <strong>vitamina B12</strong>, especialmente quando houver orientação profissional para suplementação desse nutriente.</p>",
+      composicao: "<ul>\n<li>METILCOBALAMINA — 1000MCG</li>\n<li>SUBLINGUAL TAPIOCA CAPS — MG</li>\n</ul><p><strong>Apresentação:</strong> 30 Cápsulas Sublingual</p>",
+      comoUsar: "<p>Utilizar conforme as <strong>instruções do fabricante</strong> ou de acordo com a orientação de profissional habilitado. Não altere a forma de uso recomendada sem orientação profissional.</p>",
+      advertencias: "<p>Este produto deve ser utilizado de acordo com as orientações fornecidas pelo fabricante ou por profissional habilitado. Em caso de dúvidas sobre a utilização, procure orientação profissional.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
+    },
+    destaque: false,
+    mostrarlancamento: false,
+    mostrarVideo: false,
+    textoParcelamento: "🎟️ Cupom válido no carrinho. 💳 Consulte parcelamento no checkout",
+    cupomAtivo: false,
+    cupomPorcentagem: 0,
+    cupomCodigo: "",
+    cupomValidade: "",
+    cupomMensagemTag: "",
+    cupomOcultarTag: false
+  },
+  {
+    id: "111",
+    nome: "Cactin 500mg - 60 Cápsulas",
+    categoria: "saude",
+    preco: 90.00,
+    imagem: "assets/img/cactin-500mg-60-capsulas-muik6bh1.png",
+    videos: [
+      
+    ],
+    descricao: {
+      resumo: "<p>O <strong>Cactin 500mg</strong> é um suplemento de origem vegetal desenvolvido para complementar uma rotina voltada ao equilíbrio dos líquidos corporais e ao bem-estar, especialmente em situações relacionadas à sensação de inchaço.</p>",
+      oQueE: "<p>O Cactin é um suplemento à base de <strong>extrato do cacto Opuntia ficus-indica</strong>, um ativo de origem vegetal tradicionalmente valorizado por sua composição de compostos bioativos.</p><p>Sua finalidade é oferecer suporte ao <strong>equilíbrio dos líquidos corporais</strong> e à redução da sensação de inchaço, além de contribuir para a proteção das células contra os efeitos dos radicais livres por sua atividade antioxidante.</p><p>É indicado para <strong>adultos que buscam suporte ao equilíbrio dos líquidos corporais</strong> e ao bem-estar, especialmente aqueles que apresentam sensação de inchaço ou desejam complementar uma rotina de cuidados relacionados ao controle de peso.</p>",
+      composicao: "<ul>\n<li>CACTIN — 500MG</li>\n</ul><p><strong>Apresentação:</strong> 60 Cápsulas</p>",
+      comoUsar: "<p>Tomar <strong>de 1 a 4 cápsulas ao dia</strong>, conforme orientação de um profissional de saúde.</p>",
+      advertencias: "<p>Utilize o produto conforme a orientação fornecida. Em caso de dúvidas sobre o uso, procure orientação de um profissional de saúde.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
+    },
+    destaque: false,
+    mostrarlancamento: false,
+    mostrarVideo: false,
+    textoParcelamento: "🎟️ Cupom válido no carrinho. 💳 Consulte parcelamento no checkout",
+    cupomAtivo: false,
+    cupomPorcentagem: 0,
+    cupomCodigo: "",
+    cupomValidade: "",
+    cupomMensagemTag: "",
+    cupomOcultarTag: false
+  },
+  {
+    id: "112",
+    nome: "Cafeína 200mg - 30 Cápsulas",
+    categoria: "desempenhofisico",
+    preco: 30.00,
+    imagem: "assets/img/cafeina-200mg-30-capsulas-muikdxpk.png",
+    videos: [
+      
+    ],
+    descricao: {
+      resumo: "<p>A <strong>Cafeína 200mg</strong> é um suplemento em cápsulas desenvolvido para complementar rotinas que exigem energia, foco e disposição, oferecendo suporte à performance física e mental no dia a dia.</p>",
+      oQueE: "<p>A Cafeína 200mg é um suplemento à base de cafeína, desenvolvido para pessoas que buscam <strong>mais disposição, foco e energia</strong> para suas atividades diárias, estudos, trabalho ou prática de exercícios.</p><p>A cafeína atua no sistema nervoso central e pode contribuir para o <strong>estado de alerta, concentração e desempenho físico</strong>, sendo utilizada como suporte em atividades que exigem maior atenção, energia e rendimento.</p><p>É indicada para adultos que praticam atividades físicas ou possuem rotinas intensas de estudo e trabalho e desejam complementar sua rotina com uma fonte concentrada de cafeína, sempre respeitando a forma de uso recomendada.</p>",
+      composicao: "<ul>\n<li>CAFEINA — 200MG</li>\n</ul><p><strong>Apresentação:</strong> 30 Cápsulas</p>",
+      comoUsar: "<p>Tomar <strong>1 cápsula ao dia</strong>, com água.</p><p>Sugestão de consumo: pela manhã ou antes de atividades que exigem foco, energia ou desempenho físico. <strong>Não exceder 2 cápsulas ao dia.</strong></p><p>Evitar o consumo próximo ao horário de dormir.</p>",
+      advertencias: "<p>Utilize o produto conforme a orientação de uso indicada. Em caso de dúvidas sobre o consumo ou sobre a adequação do produto à sua rotina, procure orientação de um profissional de saúde.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
+    },
+    destaque: false,
+    mostrarlancamento: false,
+    mostrarVideo: false,
+    textoParcelamento: "🎟️ Cupom válido no carrinho. 💳 Consulte parcelamento no checkout",
+    cupomAtivo: false,
+    cupomPorcentagem: 0,
+    cupomCodigo: "",
+    cupomValidade: "",
+    cupomMensagemTag: "",
+    cupomOcultarTag: false
+  },
+  {
+    id: "113",
+    nome: "Câimbra - 30 Cápsulas",
+    categoria: "desempenhofisico",
+    preco: 40.00,
+    imagem: "assets/img/caimbra-30-capsulas-mujs2o81.png",
+    videos: [
+      
+    ],
+    descricao: {
+      resumo: "<p>Suplemento alimentar desenvolvido para complementar a ingestão de nutrientes envolvidos no <strong>funcionamento muscular e nervoso</strong>, reunindo cloreto de potássio e vitamina B1 em uma apresentação prática com 30 cápsulas.</p>",
+      oQueE: "<p><strong>Câimbra - 30 Cápsulas</strong> é um suplemento alimentar que combina cloreto de potássio e vitamina B1 (tiamina), nutrientes relacionados a funções importantes do organismo.</p><p>Sua composição foi desenvolvida para auxiliar na <strong>manutenção do equilíbrio de eletrólitos</strong> e no adequado funcionamento muscular e nervoso. O potássio contribui para o funcionamento muscular, enquanto a vitamina B1 participa do metabolismo energético e do funcionamento do sistema nervoso.</p><p>Pode ser indicado para adultos que necessitem complementar a ingestão desses nutrientes, sempre considerando as necessidades individuais e a <strong>orientação de um profissional de saúde</strong>.</p>",
+      composicao: "<ul>\n<li>CLORETO DE POTASSIO — 200MG</li>\n<li>VITAMINA B1 — 300MG</li>\n</ul><p><strong>Apresentação:</strong> 30 Cápsulas</p>",
+      comoUsar: "<p>Utilize o produto conforme as <strong>instruções do fabricante</strong> ou de acordo com a orientação de um profissional de saúde. Não ultrapasse a recomendação indicada na embalagem ou pelo profissional responsável.</p>",
+      advertencias: "<p>Este produto deve ser utilizado de acordo com as orientações do fabricante. A necessidade de suplementação de potássio deve ser avaliada individualmente, especialmente por pessoas que apresentem alterações renais ou que façam uso de medicamentos. Em caso de dúvidas sobre a utilização do produto, procure orientação de um profissional de saúde.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
+    },
+    destaque: false,
+    mostrarlancamento: false,
+    mostrarVideo: false,
+    textoParcelamento: "🎟️ Cupom válido no carrinho. 💳 Consulte parcelamento no checkout",
+    cupomAtivo: false,
+    cupomPorcentagem: 0,
+    cupomCodigo: "",
+    cupomValidade: "",
+    cupomMensagemTag: "",
+    cupomOcultarTag: false
+  },
+  {
+    id: "114",
+    nome: "Humulus Lupulus 150mg - 60 Cápsulas",
+    categoria: "saude",
+    preco: 80.00,
+    imagem: "assets/img/humulus-lupulus-150mg-60-capsulas-mujs9r8j.png",
+    videos: [
+      
+    ],
+    descricao: {
+      resumo: "<p>Humulus Lupulus 150mg é uma fórmula em cápsulas desenvolvida a partir do lúpulo, tradicionalmente utilizado como auxiliar em <strong>relaxamento e bem-estar</strong>, especialmente em situações relacionadas à ansiedade e ao sono.</p>",
+      oQueE: "<p><strong>Humulus Lupulus 150mg</strong> é um suplemento em cápsulas que contém Humulus lupulus, espécie conhecida popularmente como lúpulo. Sua composição concentra 150mg do ativo em cada cápsula.</p><p>O produto é utilizado como auxiliar em situações relacionadas à <strong>ansiedade e aos distúrbios do sono</strong>, contribuindo para uma abordagem complementar voltada ao relaxamento e ao bem-estar. Também é tradicionalmente associado a outras aplicações, conforme a avaliação e orientação de um profissional de saúde.</p><p>Pode ser indicado para adultos que buscam uma alternativa de suplementação à base de Humulus lupulus, especialmente aqueles que desejam suporte complementar para <strong>relaxamento e qualidade do sono</strong>, sempre considerando as necessidades individuais.</p>",
+      composicao: "<ul>\n<li>HUMULUS LUPULUS — 150MG</li>\n</ul><p><strong>Apresentação:</strong> 60 Cápsulas</p>",
+      comoUsar: "<p>Tomar <strong>1 cápsula, 2 vezes ao dia</strong>, conforme orientação de uso.</p>",
+      advertencias: "<p>Utilize o produto conforme a orientação de uso. Em caso de dúvidas sobre a utilização ou necessidade de suplementação, procure orientação de um profissional de saúde.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
+    },
+    destaque: true,
+    mostrarlancamento: false,
+    mostrarVideo: false,
+    textoParcelamento: "🎟️ Cupom válido no carrinho. 💳 Consulte parcelamento no checkout",
+    cupomAtivo: false,
+    cupomPorcentagem: 0,
+    cupomCodigo: "",
+    cupomValidade: "",
+    cupomMensagemTag: "",
+    cupomOcultarTag: false
+  },
+  {
+    id: "115",
+    nome: "Magnésio Treonato 300mg - 60 Cápsulas",
+    categoria: "saude",
+    preco: 60.00,
+    imagem: "assets/img/magnesio-treonato-300mg-60-capsulas-mujsg7ge.png",
+    videos: [
+      
+    ],
+    descricao: {
+      resumo: "<p>Magnésio Treonato 300mg é uma fórmula desenvolvida para complementar a ingestão de magnésio, com foco no <strong>suporte à saúde cerebral</strong>, à memória, ao foco e ao bem-estar mental no dia a dia.</p>",
+      oQueE: "<p><strong>Magnésio Treonato 300mg</strong> é um suplemento em c��psulas à base de MAGNESIO L-THREONATE, uma forma de magnésio estudada por sua relação com o sistema nervoso central e com o suporte às funções cognitivas.</p><p>Sua finalidade é auxiliar no suporte à <strong>memória, foco, atenção e saúde cerebral</strong>, além de contribuir para o bem-estar emocional e para a qualidade do sono. É uma opção especialmente interessante em períodos de maior demanda mental, como estudos intensos e jornadas de trabalho exigentes.</p><p>Pode ser indicado para adultos que desejam complementar a ingestão de magnésio e manter o <strong>desempenho mental e o bem-estar</strong> no dia a dia, incluindo pessoas com rotinas de estudo ou trabalho intensas e adultos que buscam suporte à saúde cognitiva ao longo do tempo.</p>",
+      composicao: "<ul>\n<li>MAGNESIO L-THREONATE — 300MG</li>\n</ul><p><strong>Apresentação:</strong> 60 Cápsulas</p>",
+      comoUsar: "<p>Tomar <strong>2 cápsulas ao dia</strong>, sendo 1 cápsula antes do almoço e 1 cápsula antes de dormir, ou conforme orientação profissional.</p>",
+      advertencias: "<p>Utilize o produto conforme a orientação de uso. Em caso de dúvidas sobre a utilização ou necessidade de suplementação, procure orientação de um profissional de saúde.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
+    },
+    destaque: false,
+    mostrarlancamento: false,
+    mostrarVideo: false,
+    textoParcelamento: "🎟️ Cupom válido no carrinho. 💳 Consulte parcelamento no checkout",
+    cupomAtivo: false,
+    cupomPorcentagem: 0,
+    cupomCodigo: "",
+    cupomValidade: "",
+    cupomMensagemTag: "",
+    cupomOcultarTag: false
+  },
+  {
+    id: "116",
+    nome: "KSM-66 300mg - 60 Cápsulas",
+    categoria: "saude",
+    preco: 90.00,
+    imagem: "assets/img/ksm-66-300mg-60-capsulas-mujsl1uw.png",
+    videos: [
+      
+    ],
+    descricao: {
+      resumo: "<p>KSM-66 300mg é um suplemento à base de extrato de Ashwagandha, desenvolvido para complementar a rotina de quem busca <strong>equilíbrio, disposição e bem-estar</strong> no dia a dia.</p>",
+      oQueE: "<p><strong>KSM-66 300mg</strong> é uma fórmula em cápsulas à base de KSM 66, um extrato de Ashwagandha desenvolvido para uma suplementação prática voltada ao equilíbrio e ao bem-estar.</p><p>Sua composição auxilia no <strong>suporte ao estresse do dia a dia</strong>, contribuindo para disposição, foco e uma rotina de maior equilíbrio e qualidade de vida.</p><p>Pode ser indicado para adultos que buscam complementar sua rotina com Ashwagandha, especialmente aqueles que desejam suporte ao <strong>bem-estar, foco e disposição</strong> diante das demandas do cotidiano.</p>",
+      composicao: "<ul>\n<li>KSM 66 — 300MG</li>\n</ul><p><strong>Apresentação:</strong> 60 Cápsulas</p>",
+      comoUsar: "<p>Tomar <strong>1 cápsula duas vezes ao dia</strong>, ou conforme orientação de profissional habilitado.</p>",
+      advertencias: "<p>Utilize o produto conforme a orientação de uso. Em caso de dúvidas sobre a utilização ou necessidade de suplementação, procure orientação de um profissional habilitado.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
+    },
+    destaque: true,
+    mostrarlancamento: false,
+    mostrarVideo: false,
+    textoParcelamento: "🎟️ Cupom válido no carrinho. 💳 Consulte parcelamento no checkout",
+    cupomAtivo: false,
+    cupomPorcentagem: 0,
+    cupomCodigo: "",
+    cupomValidade: "",
+    cupomMensagemTag: "",
+    cupomOcultarTag: false
+  },
+  {
+    id: "117",
+    nome: "Magnésio Dimalato 300mg 60 Cápsulas",
+    categoria: "desempenhofisico",
+    preco: 50.00,
+    imagem: "assets/img/magnesio-dimalato-300mg-60-capsulas-mujsqrqf.png",
+    videos: [
+      
+    ],
+    descricao: {
+      resumo: "<p>Magnésio Dimalato 300mg é um suplemento desenvolvido para complementar a ingestão de magnésio, oferecendo suporte ao <strong>funcionamento muscular e ao bem-estar</strong> no dia a dia.</p>",
+      oQueE: "<p><strong>Magnésio Dimalato 300mg</strong> é um suplemento em cápsulas à base de magnésio dimalato, uma forma de suplementação que combina magnésio e ácido málico.</p><p>Sua composição é utilizada como auxiliar no <strong>funcionamento muscular</strong>, podendo contribuir para o bem-estar, a recuperação após atividades físicas e a manutenção de funções importantes do organismo relacionadas ao magnésio.</p><p>Pode ser indicado para adultos que desejam complementar a ingestão de magnésio, especialmente aqueles que possuem uma rotina ativa ou buscam suporte nutricional para o <strong>funcionamento muscular e bem-estar</strong>.</p>",
+      composicao: "<ul>\n<li>MAGNESIO DIMALATO — 300MG</li>\n</ul><p><strong>Apresentação:</strong> 60 Cápsulas</p>",
+      comoUsar: "<p>Tomar de <strong>1 a 3 cápsulas diariamente</strong> com um copo de água.</p><p>Para obter os benefícios do Magnésio Dimalato, é importante seguir a dosagem recomendada e incorporá-lo à sua rotina diária.</p>",
+      advertencias: "<p>Utilize o produto conforme a orientação de uso. Em caso de dúvidas sobre a utilização ou necessidade de suplementação, procure orientação de um profissional de saúde.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
+    },
+    destaque: true,
     mostrarlancamento: false,
     mostrarVideo: false,
     textoParcelamento: "🎟️ Cupom válido no carrinho. 💳 Consulte parcelamento no checkout",
