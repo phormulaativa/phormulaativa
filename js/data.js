@@ -123,7 +123,7 @@ const produtos = [
     id: "18",
     nome: "Ácido Tricloroacético 90% - Solução 10ml (PA2)",
     categoria: "podologia",
-    preco: 47.00,
+    preco: 47.06,
     imagem: "assets/img/AcidoTricloroacetico90emsoluçãode10mL.png",
     videos: [
       
@@ -150,7 +150,7 @@ const produtos = [
     id: "19",
     nome: "Fórmula Antimicose Completa - Solução 10ml (PA3)",
     categoria: "podologia",
-    preco: 47.00,
+    preco: 47.06,
     imagem: "assets/img/FormulaAntimicoseCompleta.png",
     videos: [
       
@@ -177,7 +177,7 @@ const produtos = [
     id: "21",
     nome: "Aloe Vera Reparador - Solução 10ml (PA5)",
     categoria: "podologia",
-    preco: 57.00,
+    preco: 58.83,
     imagem: "assets/img/AloeVeraReparador.png",
     videos: [
       
@@ -231,7 +231,7 @@ const produtos = [
     id: "23",
     nome: "Anestésico Tópico - Creme 20g (PA6)",
     categoria: "podologia",
-    preco: 57.00,
+    preco: 58.83,
     imagem: "assets/img/AnestesicoTopico.png",
     videos: [
       
@@ -258,7 +258,7 @@ const produtos = [
     id: "24",
     nome: "Base Fortalecedora - Solução 10ml (PA7)",
     categoria: "podologia",
-    preco: 47.00,
+    preco: 47.06,
     imagem: "assets/img/BaseFortalecedora.png",
     videos: [
       
@@ -393,7 +393,7 @@ const produtos = [
     id: "30",
     nome: "Caneta para Micose - Solução 10ml - Exclusividade Phormula Ativa (PA8)",
     categoria: "podologia",
-    preco: 47.00,
+    preco: 47.06,
     imagem: "assets/img/CanetaparaMicose10ml.png",
     videos: [
       
@@ -427,7 +427,7 @@ const produtos = [
     ],
     descricao: {
       resumo: "<p>A Fórmula Terbinafina 5% é uma solução desenvolvida para <strong>auxiliar no tratamento de micoses resistentes</strong>, reunindo diferentes componentes em uma formulação de uso tópico.</p>",
-      oQueE: "<p>A <strong>F��rmula Terbinafina 5%</strong> é uma solução de uso tópico formulada com fluconazol, óleo de melaleuca, óleo de girassol ozonizado e terbinafina cloridrato.</p><p>Sua finalidade é <strong>auxiliar no tratamento de micoses resistentes</strong>, oferecendo uma formulação destinada ao cuidado tópico relacionado à presença de fungos.</p><p>Pode ser indicada para pessoas que necessitam de um produto de uso tópico destinado ao <strong>cuidado antifúngico</strong>, especialmente conforme avaliação e orientação de um profissional habilitado.</p>",
+      oQueE: "<p>A <strong>Fórmula Terbinafina 5%</strong> é uma solução de uso tópico formulada com fluconazol, óleo de melaleuca, óleo de girassol ozonizado e terbinafina cloridrato.</p><p>Sua finalidade é <strong>auxiliar no tratamento de micoses resistentes</strong>, oferecendo uma formulação destinada ao cuidado tópico relacionado à presença de fungos.</p><p>Pode ser indicada para pessoas que necessitam de um produto de uso tópico destinado ao <strong>cuidado antifúngico</strong>, especialmente conforme avaliação e orientação de um profissional habilitado.</p>",
       composicao: "<ul>\n<li>FLUCONAZOL — 0.2%</li>\n<li>OLEO DE MELALEUCA — 4%</li>\n<li>OLEO DE GIRASSOL OZONIZADO — 2%</li>\n<li>TERBINAFINA CLORIDRATO — 5%</li>\n<li>VEICULO — 10ML</li>\n</ul><p><strong>Apresentação:</strong> Solução 10ml - Validade 4 meses</p>",
       comoUsar: "<p>Utilize o produto conforme as <strong>instruções do fabricante</strong> ou de acordo com a orientação de um profissional habilitado. Não altere a forma de utilização recomendada sem orientação profissional.</p>",
       advertencias: "<p>Utilize o produto somente conforme as orientações fornecidas pelo fabricante. Em caso de dúvidas sobre a utilização, procure orientação de um profissional habilitado. Mantenha o produto em condições adequadas de armazenamento e fora do alcance de crianças.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
@@ -447,7 +447,7 @@ const produtos = [
     id: "32",
     nome: "Timol Antifúngico - Solução 10ml (PA15)",
     categoria: "podologia",
-    preco: 57.00,
+    preco: 58.83,
     imagem: "assets/img/TimolAntifungico10ml.png",
     videos: [
       
@@ -555,7 +555,7 @@ const produtos = [
     id: "36",
     nome: "Azul de Metileno 1% - Solução 30ml (PA19)",
     categoria: "podologia",
-    preco: 67.00,
+    preco: 70.59,
     imagem: "assets/img/azul-de-metileno-1-solucao-30ml.png",
     videos: [
       
@@ -582,7 +582,7 @@ const produtos = [
     id: "37",
     nome: "Ungueal DMSO - Solução 30ml (PA20)",
     categoria: "podologia",
-    preco: 57.00,
+    preco: 58.83,
     imagem: "assets/img/ungueal-dmso-solucao-30ml.png",
     videos: [
       
@@ -636,7 +636,7 @@ const produtos = [
     id: "39",
     nome: "Ureia 10% + Ácido Salicílico 40% - Creme 30g (PA22)",
     categoria: "podologia",
-    preco: 47.00,
+    preco: 47.06,
     imagem: "assets/img/ureia-10-acido-salicilico-40-creme-30g.png",
     videos: [
       
@@ -744,7 +744,7 @@ const produtos = [
     id: "43",
     nome: "FUSARIUM - Solução 10ml (PA26)",
     categoria: "podologia",
-    preco: 157.00,
+    preco: 176.48,
     imagem: "assets/img/fusarium-solucao-10ml.png",
     videos: [
       
@@ -1419,7 +1419,7 @@ const produtos = [
     id: "69",
     nome: "Ácido Tricloroacético 60% - Solução 10ml (PA28)",
     categoria: "podologia",
-    preco: 47.00,
+    preco: 47.06,
     imagem: "assets/img/acido-tricloroacetico-60-solucao-10ml.png",
     videos: [
       
@@ -1596,7 +1596,7 @@ const produtos = [
     destaque: false,
     mostrarlancamento: false,
     mostrarVideo: false,
-    textoParcelamento: "🎟️ Cupom válido no carrinho. 💳 Consulte parcelamento no checkout",
+    textoParcelamento: "🎟��� Cupom válido no carrinho. 💳 Consulte parcelamento no checkout",
     cupomAtivo: false,
     cupomPorcentagem: 0,
     cupomCodigo: "",
@@ -2019,10 +2019,10 @@ const produtos = [
       
     ],
     descricao: {
-      resumo: "<p><strong>Pill Food Turbinado</strong> é um suplemento com vitaminas, proteínas e aminoácidos, desenvolvido para complementar a rotina de cuidados com <strong>cabelos, pele e unhas</strong>, contribuindo para seu fortalecimento e apar��ncia saudável.</p>",
+      resumo: "<p><strong>Pill Food Turbinado</strong> é um suplemento com vitaminas, proteínas e aminoácidos, desenvolvido para complementar a rotina de cuidados com <strong>cabelos, pele e unhas</strong>, contribuindo para seu fortalecimento e aparência saudável.</p>",
       oQueE: "<p>O <strong>Pill Food Turbinado</strong> é um composto formulado com vitaminas, proteínas e aminoácidos essenciais, desenvolvido para complementar os cuidados diários com cabelos, unhas e pele.</p><p>Seu uso contínuo colabora para o <strong>fortalecimento dos fios</strong>, melhora da aparência da pele e maior resistência das unhas. A fórmula conta ainda com <strong>Silício</strong> e <strong>MSM</strong>, componentes presentes na composição do produto.</p><p>É indicado para <strong>homens e mulheres</strong> que desejam cuidar dos cabelos, pele e unhas, especialmente em períodos de estresse, dietas restritivas, uso frequente de químicas nos cabelos, alterações hormonais ou após períodos de queda capilar temporária. Pessoas veganas devem consultar um profissional antes do uso, pois a fórmula contém colágeno hidrolisado, geralmente de origem animal.</p>",
       composicao: "<ul>\n<li>Metionina — MG</li>\n<li>Cisteína — MG</li>\n<li>Cistina-L — MG</li>\n<li>Pantotenato de Cálcio — MG</li>\n<li>Complexo B — MG</li>\n<li>Vitamina E Pó — MG</li>\n<li>Selênio Quelato — MG</li>\n<li>Ácido Aminobenzoico — MG</li>\n<li>Queratina Pó — MG</li>\n<li>Biotina — MG</li>\n<li>Silício Quelato — MG</li>\n</ul><p><strong>Apresentação:</strong> 90 Cápsulas</p>",
-      comoUsar: "<p>Tomar <strong>1 cápsula duas vezes ao dia</strong>, preferencialmente antes do almoço e do jantar.</p>",
+      comoUsar: "<p>Tomar <strong>1 cápsula duas vezes ao dia</strong>, preferencialmente antes do almo��o e do jantar.</p>",
       advertencias: "<p>A administração de colágeno hidrolisado em pó não é recomendada para pessoas portadoras de doenças renais e hepáticas, com níveis elevados de ácido úrico ou gota. Pessoas com hipersensibilidade à substância não devem usar o produto. Em caso de hipersensibilidade ao produto, recomenda-se descontinuar o uso e consultar o médico.</p><p>Não use o produto com o prazo de validade vencido. Manter em temperatura ambiente (15 a 30ºC), protegido da luz, do calor e da umidade. Manter fora do alcance das crianças.</p><p>Este produto não deve ser utilizado por mulheres grávidas sem orientação médica. O uso durante o período de amamentação também não é recomendado. Este produto não deve ser utilizado por menores de 18 anos sem orientação médica. Siga corretamente o modo de usar. Nunca compre um produto sem orientação de um profissional habilitado. Não desaparecendo os sintomas, procure orientação médica.</p><p>Imagens meramente ilustrativas. Nestas condições de armazenamento, o produto se manterá próprio para o consumo, respeitando o prazo de validade indicado na embalagem.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
     },
     destaque: true,
@@ -2455,7 +2455,7 @@ const produtos = [
       oQueE: "<p>ORLISTAT 120 mg é uma formulação que contém <strong>Orlistat</strong>, ativo que atua no trato gastrointestinal reduzindo a absorção de parte da gordura ingerida nas refeições.</p><p>Sua finalidade é auxiliar no <strong>controle do peso</strong> em conjunto com uma alimentação adequada e estratégias de emagrecimento, contribuindo para a redução da quantidade de gordura absorvida pelo organismo.</p><p>Pode ser indicado para pessoas que necessitam de <strong>auxílio no controle do peso</strong>, especialmente como parte de uma estratégia de emagrecimento orientada por profissional habilitado.</p>",
       composicao: "<ul>\n<li>ORLISTAT — 120MG</li>\n</ul><p><strong>Apresentação:</strong> 30 Cápsulas</p>",
       comoUsar: "<p>A dose indicada é de <strong>1 cápsula, 2 vezes ao dia</strong>, antes ou durante as refeições, especificamente no almoço e no jantar.</p><p>Doses superiores a <strong>360 mg por dia (3 cápsulas/dia)</strong> não apresentam eficácia superior, por isso, não estão indicadas.</p>",
-      advertencias: "<p>Utilize o produto conforme orientação de profissional habilitado e siga corretamente a forma de uso recomendada. Não utilize doses superiores às indicadas. Em caso de dúvidas sobre o tratamento ou sobre a utilização do produto, procure orientação médica.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
+      advertencias: "<p>Utilize o produto conforme orientação de profissional habilitado e siga corretamente a forma de uso recomendada. Não utilize doses superiores às indicadas. Em caso de dúvidas sobre o tratamento ou sobre a utilização do produto, procure orientação médica.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presen��a de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
     },
     destaque: false,
     mostrarlancamento: false,
@@ -2532,7 +2532,7 @@ const produtos = [
       
     ],
     descricao: {
-      resumo: "<p>A <strong>Metilcobalamina 1000mcg Sublingual</strong> é uma f��rmula de vitamina B12 desenvolvida para complementar a ingestão desse nutriente, contribuindo para funções importantes do organismo, como o metabolismo energético e o funcionamento do sistema nervoso.</p>",
+      resumo: "<p>A <strong>Metilcobalamina 1000mcg Sublingual</strong> é uma fórmula de vitamina B12 desenvolvida para complementar a ingestão desse nutriente, contribuindo para funções importantes do organismo, como o metabolismo energético e o funcionamento do sistema nervoso.</p>",
       oQueE: "<p>A Metilcobalamina 1000mcg é uma fórmula de <strong>vitamina B12 na forma de metilcobalamina</strong>, apresentada em cápsulas sublinguais e desenvolvida para complementar a ingestão desse nutriente na rotina.</p><p>A vitamina B12 contribui para o <strong>metabolismo energético</strong>, o funcionamento normal do sistema nervoso e a formação das células vermelhas do sangue. Também participa do metabolismo de proteínas e carboidratos.</p><p>É indicada para pessoas que necessitam complementar a ingestão de <strong>vitamina B12</strong>, especialmente quando houver orientação profissional para suplementação desse nutriente.</p>",
       composicao: "<ul>\n<li>METILCOBALAMINA — 1000MCG</li>\n<li>SUBLINGUAL TAPIOCA CAPS — MG</li>\n</ul><p><strong>Apresentação:</strong> 30 Cápsulas Sublingual</p>",
       comoUsar: "<p>Utilizar conforme as <strong>instruções do fabricante</strong> ou de acordo com a orientação de profissional habilitado. Não altere a forma de uso recomendada sem orientação profissional.</p>",
