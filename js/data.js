@@ -320,7 +320,7 @@ const produtos = [
     descricao: {
       resumo: "<p>O Fluconazol + Trivalin é uma solução desenvolvida para <strong>auxiliar no cuidado antifúngico das unhas</strong>, reunindo diferentes componentes em uma formulação de uso tópico.</p>",
       oQueE: "<p>O <strong>Fluconazol + Trivalin</strong> é uma solução de uso tópico formulada com fluconazol, óleo de melaleuca, óleo de cravo essencial, Trivalin SF e óleo de girassol.</p><p>Sua finalidade é <strong>auxiliar no cuidado antifúngico das unhas</strong>, oferecendo uma formulação destinada ao cuidado tópico relacionado à presença de fungos nas unhas.</p><p>Pode ser indicado para pessoas que necessitam de um produto destinado ao <strong>cuidado antifúngico das unhas</strong>, devendo sua utilização seguir as orientações do fabricante ou de um profissional habilitado.</p>",
-      composicao: "<ul>\n<li>FLUCONAZOL — 0.2%</li>\n<li>OLEO DE MELALEUCA — 2%</li>\n<li>OLEO DE CRAVO ESSENCIAL — 2%</li>\n<li>TRIVALIN SF — 2%</li>\n<li>OLEO DE GIRASSOL — 10ML</li>\n</ul><p><strong>Apresentação:</strong> Solução 10ml - Validade 4 meses</p>",
+      composicao: "<ul>\n<li>FLUCONAZOL — 0.2%</li>\n<li>OLEO DE MELALEUCA — 2%</li>\n<li>OLEO DE CRAVO ESSENCIAL — 2%</li>\n<li>TRIVALIN SF — 2%</li>\n<li>OLEO DE GIRASSOL — 10ML</li>\n</ul><p><strong>Apresenta��ão:</strong> Solução 10ml - Validade 4 meses</p>",
       comoUsar: "<p>Utilize o produto conforme as <strong>instruções do fabricante</strong> ou de acordo com a orientação de um profissional habilitado. Não altere a forma de utilização recomendada sem orientação profissional.</p>",
       advertencias: "<p>Utilize o produto somente conforme as orientações fornecidas pelo fabricante. Em caso de dúvidas sobre a utilização, procure orientação de um profissional habilitado. Mantenha o produto em condições adequadas de armazenamento e fora do alcance de crianças.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
     },
@@ -796,7 +796,7 @@ const produtos = [
   },
   {
     id: "45",
-    nome: "Ciclopirox - Solução 20ml (PA9)",
+    nome: "Ciclopirox - Solu��ão 20ml (PA9)",
     categoria: "podologia",
     preco: 37.00,
     imagem: "assets/img/ciclopirox-solucao-20ml.png",
@@ -1321,7 +1321,7 @@ const produtos = [
       oQueE: "<p>O <strong>Pantogar Turbinado</strong> é uma fórmula composta por nutrientes como aminoácidos, vitaminas, queratina, biotina, silício e ferro, desenvolvida para oferecer <strong>suporte nutricional aos cabelos e unhas</strong>.</p><p>Sua composição é utilizada como complemento nutricional em situações relacionadas a <strong>cabelos fracos, quebradiços ou afinados</strong> e unhas frágeis, além de fornecer nutrientes envolvidos no metabolismo e na formação de estruturas queratinizadas. A biotina, a cisteína e a queratina, por exemplo, estão relacionadas à estrutura dos fios e unhas, enquanto o ferro participa do transporte de oxigênio pelo organismo.</p><p>Pode ser recomendado para adultos que buscam <strong>suporte nutricional para cabelos e unhas</strong>, especialmente quando existe necessidade de complementar a ingestão de determinados nutrientes. A indicação deve considerar as características individuais e, quando necessário, a orientação de um profissional de saúde.</p>",
       composicao: "<ul>\n<li>Pantotenato de cálcio — MG</li>\n<li>Cisteína — MG</li>\n<li>Tiamina cloridrato — MG</li>\n<li>Levedura medicinal — MG</li>\n<li>Queratina pó — MG</li>\n<li>Ácido aminobenzoico — MG</li>\n<li>Biotina — MG</li>\n<li>Silício quelato — MG</li>\n<li>Ferro quelato — MG</li>\n</ul><p><strong>Apresentação:</strong> 60 Cápsulas</p>",
       comoUsar: "<p>Utilize o produto <strong>conforme as instruções do fabricante</strong> ou de acordo com a orientação de médico, nutricionista ou outro profissional de saúde habilitado. Não altere a forma de utilização recomendada sem orientação profissional.</p>",
-      advertencias: "<p>Este produto deve ser utilizado de acordo com sua finalidade e orientação de uso. <strong>Não exceda a recomendação de uso</strong> indicada pelo fabricante ou profissional de saúde. Mantenha fora do alcance de crianças e conserve o produto conforme as orientações de armazenamento da embalagem.</p><p>Em caso de dúvidas sobre a utilização, especialmente durante períodos de gestação, amamentação ou diante de condições específicas de saúde, procure orientação de um profissional de saúde antes do uso.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
+      advertencias: "<p>Este produto deve ser utilizado de acordo com sua finalidade e orientação de uso. <strong>N��o exceda a recomendação de uso</strong> indicada pelo fabricante ou profissional de saúde. Mantenha fora do alcance de crianças e conserve o produto conforme as orientações de armazenamento da embalagem.</p><p>Em caso de dúvidas sobre a utilização, especialmente durante períodos de gestação, amamentação ou diante de condições específicas de saúde, procure orientação de um profissional de saúde antes do uso.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
     },
     destaque: true,
     mostrarlancamento: false,
@@ -1453,8 +1453,8 @@ const produtos = [
     ],
     descricao: {
       resumo: "<p><strong>TPC com Clomifeno</strong> é uma fórmula desenvolvida para auxiliar na <strong>recuperação e equilíbrio hormonal masculino</strong>, oferecendo suporte à produção natural de testosterona, libido, disposição, próstata e metabolismo.</p>",
-      oQueE: "<p>O <strong>TPC com Clomifeno</strong> é uma fórmula composta por ativos selecionados para oferecer suporte ao <strong>equilíbrio hormonal masculino</strong>, especialmente em situações relacionadas à redução da produção natural de testosterona.</p><p>Sua finalidade é <strong>auxiliar na recuperação do equilíbrio hormonal</strong>, contribuindo para o suporte à produção natural de testosterona, à libido e à disposição, além de oferecer componentes voltados ao suporte da próstata, função urinária, fígado e metabolismo.</p><p>Pode ser indicado para <strong>homens que necessitam de suporte à recuperação e ao equilíbrio hormonal</strong>, conforme avaliação e orientação de profissional habilitado. A utilização de seus componentes hormonais deve ser acompanhada por orientação profissional.</p>",
-      composicao: "<ul>\n<li>Silimarina — 150MG</li>\n<li>Pygeum Africanum — 80MG</li>\n<li>Indol 3 Carbinol — 30MG</li>\n<li>Urtiga Dioica Extrato Seco — 80MG</li>\n<li>Tribulus Terrestris L. — 200MG</li>\n<li>Metionina — 50MG</li>\n<li>Tamoxifeno Citrato — 10MG</li>\n<li>Clomifeno Cloridrato — 50MG</li>\n</ul><p><strong>Apresentação:</strong> 60 Cápsulas</p>",
+      oQueE: "<p>O <strong>TPC com Clomifeno</strong> é uma f��rmula composta por ativos selecionados para oferecer suporte ao <strong>equilíbrio hormonal masculino</strong>, especialmente em situações relacionadas à redução da produção natural de testosterona.</p><p>Sua finalidade é <strong>auxiliar na recuperação do equilíbrio hormonal</strong>, contribuindo para o suporte à produção natural de testosterona, à libido e à disposição, além de oferecer componentes voltados ao suporte da próstata, função urinária, fígado e metabolismo.</p><p>Pode ser indicado para <strong>homens que necessitam de suporte à recuperação e ao equilíbrio hormonal</strong>, conforme avaliação e orientação de profissional habilitado. A utilização de seus componentes hormonais deve ser acompanhada por orientação profissional.</p>",
+      composicao: "<ul>\n<li>Silimarina — 150MG</li>\n<li>Pygeum Africanum — 80MG</li>\n<li>Indol 3 Carbinol — 30MG</li>\n<li>Urtiga Dioica Extrato Seco — 80MG</li>\n<li>Tribulus Terrestris L. — 200MG</li>\n<li>Metionina — 50MG</li>\n<li>Tamoxifeno Citrato — 10MG</li>\n<li>Clomifeno Cloridrato ��� 50MG</li>\n</ul><p><strong>Apresentação:</strong> 60 Cápsulas</p>",
       comoUsar: "<p>Utilize o produto <strong>conforme as instruções do fabricante ou orientação de profissional habilitado</strong>. Não utilize por conta própria nem altere a forma de uso recomendada.</p>",
       advertencias: "<p>Este produto deve ser utilizado de acordo com as orientações do fabricante ou de profissional habilitado. Em caso de dúvidas sobre sua utilização, procure orientação profissional.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
     },
@@ -1537,7 +1537,7 @@ const produtos = [
       oQueE: "<p>O <strong>Biosil 520mg</strong> é um produto desenvolvido com ácido ortosilícico estabilizado em colina, utilizando a tecnologia ch-OSA™, que proporciona estabilidade e biodisponibilidade ao ingrediente.</p><p>É utilizado como suporte aos cuidados com <strong>pele, cabelos, unhas, ossos e articulações</strong>, estando relacionado à ativação das vias de produção de colágeno. Entre as finalidades descritas pelo fabricante estão auxiliar na elasticidade da pele, fortalecer os fios de cabelo, reduzir a fragilidade das unhas e contribuir para a redução da profundidade das linhas de expressão.</p><p>É indicado para adultos que buscam complementar os cuidados com a <strong>saúde da pele, cabelos, unhas, ossos e articulações</strong>. Pessoas com hipersensibilidade à substância não devem fazer uso do produto.</p>",
       composicao: "<ul>\n<li>BIOSIL — 520MG</li>\n</ul><p><strong>Apresentação:</strong> 30 Cápsulas</p>",
       comoUsar: "<p>Tomar <strong>1 cápsula ao dia</strong>.</p>",
-      advertencias: "<p>Pessoas com hipersensibilidade à substância não devem fazer uso do produto. Em caso de hipersensibilidade ao produto, recomenda-se descontinuar o uso e consultar o médico. Não use o produto com o prazo de validade vencido. Manter em temperatura ambiente (15 a 30ºC), protegido da luz, do calor e da umidade e fora do alcance das crianças.</p><p>Mulheres grávidas não devem utilizar o produto sem orientação médica. O uso durante o período de amamentação não é recomendado. Este produto não deve ser utilizado por menores de 18 anos sem orientação médica. Nunca compre medicamento sem orientação de um profissional habilitado. Siga corretamente o modo de usar e, caso os sintomas não desapareçam, procure orientação médica.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
+      advertencias: "<p>Pessoas com hipersensibilidade à substância não devem fazer uso do produto. Em caso de hipersensibilidade ao produto, recomenda-se descontinuar o uso e consultar o médico. Não use o produto com o prazo de validade vencido. Manter em temperatura ambiente (15 a 30ºC), protegido da luz, do calor e da umidade e fora do alcance das crianças.</p><p>Mulheres grávidas não devem utilizar o produto sem orientação médica. O uso durante o período de amamentação não é recomendado. Este produto não deve ser utilizado por menores de 18 anos sem orientação médica. Nunca compre medicamento sem orientação de um profissional habilitado. Siga corretamente o modo de usar e, caso os sintomas não desapareçam, procure orientação médica.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indica��ões referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
     },
     destaque: false,
     mostrarlancamento: false,
@@ -1670,7 +1670,7 @@ const produtos = [
     descricao: {
       resumo: "<p>Uma combinação de <strong>Vitamina D3 e Vitamina K2 MK-7</strong> que atua de forma complementar no organismo, oferecendo suporte à saúde óssea, ao metabolismo do cálcio e ao funcionamento adequado do sistema imunológico.</p>",
       oQueE: "<p>A <strong>Vitamina D3 + Vitamina K2 MK-7</strong> reúne duas vitaminas importantes para o organismo em uma fórmula prática, desenvolvida para complementar a ingestão desses nutrientes.</p><p>A Vitamina D3 contribui para a <strong>absorção e utilização do cálcio</strong>, participando da manutenção da saúde óssea e do funcionamento adequado do sistema imunológico. A Vitamina K2, na forma MK-7, participa do metabolismo do cálcio e contribui para a manutenção da saúde dos ossos e dos vasos sanguíneos.</p><p>Pode ser indicada para adultos que necessitem complementar a ingestão dessas vitaminas, especialmente quando houver orientação de um <strong>profissional de saúde</strong> para sua utilização.</p>",
-      composicao: "<ul>\n<li>VITAMINA D3 — 10000UI</li>\n<li>VITAMINA K2-MK7 — 200MCG</li>\n</ul><p><strong>Apresentação:</strong> 30 Cápsulas</p>",
+      composicao: "<ul>\n<li>VITAMINA D3 — 10000UI</li>\n<li>VITAMINA K2-MK7 — 200MCG</li>\n</ul><p><strong>Apresenta��ão:</strong> 30 Cápsulas</p>",
       comoUsar: "<p>Utilize o produto conforme as <strong>instruções do fabricante</strong> ou de acordo com a orientação de um profissional de saúde. Não altere a forma de uso recomendada sem orientação profissional.</p>",
       advertencias: "<p>Este produto deve ser utilizado conforme as orientações do fabricante. Em caso de dúvidas sobre a utilização, procure a orientação de um profissional de saúde.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
     },
@@ -1861,7 +1861,7 @@ const produtos = [
       oQueE: "<p>O Ácido Alfa Lipóico é um composto com ação antioxidante que participa de processos relacionados à produção de energia nas células. Sua fórmula em cápsulas oferece uma maneira prática de complementar a ingestão desse composto.</p><p>Sua principal finalidade é oferecer <strong>suporte antioxidante e metabólico</strong>, contribuindo para a neutralização de radicais livres e para processos relacionados ao metabolismo energético. Também é estudado em contextos relacionados à sensibilidade à insulina e à resposta inflamatória.</p><p>É indicado para <strong>adultos</strong> que desejam complementar sua rotina de cuidados com suporte antioxidante e metabólico. Pessoas que estejam em tratamento de condições de saúde, especialmente relacionadas ao metabolismo, devem utilizar o produto com orientação de um profissional habilitado.</p>",
       composicao: "<ul>\n<li>ACIDO ALFA LIPOICO — 250MG</li>\n</ul><p><strong>Apresentação:</strong> 60 Cápsulas</p>",
       comoUsar: "<p>Tomar de <strong>1 cápsula a 2 cápsulas ao dia</strong>, ingerindo a cápsula com água.</p><p>Como opção de uso, tomar 1 cápsula após o almoço. Ou então, tomar 1 cápsula após o almoço e 1 cápsula após o jantar.</p>",
-      advertencias: "<p>Pessoas com hipersensibilidade à substância não devem fazer uso do produto. Em caso de hipersensibilidade ao produto, recomenda-se descontinuar o uso e consultar o médico. Imagens meramente ilustrativas. Não use o produto com o prazo de validade vencido.</p><p>Manter em temperatura ambiente (15 a 30ºC). Proteger da luz, do calor e da umidade. Nestas condições, o produto se manterá próprio para o consumo, respeitando o prazo de validade indicado na embalagem. Manter fora do alcance das crianças.</p><p>Nunca compre um produto sem orientação de um profissional habilitado. Este produto não deve ser utilizado por mulheres grávidas sem orientação médica. Siga corretamente o modo de usar. Não desaparecendo os sintomas, procure orientação médica. O uso do produto durante o período de amamentação também não é recomendado. Este produto não deve ser utilizado por menores de 18 anos sem orientação médica.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
+      advertencias: "<p>Pessoas com hipersensibilidade à substância não devem fazer uso do produto. Em caso de hipersensibilidade ao produto, recomenda-se descontinuar o uso e consultar o médico. Imagens meramente ilustrativas. Não use o produto com o prazo de validade vencido.</p><p>Manter em temperatura ambiente (15 a 30ºC). Proteger da luz, do calor e da umidade. Nestas condições, o produto se manterá próprio para o consumo, respeitando o prazo de validade indicado na embalagem. Manter fora do alcance das crianças.</p><p>Nunca compre um produto sem orientação de um profissional habilitado. Este produto não deve ser utilizado por mulheres grávidas sem orientação médica. Siga corretamente o modo de usar. Não desaparecendo os sintomas, procure orientação médica. O uso do produto durante o período de amamentação também não é recomendado. Este produto não deve ser utilizado por menores de 18 anos sem orientação médica.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicaç��es referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
     },
     destaque: false,
     mostrarlancamento: false,
@@ -2100,7 +2100,7 @@ const produtos = [
       
     ],
     descricao: {
-      resumo: "<p>Fórmula desenvolvida para complementar a rotina de cuidados com a <strong>pele, tecidos conjuntivos e prote��ão antioxidante</strong>, reunindo retinol, vitaminas, colágeno, ácido hialurônico e silício orgânico.</p>",
+      resumo: "<p>Fórmula desenvolvida para complementar a rotina de cuidados com a <strong>pele, tecidos conjuntivos e proteção antioxidante</strong>, reunindo retinol, vitaminas, colágeno, ácido hialurônico e silício orgânico.</p>",
       oQueE: "<p>O 8:1 RETINOL é um suplemento alimentar que combina diferentes nutrientes e compostos utilizados em fórmulas voltadas à manutenção da pele e dos tecidos, incluindo retinol, vitaminas C, E e K2-MK7, Verisol®, ácido hialurônico, trans-resveratrol e silício orgânico.</p><p>Sua composição fornece nutrientes relacionados à <strong>manutenção da pele, formação de colágeno e proteção das células contra o estresse oxidativo</strong>, além de componentes associados à hidratação e à manutenção dos tecidos conjuntivos.</p><p>É indicado para adultos que desejam complementar a ingestão de nutrientes associados à <strong>saúde da pele e dos tecidos</strong>, considerando as necessidades individuais, uma alimentação equilibrada e orientação de profissional de saúde quando necessário.</p>",
       composicao: "<ul>\n<li>RETINOL PO — MG</li>\n<li>VIT K2-MK7 — MCG</li>\n<li>TRANS RESVERATROL EXTRATO — MG</li>\n<li>VERISOL — MG</li>\n<li>VIT C REVESTIDA — MG</li>\n<li>VIT E — MG</li>\n<li>ACIDO HIALURONICO PO — MG</li>\n<li>SILICIO ORGANICO — MG</li>\n</ul><p><strong>Apresentação:</strong> 30 Cápsulas</p>",
       comoUsar: "<p>Utilize o produto conforme as <strong>instruções do fabricante</strong> ou de acordo com a orientação de médico, nutricionista ou outro profissional habilitado. Não altere a forma de uso recomendada.</p>",
@@ -2212,7 +2212,7 @@ const produtos = [
       oQueE: "<p>ACTRISAVE 250mg é uma fórmula composta por <strong>Actrisave</strong>, desenvolvida para atuar como suporte no cuidado capilar e na manutenção da saúde dos fios e do couro cabeludo.</p><p>Sua finalidade é <strong>auxiliar na redução da queda capilar</strong>, contribuir para o crescimento dos fios na fase anágena, favorecer a saúde do couro cabeludo e auxiliar no controle da oleosidade, além de oferecer ação antioxidante.</p><p>Pode ser indicado para pessoas que buscam suporte no <strong>cuidado com a saúde capilar</strong>, especialmente em situações relacionadas à queda dos fios e à oleosidade, mediante orientação de profissional habilitado.</p>",
       composicao: "<ul>\n<li>ACTRISAVE — 250MG</li>\n</ul><p><strong>Apresentação:</strong> 30 Cápsulas</p>",
       comoUsar: "<p>Tomar <strong>1 cápsula ao dia</strong> ou conforme orientação profissional.</p>",
-      advertencias: "<p>Pessoas com hipersensibilidade à substância não devem fazer uso do produto. Em caso de hipersensibilidade ao produto, recomenda-se descontinuar o uso e consultar o médico. Não use o produto com o prazo de validade vencido. Manter em temperatura ambiente (15 a 30ºC), protegido da luz, do calor e da umidade. Manter fora do alcance das crianças.</p><p>Este produto não deve ser utilizado por mulheres grávidas sem orientação médica. O uso do produto durante o período de amamenta��ão também não é recomendado. Este produto não deve ser utilizado por menores de 18 anos sem orientação médica. Siga corretamente o modo de usar. Não desaparecendo os sintomas, procure orientação médica.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
+      advertencias: "<p>Pessoas com hipersensibilidade à substância não devem fazer uso do produto. Em caso de hipersensibilidade ao produto, recomenda-se descontinuar o uso e consultar o médico. Não use o produto com o prazo de validade vencido. Manter em temperatura ambiente (15 a 30ºC), protegido da luz, do calor e da umidade. Manter fora do alcance das crianças.</p><p>Este produto não deve ser utilizado por mulheres grávidas sem orientação médica. O uso do produto durante o período de amamentação também não é recomendado. Este produto não deve ser utilizado por menores de 18 anos sem orientação médica. Siga corretamente o modo de usar. Não desaparecendo os sintomas, procure orientação médica.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
     },
     destaque: false,
     mostrarlancamento: false,
@@ -2428,7 +2428,7 @@ const produtos = [
       oQueE: "<p>A N-Acetilcisteína (NAC) é um composto utilizado como precursor da <strong>glutationa</strong>, um importante antioxidante produzido pelo organismo. A fórmula fornece 500 mg de N-Acetilcisteína por cápsula.</p><p>Sua finalidade é complementar estratégias voltadas à <strong>defesa antioxidante e ao bem-estar respiratório</strong>. A NAC também apresenta propriedades mucolíticas, contribuindo para a fluidificação das secreções respiratórias.</p><p>Pode ser indicada para pessoas que buscam <strong>suporte antioxidante e respiratório</strong>, incluindo praticantes de atividades físicas que desejam complementar sua rotina de cuidados. Seu uso deve considerar as necessidades individuais e orientação de profissional habilitado.</p>",
       composicao: "<ul>\n<li>N ACETIL CISTEINA — 500MG</li>\n</ul><p><strong>Apresentação:</strong> 60 Cápsulas</p>",
       comoUsar: "<p>Tomar <strong>1 cápsula ao dia</strong>. O consumo da N-Acetilcisteína (NAC) deve ser feito em conjunto com água.</p><p>A cápsula pode ser tomada <strong>em jejum</strong> ou <strong>após o almoço</strong>, conforme a orientação fornecida.</p>",
-      advertencias: "<p>Pessoas com hipersensibilidade à substância não devem fazer uso do produto. Em caso de hipersensibilidade ao produto, recomenda-se descontinuar o uso e consultar o médico. Não use o produto com o prazo de validade vencido. Manter em temperatura ambiente (15 a 30ºC), protegido da luz, do calor e da umidade. Manter fora do alcance das crianças. Nunca compre um produto sem orientação de um profissional habilitado. Este produto não deve ser utilizado por mulheres grávidas sem orientação médica. O uso durante o período de amamentação e por menores de 18 anos deve ocorrer somente mediante orientação médica. Siga corretamente o modo de usar.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
+      advertencias: "<p>Pessoas com hipersensibilidade à substância não devem fazer uso do produto. Em caso de hipersensibilidade ao produto, recomenda-se descontinuar o uso e consultar o médico. Não use o produto com o prazo de validade vencido. Manter em temperatura ambiente (15 a 30ºC), protegido da luz, do calor e da umidade. Manter fora do alcance das crianças. Nunca compre um produto sem orientação de um profissional habilitado. Este produto não deve ser utilizado por mulheres grávidas sem orientação médica. O uso durante o período de amamentação e por menores de 18 anos deve ocorrer somente mediante orientação médica. Siga corretamente o modo de usar.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVER�� SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
     },
     destaque: false,
     mostrarlancamento: false,
@@ -2480,7 +2480,7 @@ const produtos = [
     descricao: {
       resumo: "<p>A N-Acetilcisteína (NAC) 600 mg é uma fórmula desenvolvida para complementar cuidados com a <strong>proteção antioxidante e a saúde respiratória</strong>, fornecendo um precursor da glutationa.</p>",
       oQueE: "<p>A N-Acetilcisteína (NAC) é um composto utilizado como precursor da <strong>glutationa</strong>, um importante antioxidante produzido pelo organismo. A fórmula fornece 600 mg de N-Acetilcisteína por cápsula.</p><p>Sua finalidade é complementar estratégias voltadas à <strong>defesa antioxidante e ao bem-estar respiratório</strong>. A NAC também apresenta propriedades mucolíticas, contribuindo para a fluidificação das secreções respiratórias.</p><p>Pode ser indicada para pessoas que buscam <strong>suporte antioxidante e respiratório</strong>, incluindo praticantes de atividades físicas que desejam complementar sua rotina de cuidados. Seu uso deve considerar as necessidades individuais e orientação de profissional habilitado.</p>",
-      composicao: "<ul>\n<li>N ACETIL CISTEINA — 600MG</li>\n</ul><p><strong>Apresentaç��o:</strong> 60 Cápsulas</p>",
+      composicao: "<ul>\n<li>N ACETIL CISTEINA — 600MG</li>\n</ul><p><strong>Apresentação:</strong> 60 Cápsulas</p>",
       comoUsar: "<p>Tomar <strong>1 cápsula ao dia</strong>. O consumo da N-Acetilcisteína (NAC) deve ser feito em conjunto com água.</p><p>A cápsula pode ser tomada <strong>em jejum</strong> ou <strong>após o almoço</strong>, conforme a orientação fornecida.</p>",
       advertencias: "<p>Pessoas com hipersensibilidade à substância não devem fazer uso do produto. Em caso de hipersensibilidade ao produto, recomenda-se descontinuar o uso e consultar o médico. Não use o produto com o prazo de validade vencido. Manter em temperatura ambiente (15 a 30ºC), protegido da luz, do calor e da umidade. Manter fora do alcance das crianças. Nunca compre um produto sem orientação de um profissional habilitado. Este produto não deve ser utilizado por mulheres grávidas sem orientação médica. O uso durante o período de amamentação e por menores de 18 anos deve ocorrer somente mediante orientação médica. Siga corretamente o modo de usar.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
     },
@@ -2673,7 +2673,7 @@ const produtos = [
       comoUsar: "<p>Tomar <strong>2 cápsulas ao dia</strong>, sendo 1 cápsula antes do almoço e 1 cápsula antes de dormir, ou conforme orientação profissional.</p>",
       advertencias: "<p>Utilize o produto conforme a orientação de uso. Em caso de dúvidas sobre a utilização ou necessidade de suplementação, procure orientação de um profissional de saúde.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
     },
-    destaque: false,
+    destaque: true,
     mostrarlancamento: false,
     mostrarVideo: false,
     textoParcelamento: "🎟️ Cupom válido no carrinho. 💳 Consulte parcelamento no checkout",
@@ -2726,6 +2726,114 @@ const produtos = [
       composicao: "<ul>\n<li>MAGNESIO DIMALATO — 300MG</li>\n</ul><p><strong>Apresentação:</strong> 60 Cápsulas</p>",
       comoUsar: "<p>Tomar de <strong>1 a 3 cápsulas diariamente</strong> com um copo de água.</p><p>Para obter os benefícios do Magnésio Dimalato, é importante seguir a dosagem recomendada e incorporá-lo à sua rotina diária.</p>",
       advertencias: "<p>Utilize o produto conforme a orientação de uso. Em caso de dúvidas sobre a utilização ou necessidade de suplementação, procure orientação de um profissional de saúde.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
+    },
+    destaque: true,
+    mostrarlancamento: false,
+    mostrarVideo: false,
+    textoParcelamento: "🎟️ Cupom válido no carrinho. 💳 Consulte parcelamento no checkout",
+    cupomAtivo: false,
+    cupomPorcentagem: 0,
+    cupomCodigo: "",
+    cupomValidade: "",
+    cupomMensagemTag: "",
+    cupomOcultarTag: false
+  },
+  {
+    id: "118",
+    nome: "MAGNÉSIO GLICINATO 25Omg - 30 Cápsulas",
+    categoria: "desempenhofisico",
+    preco: 50.00,
+    imagem: "assets/img/magnesio-glicinato-25omg-30-capsulas-mupg9evq.png",
+    videos: [
+      
+    ],
+    descricao: {
+      resumo: "<p><strong>Magnésio Glicinato 250 mg</strong> é uma fonte de magnésio em uma forma geralmente bem tolerada, desenvolvida para complementar a ingestão desse mineral e auxiliar em funções importantes do organismo.</p>",
+      oQueE: "<p>O <strong>Magnésio Glicinato 250 mg</strong> é uma forma de magnésio ligada ao aminoácido glicina, utilizada como fonte desse mineral essencial para o organismo.</p><p>O magnésio auxilia no <strong>funcionamento normal do sistema nervoso e muscular</strong>, participa do metabolismo energético, contribui para a redução do cansaço e da fadiga e auxilia na manutenção do equilíbrio eletrolítico, além de contribuir para a manutenção de ossos e dentes.</p><p>É recomendado para pessoas que desejam <strong>complementar a ingestão de magnésio</strong>, especialmente quando a alimentação não fornece quantidade suficiente desse mineral, sempre considerando as orientações do fabricante ou de um profissional de saúde.</p>",
+      composicao: "<ul>\n<li>Magnésio Glicinato — 250 mg</li>\n</ul><p><strong>Apresentação:</strong> 30 Cápsulas</p>",
+      comoUsar: "<p>Utilize o produto conforme as <strong>instruções do fabricante</strong> presentes na embalagem ou de acordo com a orientação de um profissional de saúde. Não exceda a recomendação indicada.</p>",
+      advertencias: "<p>Este produto deve ser utilizado de acordo com as orientações do fabricante. Em caso de dúvidas sobre o uso, procure orientação de um profissional de saúde.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
+    },
+    destaque: false,
+    mostrarlancamento: false,
+    mostrarVideo: false,
+    textoParcelamento: "🎟️ Cupom válido no carrinho. 💳 Consulte parcelamento no checkout",
+    cupomAtivo: false,
+    cupomPorcentagem: 0,
+    cupomCodigo: "",
+    cupomValidade: "",
+    cupomMensagemTag: "",
+    cupomOcultarTag: false
+  },
+  {
+    id: "119",
+    nome: "MAGNÉSIO INOSITOL RELAX - 30 Cápsulas",
+    categoria: "saude",
+    preco: 70.00,
+    imagem: "assets/img/magnesio-inositol-relax-30-capsulas-mupg8bp5.png",
+    videos: [
+      
+    ],
+    descricao: {
+      resumo: "<p><strong>Magnésio Inositol Relax</strong> combina vitamina B6, magnésio quelato e inositol em uma fórmula desenvolvida para complementar a ingestão desses nutrientes e apoiar o <strong>funcionamento do sistema nervoso</strong> e o metabolismo energético.</p>",
+      oQueE: "<p>O <strong>Magnésio Inositol Relax</strong> é um suplemento alimentar que reúne vitamina B6, magnésio quelato e inositol em uma única formulação, oferecendo uma combinação de nutrientes importantes para o organismo.</p><p>A fórmula auxilia o <strong>funcionamento normal do sistema nervoso</strong>, contribui para o metabolismo energético e para a redução do cansaço e da fadiga. O magnésio também contribui para o funcionamento normal dos músculos e para o equilíbrio eletrolítico, enquanto a vitamina B6 participa do metabolismo de proteínas e glicogênio e contribui para o funcionamento normal do sistema imune.</p><p>É indicado para <strong>adultos que desejam complementar a ingestão de vitamina B6, magnésio e inositol</strong>, dentro de uma rotina que busque adequada ingestão de nutrientes e suporte às funções metabólicas e neurológicas.</p>",
+      composicao: "<ul>\n<li>VIT B6 — 1.3MG</li>\n<li>MAGNESIO QUELATO — 350MG</li>\n<li>INOSITOL — 730MG</li>\n</ul><p><strong>Apresentação:</strong> 30 Cápsulas</p>",
+      comoUsar: "<p>Utilize o produto conforme as <strong>instruções do fabricante</strong> presentes na embalagem ou de acordo com a orientação de um profissional de saúde. Não exceda a recomendação indicada.</p>",
+      advertencias: "<p>Este produto deve ser utilizado de acordo com as orientações do fabricante. Em caso de dúvidas sobre o uso, procure orientação de um profissional de saúde.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
+    },
+    destaque: false,
+    mostrarlancamento: false,
+    mostrarVideo: false,
+    textoParcelamento: "🎟️ Cupom válido no carrinho. 💳 Consulte parcelamento no checkout",
+    cupomAtivo: false,
+    cupomPorcentagem: 0,
+    cupomCodigo: "",
+    cupomValidade: "",
+    cupomMensagemTag: "",
+    cupomOcultarTag: false
+  },
+  {
+    id: "120",
+    nome: "IMUNOGLUCAN DS - 60 Cápsulas",
+    categoria: "saude",
+    preco: 80.00,
+    imagem: "assets/img/imunoglucan-ds-60-capsulas-mupgj4um.png",
+    videos: [
+      
+    ],
+    descricao: {
+      resumo: "<p><strong>Imunoglucan DS</strong> combina betaglucanas, zinco e vitamina C em uma fórmula desenvolvida para complementar a ingestão de nutrientes importantes para o <strong>funcionamento normal do sistema imunológico</strong> e a proteção das células contra o estresse oxidativo.</p>",
+      oQueE: "<p>O <strong>Imunoglucan DS</strong> é um suplemento alimentar que reúne betaglucanas, zinco e vitamina C em uma única formulação, oferecendo uma combinação de nutrientes importantes para diferentes funções do organismo.</p><p>A fórmula auxilia o <strong>funcionamento normal do sistema imunológico</strong>. A vitamina C e o zinco contribuem para a proteção das células contra os danos causados pelos radicais livres, enquanto a vitamina C também contribui para o metabolismo energético e para a redução do cansaço e da fadiga.</p><p>É indicado para <strong>adultos que desejam complementar a ingestão de nutrientes relacionados ao sistema imunológico</strong>, especialmente dentro de uma rotina que busca uma adequada ingestão nutricional e uma alimentação equilibrada.</p>",
+      composicao: "<ul>\n<li>BETAGLUCANAS — 190MG</li>\n<li>ZINCO — 7MG</li>\n<li>VIT C — 50MG</li>\n</ul><p><strong>Apresentação:</strong> 60 Cápsulas</p>",
+      comoUsar: "<p>Utilize o produto conforme as <strong>instruções do fabricante</strong> presentes na embalagem ou de acordo com a orientação de um profissional de saúde. Não exceda a recomendação indicada.</p>",
+      advertencias: "<p>Este produto deve ser utilizado de acordo com as orientações do fabricante. Em caso de dúvidas sobre o uso, procure orientação de um profissional de saúde.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
+    },
+    destaque: true,
+    mostrarlancamento: false,
+    mostrarVideo: false,
+    textoParcelamento: "🎟️ Cupom válido no carrinho. 💳 Consulte parcelamento no checkout",
+    cupomAtivo: false,
+    cupomPorcentagem: 0,
+    cupomCodigo: "",
+    cupomValidade: "",
+    cupomMensagemTag: "",
+    cupomOcultarTag: false
+  },
+  {
+    id: "121",
+    nome: "ENZIMAS DIGESTIVAS - 60 Cápsulas",
+    categoria: "saude",
+    preco: 80.00,
+    imagem: "assets/img/enzimas-digestivas-60-capsulas-mupgu2vv.png",
+    videos: [
+      
+    ],
+    descricao: {
+      resumo: "<p><strong>Enzimas Digestivas</strong> combina enzimas selecionadas para oferecer <strong>suporte ao processo digestivo</strong>, auxiliando na digestão de proteínas, gorduras e carboidratos e contribuindo para um melhor aproveitamento dos nutrientes presentes nos alimentos.</p>",
+      oQueE: "<p>O <strong>Enzimas Digestivas</strong> é um suplemento alimentar que reúne diferentes enzimas em uma única fórmula, incluindo papaína, bromelina, lactase, amilase, lipase e pancreatina, além de fucoxantina.</p><p>A fórmula oferece suporte à <strong>digestão de diferentes componentes dos alimentos</strong>. A papaína e a bromelina atuam na digestão de proteínas, a lipase participa da digestão de gorduras, a amilase auxilia na digestão de carboidratos e a lactase auxilia na digestão da lactose. A pancreatina complementa a formulação com enzimas digestivas.</p><p>É indicado para <strong>adultos que buscam suporte digestivo</strong>, especialmente aqueles que desejam auxiliar o processo de digestão e o aproveitamento dos nutrientes durante a alimentação. O uso deve considerar as orientações do fabricante ou de um profissional de saúde.</p>",
+      composicao: "<ul>\n<li>PAPAINA — 30MG</li>\n<li>BROMELINA — 60MG</li>\n<li>LACTASE — 40MG</li>\n<li>AMILASE — 50MG</li>\n<li>LIPASE — 25MG</li>\n<li>PANCREATINA — 250MG</li>\n<li>FUCOXANTINA — 80MG</li>\n</ul><p><strong>Apresentação:</strong> 60 Cápsulas</p>",
+      comoUsar: "<p>Utilize o produto conforme as <strong>instruções do fabricante</strong> presentes na embalagem ou de acordo com a orientação de um profissional de saúde. Não exceda a recomendação indicada.</p>",
+      advertencias: "<p>Este produto deve ser utilizado de acordo com as orientações do fabricante. Em caso de dúvidas sobre o uso, procure orientação de um profissional de saúde.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
     },
     destaque: true,
     mostrarlancamento: false,
