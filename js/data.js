@@ -214,7 +214,7 @@ const produtos = [
       oQueE: "<p>O Ácido Salicílico 40% é um creme de uso tópico formulado com alta concentração de ácido salicílico, destinado ao cuidado de áreas com <strong>espessamento da pele</strong>.</p><p>Sua finalidade é <strong>auxiliar na remoção de calosidades, hiperqueratoses e áreas de pele espessada</strong>. Também pode ser indicado para verrugas, conforme avaliação profissional.</p><p>É recomendado para pessoas que apresentam <strong>calosidades, hiperqueratoses ou verrugas</strong> e que tenham indicação adequada para utilização do produto, preferencialmente mediante orientação profissional.</p>",
       composicao: "<ul>\n<li>ACIDO SALICILICO — 40%</li>\n<li>SEM ESSENCIA MG — 0%</li>\n<li>CREME BASE — 30GR</li>\n</ul><p><strong>Apresentação:</strong> Creme 30g - Validade 4 meses</p>",
       comoUsar: "<p>Utilize o produto conforme as <strong>instruções do fabricante</strong> ou de acordo com a orientação de um profissional habilitado. Não utilize dose, frequência ou horário diferentes daqueles recomendados para o produto.</p>",
-      advertencias: "<p>Uso conforme orientação do fabricante ou profissional. Mantenha o produto adequadamente armazenado e fora do alcance de crianças. Em caso de dúvidas sobre a utilização, procure orientação profissional.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
+      advertencias: "<p>Uso conforme orienta��ão do fabricante ou profissional. Mantenha o produto adequadamente armazenado e fora do alcance de crianças. Em caso de dúvidas sobre a utilização, procure orientação profissional.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
     },
     destaque: false,
     mostrarlancamento: false,
@@ -320,7 +320,7 @@ const produtos = [
     descricao: {
       resumo: "<p>O Fluconazol + Trivalin é uma solução desenvolvida para <strong>auxiliar no cuidado antifúngico das unhas</strong>, reunindo diferentes componentes em uma formulação de uso tópico.</p>",
       oQueE: "<p>O <strong>Fluconazol + Trivalin</strong> é uma solução de uso tópico formulada com fluconazol, óleo de melaleuca, óleo de cravo essencial, Trivalin SF e óleo de girassol.</p><p>Sua finalidade é <strong>auxiliar no cuidado antifúngico das unhas</strong>, oferecendo uma formulação destinada ao cuidado tópico relacionado à presença de fungos nas unhas.</p><p>Pode ser indicado para pessoas que necessitam de um produto destinado ao <strong>cuidado antifúngico das unhas</strong>, devendo sua utilização seguir as orientações do fabricante ou de um profissional habilitado.</p>",
-      composicao: "<ul>\n<li>FLUCONAZOL — 0.2%</li>\n<li>OLEO DE MELALEUCA — 2%</li>\n<li>OLEO DE CRAVO ESSENCIAL — 2%</li>\n<li>TRIVALIN SF — 2%</li>\n<li>OLEO DE GIRASSOL �� 10ML</li>\n</ul><p><strong>Apresentação:</strong> Solução 10ml - Validade 4 meses</p>",
+      composicao: "<ul>\n<li>FLUCONAZOL — 0.2%</li>\n<li>OLEO DE MELALEUCA — 2%</li>\n<li>OLEO DE CRAVO ESSENCIAL — 2%</li>\n<li>TRIVALIN SF — 2%</li>\n<li>OLEO DE GIRASSOL — 10ML</li>\n</ul><p><strong>Apresentação:</strong> Solução 10ml - Validade 4 meses</p>",
       comoUsar: "<p>Utilize o produto conforme as <strong>instruções do fabricante</strong> ou de acordo com a orientação de um profissional habilitado. Não altere a forma de utilização recomendada sem orientação profissional.</p>",
       advertencias: "<p>Utilize o produto somente conforme as orientações fornecidas pelo fabricante. Em caso de dúvidas sobre a utilização, procure orientação de um profissional habilitado. Mantenha o produto em condições adequadas de armazenamento e fora do alcance de crianças.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
     },
@@ -1101,7 +1101,7 @@ const produtos = [
       
     ],
     descricao: {
-      resumo: "<p>O <strong>Testo Black Femme</strong> é uma fórmula em cápsulas desenvolvida para complementar a rotina de suplementação, com foco em vitalidade, desempenho físico e sexual e suporte aos n��veis de testosterona.</p>",
+      resumo: "<p>O <strong>Testo Black Femme</strong> é uma fórmula em cápsulas desenvolvida para complementar a rotina de suplementação, com foco em vitalidade, desempenho físico e sexual e suporte aos níveis de testosterona.</p>",
       oQueE: "<p>Testo Black Femme é um suplemento em cápsulas composto por Feno Grego, Selenoforce, Maca Peruana, Arginina Cloridrato, Picolinato de Cromo e Ginseng Panax, desenvolvido para integrar uma rotina de cuidados voltada à <strong>energia, vitalidade e desempenho</strong>.</p><p>Sua finalidade está relacionada ao suporte aos níveis de testosterona, ao aumento do fluxo sanguíneo e ao desempenho físico e sexual, conforme a finalidade informada para o produto. Sua utilização deve ser associada a hábitos de vida equilibrados e prática regular de exercícios.</p><p>De acordo com as informações fornecidas, o produto é destinado a <strong>adultos</strong> que buscam complementar sua rotina de suplementação com foco em vitalidade, desempenho físico e sexual e desenvolvimento muscular. Recomenda-se acompanhamento médico antes de iniciar a suplementação.</p>",
       composicao: "<ul>\n<li>FENO GREGO EXTRATO — 125MG</li>\n<li>SELENOFORCE — 12,5MCG</li>\n<li>MACA PERUANA — 150MG</li>\n<li>ARGINA CLORIDRATO — 150MG</li>\n<li>PICOLINATO DE CROMO — 75MCG</li>\n<li>GINSENG PANAX — 100MG</li>\n</ul><p><strong>Apresentação:</strong> 60 Cápsulas</p>",
       comoUsar: "<p>Para resultados eficazes, recomenda-se o uso contínuo com a ingestão de <strong>2 cápsulas ao dia</strong>. Siga o passo a passo para maximizar os benefícios.</p><p><strong>Uso diário:</strong> Tomar 2 cápsulas do Testo Black com água, preferencialmente 30 minutos antes do treino, para garantir uma ação constante no aumento dos níveis de testosterona e na melhoria do desempenho físico.</p><p><strong>Rotina de treinamento:</strong> Combine o uso do Testo Black com uma rotina de exercícios regulares para potencializar os efeitos do suplemento e maximizar os ganhos em força e resistência.</p><p><strong>Acompanhe os resultados:</strong> Após algumas semanas de uso contínuo, observe as melhorias na força, resistência e vitalidade geral, acompanhando a evolução do seu desempenho físico e bem-estar.</p>",
@@ -1132,7 +1132,7 @@ const produtos = [
       oQueE: "<p>O <strong>Testo Black</strong> é um produto em cápsulas composto por Epimedium Icariin, Long Jack, Ginseng Coreano e Tadalafil, desenvolvido para homens que buscam uma opção voltada ao suporte da vitalidade, disposição e desempenho.</p><p>Sua finalidade está relacionada ao <strong>suporte à libido, à produção natural de testosterona, à energia, à disposição e ao desempenho físico e sexual</strong>. Entre os componentes da fórmula, o Long Jack (Eurycoma longifolia) é associado ao suporte aos níveis de testosterona, enquanto o Ginseng Coreano é tradicionalmente utilizado como adaptógeno. O Epimedium Icariin é associado ao suporte à libido e ao desempenho sexual.</p><p>O produto é destinado a <strong>homens que buscam maior vitalidade e disposição</strong>, incluindo aqueles interessados em suporte ao desempenho físico, à força, à energia diária e ao desempenho sexual. Mulheres não devem consumir o produto.</p>",
       composicao: "<ul>\n<li>EPIMEDIUM ICARIIN — 200MG</li>\n<li>LONG JACK EXTRATO SECO — 300MG</li>\n<li>GINSENG COREANO — 80MG</li>\n<li>TADALAFIL — 3MG</li>\n</ul><p><strong>Apresentação:</strong> 30 Cápsulas</p>",
       comoUsar: "<p>Para resultados eficazes, recomenda-se o uso contínuo com a ingestão de <strong>2 cápsulas ao dia</strong>. Siga o passo a passo para maximizar os benefícios:</p><p><strong>Uso diário:</strong> Tomar 2 cápsulas do Testo Black com água, preferencialmente 30 minutos antes do treino, para garantir uma ação constante no aumento dos níveis de testosterona e na melhoria do desempenho físico.</p><p><strong>Rotina de treinamento:</strong> Combine o uso do Testo Black com uma rotina de exercícios regulares para potencializar os efeitos do suplemento e maximizar os ganhos em força e resistência.</p><p><strong>Acompanhe os resultados:</strong> Após algumas semanas de uso contínuo, observe as melhorias na força, resistência e vitalidade geral, acompanhando a evolução do seu desempenho físico e bem-estar.</p>",
-      advertencias: "<p>Este produto contém <strong>Tadalafil 3mg</strong> em sua composição. Por se tratar de um princípio ativo de uso medicinal, seu consumo deve ser realizado somente conforme orienta��ão de profissional de saúde. Não utilize o produto sem avaliação adequada quanto à sua indicação e ao seu uso.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
+      advertencias: "<p>Este produto contém <strong>Tadalafil 3mg</strong> em sua composição. Por se tratar de um princípio ativo de uso medicinal, seu consumo deve ser realizado somente conforme orientação de profissional de saúde. Não utilize o produto sem avaliação adequada quanto à sua indicação e ao seu uso.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
     },
     destaque: false,
     mostrarlancamento: false,
@@ -1264,7 +1264,7 @@ const produtos = [
     ],
     descricao: {
       resumo: "<p>O <strong>Long Jack 200mg</strong> é um suplemento alimentar desenvolvido para adultos que buscam suporte à vitalidade, disposição, desempenho físico e sexual, além de contribuir para uma rotina voltada ao equilíbrio e bem-estar.</p>",
-      oQueE: "<p>O Long Jack é um suplemento alimentar em cápsulas à base de <strong>extrato seco de Long Jack</strong>, também conhecido como Tongkat Ali. Cada cápsula fornece 200mg do ingrediente, em uma apresentação prática para uso diário.</p><p>Sua finalidade é oferecer suporte aos níveis naturais de testosterona, �� <strong>vitalidade e função sexual</strong>, além de auxiliar pessoas que buscam melhorar o desempenho físico e mental e manter uma rotina de maior disposição. Estudos citados na descrição do produto avaliaram seu uso em diferentes contextos relacionados à saúde hormonal, fertilidade, estresse e bem-estar.</p><p>É indicado para <strong>adultos saudáveis</strong> que buscam suporte à vitalidade e aos níveis naturais de testosterona, pessoas interessadas em libido e função sexual e praticantes de atividades físicas que desejam complementar sua rotina em busca de força, resistência e ganho muscular.</p>",
+      oQueE: "<p>O Long Jack é um suplemento alimentar em cápsulas à base de <strong>extrato seco de Long Jack</strong>, também conhecido como Tongkat Ali. Cada cápsula fornece 200mg do ingrediente, em uma apresentação prática para uso diário.</p><p>Sua finalidade é oferecer suporte aos níveis naturais de testosterona, à <strong>vitalidade e função sexual</strong>, além de auxiliar pessoas que buscam melhorar o desempenho físico e mental e manter uma rotina de maior disposição. Estudos citados na descrição do produto avaliaram seu uso em diferentes contextos relacionados à saúde hormonal, fertilidade, estresse e bem-estar.</p><p>É indicado para <strong>adultos saudáveis</strong> que buscam suporte à vitalidade e aos níveis naturais de testosterona, pessoas interessadas em libido e função sexual e praticantes de atividades físicas que desejam complementar sua rotina em busca de força, resistência e ganho muscular.</p>",
       composicao: "<ul>\n<li>LONG JACK EXTRATO SECO — 200MG</li>\n<li>Excipiente — q.s.p.</li>\n</ul><p><strong>Apresentação:</strong> 30 Cápsulas</p>",
       comoUsar: "<p>Para resultados eficazes, recomenda-se o uso contínuo, ingerindo <strong>1 cápsula ao dia</strong> com um copo de água. O Long Jack pode ser tomado em dois momentos diferentes, dependendo dos seus objetivos: antes do treino, para otimizar o desempenho físico, ou ao acordar, para começar o dia com mais disposição e energia.</p><p><strong>A consistência é fundamental:</strong> utilize diariamente para manter os efeitos constantes. Com o uso contínuo, acompanhe os resultados relacionados aos níveis de energia, desempenho físico e mental e função sexual.</p>",
       advertencias: "<p>Utilize o produto conforme a posologia indicada. Em caso de dúvidas sobre o uso, recomenda-se buscar orientação de um profissional de saúde.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
@@ -1374,7 +1374,7 @@ const produtos = [
       resumo: "<p>Suplemento alimentar à base de <strong>arroz vermelho fermentado</strong>, fonte de compostos bioativos tradicionalmente estudados por sua relação com o metabolismo lipídico, especialmente como complemento de uma alimentação equilibrada e de hábitos de vida saudáveis.</p>",
       oQueE: "<p>O <strong>Red Yeast Rice</strong> é um suplemento alimentar elaborado a partir do arroz vermelho fermentado, processo que pode resultar na formação de diferentes compostos bioativos, incluindo monacolinas. É um ingrediente tradicionalmente utilizado e estudado por sua relação com o metabolismo das gorduras.</p><p>Sua finalidade está relacionada ao <strong>suporte ao metabolismo lipídico</strong>, fornecendo compostos provenientes do processo de fermentação do arroz. Os componentes presentes no arroz vermelho fermentado são estudados principalmente em relação ao metabolismo do colesterol, dentro de uma abordagem que também considera alimentação equilibrada e hábitos de vida saudáveis.</p><p>É destinado a adultos que buscam <strong>suporte nutricional para o metabolismo lipídico</strong> e desejam complementar sua rotina com um ingrediente de origem fermentada. A utilização deve considerar as características individuais e, especialmente quando houver uso de medicamentos ou acompanhamento por alterações metabólicas, contar com orientação de um profissional de saúde.</p>",
       composicao: "<ul>\n<li>RED YEAST RICE — 300MG</li>\n</ul><p><strong>Apresentação:</strong> 60 Cápsulas</p>",
-      comoUsar: "<p>Utilize o produto <strong>conforme as instruções do fabricante</strong> ou de acordo com a orientação de médico, nutricionista ou outro profissional de saúde habilitado. Não altere a forma de utilização recomendada sem orientação profissional.</p>",
+      comoUsar: "<p>Utilize o produto <strong>conforme as instruções do fabricante</strong> ou de acordo com a orientação de médico, nutricionista ou outro profissional de saúde habilitado. Não altere a forma de utilização recomendada sem orientaç��o profissional.</p>",
       advertencias: "<p>Este produto deve ser utilizado de acordo com as orientações do fabricante. <strong>Não exceda a recomendação de uso</strong> indicada na embalagem ou por profissional de saúde.</p><p>O arroz vermelho fermentado pode conter monacolinas, cuja quantidade pode variar de acordo com a matéria-prima e o processo de fabricação. Pessoas que utilizam medicamentos ou possuem condições específicas de saúde devem consultar um profissional de saúde antes de utilizar o produto.</p><p>O suplemento não deve ser utilizado para substituir medicamentos, tratamentos prescritos ou uma alimentação equilibrada. Mantenha fora do alcance de crianças e conserve o produto de acordo com as orientações de armazenamento do fabricante.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
     },
     destaque: false,
@@ -1591,7 +1591,7 @@ const produtos = [
       oQueE: "<p>A <strong>Fórmula Emagrecedora</strong> é uma combinação de ativos apresentada em cápsulas, reunindo ingredientes como Gymnema, Cinnamomum, café verde, psyllium, Garcinia, gengibre, cafeína, cromo, minerais, aminoácidos e outros componentes.</p><p>Sua composição foi desenvolvida para atuar como <strong>coadjuvante no controle do apetite e da saciedade</strong>, além de oferecer suporte ao metabolismo energético e às estratégias relacionadas ao controle do peso, sempre associada a hábitos alimentares equilibrados e atividade física.</p><p>Pode ser indicada para pessoas que buscam <strong>suporte ao controle do peso</strong> e desejam complementar estratégias de reeducação alimentar. Por conter ativos com ações farmacológicas, incluindo furosemida e ioimbina, sua utilização deve ocorrer exclusivamente conforme prescrição e orientação médica.</p>",
       composicao: "<ul>\n<li>GYMNEMA — 50MG</li>\n<li>CINNAMOMUM — 40MG</li>\n<li>VANADIO — 50MCG</li>\n<li>CAFE VERDE — 10MG</li>\n<li>PHOLIA MAGRA — 10MG</li>\n<li>BIGUANIDA — 100MG</li>\n<li>FEIJAO BRANCO — 10MG</li>\n<li>CITRAMAX — 50MG</li>\n<li>HIBISCUS — 20MG</li>\n<li>PSYLLIUM — 30MG</li>\n<li>FUROSEMIDE — 5MG</li>\n<li>SELENIO — 30MCG</li>\n<li>ZINCO — 5MG</li>\n<li>MAGNESIO — 5MG</li>\n<li>CROMO — 100MCG</li>\n<li>ARGININA — 10MG</li>\n<li>VALINA — 15MG</li>\n<li>THEANIN — 20MG</li>\n<li>YOIMBINA — 1MG</li>\n<li>CAFEINA — 30MG</li>\n<li>VITAMINA D — 800UI</li>\n<li>GARCINIA — 50MG</li>\n<li>GENGIBRE — 20MG</li>\n<li>BAUHINIA — 80MG</li>\n</ul><p><strong>Apresentação:</strong> 60 Cápsulas</p>",
       comoUsar: "<p>Utilizar conforme as <strong>instruções do fabricante ou orientação de profissional habilitado</strong>, respeitando a dose, frequência e indicação individualizadas. Não utilizar posologia diferente da prescrita.</p>",
-      advertencias: "<p>Por conter diversos ativos com aç��es farmacológicas, incluindo furosemida e ioimbina, o uso deste produto deve ser feito <strong>exclusivamente conforme prescrição e orientação médica</strong>, respeitando a dose e a indicação individual. Pessoas com hipersensibilidade à substância não devem fazer uso do produto. Em caso de hipersensibilidade ao produto, recomenda-se descontinuar o uso e consultar o médico.</p><p>Não use o produto com o prazo de validade vencido. Manter em temperatura ambiente (15 a 30ºC), protegido da luz, do calor e da umidade, e fora do alcance das crianças. Este produto não deve ser utilizado por mulheres grávidas sem orientação médica. O uso do produto durante o período de amamentação também não é recomendado. Este produto não deve ser utilizado por menores de 18 anos sem orientação médica. Siga corretamente o modo de usar e, não desaparecendo os sintomas, procure orientação médica.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
+      advertencias: "<p>Por conter diversos ativos com ações farmacológicas, incluindo furosemida e ioimbina, o uso deste produto deve ser feito <strong>exclusivamente conforme prescrição e orientação médica</strong>, respeitando a dose e a indicação individual. Pessoas com hipersensibilidade à substância não devem fazer uso do produto. Em caso de hipersensibilidade ao produto, recomenda-se descontinuar o uso e consultar o médico.</p><p>Não use o produto com o prazo de validade vencido. Manter em temperatura ambiente (15 a 30ºC), protegido da luz, do calor e da umidade, e fora do alcance das crianças. Este produto não deve ser utilizado por mulheres grávidas sem orientação médica. O uso do produto durante o período de amamentação também não é recomendado. Este produto não deve ser utilizado por menores de 18 anos sem orientação médica. Siga corretamente o modo de usar e, não desaparecendo os sintomas, procure orientação médica.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
     },
     destaque: false,
     mostrarlancamento: false,
@@ -1861,7 +1861,7 @@ const produtos = [
       oQueE: "<p>O Ácido Alfa Lipóico é um composto com ação antioxidante que participa de processos relacionados à produção de energia nas células. Sua fórmula em cápsulas oferece uma maneira prática de complementar a ingestão desse composto.</p><p>Sua principal finalidade é oferecer <strong>suporte antioxidante e metabólico</strong>, contribuindo para a neutralização de radicais livres e para processos relacionados ao metabolismo energético. Também é estudado em contextos relacionados à sensibilidade à insulina e à resposta inflamatória.</p><p>É indicado para <strong>adultos</strong> que desejam complementar sua rotina de cuidados com suporte antioxidante e metabólico. Pessoas que estejam em tratamento de condições de saúde, especialmente relacionadas ao metabolismo, devem utilizar o produto com orientação de um profissional habilitado.</p>",
       composicao: "<ul>\n<li>ACIDO ALFA LIPOICO — 250MG</li>\n</ul><p><strong>Apresentação:</strong> 60 Cápsulas</p>",
       comoUsar: "<p>Tomar de <strong>1 cápsula a 2 cápsulas ao dia</strong>, ingerindo a cápsula com água.</p><p>Como opção de uso, tomar 1 cápsula após o almoço. Ou então, tomar 1 cápsula após o almoço e 1 cápsula após o jantar.</p>",
-      advertencias: "<p>Pessoas com hipersensibilidade à substância não devem fazer uso do produto. Em caso de hipersensibilidade ao produto, recomenda-se descontinuar o uso e consultar o médico. Imagens meramente ilustrativas. Não use o produto com o prazo de validade vencido.</p><p>Manter em temperatura ambiente (15 a 30ºC). Proteger da luz, do calor e da umidade. Nestas condições, o produto se manterá próprio para o consumo, respeitando o prazo de validade indicado na embalagem. Manter fora do alcance das crianças.</p><p>Nunca compre um produto sem orientação de um profissional habilitado. Este produto não deve ser utilizado por mulheres grávidas sem orientação médica. Siga corretamente o modo de usar. Não desaparecendo os sintomas, procure orientação médica. O uso do produto durante o período de amamentação também não é recomendado. Este produto não deve ser utilizado por menores de 18 anos sem orientação médica.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicaç��es referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
+      advertencias: "<p>Pessoas com hipersensibilidade à substância não devem fazer uso do produto. Em caso de hipersensibilidade ao produto, recomenda-se descontinuar o uso e consultar o médico. Imagens meramente ilustrativas. Não use o produto com o prazo de validade vencido.</p><p>Manter em temperatura ambiente (15 a 30ºC). Proteger da luz, do calor e da umidade. Nestas condições, o produto se manterá próprio para o consumo, respeitando o prazo de validade indicado na embalagem. Manter fora do alcance das crianças.</p><p>Nunca compre um produto sem orientação de um profissional habilitado. Este produto não deve ser utilizado por mulheres grávidas sem orientação médica. Siga corretamente o modo de usar. Não desaparecendo os sintomas, procure orientação médica. O uso do produto durante o período de amamentação também não é recomendado. Este produto não deve ser utilizado por menores de 18 anos sem orientação médica.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
     },
     destaque: false,
     mostrarlancamento: false,
@@ -2183,7 +2183,7 @@ const produtos = [
     descricao: {
       resumo: "<p>Fórmula desenvolvida para oferecer <strong>suporte nutricional ao funcionamento do organismo</strong>, reunindo magnésio, vitamina D, L-metilfolato e ômega-3 em uma composição complementar para a rotina de cuidados com a saúde e o bem-estar.</p>",
       oQueE: "<p>MENTE SAUDÁVEL é uma fórmula nutricional que combina <strong>magnésio, vitamina D, L-metilfolato e ômega-3</strong>, nutrientes selecionados para complementar a alimentação e apoiar diferentes funções do organismo.</p><p>Sua finalidade é oferecer <strong>suporte nutricional ao funcionamento normal do organismo</strong>, contribuindo para a manutenção da saúde óssea e muscular, processos metabólicos e formação celular, além de fornecer nutrientes relacionados à saúde cardiovascular.</p><p>Pode ser indicada para pessoas que desejam <strong>complementar a ingestão desses nutrientes</strong> e manter uma rotina de cuidados com a saúde, equilíbrio nutricional e bem-estar, especialmente quando houver orientação profissional para sua utilização.</p>",
-      composicao: "<ul>\n<li>MAGNESIO DIMALATO — MG</li>\n<li>VIT D — UI</li>\n<li>L-METILFOLATO �� MCG</li>\n<li>OMEGA 3 PO — MG</li>\n</ul><p><strong>Apresentação:</strong> 30 Cápsulas</p>",
+      composicao: "<ul>\n<li>MAGNESIO DIMALATO — MG</li>\n<li>VIT D — UI</li>\n<li>L-METILFOLATO — MCG</li>\n<li>OMEGA 3 PO — MG</li>\n</ul><p><strong>Apresentação:</strong> 30 Cápsulas</p>",
       comoUsar: "<p>Utilize o produto <strong>conforme as instruções do fabricante</strong> ou de acordo com a orientação de um profissional habilitado. Não altere a forma de utilização recomendada.</p>",
       advertencias: "<p>Produto destinado ao uso conforme orientação do fabricante. Em caso de dúvidas sobre a utilização, procure orientação de um profissional habilitado. <strong>Não exceda a recomendação de uso indicada pelo fabricante.</strong></p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
     },
@@ -2532,7 +2532,7 @@ const produtos = [
       
     ],
     descricao: {
-      resumo: "<p>A <strong>Metilcobalamina 1000mcg Sublingual</strong> é uma fórmula de vitamina B12 desenvolvida para complementar a ingestão desse nutriente, contribuindo para funções importantes do organismo, como o metabolismo energético e o funcionamento do sistema nervoso.</p>",
+      resumo: "<p>A <strong>Metilcobalamina 1000mcg Sublingual</strong> é uma fórmula de vitamina B12 desenvolvida para complementar a ingestão desse nutriente, contribuindo para fun��ões importantes do organismo, como o metabolismo energético e o funcionamento do sistema nervoso.</p>",
       oQueE: "<p>A Metilcobalamina 1000mcg é uma fórmula de <strong>vitamina B12 na forma de metilcobalamina</strong>, apresentada em cápsulas sublinguais e desenvolvida para complementar a ingestão desse nutriente na rotina.</p><p>A vitamina B12 contribui para o <strong>metabolismo energético</strong>, o funcionamento normal do sistema nervoso e a formação das células vermelhas do sangue. Também participa do metabolismo de proteínas e carboidratos.</p><p>É indicada para pessoas que necessitam complementar a ingestão de <strong>vitamina B12</strong>, especialmente quando houver orientação profissional para suplementação desse nutriente.</p>",
       composicao: "<ul>\n<li>METILCOBALAMINA — 1000MCG</li>\n<li>SUBLINGUAL TAPIOCA CAPS — MG</li>\n</ul><p><strong>Apresentação:</strong> 30 Cápsulas Sublingual</p>",
       comoUsar: "<p>Utilizar conforme as <strong>instruções do fabricante</strong> ou de acordo com a orientação de profissional habilitado. Não altere a forma de uso recomendada sem orientação profissional.</p>",
@@ -2857,7 +2857,7 @@ const produtos = [
     ],
     descricao: {
       resumo: "<p>PeptiStrong® 2,4g com sabor Cappuccino é um suplemento nutricional desenvolvido para oferecer <strong>suporte à força, recuperação muscular e desempenho físico</strong> em um único sachê ao dia.</p>",
-      oQueE: "<p>PeptiStrong® é um ingrediente patenteado composto por <strong>peptídeos bioativos</strong> obtidos por hidrólise enzimática seletiva da proteína da fava, desenvolvido com o auxílio de inteligência artificial para oferecer suporte ao metabolismo muscular.</p><p>O produto auxilia na <strong>redução da degradação de proteínas musculares</strong> e na inflamação induzida pelo exercício, contribuindo para a recuperação muscular, o aumento de força e o desempenho esportivo. Também pode ser utilizado como suporte nutricional em situações como sarcopenia, dinapenia e miopatias, sempre com acompanhamento profissional.</p><p>É indicado para <strong>adultos que buscam suporte à manutenção e recuperação da função muscular</strong>, incluindo praticantes de atividade física, atletas e pessoas que necessitam de suporte nutricional em situações de maior demanda muscular, como no período pré e pós-cirúrgico, após imobilização ou durante o envelhecimento. Também pode ser utilizado como complemento nutricional por pessoas com redução da massa ou da força muscular, sempre sob orientação de um médico ou nutricionista.</p>",
+      oQueE: "<p>PeptiStrong® é um ingrediente patenteado composto por <strong>peptídeos bioativos</strong> obtidos por hidrólise enzimática seletiva da proteína da fava, desenvolvido com o auxílio de inteligência artificial para oferecer suporte ao metabolismo muscular.</p><p>O produto auxilia na <strong>redução da degradação de proteínas musculares</strong> e na inflamação induzida pelo exercício, contribuindo para a recuperação muscular, o aumento de força e o desempenho esportivo. Também pode ser utilizado como suporte nutricional em situações como sarcopenia, dinapenia e miopatias, sempre com acompanhamento profissional.</p><p>É indicado para <strong>adultos que buscam suporte à manutenção e recuperação da função muscular</strong>, incluindo praticantes de atividade física, atletas e pessoas que necessitam de suporte nutricional em situações de maior demanda muscular, como no período pré e p��s-cirúrgico, após imobilização ou durante o envelhecimento. Também pode ser utilizado como complemento nutricional por pessoas com redução da massa ou da força muscular, sempre sob orientação de um médico ou nutricionista.</p>",
       composicao: "<ul>\n<li>PeptiStrong — 2,4g</li>\n<li>Sabor Cappuccino — 7g</li>\n</ul><p><strong>Apresentação:</strong> 30 Sachês</p>",
       comoUsar: "<p>Solubilizar <strong>1 sachê em 150ml de água</strong> e tomar 1 vez ao dia. Consumir imediatamente após o preparo.</p>",
       advertencias: "<p>Utilize o produto conforme a orientação de uso indicada. Em situações que necessitem de acompanhamento profissional, recomenda-se orientação de médico ou nutricionista.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
@@ -3185,6 +3185,465 @@ const produtos = [
       composicao: "<ul>\n<li>CREATINA MONOHIDRATADA — GR</li>\n<li>BETA-ALANINA — MG</li>\n<li>TAURINA-L — MG</li>\n<li>MAGNESIO QUELATO — MG</li>\n<li>REFRESKA FRUTAS VERMELHAS — GR</li>\n</ul><p><strong>Apresentação:</strong> 30 Sachês</p>",
       comoUsar: "<p>Utilize o produto <strong>conforme as instruções do fabricante</strong> presentes no rótulo ou de acordo com a orientação de um profissional habilitado. Não ultrapasse a recomendação de uso indicada.</p>",
       advertencias: "<p>Este produto é um suplemento alimentar e <strong>não substitui uma alimentação equilibrada</strong>. Utilize conforme as orientações do fabricante e, quando necessário, sob orientação de profissional de saúde. Mantenha fora do alcance de crianças.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
+    },
+    destaque: false,
+    mostrarlancamento: false,
+    mostrarVideo: false,
+    textoParcelamento: "🎟️ Cupom válido no carrinho. 💳 Consulte parcelamento no checkout",
+    cupomAtivo: false,
+    cupomPorcentagem: 0,
+    cupomCodigo: "",
+    cupomValidade: "",
+    cupomMensagemTag: "",
+    cupomOcultarTag: false
+  },
+  {
+    id: "135",
+    nome: "LOCAO MINOXIDIL 5% TURBINADO - Solução 100ml",
+    categoria: "quedacapilar",
+    preco: 50.00,
+    imagem: "assets/img/locao-minoxidil-5-turbinado-solucao-100ml-muzfozxn.png",
+    videos: [
+      
+    ],
+    descricao: {
+      resumo: "<p><strong>Loção Minoxidil 5% Turbinado</strong> desenvolvida para auxiliar no cuidado do couro cabeludo e na rotina de tratamento da queda e do afinamento capilar, contribuindo para a manutenção e o crescimento dos fios.</p>",
+      oQueE: "<p>A <strong>Loção Minoxidil 5% Turbinado</strong> é uma formulação de uso tópico desenvolvida para aplicação no couro cabeludo, combinando Minoxidil Sulfato, Auxina Tricógena e Pilocarpina Cloridrato em uma loção capilar.</p><p>Sua finalidade é <strong>auxiliar no cuidado da queda e da redução da densidade capilar</strong>, contribuindo para a manutenção dos fios e para o crescimento capilar em situações de afinamento, conforme avaliação profissional.</p><p>Pode ser recomendada para pessoas que apresentam <strong>queda de cabelo, afinamento dos fios ou redução da densidade capilar</strong>, como parte de uma rotina de cuidados e tratamento capilar orientada por profissional de saúde.</p>",
+      composicao: "<ul>\n<li>MINOXIDIL SULFATO — 5%</li>\n<li>AUXINA TRICOGENA — 5%</li>\n<li>PILOCARPINA CLORIDRATO — 0.01%</li>\n<li>PROPILENOGLICOL — 10%</li>\n<li>LOCAO CAPILAR — 100ML</li>\n</ul><p><strong>Apresentação:</strong> Solução 100ml</p>",
+      comoUsar: "<p>Aplicar <strong>25 gotas no couro cabeludo limpo e seco, 1 a 2 vezes ao dia</strong>, distribuindo o produto e massageando.</p>",
+      advertencias: "<p>O resultado pode variar de acordo com a causa da queda, características individuais e regularidade do tratamento. O uso de minoxidil pode apresentar efeitos adversos e não é adequado para todas as pessoas. A avaliação de um profissional de saúde é recomendada antes do início do tratamento, especialmente em casos de queda intensa, repentina ou associada a alterações no couro cabeludo.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
+    },
+    destaque: false,
+    mostrarlancamento: false,
+    mostrarVideo: false,
+    textoParcelamento: "🎟️ Cupom válido no carrinho. 💳 Consulte parcelamento no checkout",
+    cupomAtivo: false,
+    cupomPorcentagem: 0,
+    cupomCodigo: "",
+    cupomValidade: "",
+    cupomMensagemTag: "",
+    cupomOcultarTag: false
+  },
+  {
+    id: "136",
+    nome: "ImuneFast - 60 Cápsulas",
+    categoria: "saude",
+    preco: 100.00,
+    imagem: "assets/img/imunefast-60-capsulas-muzfxvkl.png",
+    videos: [
+      
+    ],
+    descricao: {
+      resumo: "<p><strong>ImuneFast - 60 Cápsulas</strong> é uma fórmula composta por Viroff®, Própolis Verde, Vitamina C, Zinco e Vitamina D3, desenvolvida para <strong>auxiliar no suporte ao sistema imunológico</strong> e na manutenção das defesas do organismo.</p>",
+      oQueE: "<p>O <strong>ImuneFast</strong> é um suplemento em cápsulas que reúne fitoativos, vitaminas e mineral selecionados para oferecer suporte nutricional ao funcionamento do sistema imunológico.</p><p>Sua composição foi desenvolvida para <strong>auxiliar no fortalecimento da imunidade</strong> e no suporte às defesas do organismo, especialmente no cuidado relacionado à saúde do trato respiratório.</p><p>É indicado para pessoas que buscam <strong>suporte nutricional à imunidade</strong>, como parte de uma rotina de cuidados com a saúde e alimentação equilibrada.</p>",
+      composicao: "<ul>\n<li>VIROFF — 150MG</li>\n<li>PROPOLIS VERDE EXTRATO — 100MG</li>\n<li>VIT C — 150MG</li>\n<li>ZINCO — 10MG</li>\n<li>VIT D3 — 5000UI</li>\n</ul><p><strong>Apresentação:</strong> 60 Cápsulas</p>",
+      comoUsar: "<p>Tomar <strong>1 cápsula 2 vezes ao dia</strong>.</p>",
+      advertencias: "<p>Utilize o produto conforme a posologia informada. Os resultados podem variar de pessoa para pessoa. Este produto não substitui uma alimentação equilibrada nem o acompanhamento de um profissional de saúde.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
+    },
+    destaque: false,
+    mostrarlancamento: false,
+    mostrarVideo: false,
+    textoParcelamento: "🎟️ Cupom válido no carrinho. 💳 Consulte parcelamento no checkout",
+    cupomAtivo: false,
+    cupomPorcentagem: 0,
+    cupomCodigo: "",
+    cupomValidade: "",
+    cupomMensagemTag: "",
+    cupomOcultarTag: false
+  },
+  {
+    id: "137",
+    nome: "FIBROREGEN - 60 Cápsulas",
+    categoria: "saude",
+    preco: 100.00,
+    imagem: "assets/img/fibroregen-60-capsulas-muzg5lzm.png",
+    videos: [
+      
+    ],
+    descricao: {
+      resumo: "<p><strong>FIBROREGEN - 60 Cápsulas</strong> é uma fórmula composta por nutrientes e ativos selecionados para oferecer <strong>suporte ao metabolismo energético, sistema nervoso e função muscular</strong>, contribuindo para uma rotina de cuidados voltada ao bem-estar e à disposição.</p>",
+      oQueE: "<p>O <strong>FibroRegen</strong> é uma fórmula em cápsulas que combina Coenzima Q10, Magnésio, MSM, vitaminas do complexo B, NADH e Valeriana em uma composição destinada ao suporte nutricional do organismo.</p><p>Sua finalidade é oferecer <strong>suporte ao metabolismo energético, funcionamento do sistema nervoso e função muscular</strong>, além de contribuir para uma rotina de cuidados voltada ao bem-estar físico e à disposição.</p><p>É indicado para pessoas que buscam <strong>suporte nutricional para energia, metabolismo, função muscular e bem-estar</strong>, como complemento de uma rotina de cuidados e conforme orientação profissional.</p>",
+      composicao: "<ul>\n<li>COENZIMA Q 10 PO — 100MG</li>\n<li>MAGNESIO ASPARTATO — 150MG</li>\n<li>MSM — 100MG</li>\n<li>PIRIDOXINA — 50MG</li>\n<li>NIACINAMIDA (INT) — 12MG</li>\n<li>RIBOFLAVINA — 20MG</li>\n<li>NADH — 5MG</li>\n<li>VALERIANA — 25MG</li>\n</ul><p><strong>Apresentação:</strong> 60 Cápsulas</p>",
+      comoUsar: "<p>Utilizar o produto <strong>conforme as instruções do fabricante</strong> ou de acordo com a orientação de um profissional de saúde.</p>",
+      advertencias: "<p>O FibroRegen não deve ser apresentado como tratamento ou cura de fibromialgia ou de qualquer outra doença. Os resultados podem variar conforme as características individuais, alimentação, condições de saúde e demais fatores. Em caso de dúvidas sobre o uso do produto, recomenda-se orientação de um profissional de saúde.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
+    },
+    destaque: false,
+    mostrarlancamento: false,
+    mostrarVideo: false,
+    textoParcelamento: "🎟️ Cupom válido no carrinho. 💳 Consulte parcelamento no checkout",
+    cupomAtivo: false,
+    cupomPorcentagem: 0,
+    cupomCodigo: "",
+    cupomValidade: "",
+    cupomMensagemTag: "",
+    cupomOcultarTag: false
+  },
+  {
+    id: "138",
+    nome: "COMPOSTO PARA TDAH - 60 Cápsulas",
+    categoria: "saude",
+    preco: 130.00,
+    imagem: "assets/img/composto-para-tdah-60-capsulas-muzgigwm.png",
+    videos: [
+      
+    ],
+    descricao: {
+      resumo: "<p><strong>Composto para TDAH - 60 Cápsulas</strong> é uma fórmula nutricional que reúne nutrientes selecionados para oferecer <strong>suporte ao funcionamento cerebral, sistema nervoso e metabolismo</strong>, contribuindo para uma rotina de cuidados voltada às funções cognitivas.</p>",
+      oQueE: "<p>O <strong>Composto para TDAH</strong> é uma fórmula em cápsulas que combina ômega 3, fosfatidilserina, colina, tirosina, zinco, vitaminas do complexo B, vitamina C e outros nutrientes relacionados ao funcionamento do sistema nervoso.</p><p>Sua finalidade é oferecer <strong>suporte nutricional às funções cognitivas</strong>, contribuindo para processos relacionados à atenção, concentração, memória, comunicação entre células nervosas e metabolismo energético.</p><p>É indicado como complemento nutricional para pessoas que buscam <strong>suporte à função cerebral e ao sistema nervoso</strong>, sempre considerando a orientação de um profissional de saúde. O produto não substitui avaliação, diagnóstico ou tratamento profissional do TDAH.</p>",
+      composicao: "<ul>\n<li>OMEGA 3 PO — 250MG</li>\n<li>FOSFATIDILSERINA — 100MG</li>\n<li>ZINCO — 10MG</li>\n<li>COLINA — 100MG</li>\n<li>TAURINA-L — 100MG</li>\n<li>TIROSINA — 250MG</li>\n<li>ACIDO FOLICO — 500MCG</li>\n<li>VIT C — 50MG</li>\n<li>NIACINA — 10MG</li>\n<li>VIT B6 — 4MG</li>\n<li>VIT B12 — 10MCG</li>\n</ul><p><strong>Apresentação:</strong> 60 Cápsulas</p>",
+      comoUsar: "<p>Utilizar o produto <strong>conforme as instruções do fabricante</strong> ou de acordo com a orientação de um profissional de saúde.</p>",
+      advertencias: "<p>O produto não deve ser apresentado como cura ou tratamento do TDAH. Sua utilização deve ser considerada como complemento nutricional, não substituindo avaliação, diagnóstico ou tratamento profissional. Os resultados podem variar de acordo com as características individuais, alimentação, condições de saúde e demais fatores.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
+    },
+    destaque: false,
+    mostrarlancamento: false,
+    mostrarVideo: false,
+    textoParcelamento: "🎟️ Cupom válido no carrinho. 💳 Consulte parcelamento no checkout",
+    cupomAtivo: false,
+    cupomPorcentagem: 0,
+    cupomCodigo: "",
+    cupomValidade: "",
+    cupomMensagemTag: "",
+    cupomOcultarTag: false
+  },
+  {
+    id: "139",
+    nome: "INTESTINO EQUILIBRADO - FRUTAS VERMELHAS - 30 Sachês",
+    categoria: "saude",
+    preco: 150.00,
+    imagem: "assets/img/intestino-equilibrado-frutas-vermelhas-30-saches-muzgy8ck.png",
+    videos: [
+      
+    ],
+    descricao: {
+      resumo: "<p>O <strong>Intestino Equilibrado – Frutas Vermelhas</strong> combina fibras e probiótico em uma fórmula prática em sachês, desenvolvida para oferecer <strong>suporte à saúde intestinal e ao equilíbrio da microbiota</strong>.</p>",
+      oQueE: "<p>O <strong>Intestino Equilibrado – Frutas Vermelhas</strong> é uma fórmula em sachês que reúne inulina, psyllium e Lactobacillus acidophilus, além de um componente com sabor de frutas vermelhas, proporcionando uma combinação de fibras e probiótico para a rotina de cuidados intestinais.</p><p>Sua finalidade é oferecer <strong>suporte ao funcionamento intestinal e à regularidade</strong>, além de contribuir para o equilíbrio da microbiota. A inulina atua como fibra prebiótica, o psyllium auxilia na formação e consistência do conteúdo intestinal e o Lactobacillus acidophilus é utilizado como suporte à microbiota intestinal.</p><p>É indicado como complemento nutricional para pessoas que desejam <strong>incluir fibras e probióticos na rotina alimentar</strong>, especialmente como parte de uma alimentação equilibrada e de uma rotina voltada ao bem-estar digestivo e intestinal.</p>",
+      composicao: "<ul>\n<li>INULINA — GR</li>\n<li>PSYLLIUM — GR</li>\n<li>LACTOBACILLUS ACIDOPHILUS — UFC</li>\n<li>REFRESKA FRUTAS VERMELHAS — GR</li>\n</ul><p><strong>Apresentação:</strong> 30 Sachês</p>",
+      comoUsar: "<p>Utilizar o produto <strong>conforme as instruções do fabricante</strong> ou de acordo com a orientação de um profissional de saúde. Não estabelecer dose, frequência ou horários diferentes dos indicados pelo fabricante ou profissional responsável.</p>",
+      advertencias: "<p>O uso do produto deve estar associado a uma alimentação equilibrada e a hábitos de vida adequados. Os resultados podem variar de acordo com as características individuais, alimentação, condições de saúde e demais fatores.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
+    },
+    destaque: false,
+    mostrarlancamento: false,
+    mostrarVideo: false,
+    textoParcelamento: "🎟️ Cupom válido no carrinho. 💳 Consulte parcelamento no checkout",
+    cupomAtivo: false,
+    cupomPorcentagem: 0,
+    cupomCodigo: "",
+    cupomValidade: "",
+    cupomMensagemTag: "",
+    cupomOcultarTag: false
+  },
+  {
+    id: "140",
+    nome: "SONO NATURAL E RELAXAMENTO - 30 Cápsulas",
+    categoria: "saude",
+    preco: 45.00,
+    imagem: "assets/img/sono-natural-e-relaxamento-30-capsulas-muzhbfy6.png",
+    videos: [
+      
+    ],
+    descricao: {
+      resumo: "<p>O <strong>Sono Natural e Relaxamento</strong> combina ingredientes tradicionalmente associados ao relaxamento e ao bem-estar, oferecendo suporte nutricional para uma rotina voltada ao descanso e à qualidade de vida.</p>",
+      oQueE: "<p>O Sono Natural e Relaxamento é uma fórmula em cápsulas que reúne <strong>camomila, Passiflora incarnata, L-teanina e spirulina azul</strong>, ingredientes selecionados para complementar uma rotina de cuidados com relaxamento e bem-estar.</p><p>Sua proposta é oferecer <strong>suporte nutricional ao relaxamento e à preparação para o momento de descanso</strong>, integrando ingredientes tradicionalmente utilizados em formulações voltadas ao equilíbrio e ao bem-estar. O produto não deve ser apresentado como tratamento ou cura para insônia, ansiedade ou outras condições de saúde.</p><p>É destinado a pessoas que buscam <strong>complementar sua rotina de cuidados com o descanso e o relaxamento</strong>, especialmente aquelas interessadas em uma fórmula que reúna ingredientes de origem vegetal e nutrientes associados ao bem-estar. Seu uso deve considerar as características individuais e, quando necessário, orientação profissional.</p>",
+      composicao: "<ul>\n<li>CAMOMILA EXTRATO — MG</li>\n<li>PASSIFLORA INCARNATA — MG</li>\n<li>L-THEANINE — MG</li>\n<li>SPIRULINA AZUL — MG</li>\n</ul><p><strong>Apresentação:</strong> 30 Cápsulas</p>",
+      comoUsar: "<p>Utilize o produto conforme as <strong>instruções do fabricante</strong> ou de acordo com a orientação de profissional habilitado. Não estabeleça dose, frequência ou horário de uso sem as informações específicas da formulação.</p>",
+      advertencias: "<p>Não utilizar o produto como substituto de avaliação, diagnóstico ou tratamento profissional. Os resultados podem variar de acordo com as características individuais, alimentação, rotina, hábitos de sono e demais fatores relacionados ao bem-estar.</p><p>As quantidades individuais dos componentes não foram informadas na composição apresentada. Em caso de dúvidas sobre a adequação do produto ao seu caso, procure orientação de profissional habilitado.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
+    },
+    destaque: false,
+    mostrarlancamento: false,
+    mostrarVideo: false,
+    textoParcelamento: "🎟️ Cupom válido no carrinho. 💳 Consulte parcelamento no checkout",
+    cupomAtivo: false,
+    cupomPorcentagem: 0,
+    cupomCodigo: "",
+    cupomValidade: "",
+    cupomMensagemTag: "",
+    cupomOcultarTag: false
+  },
+  {
+    id: "141",
+    nome: "TPM LEVE E EQUILÍBRIO - 30 Cápsulas",
+    categoria: "saude",
+    preco: 50.00,
+    imagem: "assets/img/tpm-leve-e-equilibrio-30-capsulas-muzhjjsw.png",
+    videos: [
+      
+    ],
+    descricao: {
+      resumo: "<p>O <strong>TPM Leve e Equilíbrio</strong> combina magnésio quelato, vitamina B6, L-teanina e cacau magro em uma fórmula nutricional desenvolvida para oferecer suporte ao bem-estar e ao equilíbrio da rotina durante o período pré-menstrual.</p>",
+      oQueE: "<p>O <strong>TPM Leve e Equilíbrio</strong> é uma fórmula nutricional que reúne magnésio, vitamina B6, L-teanina e cacau magro, fornecendo nutrientes e compostos utilizados como suporte à alimentação e ao funcionamento normal do organismo.</p><p>Sua proposta é oferecer <strong>suporte nutricional durante o período pré-menstrual</strong>, contribuindo para o funcionamento normal do sistema nervoso, metabolismo energético, função muscular e para uma rotina de bem-estar e equilíbrio.</p><p>É indicado para mulheres que desejam complementar a ingestão de nutrientes relacionados ao <strong>bem-estar e equilíbrio durante o período pré-menstrual</strong>, especialmente quando houver necessidade nutricional identificada ou orientação de um profissional habilitado.</p>",
+      composicao: "<ul>\n<li>MAGNESIO QUELATO — MG</li>\n<li>VITAMINA B6 — MG</li>\n<li>L-THEANINE — MG</li>\n<li>CACAU MAGRO — MG</li>\n</ul><p><strong>Apresentação:</strong> 30 Cápsulas</p>",
+      comoUsar: "<p>Utilize o produto conforme as <strong>instruções do fabricante</strong> ou de acordo com a orientação de um profissional habilitado. Não invente ou altere dose, frequência ou horário de utilização.</p>",
+      advertencias: "<p>Produto destinado à complementação nutricional. Não deve ser apresentado como tratamento ou cura para TPM, alterações hormonais ou qualquer condição de saúde. As quantidades dos componentes não foram informadas na fórmula apresentada. Em caso de dúvidas sobre a utilização, procure orientação de um profissional habilitado.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
+    },
+    destaque: false,
+    mostrarlancamento: false,
+    mostrarVideo: false,
+    textoParcelamento: "🎟️ Cupom válido no carrinho. 💳 Consulte parcelamento no checkout",
+    cupomAtivo: false,
+    cupomPorcentagem: 0,
+    cupomCodigo: "",
+    cupomValidade: "",
+    cupomMensagemTag: "",
+    cupomOcultarTag: false
+  },
+  {
+    id: "142",
+    nome: "CABELO E UNHAS FORTES - 60 Cápsulas",
+    categoria: "beleza",
+    preco: 90.00,
+    imagem: "assets/img/cabelo-e-unhas-fortes-60-capsulas-muzhsfvo.png",
+    videos: [
+      
+    ],
+    descricao: {
+      resumo: "<p>O <strong>Cabelo e Unhas Fortes</strong> combina vitaminas, minerais e silício orgânico em uma fórmula nutricional desenvolvida para complementar a rotina de cuidados com cabelos e unhas.</p>",
+      oQueE: "<p>O Cabelo e Unhas Fortes é um suplemento alimentar em cápsulas que reúne <strong>biotina, zinco, silício orgânico e vitaminas do complexo B</strong>, formando uma combinação de nutrientes importantes para o funcionamento adequado do organismo.</p><p>Sua finalidade é oferecer <strong>suporte nutricional à manutenção da saúde dos cabelos e das unhas</strong>, contribuindo para a ingestão adequada de nutrientes envolvidos em processos relacionados à formação e manutenção de estruturas do organismo.</p><p>É indicado para pessoas que desejam complementar a alimentação com nutrientes associados à <strong>manutenção dos cabelos e unhas</strong>, especialmente dentro de uma rotina alimentar equilibrada e de cuidados pessoais.</p>",
+      composicao: "<ul>\n<li>BIOTINA — MG</li>\n<li>ZINCO QUELATO — MG</li>\n<li>SILICIO ORGANICO — MG</li>\n<li>VITAMINA B1 — MG</li>\n<li>VITAMINA B2 — MG</li>\n<li>VITAMINA B3 — MG</li>\n<li>VITAMINA B6 — MG</li>\n<li>VITAMINA B12 — MCG</li>\n</ul><p><strong>Apresentação:</strong> 60 Cápsulas</p>",
+      comoUsar: "<p>Utilize o produto conforme as <strong>instruções do fabricante</strong> presentes no rótulo ou de acordo com orientação de profissional habilitado. Não ultrapasse a recomendação indicada.</p>",
+      advertencias: "<p>Este produto é um suplemento alimentar e não substitui uma alimentação equilibrada nem hábitos de vida saudáveis. Mantenha fora do alcance de crianças. Em caso de dúvidas sobre o uso, procure orientação de profissional habilitado.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
+    },
+    destaque: false,
+    mostrarlancamento: false,
+    mostrarVideo: false,
+    textoParcelamento: "🎟️ Cupom válido no carrinho. 💳 Consulte parcelamento no checkout",
+    cupomAtivo: false,
+    cupomPorcentagem: 0,
+    cupomCodigo: "",
+    cupomValidade: "",
+    cupomMensagemTag: "",
+    cupomOcultarTag: false
+  },
+  {
+    id: "143",
+    nome: "ENERGIA FEMININA - 30 Cápsulas",
+    categoria: "desempenhofisico",
+    preco: 95.00,
+    imagem: "assets/img/energia-feminina-30-capsulas-muzhyw05.png",
+    videos: [
+      
+    ],
+    descricao: {
+      resumo: "<p>Energia Feminina é uma fórmula nutricional desenvolvida para complementar a rotina da mulher, reunindo vitaminas, coenzima Q10, L-tirosina e maca peruana em uma composição voltada ao <strong>suporte energético e ao bem-estar</strong>.</p>",
+      oQueE: "<p>O Energia Feminina é um suplemento alimentar que combina vitaminas do complexo B, vitamina C, coenzima Q10, L-tirosina e maca peruana, formando uma composição nutricional direcionada às necessidades de uma rotina ativa.</p><p>Sua finalidade é oferecer <strong>suporte nutricional para energia e disposição</strong>, especialmente por meio de nutrientes envolvidos no metabolismo energético e no funcionamento normal do organismo, contribuindo para uma rotina de bem-estar.</p><p>É indicado para mulheres que buscam complementar a alimentação com nutrientes relacionados ao metabolismo energético e ao funcionamento adequado do organismo, especialmente aquelas que mantêm uma <strong>rotina ativa e exigente</strong>.</p>",
+      composicao: "<ul>\n<li>COENZIMA Q 10 PO — MG</li>\n<li>VIT B1 — MG</li>\n<li>VIT B2 — MG</li>\n<li>VIT B3 — MG</li>\n<li>VIT B5 — MG</li>\n<li>VIT B6 — MG</li>\n<li>VIT B12 — MCG</li>\n<li>L-TIROSINA — MG</li>\n<li>VITAMINA C REVESTIDA — MG</li>\n<li>MACA PERUANA — MG</li>\n</ul><p><strong>Apresentação:</strong> 30 Cápsulas</p>",
+      comoUsar: "<p>Utilize o produto conforme as instruções do fabricante ou de acordo com a orientação de um profissional habilitado. <strong>Não é recomendável estabelecer dose, frequência ou horário de uso sem a informação específica do fabricante.</strong></p>",
+      advertencias: "<p>Este produto é um suplemento alimentar e não substitui uma alimentação equilibrada. Utilize conforme as orientações do fabricante. Em caso de dúvidas sobre a utilização do produto, procure orientação de um profissional de saúde.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
+    },
+    destaque: false,
+    mostrarlancamento: false,
+    mostrarVideo: false,
+    textoParcelamento: "🎟️ Cupom válido no carrinho. 💳 Consulte parcelamento no checkout",
+    cupomAtivo: false,
+    cupomPorcentagem: 0,
+    cupomCodigo: "",
+    cupomValidade: "",
+    cupomMensagemTag: "",
+    cupomOcultarTag: false
+  },
+  {
+    id: "144",
+    nome: "PELE E LONGEVIDADE - FRUTAS VERMELHAS - 30 Sachês",
+    categoria: "beleza",
+    preco: 160.00,
+    imagem: "assets/img/pele-e-longevidade-frutas-vermelhas-30-saches-muzi8yd8.png",
+    videos: [
+      
+    ],
+    descricao: {
+      resumo: "<p>PELE E LONGEVIDADE é uma fórmula em sachês com sabor frutas vermelhas, desenvolvida para complementar a rotina nutricional com ingredientes associados ao <strong>cuidado da pele e ao suporte nutricional</strong>.</p>",
+      oQueE: "<p>PELE E LONGEVIDADE é um suplemento alimentar em sachês que combina Verisol, silício orgânico, vitamina C, biotina, ácido hialurônico em pó e refreska sabor frutas vermelhas.</p><p>Sua finalidade é oferecer <strong>suporte nutricional para a manutenção da pele</strong>, reunindo nutrientes e ingredientes utilizados em formulações voltadas ao cuidado da aparência e ao bem-estar.</p><p>É indicado para pessoas que desejam complementar a alimentação com ingredientes relacionados ao <strong>cuidado nutricional da pele</strong>, especialmente dentro de uma rotina de autocuidado e hábitos saudáveis.</p>",
+      composicao: "<ul>\n<li>VERISOL — GR</li>\n<li>SILICIO ORGANICO — MG</li>\n<li>VIT C — MG</li>\n<li>BIOTINA — MG</li>\n<li>ACIDO HIALURONICO PO — MG</li>\n<li>REFRESKA FRUTAS VERMELHAS — GR</li>\n</ul><p><strong>Apresentação:</strong> 30 Sachês</p>",
+      comoUsar: "<p>Utilize o produto conforme as instruções do fabricante ou de acordo com a orientação de um profissional habilitado. <strong>Não estabeleça dose, frequência ou horário de uso sem as informações específicas do fabricante.</strong></p>",
+      advertencias: "<p>Este produto é um suplemento alimentar e não substitui uma alimentação equilibrada. Utilize conforme as orientações do fabricante. Em caso de dúvidas sobre a utilização do produto, procure orientação de um profissional de saúde.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
+    },
+    destaque: false,
+    mostrarlancamento: false,
+    mostrarVideo: false,
+    textoParcelamento: "🎟️ Cupom válido no carrinho. 💳 Consulte parcelamento no checkout",
+    cupomAtivo: false,
+    cupomPorcentagem: 0,
+    cupomCodigo: "",
+    cupomValidade: "",
+    cupomMensagemTag: "",
+    cupomOcultarTag: false
+  },
+  {
+    id: "145",
+    nome: "DEFESAS NATURAIS - 30 Cápsulas",
+    categoria: "saude",
+    preco: 50.00,
+    imagem: "assets/img/defesas-naturais-30-capsulas-muzigr7j.png",
+    videos: [
+      
+    ],
+    descricao: {
+      resumo: "<p>Defesas Naturais é uma fórmula nutricional com <strong>vitamina C, zinco, selênio e beta-glucana</strong>, desenvolvida para complementar a rotina de cuidados com o organismo e fornecer nutrientes associados ao funcionamento adequado do sistema imunológico.</p>",
+      oQueE: "<p>Defesas Naturais é um suplemento alimentar em cápsulas que reúne vitamina C, zinco quelato, selênio quelato e beta-glucana em uma composição voltada ao <strong>suporte nutricional das defesas do organismo</strong>.</p><p>Sua finalidade é complementar a ingestão de nutrientes importantes para o funcionamento normal do sistema imunológico, contribuindo para uma rotina de <strong>cuidado, equilíbrio e manutenção do bem-estar</strong>.</p><p>É indicado para pessoas que desejam complementar a alimentação com nutrientes relacionados ao funcionamento normal do sistema imunológico, especialmente aquelas que buscam manter uma <strong>rotina de cuidados com a saúde e o bem-estar</strong>.</p>",
+      composicao: "<ul>\n<li>Vitamina C — MG</li>\n<li>Zinco Quelato — MG</li>\n<li>Selênio Quelato — MCG</li>\n<li>Beta-glucana — MG</li>\n</ul><p><strong>Apresentação:</strong> 30 Cápsulas</p>",
+      comoUsar: "<p>Utilize o produto conforme as <strong>instruções do fabricante</strong> presentes na embalagem ou de acordo com a orientação de um profissional habilitado. Não ultrapasse a recomendação indicada.</p>",
+      advertencias: "<p>Este produto é um suplemento alimentar e não substitui uma alimentação equilibrada nem hábitos de vida saudáveis. Mantenha fora do alcance de crianças. Em caso de dúvidas sobre o uso, procure orientação de um profissional de saúde.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
+    },
+    destaque: false,
+    mostrarlancamento: false,
+    mostrarVideo: false,
+    textoParcelamento: "🎟️ Cupom válido no carrinho. 💳 Consulte parcelamento no checkout",
+    cupomAtivo: false,
+    cupomPorcentagem: 0,
+    cupomCodigo: "",
+    cupomValidade: "",
+    cupomMensagemTag: "",
+    cupomOcultarTag: false
+  },
+  {
+    id: "146",
+    nome: "MIND CLEAN CLAREZA MENTAL - 30 Cápsulas",
+    categoria: "saude",
+    preco: 70.00,
+    imagem: "assets/img/mind-clean-clareza-mental-30-capsulas-muzimqw1.png",
+    videos: [
+      
+    ],
+    descricao: {
+      resumo: "<p>Mind Clean Clareza Mental é uma fórmula nutricional composta por <strong>L-teanina, Rhodiola rosea, metilcobalamina, Bacopa monnieri e hexanicotinato de inositol</strong>, desenvolvida para complementar a rotina de cuidados com foco em clareza mental e bem-estar.</p>",
+      oQueE: "<p>Mind Clean Clareza Mental é um suplemento alimentar em cápsulas que reúne ingredientes selecionados para complementar a ingestão de nutrientes e compostos utilizados em formulações voltadas ao <strong>bem-estar mental e à rotina cognitiva</strong>.</p><p>Sua finalidade é oferecer suporte nutricional à rotina de pessoas que buscam manter <strong>clareza, equilíbrio e bem-estar mental</strong>, sem substituir uma alimentação equilibrada ou cuidados profissionais.</p><p>É indicado para adultos que desejam complementar sua rotina com uma fórmula composta por L-teanina, Rhodiola rosea, metilcobalamina, Bacopa monnieri e hexanicotinato de inositol, especialmente dentro de uma rotina que valorize <strong>atenção ao bem-estar e à qualidade de vida</strong>.</p>",
+      composicao: "<ul>\n<li>L-Teanina — MG</li>\n<li>Rhodiola Rosea — MG</li>\n<li>Metilcobalamina — MCG</li>\n<li>Bacopa Monnieri — MG</li>\n<li>Hexanicotinato de Inositol — MG</li>\n</ul><p><strong>Apresentação:</strong> 30 Cápsulas</p>",
+      comoUsar: "<p>Utilize o produto conforme as <strong>instruções do fabricante</strong> presentes na embalagem ou de acordo com a orientação de um profissional habilitado. Não ultrapasse a recomendação indicada.</p>",
+      advertencias: "<p>Este produto é um suplemento alimentar e não substitui uma alimentação equilibrada nem hábitos de vida saudáveis. Mantenha fora do alcance de crianças. Em caso de dúvidas sobre o uso, procure orientação de um profissional de saúde.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
+    },
+    destaque: false,
+    mostrarlancamento: false,
+    mostrarVideo: false,
+    textoParcelamento: "🎟️ Cupom válido no carrinho. 💳 Consulte parcelamento no checkout",
+    cupomAtivo: false,
+    cupomPorcentagem: 0,
+    cupomCodigo: "",
+    cupomValidade: "",
+    cupomMensagemTag: "",
+    cupomOcultarTag: false
+  },
+  {
+    id: "147",
+    nome: "DESINCHA NATURAL - 30 Cápsulas",
+    categoria: "saude",
+    preco: 30.00,
+    imagem: "assets/img/desincha-natural-30-capsulas-muzis9q6.png",
+    videos: [
+      
+    ],
+    descricao: {
+      resumo: "<p>Desincha Natural é uma fórmula composta por extratos vegetais e vitamina C, desenvolvida para complementar a rotina de cuidados com o <strong>bem-estar e equilíbrio do organismo</strong>.</p>",
+      oQueE: "<p>Desincha Natural é um suplemento em cápsulas que reúne Hibiscus, Cavalinha, Dente de Leão e Vitamina C em uma composição prática para o uso diário.</p><p>Sua formulação foi desenvolvida para complementar uma rotina voltada ao <strong>bem-estar e equilíbrio</strong>, reunindo ingredientes de origem vegetal e vitamina C em uma única apresentação.</p><p>É destinado a adultos que buscam incluir um <strong>suplemento com extratos vegetais</strong> em sua rotina de cuidados, sempre considerando suas necessidades individuais e a orientação de um profissional quando necessário.</p>",
+      composicao: "<ul>\n<li>HIBISCUS EXTRATO SECO — MG</li>\n<li>CAVALINHA EXTRATO SECO — MG</li>\n<li>DENTE DE LEAO EXTRATO SECO — MG</li>\n<li>VIT C — MG</li>\n</ul><p><strong>Apresentação:</strong> 20 Cápsulas</p>",
+      comoUsar: "<p>Utilize o produto conforme as <strong>instruções do fabricante</strong> ou de acordo com a orientação de um profissional habilitado. Não altere a forma de uso recomendada na embalagem ou na orientação profissional.</p>",
+      advertencias: "<p>Não utilize o produto de forma diferente da orientação indicada pelo fabricante. Em caso de dúvidas sobre o uso, procure orientação de um profissional de saúde.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
+    },
+    destaque: false,
+    mostrarlancamento: false,
+    mostrarVideo: false,
+    textoParcelamento: "🎟️ Cupom válido no carrinho. 💳 Consulte parcelamento no checkout",
+    cupomAtivo: false,
+    cupomPorcentagem: 0,
+    cupomCodigo: "",
+    cupomValidade: "",
+    cupomMensagemTag: "",
+    cupomOcultarTag: false
+  },
+  {
+    id: "148",
+    nome: "COENZIMA Q10 100mg - 30 Cápsulas",
+    categoria: "desempenhofisico",
+    preco: 30.00,
+    imagem: "assets/img/coenzima-q10-100mg-30-capsulas-muziyu8l.png",
+    videos: [
+      
+    ],
+    descricao: {
+      resumo: "<p>Coenzima Q10 100mg é um suplemento desenvolvido para complementar a rotina de cuidados com <strong>energia, vitalidade e proteção antioxidante</strong>, fornecendo 100mg de Coenzima Q10 por cápsula.</p>",
+      oQueE: "<p>A Coenzima Q10 é uma substância naturalmente encontrada no organismo e relacionada aos processos de produção de energia celular. Com o passar dos anos, sua presença pode diminuir, tornando a suplementação uma opção para complementar a ingestão desse composto.</p><p>O produto é destinado à suplementação de Coenzima Q10, contribuindo para uma rotina voltada à <strong>vitalidade e proteção antioxidante</strong>. Sua composição concentra 100mg de Coenzima Q10 por cápsula.</p><p>É indicado para adultos que desejam complementar sua rotina com Coenzima Q10, especialmente aqueles que buscam suporte nutricional relacionado à <strong>energia e ao bem-estar geral</strong>, respeitando suas necessidades individuais e orientação profissional quando necessária.</p>",
+      composicao: "<ul>\n<li>COENZIMA Q 10 PO — 100MG</li>\n</ul><p><strong>Apresentação:</strong> 30 Cápsulas</p>",
+      comoUsar: "<p><strong>Tomar 2 cápsulas ao dia.</strong></p><p>O consumo da Coenzima Q10 deve ser feito por meio da ingestão das cápsulas com água.</p><p>Podendo ser:</p><p>Tomar 1 cápsula antes do almoço e 1 cápsula antes do jantar.</p><p>ou então</p><p>Tomar 1 cápsula ao acordar e 1 cápsula antes de dormir.</p>",
+      advertencias: "<p>Utilize o produto conforme a orientação de uso indicada. Em caso de dúvidas sobre a utilização ou sobre a adequação do produto às suas necessidades individuais, procure orientação de um profissional de saúde.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
+    },
+    destaque: false,
+    mostrarlancamento: false,
+    mostrarVideo: false,
+    textoParcelamento: "🎟️ Cupom válido no carrinho. 💳 Consulte parcelamento no checkout",
+    cupomAtivo: false,
+    cupomPorcentagem: 0,
+    cupomCodigo: "",
+    cupomValidade: "",
+    cupomMensagemTag: "",
+    cupomOcultarTag: false
+  },
+  {
+    id: "149",
+    nome: "PINUS PINASTER - Composto - 30 Cápsulas",
+    categoria: "desempenhofisico",
+    preco: 30.00,
+    imagem: "assets/img/pinus-pinaster-composto-30-capsulas-muzj8qc4.png",
+    videos: [
+      
+    ],
+    descricao: {
+      resumo: "<p>PINUS PINASTER é um composto em cápsulas desenvolvido com Pinus pinaster extract, luteína e CoQ10, reunindo nutrientes selecionados para complementar uma rotina de cuidado com <strong>circulação, equilíbrio inflamatório e proteção celular</strong>.</p>",
+      oQueE: "<p>PINUS PINASTER é um suplemento alimentar composto por Pinus pinaster extract, luteína e CoQ10, apresentado em cápsulas para complementar a ingestão desses componentes na rotina diária.</p><p>Sua composição foi formulada para auxiliar no cuidado com a <strong>circulação sanguínea e proteção celular</strong>, além de contribuir para uma rotina voltada ao equilíbrio inflamatório e à vitalidade.</p><p>Pode ser indicado para adultos que buscam complementar sua alimentação com uma formulação direcionada ao <strong>cuidado cardiovascular, circulação e longevidade</strong>, respeitando as necessidades individuais e a orientação de um profissional quando necessário.</p>",
+      composicao: "<ul>\n<li>PINUS PINASTER EXTRACT — 150MG</li>\n<li>LUTEINA — 10MG</li>\n<li>COQ10 — 20MG</li>\n</ul><p><strong>Apresentação:</strong> 30 Cápsulas</p>",
+      comoUsar: "<p>Utilize o produto conforme as <strong>instruções do fabricante</strong> ou de acordo com a orientação de um profissional habilitado. Não ultrapasse a recomendação indicada na embalagem.</p>",
+      advertencias: "<p>Produto destinado ao uso conforme orientação do fabricante. Mantenha fora do alcance de crianças e conserve de acordo com as condições indicadas na embalagem. Em caso de dúvidas sobre o uso, procure orientação de um profissional de saúde.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
+    },
+    destaque: false,
+    mostrarlancamento: false,
+    mostrarVideo: false,
+    textoParcelamento: "🎟️ Cupom válido no carrinho. 💳 Consulte parcelamento no checkout",
+    cupomAtivo: false,
+    cupomPorcentagem: 0,
+    cupomCodigo: "",
+    cupomValidade: "",
+    cupomMensagemTag: "",
+    cupomOcultarTag: false
+  },
+  {
+    id: "150",
+    nome: "MELATONINA & TRIPTOFANO - 30 Cápsulas",
+    categoria: "saude",
+    preco: 45.00,
+    imagem: "assets/img/melatonina-triptofano-30-capsulas-muzjf0se.png",
+    videos: [
+      
+    ],
+    descricao: {
+      resumo: "<p>MELATONINA &amp; TRIPTOFANO é uma combinação em cápsulas formulada para complementar a rotina de cuidados relacionados ao <strong>sono e ao bem-estar</strong>, reunindo melatonina e triptofano em uma apresentação prática.</p>",
+      oQueE: "<p>MELATONINA &amp; TRIPTOFANO é um suplemento alimentar em cápsulas que combina <strong>melatonina e triptofano</strong>, componentes selecionados para integrar uma rotina de cuidados voltada ao descanso e ao equilíbrio do organismo.</p><p>O produto tem como finalidade complementar a ingestão desses componentes, contribuindo para uma rotina de cuidados relacionada ao <strong>sono e ao bem-estar</strong>, sem substituir hábitos saudáveis ou acompanhamento profissional.</p><p>Pode ser indicado para adultos que buscam complementar sua rotina com uma formulação contendo melatonina e triptofano, especialmente aqueles que desejam manter cuidados relacionados ao <strong>descanso e à qualidade do sono</strong>.</p>",
+      composicao: "<ul>\n<li>MELATONINA — 5MG</li>\n<li>TRIPTOFANO — 100MG</li>\n</ul><p><strong>Apresentação:</strong> 30 Cápsulas</p>",
+      comoUsar: "<p>Utilize o produto conforme as <strong>instruções do fabricante</strong> ou de acordo com a orientação de um profissional habilitado. Não invente ou altere a dose, frequência ou horário de utilização indicados na embalagem.</p>",
+      advertencias: "<p>Produto destinado ao uso conforme orientação do fabricante. Em caso de dúvidas sobre a utilização, procure orientação de um profissional de saúde.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
+    },
+    destaque: false,
+    mostrarlancamento: false,
+    mostrarVideo: false,
+    textoParcelamento: "🎟️ Cupom válido no carrinho. 💳 Consulte parcelamento no checkout",
+    cupomAtivo: false,
+    cupomPorcentagem: 0,
+    cupomCodigo: "",
+    cupomValidade: "",
+    cupomMensagemTag: "",
+    cupomOcultarTag: false
+  },
+  {
+    id: "151",
+    nome: "MEMORIA FOCUS - 30 Cápsulas",
+    categoria: "saude",
+    preco: 80.00,
+    imagem: "assets/img/memoria-focus-30-capsulas-muzjo8gn.png",
+    videos: [
+      
+    ],
+    descricao: {
+      resumo: "<p>MEMORIA FOCUS é uma fórmula em cápsulas desenvolvida para complementar a rotina de quem busca <strong>foco e atenção</strong>, reunindo diferentes componentes em uma composição voltada ao suporte nutricional.</p>",
+      oQueE: "<p>MEMORIA FOCUS é um suplemento em cápsulas que combina Piracetam Base, Vimpocetina, Fosfatidilserina, Huperzine A e extrato de Ginkgo Biloba 24% em uma fórmula cuidadosamente composta.</p><p>Sua finalidade é oferecer <strong>suporte à rotina de foco e concentração</strong>, integrando diferentes componentes em uma única apresentação. O produto não deve ser considerado tratamento ou cura para condições de saúde.</p><p>Pode ser indicado para adultos que buscam complementar sua rotina com uma fórmula voltada ao <strong>suporte cognitivo</strong>, sempre considerando as orientações do fabricante ou de um profissional habilitado.</p>",
+      composicao: "<ul>\n<li>PIRACETAM BASE — MG</li>\n<li>VIMPOCETINA — MG</li>\n<li>FOSFATIDILSERINA — MG</li>\n<li>HUPERZINE A — MCG</li>\n<li>GINKGO BILOBA EXTRATO 24% — MG</li>\n</ul><p><strong>Apresentação:</strong> 30 Cápsulas</p>",
+      comoUsar: "<p>Utilize o produto <strong>conforme as instruções do fabricante</strong> ou de acordo com a orientação de um profissional habilitado. Não altere a dose, a frequência ou a forma de utilização recomendada.</p>",
+      advertencias: "<p>Conserve o produto conforme as orientações do fabricante e mantenha fora do alcance de crianças. Em caso de dúvidas sobre o uso, procure orientação de um profissional habilitado.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
     },
     destaque: false,
     mostrarlancamento: false,
