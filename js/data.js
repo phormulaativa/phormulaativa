@@ -214,7 +214,7 @@ const produtos = [
       oQueE: "<p>O Ácido Salicílico 40% é um creme de uso tópico formulado com alta concentração de ácido salicílico, destinado ao cuidado de áreas com <strong>espessamento da pele</strong>.</p><p>Sua finalidade é <strong>auxiliar na remoção de calosidades, hiperqueratoses e áreas de pele espessada</strong>. Também pode ser indicado para verrugas, conforme avaliação profissional.</p><p>É recomendado para pessoas que apresentam <strong>calosidades, hiperqueratoses ou verrugas</strong> e que tenham indicação adequada para utilização do produto, preferencialmente mediante orientação profissional.</p>",
       composicao: "<ul>\n<li>ACIDO SALICILICO — 40%</li>\n<li>SEM ESSENCIA MG — 0%</li>\n<li>CREME BASE — 30GR</li>\n</ul><p><strong>Apresentação:</strong> Creme 30g - Validade 4 meses</p>",
       comoUsar: "<p>Utilize o produto conforme as <strong>instruções do fabricante</strong> ou de acordo com a orientação de um profissional habilitado. Não utilize dose, frequência ou horário diferentes daqueles recomendados para o produto.</p>",
-      advertencias: "<p>Uso conforme orienta��ão do fabricante ou profissional. Mantenha o produto adequadamente armazenado e fora do alcance de crianças. Em caso de dúvidas sobre a utilização, procure orientação profissional.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
+      advertencias: "<p>Uso conforme orientação do fabricante ou profissional. Mantenha o produto adequadamente armazenado e fora do alcance de crianças. Em caso de dúvidas sobre a utilização, procure orientação profissional.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
     },
     destaque: false,
     mostrarlancamento: false,
@@ -1095,7 +1095,7 @@ const produtos = [
     id: "56",
     nome: "TESTO BLACK FEMME - 60 Cápsulas",
     categoria: "desempenhofisico",
-    preco: 70.00,
+    preco: 100.00,
     imagem: "assets/img/testo-black-femme-60-capsulas.png",
     videos: [
       
@@ -1111,11 +1111,11 @@ const produtos = [
     mostrarlancamento: false,
     mostrarVideo: false,
     textoParcelamento: "🎟️ Cupom válido no carrinho. 💳 Consulte parcelamento no checkout",
-    cupomAtivo: false,
-    cupomPorcentagem: 0,
-    cupomCodigo: "",
+    cupomAtivo: true,
+    cupomPorcentagem: 30,
+    cupomCodigo: "CUPOM30OFF",
     cupomValidade: "",
-    cupomMensagemTag: "",
+    cupomMensagemTag: "CUPOM30OFF",
     cupomOcultarTag: false
   },
   {
@@ -1149,7 +1149,7 @@ const produtos = [
     id: "58",
     nome: "TESTO PRIME MAM - 30 Cápsulas",
     categoria: "desempenhofisico",
-    preco: 100.00,
+    preco: 125.00,
     imagem: "assets/img/testo-prime-mam.png",
     videos: [
       
@@ -1165,18 +1165,18 @@ const produtos = [
     mostrarlancamento: false,
     mostrarVideo: false,
     textoParcelamento: "🎟️ Cupom válido no carrinho. 💳 Consulte parcelamento no checkout",
-    cupomAtivo: false,
-    cupomPorcentagem: 0,
-    cupomCodigo: "",
+    cupomAtivo: true,
+    cupomPorcentagem: 20,
+    cupomCodigo: "CUPOM20OFF",
     cupomValidade: "",
-    cupomMensagemTag: "",
+    cupomMensagemTag: "CUPOM20OFF",
     cupomOcultarTag: false
   },
   {
     id: "59",
     nome: "BLACK GINGER POWER PRE-TREINO- 15 Cápsulas",
     categoria: "desempenhofisico",
-    preco: 120.00,
+    preco: 141.18,
     imagem: "assets/img/black-ginger-power-pre-treino-15-capsulas.png",
     videos: [
       
@@ -1192,11 +1192,11 @@ const produtos = [
     mostrarlancamento: false,
     mostrarVideo: false,
     textoParcelamento: "🎟️ Cupom válido no carrinho. 💳 Consulte parcelamento no checkout",
-    cupomAtivo: false,
-    cupomPorcentagem: 0,
-    cupomCodigo: "",
+    cupomAtivo: true,
+    cupomPorcentagem: 15,
+    cupomCodigo: "CUPOM15OFF",
     cupomValidade: "",
-    cupomMensagemTag: "",
+    cupomMensagemTag: "CUPOM15OFF",
     cupomOcultarTag: false
   },
   {
@@ -1257,7 +1257,7 @@ const produtos = [
     id: "62",
     nome: "LONG JACK 200mg - 30 Cápsulas",
     categoria: "desempenhofisico",
-    preco: 50.00,
+    preco: 64.94,
     imagem: "assets/img/long-jack-200mg-30-capsulas.png",
     videos: [
       
@@ -1273,11 +1273,11 @@ const produtos = [
     mostrarlancamento: false,
     mostrarVideo: false,
     textoParcelamento: "🎟️ Cupom válido no carrinho. 💳 Consulte parcelamento no checkout",
-    cupomAtivo: false,
-    cupomPorcentagem: 0,
-    cupomCodigo: "",
+    cupomAtivo: true,
+    cupomPorcentagem: 23,
+    cupomCodigo: "CUPOM23OFF",
     cupomValidade: "",
-    cupomMensagemTag: "",
+    cupomMensagemTag: "CUPOM23OFF",
     cupomOcultarTag: false
   },
   {
@@ -1374,7 +1374,7 @@ const produtos = [
       resumo: "<p>Suplemento alimentar à base de <strong>arroz vermelho fermentado</strong>, fonte de compostos bioativos tradicionalmente estudados por sua relação com o metabolismo lipídico, especialmente como complemento de uma alimentação equilibrada e de hábitos de vida saudáveis.</p>",
       oQueE: "<p>O <strong>Red Yeast Rice</strong> é um suplemento alimentar elaborado a partir do arroz vermelho fermentado, processo que pode resultar na formação de diferentes compostos bioativos, incluindo monacolinas. É um ingrediente tradicionalmente utilizado e estudado por sua relação com o metabolismo das gorduras.</p><p>Sua finalidade está relacionada ao <strong>suporte ao metabolismo lipídico</strong>, fornecendo compostos provenientes do processo de fermentação do arroz. Os componentes presentes no arroz vermelho fermentado são estudados principalmente em relação ao metabolismo do colesterol, dentro de uma abordagem que também considera alimentação equilibrada e hábitos de vida saudáveis.</p><p>É destinado a adultos que buscam <strong>suporte nutricional para o metabolismo lipídico</strong> e desejam complementar sua rotina com um ingrediente de origem fermentada. A utilização deve considerar as características individuais e, especialmente quando houver uso de medicamentos ou acompanhamento por alterações metabólicas, contar com orientação de um profissional de saúde.</p>",
       composicao: "<ul>\n<li>RED YEAST RICE — 300MG</li>\n</ul><p><strong>Apresentação:</strong> 60 Cápsulas</p>",
-      comoUsar: "<p>Utilize o produto <strong>conforme as instruções do fabricante</strong> ou de acordo com a orientação de médico, nutricionista ou outro profissional de saúde habilitado. Não altere a forma de utilização recomendada sem orientaç��o profissional.</p>",
+      comoUsar: "<p>Utilize o produto <strong>conforme as instruções do fabricante</strong> ou de acordo com a orientação de médico, nutricionista ou outro profissional de saúde habilitado. Não altere a forma de utilização recomendada sem orientação profissional.</p>",
       advertencias: "<p>Este produto deve ser utilizado de acordo com as orientações do fabricante. <strong>Não exceda a recomendação de uso</strong> indicada na embalagem ou por profissional de saúde.</p><p>O arroz vermelho fermentado pode conter monacolinas, cuja quantidade pode variar de acordo com a matéria-prima e o processo de fabricação. Pessoas que utilizam medicamentos ou possuem condições específicas de saúde devem consultar um profissional de saúde antes de utilizar o produto.</p><p>O suplemento não deve ser utilizado para substituir medicamentos, tratamentos prescritos ou uma alimentação equilibrada. Mantenha fora do alcance de crianças e conserve o produto de acordo com as orientações de armazenamento do fabricante.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
     },
     destaque: false,
@@ -1473,7 +1473,7 @@ const produtos = [
     id: "71",
     nome: "BOSWELLIA SERRATA - 30 Cápsulas",
     categoria: "saude",
-    preco: 50.00,
+    preco: 55.56,
     imagem: "assets/img/boswellia-serrata-30-capsulas.png",
     videos: [
       
@@ -1489,11 +1489,11 @@ const produtos = [
     mostrarlancamento: false,
     mostrarVideo: false,
     textoParcelamento: "🎟️ Cupom válido no carrinho. 💳 Consulte parcelamento no checkout",
-    cupomAtivo: false,
-    cupomPorcentagem: 0,
-    cupomCodigo: "",
+    cupomAtivo: true,
+    cupomPorcentagem: 10,
+    cupomCodigo: "CUPOM10OFF",
     cupomValidade: "",
-    cupomMensagemTag: "",
+    cupomMensagemTag: "CUPOM10OFF",
     cupomOcultarTag: false
   },
   {
@@ -1554,7 +1554,7 @@ const produtos = [
     id: "74",
     nome: "FOME CONTROL - 30 Cápsulas",
     categoria: "emagrecimento",
-    preco: 60.00,
+    preco: 82.20,
     imagem: "assets/img/fome-control-30-capsulas.png",
     videos: [
       
@@ -1570,11 +1570,11 @@ const produtos = [
     mostrarlancamento: false,
     mostrarVideo: false,
     textoParcelamento: "🎟️ Cupom válido no carrinho. 💳 Consulte parcelamento no checkout",
-    cupomAtivo: false,
-    cupomPorcentagem: 0,
-    cupomCodigo: "",
+    cupomAtivo: true,
+    cupomPorcentagem: 27,
+    cupomCodigo: "CUPOM27OFF",
     cupomValidade: "",
-    cupomMensagemTag: "",
+    cupomMensagemTag: "CUPOM27OFF",
     cupomOcultarTag: false
   },
   {
@@ -1878,7 +1878,7 @@ const produtos = [
     id: "86",
     nome: "Peg 4000 (Polietilenoglicol) - 350 gramas",
     categoria: "saude",
-    preco: 50.00,
+    preco: 58.83,
     imagem: "assets/img/peg-4000-polietilenoglicol-350-gramas-mu45582h.png",
     videos: [
       
@@ -1894,11 +1894,11 @@ const produtos = [
     mostrarlancamento: false,
     mostrarVideo: false,
     textoParcelamento: "🎟️ Cupom válido no carrinho. 💳 Consulte parcelamento no checkout",
-    cupomAtivo: false,
-    cupomPorcentagem: 0,
-    cupomCodigo: "",
+    cupomAtivo: true,
+    cupomPorcentagem: 15,
+    cupomCodigo: "CUPOM15OFF",
     cupomValidade: "",
-    cupomMensagemTag: "",
+    cupomMensagemTag: "CUPOM15OFF",
     cupomOcultarTag: false
   },
   {
@@ -1966,7 +1966,7 @@ const produtos = [
     ],
     descricao: {
       resumo: "<p>O <strong>30+ Suplemento</strong> combina vitaminas, minerais, colágeno e coenzima Q10 em uma fórmula desenvolvida para oferecer <strong>suporte nutricional ao organismo adulto</strong>, contribuindo para funções relacionadas à energia, imunidade, músculos, ossos e tecidos.</p>",
-      oQueE: "<p>O 30+ Suplemento é uma combinação de nutrientes que reúne <strong>magnésio, vitamina C, coenzima Q10, colágeno hidrolisado, vitamina D e zinco</strong> em cápsulas, proporcionando uma composição nutricional diversificada para o público adulto.</p><p>Sua finalidade é complementar a alimentação com nutrientes envolvidos em diferentes funções do organismo, incluindo <strong>metabolismo energético, funcionamento muscular, sistema imunológico, manutenção dos ossos e formação de colágeno</strong>.</p><p>É indicado para adultos que buscam <strong>complementação nutricional</strong> por meio de uma fórmula que reúne diferentes vitaminas, minerais e outros componentes nutricionais. A necessidade de suplementação deve considerar a alimentação, as condições individuais e a orientação de um profissional de saúde quando necessário.</p>",
+      oQueE: "<p>O 30+ Suplemento é uma combinação de nutrientes que reúne <strong>magnésio, vitamina C, coenzima Q10, colágeno hidrolisado, vitamina D e zinco</strong> em cápsulas, proporcionando uma composição nutricional diversificada para o público adulto.</p><p>Sua finalidade é complementar a alimentação com nutrientes envolvidos em diferentes funções do organismo, incluindo <strong>metabolismo energético, funcionamento muscular, sistema imunológico, manutenção dos ossos e formação de colágeno</strong>.</p><p>É indicado para adultos que buscam <strong>complementação nutricional</strong> por meio de uma fórmula que reúne diferentes vitaminas, minerais e outros componentes nutricionais. A necessidade de suplementação deve considerar a alimentaç��o, as condições individuais e a orientação de um profissional de saúde quando necessário.</p>",
       composicao: "<ul>\n<li>MAGNESIO DIMALATO — MG</li>\n<li>VITAMINA C REVESTIDA — MG</li>\n<li>COENZIMA Q 10 PO — MG</li>\n<li>COLAGENO HIDROLISADO PO — MG</li>\n<li>VIT D — UI</li>\n<li>ZINCO QUELATO — MG</li>\n</ul><p><strong>Apresentação:</strong> 30 Cápsulas</p>",
       comoUsar: "<p>Utilize o produto <strong>conforme as instruções do fabricante</strong> ou de acordo com a orientação de um profissional de saúde. Não altere a forma de utilização recomendada.</p>",
       advertencias: "<p>Este produto é destinado à <strong>suplementação nutricional</strong> e não substitui uma alimentação equilibrada. Utilize conforme as orientações do fabricante. Em caso de dúvidas sobre a utilização, especialmente quando houver uso de outros produtos ou medicamentos, procure orientação de um profissional de saúde.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
@@ -1974,7 +1974,7 @@ const produtos = [
     destaque: false,
     mostrarlancamento: false,
     mostrarVideo: false,
-    textoParcelamento: "🎟️ Cupom válido no carrinho. 💳 Consulte parcelamento no checkout",
+    textoParcelamento: "����️ Cupom válido no carrinho. 💳 Consulte parcelamento no checkout",
     cupomAtivo: false,
     cupomPorcentagem: 0,
     cupomCodigo: "",
@@ -2013,7 +2013,7 @@ const produtos = [
     id: "91",
     nome: "Pill Food Turbinado - 90 Cápsulas",
     categoria: "beleza",
-    preco: 80.00,
+    preco: 106.67,
     imagem: "assets/img/pill-food-turbinado-90-capsulas-mu8hdwsn.png",
     videos: [
       
@@ -2029,11 +2029,11 @@ const produtos = [
     mostrarlancamento: false,
     mostrarVideo: false,
     textoParcelamento: "🎟️ Cupom válido no carrinho. 💳 Consulte parcelamento no checkout",
-    cupomAtivo: false,
-    cupomPorcentagem: 0,
-    cupomCodigo: "",
+    cupomAtivo: true,
+    cupomPorcentagem: 25,
+    cupomCodigo: "CUPOM25OFF",
     cupomValidade: "",
-    cupomMensagemTag: "",
+    cupomMensagemTag: "CUPOM25OFF",
     cupomOcultarTag: false
   },
   {
@@ -2397,7 +2397,7 @@ const produtos = [
       
     ],
     descricao: {
-      resumo: "<p>Infecção Urinária é uma fórmula com <strong>cranberry e unha-de-gato</strong>, desenvolvida para complementar os cuidados com o bem-estar do trato urinário e a manutenção do organismo.</p>",
+      resumo: "<p>Infecção Urinária é uma fórmula com <strong>cranberry e unha-de-gato</strong>, desenvolvida para complementar os cuidados com o bem-estar do trato urinário e a manuten��ão do organismo.</p>",
       oQueE: "<p>Infecção Urinária é uma fórmula em cápsulas que reúne <strong>extrato seco de cranberry e unha-de-gato</strong>, dois ingredientes de origem vegetal selecionados para complementar uma rotina de cuidados.</p><p>Sua finalidade é oferecer <strong>suporte ao bem-estar do trato urinário</strong>, podendo o cranberry contribuir para a redução do risco de episódios recorrentes de infecção urinária em algumas mulheres. O produto não se destina ao tratamento de uma infecção urinária já instalada.</p><p>Pode ser indicado como complemento de cuidados para pessoas que buscam <strong>manutenção da saúde urinária</strong>, especialmente dentro de uma rotina de hábitos saudáveis e conforme orientação de um profissional habilitado.</p>",
       composicao: "<ul>\n<li>CRAMBERRY EXTRATO SECO — 200MG</li>\n<li>UNHA DE GATO — 200MG</li>\n</ul><p><strong>Apresentação:</strong> 60 Cápsulas</p>",
       comoUsar: "<p>Utilize o produto conforme as <strong>instruções do fabricante</strong> ou de acordo com a orientação de um profissional habilitado. Não altere a forma de utilização recomendada na embalagem ou pelo profissional responsável.</p>",
@@ -2532,7 +2532,7 @@ const produtos = [
       
     ],
     descricao: {
-      resumo: "<p>A <strong>Metilcobalamina 1000mcg Sublingual</strong> é uma fórmula de vitamina B12 desenvolvida para complementar a ingestão desse nutriente, contribuindo para fun��ões importantes do organismo, como o metabolismo energético e o funcionamento do sistema nervoso.</p>",
+      resumo: "<p>A <strong>Metilcobalamina 1000mcg Sublingual</strong> é uma fórmula de vitamina B12 desenvolvida para complementar a ingestão desse nutriente, contribuindo para funções importantes do organismo, como o metabolismo energético e o funcionamento do sistema nervoso.</p>",
       oQueE: "<p>A Metilcobalamina 1000mcg é uma fórmula de <strong>vitamina B12 na forma de metilcobalamina</strong>, apresentada em cápsulas sublinguais e desenvolvida para complementar a ingestão desse nutriente na rotina.</p><p>A vitamina B12 contribui para o <strong>metabolismo energético</strong>, o funcionamento normal do sistema nervoso e a formação das células vermelhas do sangue. Também participa do metabolismo de proteínas e carboidratos.</p><p>É indicada para pessoas que necessitam complementar a ingestão de <strong>vitamina B12</strong>, especialmente quando houver orientação profissional para suplementação desse nutriente.</p>",
       composicao: "<ul>\n<li>METILCOBALAMINA — 1000MCG</li>\n<li>SUBLINGUAL TAPIOCA CAPS — MG</li>\n</ul><p><strong>Apresentação:</strong> 30 Cápsulas Sublingual</p>",
       comoUsar: "<p>Utilizar conforme as <strong>instruções do fabricante</strong> ou de acordo com a orientação de profissional habilitado. Não altere a forma de uso recomendada sem orientação profissional.</p>",
@@ -2667,7 +2667,7 @@ const produtos = [
       
     ],
     descricao: {
-      resumo: "<p>Magnésio Treonato 300mg é uma fórmula desenvolvida para complementar a ingestão de magnésio, com foco no <strong>suporte à saúde cerebral</strong>, à memória, ao foco e ao bem-estar mental no dia a dia.</p>",
+      resumo: "<p>Magnésio Treonato 300mg é uma fórmula desenvolvida para complementar a ingestão de magnésio, com foco no <strong>suporte à saúde cerebral</strong>, �� memória, ao foco e ao bem-estar mental no dia a dia.</p>",
       oQueE: "<p><strong>Magnésio Treonato 300mg</strong> é um suplemento em cápsulas à base de MAGNESIO L-THREONATE, uma forma de magnésio estudada por sua relação com o sistema nervoso central e com o suporte às funções cognitivas.</p><p>Sua finalidade é auxiliar no suporte à <strong>memória, foco, atenção e saúde cerebral</strong>, além de contribuir para o bem-estar emocional e para a qualidade do sono. É uma opção especialmente interessante em períodos de maior demanda mental, como estudos intensos e jornadas de trabalho exigentes.</p><p>Pode ser indicado para adultos que desejam complementar a ingestão de magnésio e manter o <strong>desempenho mental e o bem-estar</strong> no dia a dia, incluindo pessoas com rotinas de estudo ou trabalho intensas e adultos que buscam suporte à saúde cognitiva ao longo do tempo.</p>",
       composicao: "<ul>\n<li>MAGNESIO L-THREONATE — 300MG</li>\n</ul><p><strong>Apresentação:</strong> 60 Cápsulas</p>",
       comoUsar: "<p>Tomar <strong>2 cápsulas ao dia</strong>, sendo 1 cápsula antes do almoço e 1 cápsula antes de dormir, ou conforme orientação profissional.</p>",
@@ -2857,7 +2857,7 @@ const produtos = [
     ],
     descricao: {
       resumo: "<p>PeptiStrong® 2,4g com sabor Cappuccino é um suplemento nutricional desenvolvido para oferecer <strong>suporte à força, recuperação muscular e desempenho físico</strong> em um único sachê ao dia.</p>",
-      oQueE: "<p>PeptiStrong® é um ingrediente patenteado composto por <strong>peptídeos bioativos</strong> obtidos por hidrólise enzimática seletiva da proteína da fava, desenvolvido com o auxílio de inteligência artificial para oferecer suporte ao metabolismo muscular.</p><p>O produto auxilia na <strong>redução da degradação de proteínas musculares</strong> e na inflamação induzida pelo exercício, contribuindo para a recuperação muscular, o aumento de força e o desempenho esportivo. Também pode ser utilizado como suporte nutricional em situações como sarcopenia, dinapenia e miopatias, sempre com acompanhamento profissional.</p><p>É indicado para <strong>adultos que buscam suporte à manutenção e recuperação da função muscular</strong>, incluindo praticantes de atividade física, atletas e pessoas que necessitam de suporte nutricional em situações de maior demanda muscular, como no período pré e p��s-cirúrgico, após imobilização ou durante o envelhecimento. Também pode ser utilizado como complemento nutricional por pessoas com redução da massa ou da força muscular, sempre sob orientação de um médico ou nutricionista.</p>",
+      oQueE: "<p>PeptiStrong® é um ingrediente patenteado composto por <strong>peptídeos bioativos</strong> obtidos por hidrólise enzimática seletiva da proteína da fava, desenvolvido com o auxílio de inteligência artificial para oferecer suporte ao metabolismo muscular.</p><p>O produto auxilia na <strong>redução da degradação de proteínas musculares</strong> e na inflamação induzida pelo exercício, contribuindo para a recuperação muscular, o aumento de força e o desempenho esportivo. Também pode ser utilizado como suporte nutricional em situações como sarcopenia, dinapenia e miopatias, sempre com acompanhamento profissional.</p><p>É indicado para <strong>adultos que buscam suporte à manutenção e recuperação da função muscular</strong>, incluindo praticantes de atividade física, atletas e pessoas que necessitam de suporte nutricional em situações de maior demanda muscular, como no período pré e pós-cirúrgico, após imobilização ou durante o envelhecimento. Também pode ser utilizado como complemento nutricional por pessoas com redução da massa ou da força muscular, sempre sob orientação de um médico ou nutricionista.</p>",
       composicao: "<ul>\n<li>PeptiStrong — 2,4g</li>\n<li>Sabor Cappuccino — 7g</li>\n</ul><p><strong>Apresentação:</strong> 30 Sachês</p>",
       comoUsar: "<p>Solubilizar <strong>1 sachê em 150ml de água</strong> e tomar 1 vez ao dia. Consumir imediatamente após o preparo.</p>",
       advertencias: "<p>Utilize o produto conforme a orientação de uso indicada. Em situações que necessitem de acompanhamento profissional, recomenda-se orientação de médico ou nutricionista.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
@@ -3128,7 +3128,7 @@ const produtos = [
     descricao: {
       resumo: "<p><strong>SUN BLACK</strong> é uma fórmula com fibras, extratos vegetais e nutrientes selecionados para complementar uma rotina de alimentação equilibrada, contribuindo para o <strong>bem-estar intestinal</strong>, a saciedade e os cuidados com o metabolismo.</p>",
       oQueE: "<p>O <strong>SUN BLACK</strong> é um suplemento alimentar em cápsulas que reúne fibras, ingredientes de origem vegetal e nutrientes cuidadosamente combinados em uma única fórmula.</p><p>Sua finalidade é <strong>complementar a alimentação</strong>, oferecendo componentes que podem contribuir para o aporte de fibras, a sensação de saciedade e o funcionamento regular do intestino, dentro de uma rotina de hábitos saudáveis.</p><p>É recomendado para <strong>adultos</strong> que desejam complementar sua alimentação com fibras e compostos de origem vegetal, especialmente como parte de uma rotina que inclua alimentação equilibrada e cuidados com o bem-estar.</p>",
-      composicao: "<ul>\n<li>MOROSIL — 50MG</li>\n<li>COLAGENO EM PO — 20MG</li>\n<li>SPIRULINA — 50MG</li>\n<li>SENNE — 50MG</li>\n<li>JOBSTEARS — 50MG</li>\n<li>FUCCUS VESICULOSUS — 50MG</li>\n<li>GELATINA — 20MG</li>\n<li>PSYLLIUM — 50MG</li>\n<li>GARCINIA CAMBOGIA EXTRATO — 20MG</li>\n<li>HORSETAIL — 20MG</li>\n<li>PICOLINATO DE CROMO — 250MCG</li>\n<li>GORSE ULEX — 50MG</li>\n<li>CITRUS AURANTIUM — 20MG</li>\n<li>SACRED SHELL — 50MG</li>\n<li>XIANXIAN — 50MG</li>\n<li>BROTO DE BAMBU — 50MG</li>\n</ul><p><strong>Apresentação:</strong> 60 Cápsulas</p>",
+      composicao: "<ul>\n<li>MOROSIL — 50MG</li>\n<li>COLAGENO EM PO �� 20MG</li>\n<li>SPIRULINA — 50MG</li>\n<li>SENNE — 50MG</li>\n<li>JOBSTEARS — 50MG</li>\n<li>FUCCUS VESICULOSUS — 50MG</li>\n<li>GELATINA — 20MG</li>\n<li>PSYLLIUM — 50MG</li>\n<li>GARCINIA CAMBOGIA EXTRATO — 20MG</li>\n<li>HORSETAIL — 20MG</li>\n<li>PICOLINATO DE CROMO — 250MCG</li>\n<li>GORSE ULEX — 50MG</li>\n<li>CITRUS AURANTIUM — 20MG</li>\n<li>SACRED SHELL — 50MG</li>\n<li>XIANXIAN — 50MG</li>\n<li>BROTO DE BAMBU — 50MG</li>\n</ul><p><strong>Apresentação:</strong> 60 Cápsulas</p>",
       comoUsar: "<p>Utilize o produto <strong>conforme as instruções do fabricante</strong> presentes no rótulo ou de acordo com a orientação de um profissional habilitado. Não ultrapasse a recomendação de uso indicada.</p>",
       advertencias: "<p>Este produto é um suplemento alimentar e <strong>não substitui uma alimentação equilibrada</strong>. Mantenha fora do alcance de crianças. Seu uso deve seguir as orientações do fabricante e, quando necessário, a orientação de um profissional de saúde.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
     },
@@ -3288,9 +3288,9 @@ const produtos = [
       
     ],
     descricao: {
-      resumo: "<p><strong>Composto para TDAH - 60 Cápsulas</strong> é uma fórmula nutricional que reúne nutrientes selecionados para oferecer <strong>suporte ao funcionamento cerebral, sistema nervoso e metabolismo</strong>, contribuindo para uma rotina de cuidados voltada às funções cognitivas.</p>",
+      resumo: "<p><strong>Composto para TDAH - 60 C��psulas</strong> é uma fórmula nutricional que reúne nutrientes selecionados para oferecer <strong>suporte ao funcionamento cerebral, sistema nervoso e metabolismo</strong>, contribuindo para uma rotina de cuidados voltada às funções cognitivas.</p>",
       oQueE: "<p>O <strong>Composto para TDAH</strong> é uma fórmula em cápsulas que combina ômega 3, fosfatidilserina, colina, tirosina, zinco, vitaminas do complexo B, vitamina C e outros nutrientes relacionados ao funcionamento do sistema nervoso.</p><p>Sua finalidade é oferecer <strong>suporte nutricional às funções cognitivas</strong>, contribuindo para processos relacionados à atenção, concentração, memória, comunicação entre células nervosas e metabolismo energético.</p><p>É indicado como complemento nutricional para pessoas que buscam <strong>suporte à função cerebral e ao sistema nervoso</strong>, sempre considerando a orientação de um profissional de saúde. O produto não substitui avaliação, diagnóstico ou tratamento profissional do TDAH.</p>",
-      composicao: "<ul>\n<li>OMEGA 3 PO — 250MG</li>\n<li>FOSFATIDILSERINA — 100MG</li>\n<li>ZINCO — 10MG</li>\n<li>COLINA — 100MG</li>\n<li>TAURINA-L — 100MG</li>\n<li>TIROSINA — 250MG</li>\n<li>ACIDO FOLICO — 500MCG</li>\n<li>VIT C — 50MG</li>\n<li>NIACINA — 10MG</li>\n<li>VIT B6 — 4MG</li>\n<li>VIT B12 — 10MCG</li>\n</ul><p><strong>Apresentação:</strong> 60 Cápsulas</p>",
+      composicao: "<ul>\n<li>OMEGA 3 PO — 250MG</li>\n<li>FOSFATIDILSERINA — 100MG</li>\n<li>ZINCO — 10MG</li>\n<li>COLINA — 100MG</li>\n<li>TAURINA-L — 100MG</li>\n<li>TIROSINA — 250MG</li>\n<li>ACIDO FOLICO — 500MCG</li>\n<li>VIT C — 50MG</li>\n<li>NIACINA — 10MG</li>\n<li>VIT B6 — 4MG</li>\n<li>VIT B12 — 10MCG</li>\n</ul><p><strong>Apresentaç��o:</strong> 60 Cápsulas</p>",
       comoUsar: "<p>Utilizar o produto <strong>conforme as instruções do fabricante</strong> ou de acordo com a orientação de um profissional de saúde.</p>",
       advertencias: "<p>O produto não deve ser apresentado como cura ou tratamento do TDAH. Sua utilização deve ser considerada como complemento nutricional, não substituindo avaliação, diagnóstico ou tratamento profissional. Os resultados podem variar de acordo com as características individuais, alimentação, condições de saúde e demais fatores.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
     },
