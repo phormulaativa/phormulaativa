@@ -320,7 +320,7 @@ const produtos = [
     descricao: {
       resumo: "<p>O Fluconazol + Trivalin é uma solução desenvolvida para <strong>auxiliar no cuidado antifúngico das unhas</strong>, reunindo diferentes componentes em uma formulação de uso tópico.</p>",
       oQueE: "<p>O <strong>Fluconazol + Trivalin</strong> é uma solução de uso tópico formulada com fluconazol, óleo de melaleuca, óleo de cravo essencial, Trivalin SF e óleo de girassol.</p><p>Sua finalidade é <strong>auxiliar no cuidado antifúngico das unhas</strong>, oferecendo uma formulação destinada ao cuidado tópico relacionado à presença de fungos nas unhas.</p><p>Pode ser indicado para pessoas que necessitam de um produto destinado ao <strong>cuidado antifúngico das unhas</strong>, devendo sua utilização seguir as orientações do fabricante ou de um profissional habilitado.</p>",
-      composicao: "<ul>\n<li>FLUCONAZOL — 0.2%</li>\n<li>OLEO DE MELALEUCA — 2%</li>\n<li>OLEO DE CRAVO ESSENCIAL — 2%</li>\n<li>TRIVALIN SF — 2%</li>\n<li>OLEO DE GIRASSOL — 10ML</li>\n</ul><p><strong>Apresentação:</strong> Solução 10ml - Validade 4 meses</p>",
+      composicao: "<ul>\n<li>FLUCONAZOL ��� 0.2%</li>\n<li>OLEO DE MELALEUCA — 2%</li>\n<li>OLEO DE CRAVO ESSENCIAL — 2%</li>\n<li>TRIVALIN SF — 2%</li>\n<li>OLEO DE GIRASSOL — 10ML</li>\n</ul><p><strong>Apresentação:</strong> Solução 10ml - Validade 4 meses</p>",
       comoUsar: "<p>Utilize o produto conforme as <strong>instruções do fabricante</strong> ou de acordo com a orientação de um profissional habilitado. Não altere a forma de utilização recomendada sem orientação profissional.</p>",
       advertencias: "<p>Utilize o produto somente conforme as orientações fornecidas pelo fabricante. Em caso de dúvidas sobre a utilização, procure orientação de um profissional habilitado. Mantenha o produto em condições adequadas de armazenamento e fora do alcance de crianças.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
     },
@@ -943,7 +943,7 @@ const produtos = [
       oQueE: "<p>Sweet Beet 500mg é formulado com extrato seco de beterraba, ingrediente naturalmente rico em nitratos, vitaminas e compostos antioxidantes. Sua composição concentra os componentes naturais da beterraba em uma apresentação prática em cápsulas.</p><p>O produto é utilizado como auxiliar no <strong>suporte à circulação e à oxigenação</strong>, contribuindo também para aspectos relacionados à saúde cardiovascular, ao metabolismo e à digestão. Por suas características, pode fazer parte de uma rotina voltada ao bem-estar e à prática de atividades físicas.</p><p>É recomendado para adultos que buscam <strong>suporte à circulação, oxigenação e desempenho físico</strong>, especialmente dentro de uma rotina que inclua alimentação equilibrada e atividade física. Pessoas que utilizam medicamentos para pressão arterial ou que possuem condições específicas de saúde devem consultar um profissional habilitado antes do uso.</p>",
       composicao: "<p><strong>Cada 1 cápsula contém:</strong></p>\n<ul>\n<li>Sweet Beet (Beterraba Extrato Seco) — 500mg</li>\n<li>Excipiente q.s.p 1cápsula</li>\n</ul><p><strong>Apresentação:</strong> 30 Cápsulas</p>",
       comoUsar: "<p>Tomar <strong>1 cápsula ao dia</strong>, preferencialmente com uma refeição, ou conforme orientação profissional.</p>",
-      advertencias: "<p>Pessoas com hipersensibilidade à substância não devem fazer uso do produto. Em caso de hipersensibilidade, recomenda-se descontinuar o uso e consultar o médico. A beterraba pode ocasionar alteração temporária na coloração da urina ou das fezes, geralmente sem gravidade.</p><p>Pode haver interação com medicamentos para pressão alta, pois os nitratos presentes na beterraba podem potencializar seus efeitos. Nesses casos, consulte o médico antes de utilizar o produto. Não use com o prazo de validade vencido. Manter em temperatura ambiente, entre 15 e 30ºC, protegido da luz, do calor e da umidade e fora do alcance das crianças.</p><p>Mulheres grávidas não devem utilizar o produto sem orientação médica. O uso durante o período de amamentação não é recomendado. Este produto não deve ser utilizado por menores de 18 anos sem orientação médica. Siga corretamente o modo de usar e, caso os sintomas não desapareçam, procure orientação médica. Imagens meramente ilustrativas.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
+      advertencias: "<p>Pessoas com hipersensibilidade à substância não devem fazer uso do produto. Em caso de hipersensibilidade, recomenda-se descontinuar o uso e consultar o médico. A beterraba pode ocasionar alteração temporária na colora��ão da urina ou das fezes, geralmente sem gravidade.</p><p>Pode haver interação com medicamentos para pressão alta, pois os nitratos presentes na beterraba podem potencializar seus efeitos. Nesses casos, consulte o médico antes de utilizar o produto. Não use com o prazo de validade vencido. Manter em temperatura ambiente, entre 15 e 30ºC, protegido da luz, do calor e da umidade e fora do alcance das crianças.</p><p>Mulheres grávidas não devem utilizar o produto sem orientação médica. O uso durante o período de amamentação não é recomendado. Este produto não deve ser utilizado por menores de 18 anos sem orientação médica. Siga corretamente o modo de usar e, caso os sintomas não desapareçam, procure orientação médica. Imagens meramente ilustrativas.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
     },
     destaque: true,
     mostrarlancamento: false,
@@ -1211,7 +1211,7 @@ const produtos = [
     descricao: {
       resumo: "<p>CLASCOTERONA - ACNE é um medicamento de uso tópico desenvolvido para o <strong>tratamento da acne vulgar</strong>, com clascoterona 1% em uma formulação em creme para aplicação sobre a pele.</p>",
       oQueE: "<p>CLASCOTERONA - ACNE é uma formulação tópica em creme que contém <strong>clascoterona 1%</strong>, ativo direcionado ao tratamento da acne vulgar e desenvolvido para atuar localmente sobre os receptores androgênicos da pele.</p><p>Sua finalidade é auxiliar no <strong>tratamento tópico da acne vulgar</strong>, especialmente nos quadros em que a atividade androgênica da pele participa dos processos relacionados à produção de sebo e à inflamação.</p><p>Pode ser indicado para <strong>pessoas com acne vulgar</strong>, conforme avaliação e prescrição de médico ou outro profissional habilitado, considerando as características individuais da pele e a necessidade de tratamento tópico.</p>",
-      composicao: "<ul>\n<li>CLASCOTERONA — 1%</li>\n<li>SKINBIOTICS LACTO B — 2%</li>\n<li>ESSENCIA — 1%</li>\n<li>HYDRA FRESH — 15GR</li>\n</ul><p><strong>Apresentação:</strong> Creme - 15 gramas</p>",
+      composicao: "<ul>\n<li>CLASCOTERONA — 1%</li>\n<li>SKINBIOTICS LACTO B — 2%</li>\n<li>ESSENCIA — 1%</li>\n<li>HYDRA FRESH �� 15GR</li>\n</ul><p><strong>Apresentação:</strong> Creme - 15 gramas</p>",
       comoUsar: "<p>Aplicar <strong>conforme orientação médica ou prescrição profissional</strong>. Utilizar exclusivamente sobre a pele, na área indicada, seguindo a quantidade, frequência e duração do tratamento determinadas pelo profissional responsável.</p>",
       advertencias: "<p>Uso tópico. Utilize o produto de acordo com a prescrição médica ou orientação de profissional habilitado. Evite utilizar o produto de forma diferente da recomendada e observe a resposta da pele durante o tratamento.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
     },
@@ -1380,7 +1380,7 @@ const produtos = [
     destaque: false,
     mostrarlancamento: false,
     mostrarVideo: false,
-    textoParcelamento: "🎟️ Cupom válido no carrinho. 💳 Consulte parcelamento no checkout",
+    textoParcelamento: "��️ Cupom válido no carrinho. 💳 Consulte parcelamento no checkout",
     cupomAtivo: false,
     cupomPorcentagem: 0,
     cupomCodigo: "",
@@ -1812,7 +1812,7 @@ const produtos = [
     destaque: false,
     mostrarlancamento: false,
     mostrarVideo: false,
-    textoParcelamento: "🎟️ Cupom válido no carrinho. 💳 Consulte parcelamento no checkout",
+    textoParcelamento: "🎟�� Cupom válido no carrinho. 💳 Consulte parcelamento no checkout",
     cupomAtivo: false,
     cupomPorcentagem: 0,
     cupomCodigo: "",
@@ -1966,7 +1966,7 @@ const produtos = [
     ],
     descricao: {
       resumo: "<p>O <strong>30+ Suplemento</strong> combina vitaminas, minerais, colágeno e coenzima Q10 em uma fórmula desenvolvida para oferecer <strong>suporte nutricional ao organismo adulto</strong>, contribuindo para funções relacionadas à energia, imunidade, músculos, ossos e tecidos.</p>",
-      oQueE: "<p>O 30+ Suplemento é uma combinação de nutrientes que reúne <strong>magnésio, vitamina C, coenzima Q10, colágeno hidrolisado, vitamina D e zinco</strong> em cápsulas, proporcionando uma composição nutricional diversificada para o público adulto.</p><p>Sua finalidade é complementar a alimentação com nutrientes envolvidos em diferentes funções do organismo, incluindo <strong>metabolismo energético, funcionamento muscular, sistema imunológico, manutenção dos ossos e formação de colágeno</strong>.</p><p>É indicado para adultos que buscam <strong>complementação nutricional</strong> por meio de uma fórmula que reúne diferentes vitaminas, minerais e outros componentes nutricionais. A necessidade de suplementação deve considerar a alimentaç��o, as condições individuais e a orientação de um profissional de saúde quando necessário.</p>",
+      oQueE: "<p>O 30+ Suplemento é uma combinação de nutrientes que reúne <strong>magnésio, vitamina C, coenzima Q10, colágeno hidrolisado, vitamina D e zinco</strong> em cápsulas, proporcionando uma composição nutricional diversificada para o público adulto.</p><p>Sua finalidade é complementar a alimentação com nutrientes envolvidos em diferentes funções do organismo, incluindo <strong>metabolismo energético, funcionamento muscular, sistema imunológico, manutenção dos ossos e formação de colágeno</strong>.</p><p>É indicado para adultos que buscam <strong>complementação nutricional</strong> por meio de uma fórmula que reúne diferentes vitaminas, minerais e outros componentes nutricionais. A necessidade de suplementação deve considerar a alimentação, as condições individuais e a orientação de um profissional de saúde quando necessário.</p>",
       composicao: "<ul>\n<li>MAGNESIO DIMALATO — MG</li>\n<li>VITAMINA C REVESTIDA — MG</li>\n<li>COENZIMA Q 10 PO — MG</li>\n<li>COLAGENO HIDROLISADO PO — MG</li>\n<li>VIT D — UI</li>\n<li>ZINCO QUELATO — MG</li>\n</ul><p><strong>Apresentação:</strong> 30 Cápsulas</p>",
       comoUsar: "<p>Utilize o produto <strong>conforme as instruções do fabricante</strong> ou de acordo com a orientação de um profissional de saúde. Não altere a forma de utilização recomendada.</p>",
       advertencias: "<p>Este produto é destinado à <strong>suplementação nutricional</strong> e não substitui uma alimentação equilibrada. Utilize conforme as orientações do fabricante. Em caso de dúvidas sobre a utilização, especialmente quando houver uso de outros produtos ou medicamentos, procure orientação de um profissional de saúde.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
@@ -1974,7 +1974,7 @@ const produtos = [
     destaque: false,
     mostrarlancamento: false,
     mostrarVideo: false,
-    textoParcelamento: "����️ Cupom válido no carrinho. 💳 Consulte parcelamento no checkout",
+    textoParcelamento: "🎟️ Cupom válido no carrinho. 💳 Consulte parcelamento no checkout",
     cupomAtivo: false,
     cupomPorcentagem: 0,
     cupomCodigo: "",
@@ -2397,7 +2397,7 @@ const produtos = [
       
     ],
     descricao: {
-      resumo: "<p>Infecção Urinária é uma fórmula com <strong>cranberry e unha-de-gato</strong>, desenvolvida para complementar os cuidados com o bem-estar do trato urinário e a manuten��ão do organismo.</p>",
+      resumo: "<p>Infecção Urinária é uma fórmula com <strong>cranberry e unha-de-gato</strong>, desenvolvida para complementar os cuidados com o bem-estar do trato urinário e a manutenção do organismo.</p>",
       oQueE: "<p>Infecção Urinária é uma fórmula em cápsulas que reúne <strong>extrato seco de cranberry e unha-de-gato</strong>, dois ingredientes de origem vegetal selecionados para complementar uma rotina de cuidados.</p><p>Sua finalidade é oferecer <strong>suporte ao bem-estar do trato urinário</strong>, podendo o cranberry contribuir para a redução do risco de episódios recorrentes de infecção urinária em algumas mulheres. O produto não se destina ao tratamento de uma infecção urinária já instalada.</p><p>Pode ser indicado como complemento de cuidados para pessoas que buscam <strong>manutenção da saúde urinária</strong>, especialmente dentro de uma rotina de hábitos saudáveis e conforme orientação de um profissional habilitado.</p>",
       composicao: "<ul>\n<li>CRAMBERRY EXTRATO SECO — 200MG</li>\n<li>UNHA DE GATO — 200MG</li>\n</ul><p><strong>Apresentação:</strong> 60 Cápsulas</p>",
       comoUsar: "<p>Utilize o produto conforme as <strong>instruções do fabricante</strong> ou de acordo com a orientação de um profissional habilitado. Não altere a forma de utilização recomendada na embalagem ou pelo profissional responsável.</p>",
@@ -2667,7 +2667,7 @@ const produtos = [
       
     ],
     descricao: {
-      resumo: "<p>Magnésio Treonato 300mg é uma fórmula desenvolvida para complementar a ingestão de magnésio, com foco no <strong>suporte à saúde cerebral</strong>, �� memória, ao foco e ao bem-estar mental no dia a dia.</p>",
+      resumo: "<p>Magnésio Treonato 300mg é uma fórmula desenvolvida para complementar a ingestão de magnésio, com foco no <strong>suporte à saúde cerebral</strong>, à memória, ao foco e ao bem-estar mental no dia a dia.</p>",
       oQueE: "<p><strong>Magnésio Treonato 300mg</strong> é um suplemento em cápsulas à base de MAGNESIO L-THREONATE, uma forma de magnésio estudada por sua relação com o sistema nervoso central e com o suporte às funções cognitivas.</p><p>Sua finalidade é auxiliar no suporte à <strong>memória, foco, atenção e saúde cerebral</strong>, além de contribuir para o bem-estar emocional e para a qualidade do sono. É uma opção especialmente interessante em períodos de maior demanda mental, como estudos intensos e jornadas de trabalho exigentes.</p><p>Pode ser indicado para adultos que desejam complementar a ingestão de magnésio e manter o <strong>desempenho mental e o bem-estar</strong> no dia a dia, incluindo pessoas com rotinas de estudo ou trabalho intensas e adultos que buscam suporte à saúde cognitiva ao longo do tempo.</p>",
       composicao: "<ul>\n<li>MAGNESIO L-THREONATE — 300MG</li>\n</ul><p><strong>Apresentação:</strong> 60 Cápsulas</p>",
       comoUsar: "<p>Tomar <strong>2 cápsulas ao dia</strong>, sendo 1 cápsula antes do almoço e 1 cápsula antes de dormir, ou conforme orientação profissional.</p>",
@@ -2884,7 +2884,7 @@ const produtos = [
     ],
     descricao: {
       resumo: "<p>PeptiStrong® 2,4g com sabor Frutas Vermelhas é um suplemento nutricional desenvolvido para oferecer <strong>suporte à força, recuperação muscular e desempenho físico</strong> em um único sachê ao dia.</p>",
-      oQueE: "<p>PeptiStrong® é um ingrediente patenteado composto por <strong>peptídeos bioativos</strong> obtidos por hidrólise enzimática seletiva da proteína da fava, desenvolvido com o auxílio de inteligência artificial para oferecer suporte ao metabolismo muscular.</p><p>O produto auxilia na <strong>redução da degradação de proteínas musculares</strong> e na inflamação induzida pelo exercício, contribuindo para a recuperação muscular, o aumento de força e o desempenho esportivo. Também pode ser utilizado como suporte nutricional em situações como sarcopenia, dinapenia e miopatias, sempre com acompanhamento profissional.</p><p>É indicado para <strong>adultos que buscam suporte à manutenção e recuperação da função muscular</strong>, incluindo praticantes de atividade física, atletas e pessoas que necessitam de suporte nutricional em situações de maior demanda muscular, como no período pré e pós-cirúrgico, após imobilização ou durante o envelhecimento. Também pode ser utilizado como complemento nutricional por pessoas com redução da massa ou da força muscular, sempre sob orientação de um médico ou nutricionista.</p>",
+      oQueE: "<p>PeptiStrong® é um ingrediente patenteado composto por <strong>peptídeos bioativos</strong> obtidos por hidrólise enzimática seletiva da proteína da fava, desenvolvido com o auxílio de inteligência artificial para oferecer suporte ao metabolismo muscular.</p><p>O produto auxilia na <strong>redução da degradação de proteínas musculares</strong> e na inflamação induzida pelo exercício, contribuindo para a recuperação muscular, o aumento de força e o desempenho esportivo. Também pode ser utilizado como suporte nutricional em situações como sarcopenia, dinapenia e miopatias, sempre com acompanhamento profissional.</p><p>É indicado para <strong>adultos que buscam suporte à manutenção e recuperação da função muscular</strong>, incluindo praticantes de atividade física, atletas e pessoas que necessitam de suporte nutricional em situações de maior demanda muscular, como no período pr�� e pós-cirúrgico, após imobilização ou durante o envelhecimento. Também pode ser utilizado como complemento nutricional por pessoas com redução da massa ou da força muscular, sempre sob orientação de um médico ou nutricionista.</p>",
       composicao: "<ul>\n<li>PeptiStrong — 2,4g</li>\n<li>Refreska Frutas Vermelhas — 2,5gr</li>\n</ul><p><strong>Apresentação:</strong> 30 Sachês</p>",
       comoUsar: "<p>Solubilizar <strong>1 sachê em 150ml de água</strong> e tomar 1 vez ao dia. Consumir imediatamente após o preparo.</p>",
       advertencias: "<p>Utilize o produto conforme a orientação de uso indicada. Em situações que necessitem de acompanhamento profissional, recomenda-se orientação de médico ou nutricionista.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
@@ -3128,7 +3128,7 @@ const produtos = [
     descricao: {
       resumo: "<p><strong>SUN BLACK</strong> é uma fórmula com fibras, extratos vegetais e nutrientes selecionados para complementar uma rotina de alimentação equilibrada, contribuindo para o <strong>bem-estar intestinal</strong>, a saciedade e os cuidados com o metabolismo.</p>",
       oQueE: "<p>O <strong>SUN BLACK</strong> é um suplemento alimentar em cápsulas que reúne fibras, ingredientes de origem vegetal e nutrientes cuidadosamente combinados em uma única fórmula.</p><p>Sua finalidade é <strong>complementar a alimentação</strong>, oferecendo componentes que podem contribuir para o aporte de fibras, a sensação de saciedade e o funcionamento regular do intestino, dentro de uma rotina de hábitos saudáveis.</p><p>É recomendado para <strong>adultos</strong> que desejam complementar sua alimentação com fibras e compostos de origem vegetal, especialmente como parte de uma rotina que inclua alimentação equilibrada e cuidados com o bem-estar.</p>",
-      composicao: "<ul>\n<li>MOROSIL — 50MG</li>\n<li>COLAGENO EM PO �� 20MG</li>\n<li>SPIRULINA — 50MG</li>\n<li>SENNE — 50MG</li>\n<li>JOBSTEARS — 50MG</li>\n<li>FUCCUS VESICULOSUS — 50MG</li>\n<li>GELATINA — 20MG</li>\n<li>PSYLLIUM — 50MG</li>\n<li>GARCINIA CAMBOGIA EXTRATO — 20MG</li>\n<li>HORSETAIL — 20MG</li>\n<li>PICOLINATO DE CROMO — 250MCG</li>\n<li>GORSE ULEX — 50MG</li>\n<li>CITRUS AURANTIUM — 20MG</li>\n<li>SACRED SHELL — 50MG</li>\n<li>XIANXIAN — 50MG</li>\n<li>BROTO DE BAMBU — 50MG</li>\n</ul><p><strong>Apresentação:</strong> 60 Cápsulas</p>",
+      composicao: "<ul>\n<li>MOROSIL — 50MG</li>\n<li>COLAGENO EM PO — 20MG</li>\n<li>SPIRULINA — 50MG</li>\n<li>SENNE — 50MG</li>\n<li>JOBSTEARS — 50MG</li>\n<li>FUCCUS VESICULOSUS — 50MG</li>\n<li>GELATINA — 20MG</li>\n<li>PSYLLIUM — 50MG</li>\n<li>GARCINIA CAMBOGIA EXTRATO — 20MG</li>\n<li>HORSETAIL — 20MG</li>\n<li>PICOLINATO DE CROMO — 250MCG</li>\n<li>GORSE ULEX — 50MG</li>\n<li>CITRUS AURANTIUM — 20MG</li>\n<li>SACRED SHELL — 50MG</li>\n<li>XIANXIAN — 50MG</li>\n<li>BROTO DE BAMBU — 50MG</li>\n</ul><p><strong>Apresentação:</strong> 60 Cápsulas</p>",
       comoUsar: "<p>Utilize o produto <strong>conforme as instruções do fabricante</strong> presentes no rótulo ou de acordo com a orientação de um profissional habilitado. Não ultrapasse a recomendação de uso indicada.</p>",
       advertencias: "<p>Este produto é um suplemento alimentar e <strong>não substitui uma alimentação equilibrada</strong>. Mantenha fora do alcance de crianças. Seu uso deve seguir as orientações do fabricante e, quando necessário, a orientação de um profissional de saúde.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
     },
@@ -3288,9 +3288,9 @@ const produtos = [
       
     ],
     descricao: {
-      resumo: "<p><strong>Composto para TDAH - 60 C��psulas</strong> é uma fórmula nutricional que reúne nutrientes selecionados para oferecer <strong>suporte ao funcionamento cerebral, sistema nervoso e metabolismo</strong>, contribuindo para uma rotina de cuidados voltada às funções cognitivas.</p>",
+      resumo: "<p><strong>Composto para TDAH - 60 Cápsulas</strong> é uma fórmula nutricional que reúne nutrientes selecionados para oferecer <strong>suporte ao funcionamento cerebral, sistema nervoso e metabolismo</strong>, contribuindo para uma rotina de cuidados voltada às funções cognitivas.</p>",
       oQueE: "<p>O <strong>Composto para TDAH</strong> é uma fórmula em cápsulas que combina ômega 3, fosfatidilserina, colina, tirosina, zinco, vitaminas do complexo B, vitamina C e outros nutrientes relacionados ao funcionamento do sistema nervoso.</p><p>Sua finalidade é oferecer <strong>suporte nutricional às funções cognitivas</strong>, contribuindo para processos relacionados à atenção, concentração, memória, comunicação entre células nervosas e metabolismo energético.</p><p>É indicado como complemento nutricional para pessoas que buscam <strong>suporte à função cerebral e ao sistema nervoso</strong>, sempre considerando a orientação de um profissional de saúde. O produto não substitui avaliação, diagnóstico ou tratamento profissional do TDAH.</p>",
-      composicao: "<ul>\n<li>OMEGA 3 PO — 250MG</li>\n<li>FOSFATIDILSERINA — 100MG</li>\n<li>ZINCO — 10MG</li>\n<li>COLINA — 100MG</li>\n<li>TAURINA-L — 100MG</li>\n<li>TIROSINA — 250MG</li>\n<li>ACIDO FOLICO — 500MCG</li>\n<li>VIT C — 50MG</li>\n<li>NIACINA — 10MG</li>\n<li>VIT B6 — 4MG</li>\n<li>VIT B12 — 10MCG</li>\n</ul><p><strong>Apresentaç��o:</strong> 60 Cápsulas</p>",
+      composicao: "<ul>\n<li>OMEGA 3 PO — 250MG</li>\n<li>FOSFATIDILSERINA — 100MG</li>\n<li>ZINCO — 10MG</li>\n<li>COLINA — 100MG</li>\n<li>TAURINA-L — 100MG</li>\n<li>TIROSINA — 250MG</li>\n<li>ACIDO FOLICO — 500MCG</li>\n<li>VIT C — 50MG</li>\n<li>NIACINA — 10MG</li>\n<li>VIT B6 — 4MG</li>\n<li>VIT B12 — 10MCG</li>\n</ul><p><strong>Apresentação:</strong> 60 Cápsulas</p>",
       comoUsar: "<p>Utilizar o produto <strong>conforme as instruções do fabricante</strong> ou de acordo com a orientação de um profissional de saúde.</p>",
       advertencias: "<p>O produto não deve ser apresentado como cura ou tratamento do TDAH. Sua utilização deve ser considerada como complemento nutricional, não substituindo avaliação, diagnóstico ou tratamento profissional. Os resultados podem variar de acordo com as características individuais, alimentação, condições de saúde e demais fatores.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
     },
@@ -3644,6 +3644,141 @@ const produtos = [
       composicao: "<ul>\n<li>PIRACETAM BASE — MG</li>\n<li>VIMPOCETINA — MG</li>\n<li>FOSFATIDILSERINA — MG</li>\n<li>HUPERZINE A — MCG</li>\n<li>GINKGO BILOBA EXTRATO 24% — MG</li>\n</ul><p><strong>Apresentação:</strong> 30 Cápsulas</p>",
       comoUsar: "<p>Utilize o produto <strong>conforme as instruções do fabricante</strong> ou de acordo com a orientação de um profissional habilitado. Não altere a dose, a frequência ou a forma de utilização recomendada.</p>",
       advertencias: "<p>Conserve o produto conforme as orientações do fabricante e mantenha fora do alcance de crianças. Em caso de dúvidas sobre o uso, procure orientação de um profissional habilitado.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
+    },
+    destaque: false,
+    mostrarlancamento: false,
+    mostrarVideo: false,
+    textoParcelamento: "🎟️ Cupom válido no carrinho. 💳 Consulte parcelamento no checkout",
+    cupomAtivo: false,
+    cupomPorcentagem: 0,
+    cupomCodigo: "",
+    cupomValidade: "",
+    cupomMensagemTag: "",
+    cupomOcultarTag: false
+  },
+  {
+    id: "152",
+    nome: "MELASMA BALANCE Fórmula de manutenção - 30 Cápsulas",
+    categoria: "beleza",
+    preco: 80.00,
+    imagem: "assets/img/melasma-balance-formula-de-manutencao-30-capsulas-muzskndh.png",
+    videos: [
+      
+    ],
+    descricao: {
+      resumo: "<p>MELASMA BALANCE é uma fórmula de manutenção desenvolvida para complementar os cuidados com a pele, reunindo Oli-Ola, vitamina C e Polypodium leucotomos em uma composição prática de 30 cápsulas.</p>",
+      oQueE: "<p>O <strong>MELASMA BALANCE</strong> é um suplemento em cápsulas formulado para integrar uma rotina de cuidados voltada à manutenção da pele, combinando diferentes ativos em uma única apresentação.</p><p>Sua finalidade é oferecer <strong>suporte nutricional à rotina de cuidados da pele</strong>, especialmente em estratégias de manutenção relacionadas à aparência e ao equilíbrio da pele.</p><p>Pode ser indicado para pessoas que buscam <strong>manter uma rotina de cuidados com a pele</strong> e desejam utilizar uma fórmula oral como parte de uma abordagem complementar, sempre considerando orientação de profissional habilitado quando necessário.</p>",
+      composicao: "<ul>\n<li>OLI OLA — MG</li>\n<li>VIT C — MG</li>\n<li>POLYPODIUM LEUCOTOMAS — MG</li>\n</ul><p><strong>Apresentação:</strong> 30 Cápsulas</p>",
+      comoUsar: "<p>Utilize o produto conforme as <strong>instruções do fabricante</strong> ou de acordo com a orientação de um profissional habilitado. Não altere a forma de uso recomendada.</p>",
+      advertencias: "<p>Uso conforme orientação do fabricante ou de profissional habilitado. Este produto não substitui uma alimentação equilibrada nem os cuidados habituais com a pele. Em caso de dúvidas sobre o uso, procure orientação profissional.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
+    },
+    destaque: false,
+    mostrarlancamento: false,
+    mostrarVideo: false,
+    textoParcelamento: "🎟️ Cupom válido no carrinho. 💳 Consulte parcelamento no checkout",
+    cupomAtivo: false,
+    cupomPorcentagem: 0,
+    cupomCodigo: "",
+    cupomValidade: "",
+    cupomMensagemTag: "",
+    cupomOcultarTag: false
+  },
+  {
+    id: "153",
+    nome: "MELASMA ADVANCED - Fórmula de tratamento - 30 Cápsulas",
+    categoria: "desempenhofisico",
+    preco: 180.00,
+    imagem: "assets/img/melasma-advanced-formula-de-tratamento-30-capsulas-muzsqojh.png",
+    videos: [
+      
+    ],
+    descricao: {
+      resumo: "<p>MELASMA ADVANCED é uma fórmula de tratamento desenvolvida para complementar os cuidados com a pele, reunindo Picnogenol, vitamina C, Oli-Ola, licopeno e ácido tranexâmico em uma composição de 30 cápsulas.</p>",
+      oQueE: "<p>O <strong>MELASMA ADVANCED</strong> é uma fórmula de uso oral que combina diferentes ativos em uma composição desenvolvida para integrar uma rotina de cuidados voltada à pele.</p><p>Sua finalidade é oferecer <strong>suporte complementar aos cuidados da pele</strong>, reunindo ativos selecionados em uma fórmula de tratamento para pessoas que buscam uma abordagem oral associada à rotina de cuidados com o melasma.</p><p>Pode ser indicado para pessoas que buscam <strong>um protocolo de cuidados mais completo</strong> para a pele e desejam utilizar uma fórmula oral como parte de uma estratégia de tratamento, conforme orientação de profissional habilitado.</p>",
+      composicao: "<ul>\n<li>PICNOGENOL — MG</li>\n<li>VIT C — MG</li>\n<li>OLI OLA — MG</li>\n<li>LICOPENO — MG</li>\n<li>ACIDO TRANEXAMICO — MG</li>\n</ul><p><strong>Apresentação:</strong> 30 Cápsulas</p>",
+      comoUsar: "<p>Utilize o produto conforme as <strong>instruções do fabricante</strong> ou de acordo com a orientação de um profissional habilitado. Não altere a forma de uso recomendada.</p>",
+      advertencias: "<p>Uso conforme orientação do fabricante ou de profissional habilitado. Este produto não substitui uma alimentação equilibrada nem os cuidados habituais com a pele. Em caso de dúvidas sobre o uso, procure orientação profissional.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
+    },
+    destaque: false,
+    mostrarlancamento: false,
+    mostrarVideo: false,
+    textoParcelamento: "🎟️ Cupom válido no carrinho. 💳 Consulte parcelamento no checkout",
+    cupomAtivo: false,
+    cupomPorcentagem: 0,
+    cupomCodigo: "",
+    cupomValidade: "",
+    cupomMensagemTag: "",
+    cupomOcultarTag: false
+  },
+  {
+    id: "154",
+    nome: "TIMOMODULINA 80mg -30 Cápsulas",
+    categoria: "saude",
+    preco: 80.00,
+    imagem: "assets/img/timomodulina-80mg-30-capsulas-muzsynks.png",
+    videos: [
+      
+    ],
+    descricao: {
+      resumo: "<p>A <strong>Timomodulina 80mg</strong> é uma fórmula em cápsulas destinada a complementar cuidados relacionados à resposta imunológica, oferecendo uma opção prática para uso conforme orientação profissional.</p>",
+      oQueE: "<p>A <strong>Timomodulina 80mg</strong> é uma fórmula de uso oral que contém timomodulina como único componente, apresentada em cápsulas para integrar uma rotina de cuidados sob orientação profissional.</p><p>Sua finalidade é oferecer <strong>suporte à função imunológica</strong>, sendo utilizada como parte de estratégias de cuidado definidas de acordo com as necessidades individuais.</p><p>Pode ser indicada para pessoas que necessitem de <strong>suporte relacionado à resposta imunológica</strong>, sempre considerando avaliação e orientação de profissional habilitado.</p>",
+      composicao: "<ul>\n<li>TIMOMODULINA — 80MG</li>\n</ul><p><strong>Apresentação:</strong> 30 Cápsulas</p>",
+      comoUsar: "<p>Utilize o produto conforme as <strong>instruções do fabricante</strong> ou de acordo com a orientação de um profissional habilitado. Não altere a forma de uso recomendada.</p>",
+      advertencias: "<p>Utilize o produto de acordo com a orientação do fabricante ou de profissional habilitado. Em caso de dúvidas sobre o uso, procure orientação profissional.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
+    },
+    destaque: false,
+    mostrarlancamento: false,
+    mostrarVideo: false,
+    textoParcelamento: "🎟️ Cupom válido no carrinho. 💳 Consulte parcelamento no checkout",
+    cupomAtivo: false,
+    cupomPorcentagem: 0,
+    cupomCodigo: "",
+    cupomValidade: "",
+    cupomMensagemTag: "",
+    cupomOcultarTag: false
+  },
+  {
+    id: "155",
+    nome: "PROTUP 180mg - 60 Cápsulas",
+    categoria: "desempenhofisico",
+    preco: 170.00,
+    imagem: "assets/img/protup-180mg-60-capsulas-muzt4v4z.png",
+    videos: [
+      
+    ],
+    descricao: {
+      resumo: "<p>O <strong>PROTUP 180mg</strong> é uma fórmula oral desenvolvida para complementar estratégias de cuidado relacionadas à <strong>libido, vitalidade e desempenho físico</strong>, com apresentação prática em 60 cápsulas.</p>",
+      oQueE: "<p>O <strong>PROTUP 180mg</strong> é uma fórmula em cápsulas que utiliza ProtUP como componente, desenvolvida para integrar estratégias de cuidado relacionadas à vitalidade e à saúde sexual.</p><p>Sua finalidade é oferecer <strong>suporte à libido, vitalidade e desempenho físico</strong>, podendo também integrar estratégias relacionadas à saúde hormonal e reprodutiva, conforme as necessidades individuais.</p><p>Pode ser indicado para homens e mulheres que buscam <strong>suporte à saúde sexual e à vitalidade</strong>, incluindo estratégias relacionadas à função sexual e, conforme avaliação profissional, cuidados durante o climatério e a menopausa.</p>",
+      composicao: "<ul>\n<li>PROTUP — 180MG</li>\n</ul><p><strong>Apresentação:</strong> 60 Cápsulas</p>",
+      comoUsar: "<p>Utilize o produto conforme as <strong>instruções do fabricante</strong> ou de acordo com a orientação de um profissional habilitado. Não altere a forma de uso recomendada.</p>",
+      advertencias: "<p>Utilize o produto de acordo com a orientação do fabricante ou de profissional habilitado. Em caso de dúvidas sobre o uso, procure orientação profissional.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
+    },
+    destaque: false,
+    mostrarlancamento: false,
+    mostrarVideo: false,
+    textoParcelamento: "🎟️ Cupom válido no carrinho. 💳 Consulte parcelamento no checkout",
+    cupomAtivo: false,
+    cupomPorcentagem: 0,
+    cupomCodigo: "",
+    cupomValidade: "",
+    cupomMensagemTag: "",
+    cupomOcultarTag: false
+  },
+  {
+    id: "156",
+    nome: "BOTOX - MANUTENÇÃO - 30 Cápsulas",
+    categoria: "beleza",
+    preco: 70.00,
+    imagem: "assets/img/botox-manutencao-30-capsulas-muztbvci.png",
+    videos: [
+      
+    ],
+    descricao: {
+      resumo: "<p>O <strong>BOTOX - MANUTENÇÃO</strong> é uma fórmula em cápsulas desenvolvida para complementar uma rotina de cuidados com a pele, reunindo ácido hialurônico, fitase e citrato de zinco em uma composição de 30 cápsulas.</p>",
+      oQueE: "<p>O <strong>BOTOX - MANUTENÇÃO</strong> é uma fórmula de uso oral que combina ácido hialurônico, fitase e citrato de zinco, desenvolvida para integrar uma rotina de cuidados voltada à pele.</p><p>Sua finalidade é oferecer <strong>suporte nutricional aos cuidados da pele</strong>, reunindo ativos associados à manutenção de uma rotina de cuidado e bem-estar.</p><p>Pode ser indicado para pessoas que buscam <strong>complementar seus cuidados com a pele</strong> por meio de uma fórmula oral, especialmente em estratégias de manutenção orientadas por profissional habilitado.</p>",
+      composicao: "<ul>\n<li>FITASE — 3000UI</li>\n<li>ACIDO HIALURONICO PO — 100MG</li>\n<li>CITRATO DE ZINCO TRIIDR — 50MG</li>\n</ul><p><strong>Apresentação:</strong> 30 Cápsulas</p>",
+      comoUsar: "<p>Utilize o produto conforme as <strong>instruções do fabricante</strong> ou de acordo com a orientação de um profissional habilitado. Não altere a forma de uso recomendada.</p>",
+      advertencias: "<p>Utilize o produto de acordo com a orientação do fabricante ou de profissional habilitado. Em caso de dúvidas sobre o uso, procure orientação profissional.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
     },
     destaque: false,
     mostrarlancamento: false,
