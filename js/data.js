@@ -2,7 +2,7 @@
    CONFIGURACOES GERAIS
    ============================================================ */
 // Gerado automaticamente a partir da planilha Google Sheets
-const WHATSAPP_NUMERO = "5518997033495";
+const WHATSAPP_NUMERO = "551837423495";
 
 const cupomSite = {
   "ativo": false,
