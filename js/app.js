@@ -410,14 +410,19 @@ function criarCardProduto(produto, isBanner = false) {
   card.classList.add("card");
   card.id = `produto-${produto.id}`;
 
-  const cupom = obterCupomValido(produto);
-const tagDesconto = (cupom && !cupom.ocultarTag)
-  ? `<span class="badge-desconto">${cupom.mensagem}</span>`
-  : '';
+    const cupom = obterCupomValido(produto);
+  // Cupom não se mostra se o produto está na promo Compre X (não cumulativo)
+  const tagDesconto = (cupom && !cupom.ocultarTag && !(typeof produtoTemPromoCompreX === 'function' && produtoTemPromoCompreX(produto)))
+    ? `<span class="badge-desconto">${cupom.mensagem}</span>`
+    : '';
+  const tagPromo = (typeof htmlBadgePromoCompreX === 'function')
+    ? htmlBadgePromoCompreX(produto)
+    : '';
 
 card.innerHTML = `
   ${produto.mostrarlancamento ? `<span class="badge-lancamento">Lançamento</span>` : ``}
   ${tagDesconto}
+  ${tagPromo}
   <img src="${produto.imagem}" alt="${produto.nome}">
   
   <h3 class="card-titulo">${produto.nome}</h3>
