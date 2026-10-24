@@ -639,6 +639,12 @@ function enviarPedidoWhatsApp(produto, quantidade, cupom, dadosCliente) {
     valorFinal = valorTotalOriginal - economia;
   }
 
+    if (typeof calcularLinhaComPromoCompreX === 'function' && produtoTemPromoCompreX(produto)) {
+    const linha = calcularLinhaComPromoCompreX(produto, quantidade);
+    // mensagem com totalUnidades, valor final, etc.
+    // e NÃO aplicar cupom (já tratado no modal)
+  }
+
   const basePath = window.location.pathname.split("/").slice(0, -1).join("/");
   const linkProduto = `${window.location.origin}${basePath}/produto.html?id=${produto.id}`;
 
