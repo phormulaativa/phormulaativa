@@ -144,7 +144,12 @@ const produtos = [
     cupomCodigo: "PROMO15",
     cupomValidade: "2026-09-05",
     cupomMensagemTag: "CUPOM ATIVO",
-    cupomOcultarTag: false
+    cupomOcultarTag: false,
+    promoCompreXAtivo: true,
+    promoCompreXQtd: 2,
+    promoCompreXPreco: 0.10,
+    promoCompreXMensagemTag: "Compre 2 Leve + 1",
+    promoCompreXOcultarTag: false,
   },
   {
     id: "19",
@@ -171,7 +176,12 @@ const produtos = [
     cupomCodigo: "",
     cupomValidade: "",
     cupomMensagemTag: "",
-    cupomOcultarTag: false
+    cupomOcultarTag: false,
+    promoCompreXAtivo: false,
+    promoCompreXQtd: 2,
+    promoCompreXPreco: 0.01,
+    promoCompreXMensagemTag: "",
+    promoCompreXOcultarTag: false,
   },
   {
     id: "21",
@@ -198,7 +208,12 @@ const produtos = [
     cupomCodigo: "",
     cupomValidade: "",
     cupomMensagemTag: "",
-    cupomOcultarTag: false
+    cupomOcultarTag: false,
+    promoCompreXAtivo: false,
+    promoCompreXQtd: 2,
+    promoCompreXPreco: 0.01,
+    promoCompreXMensagemTag: "",
+    promoCompreXOcultarTag: false,
   },
   {
     id: "22",
@@ -225,7 +240,12 @@ const produtos = [
     cupomCodigo: "",
     cupomValidade: "",
     cupomMensagemTag: "",
-    cupomOcultarTag: false
+    cupomOcultarTag: false,
+    promoCompreXAtivo: false,
+    promoCompreXQtd: 2,
+    promoCompreXPreco: 0.01,
+    promoCompreXMensagemTag: "",
+    promoCompreXOcultarTag: false,
   },
   {
     id: "23",
@@ -252,7 +272,12 @@ const produtos = [
     cupomCodigo: "",
     cupomValidade: "",
     cupomMensagemTag: "",
-    cupomOcultarTag: false
+    cupomOcultarTag: false,
+    promoCompreXAtivo: false,
+    promoCompreXQtd: 2,
+    promoCompreXPreco: 0.01,
+    promoCompreXMensagemTag: "",
+    promoCompreXOcultarTag: false,
   },
   {
     id: "24",
@@ -279,7 +304,12 @@ const produtos = [
     cupomCodigo: "",
     cupomValidade: "",
     cupomMensagemTag: "",
-    cupomOcultarTag: false
+    cupomOcultarTag: false,
+    promoCompreXAtivo: false,
+    promoCompreXQtd: 2,
+    promoCompreXPreco: 0.01,
+    promoCompreXMensagemTag: "",
+    promoCompreXOcultarTag: false,
   },
   {
     id: "25",
@@ -306,7 +336,12 @@ const produtos = [
     cupomCodigo: "",
     cupomValidade: "",
     cupomMensagemTag: "",
-    cupomOcultarTag: false
+    cupomOcultarTag: false,
+    promoCompreXAtivo: false,
+    promoCompreXQtd: 2,
+    promoCompreXPreco: 0.01,
+    promoCompreXMensagemTag: "",
+    promoCompreXOcultarTag: false,
   },
   {
     id: "26",
@@ -333,7 +368,12 @@ const produtos = [
     cupomCodigo: "",
     cupomValidade: "",
     cupomMensagemTag: "",
-    cupomOcultarTag: false
+    cupomOcultarTag: false,
+    promoCompreXAtivo: false,
+    promoCompreXQtd: 2,
+    promoCompreXPreco: 0.01,
+    promoCompreXMensagemTag: "",
+    promoCompreXOcultarTag: false,
   },
   {
     id: "27",
@@ -360,7 +400,12 @@ const produtos = [
     cupomCodigo: "",
     cupomValidade: "",
     cupomMensagemTag: "",
-    cupomOcultarTag: false
+    cupomOcultarTag: false,
+    promoCompreXAtivo: false,
+    promoCompreXQtd: 2,
+    promoCompreXPreco: 0.01,
+    promoCompreXMensagemTag: "",
+    promoCompreXOcultarTag: false,
   },
   {
     id: "29",
@@ -387,7 +432,12 @@ const produtos = [
     cupomCodigo: "",
     cupomValidade: "",
     cupomMensagemTag: "",
-    cupomOcultarTag: false
+    cupomOcultarTag: false,
+    promoCompreXAtivo: false,
+    promoCompreXQtd: 2,
+    promoCompreXPreco: 0.01,
+    promoCompreXMensagemTag: "",
+    promoCompreXOcultarTag: false,
   },
   {
     id: "30",
@@ -414,7 +464,12 @@ const produtos = [
     cupomCodigo: "",
     cupomValidade: "",
     cupomMensagemTag: "",
-    cupomOcultarTag: false
+    cupomOcultarTag: false,
+    promoCompreXAtivo: false,
+    promoCompreXQtd: 2,
+    promoCompreXPreco: 0.01,
+    promoCompreXMensagemTag: "",
+    promoCompreXOcultarTag: false,
   },
   {
     id: "31",
@@ -441,7 +496,12 @@ const produtos = [
     cupomCodigo: "",
     cupomValidade: "",
     cupomMensagemTag: "",
-    cupomOcultarTag: false
+    cupomOcultarTag: false,
+    promoCompreXAtivo: false,
+    promoCompreXQtd: 2,
+    promoCompreXPreco: 0.01,
+    promoCompreXMensagemTag: "",
+    promoCompreXOcultarTag: false,
   },
   {
     id: "32",
@@ -468,7 +528,12 @@ const produtos = [
     cupomCodigo: "",
     cupomValidade: "",
     cupomMensagemTag: "",
-    cupomOcultarTag: false
+    cupomOcultarTag: false,
+    promoCompreXAtivo: false,
+    promoCompreXQtd: 2,
+    promoCompreXPreco: 0.01,
+    promoCompreXMensagemTag: "",
+    promoCompreXOcultarTag: false,
   },
   {
     id: "33",
@@ -495,7 +560,12 @@ const produtos = [
     cupomCodigo: "",
     cupomValidade: "",
     cupomMensagemTag: "",
-    cupomOcultarTag: false
+    cupomOcultarTag: false,
+    promoCompreXAtivo: false,
+    promoCompreXQtd: 2,
+    promoCompreXPreco: 0.01,
+    promoCompreXMensagemTag: "",
+    promoCompreXOcultarTag: false,
   },
   {
     id: "34",
@@ -522,7 +592,12 @@ const produtos = [
     cupomCodigo: "",
     cupomValidade: "",
     cupomMensagemTag: "",
-    cupomOcultarTag: false
+    cupomOcultarTag: false,
+    promoCompreXAtivo: false,
+    promoCompreXQtd: 2,
+    promoCompreXPreco: 0.01,
+    promoCompreXMensagemTag: "",
+    promoCompreXOcultarTag: false,
   },
   {
     id: "35",
@@ -549,7 +624,12 @@ const produtos = [
     cupomCodigo: "",
     cupomValidade: "",
     cupomMensagemTag: "",
-    cupomOcultarTag: false
+    cupomOcultarTag: false,
+    promoCompreXAtivo: false,
+    promoCompreXQtd: 2,
+    promoCompreXPreco: 0.01,
+    promoCompreXMensagemTag: "",
+    promoCompreXOcultarTag: false,
   },
   {
     id: "36",
@@ -576,7 +656,12 @@ const produtos = [
     cupomCodigo: "",
     cupomValidade: "",
     cupomMensagemTag: "",
-    cupomOcultarTag: false
+    cupomOcultarTag: false,
+    promoCompreXAtivo: false,
+    promoCompreXQtd: 2,
+    promoCompreXPreco: 0.01,
+    promoCompreXMensagemTag: "",
+    promoCompreXOcultarTag: false,
   },
   {
     id: "37",
@@ -603,7 +688,12 @@ const produtos = [
     cupomCodigo: "",
     cupomValidade: "",
     cupomMensagemTag: "",
-    cupomOcultarTag: false
+    cupomOcultarTag: false,
+    promoCompreXAtivo: false,
+    promoCompreXQtd: 2,
+    promoCompreXPreco: 0.01,
+    promoCompreXMensagemTag: "",
+    promoCompreXOcultarTag: false,
   },
   {
     id: "38",
@@ -630,7 +720,12 @@ const produtos = [
     cupomCodigo: "",
     cupomValidade: "",
     cupomMensagemTag: "",
-    cupomOcultarTag: false
+    cupomOcultarTag: false,
+    promoCompreXAtivo: false,
+    promoCompreXQtd: 2,
+    promoCompreXPreco: 0.01,
+    promoCompreXMensagemTag: "",
+    promoCompreXOcultarTag: false,
   },
   {
     id: "39",
@@ -657,7 +752,12 @@ const produtos = [
     cupomCodigo: "",
     cupomValidade: "",
     cupomMensagemTag: "",
-    cupomOcultarTag: false
+    cupomOcultarTag: false,
+    promoCompreXAtivo: false,
+    promoCompreXQtd: 2,
+    promoCompreXPreco: 0.01,
+    promoCompreXMensagemTag: "",
+    promoCompreXOcultarTag: false,
   },
   {
     id: "40",
@@ -684,7 +784,12 @@ const produtos = [
     cupomCodigo: "",
     cupomValidade: "",
     cupomMensagemTag: "",
-    cupomOcultarTag: false
+    cupomOcultarTag: false,
+    promoCompreXAtivo: false,
+    promoCompreXQtd: 2,
+    promoCompreXPreco: 0.01,
+    promoCompreXMensagemTag: "",
+    promoCompreXOcultarTag: false,
   },
   {
     id: "41",
@@ -711,7 +816,12 @@ const produtos = [
     cupomCodigo: "",
     cupomValidade: "",
     cupomMensagemTag: "",
-    cupomOcultarTag: false
+    cupomOcultarTag: false,
+    promoCompreXAtivo: false,
+    promoCompreXQtd: 2,
+    promoCompreXPreco: 0.01,
+    promoCompreXMensagemTag: "",
+    promoCompreXOcultarTag: false,
   },
   {
     id: "42",
@@ -738,7 +848,12 @@ const produtos = [
     cupomCodigo: "",
     cupomValidade: "",
     cupomMensagemTag: "",
-    cupomOcultarTag: false
+    cupomOcultarTag: false,
+    promoCompreXAtivo: false,
+    promoCompreXQtd: 2,
+    promoCompreXPreco: 0.01,
+    promoCompreXMensagemTag: "",
+    promoCompreXOcultarTag: false,
   },
   {
     id: "43",
@@ -765,7 +880,12 @@ const produtos = [
     cupomCodigo: "",
     cupomValidade: "",
     cupomMensagemTag: "",
-    cupomOcultarTag: false
+    cupomOcultarTag: false,
+    promoCompreXAtivo: false,
+    promoCompreXQtd: 2,
+    promoCompreXPreco: 0.01,
+    promoCompreXMensagemTag: "",
+    promoCompreXOcultarTag: false,
   },
   {
     id: "44",
@@ -792,7 +912,12 @@ const produtos = [
     cupomCodigo: "",
     cupomValidade: "",
     cupomMensagemTag: "",
-    cupomOcultarTag: false
+    cupomOcultarTag: false,
+    promoCompreXAtivo: false,
+    promoCompreXQtd: 2,
+    promoCompreXPreco: 0.01,
+    promoCompreXMensagemTag: "",
+    promoCompreXOcultarTag: false,
   },
   {
     id: "45",
@@ -819,7 +944,12 @@ const produtos = [
     cupomCodigo: "",
     cupomValidade: "",
     cupomMensagemTag: "",
-    cupomOcultarTag: false
+    cupomOcultarTag: false,
+    promoCompreXAtivo: false,
+    promoCompreXQtd: 2,
+    promoCompreXPreco: 0.01,
+    promoCompreXMensagemTag: "",
+    promoCompreXOcultarTag: false,
   },
   {
     id: "46",
@@ -846,7 +976,12 @@ const produtos = [
     cupomCodigo: "",
     cupomValidade: "",
     cupomMensagemTag: "",
-    cupomOcultarTag: false
+    cupomOcultarTag: false,
+    promoCompreXAtivo: false,
+    promoCompreXQtd: 2,
+    promoCompreXPreco: 0.01,
+    promoCompreXMensagemTag: "",
+    promoCompreXOcultarTag: false,
   },
   {
     id: "47",
@@ -873,7 +1008,12 @@ const produtos = [
     cupomCodigo: "",
     cupomValidade: "",
     cupomMensagemTag: "",
-    cupomOcultarTag: false
+    cupomOcultarTag: false,
+    promoCompreXAtivo: false,
+    promoCompreXQtd: 2,
+    promoCompreXPreco: 0.01,
+    promoCompreXMensagemTag: "",
+    promoCompreXOcultarTag: false,
   },
   {
     id: "48",
@@ -900,7 +1040,12 @@ const produtos = [
     cupomCodigo: "",
     cupomValidade: "",
     cupomMensagemTag: "",
-    cupomOcultarTag: false
+    cupomOcultarTag: false,
+    promoCompreXAtivo: false,
+    promoCompreXQtd: 2,
+    promoCompreXPreco: 0.01,
+    promoCompreXMensagemTag: "",
+    promoCompreXOcultarTag: false,
   },
   {
     id: "49",
@@ -927,7 +1072,12 @@ const produtos = [
     cupomCodigo: "",
     cupomValidade: "",
     cupomMensagemTag: "",
-    cupomOcultarTag: false
+    cupomOcultarTag: false,
+    promoCompreXAtivo: false,
+    promoCompreXQtd: 2,
+    promoCompreXPreco: 0.01,
+    promoCompreXMensagemTag: "",
+    promoCompreXOcultarTag: false,
   },
   {
     id: "50",
@@ -954,7 +1104,12 @@ const produtos = [
     cupomCodigo: "",
     cupomValidade: "",
     cupomMensagemTag: "",
-    cupomOcultarTag: false
+    cupomOcultarTag: false,
+    promoCompreXAtivo: false,
+    promoCompreXQtd: 2,
+    promoCompreXPreco: 0.01,
+    promoCompreXMensagemTag: "",
+    promoCompreXOcultarTag: false,
   },
   {
     id: "51",
@@ -981,7 +1136,12 @@ const produtos = [
     cupomCodigo: "",
     cupomValidade: "",
     cupomMensagemTag: "",
-    cupomOcultarTag: false
+    cupomOcultarTag: false,
+    promoCompreXAtivo: false,
+    promoCompreXQtd: 2,
+    promoCompreXPreco: 0.01,
+    promoCompreXMensagemTag: "",
+    promoCompreXOcultarTag: false,
   },
   {
     id: "52",
@@ -997,7 +1157,7 @@ const produtos = [
       oQueE: "<p>Bloomé 500mg é um suplemento oral formulado com ativos naturais de origem asiática, desenvolvido para complementar os cuidados com os cabelos. Sua fórmula reúne extratos de <em>Cudrania tricuspidata</em> e <em>Sargassum fusiforme</em>, associados ao suporte à saúde e à vitalidade capilar.</p><p>O produto é utilizado como auxiliar no <strong>cuidado dos fios e do couro cabeludo</strong>, contribuindo para sua vitalidade e fortalecimento. Seus componentes apresentam propriedades associadas à proteção contra o estresse oxidativo e à manutenção das condições fisiológicas do couro cabeludo.</p><p>É indicado para adultos que apresentam <strong>queda capilar, enfraquecimento dos fios ou alopecia androgenética</strong> e buscam uma opção oral para complementar os cuidados com a saúde capilar. Em casos de alopecia diagnosticada, recomenda-se acompanhamento e orientação de um médico ou dermatologista.</p>",
       composicao: "<p><strong>Cada 1 cápsula contém:</strong></p>\n<ul>\n<li>Bloomé — 500mg</li>\n<li>Excipiente qsp 1 cápsula</li>\n</ul><p><strong>Apresentação:</strong> 30 Cápsulas</p>",
       comoUsar: "<p>Tomar <strong>1 cápsula</strong> após o café da manhã ou almoço.</p>",
-      advertencias: "<p>Pessoas com hipersensibilidade à substância não devem fazer uso do produto. Em caso de hipersensibilidade, recomenda-se descontinuar o uso e consultar o médico. Não utilize o produto com o prazo de validade vencido.</p><p>Manter em temperatura ambiente, entre 15 e 30ºC, protegido da luz, do calor e da umidade e fora do alcance das crianças. Mulheres grávidas não devem utilizar o produto sem orientação médica. O uso durante o período de amamentação não é recomendado. Este produto não deve ser utilizado por menores de 18 anos sem orientaç��o médica.</p><p>Siga corretamente o modo de usar. Caso os sintomas não desapareçam, procure orientação médica. Nunca compre ou utilize o produto sem orientação de um profissional habilitado. Imagens meramente ilustrativas.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
+      advertencias: "<p>Pessoas com hipersensibilidade à substância não devem fazer uso do produto. Em caso de hipersensibilidade, recomenda-se descontinuar o uso e consultar o médico. Não utilize o produto com o prazo de validade vencido.</p><p>Manter em temperatura ambiente, entre 15 e 30ºC, protegido da luz, do calor e da umidade e fora do alcance das crianças. Mulheres grávidas não devem utilizar o produto sem orientação médica. O uso durante o período de amamentação não é recomendado. Este produto não deve ser utilizado por menores de 18 anos sem orientação médica.</p><p>Siga corretamente o modo de usar. Caso os sintomas não desapareçam, procure orientação médica. Nunca compre ou utilize o produto sem orientação de um profissional habilitado. Imagens meramente ilustrativas.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
     },
     destaque: true,
     mostrarlancamento: false,
@@ -1008,7 +1168,12 @@ const produtos = [
     cupomCodigo: "",
     cupomValidade: "",
     cupomMensagemTag: "",
-    cupomOcultarTag: false
+    cupomOcultarTag: false,
+    promoCompreXAtivo: false,
+    promoCompreXQtd: 2,
+    promoCompreXPreco: 0.01,
+    promoCompreXMensagemTag: "",
+    promoCompreXOcultarTag: false,
   },
   {
     id: "53",
@@ -1035,7 +1200,12 @@ const produtos = [
     cupomCodigo: "",
     cupomValidade: "",
     cupomMensagemTag: "",
-    cupomOcultarTag: false
+    cupomOcultarTag: false,
+    promoCompreXAtivo: false,
+    promoCompreXQtd: 2,
+    promoCompreXPreco: 0.01,
+    promoCompreXMensagemTag: "",
+    promoCompreXOcultarTag: false,
   },
   {
     id: "54",
@@ -1062,7 +1232,12 @@ const produtos = [
     cupomCodigo: "",
     cupomValidade: "",
     cupomMensagemTag: "",
-    cupomOcultarTag: false
+    cupomOcultarTag: false,
+    promoCompreXAtivo: false,
+    promoCompreXQtd: 2,
+    promoCompreXPreco: 0.01,
+    promoCompreXMensagemTag: "",
+    promoCompreXOcultarTag: false,
   },
   {
     id: "55",
@@ -1089,7 +1264,12 @@ const produtos = [
     cupomCodigo: "",
     cupomValidade: "",
     cupomMensagemTag: "",
-    cupomOcultarTag: false
+    cupomOcultarTag: false,
+    promoCompreXAtivo: false,
+    promoCompreXQtd: 2,
+    promoCompreXPreco: 0.01,
+    promoCompreXMensagemTag: "",
+    promoCompreXOcultarTag: false,
   },
   {
     id: "56",
@@ -1116,7 +1296,12 @@ const produtos = [
     cupomCodigo: "CUPOM30OFF",
     cupomValidade: "",
     cupomMensagemTag: "CUPOM30OFF",
-    cupomOcultarTag: false
+    cupomOcultarTag: false,
+    promoCompreXAtivo: false,
+    promoCompreXQtd: 2,
+    promoCompreXPreco: 0.01,
+    promoCompreXMensagemTag: "",
+    promoCompreXOcultarTag: false,
   },
   {
     id: "57",
@@ -1143,7 +1328,12 @@ const produtos = [
     cupomCodigo: "",
     cupomValidade: "",
     cupomMensagemTag: "",
-    cupomOcultarTag: false
+    cupomOcultarTag: false,
+    promoCompreXAtivo: false,
+    promoCompreXQtd: 2,
+    promoCompreXPreco: 0.01,
+    promoCompreXMensagemTag: "",
+    promoCompreXOcultarTag: false,
   },
   {
     id: "58",
@@ -1170,7 +1360,12 @@ const produtos = [
     cupomCodigo: "CUPOM20OFF",
     cupomValidade: "",
     cupomMensagemTag: "CUPOM20OFF",
-    cupomOcultarTag: false
+    cupomOcultarTag: false,
+    promoCompreXAtivo: false,
+    promoCompreXQtd: 2,
+    promoCompreXPreco: 0.01,
+    promoCompreXMensagemTag: "",
+    promoCompreXOcultarTag: false,
   },
   {
     id: "59",
@@ -1197,7 +1392,12 @@ const produtos = [
     cupomCodigo: "CUPOM15OFF",
     cupomValidade: "",
     cupomMensagemTag: "CUPOM15OFF",
-    cupomOcultarTag: false
+    cupomOcultarTag: false,
+    promoCompreXAtivo: false,
+    promoCompreXQtd: 2,
+    promoCompreXPreco: 0.01,
+    promoCompreXMensagemTag: "",
+    promoCompreXOcultarTag: false,
   },
   {
     id: "60",
@@ -1224,7 +1424,12 @@ const produtos = [
     cupomCodigo: "",
     cupomValidade: "",
     cupomMensagemTag: "",
-    cupomOcultarTag: false
+    cupomOcultarTag: false,
+    promoCompreXAtivo: false,
+    promoCompreXQtd: 2,
+    promoCompreXPreco: 0.01,
+    promoCompreXMensagemTag: "",
+    promoCompreXOcultarTag: false,
   },
   {
     id: "61",
@@ -1251,7 +1456,12 @@ const produtos = [
     cupomCodigo: "",
     cupomValidade: "",
     cupomMensagemTag: "",
-    cupomOcultarTag: false
+    cupomOcultarTag: false,
+    promoCompreXAtivo: false,
+    promoCompreXQtd: 2,
+    promoCompreXPreco: 0.01,
+    promoCompreXMensagemTag: "",
+    promoCompreXOcultarTag: false,
   },
   {
     id: "62",
@@ -1278,7 +1488,12 @@ const produtos = [
     cupomCodigo: "CUPOM23OFF",
     cupomValidade: "",
     cupomMensagemTag: "CUPOM23OFF",
-    cupomOcultarTag: false
+    cupomOcultarTag: false,
+    promoCompreXAtivo: false,
+    promoCompreXQtd: 2,
+    promoCompreXPreco: 0.01,
+    promoCompreXMensagemTag: "",
+    promoCompreXOcultarTag: false,
   },
   {
     id: "63",
@@ -1294,7 +1509,7 @@ const produtos = [
       oQueE: "<p>A <strong>L-Treonina</strong> é um aminoácido essencial que o organismo não produz sozinho, sendo necessário obtê-lo por meio da alimentação ou suplementação. A TREONINA-L 500mg oferece esse aminoácido em cápsulas, de forma prática e direta.</p><p>A treonina está presente na estrutura de diversas proteínas e participa da síntese de glicina e serina, compostos relacionados à produção de <strong>colágeno e elastina</strong>. Também contribui para o balanço proteico geral do organismo e para o funcionamento do sistema nervoso central.</p><p>É indicada para <strong>adultos</strong> que buscam suporte à firmeza da pele e ao equilíbrio do sistema nervoso central, incluindo veganos e vegetarianos que podem apresentar menor ingestão desse aminoácido pela alimentação. Seu uso deve seguir a orientação de um profissional habilitado.</p>",
       composicao: "<ul>\n<li>L-TREONINA — 500MG</li>\n<li>excipiente q.s.p.</li>\n</ul><p><strong>Apresentação:</strong> 60 Cápsulas</p>",
       comoUsar: "<p>Tomar <strong>1 cápsula ao dia</strong>, preferencialmente junto com uma das principais refeições ou conforme orientação de um profissional.</p>",
-      advertencias: "<p>Este produto não deve ser utilizado por gestantes, lactantes, crianças ou menores de 18 anos sem orientação médica. O uso durante a amamentação também não é recomendado. Pessoas com hipersensibilidade à substância não devem fazer uso do produto. Em caso de hipersensibilidade, descontinue o uso e consulte um médico.</p><p>Não use o produto com o prazo de validade vencido. Siga corretamente o modo de usar. Manter em temperatura ambiente (15 a 30ºC), protegido da luz, do calor e da umidade, fora do alcance das crianças. Nunca compre um produto sem orientação de um profissional habilitado. Imagens meramente ilustrativas.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
+      advertencias: "<p>Este produto não deve ser utilizado por gestantes, lactantes, crianças ou menores de 18 anos sem orientação médica. O uso durante a amamentação também não é recomendado. Pessoas com hipersensibilidade à substância não devem fazer uso do produto. Em caso de hipersensibilidade, descontinue o uso e consulte um médico.</p><p>Não use o produto com o prazo de validade vencido. Siga corretamente o modo de usar. Manter em temperatura ambiente (15 a 30ºC), protegido da luz, do calor e da umidade, fora do alcance das crianças. Nunca compre um produto sem orientação de um profissional habilitado. Imagens meramente ilustrativas.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exerc��cios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
     },
     destaque: false,
     mostrarlancamento: false,
@@ -1305,7 +1520,12 @@ const produtos = [
     cupomCodigo: "",
     cupomValidade: "",
     cupomMensagemTag: "",
-    cupomOcultarTag: false
+    cupomOcultarTag: false,
+    promoCompreXAtivo: false,
+    promoCompreXQtd: 2,
+    promoCompreXPreco: 0.01,
+    promoCompreXMensagemTag: "",
+    promoCompreXOcultarTag: false,
   },
   {
     id: "65",
@@ -1332,7 +1552,12 @@ const produtos = [
     cupomCodigo: "",
     cupomValidade: "",
     cupomMensagemTag: "",
-    cupomOcultarTag: false
+    cupomOcultarTag: false,
+    promoCompreXAtivo: false,
+    promoCompreXQtd: 2,
+    promoCompreXPreco: 0.01,
+    promoCompreXMensagemTag: "",
+    promoCompreXOcultarTag: false,
   },
   {
     id: "66",
@@ -1359,7 +1584,12 @@ const produtos = [
     cupomCodigo: "",
     cupomValidade: "",
     cupomMensagemTag: "",
-    cupomOcultarTag: false
+    cupomOcultarTag: false,
+    promoCompreXAtivo: false,
+    promoCompreXQtd: 2,
+    promoCompreXPreco: 0.01,
+    promoCompreXMensagemTag: "",
+    promoCompreXOcultarTag: false,
   },
   {
     id: "67",
@@ -1386,7 +1616,12 @@ const produtos = [
     cupomCodigo: "",
     cupomValidade: "",
     cupomMensagemTag: "",
-    cupomOcultarTag: false
+    cupomOcultarTag: false,
+    promoCompreXAtivo: false,
+    promoCompreXQtd: 2,
+    promoCompreXPreco: 0.01,
+    promoCompreXMensagemTag: "",
+    promoCompreXOcultarTag: false,
   },
   {
     id: "68",
@@ -1413,7 +1648,12 @@ const produtos = [
     cupomCodigo: "",
     cupomValidade: "",
     cupomMensagemTag: "",
-    cupomOcultarTag: false
+    cupomOcultarTag: false,
+    promoCompreXAtivo: false,
+    promoCompreXQtd: 2,
+    promoCompreXPreco: 0.01,
+    promoCompreXMensagemTag: "",
+    promoCompreXOcultarTag: false,
   },
   {
     id: "69",
@@ -1440,7 +1680,12 @@ const produtos = [
     cupomCodigo: "",
     cupomValidade: "",
     cupomMensagemTag: "",
-    cupomOcultarTag: false
+    cupomOcultarTag: false,
+    promoCompreXAtivo: false,
+    promoCompreXQtd: 2,
+    promoCompreXPreco: 0.01,
+    promoCompreXMensagemTag: "",
+    promoCompreXOcultarTag: false,
   },
   {
     id: "70",
@@ -1456,7 +1701,7 @@ const produtos = [
       oQueE: "<p>O <strong>TPC com Clomifeno</strong> é uma fórmula composta por ativos selecionados para oferecer suporte ao <strong>equilíbrio hormonal masculino</strong>, especialmente em situações relacionadas à redução da produção natural de testosterona.</p><p>Sua finalidade é <strong>auxiliar na recuperação do equilíbrio hormonal</strong>, contribuindo para o suporte à produção natural de testosterona, à libido e à disposição, além de oferecer componentes voltados ao suporte da próstata, função urinária, fígado e metabolismo.</p><p>Pode ser indicado para <strong>homens que necessitam de suporte à recuperação e ao equilíbrio hormonal</strong>, conforme avaliação e orientação de profissional habilitado. A utilização de seus componentes hormonais deve ser acompanhada por orientação profissional.</p>",
       composicao: "<ul>\n<li>Silimarina — 150MG</li>\n<li>Pygeum Africanum — 80MG</li>\n<li>Indol 3 Carbinol — 30MG</li>\n<li>Urtiga Dioica Extrato Seco — 80MG</li>\n<li>Tribulus Terrestris L. — 200MG</li>\n<li>Metionina — 50MG</li>\n<li>Tamoxifeno Citrato — 10MG</li>\n<li>Clomifeno Cloridrato — 50MG</li>\n</ul><p><strong>Apresentação:</strong> 60 Cápsulas</p>",
       comoUsar: "<p>Utilize o produto <strong>conforme as instruções do fabricante ou orientação de profissional habilitado</strong>. Não utilize por conta própria nem altere a forma de uso recomendada.</p>",
-      advertencias: "<p>Este produto deve ser utilizado de acordo com as orientações do fabricante ou de profissional habilitado. Em caso de dúvidas sobre sua utilização, procure orientação profissional.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentaç��o, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
+      advertencias: "<p>Este produto deve ser utilizado de acordo com as orientações do fabricante ou de profissional habilitado. Em caso de dúvidas sobre sua utiliza��ão, procure orientação profissional.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
     },
     destaque: false,
     mostrarlancamento: false,
@@ -1467,7 +1712,12 @@ const produtos = [
     cupomCodigo: "",
     cupomValidade: "",
     cupomMensagemTag: "",
-    cupomOcultarTag: false
+    cupomOcultarTag: false,
+    promoCompreXAtivo: false,
+    promoCompreXQtd: 2,
+    promoCompreXPreco: 0.01,
+    promoCompreXMensagemTag: "",
+    promoCompreXOcultarTag: false,
   },
   {
     id: "71",
@@ -1481,7 +1731,7 @@ const produtos = [
     descricao: {
       resumo: "<p><strong>Boswellia Serrata</strong> é uma fórmula desenvolvida para oferecer suporte ao <strong>conforto e à saúde das articulações</strong>, com foco no bem-estar e na manutenção da mobilidade.</p>",
       oQueE: "<p>A <strong>Boswellia Serrata</strong> é um extrato obtido de uma planta tradicionalmente utilizada na medicina e conhecida por seus componentes associados ao suporte do <strong>equilíbrio da resposta inflamatória</strong> do organismo.</p><p>Sua utilização está relacionada ao suporte à <strong>saúde e ao conforto das articulações</strong>, podendo auxiliar na manutenção da mobilidade e da flexibilidade. Também é estudada por seu potencial de contribuir para o bem-estar em situações relacionadas ao desconforto articular.</p><p>Pode ser indicada para <strong>adultos que buscam suporte para a saúde das articulações, mobilidade e conforto físico</strong>, especialmente quando houver orientação de um profissional habilitado para sua utilização.</p>",
-      composicao: "<ul>\n<li>BOSWELLIA SERRATA 30% ��� 50MG</li>\n</ul><p><strong>Apresentação:</strong> 30 Cápsulas</p>",
+      composicao: "<ul>\n<li>BOSWELLIA SERRATA 30% — 50MG</li>\n</ul><p><strong>Apresentação:</strong> 30 Cápsulas</p>",
       comoUsar: "<p>Utilize o produto <strong>conforme as instruções do fabricante ou orientação de profissional habilitado</strong>. Não altere a forma de uso recomendada e, em caso de dúvidas, procure orientação profissional.</p>",
       advertencias: "<p>O uso do produto é contraindicado para pessoas com <strong>cálculo biliar, obstrução dos ductos biliares ou úlcera gastroduodenal</strong>, bem como para pessoas com hipersensibilidade à substância. Não deve ser utilizado simultaneamente com anticoagulantes sem orientação profissional.</p><p>Em caso de hipersensibilidade ao produto, recomenda-se descontinuar o uso e consultar um médico. Este produto não deve ser utilizado por mulheres grávidas ou durante o período de amamentação sem orientação médica. Não deve ser utilizado por menores de 18 anos sem orientação médica.</p><p>Não use o produto com o prazo de validade vencido. Manter em temperatura ambiente (15 a 30ºC), protegido da luz, do calor e da umidade e fora do alcance das crianças. Nunca compre medicamento sem orientação de um profissional habilitado. Siga corretamente o modo de usar. Imagens meramente ilustrativas.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
     },
@@ -1494,7 +1744,12 @@ const produtos = [
     cupomCodigo: "CUPOM10OFF",
     cupomValidade: "",
     cupomMensagemTag: "CUPOM10OFF",
-    cupomOcultarTag: false
+    cupomOcultarTag: false,
+    promoCompreXAtivo: false,
+    promoCompreXQtd: 2,
+    promoCompreXPreco: 0.01,
+    promoCompreXMensagemTag: "",
+    promoCompreXOcultarTag: false,
   },
   {
     id: "72",
@@ -1507,7 +1762,7 @@ const produtos = [
     ],
     descricao: {
       resumo: "<p><strong>Silício Orgânico 300 mg</strong> é uma fórmula desenvolvida para oferecer suporte à <strong>saúde da pele, cabelos, unhas, ossos e tecidos conjuntivos</strong>, contribuindo para a manutenção da estrutura e do bem-estar do organismo.</p>",
-      oQueE: "<p>O <strong>Silício Orgânico 300 mg</strong> é uma fórmula que fornece silício orgânico, mineral relacionado à estrutura e à manutenção dos tecidos conjuntivos, incluindo componentes como colágeno e elastina.</p><p>Sua utilização está associada ao suporte à <strong>firmeza e elasticidade da pele</strong>, à estrutura e resistência dos cabelos e unhas, além da manutenção dos tecidos conjuntivos e do metabolismo ósseo.</p><p>Pode ser indicado para <strong>adultos que buscam suporte nutricional para a saúde da pele, cabelos, unhas, ossos e tecidos conjuntivos</strong>, especialmente quando houver orientação de um profissional habilitado.</p>",
+      oQueE: "<p>O <strong>Silício Orgânico 300 mg</strong> é uma fórmula que fornece silício orgânico, mineral relacionado à estrutura e à manutenção dos tecidos conjuntivos, incluindo componentes como col��geno e elastina.</p><p>Sua utilização está associada ao suporte à <strong>firmeza e elasticidade da pele</strong>, à estrutura e resistência dos cabelos e unhas, além da manutenção dos tecidos conjuntivos e do metabolismo ósseo.</p><p>Pode ser indicado para <strong>adultos que buscam suporte nutricional para a saúde da pele, cabelos, unhas, ossos e tecidos conjuntivos</strong>, especialmente quando houver orientação de um profissional habilitado.</p>",
       composicao: "<ul>\n<li>SILICIO ORGANICO — 300MG</li>\n</ul><p><strong>Apresentação:</strong> 30 Cápsulas</p>",
       comoUsar: "<p>Utilize o produto <strong>conforme as instruções do fabricante ou orientação de profissional habilitado</strong>. Não altere a forma de uso recomendada e, em caso de dúvidas, procure orientação profissional.</p>",
       advertencias: "<p>Conservar o produto adequadamente e mantê-lo fora do alcance das crianças. Não utilizar em caso de hipersensibilidade a qualquer componente da fórmula. Em caso de dúvidas sobre o uso, procure orientação de um profissional habilitado.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
@@ -1521,7 +1776,12 @@ const produtos = [
     cupomCodigo: "",
     cupomValidade: "",
     cupomMensagemTag: "",
-    cupomOcultarTag: false
+    cupomOcultarTag: false,
+    promoCompreXAtivo: false,
+    promoCompreXQtd: 2,
+    promoCompreXPreco: 0.01,
+    promoCompreXMensagemTag: "",
+    promoCompreXOcultarTag: false,
   },
   {
     id: "73",
@@ -1548,7 +1808,12 @@ const produtos = [
     cupomCodigo: "",
     cupomValidade: "",
     cupomMensagemTag: "",
-    cupomOcultarTag: false
+    cupomOcultarTag: false,
+    promoCompreXAtivo: false,
+    promoCompreXQtd: 2,
+    promoCompreXPreco: 0.01,
+    promoCompreXMensagemTag: "",
+    promoCompreXOcultarTag: false,
   },
   {
     id: "74",
@@ -1575,7 +1840,12 @@ const produtos = [
     cupomCodigo: "CUPOM27OFF",
     cupomValidade: "",
     cupomMensagemTag: "CUPOM27OFF",
-    cupomOcultarTag: false
+    cupomOcultarTag: false,
+    promoCompreXAtivo: false,
+    promoCompreXQtd: 2,
+    promoCompreXPreco: 0.01,
+    promoCompreXMensagemTag: "",
+    promoCompreXOcultarTag: false,
   },
   {
     id: "75",
@@ -1602,7 +1872,12 @@ const produtos = [
     cupomCodigo: "",
     cupomValidade: "",
     cupomMensagemTag: "",
-    cupomOcultarTag: false
+    cupomOcultarTag: false,
+    promoCompreXAtivo: false,
+    promoCompreXQtd: 2,
+    promoCompreXPreco: 0.01,
+    promoCompreXMensagemTag: "",
+    promoCompreXOcultarTag: false,
   },
   {
     id: "76",
@@ -1629,7 +1904,12 @@ const produtos = [
     cupomCodigo: "",
     cupomValidade: "",
     cupomMensagemTag: "",
-    cupomOcultarTag: false
+    cupomOcultarTag: false,
+    promoCompreXAtivo: false,
+    promoCompreXQtd: 2,
+    promoCompreXPreco: 0.01,
+    promoCompreXMensagemTag: "",
+    promoCompreXOcultarTag: false,
   },
   {
     id: "77",
@@ -1656,7 +1936,12 @@ const produtos = [
     cupomCodigo: "",
     cupomValidade: "",
     cupomMensagemTag: "",
-    cupomOcultarTag: false
+    cupomOcultarTag: false,
+    promoCompreXAtivo: false,
+    promoCompreXQtd: 2,
+    promoCompreXPreco: 0.01,
+    promoCompreXMensagemTag: "",
+    promoCompreXOcultarTag: false,
   },
   {
     id: "78",
@@ -1683,7 +1968,12 @@ const produtos = [
     cupomCodigo: "",
     cupomValidade: "",
     cupomMensagemTag: "",
-    cupomOcultarTag: false
+    cupomOcultarTag: false,
+    promoCompreXAtivo: false,
+    promoCompreXQtd: 2,
+    promoCompreXPreco: 0.01,
+    promoCompreXMensagemTag: "",
+    promoCompreXOcultarTag: false,
   },
   {
     id: "79",
@@ -1710,7 +2000,12 @@ const produtos = [
     cupomCodigo: "",
     cupomValidade: "",
     cupomMensagemTag: "",
-    cupomOcultarTag: false
+    cupomOcultarTag: false,
+    promoCompreXAtivo: false,
+    promoCompreXQtd: 2,
+    promoCompreXPreco: 0.01,
+    promoCompreXMensagemTag: "",
+    promoCompreXOcultarTag: false,
   },
   {
     id: "80",
@@ -1737,7 +2032,12 @@ const produtos = [
     cupomCodigo: "",
     cupomValidade: "",
     cupomMensagemTag: "",
-    cupomOcultarTag: false
+    cupomOcultarTag: false,
+    promoCompreXAtivo: false,
+    promoCompreXQtd: 2,
+    promoCompreXPreco: 0.01,
+    promoCompreXMensagemTag: "",
+    promoCompreXOcultarTag: false,
   },
   {
     id: "81",
@@ -1764,7 +2064,12 @@ const produtos = [
     cupomCodigo: "",
     cupomValidade: "",
     cupomMensagemTag: "",
-    cupomOcultarTag: false
+    cupomOcultarTag: false,
+    promoCompreXAtivo: false,
+    promoCompreXQtd: 2,
+    promoCompreXPreco: 0.01,
+    promoCompreXMensagemTag: "",
+    promoCompreXOcultarTag: false,
   },
   {
     id: "82",
@@ -1780,7 +2085,7 @@ const produtos = [
       oQueE: "<p>O Gamma Oryzanol é um composto conhecido como óleo de arroz, tendo entre seus componentes o ácido ferúlico. Sua fórmula foi desenvolvida para oferecer uma suplementação prática, concentrada e adequada à rotina de adultos.</p><p>É utilizado como suporte à <strong>performance física e muscular</strong>, podendo contribuir para objetivos relacionados à força, energia durante os treinos, recuperação após exercícios e manutenção de uma libido saudável, conforme as características atribuídas ao ingrediente.</p><p>É destinado a <strong>adultos</strong> que buscam complementar sua rotina de treinamento e cuidados pessoais com uma fórmula de Gamma Oryzanol. Seu uso deve seguir a posologia indicada e, quando necessário, a orientação de um profissional habilitado.</p>",
       composicao: "<ul>\n<li>GAMMA ORYZANOL — 300MG</li>\n</ul><p><strong>Apresentação:</strong> 30 Cápsulas</p>",
       comoUsar: "<p>Tomar <strong>1 Dose (2 Capsulas) ao deitar.</strong></p>",
-      advertencias: "<p>Pessoas com hipersensibilidade à substância não devem fazer uso do produto. Em caso de hipersensibilidade ao produto, recomenda-se descontinuar o uso e consultar o médico. Imagens meramente ilustrativas. Não use o produto com o prazo de validade vencido.</p><p>Manter em temperatura ambiente (15 a 30ºC), protegido da luz, do calor e da umidade. Manter fora do alcance das crianças. Nunca compre medicamento sem orientação de um profissional habilitado.</p><p>Este produto não deve ser utilizado por mulheres grávidas sem orientação médica. O uso durante o período de amamentação também não é recomendado. Este produto não deve ser utilizado por menores de 18 anos sem orientação médica. Siga corretamente o modo de usar. Não desaparecendo os sintomas, procure orientação médica.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVER�� SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
+      advertencias: "<p>Pessoas com hipersensibilidade à substância não devem fazer uso do produto. Em caso de hipersensibilidade ao produto, recomenda-se descontinuar o uso e consultar o médico. Imagens meramente ilustrativas. Não use o produto com o prazo de validade vencido.</p><p>Manter em temperatura ambiente (15 a 30ºC), protegido da luz, do calor e da umidade. Manter fora do alcance das crianças. Nunca compre medicamento sem orientação de um profissional habilitado.</p><p>Este produto não deve ser utilizado por mulheres grávidas sem orientação médica. O uso durante o período de amamentação também não é recomendado. Este produto não deve ser utilizado por menores de 18 anos sem orientação médica. Siga corretamente o modo de usar. Não desaparecendo os sintomas, procure orientação médica.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
     },
     destaque: false,
     mostrarlancamento: false,
@@ -1791,7 +2096,12 @@ const produtos = [
     cupomCodigo: "",
     cupomValidade: "",
     cupomMensagemTag: "",
-    cupomOcultarTag: false
+    cupomOcultarTag: false,
+    promoCompreXAtivo: false,
+    promoCompreXQtd: 2,
+    promoCompreXPreco: 0.01,
+    promoCompreXMensagemTag: "",
+    promoCompreXOcultarTag: false,
   },
   {
     id: "83",
@@ -1804,7 +2114,7 @@ const produtos = [
     ],
     descricao: {
       resumo: "<p><strong>Pomegranate Extrato de Romã 450mg</strong> é uma fórmula em cápsulas desenvolvida para complementar a rotina de cuidados com a saúde, com destaque para seu <strong>potencial antioxidante</strong> e suporte ao bem-estar cardiovascular.</p>",
-      oQueE: "<p>O Pomegranate é um extrato de romã que concentra compostos naturalmente presentes na fruta, como elagitaninos e punicalaginas. É utilizado como suplemento para complementar uma rotina de cuidados e manutenção do bem-estar.</p><p>Sua utilização está associada ao <strong>suporte antioxidante</strong> e a benefícios relacionados à saúde cardiovascular, além de ser estudada por seu potencial de auxiliar na proteção do organismo e da pele. Seu uso não substitui tratamentos médicos ou acompanhamento profissional.</p><p>É indicado para <strong>adultos</strong> que buscam complementar sua rotina de cuidados com uma fonte de extrato de romã. Pessoas que estejam realizando tratamentos ou que apresentem condições de saúde devem buscar orientação de um profissional habilitado antes de utilizar o produto.</p>",
+      oQueE: "<p>O Pomegranate �� um extrato de romã que concentra compostos naturalmente presentes na fruta, como elagitaninos e punicalaginas. É utilizado como suplemento para complementar uma rotina de cuidados e manutenção do bem-estar.</p><p>Sua utilização está associada ao <strong>suporte antioxidante</strong> e a benefícios relacionados à saúde cardiovascular, além de ser estudada por seu potencial de auxiliar na proteção do organismo e da pele. Seu uso não substitui tratamentos médicos ou acompanhamento profissional.</p><p>É indicado para <strong>adultos</strong> que buscam complementar sua rotina de cuidados com uma fonte de extrato de romã. Pessoas que estejam realizando tratamentos ou que apresentem condições de saúde devem buscar orientação de um profissional habilitado antes de utilizar o produto.</p>",
       composicao: "<ul>\n<li>POMEGRANATE — 450MG</li>\n</ul><p><strong>Apresentação:</strong> 30 Cápsulas</p>",
       comoUsar: "<p>Tomar <strong>1 cápsula 2 vezes ao dia.</strong></p>",
       advertencias: "<p>Pessoas com hipersensibilidade à substância não devem fazer uso do produto. Em caso de hipersensibilidade ao produto, recomenda-se descontinuar o uso e consultar o médico. Imagens meramente ilustrativas. Não use o produto com o prazo de validade vencido.</p><p>Manter em temperatura ambiente (15 a 30ºC). Proteger da luz, do calor e da umidade. Nestas condições, o produto se manterá próprio para o consumo, respeitando o prazo de validade indicado na embalagem. Manter fora do alcance das crianças.</p><p>Nunca compre medicamento sem orientação de um profissional habilitado. Este produto não deve ser utilizado por mulheres grávidas sem orientação médica. Siga corretamente o modo de usar. Não desaparecendo os sintomas, procure orientação médica. O uso do produto durante o período de amamentação também não é recomendado. Este produto não deve ser utilizado por menores de 18 anos sem orientação médica.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
@@ -1818,7 +2128,12 @@ const produtos = [
     cupomCodigo: "",
     cupomValidade: "",
     cupomMensagemTag: "",
-    cupomOcultarTag: false
+    cupomOcultarTag: false,
+    promoCompreXAtivo: false,
+    promoCompreXQtd: 2,
+    promoCompreXPreco: 0.01,
+    promoCompreXMensagemTag: "",
+    promoCompreXOcultarTag: false,
   },
   {
     id: "84",
@@ -1845,7 +2160,12 @@ const produtos = [
     cupomCodigo: "",
     cupomValidade: "",
     cupomMensagemTag: "",
-    cupomOcultarTag: false
+    cupomOcultarTag: false,
+    promoCompreXAtivo: false,
+    promoCompreXQtd: 2,
+    promoCompreXPreco: 0.01,
+    promoCompreXMensagemTag: "",
+    promoCompreXOcultarTag: false,
   },
   {
     id: "85",
@@ -1872,7 +2192,12 @@ const produtos = [
     cupomCodigo: "",
     cupomValidade: "",
     cupomMensagemTag: "",
-    cupomOcultarTag: false
+    cupomOcultarTag: false,
+    promoCompreXAtivo: false,
+    promoCompreXQtd: 2,
+    promoCompreXPreco: 0.01,
+    promoCompreXMensagemTag: "",
+    promoCompreXOcultarTag: false,
   },
   {
     id: "86",
@@ -1899,7 +2224,12 @@ const produtos = [
     cupomCodigo: "CUPOM15OFF",
     cupomValidade: "",
     cupomMensagemTag: "CUPOM15OFF",
-    cupomOcultarTag: false
+    cupomOcultarTag: false,
+    promoCompreXAtivo: false,
+    promoCompreXQtd: 2,
+    promoCompreXPreco: 0.01,
+    promoCompreXMensagemTag: "",
+    promoCompreXOcultarTag: false,
   },
   {
     id: "87",
@@ -1926,7 +2256,12 @@ const produtos = [
     cupomCodigo: "",
     cupomValidade: "",
     cupomMensagemTag: "",
-    cupomOcultarTag: false
+    cupomOcultarTag: false,
+    promoCompreXAtivo: false,
+    promoCompreXQtd: 2,
+    promoCompreXPreco: 0.01,
+    promoCompreXMensagemTag: "",
+    promoCompreXOcultarTag: false,
   },
   {
     id: "88",
@@ -1940,7 +2275,7 @@ const produtos = [
     descricao: {
       resumo: "<p>O <strong>Ácido Úrico Gota</strong> é uma fórmula composta por ativos com diferentes funções no manejo da gota e da hiperuricemia, reunindo componentes destinados ao controle da <strong>dor e inflamação</strong> e ao controle dos níveis de ácido úrico.</p>",
       oQueE: "<p>O Ácido Úrico Gota é uma fórmula composta por <strong>cetoprofeno, colchicina, indometacina, benzobromarona, alopurinol e famotidina</strong>, reunindo ativos com diferentes mecanismos de ação relacionados ao controle da inflamação e do ácido úrico.</p><p>Sua finalidade está relacionada ao <strong>manejo da gota e da hiperuricemia</strong>. Cetoprofeno, indometacina e colchicina atuam principalmente no controle da dor e dos processos inflamatórios associados às crises, enquanto alopurinol e benzobromarona atuam no controle do ácido úrico por mecanismos distintos.</p><p>É destinado a pessoas com <strong>indicação específica para utilização dessa combinação</strong>, conforme avaliação e prescrição de médico ou profissional de saúde habilitado. A necessidade, duração e forma de utilização devem ser determinadas individualmente.</p>",
-      composicao: "<ul>\n<li>CETOPROFENO — 100MG</li>\n<li>COLCHICINA — 0.3MG</li>\n<li>INDOMETACINA — 50MG</li>\n<li>BENZOBROMARONA — 100MG</li>\n<li>ALOPURINOL — 100MG</li>\n<li>FAMOTIDINA — 20MG</li>\n</ul><p><strong>Apresentação:</strong> 10 Cápsulas</p>",
+      composicao: "<ul>\n<li>CETOPROFENO — 100MG</li>\n<li>COLCHICINA — 0.3MG</li>\n<li>INDOMETACINA — 50MG</li>\n<li>BENZOBROMARONA — 100MG</li>\n<li>ALOPURINOL — 100MG</li>\n<li>FAMOTIDINA ��� 20MG</li>\n</ul><p><strong>Apresentação:</strong> 10 Cápsulas</p>",
       comoUsar: "<p>Utilize o produto <strong>conforme as instruções do fabricante e a orientação do profissional de saúde responsável pela prescrição</strong>. Não altere a dose, frequência ou duração do tratamento por conta própria.</p>",
       advertencias: "<p>Este produto contém medicamentos de ação farmacológica e deve ser utilizado <strong>sob orientação e acompanhamento profissional</strong>. A associação de cetoprofeno e indometacina requer atenção, pois ambos são anti-inflamatórios e sua utilização simultânea pode aumentar a possibilidade de efeitos adversos. Não utilize por conta própria nem associe outros medicamentos sem orientação profissional.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
     },
@@ -1953,7 +2288,12 @@ const produtos = [
     cupomCodigo: "",
     cupomValidade: "",
     cupomMensagemTag: "",
-    cupomOcultarTag: false
+    cupomOcultarTag: false,
+    promoCompreXAtivo: false,
+    promoCompreXQtd: 2,
+    promoCompreXPreco: 0.01,
+    promoCompreXMensagemTag: "",
+    promoCompreXOcultarTag: false,
   },
   {
     id: "89",
@@ -1980,7 +2320,12 @@ const produtos = [
     cupomCodigo: "",
     cupomValidade: "",
     cupomMensagemTag: "",
-    cupomOcultarTag: false
+    cupomOcultarTag: false,
+    promoCompreXAtivo: false,
+    promoCompreXQtd: 2,
+    promoCompreXPreco: 0.01,
+    promoCompreXMensagemTag: "",
+    promoCompreXOcultarTag: false,
   },
   {
     id: "90",
@@ -2007,7 +2352,12 @@ const produtos = [
     cupomCodigo: "",
     cupomValidade: "",
     cupomMensagemTag: "",
-    cupomOcultarTag: false
+    cupomOcultarTag: false,
+    promoCompreXAtivo: false,
+    promoCompreXQtd: 2,
+    promoCompreXPreco: 0.01,
+    promoCompreXMensagemTag: "",
+    promoCompreXOcultarTag: false,
   },
   {
     id: "91",
@@ -2034,7 +2384,12 @@ const produtos = [
     cupomCodigo: "CUPOM25OFF",
     cupomValidade: "",
     cupomMensagemTag: "CUPOM25OFF",
-    cupomOcultarTag: false
+    cupomOcultarTag: false,
+    promoCompreXAtivo: false,
+    promoCompreXQtd: 2,
+    promoCompreXPreco: 0.01,
+    promoCompreXMensagemTag: "",
+    promoCompreXOcultarTag: false,
   },
   {
     id: "92",
@@ -2050,7 +2405,7 @@ const produtos = [
       oQueE: "<p>O 50 + SUPLEMENTO é uma fórmula nutricional que combina sete componentes selecionados para complementar a rotina de cuidados e nutrição de adultos a partir dos 50 anos.</p><p>Sua composição reúne ingredientes associados ao <strong>metabolismo energético e celular</strong>, à proteção antioxidante, ao funcionamento muscular, à saúde vascular e à manutenção da elasticidade e hidratação da pele.</p><p>É destinado principalmente a <strong>adultos 50+</strong> que buscam complementar sua alimentação com uma combinação de nutrientes e extratos vegetais, dentro de uma rotina equilibrada e hábitos de vida saudáveis.</p>",
       composicao: "<ul>\n<li>INOSITOL — 100MG</li>\n<li>CURCUMA LONGA L. — 150MG</li>\n<li>BERBERINA — 100MG</li>\n<li>VERISOL — 200MG</li>\n<li>MAGNESIO DIMALATO — 100MG</li>\n<li>GYNOSTEMMA PENTAPHYLLUM — 100MG</li>\n<li>HESPERIDINA — 50MG</li>\n</ul><p><strong>Apresentação:</strong> 30 Cápsulas</p>",
       comoUsar: "<p>Utilize o produto conforme as <strong>instruções do fabricante</strong> ou de acordo com a orientação de médico, nutricionista ou outro profissional habilitado. Não altere a forma de uso recomendada.</p>",
-      advertencias: "<p>Este produto deve ser utilizado como complemento à alimentação e aos hábitos saudáveis. Os efeitos podem variar de pessoa para pessoa, de acordo com características individuais, alimentaç��o e rotina. <strong>Suplementos não substituem uma alimentação equilibrada nem tratamentos prescritos por profissionais de saúde.</strong></p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
+      advertencias: "<p>Este produto deve ser utilizado como complemento à alimentação e aos hábitos saudáveis. Os efeitos podem variar de pessoa para pessoa, de acordo com características individuais, alimentação e rotina. <strong>Suplementos não substituem uma alimentação equilibrada nem tratamentos prescritos por profissionais de saúde.</strong></p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
     },
     destaque: false,
     mostrarlancamento: false,
@@ -2061,7 +2416,12 @@ const produtos = [
     cupomCodigo: "",
     cupomValidade: "",
     cupomMensagemTag: "",
-    cupomOcultarTag: false
+    cupomOcultarTag: false,
+    promoCompreXAtivo: false,
+    promoCompreXQtd: 2,
+    promoCompreXPreco: 0.01,
+    promoCompreXMensagemTag: "",
+    promoCompreXOcultarTag: false,
   },
   {
     id: "93",
@@ -2088,7 +2448,12 @@ const produtos = [
     cupomCodigo: "",
     cupomValidade: "",
     cupomMensagemTag: "",
-    cupomOcultarTag: false
+    cupomOcultarTag: false,
+    promoCompreXAtivo: false,
+    promoCompreXQtd: 2,
+    promoCompreXPreco: 0.01,
+    promoCompreXMensagemTag: "",
+    promoCompreXOcultarTag: false,
   },
   {
     id: "94",
@@ -2115,7 +2480,12 @@ const produtos = [
     cupomCodigo: "",
     cupomValidade: "",
     cupomMensagemTag: "",
-    cupomOcultarTag: false
+    cupomOcultarTag: false,
+    promoCompreXAtivo: false,
+    promoCompreXQtd: 2,
+    promoCompreXPreco: 0.01,
+    promoCompreXMensagemTag: "",
+    promoCompreXOcultarTag: false,
   },
   {
     id: "95",
@@ -2142,7 +2512,12 @@ const produtos = [
     cupomCodigo: "",
     cupomValidade: "",
     cupomMensagemTag: "",
-    cupomOcultarTag: false
+    cupomOcultarTag: false,
+    promoCompreXAtivo: false,
+    promoCompreXQtd: 2,
+    promoCompreXPreco: 0.01,
+    promoCompreXMensagemTag: "",
+    promoCompreXOcultarTag: false,
   },
   {
     id: "96",
@@ -2169,7 +2544,12 @@ const produtos = [
     cupomCodigo: "",
     cupomValidade: "",
     cupomMensagemTag: "",
-    cupomOcultarTag: false
+    cupomOcultarTag: false,
+    promoCompreXAtivo: false,
+    promoCompreXQtd: 2,
+    promoCompreXPreco: 0.01,
+    promoCompreXMensagemTag: "",
+    promoCompreXOcultarTag: false,
   },
   {
     id: "97",
@@ -2182,7 +2562,7 @@ const produtos = [
     ],
     descricao: {
       resumo: "<p>Fórmula desenvolvida para oferecer <strong>suporte nutricional ao funcionamento do organismo</strong>, reunindo magnésio, vitamina D, L-metilfolato e ômega-3 em uma composição complementar para a rotina de cuidados com a saúde e o bem-estar.</p>",
-      oQueE: "<p>MENTE SAUDÁVEL é uma fórmula nutricional que combina <strong>magnésio, vitamina D, L-metilfolato e ômega-3</strong>, nutrientes selecionados para complementar a alimenta��ão e apoiar diferentes funções do organismo.</p><p>Sua finalidade é oferecer <strong>suporte nutricional ao funcionamento normal do organismo</strong>, contribuindo para a manutenção da saúde óssea e muscular, processos metabólicos e formação celular, além de fornecer nutrientes relacionados à saúde cardiovascular.</p><p>Pode ser indicada para pessoas que desejam <strong>complementar a ingestão desses nutrientes</strong> e manter uma rotina de cuidados com a saúde, equilíbrio nutricional e bem-estar, especialmente quando houver orientação profissional para sua utilização.</p>",
+      oQueE: "<p>MENTE SAUDÁVEL é uma fórmula nutricional que combina <strong>magnésio, vitamina D, L-metilfolato e ômega-3</strong>, nutrientes selecionados para complementar a alimentação e apoiar diferentes funções do organismo.</p><p>Sua finalidade é oferecer <strong>suporte nutricional ao funcionamento normal do organismo</strong>, contribuindo para a manutenção da saúde óssea e muscular, processos metabólicos e formação celular, além de fornecer nutrientes relacionados à saúde cardiovascular.</p><p>Pode ser indicada para pessoas que desejam <strong>complementar a ingestão desses nutrientes</strong> e manter uma rotina de cuidados com a saúde, equilíbrio nutricional e bem-estar, especialmente quando houver orientação profissional para sua utilização.</p>",
       composicao: "<ul>\n<li>MAGNESIO DIMALATO — MG</li>\n<li>VIT D — UI</li>\n<li>L-METILFOLATO — MCG</li>\n<li>OMEGA 3 PO — MG</li>\n</ul><p><strong>Apresentação:</strong> 30 Cápsulas</p>",
       comoUsar: "<p>Utilize o produto <strong>conforme as instruções do fabricante</strong> ou de acordo com a orientação de um profissional habilitado. Não altere a forma de utilização recomendada.</p>",
       advertencias: "<p>Produto destinado ao uso conforme orientação do fabricante. Em caso de dúvidas sobre a utilização, procure orientação de um profissional habilitado. <strong>Não exceda a recomendação de uso indicada pelo fabricante.</strong></p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
@@ -2196,7 +2576,12 @@ const produtos = [
     cupomCodigo: "",
     cupomValidade: "",
     cupomMensagemTag: "",
-    cupomOcultarTag: false
+    cupomOcultarTag: false,
+    promoCompreXAtivo: false,
+    promoCompreXQtd: 2,
+    promoCompreXPreco: 0.01,
+    promoCompreXMensagemTag: "",
+    promoCompreXOcultarTag: false,
   },
   {
     id: "98",
@@ -2223,7 +2608,12 @@ const produtos = [
     cupomCodigo: "",
     cupomValidade: "",
     cupomMensagemTag: "",
-    cupomOcultarTag: false
+    cupomOcultarTag: false,
+    promoCompreXAtivo: false,
+    promoCompreXQtd: 2,
+    promoCompreXPreco: 0.01,
+    promoCompreXMensagemTag: "",
+    promoCompreXOcultarTag: false,
   },
   {
     id: "99",
@@ -2250,7 +2640,12 @@ const produtos = [
     cupomCodigo: "",
     cupomValidade: "",
     cupomMensagemTag: "",
-    cupomOcultarTag: false
+    cupomOcultarTag: false,
+    promoCompreXAtivo: false,
+    promoCompreXQtd: 2,
+    promoCompreXPreco: 0.01,
+    promoCompreXMensagemTag: "",
+    promoCompreXOcultarTag: false,
   },
   {
     id: "100",
@@ -2277,7 +2672,12 @@ const produtos = [
     cupomCodigo: "",
     cupomValidade: "",
     cupomMensagemTag: "",
-    cupomOcultarTag: false
+    cupomOcultarTag: false,
+    promoCompreXAtivo: false,
+    promoCompreXQtd: 2,
+    promoCompreXPreco: 0.01,
+    promoCompreXMensagemTag: "",
+    promoCompreXOcultarTag: false,
   },
   {
     id: "101",
@@ -2304,7 +2704,12 @@ const produtos = [
     cupomCodigo: "",
     cupomValidade: "",
     cupomMensagemTag: "",
-    cupomOcultarTag: false
+    cupomOcultarTag: false,
+    promoCompreXAtivo: false,
+    promoCompreXQtd: 2,
+    promoCompreXPreco: 0.01,
+    promoCompreXMensagemTag: "",
+    promoCompreXOcultarTag: false,
   },
   {
     id: "102",
@@ -2331,7 +2736,12 @@ const produtos = [
     cupomCodigo: "",
     cupomValidade: "",
     cupomMensagemTag: "",
-    cupomOcultarTag: false
+    cupomOcultarTag: false,
+    promoCompreXAtivo: false,
+    promoCompreXQtd: 2,
+    promoCompreXPreco: 0.01,
+    promoCompreXMensagemTag: "",
+    promoCompreXOcultarTag: false,
   },
   {
     id: "103",
@@ -2358,7 +2768,12 @@ const produtos = [
     cupomCodigo: "",
     cupomValidade: "",
     cupomMensagemTag: "",
-    cupomOcultarTag: false
+    cupomOcultarTag: false,
+    promoCompreXAtivo: false,
+    promoCompreXQtd: 2,
+    promoCompreXPreco: 0.01,
+    promoCompreXMensagemTag: "",
+    promoCompreXOcultarTag: false,
   },
   {
     id: "104",
@@ -2385,7 +2800,12 @@ const produtos = [
     cupomCodigo: "",
     cupomValidade: "",
     cupomMensagemTag: "",
-    cupomOcultarTag: false
+    cupomOcultarTag: false,
+    promoCompreXAtivo: false,
+    promoCompreXQtd: 2,
+    promoCompreXPreco: 0.01,
+    promoCompreXMensagemTag: "",
+    promoCompreXOcultarTag: false,
   },
   {
     id: "105",
@@ -2412,7 +2832,12 @@ const produtos = [
     cupomCodigo: "",
     cupomValidade: "",
     cupomMensagemTag: "",
-    cupomOcultarTag: false
+    cupomOcultarTag: false,
+    promoCompreXAtivo: false,
+    promoCompreXQtd: 2,
+    promoCompreXPreco: 0.01,
+    promoCompreXMensagemTag: "",
+    promoCompreXOcultarTag: false,
   },
   {
     id: "106",
@@ -2439,7 +2864,12 @@ const produtos = [
     cupomCodigo: "",
     cupomValidade: "",
     cupomMensagemTag: "",
-    cupomOcultarTag: false
+    cupomOcultarTag: false,
+    promoCompreXAtivo: false,
+    promoCompreXQtd: 2,
+    promoCompreXPreco: 0.01,
+    promoCompreXMensagemTag: "",
+    promoCompreXOcultarTag: false,
   },
   {
     id: "107",
@@ -2466,7 +2896,12 @@ const produtos = [
     cupomCodigo: "",
     cupomValidade: "",
     cupomMensagemTag: "",
-    cupomOcultarTag: false
+    cupomOcultarTag: false,
+    promoCompreXAtivo: false,
+    promoCompreXQtd: 2,
+    promoCompreXPreco: 0.01,
+    promoCompreXMensagemTag: "",
+    promoCompreXOcultarTag: false,
   },
   {
     id: "108",
@@ -2493,7 +2928,12 @@ const produtos = [
     cupomCodigo: "",
     cupomValidade: "",
     cupomMensagemTag: "",
-    cupomOcultarTag: false
+    cupomOcultarTag: false,
+    promoCompreXAtivo: false,
+    promoCompreXQtd: 2,
+    promoCompreXPreco: 0.01,
+    promoCompreXMensagemTag: "",
+    promoCompreXOcultarTag: false,
   },
   {
     id: "109",
@@ -2520,7 +2960,12 @@ const produtos = [
     cupomCodigo: "",
     cupomValidade: "",
     cupomMensagemTag: "",
-    cupomOcultarTag: false
+    cupomOcultarTag: false,
+    promoCompreXAtivo: false,
+    promoCompreXQtd: 2,
+    promoCompreXPreco: 0.01,
+    promoCompreXMensagemTag: "",
+    promoCompreXOcultarTag: false,
   },
   {
     id: "110",
@@ -2547,7 +2992,12 @@ const produtos = [
     cupomCodigo: "",
     cupomValidade: "",
     cupomMensagemTag: "",
-    cupomOcultarTag: false
+    cupomOcultarTag: false,
+    promoCompreXAtivo: false,
+    promoCompreXQtd: 2,
+    promoCompreXPreco: 0.01,
+    promoCompreXMensagemTag: "",
+    promoCompreXOcultarTag: false,
   },
   {
     id: "111",
@@ -2574,7 +3024,12 @@ const produtos = [
     cupomCodigo: "",
     cupomValidade: "",
     cupomMensagemTag: "",
-    cupomOcultarTag: false
+    cupomOcultarTag: false,
+    promoCompreXAtivo: false,
+    promoCompreXQtd: 2,
+    promoCompreXPreco: 0.01,
+    promoCompreXMensagemTag: "",
+    promoCompreXOcultarTag: false,
   },
   {
     id: "112",
@@ -2601,7 +3056,12 @@ const produtos = [
     cupomCodigo: "",
     cupomValidade: "",
     cupomMensagemTag: "",
-    cupomOcultarTag: false
+    cupomOcultarTag: false,
+    promoCompreXAtivo: false,
+    promoCompreXQtd: 2,
+    promoCompreXPreco: 0.01,
+    promoCompreXMensagemTag: "",
+    promoCompreXOcultarTag: false,
   },
   {
     id: "113",
@@ -2628,7 +3088,12 @@ const produtos = [
     cupomCodigo: "",
     cupomValidade: "",
     cupomMensagemTag: "",
-    cupomOcultarTag: false
+    cupomOcultarTag: false,
+    promoCompreXAtivo: false,
+    promoCompreXQtd: 2,
+    promoCompreXPreco: 0.01,
+    promoCompreXMensagemTag: "",
+    promoCompreXOcultarTag: false,
   },
   {
     id: "114",
@@ -2655,7 +3120,12 @@ const produtos = [
     cupomCodigo: "",
     cupomValidade: "",
     cupomMensagemTag: "",
-    cupomOcultarTag: false
+    cupomOcultarTag: false,
+    promoCompreXAtivo: false,
+    promoCompreXQtd: 2,
+    promoCompreXPreco: 0.01,
+    promoCompreXMensagemTag: "",
+    promoCompreXOcultarTag: false,
   },
   {
     id: "115",
@@ -2671,7 +3141,7 @@ const produtos = [
       oQueE: "<p><strong>Magnésio Treonato 300mg</strong> é um suplemento em cápsulas à base de MAGNESIO L-THREONATE, uma forma de magnésio estudada por sua relação com o sistema nervoso central e com o suporte às funções cognitivas.</p><p>Sua finalidade é auxiliar no suporte à <strong>memória, foco, atenção e saúde cerebral</strong>, além de contribuir para o bem-estar emocional e para a qualidade do sono. É uma opção especialmente interessante em períodos de maior demanda mental, como estudos intensos e jornadas de trabalho exigentes.</p><p>Pode ser indicado para adultos que desejam complementar a ingestão de magnésio e manter o <strong>desempenho mental e o bem-estar</strong> no dia a dia, incluindo pessoas com rotinas de estudo ou trabalho intensas e adultos que buscam suporte à saúde cognitiva ao longo do tempo.</p>",
       composicao: "<ul>\n<li>MAGNESIO L-THREONATE — 300MG</li>\n</ul><p><strong>Apresentação:</strong> 60 Cápsulas</p>",
       comoUsar: "<p>Tomar <strong>2 cápsulas ao dia</strong>, sendo 1 cápsula antes do almoço e 1 cápsula antes de dormir, ou conforme orientação profissional.</p>",
-      advertencias: "<p>Utilize o produto conforme a orientação de uso. Em caso de dúvidas sobre a utilização ou necessidade de suplementação, procure orientação de um profissional de saúde.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
+      advertencias: "<p>Utilize o produto conforme a orientação de uso. Em caso de dúvidas sobre a utilização ou necessidade de suplementação, procure orientação de um profissional de saúde.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmac��utico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
     },
     destaque: true,
     mostrarlancamento: false,
@@ -2682,7 +3152,12 @@ const produtos = [
     cupomCodigo: "",
     cupomValidade: "",
     cupomMensagemTag: "",
-    cupomOcultarTag: false
+    cupomOcultarTag: false,
+    promoCompreXAtivo: false,
+    promoCompreXQtd: 2,
+    promoCompreXPreco: 0.01,
+    promoCompreXMensagemTag: "",
+    promoCompreXOcultarTag: false,
   },
   {
     id: "116",
@@ -2709,7 +3184,12 @@ const produtos = [
     cupomCodigo: "",
     cupomValidade: "",
     cupomMensagemTag: "",
-    cupomOcultarTag: false
+    cupomOcultarTag: false,
+    promoCompreXAtivo: false,
+    promoCompreXQtd: 2,
+    promoCompreXPreco: 0.01,
+    promoCompreXMensagemTag: "",
+    promoCompreXOcultarTag: false,
   },
   {
     id: "117",
@@ -2736,7 +3216,12 @@ const produtos = [
     cupomCodigo: "",
     cupomValidade: "",
     cupomMensagemTag: "",
-    cupomOcultarTag: false
+    cupomOcultarTag: false,
+    promoCompreXAtivo: false,
+    promoCompreXQtd: 2,
+    promoCompreXPreco: 0.01,
+    promoCompreXMensagemTag: "",
+    promoCompreXOcultarTag: false,
   },
   {
     id: "118",
@@ -2763,7 +3248,12 @@ const produtos = [
     cupomCodigo: "",
     cupomValidade: "",
     cupomMensagemTag: "",
-    cupomOcultarTag: false
+    cupomOcultarTag: false,
+    promoCompreXAtivo: false,
+    promoCompreXQtd: 2,
+    promoCompreXPreco: 0.01,
+    promoCompreXMensagemTag: "",
+    promoCompreXOcultarTag: false,
   },
   {
     id: "119",
@@ -2790,7 +3280,12 @@ const produtos = [
     cupomCodigo: "",
     cupomValidade: "",
     cupomMensagemTag: "",
-    cupomOcultarTag: false
+    cupomOcultarTag: false,
+    promoCompreXAtivo: false,
+    promoCompreXQtd: 2,
+    promoCompreXPreco: 0.01,
+    promoCompreXMensagemTag: "",
+    promoCompreXOcultarTag: false,
   },
   {
     id: "120",
@@ -2817,7 +3312,12 @@ const produtos = [
     cupomCodigo: "",
     cupomValidade: "",
     cupomMensagemTag: "",
-    cupomOcultarTag: false
+    cupomOcultarTag: false,
+    promoCompreXAtivo: false,
+    promoCompreXQtd: 2,
+    promoCompreXPreco: 0.01,
+    promoCompreXMensagemTag: "",
+    promoCompreXOcultarTag: false,
   },
   {
     id: "121",
@@ -2844,7 +3344,12 @@ const produtos = [
     cupomCodigo: "",
     cupomValidade: "",
     cupomMensagemTag: "",
-    cupomOcultarTag: false
+    cupomOcultarTag: false,
+    promoCompreXAtivo: false,
+    promoCompreXQtd: 2,
+    promoCompreXPreco: 0.01,
+    promoCompreXMensagemTag: "",
+    promoCompreXOcultarTag: false,
   },
   {
     id: "122",
@@ -2871,7 +3376,12 @@ const produtos = [
     cupomCodigo: "",
     cupomValidade: "",
     cupomMensagemTag: "",
-    cupomOcultarTag: false
+    cupomOcultarTag: false,
+    promoCompreXAtivo: false,
+    promoCompreXQtd: 2,
+    promoCompreXPreco: 0.01,
+    promoCompreXMensagemTag: "",
+    promoCompreXOcultarTag: false,
   },
   {
     id: "123",
@@ -2884,10 +3394,10 @@ const produtos = [
     ],
     descricao: {
       resumo: "<p>PeptiStrong® 2,4g com sabor Frutas Vermelhas é um suplemento nutricional desenvolvido para oferecer <strong>suporte à força, recuperação muscular e desempenho físico</strong> em um único sachê ao dia.</p>",
-      oQueE: "<p>PeptiStrong® é um ingrediente patenteado composto por <strong>peptídeos bioativos</strong> obtidos por hidrólise enzimática seletiva da proteína da fava, desenvolvido com o auxílio de inteligência artificial para oferecer suporte ao metabolismo muscular.</p><p>O produto auxilia na <strong>redução da degradação de proteínas musculares</strong> e na inflamação induzida pelo exercício, contribuindo para a recuperação muscular, o aumento de força e o desempenho esportivo. Também pode ser utilizado como suporte nutricional em situações como sarcopenia, dinapenia e miopatias, sempre com acompanhamento profissional.</p><p>É indicado para <strong>adultos que buscam suporte à manutenção e recuperação da função muscular</strong>, incluindo praticantes de atividade física, atletas e pessoas que necessitam de suporte nutricional em situações de maior demanda muscular, como no período pré e pós-cirúrgico, após imobilização ou durante o envelhecimento. Também pode ser utilizado como complemento nutricional por pessoas com redução da massa ou da força muscular, sempre sob orientação de um médico ou nutricionista.</p>",
+      oQueE: "<p>PeptiStrong® é um ingrediente patenteado composto por <strong>peptídeos bioativos</strong> obtidos por hidrólise enzimática seletiva da proteína da fava, desenvolvido com o auxílio de inteligência artificial para oferecer suporte ao metabolismo muscular.</p><p>O produto auxilia na <strong>redução da degradação de proteínas musculares</strong> e na inflamação induzida pelo exercício, contribuindo para a recuperação muscular, o aumento de força e o desempenho esportivo. Também pode ser utilizado como suporte nutricional em situações como sarcopenia, dinapenia e miopatias, sempre com acompanhamento profissional.</p><p>É indicado para <strong>adultos que buscam suporte à manutenção e recuperação da função muscular</strong>, incluindo praticantes de atividade física, atletas e pessoas que necessitam de suporte nutricional em situações de maior demanda muscular, como no período pré e pós-cirúrgico, após imobilização ou durante o envelhecimento. Também pode ser utilizado como complemento nutricional por pessoas com reduç��o da massa ou da força muscular, sempre sob orientação de um médico ou nutricionista.</p>",
       composicao: "<ul>\n<li>PeptiStrong — 2,4g</li>\n<li>Refreska Frutas Vermelhas — 2,5gr</li>\n</ul><p><strong>Apresentação:</strong> 30 Sachês</p>",
       comoUsar: "<p>Solubilizar <strong>1 sachê em 150ml de água</strong> e tomar 1 vez ao dia. Consumir imediatamente após o preparo.</p>",
-      advertencias: "<p>Utilize o produto conforme a orientação de uso indicada. Em situações que necessitem de acompanhamento profissional, recomenda-se orientação de médico ou nutricionista.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicaç��es referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
+      advertencias: "<p>Utilize o produto conforme a orientação de uso indicada. Em situações que necessitem de acompanhamento profissional, recomenda-se orientação de médico ou nutricionista.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
     },
     destaque: true,
     mostrarlancamento: false,
@@ -2898,7 +3408,12 @@ const produtos = [
     cupomCodigo: "",
     cupomValidade: "",
     cupomMensagemTag: "",
-    cupomOcultarTag: false
+    cupomOcultarTag: false,
+    promoCompreXAtivo: false,
+    promoCompreXQtd: 2,
+    promoCompreXPreco: 0.01,
+    promoCompreXMensagemTag: "",
+    promoCompreXOcultarTag: false,
   },
   {
     id: "124",
@@ -2925,7 +3440,12 @@ const produtos = [
     cupomCodigo: "",
     cupomValidade: "",
     cupomMensagemTag: "",
-    cupomOcultarTag: false
+    cupomOcultarTag: false,
+    promoCompreXAtivo: false,
+    promoCompreXQtd: 2,
+    promoCompreXPreco: 0.01,
+    promoCompreXMensagemTag: "",
+    promoCompreXOcultarTag: false,
   },
   {
     id: "125",
@@ -2952,7 +3472,12 @@ const produtos = [
     cupomCodigo: "",
     cupomValidade: "",
     cupomMensagemTag: "",
-    cupomOcultarTag: false
+    cupomOcultarTag: false,
+    promoCompreXAtivo: false,
+    promoCompreXQtd: 2,
+    promoCompreXPreco: 0.01,
+    promoCompreXMensagemTag: "",
+    promoCompreXOcultarTag: false,
   },
   {
     id: "126",
@@ -2979,7 +3504,12 @@ const produtos = [
     cupomCodigo: "",
     cupomValidade: "",
     cupomMensagemTag: "",
-    cupomOcultarTag: false
+    cupomOcultarTag: false,
+    promoCompreXAtivo: false,
+    promoCompreXQtd: 2,
+    promoCompreXPreco: 0.01,
+    promoCompreXMensagemTag: "",
+    promoCompreXOcultarTag: false,
   },
   {
     id: "127",
@@ -3006,7 +3536,12 @@ const produtos = [
     cupomCodigo: "",
     cupomValidade: "",
     cupomMensagemTag: "",
-    cupomOcultarTag: false
+    cupomOcultarTag: false,
+    promoCompreXAtivo: false,
+    promoCompreXQtd: 2,
+    promoCompreXPreco: 0.01,
+    promoCompreXMensagemTag: "",
+    promoCompreXOcultarTag: false,
   },
   {
     id: "128",
@@ -3018,7 +3553,7 @@ const produtos = [
       
     ],
     descricao: {
-      resumo: "<p>IMUNO PRO é uma fórmula desenvolvida para oferecer <strong>suporte ao sistema imunológico</strong>, combinando beta glucana, própolis verde, vitamina C, zinco, vitamina D3 e timomodulina em uma composição cuidadosamente formulada.</p>",
+      resumo: "<p>IMUNO PRO é uma f��rmula desenvolvida para oferecer <strong>suporte ao sistema imunológico</strong>, combinando beta glucana, própolis verde, vitamina C, zinco, vitamina D3 e timomodulina em uma composição cuidadosamente formulada.</p>",
       oQueE: "<p>IMUNO PRO é um suplemento alimentar em cápsulas que reúne diferentes nutrientes e ativos associados ao <strong>funcionamento normal do sistema imunológico</strong> e à proteção das células contra o estresse oxidativo.</p><p>Sua fórmula foi desenvolvida para <strong>apoiar as defesas naturais do organismo</strong>, contribuindo para o funcionamento adequado do sistema imunológico e para a manutenção da saúde e vitalidade.</p><p>Pode ser indicado como complemento nutricional para pessoas que buscam suporte ao sistema imunológico, especialmente em períodos de <strong>rotina intensa, mudanças climáticas</strong> ou quando há necessidade de complementar a ingestão de determinados nutrientes.</p>",
       composicao: "<ul>\n<li>BETA GLUCANA — MG</li>\n<li>PROPOLIS VERDE EXTRATO — MG</li>\n<li>VITAMINA C REVESTIDA — MG</li>\n<li>ZINCO QUELATO — MG</li>\n<li>VITAMINA D3 — MG</li>\n<li>TIMOMODULINA — MG</li>\n</ul><p><strong>Apresentação:</strong> 30 Cápsulas</p>",
       comoUsar: "<p>Utilize o produto conforme as <strong>instruções do fabricante</strong> presentes na embalagem ou de acordo com a orientação de um profissional habilitado. Não altere a forma de utilização recomendada.</p>",
@@ -3033,7 +3568,12 @@ const produtos = [
     cupomCodigo: "",
     cupomValidade: "",
     cupomMensagemTag: "",
-    cupomOcultarTag: false
+    cupomOcultarTag: false,
+    promoCompreXAtivo: false,
+    promoCompreXQtd: 2,
+    promoCompreXPreco: 0.01,
+    promoCompreXMensagemTag: "",
+    promoCompreXOcultarTag: false,
   },
   {
     id: "129",
@@ -3060,7 +3600,12 @@ const produtos = [
     cupomCodigo: "",
     cupomValidade: "",
     cupomMensagemTag: "",
-    cupomOcultarTag: false
+    cupomOcultarTag: false,
+    promoCompreXAtivo: false,
+    promoCompreXQtd: 2,
+    promoCompreXPreco: 0.01,
+    promoCompreXMensagemTag: "",
+    promoCompreXOcultarTag: false,
   },
   {
     id: "130",
@@ -3087,7 +3632,12 @@ const produtos = [
     cupomCodigo: "",
     cupomValidade: "",
     cupomMensagemTag: "",
-    cupomOcultarTag: false
+    cupomOcultarTag: false,
+    promoCompreXAtivo: false,
+    promoCompreXQtd: 2,
+    promoCompreXPreco: 0.01,
+    promoCompreXMensagemTag: "",
+    promoCompreXOcultarTag: false,
   },
   {
     id: "131",
@@ -3114,7 +3664,12 @@ const produtos = [
     cupomCodigo: "",
     cupomValidade: "",
     cupomMensagemTag: "",
-    cupomOcultarTag: false
+    cupomOcultarTag: false,
+    promoCompreXAtivo: false,
+    promoCompreXQtd: 2,
+    promoCompreXPreco: 0.01,
+    promoCompreXMensagemTag: "",
+    promoCompreXOcultarTag: false,
   },
   {
     id: "132",
@@ -3128,7 +3683,7 @@ const produtos = [
     descricao: {
       resumo: "<p><strong>SUN BLACK</strong> é uma fórmula com fibras, extratos vegetais e nutrientes selecionados para complementar uma rotina de alimentação equilibrada, contribuindo para o <strong>bem-estar intestinal</strong>, a saciedade e os cuidados com o metabolismo.</p>",
       oQueE: "<p>O <strong>SUN BLACK</strong> é um suplemento alimentar em cápsulas que reúne fibras, ingredientes de origem vegetal e nutrientes cuidadosamente combinados em uma única fórmula.</p><p>Sua finalidade é <strong>complementar a alimentação</strong>, oferecendo componentes que podem contribuir para o aporte de fibras, a sensação de saciedade e o funcionamento regular do intestino, dentro de uma rotina de hábitos saudáveis.</p><p>É recomendado para <strong>adultos</strong> que desejam complementar sua alimentação com fibras e compostos de origem vegetal, especialmente como parte de uma rotina que inclua alimentação equilibrada e cuidados com o bem-estar.</p>",
-      composicao: "<ul>\n<li>MOROSIL — 50MG</li>\n<li>COLAGENO EM PO — 20MG</li>\n<li>SPIRULINA — 50MG</li>\n<li>SENNE — 50MG</li>\n<li>JOBSTEARS — 50MG</li>\n<li>FUCCUS VESICULOSUS — 50MG</li>\n<li>GELATINA — 20MG</li>\n<li>PSYLLIUM — 50MG</li>\n<li>GARCINIA CAMBOGIA EXTRATO — 20MG</li>\n<li>HORSETAIL — 20MG</li>\n<li>PICOLINATO DE CROMO — 250MCG</li>\n<li>GORSE ULEX — 50MG</li>\n<li>CITRUS AURANTIUM — 20MG</li>\n<li>SACRED SHELL — 50MG</li>\n<li>XIANXIAN — 50MG</li>\n<li>BROTO DE BAMBU — 50MG</li>\n</ul><p><strong>Apresentação:</strong> 60 Cápsulas</p>",
+      composicao: "<ul>\n<li>MOROSIL — 50MG</li>\n<li>COLAGENO EM PO — 20MG</li>\n<li>SPIRULINA — 50MG</li>\n<li>SENNE — 50MG</li>\n<li>JOBSTEARS �� 50MG</li>\n<li>FUCCUS VESICULOSUS — 50MG</li>\n<li>GELATINA — 20MG</li>\n<li>PSYLLIUM — 50MG</li>\n<li>GARCINIA CAMBOGIA EXTRATO — 20MG</li>\n<li>HORSETAIL — 20MG</li>\n<li>PICOLINATO DE CROMO — 250MCG</li>\n<li>GORSE ULEX — 50MG</li>\n<li>CITRUS AURANTIUM — 20MG</li>\n<li>SACRED SHELL — 50MG</li>\n<li>XIANXIAN — 50MG</li>\n<li>BROTO DE BAMBU — 50MG</li>\n</ul><p><strong>Apresentação:</strong> 60 Cápsulas</p>",
       comoUsar: "<p>Utilize o produto <strong>conforme as instruções do fabricante</strong> presentes no rótulo ou de acordo com a orientação de um profissional habilitado. Não ultrapasse a recomendação de uso indicada.</p>",
       advertencias: "<p>Este produto é um suplemento alimentar e <strong>não substitui uma alimentação equilibrada</strong>. Mantenha fora do alcance de crianças. Seu uso deve seguir as orientações do fabricante e, quando necessário, a orientação de um profissional de saúde.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
     },
@@ -3141,7 +3696,12 @@ const produtos = [
     cupomCodigo: "",
     cupomValidade: "",
     cupomMensagemTag: "",
-    cupomOcultarTag: false
+    cupomOcultarTag: false,
+    promoCompreXAtivo: false,
+    promoCompreXQtd: 2,
+    promoCompreXPreco: 0.01,
+    promoCompreXMensagemTag: "",
+    promoCompreXOcultarTag: false,
   },
   {
     id: "133",
@@ -3168,7 +3728,12 @@ const produtos = [
     cupomCodigo: "",
     cupomValidade: "",
     cupomMensagemTag: "",
-    cupomOcultarTag: false
+    cupomOcultarTag: false,
+    promoCompreXAtivo: false,
+    promoCompreXQtd: 2,
+    promoCompreXPreco: 0.01,
+    promoCompreXMensagemTag: "",
+    promoCompreXOcultarTag: false,
   },
   {
     id: "134",
@@ -3195,7 +3760,12 @@ const produtos = [
     cupomCodigo: "",
     cupomValidade: "",
     cupomMensagemTag: "",
-    cupomOcultarTag: false
+    cupomOcultarTag: false,
+    promoCompreXAtivo: false,
+    promoCompreXQtd: 2,
+    promoCompreXPreco: 0.01,
+    promoCompreXMensagemTag: "",
+    promoCompreXOcultarTag: false,
   },
   {
     id: "135",
@@ -3222,7 +3792,12 @@ const produtos = [
     cupomCodigo: "",
     cupomValidade: "",
     cupomMensagemTag: "",
-    cupomOcultarTag: false
+    cupomOcultarTag: false,
+    promoCompreXAtivo: false,
+    promoCompreXQtd: 2,
+    promoCompreXPreco: 0.01,
+    promoCompreXMensagemTag: "",
+    promoCompreXOcultarTag: false,
   },
   {
     id: "136",
@@ -3249,7 +3824,12 @@ const produtos = [
     cupomCodigo: "",
     cupomValidade: "",
     cupomMensagemTag: "",
-    cupomOcultarTag: false
+    cupomOcultarTag: false,
+    promoCompreXAtivo: false,
+    promoCompreXQtd: 2,
+    promoCompreXPreco: 0.01,
+    promoCompreXMensagemTag: "",
+    promoCompreXOcultarTag: false,
   },
   {
     id: "137",
@@ -3276,7 +3856,12 @@ const produtos = [
     cupomCodigo: "",
     cupomValidade: "",
     cupomMensagemTag: "",
-    cupomOcultarTag: false
+    cupomOcultarTag: false,
+    promoCompreXAtivo: false,
+    promoCompreXQtd: 2,
+    promoCompreXPreco: 0.01,
+    promoCompreXMensagemTag: "",
+    promoCompreXOcultarTag: false,
   },
   {
     id: "138",
@@ -3290,7 +3875,7 @@ const produtos = [
     descricao: {
       resumo: "<p><strong>Composto para TDAH - 60 Cápsulas</strong> é uma fórmula nutricional que reúne nutrientes selecionados para oferecer <strong>suporte ao funcionamento cerebral, sistema nervoso e metabolismo</strong>, contribuindo para uma rotina de cuidados voltada às funções cognitivas.</p>",
       oQueE: "<p>O <strong>Composto para TDAH</strong> é uma fórmula em cápsulas que combina ômega 3, fosfatidilserina, colina, tirosina, zinco, vitaminas do complexo B, vitamina C e outros nutrientes relacionados ao funcionamento do sistema nervoso.</p><p>Sua finalidade é oferecer <strong>suporte nutricional às funções cognitivas</strong>, contribuindo para processos relacionados à atenção, concentração, memória, comunicação entre células nervosas e metabolismo energético.</p><p>É indicado como complemento nutricional para pessoas que buscam <strong>suporte à função cerebral e ao sistema nervoso</strong>, sempre considerando a orientação de um profissional de saúde. O produto não substitui avaliação, diagnóstico ou tratamento profissional do TDAH.</p>",
-      composicao: "<ul>\n<li>OMEGA 3 PO ��� 250MG</li>\n<li>FOSFATIDILSERINA — 100MG</li>\n<li>ZINCO — 10MG</li>\n<li>COLINA — 100MG</li>\n<li>TAURINA-L — 100MG</li>\n<li>TIROSINA — 250MG</li>\n<li>ACIDO FOLICO — 500MCG</li>\n<li>VIT C — 50MG</li>\n<li>NIACINA — 10MG</li>\n<li>VIT B6 — 4MG</li>\n<li>VIT B12 — 10MCG</li>\n</ul><p><strong>Apresentação:</strong> 60 Cápsulas</p>",
+      composicao: "<ul>\n<li>OMEGA 3 PO — 250MG</li>\n<li>FOSFATIDILSERINA — 100MG</li>\n<li>ZINCO — 10MG</li>\n<li>COLINA — 100MG</li>\n<li>TAURINA-L — 100MG</li>\n<li>TIROSINA — 250MG</li>\n<li>ACIDO FOLICO — 500MCG</li>\n<li>VIT C — 50MG</li>\n<li>NIACINA — 10MG</li>\n<li>VIT B6 — 4MG</li>\n<li>VIT B12 — 10MCG</li>\n</ul><p><strong>Apresentação:</strong> 60 Cápsulas</p>",
       comoUsar: "<p>Utilizar o produto <strong>conforme as instruções do fabricante</strong> ou de acordo com a orientação de um profissional de saúde.</p>",
       advertencias: "<p>O produto não deve ser apresentado como cura ou tratamento do TDAH. Sua utilização deve ser considerada como complemento nutricional, não substituindo avaliação, diagnóstico ou tratamento profissional. Os resultados podem variar de acordo com as características individuais, alimentação, condições de saúde e demais fatores.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
     },
@@ -3303,7 +3888,12 @@ const produtos = [
     cupomCodigo: "",
     cupomValidade: "",
     cupomMensagemTag: "",
-    cupomOcultarTag: false
+    cupomOcultarTag: false,
+    promoCompreXAtivo: false,
+    promoCompreXQtd: 2,
+    promoCompreXPreco: 0.01,
+    promoCompreXMensagemTag: "",
+    promoCompreXOcultarTag: false,
   },
   {
     id: "139",
@@ -3330,7 +3920,12 @@ const produtos = [
     cupomCodigo: "",
     cupomValidade: "",
     cupomMensagemTag: "",
-    cupomOcultarTag: false
+    cupomOcultarTag: false,
+    promoCompreXAtivo: false,
+    promoCompreXQtd: 2,
+    promoCompreXPreco: 0.01,
+    promoCompreXMensagemTag: "",
+    promoCompreXOcultarTag: false,
   },
   {
     id: "140",
@@ -3357,7 +3952,12 @@ const produtos = [
     cupomCodigo: "",
     cupomValidade: "",
     cupomMensagemTag: "",
-    cupomOcultarTag: false
+    cupomOcultarTag: false,
+    promoCompreXAtivo: false,
+    promoCompreXQtd: 2,
+    promoCompreXPreco: 0.01,
+    promoCompreXMensagemTag: "",
+    promoCompreXOcultarTag: false,
   },
   {
     id: "141",
@@ -3384,7 +3984,12 @@ const produtos = [
     cupomCodigo: "",
     cupomValidade: "",
     cupomMensagemTag: "",
-    cupomOcultarTag: false
+    cupomOcultarTag: false,
+    promoCompreXAtivo: false,
+    promoCompreXQtd: 2,
+    promoCompreXPreco: 0.01,
+    promoCompreXMensagemTag: "",
+    promoCompreXOcultarTag: false,
   },
   {
     id: "142",
@@ -3411,7 +4016,12 @@ const produtos = [
     cupomCodigo: "",
     cupomValidade: "",
     cupomMensagemTag: "",
-    cupomOcultarTag: false
+    cupomOcultarTag: false,
+    promoCompreXAtivo: false,
+    promoCompreXQtd: 2,
+    promoCompreXPreco: 0.01,
+    promoCompreXMensagemTag: "",
+    promoCompreXOcultarTag: false,
   },
   {
     id: "143",
@@ -3438,7 +4048,12 @@ const produtos = [
     cupomCodigo: "",
     cupomValidade: "",
     cupomMensagemTag: "",
-    cupomOcultarTag: false
+    cupomOcultarTag: false,
+    promoCompreXAtivo: false,
+    promoCompreXQtd: 2,
+    promoCompreXPreco: 0.01,
+    promoCompreXMensagemTag: "",
+    promoCompreXOcultarTag: false,
   },
   {
     id: "144",
@@ -3451,7 +4066,7 @@ const produtos = [
     ],
     descricao: {
       resumo: "<p>PELE E LONGEVIDADE é uma fórmula em sachês com sabor frutas vermelhas, desenvolvida para complementar a rotina nutricional com ingredientes associados ao <strong>cuidado da pele e ao suporte nutricional</strong>.</p>",
-      oQueE: "<p>PELE E LONGEVIDADE é um suplemento alimentar em sachês que combina Verisol, silício orgânico, vitamina C, biotina, ácido hialurônico em pó e refreska sabor frutas vermelhas.</p><p>Sua finalidade é oferecer <strong>suporte nutricional para a manutenção da pele</strong>, reunindo nutrientes e ingredientes utilizados em formulações voltadas ao cuidado da aparência e ao bem-estar.</p><p>É indicado para pessoas que desejam complementar a alimentação com ingredientes relacionados ao <strong>cuidado nutricional da pele</strong>, especialmente dentro de uma rotina de autocuidado e h��bitos saudáveis.</p>",
+      oQueE: "<p>PELE E LONGEVIDADE é um suplemento alimentar em sachês que combina Verisol, silício orgânico, vitamina C, biotina, ácido hialurônico em pó e refreska sabor frutas vermelhas.</p><p>Sua finalidade é oferecer <strong>suporte nutricional para a manutenção da pele</strong>, reunindo nutrientes e ingredientes utilizados em formulações voltadas ao cuidado da aparência e ao bem-estar.</p><p>É indicado para pessoas que desejam complementar a alimentação com ingredientes relacionados ao <strong>cuidado nutricional da pele</strong>, especialmente dentro de uma rotina de autocuidado e hábitos saudáveis.</p>",
       composicao: "<ul>\n<li>VERISOL — GR</li>\n<li>SILICIO ORGANICO — MG</li>\n<li>VIT C — MG</li>\n<li>BIOTINA — MG</li>\n<li>ACIDO HIALURONICO PO — MG</li>\n<li>REFRESKA FRUTAS VERMELHAS — GR</li>\n</ul><p><strong>Apresentação:</strong> 30 Sachês</p>",
       comoUsar: "<p>Utilize o produto conforme as instruções do fabricante ou de acordo com a orientação de um profissional habilitado. <strong>Não estabeleça dose, frequência ou horário de uso sem as informações específicas do fabricante.</strong></p>",
       advertencias: "<p>Este produto é um suplemento alimentar e não substitui uma alimentação equilibrada. Utilize conforme as orientações do fabricante. Em caso de dúvidas sobre a utilização do produto, procure orientação de um profissional de saúde.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
@@ -3465,7 +4080,12 @@ const produtos = [
     cupomCodigo: "",
     cupomValidade: "",
     cupomMensagemTag: "",
-    cupomOcultarTag: false
+    cupomOcultarTag: false,
+    promoCompreXAtivo: false,
+    promoCompreXQtd: 2,
+    promoCompreXPreco: 0.01,
+    promoCompreXMensagemTag: "",
+    promoCompreXOcultarTag: false,
   },
   {
     id: "145",
@@ -3492,7 +4112,12 @@ const produtos = [
     cupomCodigo: "",
     cupomValidade: "",
     cupomMensagemTag: "",
-    cupomOcultarTag: false
+    cupomOcultarTag: false,
+    promoCompreXAtivo: false,
+    promoCompreXQtd: 2,
+    promoCompreXPreco: 0.01,
+    promoCompreXMensagemTag: "",
+    promoCompreXOcultarTag: false,
   },
   {
     id: "146",
@@ -3519,7 +4144,12 @@ const produtos = [
     cupomCodigo: "",
     cupomValidade: "",
     cupomMensagemTag: "",
-    cupomOcultarTag: false
+    cupomOcultarTag: false,
+    promoCompreXAtivo: false,
+    promoCompreXQtd: 2,
+    promoCompreXPreco: 0.01,
+    promoCompreXMensagemTag: "",
+    promoCompreXOcultarTag: false,
   },
   {
     id: "147",
@@ -3535,7 +4165,7 @@ const produtos = [
       oQueE: "<p>Desincha Natural é um suplemento em cápsulas que reúne Hibiscus, Cavalinha, Dente de Leão e Vitamina C em uma composição prática para o uso diário.</p><p>Sua formulação foi desenvolvida para complementar uma rotina voltada ao <strong>bem-estar e equilíbrio</strong>, reunindo ingredientes de origem vegetal e vitamina C em uma única apresentação.</p><p>É destinado a adultos que buscam incluir um <strong>suplemento com extratos vegetais</strong> em sua rotina de cuidados, sempre considerando suas necessidades individuais e a orientação de um profissional quando necessário.</p>",
       composicao: "<ul>\n<li>HIBISCUS EXTRATO SECO — MG</li>\n<li>CAVALINHA EXTRATO SECO — MG</li>\n<li>DENTE DE LEAO EXTRATO SECO — MG</li>\n<li>VIT C — MG</li>\n</ul><p><strong>Apresentação:</strong> 20 Cápsulas</p>",
       comoUsar: "<p>Utilize o produto conforme as <strong>instruções do fabricante</strong> ou de acordo com a orientação de um profissional habilitado. Não altere a forma de uso recomendada na embalagem ou na orientação profissional.</p>",
-      advertencias: "<p>Não utilize o produto de forma diferente da orientação indicada pelo fabricante. Em caso de dúvidas sobre o uso, procure orientação de um profissional de saúde.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios f��sicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
+      advertencias: "<p>Não utilize o produto de forma diferente da orientação indicada pelo fabricante. Em caso de dúvidas sobre o uso, procure orientação de um profissional de saúde.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
     },
     destaque: false,
     mostrarlancamento: false,
@@ -3546,7 +4176,12 @@ const produtos = [
     cupomCodigo: "",
     cupomValidade: "",
     cupomMensagemTag: "",
-    cupomOcultarTag: false
+    cupomOcultarTag: false,
+    promoCompreXAtivo: false,
+    promoCompreXQtd: 2,
+    promoCompreXPreco: 0.01,
+    promoCompreXMensagemTag: "",
+    promoCompreXOcultarTag: false,
   },
   {
     id: "148",
@@ -3573,7 +4208,12 @@ const produtos = [
     cupomCodigo: "",
     cupomValidade: "",
     cupomMensagemTag: "",
-    cupomOcultarTag: false
+    cupomOcultarTag: false,
+    promoCompreXAtivo: false,
+    promoCompreXQtd: 2,
+    promoCompreXPreco: 0.01,
+    promoCompreXMensagemTag: "",
+    promoCompreXOcultarTag: false,
   },
   {
     id: "149",
@@ -3600,7 +4240,12 @@ const produtos = [
     cupomCodigo: "",
     cupomValidade: "",
     cupomMensagemTag: "",
-    cupomOcultarTag: false
+    cupomOcultarTag: false,
+    promoCompreXAtivo: false,
+    promoCompreXQtd: 2,
+    promoCompreXPreco: 0.01,
+    promoCompreXMensagemTag: "",
+    promoCompreXOcultarTag: false,
   },
   {
     id: "150",
@@ -3627,7 +4272,12 @@ const produtos = [
     cupomCodigo: "",
     cupomValidade: "",
     cupomMensagemTag: "",
-    cupomOcultarTag: false
+    cupomOcultarTag: false,
+    promoCompreXAtivo: false,
+    promoCompreXQtd: 2,
+    promoCompreXPreco: 0.01,
+    promoCompreXMensagemTag: "",
+    promoCompreXOcultarTag: false,
   },
   {
     id: "151",
@@ -3654,7 +4304,12 @@ const produtos = [
     cupomCodigo: "",
     cupomValidade: "",
     cupomMensagemTag: "",
-    cupomOcultarTag: false
+    cupomOcultarTag: false,
+    promoCompreXAtivo: false,
+    promoCompreXQtd: 2,
+    promoCompreXPreco: 0.01,
+    promoCompreXMensagemTag: "",
+    promoCompreXOcultarTag: false,
   },
   {
     id: "152",
@@ -3667,10 +4322,10 @@ const produtos = [
     ],
     descricao: {
       resumo: "<p>MELASMA BALANCE é uma fórmula de manutenção desenvolvida para complementar os cuidados com a pele, reunindo Oli-Ola, vitamina C e Polypodium leucotomos em uma composição prática de 30 cápsulas.</p>",
-      oQueE: "<p>O <strong>MELASMA BALANCE</strong> é um suplemento em cápsulas formulado para integrar uma rotina de cuidados voltada à manutenção da pele, combinando diferentes ativos em uma única apresentação.</p><p>Sua finalidade é oferecer <strong>suporte nutricional à rotina de cuidados da pele</strong>, especialmente em estratégias de manutenção relacionadas à aparência e ao equilíbrio da pele.</p><p>Pode ser indicado para pessoas que buscam <strong>manter uma rotina de cuidados com a pele</strong> e desejam utilizar uma fórmula oral como parte de uma abordagem complementar, sempre considerando orientação de profissional habilitado quando necessário.</p>",
+      oQueE: "<p>O <strong>MELASMA BALANCE</strong> é um suplemento em cápsulas formulado para integrar uma rotina de cuidados voltada à manutenção da pele, combinando diferentes ativos em uma única apresentação.</p><p>Sua finalidade é oferecer <strong>suporte nutricional à rotina de cuidados da pele</strong>, especialmente em estratégias de manuten��ão relacionadas à aparência e ao equilíbrio da pele.</p><p>Pode ser indicado para pessoas que buscam <strong>manter uma rotina de cuidados com a pele</strong> e desejam utilizar uma fórmula oral como parte de uma abordagem complementar, sempre considerando orientação de profissional habilitado quando necessário.</p>",
       composicao: "<ul>\n<li>OLI OLA — MG</li>\n<li>VIT C — MG</li>\n<li>POLYPODIUM LEUCOTOMAS — MG</li>\n</ul><p><strong>Apresentação:</strong> 30 Cápsulas</p>",
       comoUsar: "<p>Utilize o produto conforme as <strong>instruções do fabricante</strong> ou de acordo com a orientação de um profissional habilitado. Não altere a forma de uso recomendada.</p>",
-      advertencias: "<p>Uso conforme orientação do fabricante ou de profissional habilitado. Este produto não substitui uma alimenta��ão equilibrada nem os cuidados habituais com a pele. Em caso de dúvidas sobre o uso, procure orientação profissional.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
+      advertencias: "<p>Uso conforme orientação do fabricante ou de profissional habilitado. Este produto não substitui uma alimentação equilibrada nem os cuidados habituais com a pele. Em caso de dúvidas sobre o uso, procure orientação profissional.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
     },
     destaque: false,
     mostrarlancamento: false,
@@ -3681,7 +4336,12 @@ const produtos = [
     cupomCodigo: "",
     cupomValidade: "",
     cupomMensagemTag: "",
-    cupomOcultarTag: false
+    cupomOcultarTag: false,
+    promoCompreXAtivo: false,
+    promoCompreXQtd: 2,
+    promoCompreXPreco: 0.01,
+    promoCompreXMensagemTag: "",
+    promoCompreXOcultarTag: false,
   },
   {
     id: "153",
@@ -3708,7 +4368,12 @@ const produtos = [
     cupomCodigo: "",
     cupomValidade: "",
     cupomMensagemTag: "",
-    cupomOcultarTag: false
+    cupomOcultarTag: false,
+    promoCompreXAtivo: false,
+    promoCompreXQtd: 2,
+    promoCompreXPreco: 0.01,
+    promoCompreXMensagemTag: "",
+    promoCompreXOcultarTag: false,
   },
   {
     id: "154",
@@ -3735,7 +4400,12 @@ const produtos = [
     cupomCodigo: "",
     cupomValidade: "",
     cupomMensagemTag: "",
-    cupomOcultarTag: false
+    cupomOcultarTag: false,
+    promoCompreXAtivo: false,
+    promoCompreXQtd: 2,
+    promoCompreXPreco: 0.01,
+    promoCompreXMensagemTag: "",
+    promoCompreXOcultarTag: false,
   },
   {
     id: "155",
@@ -3762,7 +4432,12 @@ const produtos = [
     cupomCodigo: "",
     cupomValidade: "",
     cupomMensagemTag: "",
-    cupomOcultarTag: false
+    cupomOcultarTag: false,
+    promoCompreXAtivo: false,
+    promoCompreXQtd: 2,
+    promoCompreXPreco: 0.01,
+    promoCompreXMensagemTag: "",
+    promoCompreXOcultarTag: false,
   },
   {
     id: "156",
@@ -3789,7 +4464,12 @@ const produtos = [
     cupomCodigo: "",
     cupomValidade: "",
     cupomMensagemTag: "",
-    cupomOcultarTag: false
+    cupomOcultarTag: false,
+    promoCompreXAtivo: false,
+    promoCompreXQtd: 2,
+    promoCompreXPreco: 0.01,
+    promoCompreXMensagemTag: "",
+    promoCompreXOcultarTag: false,
   },
   {
     id: "157",
@@ -3804,7 +4484,7 @@ const produtos = [
       resumo: "<p>O <strong>Óleo de Girassol Ozonizado — Solução 30ml</strong> é uma preparação à base de óleo de girassol ozonizado, desenvolvida para aplicações conforme a finalidade e as orientações específicas do fabricante. Sua apresentação compacta facilita o armazenamento e o manuseio, seguindo as recomendações de utilização do produto.</p>",
       oQueE: "<p>O <strong>Óleo de Girassol Ozonizado</strong> é obtido por meio da ozonização do óleo de girassol, processo que promove alterações químicas em sua composição. Apresentado em solução de 30ml, é destinado às aplicações previstas para a formulação, conforme as especificações do fabricante.</p><p>O produto possui aplicações potenciais investigadas em cuidados tópicos com a pele, incluindo estudos sobre atividade antimicrobiana e auxílio no cuidado de determinadas lesões cutâneas. A indicação e os benefícios dependem das características da formulação e das evidências disponíveis, não sendo possível garantir resultados terapêuticos para este produto específico sem documentação técnica correspondente.</p><p>Pode ser considerado por pessoas que procuram uma preparação à base de óleo de girassol ozonizado, desde que sua finalidade seja compatível com as indicações do fabricante. A escolha do produto e sua utilização devem respeitar as orientações de um profissional habilitado, especialmente quando houver lesões, alterações na pele ou suspeita de infecção.</p>",
       composicao: "<ul>\n<li>ÓLEO DE GIRASSOL OZONIZADO — 30ml</li>\n</ul><p><strong>Apresentação:</strong> Solução 30ml</p>",
-      comoUsar: "<p>Utilize o produto conforme as instruções do fabricante e a finalidade prevista para a formulação. Consulte as orientações presentes na embalagem ou na documentação técnica para verificar a forma adequada de aplicação. Em caso de dúvidas sobre a indicação, a via de utiliza��ão ou a compatibilidade com sua necessidade, procure orientação de um profissional habilitado. Não estabeleça dose, frequência ou forma de aplicação sem informações específicas do produto.</p>",
+      comoUsar: "<p>Utilize o produto conforme as instruções do fabricante e a finalidade prevista para a formulação. Consulte as orientações presentes na embalagem ou na documentação técnica para verificar a forma adequada de aplicação. Em caso de dúvidas sobre a indicação, a via de utilização ou a compatibilidade com sua necessidade, procure orientação de um profissional habilitado. Não estabeleça dose, frequência ou forma de aplicação sem informações específicas do produto.</p>",
       advertencias: "<p>Leia atentamente as instruções do fabricante antes de utilizar o produto. Respeite a finalidade indicada e as condições de conservação descritas na embalagem. Não utilize por vias ou em regiões do corpo não autorizadas para a formulação. Em caso de dúvidas sobre a segurança ou a adequação do produto, consulte um profissional habilitado.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
     },
     destaque: false,
@@ -3816,7 +4496,12 @@ const produtos = [
     cupomCodigo: "",
     cupomValidade: "",
     cupomMensagemTag: "",
-    cupomOcultarTag: false
+    cupomOcultarTag: false,
+    promoCompreXAtivo: false,
+    promoCompreXQtd: 2,
+    promoCompreXPreco: 0.01,
+    promoCompreXMensagemTag: "",
+    promoCompreXOcultarTag: false,
   },
   {
     id: "158",
@@ -3843,7 +4528,12 @@ const produtos = [
     cupomCodigo: "",
     cupomValidade: "",
     cupomMensagemTag: "",
-    cupomOcultarTag: false
+    cupomOcultarTag: false,
+    promoCompreXAtivo: false,
+    promoCompreXQtd: 2,
+    promoCompreXPreco: 0.01,
+    promoCompreXMensagemTag: "",
+    promoCompreXOcultarTag: false,
   },
   {
     id: "159",
@@ -3870,7 +4560,12 @@ const produtos = [
     cupomCodigo: "",
     cupomValidade: "",
     cupomMensagemTag: "",
-    cupomOcultarTag: false
+    cupomOcultarTag: false,
+    promoCompreXAtivo: false,
+    promoCompreXQtd: 2,
+    promoCompreXPreco: 0.01,
+    promoCompreXMensagemTag: "",
+    promoCompreXOcultarTag: false,
   },
   {
     id: "160",
@@ -3886,7 +4581,7 @@ const produtos = [
       oQueE: "<p>O <strong>Super Ômega 3</strong> é um suplemento alimentar em cápsulas que combina EPA (ácido eicosapentaenoico), DHA (ácido docosa-hexaenoico) e vitamina E. Sua fórmula oferece uma concentração de 700 mg de EPA e DHA combinados por dose, conforme a composição informada, além de vitamina E.</p><p>O produto auxilia na complementação nutricional de ômega 3. O DHA é importante para a manutenção do funcionamento normal do cérebro e constitui um componente estrutural da retina. O EPA participa de processos fisiológicos relacionados à saúde cardiovascular, enquanto a <strong>vitamina E possui ação antioxidante</strong>, auxiliando na proteção das células contra os danos causados pelos radicais livres.</p><p>Pode ser indicado para adultos que desejam complementar a ingestão de ômega 3, especialmente aqueles que consomem quantidades reduzidas de peixes ricos nesses ácidos graxos. A indicação de uso deve considerar os hábitos alimentares, as necessidades individuais e a orientação de um profissional de saúde.</p>",
       composicao: "<ul>\n<li>Ômega 3 (EPA 200/DH500)</li>\n<li>EPA — 200 mg</li>\n<li>DHA — 500 mg</li>\n<li>Vitamina E oleosa — 5 mg</li>\n</ul><p><strong>Apresentação:</strong> 60 Cápsulas</p>",
       comoUsar: "<p>Utilize o produto conforme as instruções do fabricante presentes no rótulo ou de acordo com a orientação de um profissional de saúde. Não exceda a recomendação de uso indicada.</p>",
-      advertencias: "<p>Este produto não substitui uma alimentação equilibrada. Pessoas que utilizam medicamentos anticoagulantes, apresentam condições clínicas específicas ou t��m dúvidas sobre a suplementação devem consultar um profissional de saúde antes de iniciar o uso. Mantenha o produto fora do alcance de crianças e armazene conforme as instruções do fabricante.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
+      advertencias: "<p>Este produto não substitui uma alimentação equilibrada. Pessoas que utilizam medicamentos anticoagulantes, apresentam condições clínicas específicas ou têm dúvidas sobre a suplementação devem consultar um profissional de saúde antes de iniciar o uso. Mantenha o produto fora do alcance de crianças e armazene conforme as instruções do fabricante.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
     },
     destaque: false,
     mostrarlancamento: false,
@@ -3897,7 +4592,12 @@ const produtos = [
     cupomCodigo: "",
     cupomValidade: "",
     cupomMensagemTag: "",
-    cupomOcultarTag: false
+    cupomOcultarTag: false,
+    promoCompreXAtivo: true,
+    promoCompreXQtd: 2,
+    promoCompreXPreco: 0.01,
+    promoCompreXMensagemTag: "Compre 2 Leve +1",
+    promoCompreXOcultarTag: false,
   }
 ];
 
