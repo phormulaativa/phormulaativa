@@ -201,7 +201,12 @@ function renderCart() {
     const precoHtml = calc.economia > 0
       ? `<span class="preco-original-riscado">${formatarPrecoCart(calc.original)}</span>
          <span class="preco-com-desconto">${formatarPrecoCart(calc.final)}</span>`
-      : `<span class="cart-item-preco">${formatarPrecoCart(calc.original)}</span>`;
+      : `<span class="cart-item-preco">${formatarPrecoCart(calc.final)}</span>`;
+
+    let qtdLabel = `${item.quantidade}`;
+    if (calc.unidadesPromo > 0) {
+      qtdLabel = `${calc.totalUnidades} (${item.quantidade} + ${calc.unidadesPromo} promo)`;
+    }
 
     return `
       <div class="cart-item" data-id="${item.id}">
@@ -214,7 +219,7 @@ function renderCart() {
           <div class="cart-item-acoes">
             <div class="cart-qty">
               <button class="cart-qty-btn" onclick="updateCartQty('${item.id}', -1)">−</button>
-              <span>${item.quantidade}</span>
+              <span>${qtdLabel}</span>
               <button class="cart-qty-btn" onclick="updateCartQty('${item.id}', 1)">+</button>
             </div>
             
@@ -416,12 +421,18 @@ function enviarPedidoCarrinhoWhatsApp(dadosCliente) {
 
     mensagem += `*${index + 1}. ${item.nome}*%0A`;
     mensagem += `Categoria: ${nomeCategoria}%0A`;
-    mensagem += `Quantidade: ${item.quantidade} unidade(s)%0A`;
 
-    if (calc.economia > 0) {
+    if (calc.unidadesPromo > 0) {
+      mensagem += `Quantidade: ${calc.totalUnidades} unidade(s) (${calc.quantidadePaga} + ${calc.unidadesPromo} promocional)%0A`;
+      mensagem += `Valor unidades pagas: ${formatarPrecoCart(calc.quantidadePaga * (produto.preco || item.preco))}%0A`;
+      mensagem += `Valor promocional: ${formatarPrecoCart(calc.final - calc.quantidadePaga * (produto.preco || item.preco))}%0A`;
+      mensagem += `Subtotal: ${formatarPrecoCart(calc.final)}%0A`;
+    } else if (calc.economia > 0) {
+      mensagem += `Quantidade: ${item.quantidade} unidade(s)%0A`;
       mensagem += `Valor original: ${formatarPrecoCart(calc.original)}%0A`;
       mensagem += `Valor com desconto: ${formatarPrecoCart(calc.final)}%0A`;
     } else {
+      mensagem += `Quantidade: ${item.quantidade} unidade(s)%0A`;
       mensagem += `Valor: ${formatarPrecoCart(calc.original)}%0A`;
     }
 
@@ -605,7 +616,9 @@ function aplicarCupomCarrinho() {
     for (const item of cart) {
       const produto = (window.produtos || []).find(p => p.id === item.id);
       if (!produto) continue;
-
+      if (typeof produtoTemPromoCompreX === 'function' && produtoTemPromoCompreX(produto)) {
+        continue; // cupom não cumulativo com Compre X
+      }
       const cupom = obterCupomValido(produto);
       if (cupom && cupom.codigo === codigo) {
         encontrado = cupom;
@@ -627,19 +640,35 @@ function aplicarCupomCarrinho() {
   renderCart();
 }
 
-function calcularPrecoComDesconto(produto, quantidade) {
-  const precoOriginal = produto.preco * quantidade;
-  if (!cupomAplicado) return { original: precoOriginal, final: precoOriginal, economia: 0 };
 
-  // Só aplica se o cupom for válido para este produto
+
+function calcularPrecoComDesconto(produto, quantidade) {
+  // Se o produto está na promoção Compre X, cupom NÃO se aplica
+  if (typeof produtoTemPromoCompreX === 'function' && produtoTemPromoCompreX(produto)) {
+    const linha = calcularLinhaComPromoCompreX(produto, quantidade);
+    return {
+      original: linha.original,
+      final: linha.final,
+      economia: linha.economiaPromo,
+      unidadesPromo: linha.unidadesPromo,
+      totalUnidades: linha.totalUnidades,
+      quantidadePaga: linha.quantidadePaga
+    };
+  }
+
+  const precoOriginal = produto.preco * quantidade;
+  if (!cupomAplicado) {
+    return { original: precoOriginal, final: precoOriginal, economia: 0, unidadesPromo: 0, totalUnidades: quantidade, quantidadePaga: quantidade };
+  }
+
   const cupomDoProduto = obterCupomValido(produto);
   if (!cupomDoProduto || cupomDoProduto.codigo !== cupomAplicado.codigo) {
-    return { original: precoOriginal, final: precoOriginal, economia: 0 };
+    return { original: precoOriginal, final: precoOriginal, economia: 0, unidadesPromo: 0, totalUnidades: quantidade, quantidadePaga: quantidade };
   }
 
   const desconto = precoOriginal * (cupomAplicado.porcentagem / 100);
   const final = precoOriginal - desconto;
-  return { original: precoOriginal, final, economia: desconto };
+  return { original: precoOriginal, final, economia: desconto, unidadesPromo: 0, totalUnidades: quantidade, quantidadePaga: quantidade };
 }
 
 
