@@ -99,7 +99,7 @@ function montarProduto(produto) {
     <div class="produto-card">
 
       <div class="produto-imagem">
-      
+      ${typeof htmlBadgePromoCompreX === 'function' ? htmlBadgePromoCompreX(produto) : ''}
       ${produto.mostrarlancamento ? `
     <span class="badge-lancamento-produto">LANÇAMENTO</span>
   ` : ""}
@@ -378,6 +378,12 @@ function enviarPedidoWhatsApp(produto, quantidade, cupom, dadosCliente) {
     valorFinal = valorTotalOriginal - economia;
   }
 
+    if (typeof calcularLinhaComPromoCompreX === 'function' && produtoTemPromoCompreX(produto)) {
+    const linha = calcularLinhaComPromoCompreX(produto, quantidade);
+    // mensagem com totalUnidades, valor final, etc.
+    // e NÃO aplicar cupom (já tratado no modal)
+  }
+
   const basePath = window.location.pathname.split("/").slice(0, -1).join("/");
   const linkProduto = `${window.location.origin}${basePath}/produto.html?id=${produto.id}`;
 
@@ -551,13 +557,17 @@ function criarCardRelacionado(produto) {
   card.id = `produto-${produto.id}`;
 
 const cupom = obterCupomValido(produto);
-const tagDesconto = (cupom && !cupom.ocultarTag)
+const tagDesconto = (cupom && !cupom.ocultarTag && !(typeof produtoTemPromoCompreX === 'function' && produtoTemPromoCompreX(produto)))
   ? `<span class="badge-desconto">${cupom.mensagem}</span>`
+  : '';
+const tagPromo = (typeof htmlBadgePromoCompreX === 'function')
+  ? htmlBadgePromoCompreX(produto)
   : '';
 
 card.innerHTML = `
   ${produto.mostrarlancamento ? `<span class="badge-lancamento">Lançamento</span>` : ``}
   ${tagDesconto}
+  ${tagPromo}
   <img src="${produto.imagem}" alt="${produto.nome}">
   
   <h3 class="card-titulo">${produto.nome}</h3>
