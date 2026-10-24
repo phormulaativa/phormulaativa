@@ -277,7 +277,18 @@ function alterarQuantidade(valor) {
 // ================================
 
 function comprarProduto() {
-  if (!produto) return;
+if (!produto) return;
+
+  if (typeof produtoTemPromoCompreX === 'function' && produtoTemPromoCompreX(produto)) {
+    if (typeof abrirModalDadosCliente === 'function') {
+      abrirModalDadosCliente(function (dadosCliente) {
+        enviarPedidoWhatsApp(produto, quantidadeAtual, null, dadosCliente);
+      });
+    } else {
+      enviarPedidoWhatsApp(produto, quantidadeAtual, null, null);
+    }
+    return;
+  }
 
   const cupom = obterCupomValido(produto);
 
