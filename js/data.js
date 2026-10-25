@@ -33,6 +33,7 @@ const categorias = [
     promoCompreXPreco: 0.01,
     promoCompreXMensagemTag: "",
     promoCompreXOcultarTag: false,
+    promoCompreXValidade: "",
   },
   {
     id: "podologia",
@@ -50,6 +51,7 @@ const categorias = [
     promoCompreXPreco: 0.01,
     promoCompreXMensagemTag: "",
     promoCompreXOcultarTag: false,
+    promoCompreXValidade: "",
   },
   {
     id: "emagrecimento",
@@ -67,6 +69,7 @@ const categorias = [
     promoCompreXPreco: 0.01,
     promoCompreXMensagemTag: "",
     promoCompreXOcultarTag: false,
+    promoCompreXValidade: "",
   },
   {
     id: "desempenhofisico",
@@ -84,6 +87,7 @@ const categorias = [
     promoCompreXPreco: 0.01,
     promoCompreXMensagemTag: "",
     promoCompreXOcultarTag: false,
+    promoCompreXValidade: "",
   },
   {
     id: "quedacapilar",
@@ -101,6 +105,7 @@ const categorias = [
     promoCompreXPreco: 0.01,
     promoCompreXMensagemTag: "",
     promoCompreXOcultarTag: false,
+    promoCompreXValidade: "",
   },
   {
     id: "beleza",
@@ -118,6 +123,7 @@ const categorias = [
     promoCompreXPreco: 0.01,
     promoCompreXMensagemTag: "",
     promoCompreXOcultarTag: false,
+    promoCompreXValidade: "",
   },
   {
     id: "saude",
@@ -135,6 +141,7 @@ const categorias = [
     promoCompreXPreco: 0.01,
     promoCompreXMensagemTag: "",
     promoCompreXOcultarTag: false,
+    promoCompreXValidade: "",
   },
   {
     id: "embalagens",
@@ -150,8 +157,9 @@ const categorias = [
     promoCompreXAtivo: true,
     promoCompreXQtd: 2,
     promoCompreXPreco: 0.01,
-    promoCompreXMensagemTag: "Compre 2 Leve +1 por R$ 0,01",
+    promoCompreXMensagemTag: "Compre 2 Leve 3",
     promoCompreXOcultarTag: false,
+    promoCompreXValidade: "2026-10-26",
   }
 ];
 
@@ -190,6 +198,7 @@ const produtos = [
     promoCompreXPreco: 0.10,
     promoCompreXMensagemTag: "Compre 2 Leve + 1",
     promoCompreXOcultarTag: false,
+    promoCompreXValidade: "2026-10-26",
   },
   {
     id: "19",
@@ -222,6 +231,7 @@ const produtos = [
     promoCompreXPreco: 0.01,
     promoCompreXMensagemTag: "",
     promoCompreXOcultarTag: false,
+    promoCompreXValidade: "",
   },
   {
     id: "21",
@@ -254,6 +264,7 @@ const produtos = [
     promoCompreXPreco: 0.01,
     promoCompreXMensagemTag: "",
     promoCompreXOcultarTag: false,
+    promoCompreXValidade: "",
   },
   {
     id: "22",
@@ -286,6 +297,7 @@ const produtos = [
     promoCompreXPreco: 0.01,
     promoCompreXMensagemTag: "",
     promoCompreXOcultarTag: false,
+    promoCompreXValidade: "",
   },
   {
     id: "23",
@@ -318,6 +330,7 @@ const produtos = [
     promoCompreXPreco: 0.01,
     promoCompreXMensagemTag: "",
     promoCompreXOcultarTag: false,
+    promoCompreXValidade: "",
   },
   {
     id: "24",
@@ -350,6 +363,7 @@ const produtos = [
     promoCompreXPreco: 0.01,
     promoCompreXMensagemTag: "",
     promoCompreXOcultarTag: false,
+    promoCompreXValidade: "",
   },
   {
     id: "25",
@@ -382,6 +396,7 @@ const produtos = [
     promoCompreXPreco: 0.01,
     promoCompreXMensagemTag: "",
     promoCompreXOcultarTag: false,
+    promoCompreXValidade: "",
   },
   {
     id: "26",
@@ -414,6 +429,7 @@ const produtos = [
     promoCompreXPreco: 0.01,
     promoCompreXMensagemTag: "",
     promoCompreXOcultarTag: false,
+    promoCompreXValidade: "",
   },
   {
     id: "27",
@@ -446,6 +462,7 @@ const produtos = [
     promoCompreXPreco: 0.01,
     promoCompreXMensagemTag: "",
     promoCompreXOcultarTag: false,
+    promoCompreXValidade: "",
   },
   {
     id: "29",
@@ -478,6 +495,7 @@ const produtos = [
     promoCompreXPreco: 0.01,
     promoCompreXMensagemTag: "",
     promoCompreXOcultarTag: false,
+    promoCompreXValidade: "",
   },
   {
     id: "30",
@@ -510,6 +528,7 @@ const produtos = [
     promoCompreXPreco: 0.01,
     promoCompreXMensagemTag: "",
     promoCompreXOcultarTag: false,
+    promoCompreXValidade: "",
   },
   {
     id: "31",
@@ -542,6 +561,7 @@ const produtos = [
     promoCompreXPreco: 0.01,
     promoCompreXMensagemTag: "",
     promoCompreXOcultarTag: false,
+    promoCompreXValidade: "",
   },
   {
     id: "32",
@@ -574,6 +594,7 @@ const produtos = [
     promoCompreXPreco: 0.01,
     promoCompreXMensagemTag: "",
     promoCompreXOcultarTag: false,
+    promoCompreXValidade: "",
   },
   {
     id: "33",
@@ -606,6 +627,7 @@ const produtos = [
     promoCompreXPreco: 0.01,
     promoCompreXMensagemTag: "",
     promoCompreXOcultarTag: false,
+    promoCompreXValidade: "",
   },
   {
     id: "34",
@@ -638,6 +660,7 @@ const produtos = [
     promoCompreXPreco: 0.01,
     promoCompreXMensagemTag: "",
     promoCompreXOcultarTag: false,
+    promoCompreXValidade: "",
   },
   {
     id: "35",
@@ -670,6 +693,7 @@ const produtos = [
     promoCompreXPreco: 0.01,
     promoCompreXMensagemTag: "",
     promoCompreXOcultarTag: false,
+    promoCompreXValidade: "",
   },
   {
     id: "36",
@@ -702,6 +726,7 @@ const produtos = [
     promoCompreXPreco: 0.01,
     promoCompreXMensagemTag: "",
     promoCompreXOcultarTag: false,
+    promoCompreXValidade: "",
   },
   {
     id: "37",
@@ -734,6 +759,7 @@ const produtos = [
     promoCompreXPreco: 0.01,
     promoCompreXMensagemTag: "",
     promoCompreXOcultarTag: false,
+    promoCompreXValidade: "",
   },
   {
     id: "38",
@@ -766,6 +792,7 @@ const produtos = [
     promoCompreXPreco: 0.01,
     promoCompreXMensagemTag: "",
     promoCompreXOcultarTag: false,
+    promoCompreXValidade: "",
   },
   {
     id: "39",
@@ -779,7 +806,7 @@ const produtos = [
     descricao: {
       resumo: "<p>Creme formulado com <strong>ureia 10% e ácido salicílico 40%</strong>, desenvolvido para auxiliar no cuidado de áreas com calosidades e verrugas.</p>",
       oQueE: "<p>É um creme de uso tópico que combina ácido salicílico e ureia em uma formulação destinada ao cuidado localizado da pele.</p><p>Sua finalidade é <strong>auxiliar na remoção de calosidades e verrugas</strong>, contribuindo para o cuidado das áreas que apresentam essas alterações.</p><p>Pode ser indicado para pessoas que necessitam de cuidado tópico direcionado a calosidades ou verrugas, preferencialmente mediante <strong>orientação profissional</strong>.</p>",
-      composicao: "<ul>\n<li>ACIDO SALICILICO — 40%</li>\n<li>UREIA — 10%</li>\n<li>SEM ESSENCIA — MG</li>\n<li>CREME BASE — 30GR</li>\n</ul><p><strong>Apresentação:</strong> Creme 30g - Validade 4 meses</p>",
+      composicao: "<ul>\n<li>ACIDO SALICILICO �� 40%</li>\n<li>UREIA — 10%</li>\n<li>SEM ESSENCIA — MG</li>\n<li>CREME BASE — 30GR</li>\n</ul><p><strong>Apresentação:</strong> Creme 30g - Validade 4 meses</p>",
       comoUsar: "<p>Utilize o produto conforme as <strong>instruções do fabricante</strong> ou de acordo com a orientação de um profissional habilitado. Não estabeleça dose, frequência ou horários de utilização diferentes daqueles indicados na orientação recebida.</p>",
       advertencias: "<p>Utilize o produto de acordo com as orientações fornecidas pelo fabricante. Em caso de dúvidas sobre a utilização, procure orientação de um profissional habilitado.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
     },
@@ -798,6 +825,7 @@ const produtos = [
     promoCompreXPreco: 0.01,
     promoCompreXMensagemTag: "",
     promoCompreXOcultarTag: false,
+    promoCompreXValidade: "",
   },
   {
     id: "40",
@@ -830,6 +858,7 @@ const produtos = [
     promoCompreXPreco: 0.01,
     promoCompreXMensagemTag: "",
     promoCompreXOcultarTag: false,
+    promoCompreXValidade: "",
   },
   {
     id: "41",
@@ -862,6 +891,7 @@ const produtos = [
     promoCompreXPreco: 0.01,
     promoCompreXMensagemTag: "",
     promoCompreXOcultarTag: false,
+    promoCompreXValidade: "",
   },
   {
     id: "42",
@@ -894,6 +924,7 @@ const produtos = [
     promoCompreXPreco: 0.01,
     promoCompreXMensagemTag: "",
     promoCompreXOcultarTag: false,
+    promoCompreXValidade: "",
   },
   {
     id: "43",
@@ -926,6 +957,7 @@ const produtos = [
     promoCompreXPreco: 0.01,
     promoCompreXMensagemTag: "",
     promoCompreXOcultarTag: false,
+    promoCompreXValidade: "",
   },
   {
     id: "44",
@@ -958,6 +990,7 @@ const produtos = [
     promoCompreXPreco: 0.01,
     promoCompreXMensagemTag: "",
     promoCompreXOcultarTag: false,
+    promoCompreXValidade: "",
   },
   {
     id: "45",
@@ -990,6 +1023,7 @@ const produtos = [
     promoCompreXPreco: 0.01,
     promoCompreXMensagemTag: "",
     promoCompreXOcultarTag: false,
+    promoCompreXValidade: "",
   },
   {
     id: "46",
@@ -1022,6 +1056,7 @@ const produtos = [
     promoCompreXPreco: 0.01,
     promoCompreXMensagemTag: "",
     promoCompreXOcultarTag: false,
+    promoCompreXValidade: "",
   },
   {
     id: "47",
@@ -1054,6 +1089,7 @@ const produtos = [
     promoCompreXPreco: 0.01,
     promoCompreXMensagemTag: "",
     promoCompreXOcultarTag: false,
+    promoCompreXValidade: "",
   },
   {
     id: "48",
@@ -1086,6 +1122,7 @@ const produtos = [
     promoCompreXPreco: 0.01,
     promoCompreXMensagemTag: "",
     promoCompreXOcultarTag: false,
+    promoCompreXValidade: "",
   },
   {
     id: "49",
@@ -1099,7 +1136,7 @@ const produtos = [
     descricao: {
       resumo: "<p>Akkermat® 150mg é um fitocomplexo de capsaicinoides desenvolvido para auxiliar no <strong>controle do apetite, aumento da saciedade e gerenciamento do peso</strong>, com ação termogênica e suporte ao equilíbrio metabólico.</p>",
       oQueE: "<p>Akkermat® 150mg é um fitocomplexo de capsaicinoides, composto por capsaicina, dihidrocapsaicina e nordihidrocapsaicina, extraído dos frutos de <em>Capsicum frutescens</em> e microencapsulado com tecnologia patenteada para melhorar sua biodisponibilidade e diminuir os efeitos gastrointestinais.</p><p>O produto é utilizado como auxiliar no <strong>gerenciamento do peso</strong>, contribuindo para a redução do apetite e para o aumento da sensação de saciedade. Também apresenta ação termogênica e propriedades relacionadas ao suporte do metabolismo e do perfil lipídico.</p><p>É indicado para adultos que buscam <strong>auxílio no controle do apetite e no gerenciamento do peso</strong>, associado a hábitos alimentares equilibrados e à prática de atividades físicas. Seu uso deve respeitar as orientações de utilização e as recomendações de um profissional habilitado.</p>",
-      composicao: "<ul>\n<li>AKKERMAT — 150MG</li>\n<li>Excipiente q.s.p 1 cápsula</li>\n</ul><p><strong>Apresenta��ão:</strong> 30 Cápsulas</p>",
+      composicao: "<ul>\n<li>AKKERMAT — 150MG</li>\n<li>Excipiente q.s.p 1 cápsula</li>\n</ul><p><strong>Apresentação:</strong> 30 Cápsulas</p>",
       comoUsar: "<p>Tomar <strong>1 cápsula ao dia</strong>, após uma refeição.</p>",
       advertencias: "<p>Não deve ser utilizado por pacientes que apresentam doenças intestinais, úlcera gástrica, cistite crônica e de repetição, hemorroida ou alergia à pimenta. Pessoas com hipersensibilidade à substância não devem fazer uso do produto. Em caso de hipersensibilidade, recomenda-se descontinuar o uso e consultar o médico.</p><p>Não utilize o produto com o prazo de validade vencido. Manter em temperatura ambiente, entre 15 e 30ºC, protegido da luz, do calor e da umidade e fora do alcance das crianças. Mulheres grávidas não devem utilizar o produto sem orientação médica. O uso durante o período de amamentação não é recomendado. Este produto não deve ser utilizado por menores de 18 anos sem orientação médica.</p><p>Siga corretamente o modo de usar e, caso os sintomas não desapareçam, procure orientação médica. Nunca compre ou utilize o produto sem orientação de um profissional habilitado. Imagens meramente ilustrativas.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
     },
@@ -1118,6 +1155,7 @@ const produtos = [
     promoCompreXPreco: 0.01,
     promoCompreXMensagemTag: "",
     promoCompreXOcultarTag: false,
+    promoCompreXValidade: "",
   },
   {
     id: "50",
@@ -1150,6 +1188,7 @@ const produtos = [
     promoCompreXPreco: 0.01,
     promoCompreXMensagemTag: "",
     promoCompreXOcultarTag: false,
+    promoCompreXValidade: "",
   },
   {
     id: "51",
@@ -1165,7 +1204,7 @@ const produtos = [
       oQueE: "<p>Bloomé 250mg é um suplemento oral formulado com ativos naturais de origem asiática, desenvolvido para complementar os cuidados com os cabelos. Sua fórmula reúne extratos de <em>Cudrania tricuspidata</em> e <em>Sargassum fusiforme</em>, associados ao suporte à saúde e à vitalidade capilar.</p><p>O produto é utilizado como auxiliar no <strong>cuidado dos fios e do couro cabeludo</strong>, contribuindo para sua vitalidade e fortalecimento. Seus componentes apresentam propriedades associadas à proteção contra o estresse oxidativo e à manutenção das condições fisiológicas do couro cabeludo.</p><p>É indicado para adultos que apresentam <strong>queda capilar, enfraquecimento dos fios ou alopecia androgenética</strong> e buscam uma opção oral para complementar os cuidados com a saúde capilar. Em casos de alopecia diagnosticada, recomenda-se acompanhamento e orientação de um médico ou dermatologista.</p>",
       composicao: "<ul>\n<li>Bloomé — 250mg</li>\n<li>Excipiente qsp 1 cápsula</li>\n</ul><p><strong>Apresentação:</strong> 30 Cápsulas</p>",
       comoUsar: "<p>Tomar <strong>1 cápsula</strong> após o café da manhã ou almoço.</p>",
-      advertencias: "<p>Pessoas com hipersensibilidade à substância não devem fazer uso do produto. Em caso de hipersensibilidade, recomenda-se descontinuar o uso e consultar o médico. Não utilize o produto com o prazo de validade vencido.</p><p>Manter em temperatura ambiente, entre 15 e 30ºC, protegido da luz, do calor e da umidade e fora do alcance das crianças. Mulheres grávidas não devem utilizar o produto sem orientação médica. O uso durante o período de amamentação n��o é recomendado. Este produto não deve ser utilizado por menores de 18 anos sem orientação médica.</p><p>Siga corretamente o modo de usar. Caso os sintomas não desapareçam, procure orientação médica. Nunca compre ou utilize o produto sem orientação de um profissional habilitado. Imagens meramente ilustrativas.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
+      advertencias: "<p>Pessoas com hipersensibilidade à substância não devem fazer uso do produto. Em caso de hipersensibilidade, recomenda-se descontinuar o uso e consultar o médico. Não utilize o produto com o prazo de validade vencido.</p><p>Manter em temperatura ambiente, entre 15 e 30ºC, protegido da luz, do calor e da umidade e fora do alcance das crianças. Mulheres grávidas não devem utilizar o produto sem orientação médica. O uso durante o período de amamentação não é recomendado. Este produto não deve ser utilizado por menores de 18 anos sem orientação médica.</p><p>Siga corretamente o modo de usar. Caso os sintomas não desapareçam, procure orientação médica. Nunca compre ou utilize o produto sem orientação de um profissional habilitado. Imagens meramente ilustrativas.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
     },
     destaque: true,
     mostrarlancamento: false,
@@ -1182,6 +1221,7 @@ const produtos = [
     promoCompreXPreco: 0.01,
     promoCompreXMensagemTag: "",
     promoCompreXOcultarTag: false,
+    promoCompreXValidade: "",
   },
   {
     id: "52",
@@ -1214,6 +1254,7 @@ const produtos = [
     promoCompreXPreco: 0.01,
     promoCompreXMensagemTag: "",
     promoCompreXOcultarTag: false,
+    promoCompreXValidade: "",
   },
   {
     id: "53",
@@ -1225,7 +1266,7 @@ const produtos = [
       
     ],
     descricao: {
-      resumo: "<p>Mitburn Dia Dia 50mg é um suplemento desenvolvido para auxiliar no <strong>gerenciamento do peso e do metabolismo energético</strong>, contribuindo para o uso de gordura como fonte de energia e para mais disposi��ão na rotina.</p>",
+      resumo: "<p>Mitburn Dia Dia 50mg é um suplemento desenvolvido para auxiliar no <strong>gerenciamento do peso e do metabolismo energético</strong>, contribuindo para o uso de gordura como fonte de energia e para mais disposição na rotina.</p>",
       oQueE: "<p>Mitburn Dia Dia 50mg é um suplemento formulado com MITBURN e taurina, desenvolvido para complementar uma rotina voltada ao equilíbrio do metabolismo energético e ao gerenciamento da composição corporal.</p><p>O produto é utilizado como auxiliar no <strong>metabolismo energético e no gerenciamento do peso</strong>, contribuindo para processos relacionados ao uso de lipídios como fonte de energia e à termogênese. Sua proposta também contempla suporte à disposição e ao desempenho físico.</p><p>É recomendado para adultos que buscam <strong>auxílio no gerenciamento do peso, metabolismo energético e desempenho físico</strong>, especialmente quando associado a uma alimentação equilibrada e à prática regular de atividades físicas.</p>",
       composicao: "<ul>\n<li>MITBURN — 50MG</li>\n<li>TAURINA-L — 100MG</li>\n<li>Excipiente q.s.p 1 cápsula</li>\n</ul><p><strong>Apresentação:</strong> 60 Cápsulas</p>",
       comoUsar: "<p>Tomar <strong>1 cápsula</strong> após o café da manhã ou antes do treino.</p>",
@@ -1246,6 +1287,7 @@ const produtos = [
     promoCompreXPreco: 0.01,
     promoCompreXMensagemTag: "",
     promoCompreXOcultarTag: false,
+    promoCompreXValidade: "",
   },
   {
     id: "54",
@@ -1278,6 +1320,7 @@ const produtos = [
     promoCompreXPreco: 0.01,
     promoCompreXMensagemTag: "",
     promoCompreXOcultarTag: false,
+    promoCompreXValidade: "",
   },
   {
     id: "55",
@@ -1310,12 +1353,13 @@ const produtos = [
     promoCompreXPreco: 0.01,
     promoCompreXMensagemTag: "",
     promoCompreXOcultarTag: false,
+    promoCompreXValidade: "",
   },
   {
     id: "56",
     nome: "TESTO BLACK FEMME - 60 Cápsulas",
     categoria: "desempenhofisico",
-    preco: 100.00,
+    preco: 70.00,
     imagem: "assets/img/testo-black-femme-60-capsulas.png",
     videos: [
       
@@ -1331,17 +1375,18 @@ const produtos = [
     mostrarlancamento: false,
     mostrarVideo: false,
     textoParcelamento: "🎟️ Cupom válido no carrinho. 💳 Consulte parcelamento no checkout",
-    cupomAtivo: true,
-    cupomPorcentagem: 30,
-    cupomCodigo: "CUPOM30OFF",
+    cupomAtivo: false,
+    cupomPorcentagem: 0,
+    cupomCodigo: "",
     cupomValidade: "",
-    cupomMensagemTag: "CUPOM30OFF",
+    cupomMensagemTag: "",
     cupomOcultarTag: false,
     promoCompreXAtivo: false,
     promoCompreXQtd: 2,
     promoCompreXPreco: 0.01,
     promoCompreXMensagemTag: "",
     promoCompreXOcultarTag: false,
+    promoCompreXValidade: "FALSE",
   },
   {
     id: "57",
@@ -1374,12 +1419,13 @@ const produtos = [
     promoCompreXPreco: 0.01,
     promoCompreXMensagemTag: "",
     promoCompreXOcultarTag: false,
+    promoCompreXValidade: "",
   },
   {
     id: "58",
     nome: "TESTO PRIME MAM - 30 Cápsulas",
     categoria: "desempenhofisico",
-    preco: 125.00,
+    preco: 100.00,
     imagem: "assets/img/testo-prime-mam.png",
     videos: [
       
@@ -1388,14 +1434,14 @@ const produtos = [
       resumo: "<p>TESTO PRIME MAM é uma formulação voltada à <strong>performance masculina</strong>, reunindo ativos selecionados para complementar estratégias relacionadas à vitalidade, disposição, libido e desempenho sexual masculino.</p>",
       oQueE: "<p>TESTO PRIME MAM é uma formulação destinada ao público masculino, composta por Epimedium Icariin, Long Jack, Ginseng Coreano e Tadalafil, combinando diferentes componentes em uma apresentação prática de 30 cápsulas.</p><p>Sua finalidade está relacionada à <strong>vitalidade, libido, disposição e desempenho sexual masculino</strong>, oferecendo uma formulação direcionada às necessidades de homens que buscam suporte para sua performance e bem-estar.</p><p>É indicado para <strong>homens adultos</strong> quando houver indicação e orientação adequada de profissional habilitado, especialmente por conter tadalafil em sua composição.</p>",
       composicao: "<ul>\n<li>EPIMEDIUM ICARIIN — 200MG</li>\n<li>LONG JACK EXTRATO SECO — 300MG</li>\n<li>GINSENG COREANO — 80MG</li>\n<li>TADALAFIL — 3MG</li>\n</ul><p><strong>Apresentação:</strong> 30 Cápsulas</p>",
-      comoUsar: "<p>Utilize o produto <strong>conforme as instru��ões do fabricante ou orientação de profissional habilitado</strong>. Não altere a forma de utilização, dose ou frequência recomendada sem orientação profissional.</p>",
+      comoUsar: "<p>Utilize o produto <strong>conforme as instruções do fabricante ou orientação de profissional habilitado</strong>. Não altere a forma de utilização, dose ou frequência recomendada sem orientação profissional.</p>",
       advertencias: "<p>Uso conforme orientação do fabricante e de profissional habilitado. Por conter tadalafil, sua utilização deve ser realizada com <strong>orientação profissional adequada</strong>. Não utilize de forma diferente da recomendada na prescrição ou orientação recebida.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
     },
     destaque: true,
     mostrarlancamento: false,
     mostrarVideo: false,
     textoParcelamento: "🎟️ Cupom válido no carrinho. 💳 Consulte parcelamento no checkout",
-    cupomAtivo: true,
+    cupomAtivo: false,
     cupomPorcentagem: 20,
     cupomCodigo: "CUPOM20OFF",
     cupomValidade: "",
@@ -1406,12 +1452,13 @@ const produtos = [
     promoCompreXPreco: 0.01,
     promoCompreXMensagemTag: "",
     promoCompreXOcultarTag: false,
+    promoCompreXValidade: "FALSE",
   },
   {
     id: "59",
     nome: "BLACK GINGER POWER PRE-TREINO- 15 Cápsulas",
     categoria: "desempenhofisico",
-    preco: 141.18,
+    preco: 120.00,
     imagem: "assets/img/black-ginger-power-pre-treino-15-capsulas.png",
     videos: [
       
@@ -1427,7 +1474,7 @@ const produtos = [
     mostrarlancamento: false,
     mostrarVideo: false,
     textoParcelamento: "🎟️ Cupom válido no carrinho. 💳 Consulte parcelamento no checkout",
-    cupomAtivo: true,
+    cupomAtivo: false,
     cupomPorcentagem: 15,
     cupomCodigo: "CUPOM15OFF",
     cupomValidade: "",
@@ -1438,6 +1485,7 @@ const produtos = [
     promoCompreXPreco: 0.01,
     promoCompreXMensagemTag: "",
     promoCompreXOcultarTag: false,
+    promoCompreXValidade: "FALSE",
   },
   {
     id: "60",
@@ -1470,6 +1518,7 @@ const produtos = [
     promoCompreXPreco: 0.01,
     promoCompreXMensagemTag: "",
     promoCompreXOcultarTag: false,
+    promoCompreXValidade: "",
   },
   {
     id: "61",
@@ -1502,12 +1551,13 @@ const produtos = [
     promoCompreXPreco: 0.01,
     promoCompreXMensagemTag: "",
     promoCompreXOcultarTag: false,
+    promoCompreXValidade: "",
   },
   {
     id: "62",
     nome: "LONG JACK 200mg - 30 Cápsulas",
     categoria: "desempenhofisico",
-    preco: 64.94,
+    preco: 50.00,
     imagem: "assets/img/long-jack-200mg-30-capsulas.png",
     videos: [
       
@@ -1523,7 +1573,7 @@ const produtos = [
     mostrarlancamento: false,
     mostrarVideo: false,
     textoParcelamento: "🎟️ Cupom válido no carrinho. 💳 Consulte parcelamento no checkout",
-    cupomAtivo: true,
+    cupomAtivo: false,
     cupomPorcentagem: 23,
     cupomCodigo: "CUPOM23OFF",
     cupomValidade: "",
@@ -1534,6 +1584,7 @@ const produtos = [
     promoCompreXPreco: 0.01,
     promoCompreXMensagemTag: "",
     promoCompreXOcultarTag: false,
+    promoCompreXValidade: "FALSE",
   },
   {
     id: "63",
@@ -1566,6 +1617,7 @@ const produtos = [
     promoCompreXPreco: 0.01,
     promoCompreXMensagemTag: "",
     promoCompreXOcultarTag: false,
+    promoCompreXValidade: "",
   },
   {
     id: "65",
@@ -1598,6 +1650,7 @@ const produtos = [
     promoCompreXPreco: 0.01,
     promoCompreXMensagemTag: "",
     promoCompreXOcultarTag: false,
+    promoCompreXValidade: "",
   },
   {
     id: "66",
@@ -1630,6 +1683,7 @@ const produtos = [
     promoCompreXPreco: 0.01,
     promoCompreXMensagemTag: "",
     promoCompreXOcultarTag: false,
+    promoCompreXValidade: "",
   },
   {
     id: "67",
@@ -1662,6 +1716,7 @@ const produtos = [
     promoCompreXPreco: 0.01,
     promoCompreXMensagemTag: "",
     promoCompreXOcultarTag: false,
+    promoCompreXValidade: "",
   },
   {
     id: "68",
@@ -1694,6 +1749,7 @@ const produtos = [
     promoCompreXPreco: 0.01,
     promoCompreXMensagemTag: "",
     promoCompreXOcultarTag: false,
+    promoCompreXValidade: "",
   },
   {
     id: "69",
@@ -1726,6 +1782,7 @@ const produtos = [
     promoCompreXPreco: 0.01,
     promoCompreXMensagemTag: "",
     promoCompreXOcultarTag: false,
+    promoCompreXValidade: "",
   },
   {
     id: "70",
@@ -1758,12 +1815,13 @@ const produtos = [
     promoCompreXPreco: 0.01,
     promoCompreXMensagemTag: "",
     promoCompreXOcultarTag: false,
+    promoCompreXValidade: "",
   },
   {
     id: "71",
     nome: "BOSWELLIA SERRATA - 30 Cápsulas",
     categoria: "saude",
-    preco: 55.56,
+    preco: 50.00,
     imagem: "assets/img/boswellia-serrata-30-capsulas.png",
     videos: [
       
@@ -1779,7 +1837,7 @@ const produtos = [
     mostrarlancamento: false,
     mostrarVideo: false,
     textoParcelamento: "🎟️ Cupom válido no carrinho. 💳 Consulte parcelamento no checkout",
-    cupomAtivo: true,
+    cupomAtivo: false,
     cupomPorcentagem: 10,
     cupomCodigo: "CUPOM10OFF",
     cupomValidade: "",
@@ -1790,6 +1848,7 @@ const produtos = [
     promoCompreXPreco: 0.01,
     promoCompreXMensagemTag: "",
     promoCompreXOcultarTag: false,
+    promoCompreXValidade: "FALSE",
   },
   {
     id: "72",
@@ -1802,7 +1861,7 @@ const produtos = [
     ],
     descricao: {
       resumo: "<p><strong>Silício Orgânico 300 mg</strong> é uma fórmula desenvolvida para oferecer suporte à <strong>saúde da pele, cabelos, unhas, ossos e tecidos conjuntivos</strong>, contribuindo para a manutenção da estrutura e do bem-estar do organismo.</p>",
-      oQueE: "<p>O <strong>Silício Orgânico 300 mg</strong> é uma fórmula que fornece silício orgânico, mineral relacionado à estrutura e à manutenção dos tecidos conjuntivos, incluindo componentes como colágeno e elastina.</p><p>Sua utilização est�� associada ao suporte à <strong>firmeza e elasticidade da pele</strong>, à estrutura e resistência dos cabelos e unhas, além da manutenção dos tecidos conjuntivos e do metabolismo ósseo.</p><p>Pode ser indicado para <strong>adultos que buscam suporte nutricional para a saúde da pele, cabelos, unhas, ossos e tecidos conjuntivos</strong>, especialmente quando houver orientação de um profissional habilitado.</p>",
+      oQueE: "<p>O <strong>Silício Orgânico 300 mg</strong> é uma fórmula que fornece silício orgânico, mineral relacionado à estrutura e à manutenção dos tecidos conjuntivos, incluindo componentes como colágeno e elastina.</p><p>Sua utilização está associada ao suporte à <strong>firmeza e elasticidade da pele</strong>, à estrutura e resistência dos cabelos e unhas, além da manutenção dos tecidos conjuntivos e do metabolismo ósseo.</p><p>Pode ser indicado para <strong>adultos que buscam suporte nutricional para a saúde da pele, cabelos, unhas, ossos e tecidos conjuntivos</strong>, especialmente quando houver orientação de um profissional habilitado.</p>",
       composicao: "<ul>\n<li>SILICIO ORGANICO — 300MG</li>\n</ul><p><strong>Apresentação:</strong> 30 Cápsulas</p>",
       comoUsar: "<p>Utilize o produto <strong>conforme as instruções do fabricante ou orientação de profissional habilitado</strong>. Não altere a forma de uso recomendada e, em caso de dúvidas, procure orientação profissional.</p>",
       advertencias: "<p>Conservar o produto adequadamente e mantê-lo fora do alcance das crianças. Não utilizar em caso de hipersensibilidade a qualquer componente da fórmula. Em caso de dúvidas sobre o uso, procure orientação de um profissional habilitado.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
@@ -1822,6 +1881,7 @@ const produtos = [
     promoCompreXPreco: 0.01,
     promoCompreXMensagemTag: "",
     promoCompreXOcultarTag: false,
+    promoCompreXValidade: "",
   },
   {
     id: "73",
@@ -1854,12 +1914,13 @@ const produtos = [
     promoCompreXPreco: 0.01,
     promoCompreXMensagemTag: "",
     promoCompreXOcultarTag: false,
+    promoCompreXValidade: "",
   },
   {
     id: "74",
     nome: "FOME CONTROL - 30 Cápsulas",
     categoria: "emagrecimento",
-    preco: 82.20,
+    preco: 60.00,
     imagem: "assets/img/fome-control-30-capsulas.png",
     videos: [
       
@@ -1875,7 +1936,7 @@ const produtos = [
     mostrarlancamento: false,
     mostrarVideo: false,
     textoParcelamento: "🎟️ Cupom válido no carrinho. 💳 Consulte parcelamento no checkout",
-    cupomAtivo: true,
+    cupomAtivo: false,
     cupomPorcentagem: 27,
     cupomCodigo: "CUPOM27OFF",
     cupomValidade: "",
@@ -1886,6 +1947,7 @@ const produtos = [
     promoCompreXPreco: 0.01,
     promoCompreXMensagemTag: "",
     promoCompreXOcultarTag: false,
+    promoCompreXValidade: "FALSE",
   },
   {
     id: "75",
@@ -1918,6 +1980,7 @@ const produtos = [
     promoCompreXPreco: 0.01,
     promoCompreXMensagemTag: "",
     promoCompreXOcultarTag: false,
+    promoCompreXValidade: "",
   },
   {
     id: "76",
@@ -1929,7 +1992,7 @@ const produtos = [
       
     ],
     descricao: {
-      resumo: "<p>O <strong>Circulação - Retenção Líquido</strong> é uma fórmula desenvolvida para oferecer suporte à <strong>circulação perif��rica</strong>, ao conforto das pernas e ao equilíbrio da retenção de líquidos, complementando uma rotina de cuidados com a saúde.</p>",
+      resumo: "<p>O <strong>Circulação - Retenção Líquido</strong> é uma fórmula desenvolvida para oferecer suporte à <strong>circulação periférica</strong>, ao conforto das pernas e ao equilíbrio da retenção de líquidos, complementando uma rotina de cuidados com a saúde.</p>",
       oQueE: "<p>O <strong>Circulação - Retenção Líquido</strong> é uma fórmula em cápsulas que combina Castanha da Índia, Rutina, Ginkgo Biloba, Vitamina B12 e Hamamelis Virginica, reunindo ativos selecionados para o suporte aos cuidados relacionados à circulação.</p><p>Sua composição oferece suporte à <strong>circulação sanguínea periférica</strong> e ao equilíbrio da retenção de líquidos, podendo contribuir para o conforto das pernas e para a sensação de bem-estar no dia a dia.</p><p>É uma opção para pessoas que buscam complementar os <strong>cuidados com a circulação e o equilíbrio hídrico</strong> do organismo, sempre associada a hábitos saudáveis e à orientação de profissional habilitado quando necessário.</p>",
       composicao: "<ul>\n<li>CASTANHA DA INDIA EXTRACT — 200MG</li>\n<li>RUTINA — 150MG</li>\n<li>GINKGO BILOBA EXTRATO 24% — 60MG</li>\n<li>VITAMINA B12 — 1000MCG</li>\n<li>HAMAMELIS VIRGINICA EXTRACT PO — 100MG</li>\n</ul><p><strong>Apresentação:</strong> 60 Cápsulas</p>",
       comoUsar: "<p>Utilizar conforme as <strong>instruções do fabricante ou orientação de profissional habilitado</strong>, respeitando a dose, a frequência e a indicação recomendadas. Não utilizar posologia diferente da orientada.</p>",
@@ -1950,6 +2013,7 @@ const produtos = [
     promoCompreXPreco: 0.01,
     promoCompreXMensagemTag: "",
     promoCompreXOcultarTag: false,
+    promoCompreXValidade: "",
   },
   {
     id: "77",
@@ -1982,6 +2046,7 @@ const produtos = [
     promoCompreXPreco: 0.01,
     promoCompreXMensagemTag: "",
     promoCompreXOcultarTag: false,
+    promoCompreXValidade: "",
   },
   {
     id: "78",
@@ -1997,7 +2062,7 @@ const produtos = [
       oQueE: "<p>A <strong>Vitamina D3 + Vitamina K2 MK-7</strong> reúne duas vitaminas importantes para o organismo em uma fórmula prática, desenvolvida para complementar a ingestão desses nutrientes.</p><p>A Vitamina D3 contribui para a <strong>absorção e utilização do cálcio</strong>, participando da manutenção da saúde óssea e do funcionamento adequado do sistema imunológico. A Vitamina K2, na forma MK-7, participa do metabolismo do cálcio e contribui para a manutenção da saúde dos ossos e dos vasos sanguíneos.</p><p>Pode ser indicada para adultos que necessitem complementar a ingestão dessas vitaminas, especialmente quando houver orientação de um <strong>profissional de saúde</strong> para sua utilização.</p>",
       composicao: "<ul>\n<li>VITAMINA D3 — 10000UI</li>\n<li>VITAMINA K2-MK7 — 200MCG</li>\n</ul><p><strong>Apresentação:</strong> 30 Cápsulas</p>",
       comoUsar: "<p>Utilize o produto conforme as <strong>instruções do fabricante</strong> ou de acordo com a orientação de um profissional de saúde. Não altere a forma de uso recomendada sem orientação profissional.</p>",
-      advertencias: "<p>Este produto deve ser utilizado conforme as orientações do fabricante. Em caso de dúvidas sobre a utilização, procure a orienta��ão de um profissional de saúde.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
+      advertencias: "<p>Este produto deve ser utilizado conforme as orientações do fabricante. Em caso de dúvidas sobre a utilização, procure a orientação de um profissional de saúde.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
     },
     destaque: false,
     mostrarlancamento: false,
@@ -2014,6 +2079,7 @@ const produtos = [
     promoCompreXPreco: 0.01,
     promoCompreXMensagemTag: "",
     promoCompreXOcultarTag: false,
+    promoCompreXValidade: "",
   },
   {
     id: "79",
@@ -2046,6 +2112,7 @@ const produtos = [
     promoCompreXPreco: 0.01,
     promoCompreXMensagemTag: "",
     promoCompreXOcultarTag: false,
+    promoCompreXValidade: "",
   },
   {
     id: "80",
@@ -2078,6 +2145,7 @@ const produtos = [
     promoCompreXPreco: 0.01,
     promoCompreXMensagemTag: "",
     promoCompreXOcultarTag: false,
+    promoCompreXValidade: "",
   },
   {
     id: "81",
@@ -2110,6 +2178,7 @@ const produtos = [
     promoCompreXPreco: 0.01,
     promoCompreXMensagemTag: "",
     promoCompreXOcultarTag: false,
+    promoCompreXValidade: "",
   },
   {
     id: "82",
@@ -2142,6 +2211,7 @@ const produtos = [
     promoCompreXPreco: 0.01,
     promoCompreXMensagemTag: "",
     promoCompreXOcultarTag: false,
+    promoCompreXValidade: "",
   },
   {
     id: "83",
@@ -2174,6 +2244,7 @@ const produtos = [
     promoCompreXPreco: 0.01,
     promoCompreXMensagemTag: "",
     promoCompreXOcultarTag: false,
+    promoCompreXValidade: "",
   },
   {
     id: "84",
@@ -2206,6 +2277,7 @@ const produtos = [
     promoCompreXPreco: 0.01,
     promoCompreXMensagemTag: "",
     promoCompreXOcultarTag: false,
+    promoCompreXValidade: "",
   },
   {
     id: "85",
@@ -2238,12 +2310,13 @@ const produtos = [
     promoCompreXPreco: 0.01,
     promoCompreXMensagemTag: "",
     promoCompreXOcultarTag: false,
+    promoCompreXValidade: "",
   },
   {
     id: "86",
     nome: "Peg 4000 (Polietilenoglicol) - 350 gramas",
     categoria: "saude",
-    preco: 58.83,
+    preco: 50.00,
     imagem: "assets/img/peg-4000-polietilenoglicol-350-gramas-mu45582h.png",
     videos: [
       
@@ -2259,7 +2332,7 @@ const produtos = [
     mostrarlancamento: false,
     mostrarVideo: false,
     textoParcelamento: "🎟️ Cupom válido no carrinho. 💳 Consulte parcelamento no checkout",
-    cupomAtivo: true,
+    cupomAtivo: false,
     cupomPorcentagem: 15,
     cupomCodigo: "CUPOM15OFF",
     cupomValidade: "",
@@ -2270,6 +2343,7 @@ const produtos = [
     promoCompreXPreco: 0.01,
     promoCompreXMensagemTag: "",
     promoCompreXOcultarTag: false,
+    promoCompreXValidade: "FALSE",
   },
   {
     id: "87",
@@ -2302,6 +2376,7 @@ const produtos = [
     promoCompreXPreco: 0.01,
     promoCompreXMensagemTag: "",
     promoCompreXOcultarTag: false,
+    promoCompreXValidade: "",
   },
   {
     id: "88",
@@ -2334,6 +2409,7 @@ const produtos = [
     promoCompreXPreco: 0.01,
     promoCompreXMensagemTag: "",
     promoCompreXOcultarTag: false,
+    promoCompreXValidade: "",
   },
   {
     id: "89",
@@ -2366,6 +2442,7 @@ const produtos = [
     promoCompreXPreco: 0.01,
     promoCompreXMensagemTag: "",
     promoCompreXOcultarTag: false,
+    promoCompreXValidade: "",
   },
   {
     id: "90",
@@ -2398,12 +2475,13 @@ const produtos = [
     promoCompreXPreco: 0.01,
     promoCompreXMensagemTag: "",
     promoCompreXOcultarTag: false,
+    promoCompreXValidade: "",
   },
   {
     id: "91",
     nome: "Pill Food Turbinado - 90 Cápsulas",
     categoria: "beleza",
-    preco: 106.67,
+    preco: 80.00,
     imagem: "assets/img/pill-food-turbinado-90-capsulas-mu8hdwsn.png",
     videos: [
       
@@ -2419,7 +2497,7 @@ const produtos = [
     mostrarlancamento: false,
     mostrarVideo: false,
     textoParcelamento: "🎟️ Cupom válido no carrinho. 💳 Consulte parcelamento no checkout",
-    cupomAtivo: true,
+    cupomAtivo: false,
     cupomPorcentagem: 25,
     cupomCodigo: "CUPOM25OFF",
     cupomValidade: "",
@@ -2430,6 +2508,7 @@ const produtos = [
     promoCompreXPreco: 0.01,
     promoCompreXMensagemTag: "",
     promoCompreXOcultarTag: false,
+    promoCompreXValidade: "FALSE",
   },
   {
     id: "92",
@@ -2462,6 +2541,7 @@ const produtos = [
     promoCompreXPreco: 0.01,
     promoCompreXMensagemTag: "",
     promoCompreXOcultarTag: false,
+    promoCompreXValidade: "",
   },
   {
     id: "93",
@@ -2494,6 +2574,7 @@ const produtos = [
     promoCompreXPreco: 0.01,
     promoCompreXMensagemTag: "",
     promoCompreXOcultarTag: false,
+    promoCompreXValidade: "",
   },
   {
     id: "94",
@@ -2526,6 +2607,7 @@ const produtos = [
     promoCompreXPreco: 0.01,
     promoCompreXMensagemTag: "",
     promoCompreXOcultarTag: false,
+    promoCompreXValidade: "",
   },
   {
     id: "95",
@@ -2558,6 +2640,7 @@ const produtos = [
     promoCompreXPreco: 0.01,
     promoCompreXMensagemTag: "",
     promoCompreXOcultarTag: false,
+    promoCompreXValidade: "",
   },
   {
     id: "96",
@@ -2590,6 +2673,7 @@ const produtos = [
     promoCompreXPreco: 0.01,
     promoCompreXMensagemTag: "",
     promoCompreXOcultarTag: false,
+    promoCompreXValidade: "",
   },
   {
     id: "97",
@@ -2622,6 +2706,7 @@ const produtos = [
     promoCompreXPreco: 0.01,
     promoCompreXMensagemTag: "",
     promoCompreXOcultarTag: false,
+    promoCompreXValidade: "",
   },
   {
     id: "98",
@@ -2654,6 +2739,7 @@ const produtos = [
     promoCompreXPreco: 0.01,
     promoCompreXMensagemTag: "",
     promoCompreXOcultarTag: false,
+    promoCompreXValidade: "",
   },
   {
     id: "99",
@@ -2686,6 +2772,7 @@ const produtos = [
     promoCompreXPreco: 0.01,
     promoCompreXMensagemTag: "",
     promoCompreXOcultarTag: false,
+    promoCompreXValidade: "",
   },
   {
     id: "100",
@@ -2718,6 +2805,7 @@ const produtos = [
     promoCompreXPreco: 0.01,
     promoCompreXMensagemTag: "",
     promoCompreXOcultarTag: false,
+    promoCompreXValidade: "",
   },
   {
     id: "101",
@@ -2750,6 +2838,7 @@ const produtos = [
     promoCompreXPreco: 0.01,
     promoCompreXMensagemTag: "",
     promoCompreXOcultarTag: false,
+    promoCompreXValidade: "",
   },
   {
     id: "102",
@@ -2782,6 +2871,7 @@ const produtos = [
     promoCompreXPreco: 0.01,
     promoCompreXMensagemTag: "",
     promoCompreXOcultarTag: false,
+    promoCompreXValidade: "",
   },
   {
     id: "103",
@@ -2814,6 +2904,7 @@ const produtos = [
     promoCompreXPreco: 0.01,
     promoCompreXMensagemTag: "",
     promoCompreXOcultarTag: false,
+    promoCompreXValidade: "",
   },
   {
     id: "104",
@@ -2846,6 +2937,7 @@ const produtos = [
     promoCompreXPreco: 0.01,
     promoCompreXMensagemTag: "",
     promoCompreXOcultarTag: false,
+    promoCompreXValidade: "",
   },
   {
     id: "105",
@@ -2878,6 +2970,7 @@ const produtos = [
     promoCompreXPreco: 0.01,
     promoCompreXMensagemTag: "",
     promoCompreXOcultarTag: false,
+    promoCompreXValidade: "",
   },
   {
     id: "106",
@@ -2910,6 +3003,7 @@ const produtos = [
     promoCompreXPreco: 0.01,
     promoCompreXMensagemTag: "",
     promoCompreXOcultarTag: false,
+    promoCompreXValidade: "",
   },
   {
     id: "107",
@@ -2942,6 +3036,7 @@ const produtos = [
     promoCompreXPreco: 0.01,
     promoCompreXMensagemTag: "",
     promoCompreXOcultarTag: false,
+    promoCompreXValidade: "",
   },
   {
     id: "108",
@@ -2974,6 +3069,7 @@ const produtos = [
     promoCompreXPreco: 0.01,
     promoCompreXMensagemTag: "",
     promoCompreXOcultarTag: false,
+    promoCompreXValidade: "",
   },
   {
     id: "109",
@@ -2987,7 +3083,7 @@ const produtos = [
     descricao: {
       resumo: "<p>O <strong>Epimedium Icariin 500mg</strong> é um suplemento alimentar desenvolvido para oferecer suporte à saúde sexual, à disposição física e ao equilíbrio hormonal, em uma fórmula prática com 30 cápsulas.</p>",
       oQueE: "<p>O Epimedium Icariin é um suplemento à base de extrato de <em>Epimedium sagittatum</em>, tendo a <strong>icariin</strong> como seu principal composto ativo. A fórmula foi desenvolvida para complementar a rotina de pessoas que buscam suporte à saúde sexual e ao bem-estar.</p><p>Sua finalidade está relacionada ao <strong>suporte à saúde sexual, disposição física e equilíbrio hormonal</strong>, podendo fazer parte de uma rotina voltada ao bem-estar e à manutenção dessas funções do organismo. Seus efeitos podem variar conforme as características individuais de cada pessoa.</p><p>É destinado a <strong>adultos que buscam suporte à libido, saúde sexual e disposição</strong>, incluindo homens e mulheres. Pode ser considerado por pessoas que apresentam redução do desejo sexual ou que desejam complementar os cuidados relacionados ao bem-estar hormonal, sempre considerando orientação de profissional habilitado quando necessário.</p>",
-      composicao: "<ul>\n<li>EPIMEDIUM ICARIIN ��� 500MG</li>\n</ul><p><strong>Apresentação:</strong> 30 Cápsulas</p>",
+      composicao: "<ul>\n<li>EPIMEDIUM ICARIIN — 500MG</li>\n</ul><p><strong>Apresentação:</strong> 30 Cápsulas</p>",
       comoUsar: "<p>Tomar <strong>1 cápsula ao dia</strong>, preferencialmente pela manhã, ou conforme orientação profissional habilitado.</p>",
       advertencias: "<p>Este produto deve ser utilizado conforme a posologia indicada. Em caso de dúvidas sobre o uso, procure orientação de profissional habilitado. Não altere a quantidade ou a frequência de uso sem orientação profissional.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
     },
@@ -3006,6 +3102,7 @@ const produtos = [
     promoCompreXPreco: 0.01,
     promoCompreXMensagemTag: "",
     promoCompreXOcultarTag: false,
+    promoCompreXValidade: "",
   },
   {
     id: "110",
@@ -3038,6 +3135,7 @@ const produtos = [
     promoCompreXPreco: 0.01,
     promoCompreXMensagemTag: "",
     promoCompreXOcultarTag: false,
+    promoCompreXValidade: "",
   },
   {
     id: "111",
@@ -3070,6 +3168,7 @@ const produtos = [
     promoCompreXPreco: 0.01,
     promoCompreXMensagemTag: "",
     promoCompreXOcultarTag: false,
+    promoCompreXValidade: "",
   },
   {
     id: "112",
@@ -3102,6 +3201,7 @@ const produtos = [
     promoCompreXPreco: 0.01,
     promoCompreXMensagemTag: "",
     promoCompreXOcultarTag: false,
+    promoCompreXValidade: "",
   },
   {
     id: "113",
@@ -3134,6 +3234,7 @@ const produtos = [
     promoCompreXPreco: 0.01,
     promoCompreXMensagemTag: "",
     promoCompreXOcultarTag: false,
+    promoCompreXValidade: "",
   },
   {
     id: "114",
@@ -3166,6 +3267,7 @@ const produtos = [
     promoCompreXPreco: 0.01,
     promoCompreXMensagemTag: "",
     promoCompreXOcultarTag: false,
+    promoCompreXValidade: "",
   },
   {
     id: "115",
@@ -3198,6 +3300,7 @@ const produtos = [
     promoCompreXPreco: 0.01,
     promoCompreXMensagemTag: "",
     promoCompreXOcultarTag: false,
+    promoCompreXValidade: "",
   },
   {
     id: "116",
@@ -3230,6 +3333,7 @@ const produtos = [
     promoCompreXPreco: 0.01,
     promoCompreXMensagemTag: "",
     promoCompreXOcultarTag: false,
+    promoCompreXValidade: "",
   },
   {
     id: "117",
@@ -3262,6 +3366,7 @@ const produtos = [
     promoCompreXPreco: 0.01,
     promoCompreXMensagemTag: "",
     promoCompreXOcultarTag: false,
+    promoCompreXValidade: "",
   },
   {
     id: "118",
@@ -3294,6 +3399,7 @@ const produtos = [
     promoCompreXPreco: 0.01,
     promoCompreXMensagemTag: "",
     promoCompreXOcultarTag: false,
+    promoCompreXValidade: "",
   },
   {
     id: "119",
@@ -3326,6 +3432,7 @@ const produtos = [
     promoCompreXPreco: 0.01,
     promoCompreXMensagemTag: "",
     promoCompreXOcultarTag: false,
+    promoCompreXValidade: "",
   },
   {
     id: "120",
@@ -3358,6 +3465,7 @@ const produtos = [
     promoCompreXPreco: 0.01,
     promoCompreXMensagemTag: "",
     promoCompreXOcultarTag: false,
+    promoCompreXValidade: "",
   },
   {
     id: "121",
@@ -3378,7 +3486,7 @@ const produtos = [
     destaque: true,
     mostrarlancamento: false,
     mostrarVideo: false,
-    textoParcelamento: "🎟️ Cupom válido no carrinho. 💳 Consulte parcelamento no checkout",
+    textoParcelamento: "����️ Cupom válido no carrinho. 💳 Consulte parcelamento no checkout",
     cupomAtivo: false,
     cupomPorcentagem: 0,
     cupomCodigo: "",
@@ -3390,6 +3498,7 @@ const produtos = [
     promoCompreXPreco: 0.01,
     promoCompreXMensagemTag: "",
     promoCompreXOcultarTag: false,
+    promoCompreXValidade: "",
   },
   {
     id: "122",
@@ -3422,6 +3531,7 @@ const produtos = [
     promoCompreXPreco: 0.01,
     promoCompreXMensagemTag: "",
     promoCompreXOcultarTag: false,
+    promoCompreXValidade: "",
   },
   {
     id: "123",
@@ -3454,6 +3564,7 @@ const produtos = [
     promoCompreXPreco: 0.01,
     promoCompreXMensagemTag: "",
     promoCompreXOcultarTag: false,
+    promoCompreXValidade: "",
   },
   {
     id: "124",
@@ -3486,6 +3597,7 @@ const produtos = [
     promoCompreXPreco: 0.01,
     promoCompreXMensagemTag: "",
     promoCompreXOcultarTag: false,
+    promoCompreXValidade: "",
   },
   {
     id: "125",
@@ -3518,6 +3630,7 @@ const produtos = [
     promoCompreXPreco: 0.01,
     promoCompreXMensagemTag: "",
     promoCompreXOcultarTag: false,
+    promoCompreXValidade: "",
   },
   {
     id: "126",
@@ -3550,6 +3663,7 @@ const produtos = [
     promoCompreXPreco: 0.01,
     promoCompreXMensagemTag: "",
     promoCompreXOcultarTag: false,
+    promoCompreXValidade: "",
   },
   {
     id: "127",
@@ -3582,6 +3696,7 @@ const produtos = [
     promoCompreXPreco: 0.01,
     promoCompreXMensagemTag: "",
     promoCompreXOcultarTag: false,
+    promoCompreXValidade: "",
   },
   {
     id: "128",
@@ -3614,6 +3729,7 @@ const produtos = [
     promoCompreXPreco: 0.01,
     promoCompreXMensagemTag: "",
     promoCompreXOcultarTag: false,
+    promoCompreXValidade: "",
   },
   {
     id: "129",
@@ -3646,6 +3762,7 @@ const produtos = [
     promoCompreXPreco: 0.01,
     promoCompreXMensagemTag: "",
     promoCompreXOcultarTag: false,
+    promoCompreXValidade: "",
   },
   {
     id: "130",
@@ -3678,6 +3795,7 @@ const produtos = [
     promoCompreXPreco: 0.01,
     promoCompreXMensagemTag: "",
     promoCompreXOcultarTag: false,
+    promoCompreXValidade: "",
   },
   {
     id: "131",
@@ -3710,6 +3828,7 @@ const produtos = [
     promoCompreXPreco: 0.01,
     promoCompreXMensagemTag: "",
     promoCompreXOcultarTag: false,
+    promoCompreXValidade: "",
   },
   {
     id: "132",
@@ -3742,6 +3861,7 @@ const produtos = [
     promoCompreXPreco: 0.01,
     promoCompreXMensagemTag: "",
     promoCompreXOcultarTag: false,
+    promoCompreXValidade: "",
   },
   {
     id: "133",
@@ -3774,6 +3894,7 @@ const produtos = [
     promoCompreXPreco: 0.01,
     promoCompreXMensagemTag: "",
     promoCompreXOcultarTag: false,
+    promoCompreXValidade: "",
   },
   {
     id: "134",
@@ -3806,6 +3927,7 @@ const produtos = [
     promoCompreXPreco: 0.01,
     promoCompreXMensagemTag: "",
     promoCompreXOcultarTag: false,
+    promoCompreXValidade: "",
   },
   {
     id: "135",
@@ -3838,6 +3960,7 @@ const produtos = [
     promoCompreXPreco: 0.01,
     promoCompreXMensagemTag: "",
     promoCompreXOcultarTag: false,
+    promoCompreXValidade: "",
   },
   {
     id: "136",
@@ -3858,7 +3981,7 @@ const produtos = [
     destaque: false,
     mostrarlancamento: false,
     mostrarVideo: false,
-    textoParcelamento: "����️ Cupom válido no carrinho. 💳 Consulte parcelamento no checkout",
+    textoParcelamento: "🎟️ Cupom válido no carrinho. 💳 Consulte parcelamento no checkout",
     cupomAtivo: false,
     cupomPorcentagem: 0,
     cupomCodigo: "",
@@ -3870,6 +3993,7 @@ const produtos = [
     promoCompreXPreco: 0.01,
     promoCompreXMensagemTag: "",
     promoCompreXOcultarTag: false,
+    promoCompreXValidade: "",
   },
   {
     id: "137",
@@ -3902,6 +4026,7 @@ const produtos = [
     promoCompreXPreco: 0.01,
     promoCompreXMensagemTag: "",
     promoCompreXOcultarTag: false,
+    promoCompreXValidade: "",
   },
   {
     id: "138",
@@ -3934,6 +4059,7 @@ const produtos = [
     promoCompreXPreco: 0.01,
     promoCompreXMensagemTag: "",
     promoCompreXOcultarTag: false,
+    promoCompreXValidade: "",
   },
   {
     id: "139",
@@ -3966,6 +4092,7 @@ const produtos = [
     promoCompreXPreco: 0.01,
     promoCompreXMensagemTag: "",
     promoCompreXOcultarTag: false,
+    promoCompreXValidade: "",
   },
   {
     id: "140",
@@ -3998,6 +4125,7 @@ const produtos = [
     promoCompreXPreco: 0.01,
     promoCompreXMensagemTag: "",
     promoCompreXOcultarTag: false,
+    promoCompreXValidade: "",
   },
   {
     id: "141",
@@ -4030,6 +4158,7 @@ const produtos = [
     promoCompreXPreco: 0.01,
     promoCompreXMensagemTag: "",
     promoCompreXOcultarTag: false,
+    promoCompreXValidade: "",
   },
   {
     id: "142",
@@ -4062,6 +4191,7 @@ const produtos = [
     promoCompreXPreco: 0.01,
     promoCompreXMensagemTag: "",
     promoCompreXOcultarTag: false,
+    promoCompreXValidade: "",
   },
   {
     id: "143",
@@ -4094,6 +4224,7 @@ const produtos = [
     promoCompreXPreco: 0.01,
     promoCompreXMensagemTag: "",
     promoCompreXOcultarTag: false,
+    promoCompreXValidade: "",
   },
   {
     id: "144",
@@ -4126,6 +4257,7 @@ const produtos = [
     promoCompreXPreco: 0.01,
     promoCompreXMensagemTag: "",
     promoCompreXOcultarTag: false,
+    promoCompreXValidade: "",
   },
   {
     id: "145",
@@ -4158,6 +4290,7 @@ const produtos = [
     promoCompreXPreco: 0.01,
     promoCompreXMensagemTag: "",
     promoCompreXOcultarTag: false,
+    promoCompreXValidade: "",
   },
   {
     id: "146",
@@ -4170,10 +4303,10 @@ const produtos = [
     ],
     descricao: {
       resumo: "<p>Mind Clean Clareza Mental é uma fórmula nutricional composta por <strong>L-teanina, Rhodiola rosea, metilcobalamina, Bacopa monnieri e hexanicotinato de inositol</strong>, desenvolvida para complementar a rotina de cuidados com foco em clareza mental e bem-estar.</p>",
-      oQueE: "<p>Mind Clean Clareza Mental é um suplemento alimentar em cápsulas que reúne ingredientes selecionados para complementar a ingestão de nutrientes e compostos utilizados em formulações voltadas ao <strong>bem-estar mental e à rotina cognitiva</strong>.</p><p>Sua finalidade é oferecer suporte nutricional à rotina de pessoas que buscam manter <strong>clareza, equilíbrio e bem-estar mental</strong>, sem substituir uma alimentação equilibrada ou cuidados profissionais.</p><p>É indicado para adultos que desejam complementar sua rotina com uma fórmula composta por L-teanina, Rhodiola rosea, metilcobalamina, Bacopa monnieri e hexanicotinato de inositol, especialmente dentro de uma rotina que valorize <strong>atenção ao bem-estar e à qualidade de vida</strong>.</p>",
+      oQueE: "<p>Mind Clean Clareza Mental é um suplemento alimentar em cápsulas que reúne ingredientes selecionados para complementar a ingest��o de nutrientes e compostos utilizados em formulações voltadas ao <strong>bem-estar mental e à rotina cognitiva</strong>.</p><p>Sua finalidade é oferecer suporte nutricional à rotina de pessoas que buscam manter <strong>clareza, equilíbrio e bem-estar mental</strong>, sem substituir uma alimentação equilibrada ou cuidados profissionais.</p><p>É indicado para adultos que desejam complementar sua rotina com uma fórmula composta por L-teanina, Rhodiola rosea, metilcobalamina, Bacopa monnieri e hexanicotinato de inositol, especialmente dentro de uma rotina que valorize <strong>atenção ao bem-estar e à qualidade de vida</strong>.</p>",
       composicao: "<ul>\n<li>L-Teanina — MG</li>\n<li>Rhodiola Rosea — MG</li>\n<li>Metilcobalamina — MCG</li>\n<li>Bacopa Monnieri — MG</li>\n<li>Hexanicotinato de Inositol — MG</li>\n</ul><p><strong>Apresentação:</strong> 30 Cápsulas</p>",
       comoUsar: "<p>Utilize o produto conforme as <strong>instruções do fabricante</strong> presentes na embalagem ou de acordo com a orientação de um profissional habilitado. Não ultrapasse a recomendação indicada.</p>",
-      advertencias: "<p>Este produto é um suplemento alimentar e não substitui uma alimentação equilibrada nem hábitos de vida saudáveis. Mantenha fora do alcance de crianças. Em caso de dúvidas sobre o uso, procure orientação de um profissional de saúde.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios f��sicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
+      advertencias: "<p>Este produto é um suplemento alimentar e não substitui uma alimentação equilibrada nem hábitos de vida saudáveis. Mantenha fora do alcance de crianças. Em caso de dúvidas sobre o uso, procure orientação de um profissional de saúde.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
     },
     destaque: false,
     mostrarlancamento: false,
@@ -4190,6 +4323,7 @@ const produtos = [
     promoCompreXPreco: 0.01,
     promoCompreXMensagemTag: "",
     promoCompreXOcultarTag: false,
+    promoCompreXValidade: "",
   },
   {
     id: "147",
@@ -4222,6 +4356,7 @@ const produtos = [
     promoCompreXPreco: 0.01,
     promoCompreXMensagemTag: "",
     promoCompreXOcultarTag: false,
+    promoCompreXValidade: "",
   },
   {
     id: "148",
@@ -4254,6 +4389,7 @@ const produtos = [
     promoCompreXPreco: 0.01,
     promoCompreXMensagemTag: "",
     promoCompreXOcultarTag: false,
+    promoCompreXValidade: "",
   },
   {
     id: "149",
@@ -4286,6 +4422,7 @@ const produtos = [
     promoCompreXPreco: 0.01,
     promoCompreXMensagemTag: "",
     promoCompreXOcultarTag: false,
+    promoCompreXValidade: "",
   },
   {
     id: "150",
@@ -4318,6 +4455,7 @@ const produtos = [
     promoCompreXPreco: 0.01,
     promoCompreXMensagemTag: "",
     promoCompreXOcultarTag: false,
+    promoCompreXValidade: "",
   },
   {
     id: "151",
@@ -4350,6 +4488,7 @@ const produtos = [
     promoCompreXPreco: 0.01,
     promoCompreXMensagemTag: "",
     promoCompreXOcultarTag: false,
+    promoCompreXValidade: "",
   },
   {
     id: "152",
@@ -4370,7 +4509,7 @@ const produtos = [
     destaque: false,
     mostrarlancamento: false,
     mostrarVideo: false,
-    textoParcelamento: "🎟️ Cupom válido no carrinho. ��� Consulte parcelamento no checkout",
+    textoParcelamento: "🎟️ Cupom válido no carrinho. 💳 Consulte parcelamento no checkout",
     cupomAtivo: false,
     cupomPorcentagem: 0,
     cupomCodigo: "",
@@ -4382,6 +4521,7 @@ const produtos = [
     promoCompreXPreco: 0.01,
     promoCompreXMensagemTag: "",
     promoCompreXOcultarTag: false,
+    promoCompreXValidade: "",
   },
   {
     id: "153",
@@ -4414,6 +4554,7 @@ const produtos = [
     promoCompreXPreco: 0.01,
     promoCompreXMensagemTag: "",
     promoCompreXOcultarTag: false,
+    promoCompreXValidade: "",
   },
   {
     id: "154",
@@ -4446,6 +4587,7 @@ const produtos = [
     promoCompreXPreco: 0.01,
     promoCompreXMensagemTag: "",
     promoCompreXOcultarTag: false,
+    promoCompreXValidade: "",
   },
   {
     id: "155",
@@ -4478,6 +4620,7 @@ const produtos = [
     promoCompreXPreco: 0.01,
     promoCompreXMensagemTag: "",
     promoCompreXOcultarTag: false,
+    promoCompreXValidade: "",
   },
   {
     id: "156",
@@ -4510,6 +4653,7 @@ const produtos = [
     promoCompreXPreco: 0.01,
     promoCompreXMensagemTag: "",
     promoCompreXOcultarTag: false,
+    promoCompreXValidade: "",
   },
   {
     id: "157",
@@ -4542,6 +4686,7 @@ const produtos = [
     promoCompreXPreco: 0.01,
     promoCompreXMensagemTag: "",
     promoCompreXOcultarTag: false,
+    promoCompreXValidade: "",
   },
   {
     id: "158",
@@ -4574,6 +4719,7 @@ const produtos = [
     promoCompreXPreco: 0.01,
     promoCompreXMensagemTag: "",
     promoCompreXOcultarTag: false,
+    promoCompreXValidade: "",
   },
   {
     id: "159",
@@ -4606,6 +4752,7 @@ const produtos = [
     promoCompreXPreco: 0.01,
     promoCompreXMensagemTag: "",
     promoCompreXOcultarTag: false,
+    promoCompreXValidade: "",
   },
   {
     id: "160",
@@ -4633,11 +4780,12 @@ const produtos = [
     cupomValidade: "",
     cupomMensagemTag: "",
     cupomOcultarTag: false,
-    promoCompreXAtivo: true,
+    promoCompreXAtivo: false,
     promoCompreXQtd: 2,
     promoCompreXPreco: 0.01,
     promoCompreXMensagemTag: "Compre 2 Leve +1",
     promoCompreXOcultarTag: false,
+    promoCompreXValidade: "FALSE",
   }
 ];
 
