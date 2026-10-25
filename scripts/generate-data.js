@@ -170,7 +170,12 @@ async function main() {
       cupomCodigo: (r.cupomCodigo || '').trim().toUpperCase(),
       cupomValidade: (r.cupomValidade || '').trim(),
       cupomOcultarTag: toBool(r.cupomOcultarTag),
-      cupomMensagemTag: r.cupomMensagemTag || ''
+      cupomMensagemTag: r.cupomMensagemTag || '',
+      promoCompreXAtivo: toBool(r.promoCompreXAtivo),
+      promoCompreXQtd: Math.max(1, parseInt(r.promoCompreXQtd, 10) || 2),
+      promoCompreXPreco: formatPrice(r.promoCompreXPreco !== undefined && r.promoCompreXPreco !== '' ? r.promoCompreXPreco : 0.01),
+      promoCompreXMensagemTag: r.promoCompreXMensagemTag || '',
+      promoCompreXOcultarTag: toBool(r.promoCompreXOcultarTag)
     }));
 
   const catIds = new Set(categorias.map(c => c.id));
@@ -255,7 +260,12 @@ async function main() {
     js += '    cupomCodigo: ' + JSON.stringify(c.cupomCodigo) + ',\n';
     js += '    cupomValidade: ' + JSON.stringify(c.cupomValidade) + ',\n';
     js += '    cupomMensagemTag: ' + JSON.stringify(c.cupomMensagemTag) + ',\n';
-    js += '    cupomOcultarTag: ' + c.cupomOcultarTag + '\n';
+    js += '    cupomOcultarTag: ' + c.cupomOcultarTag + ',\n';
+    js += '    promoCompreXAtivo: ' + c.promoCompreXAtivo + ',\n';
+    js += '    promoCompreXQtd: ' + c.promoCompreXQtd + ',\n';
+    js += '    promoCompreXPreco: ' + Number(c.promoCompreXPreco).toFixed(2) + ',\n';
+    js += '    promoCompreXMensagemTag: ' + JSON.stringify(c.promoCompreXMensagemTag) + ',\n';
+    js += '    promoCompreXOcultarTag: ' + c.promoCompreXOcultarTag + ',\n';
     js += '  }' + (i < categorias.length - 1 ? ',' : '') + '\n';
   });
 
