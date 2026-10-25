@@ -27,7 +27,12 @@ const categorias = [
     cupomCodigo: "",
     cupomValidade: "",
     cupomMensagemTag: "",
-    cupomOcultarTag: false
+    cupomOcultarTag: false,
+    promoCompreXAtivo: false,
+    promoCompreXQtd: 2,
+    promoCompreXPreco: 0.01,
+    promoCompreXMensagemTag: "",
+    promoCompreXOcultarTag: false,
   },
   {
     id: "podologia",
@@ -39,7 +44,12 @@ const categorias = [
     cupomCodigo: "ANTUNES15OFF",
     cupomValidade: "",
     cupomMensagemTag: "ANTUNES15OFF",
-    cupomOcultarTag: true
+    cupomOcultarTag: true,
+    promoCompreXAtivo: false,
+    promoCompreXQtd: 2,
+    promoCompreXPreco: 0.01,
+    promoCompreXMensagemTag: "",
+    promoCompreXOcultarTag: false,
   },
   {
     id: "emagrecimento",
@@ -51,7 +61,12 @@ const categorias = [
     cupomCodigo: "",
     cupomValidade: "",
     cupomMensagemTag: "",
-    cupomOcultarTag: false
+    cupomOcultarTag: false,
+    promoCompreXAtivo: false,
+    promoCompreXQtd: 2,
+    promoCompreXPreco: 0.01,
+    promoCompreXMensagemTag: "",
+    promoCompreXOcultarTag: false,
   },
   {
     id: "desempenhofisico",
@@ -63,7 +78,12 @@ const categorias = [
     cupomCodigo: "",
     cupomValidade: "",
     cupomMensagemTag: "",
-    cupomOcultarTag: false
+    cupomOcultarTag: false,
+    promoCompreXAtivo: false,
+    promoCompreXQtd: 2,
+    promoCompreXPreco: 0.01,
+    promoCompreXMensagemTag: "",
+    promoCompreXOcultarTag: false,
   },
   {
     id: "quedacapilar",
@@ -75,7 +95,12 @@ const categorias = [
     cupomCodigo: "",
     cupomValidade: "",
     cupomMensagemTag: "",
-    cupomOcultarTag: false
+    cupomOcultarTag: false,
+    promoCompreXAtivo: false,
+    promoCompreXQtd: 2,
+    promoCompreXPreco: 0.01,
+    promoCompreXMensagemTag: "",
+    promoCompreXOcultarTag: false,
   },
   {
     id: "beleza",
@@ -87,7 +112,12 @@ const categorias = [
     cupomCodigo: "",
     cupomValidade: "",
     cupomMensagemTag: "",
-    cupomOcultarTag: false
+    cupomOcultarTag: false,
+    promoCompreXAtivo: false,
+    promoCompreXQtd: 2,
+    promoCompreXPreco: 0.01,
+    promoCompreXMensagemTag: "",
+    promoCompreXOcultarTag: false,
   },
   {
     id: "saude",
@@ -99,7 +129,12 @@ const categorias = [
     cupomCodigo: "",
     cupomValidade: "",
     cupomMensagemTag: "",
-    cupomOcultarTag: false
+    cupomOcultarTag: false,
+    promoCompreXAtivo: false,
+    promoCompreXQtd: 2,
+    promoCompreXPreco: 0.01,
+    promoCompreXMensagemTag: "",
+    promoCompreXOcultarTag: false,
   },
   {
     id: "embalagens",
@@ -111,7 +146,12 @@ const categorias = [
     cupomCodigo: "",
     cupomValidade: "",
     cupomMensagemTag: "",
-    cupomOcultarTag: false
+    cupomOcultarTag: false,
+    promoCompreXAtivo: true,
+    promoCompreXQtd: 2,
+    promoCompreXPreco: 0.01,
+    promoCompreXMensagemTag: "Compre 2 Leve +1 por R$ 0,01",
+    promoCompreXOcultarTag: false,
   }
 ];
 
@@ -1059,7 +1099,7 @@ const produtos = [
     descricao: {
       resumo: "<p>Akkermat® 150mg é um fitocomplexo de capsaicinoides desenvolvido para auxiliar no <strong>controle do apetite, aumento da saciedade e gerenciamento do peso</strong>, com ação termogênica e suporte ao equilíbrio metabólico.</p>",
       oQueE: "<p>Akkermat® 150mg é um fitocomplexo de capsaicinoides, composto por capsaicina, dihidrocapsaicina e nordihidrocapsaicina, extraído dos frutos de <em>Capsicum frutescens</em> e microencapsulado com tecnologia patenteada para melhorar sua biodisponibilidade e diminuir os efeitos gastrointestinais.</p><p>O produto é utilizado como auxiliar no <strong>gerenciamento do peso</strong>, contribuindo para a redução do apetite e para o aumento da sensação de saciedade. Também apresenta ação termogênica e propriedades relacionadas ao suporte do metabolismo e do perfil lipídico.</p><p>É indicado para adultos que buscam <strong>auxílio no controle do apetite e no gerenciamento do peso</strong>, associado a hábitos alimentares equilibrados e à prática de atividades físicas. Seu uso deve respeitar as orientações de utilização e as recomendações de um profissional habilitado.</p>",
-      composicao: "<ul>\n<li>AKKERMAT — 150MG</li>\n<li>Excipiente q.s.p 1 cápsula</li>\n</ul><p><strong>Apresentação:</strong> 30 Cápsulas</p>",
+      composicao: "<ul>\n<li>AKKERMAT — 150MG</li>\n<li>Excipiente q.s.p 1 cápsula</li>\n</ul><p><strong>Apresenta��ão:</strong> 30 Cápsulas</p>",
       comoUsar: "<p>Tomar <strong>1 cápsula ao dia</strong>, após uma refeição.</p>",
       advertencias: "<p>Não deve ser utilizado por pacientes que apresentam doenças intestinais, úlcera gástrica, cistite crônica e de repetição, hemorroida ou alergia à pimenta. Pessoas com hipersensibilidade à substância não devem fazer uso do produto. Em caso de hipersensibilidade, recomenda-se descontinuar o uso e consultar o médico.</p><p>Não utilize o produto com o prazo de validade vencido. Manter em temperatura ambiente, entre 15 e 30ºC, protegido da luz, do calor e da umidade e fora do alcance das crianças. Mulheres grávidas não devem utilizar o produto sem orientação médica. O uso durante o período de amamentação não é recomendado. Este produto não deve ser utilizado por menores de 18 anos sem orientação médica.</p><p>Siga corretamente o modo de usar e, caso os sintomas não desapareçam, procure orientação médica. Nunca compre ou utilize o produto sem orientação de um profissional habilitado. Imagens meramente ilustrativas.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
     },
@@ -1090,7 +1130,7 @@ const produtos = [
     ],
     descricao: {
       resumo: "<p>Sweet Beet 500mg é um suplemento à base de <strong>extrato seco de beterraba</strong>, fonte de nitratos e compostos naturais, desenvolvido para auxiliar na circulação, oxigenação e suporte à saúde cardiovascular.</p>",
-      oQueE: "<p>Sweet Beet 500mg é formulado com extrato seco de beterraba, ingrediente naturalmente rico em nitratos, vitaminas e compostos antioxidantes. Sua composição concentra os componentes naturais da beterraba em uma apresentação prática em cápsulas.</p><p>O produto é utilizado como auxiliar no <strong>suporte à circulação e à oxigenação</strong>, contribuindo também para aspectos relacionados à saúde cardiovascular, ao metabolismo e à digestão. Por suas características, pode fazer parte de uma rotina voltada ao bem-estar e à prática de atividades físicas.</p><p>É recomendado para adultos que buscam <strong>suporte à circulação, oxigenaç��o e desempenho físico</strong>, especialmente dentro de uma rotina que inclua alimentação equilibrada e atividade física. Pessoas que utilizam medicamentos para pressão arterial ou que possuem condições específicas de saúde devem consultar um profissional habilitado antes do uso.</p>",
+      oQueE: "<p>Sweet Beet 500mg é formulado com extrato seco de beterraba, ingrediente naturalmente rico em nitratos, vitaminas e compostos antioxidantes. Sua composição concentra os componentes naturais da beterraba em uma apresentação prática em cápsulas.</p><p>O produto é utilizado como auxiliar no <strong>suporte à circulação e à oxigenação</strong>, contribuindo também para aspectos relacionados à saúde cardiovascular, ao metabolismo e à digestão. Por suas características, pode fazer parte de uma rotina voltada ao bem-estar e à prática de atividades físicas.</p><p>É recomendado para adultos que buscam <strong>suporte à circulação, oxigenação e desempenho físico</strong>, especialmente dentro de uma rotina que inclua alimentação equilibrada e atividade física. Pessoas que utilizam medicamentos para pressão arterial ou que possuem condições específicas de saúde devem consultar um profissional habilitado antes do uso.</p>",
       composicao: "<p><strong>Cada 1 cápsula contém:</strong></p>\n<ul>\n<li>Sweet Beet (Beterraba Extrato Seco) — 500mg</li>\n<li>Excipiente q.s.p 1cápsula</li>\n</ul><p><strong>Apresentação:</strong> 30 Cápsulas</p>",
       comoUsar: "<p>Tomar <strong>1 cápsula ao dia</strong>, preferencialmente com uma refeição, ou conforme orientação profissional.</p>",
       advertencias: "<p>Pessoas com hipersensibilidade à substância não devem fazer uso do produto. Em caso de hipersensibilidade, recomenda-se descontinuar o uso e consultar o médico. A beterraba pode ocasionar alteração temporária na coloração da urina ou das fezes, geralmente sem gravidade.</p><p>Pode haver interação com medicamentos para pressão alta, pois os nitratos presentes na beterraba podem potencializar seus efeitos. Nesses casos, consulte o médico antes de utilizar o produto. Não use com o prazo de validade vencido. Manter em temperatura ambiente, entre 15 e 30ºC, protegido da luz, do calor e da umidade e fora do alcance das crianças.</p><p>Mulheres grávidas não devem utilizar o produto sem orientação médica. O uso durante o período de amamentação não é recomendado. Este produto não deve ser utilizado por menores de 18 anos sem orientação médica. Siga corretamente o modo de usar e, caso os sintomas não desapareçam, procure orientação médica. Imagens meramente ilustrativas.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
@@ -1125,7 +1165,7 @@ const produtos = [
       oQueE: "<p>Bloomé 250mg é um suplemento oral formulado com ativos naturais de origem asiática, desenvolvido para complementar os cuidados com os cabelos. Sua fórmula reúne extratos de <em>Cudrania tricuspidata</em> e <em>Sargassum fusiforme</em>, associados ao suporte à saúde e à vitalidade capilar.</p><p>O produto é utilizado como auxiliar no <strong>cuidado dos fios e do couro cabeludo</strong>, contribuindo para sua vitalidade e fortalecimento. Seus componentes apresentam propriedades associadas à proteção contra o estresse oxidativo e à manutenção das condições fisiológicas do couro cabeludo.</p><p>É indicado para adultos que apresentam <strong>queda capilar, enfraquecimento dos fios ou alopecia androgenética</strong> e buscam uma opção oral para complementar os cuidados com a saúde capilar. Em casos de alopecia diagnosticada, recomenda-se acompanhamento e orientação de um médico ou dermatologista.</p>",
       composicao: "<ul>\n<li>Bloomé — 250mg</li>\n<li>Excipiente qsp 1 cápsula</li>\n</ul><p><strong>Apresentação:</strong> 30 Cápsulas</p>",
       comoUsar: "<p>Tomar <strong>1 cápsula</strong> após o café da manhã ou almoço.</p>",
-      advertencias: "<p>Pessoas com hipersensibilidade à substância não devem fazer uso do produto. Em caso de hipersensibilidade, recomenda-se descontinuar o uso e consultar o médico. Não utilize o produto com o prazo de validade vencido.</p><p>Manter em temperatura ambiente, entre 15 e 30ºC, protegido da luz, do calor e da umidade e fora do alcance das crianças. Mulheres grávidas não devem utilizar o produto sem orientação médica. O uso durante o período de amamentação não é recomendado. Este produto não deve ser utilizado por menores de 18 anos sem orientação médica.</p><p>Siga corretamente o modo de usar. Caso os sintomas não desapareçam, procure orientação médica. Nunca compre ou utilize o produto sem orientação de um profissional habilitado. Imagens meramente ilustrativas.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
+      advertencias: "<p>Pessoas com hipersensibilidade à substância não devem fazer uso do produto. Em caso de hipersensibilidade, recomenda-se descontinuar o uso e consultar o médico. Não utilize o produto com o prazo de validade vencido.</p><p>Manter em temperatura ambiente, entre 15 e 30ºC, protegido da luz, do calor e da umidade e fora do alcance das crianças. Mulheres grávidas não devem utilizar o produto sem orientação médica. O uso durante o período de amamentação n��o é recomendado. Este produto não deve ser utilizado por menores de 18 anos sem orientação médica.</p><p>Siga corretamente o modo de usar. Caso os sintomas não desapareçam, procure orientação médica. Nunca compre ou utilize o produto sem orientação de um profissional habilitado. Imagens meramente ilustrativas.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
     },
     destaque: true,
     mostrarlancamento: false,
@@ -1185,7 +1225,7 @@ const produtos = [
       
     ],
     descricao: {
-      resumo: "<p>Mitburn Dia Dia 50mg é um suplemento desenvolvido para auxiliar no <strong>gerenciamento do peso e do metabolismo energético</strong>, contribuindo para o uso de gordura como fonte de energia e para mais disposição na rotina.</p>",
+      resumo: "<p>Mitburn Dia Dia 50mg é um suplemento desenvolvido para auxiliar no <strong>gerenciamento do peso e do metabolismo energético</strong>, contribuindo para o uso de gordura como fonte de energia e para mais disposi��ão na rotina.</p>",
       oQueE: "<p>Mitburn Dia Dia 50mg é um suplemento formulado com MITBURN e taurina, desenvolvido para complementar uma rotina voltada ao equilíbrio do metabolismo energético e ao gerenciamento da composição corporal.</p><p>O produto é utilizado como auxiliar no <strong>metabolismo energético e no gerenciamento do peso</strong>, contribuindo para processos relacionados ao uso de lipídios como fonte de energia e à termogênese. Sua proposta também contempla suporte à disposição e ao desempenho físico.</p><p>É recomendado para adultos que buscam <strong>auxílio no gerenciamento do peso, metabolismo energético e desempenho físico</strong>, especialmente quando associado a uma alimentação equilibrada e à prática regular de atividades físicas.</p>",
       composicao: "<ul>\n<li>MITBURN — 50MG</li>\n<li>TAURINA-L — 100MG</li>\n<li>Excipiente q.s.p 1 cápsula</li>\n</ul><p><strong>Apresentação:</strong> 60 Cápsulas</p>",
       comoUsar: "<p>Tomar <strong>1 cápsula</strong> após o café da manhã ou antes do treino.</p>",
@@ -1348,7 +1388,7 @@ const produtos = [
       resumo: "<p>TESTO PRIME MAM é uma formulação voltada à <strong>performance masculina</strong>, reunindo ativos selecionados para complementar estratégias relacionadas à vitalidade, disposição, libido e desempenho sexual masculino.</p>",
       oQueE: "<p>TESTO PRIME MAM é uma formulação destinada ao público masculino, composta por Epimedium Icariin, Long Jack, Ginseng Coreano e Tadalafil, combinando diferentes componentes em uma apresentação prática de 30 cápsulas.</p><p>Sua finalidade está relacionada à <strong>vitalidade, libido, disposição e desempenho sexual masculino</strong>, oferecendo uma formulação direcionada às necessidades de homens que buscam suporte para sua performance e bem-estar.</p><p>É indicado para <strong>homens adultos</strong> quando houver indicação e orientação adequada de profissional habilitado, especialmente por conter tadalafil em sua composição.</p>",
       composicao: "<ul>\n<li>EPIMEDIUM ICARIIN — 200MG</li>\n<li>LONG JACK EXTRATO SECO — 300MG</li>\n<li>GINSENG COREANO — 80MG</li>\n<li>TADALAFIL — 3MG</li>\n</ul><p><strong>Apresentação:</strong> 30 Cápsulas</p>",
-      comoUsar: "<p>Utilize o produto <strong>conforme as instruções do fabricante ou orientação de profissional habilitado</strong>. Não altere a forma de utilização, dose ou frequência recomendada sem orientação profissional.</p>",
+      comoUsar: "<p>Utilize o produto <strong>conforme as instru��ões do fabricante ou orientação de profissional habilitado</strong>. Não altere a forma de utilização, dose ou frequência recomendada sem orientação profissional.</p>",
       advertencias: "<p>Uso conforme orientação do fabricante e de profissional habilitado. Por conter tadalafil, sua utilização deve ser realizada com <strong>orientação profissional adequada</strong>. Não utilize de forma diferente da recomendada na prescrição ou orientação recebida.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
     },
     destaque: true,
@@ -1762,7 +1802,7 @@ const produtos = [
     ],
     descricao: {
       resumo: "<p><strong>Silício Orgânico 300 mg</strong> é uma fórmula desenvolvida para oferecer suporte à <strong>saúde da pele, cabelos, unhas, ossos e tecidos conjuntivos</strong>, contribuindo para a manutenção da estrutura e do bem-estar do organismo.</p>",
-      oQueE: "<p>O <strong>Silício Orgânico 300 mg</strong> é uma fórmula que fornece silício orgânico, mineral relacionado à estrutura e à manutenção dos tecidos conjuntivos, incluindo componentes como colágeno e elastina.</p><p>Sua utilização está associada ao suporte à <strong>firmeza e elasticidade da pele</strong>, à estrutura e resistência dos cabelos e unhas, além da manutenção dos tecidos conjuntivos e do metabolismo ósseo.</p><p>Pode ser indicado para <strong>adultos que buscam suporte nutricional para a saúde da pele, cabelos, unhas, ossos e tecidos conjuntivos</strong>, especialmente quando houver orientação de um profissional habilitado.</p>",
+      oQueE: "<p>O <strong>Silício Orgânico 300 mg</strong> é uma fórmula que fornece silício orgânico, mineral relacionado à estrutura e à manutenção dos tecidos conjuntivos, incluindo componentes como colágeno e elastina.</p><p>Sua utilização est�� associada ao suporte à <strong>firmeza e elasticidade da pele</strong>, à estrutura e resistência dos cabelos e unhas, além da manutenção dos tecidos conjuntivos e do metabolismo ósseo.</p><p>Pode ser indicado para <strong>adultos que buscam suporte nutricional para a saúde da pele, cabelos, unhas, ossos e tecidos conjuntivos</strong>, especialmente quando houver orientação de um profissional habilitado.</p>",
       composicao: "<ul>\n<li>SILICIO ORGANICO — 300MG</li>\n</ul><p><strong>Apresentação:</strong> 30 Cápsulas</p>",
       comoUsar: "<p>Utilize o produto <strong>conforme as instruções do fabricante ou orientação de profissional habilitado</strong>. Não altere a forma de uso recomendada e, em caso de dúvidas, procure orientação profissional.</p>",
       advertencias: "<p>Conservar o produto adequadamente e mantê-lo fora do alcance das crianças. Não utilizar em caso de hipersensibilidade a qualquer componente da fórmula. Em caso de dúvidas sobre o uso, procure orientação de um profissional habilitado.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
@@ -1889,7 +1929,7 @@ const produtos = [
       
     ],
     descricao: {
-      resumo: "<p>O <strong>Circulação - Retenção Líquido</strong> é uma fórmula desenvolvida para oferecer suporte à <strong>circulação periférica</strong>, ao conforto das pernas e ao equilíbrio da retenção de líquidos, complementando uma rotina de cuidados com a saúde.</p>",
+      resumo: "<p>O <strong>Circulação - Retenção Líquido</strong> é uma fórmula desenvolvida para oferecer suporte à <strong>circulação perif��rica</strong>, ao conforto das pernas e ao equilíbrio da retenção de líquidos, complementando uma rotina de cuidados com a saúde.</p>",
       oQueE: "<p>O <strong>Circulação - Retenção Líquido</strong> é uma fórmula em cápsulas que combina Castanha da Índia, Rutina, Ginkgo Biloba, Vitamina B12 e Hamamelis Virginica, reunindo ativos selecionados para o suporte aos cuidados relacionados à circulação.</p><p>Sua composição oferece suporte à <strong>circulação sanguínea periférica</strong> e ao equilíbrio da retenção de líquidos, podendo contribuir para o conforto das pernas e para a sensação de bem-estar no dia a dia.</p><p>É uma opção para pessoas que buscam complementar os <strong>cuidados com a circulação e o equilíbrio hídrico</strong> do organismo, sempre associada a hábitos saudáveis e à orientação de profissional habilitado quando necessário.</p>",
       composicao: "<ul>\n<li>CASTANHA DA INDIA EXTRACT — 200MG</li>\n<li>RUTINA — 150MG</li>\n<li>GINKGO BILOBA EXTRATO 24% — 60MG</li>\n<li>VITAMINA B12 — 1000MCG</li>\n<li>HAMAMELIS VIRGINICA EXTRACT PO — 100MG</li>\n</ul><p><strong>Apresentação:</strong> 60 Cápsulas</p>",
       comoUsar: "<p>Utilizar conforme as <strong>instruções do fabricante ou orientação de profissional habilitado</strong>, respeitando a dose, a frequência e a indicação recomendadas. Não utilizar posologia diferente da orientada.</p>",
@@ -1957,7 +1997,7 @@ const produtos = [
       oQueE: "<p>A <strong>Vitamina D3 + Vitamina K2 MK-7</strong> reúne duas vitaminas importantes para o organismo em uma fórmula prática, desenvolvida para complementar a ingestão desses nutrientes.</p><p>A Vitamina D3 contribui para a <strong>absorção e utilização do cálcio</strong>, participando da manutenção da saúde óssea e do funcionamento adequado do sistema imunológico. A Vitamina K2, na forma MK-7, participa do metabolismo do cálcio e contribui para a manutenção da saúde dos ossos e dos vasos sanguíneos.</p><p>Pode ser indicada para adultos que necessitem complementar a ingestão dessas vitaminas, especialmente quando houver orientação de um <strong>profissional de saúde</strong> para sua utilização.</p>",
       composicao: "<ul>\n<li>VITAMINA D3 — 10000UI</li>\n<li>VITAMINA K2-MK7 — 200MCG</li>\n</ul><p><strong>Apresentação:</strong> 30 Cápsulas</p>",
       comoUsar: "<p>Utilize o produto conforme as <strong>instruções do fabricante</strong> ou de acordo com a orientação de um profissional de saúde. Não altere a forma de uso recomendada sem orientação profissional.</p>",
-      advertencias: "<p>Este produto deve ser utilizado conforme as orientações do fabricante. Em caso de dúvidas sobre a utilização, procure a orientação de um profissional de saúde.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
+      advertencias: "<p>Este produto deve ser utilizado conforme as orientações do fabricante. Em caso de dúvidas sobre a utilização, procure a orienta��ão de um profissional de saúde.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
     },
     destaque: false,
     mostrarlancamento: false,
@@ -2947,7 +2987,7 @@ const produtos = [
     descricao: {
       resumo: "<p>O <strong>Epimedium Icariin 500mg</strong> é um suplemento alimentar desenvolvido para oferecer suporte à saúde sexual, à disposição física e ao equilíbrio hormonal, em uma fórmula prática com 30 cápsulas.</p>",
       oQueE: "<p>O Epimedium Icariin é um suplemento à base de extrato de <em>Epimedium sagittatum</em>, tendo a <strong>icariin</strong> como seu principal composto ativo. A fórmula foi desenvolvida para complementar a rotina de pessoas que buscam suporte à saúde sexual e ao bem-estar.</p><p>Sua finalidade está relacionada ao <strong>suporte à saúde sexual, disposição física e equilíbrio hormonal</strong>, podendo fazer parte de uma rotina voltada ao bem-estar e à manutenção dessas funções do organismo. Seus efeitos podem variar conforme as características individuais de cada pessoa.</p><p>É destinado a <strong>adultos que buscam suporte à libido, saúde sexual e disposição</strong>, incluindo homens e mulheres. Pode ser considerado por pessoas que apresentam redução do desejo sexual ou que desejam complementar os cuidados relacionados ao bem-estar hormonal, sempre considerando orientação de profissional habilitado quando necessário.</p>",
-      composicao: "<ul>\n<li>EPIMEDIUM ICARIIN — 500MG</li>\n</ul><p><strong>Apresentação:</strong> 30 Cápsulas</p>",
+      composicao: "<ul>\n<li>EPIMEDIUM ICARIIN ��� 500MG</li>\n</ul><p><strong>Apresentação:</strong> 30 Cápsulas</p>",
       comoUsar: "<p>Tomar <strong>1 cápsula ao dia</strong>, preferencialmente pela manhã, ou conforme orientação profissional habilitado.</p>",
       advertencias: "<p>Este produto deve ser utilizado conforme a posologia indicada. Em caso de dúvidas sobre o uso, procure orientação de profissional habilitado. Não altere a quantidade ou a frequência de uso sem orientação profissional.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
     },
@@ -3107,7 +3147,7 @@ const produtos = [
     descricao: {
       resumo: "<p>Humulus Lupulus 150mg é uma fórmula em cápsulas desenvolvida a partir do lúpulo, tradicionalmente utilizado como auxiliar em <strong>relaxamento e bem-estar</strong>, especialmente em situações relacionadas à ansiedade e ao sono.</p>",
       oQueE: "<p><strong>Humulus Lupulus 150mg</strong> é um suplemento em cápsulas que contém Humulus lupulus, espécie conhecida popularmente como lúpulo. Sua composição concentra 150mg do ativo em cada cápsula.</p><p>O produto é utilizado como auxiliar em situações relacionadas à <strong>ansiedade e aos distúrbios do sono</strong>, contribuindo para uma abordagem complementar voltada ao relaxamento e ao bem-estar. Também é tradicionalmente associado a outras aplicações, conforme a avaliação e orientação de um profissional de saúde.</p><p>Pode ser indicado para adultos que buscam uma alternativa de suplementação à base de Humulus lupulus, especialmente aqueles que desejam suporte complementar para <strong>relaxamento e qualidade do sono</strong>, sempre considerando as necessidades individuais.</p>",
-      composicao: "<ul>\n<li>HUMULUS LUPULUS ��� 150MG</li>\n</ul><p><strong>Apresentação:</strong> 60 Cápsulas</p>",
+      composicao: "<ul>\n<li>HUMULUS LUPULUS — 150MG</li>\n</ul><p><strong>Apresentação:</strong> 60 Cápsulas</p>",
       comoUsar: "<p>Tomar <strong>1 cápsula, 2 vezes ao dia</strong>, conforme orientação de uso.</p>",
       advertencias: "<p>Utilize o produto conforme a orientação de uso. Em caso de dúvidas sobre a utilização ou necessidade de suplementação, procure orientação de um profissional de saúde.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
     },
@@ -3202,7 +3242,7 @@ const produtos = [
     ],
     descricao: {
       resumo: "<p>Magnésio Dimalato 300mg é um suplemento desenvolvido para complementar a ingestão de magnésio, oferecendo suporte ao <strong>funcionamento muscular e ao bem-estar</strong> no dia a dia.</p>",
-      oQueE: "<p><strong>Magnésio Dimalato 300mg</strong> é um suplemento em cápsulas à base de magnésio dimalato, uma forma de suplementação que combina magnésio e ácido málico.</p><p>Sua composição �� utilizada como auxiliar no <strong>funcionamento muscular</strong>, podendo contribuir para o bem-estar, a recuperação após atividades físicas e a manutenção de funções importantes do organismo relacionadas ao magnésio.</p><p>Pode ser indicado para adultos que desejam complementar a ingestão de magnésio, especialmente aqueles que possuem uma rotina ativa ou buscam suporte nutricional para o <strong>funcionamento muscular e bem-estar</strong>.</p>",
+      oQueE: "<p><strong>Magnésio Dimalato 300mg</strong> é um suplemento em cápsulas à base de magnésio dimalato, uma forma de suplementação que combina magnésio e ácido málico.</p><p>Sua composição é utilizada como auxiliar no <strong>funcionamento muscular</strong>, podendo contribuir para o bem-estar, a recuperação após atividades físicas e a manutenção de funções importantes do organismo relacionadas ao magnésio.</p><p>Pode ser indicado para adultos que desejam complementar a ingestão de magnésio, especialmente aqueles que possuem uma rotina ativa ou buscam suporte nutricional para o <strong>funcionamento muscular e bem-estar</strong>.</p>",
       composicao: "<ul>\n<li>MAGNESIO DIMALATO — 300MG</li>\n</ul><p><strong>Apresentação:</strong> 60 Cápsulas</p>",
       comoUsar: "<p>Tomar de <strong>1 a 3 cápsulas diariamente</strong> com um copo de água.</p><p>Para obter os benefícios do Magnésio Dimalato, é importante seguir a dosagem recomendada e incorporá-lo à sua rotina diária.</p>",
       advertencias: "<p>Utilize o produto conforme a orientação de uso. Em caso de dúvidas sobre a utilização ou necessidade de suplementação, procure orientação de um profissional de saúde.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
@@ -3818,7 +3858,7 @@ const produtos = [
     destaque: false,
     mostrarlancamento: false,
     mostrarVideo: false,
-    textoParcelamento: "🎟️ Cupom válido no carrinho. 💳 Consulte parcelamento no checkout",
+    textoParcelamento: "����️ Cupom válido no carrinho. 💳 Consulte parcelamento no checkout",
     cupomAtivo: false,
     cupomPorcentagem: 0,
     cupomCodigo: "",
@@ -4133,7 +4173,7 @@ const produtos = [
       oQueE: "<p>Mind Clean Clareza Mental é um suplemento alimentar em cápsulas que reúne ingredientes selecionados para complementar a ingestão de nutrientes e compostos utilizados em formulações voltadas ao <strong>bem-estar mental e à rotina cognitiva</strong>.</p><p>Sua finalidade é oferecer suporte nutricional à rotina de pessoas que buscam manter <strong>clareza, equilíbrio e bem-estar mental</strong>, sem substituir uma alimentação equilibrada ou cuidados profissionais.</p><p>É indicado para adultos que desejam complementar sua rotina com uma fórmula composta por L-teanina, Rhodiola rosea, metilcobalamina, Bacopa monnieri e hexanicotinato de inositol, especialmente dentro de uma rotina que valorize <strong>atenção ao bem-estar e à qualidade de vida</strong>.</p>",
       composicao: "<ul>\n<li>L-Teanina — MG</li>\n<li>Rhodiola Rosea — MG</li>\n<li>Metilcobalamina — MCG</li>\n<li>Bacopa Monnieri — MG</li>\n<li>Hexanicotinato de Inositol — MG</li>\n</ul><p><strong>Apresentação:</strong> 30 Cápsulas</p>",
       comoUsar: "<p>Utilize o produto conforme as <strong>instruções do fabricante</strong> presentes na embalagem ou de acordo com a orientação de um profissional habilitado. Não ultrapasse a recomendação indicada.</p>",
-      advertencias: "<p>Este produto é um suplemento alimentar e não substitui uma alimentação equilibrada nem hábitos de vida saudáveis. Mantenha fora do alcance de crianças. Em caso de dúvidas sobre o uso, procure orientação de um profissional de saúde.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
+      advertencias: "<p>Este produto é um suplemento alimentar e não substitui uma alimentação equilibrada nem hábitos de vida saudáveis. Mantenha fora do alcance de crianças. Em caso de dúvidas sobre o uso, procure orientação de um profissional de saúde.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios f��sicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
     },
     destaque: false,
     mostrarlancamento: false,
@@ -4330,7 +4370,7 @@ const produtos = [
     destaque: false,
     mostrarlancamento: false,
     mostrarVideo: false,
-    textoParcelamento: "🎟️ Cupom válido no carrinho. 💳 Consulte parcelamento no checkout",
+    textoParcelamento: "🎟️ Cupom válido no carrinho. ��� Consulte parcelamento no checkout",
     cupomAtivo: false,
     cupomPorcentagem: 0,
     cupomCodigo: "",
@@ -4593,7 +4633,7 @@ const produtos = [
     cupomValidade: "",
     cupomMensagemTag: "",
     cupomOcultarTag: false,
-    promoCompreXAtivo: false,
+    promoCompreXAtivo: true,
     promoCompreXQtd: 2,
     promoCompreXPreco: 0.01,
     promoCompreXMensagemTag: "Compre 2 Leve +1",
