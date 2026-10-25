@@ -378,23 +378,9 @@ function validarCupomComprar() {
   }
 }
 
+
+
 function enviarPedidoWhatsApp(produto, quantidade, cupom, dadosCliente) {
-  const valorUnitario = produto.preco;
-  const valorTotalOriginal = valorUnitario * quantidade;
-  let valorFinal = valorTotalOriginal;
-  let economia = 0;
-
-  if (cupom) {
-    economia = valorTotalOriginal * (cupom.porcentagem / 100);
-    valorFinal = valorTotalOriginal - economia;
-  }
-
-    if (typeof calcularLinhaComPromoCompreX === 'function' && produtoTemPromoCompreX(produto)) {
-    const linha = calcularLinhaComPromoCompreX(produto, quantidade);
-    // mensagem com totalUnidades, valor final, etc.
-    // e NÃO aplicar cupom (já tratado no modal)
-  }
-
   const basePath = window.location.pathname.split("/").slice(0, -1).join("/");
   const linkProduto = `${window.location.origin}${basePath}/produto.html?id=${produto.id}`;
 
@@ -403,7 +389,6 @@ function enviarPedidoWhatsApp(produto, quantidade, cupom, dadosCliente) {
 
   let mensagem = `Olá! Gostaria de fazer um pedido:%0A%0A`;
 
-  // Dados do cliente (quando disponíveis)
   if (dadosCliente && typeof formatarDadosClienteWhatsApp === "function") {
     mensagem += formatarDadosClienteWhatsApp(dadosCliente);
     mensagem += `%0A────────────────%0A%0A`;
@@ -411,15 +396,44 @@ function enviarPedidoWhatsApp(produto, quantidade, cupom, dadosCliente) {
 
   mensagem += `Produto: ${produto.nome}%0A`;
   mensagem += `Categoria: ${nomeCategoria}%0A`;
-  mensagem += `Quantidade: ${quantidade} unidade(s)%0A`;
 
-  if (cupom) {
+  // ===== PROMOÇÃO COMPRE X (tem prioridade; cupom não cumulativo) =====
+  if (typeof produtoTemPromoCompreX === "function" && produtoTemPromoCompreX(produto)
+      && typeof calcularLinhaComPromoCompreX === "function") {
+
+    const linha = calcularLinhaComPromoCompreX(produto, quantidade);
+
+    if (linha.unidadesPromo > 0) {
+      mensagem += `Quantidade: ${linha.totalUnidades} unidade(s) (${linha.quantidadePaga} + ${linha.unidadesPromo} promocional)%0A`;
+      mensagem += `Valor unidades pagas: ${formatarPreco(linha.quantidadePaga * linha.precoUnit)}%0A`;
+      mensagem += `Valor promocional: ${formatarPreco(linha.unidadesPromo * linha.precoUnitPromo)}%0A`;
+      mensagem += `Valor total: ${formatarPreco(linha.final)}%0A`;
+      if (linha.economiaPromo > 0) {
+        mensagem += `Você economizou ${formatarPreco(linha.economiaPromo)} nesta compra!%0A`;
+      }
+      mensagem += `%0A`;
+    } else {
+      // Tem promo configurada, mas ainda não atingiu N unidades
+      mensagem += `Quantidade: ${quantidade} unidade(s)%0A`;
+      mensagem += `Valor total: ${formatarPreco(produto.preco * quantidade)}%0A%0A`;
+    }
+
+  } else if (cupom) {
+    // ===== CUPOM (só se NÃO houver Compre X) =====
+    const valorTotalOriginal = produto.preco * quantidade;
+    const economia = valorTotalOriginal * (cupom.porcentagem / 100);
+    const valorFinal = valorTotalOriginal - economia;
+
+    mensagem += `Quantidade: ${quantidade} unidade(s)%0A`;
     mensagem += `Valor original: ${formatarPreco(valorTotalOriginal)}%0A`;
     mensagem += `Valor com desconto: ${formatarPreco(valorFinal)}%0A`;
     mensagem += `Cupom usado: *${cupom.codigo}*%0A`;
     mensagem += `Você economizou ${formatarPreco(economia)} nesta compra!%0A%0A`;
+
   } else {
-    mensagem += `Valor total: ${formatarPreco(valorTotalOriginal)}%0A%0A`;
+    // ===== SEM PROMO E SEM CUPOM =====
+    mensagem += `Quantidade: ${quantidade} unidade(s)%0A`;
+    mensagem += `Valor total: ${formatarPreco(produto.preco * quantidade)}%0A%0A`;
   }
 
   mensagem += `Link do produto:%0A${linkProduto}`;
@@ -427,7 +441,6 @@ function enviarPedidoWhatsApp(produto, quantidade, cupom, dadosCliente) {
   const url = `https://wa.me/${WHATSAPP_NUMERO}?text=${mensagem}`;
   window.open(url, "_blank");
 }
-
 
 
 
@@ -653,11 +666,8 @@ card.addEventListener("click", (e) => {
 
   // Comprar via WhatsApp
   btnComprar.addEventListener("click", () => {
-    const cupom = obterCupomValido(produto);
-    if (cupom) {
-      abrirModalCupom(produto, quantidade);
-      return;
-    }
+  // Compre X: não abre modal de cupom (não cumulativo)
+  if (typeof produtoTemPromoCompreX === "function" && produtoTemPromoCompreX(produto)) {
     if (typeof abrirModalDadosCliente === "function") {
       abrirModalDadosCliente(function (dadosCliente) {
         enviarPedidoWhatsApp(produto, quantidade, null, dadosCliente);
@@ -665,7 +675,22 @@ card.addEventListener("click", (e) => {
     } else {
       enviarPedidoWhatsApp(produto, quantidade, null, null);
     }
-  });
+    return;
+  }
+
+  const cupom = obterCupomValido(produto);
+  if (cupom) {
+    abrirModalCupom(produto, quantidade);
+  } else {
+    if (typeof abrirModalDadosCliente === "function") {
+      abrirModalDadosCliente(function (dadosCliente) {
+        enviarPedidoWhatsApp(produto, quantidade, null, dadosCliente);
+      });
+    } else {
+      enviarPedidoWhatsApp(produto, quantidade, null, null);
+    }
+  }
+});
 
   // Inserir no carrinho
   
