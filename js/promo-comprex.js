@@ -4,22 +4,35 @@
  */
 
 /**
- * Resolve a promoção efetiva do produto (produto ou categoria)
- * Retorna null se não houver promoção ativa
+ * Resolve a promoção efetiva do produto (produto > categoria)
+ * Considera validade: vazia = perpétua; com data = só se >= hoje
  */
 function obterPromoCompreXEfetiva(produto) {
   if (!produto) return null;
 
+  const hoje = new Date().toISOString().slice(0, 10);
+
+  function validadeOk(validade) {
+    if (!validade || String(validade).trim() === '') return true;
+    // Aceita YYYY-MM-DD (e evita problema se vier DD/MM/YYYY da planilha)
+    const v = String(validade).trim();
+    const normalizada = v.includes('/')
+      ? v.split('/').reverse().join('-') // 05/09/2026 → 2026-09-05
+      : v;
+    return normalizada >= hoje;
+  }
+
   // 1. Produto
   if (produto.promoCompreXAtivo) {
     const n = Number(produto.promoCompreXQtd) || 0;
-    if (n >= 1) {
+    if (n >= 1 && validadeOk(produto.promoCompreXValidade)) {
       return {
         origem: 'produto',
         qtd: n,
         preco: Number(produto.promoCompreXPreco),
         mensagemTag: produto.promoCompreXMensagemTag || '',
-        ocultarTag: !!produto.promoCompreXOcultarTag
+        ocultarTag: !!produto.promoCompreXOcultarTag,
+        validade: produto.promoCompreXValidade || ''
       };
     }
   }
@@ -28,13 +41,14 @@ function obterPromoCompreXEfetiva(produto) {
   const categoria = (window.categorias || []).find(c => c.id === produto.categoria);
   if (categoria && categoria.promoCompreXAtivo) {
     const n = Number(categoria.promoCompreXQtd) || 0;
-    if (n >= 1) {
+    if (n >= 1 && validadeOk(categoria.promoCompreXValidade)) {
       return {
         origem: 'categoria',
         qtd: n,
         preco: Number(categoria.promoCompreXPreco),
         mensagemTag: categoria.promoCompreXMensagemTag || '',
-        ocultarTag: !!categoria.promoCompreXOcultarTag
+        ocultarTag: !!categoria.promoCompreXOcultarTag,
+        validade: categoria.promoCompreXValidade || ''
       };
     }
   }
