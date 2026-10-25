@@ -159,7 +159,7 @@ const categorias = [
     promoCompreXPreco: 0.01,
     promoCompreXMensagemTag: "Compre 2 Leve 3",
     promoCompreXOcultarTag: false,
-    promoCompreXValidade: "2026-10-26",
+    promoCompreXValidade: "2026-10-20",
   }
 ];
 
