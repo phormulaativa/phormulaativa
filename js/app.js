@@ -496,18 +496,27 @@ card.addEventListener("click", (e) => {
 
   window.location.href = `produto.html?id=${produto.id}`;
 });
-   
 
-   
+  
 
   // Comprar via WhatsApp
 btnComprar.addEventListener("click", () => {
-  const cupom = obterCupomValido(produto);
+  // Compre X: não abre modal de cupom (não cumulativo)
+  if (typeof produtoTemPromoCompreX === "function" && produtoTemPromoCompreX(produto)) {
+    if (typeof abrirModalDadosCliente === "function") {
+      abrirModalDadosCliente(function (dadosCliente) {
+        enviarPedidoWhatsApp(produto, quantidade, null, dadosCliente);
+      });
+    } else {
+      enviarPedidoWhatsApp(produto, quantidade, null, null);
+    }
+    return;
+  }
 
+  const cupom = obterCupomValido(produto);
   if (cupom) {
     abrirModalCupom(produto, quantidade);
   } else {
-    // Solicita dados do cliente antes de abrir o WhatsApp
     if (typeof abrirModalDadosCliente === "function") {
       abrirModalDadosCliente(function (dadosCliente) {
         enviarPedidoWhatsApp(produto, quantidade, null, dadosCliente);
