@@ -154,12 +154,12 @@ const categorias = [
     cupomValidade: "",
     cupomMensagemTag: "",
     cupomOcultarTag: false,
-    promoCompreXAtivo: true,
+    promoCompreXAtivo: false,
     promoCompreXQtd: 2,
     promoCompreXPreco: 0.01,
     promoCompreXMensagemTag: "Compre 2 Leve 3",
     promoCompreXOcultarTag: false,
-    promoCompreXValidade: "2026-10-20",
+    promoCompreXValidade: "2026-10-24",
   }
 ];
 
@@ -513,7 +513,7 @@ const produtos = [
       comoUsar: "<p>Utilize o produto conforme as <strong>instruções do fabricante</strong> ou de acordo com a orientação de um profissional habilitado. Não altere a forma de utilização recomendada sem orientação profissional.</p>",
       advertencias: "<p>Utilize o produto somente conforme as orientações fornecidas pelo fabricante. Em caso de dúvidas sobre a utilização, procure orientação de um profissional habilitado. Mantenha o produto em condições adequadas de armazenamento e fora do alcance de crianças.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
     },
-    destaque: true,
+    destaque: false,
     mostrarlancamento: false,
     mostrarVideo: false,
     textoParcelamento: "🎟️ Cupom válido no carrinho. 💳 Consulte parcelamento no checkout",
@@ -806,7 +806,7 @@ const produtos = [
     descricao: {
       resumo: "<p>Creme formulado com <strong>ureia 10% e ácido salicílico 40%</strong>, desenvolvido para auxiliar no cuidado de áreas com calosidades e verrugas.</p>",
       oQueE: "<p>É um creme de uso tópico que combina ácido salicílico e ureia em uma formulação destinada ao cuidado localizado da pele.</p><p>Sua finalidade é <strong>auxiliar na remoção de calosidades e verrugas</strong>, contribuindo para o cuidado das áreas que apresentam essas alterações.</p><p>Pode ser indicado para pessoas que necessitam de cuidado tópico direcionado a calosidades ou verrugas, preferencialmente mediante <strong>orientação profissional</strong>.</p>",
-      composicao: "<ul>\n<li>ACIDO SALICILICO �� 40%</li>\n<li>UREIA — 10%</li>\n<li>SEM ESSENCIA — MG</li>\n<li>CREME BASE — 30GR</li>\n</ul><p><strong>Apresentação:</strong> Creme 30g - Validade 4 meses</p>",
+      composicao: "<ul>\n<li>ACIDO SALICILICO — 40%</li>\n<li>UREIA — 10%</li>\n<li>SEM ESSENCIA — MG</li>\n<li>CREME BASE — 30GR</li>\n</ul><p><strong>Apresentação:</strong> Creme 30g - Validade 4 meses</p>",
       comoUsar: "<p>Utilize o produto conforme as <strong>instruções do fabricante</strong> ou de acordo com a orientação de um profissional habilitado. Não estabeleça dose, frequência ou horários de utilização diferentes daqueles indicados na orientação recebida.</p>",
       advertencias: "<p>Utilize o produto de acordo com as orientações fornecidas pelo fabricante. Em caso de dúvidas sobre a utilização, procure orientação de um profissional habilitado.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
     },
@@ -1173,7 +1173,7 @@ const produtos = [
       comoUsar: "<p>Tomar <strong>1 cápsula ao dia</strong>, preferencialmente com uma refeição, ou conforme orientação profissional.</p>",
       advertencias: "<p>Pessoas com hipersensibilidade à substância não devem fazer uso do produto. Em caso de hipersensibilidade, recomenda-se descontinuar o uso e consultar o médico. A beterraba pode ocasionar alteração temporária na coloração da urina ou das fezes, geralmente sem gravidade.</p><p>Pode haver interação com medicamentos para pressão alta, pois os nitratos presentes na beterraba podem potencializar seus efeitos. Nesses casos, consulte o médico antes de utilizar o produto. Não use com o prazo de validade vencido. Manter em temperatura ambiente, entre 15 e 30ºC, protegido da luz, do calor e da umidade e fora do alcance das crianças.</p><p>Mulheres grávidas não devem utilizar o produto sem orientação médica. O uso durante o período de amamentação não é recomendado. Este produto não deve ser utilizado por menores de 18 anos sem orientação médica. Siga corretamente o modo de usar e, caso os sintomas não desapareçam, procure orientação médica. Imagens meramente ilustrativas.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
     },
-    destaque: true,
+    destaque: false,
     mostrarlancamento: false,
     mostrarVideo: false,
     textoParcelamento: "🎟️ Cupom válido no carrinho. 💳 Consulte parcelamento no checkout",
@@ -1206,7 +1206,7 @@ const produtos = [
       comoUsar: "<p>Tomar <strong>1 cápsula</strong> após o café da manhã ou almoço.</p>",
       advertencias: "<p>Pessoas com hipersensibilidade à substância não devem fazer uso do produto. Em caso de hipersensibilidade, recomenda-se descontinuar o uso e consultar o médico. Não utilize o produto com o prazo de validade vencido.</p><p>Manter em temperatura ambiente, entre 15 e 30ºC, protegido da luz, do calor e da umidade e fora do alcance das crianças. Mulheres grávidas não devem utilizar o produto sem orientação médica. O uso durante o período de amamentação não é recomendado. Este produto não deve ser utilizado por menores de 18 anos sem orientação médica.</p><p>Siga corretamente o modo de usar. Caso os sintomas não desapareçam, procure orientação médica. Nunca compre ou utilize o produto sem orientação de um profissional habilitado. Imagens meramente ilustrativas.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
     },
-    destaque: true,
+    destaque: false,
     mostrarlancamento: false,
     mostrarVideo: false,
     textoParcelamento: "🎟️ Cupom válido no carrinho. 💳 Consulte parcelamento no checkout",
@@ -1239,7 +1239,7 @@ const produtos = [
       comoUsar: "<p>Tomar <strong>1 cápsula</strong> após o café da manhã ou almoço.</p>",
       advertencias: "<p>Pessoas com hipersensibilidade à substância não devem fazer uso do produto. Em caso de hipersensibilidade, recomenda-se descontinuar o uso e consultar o médico. Não utilize o produto com o prazo de validade vencido.</p><p>Manter em temperatura ambiente, entre 15 e 30ºC, protegido da luz, do calor e da umidade e fora do alcance das crianças. Mulheres grávidas não devem utilizar o produto sem orientação médica. O uso durante o período de amamentação não é recomendado. Este produto não deve ser utilizado por menores de 18 anos sem orientação médica.</p><p>Siga corretamente o modo de usar. Caso os sintomas não desapareçam, procure orientação médica. Nunca compre ou utilize o produto sem orientação de um profissional habilitado. Imagens meramente ilustrativas.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
     },
-    destaque: true,
+    destaque: false,
     mostrarlancamento: false,
     mostrarVideo: false,
     textoParcelamento: "🎟️ Cupom válido no carrinho. 💳 Consulte parcelamento no checkout",
@@ -1272,7 +1272,7 @@ const produtos = [
       comoUsar: "<p>Tomar <strong>1 cápsula</strong> após o café da manhã ou antes do treino.</p>",
       advertencias: "<p>Utilize o produto conforme as orientações de uso. Não exceda a recomendação de utilização. Em caso de dúvidas sobre o uso, especialmente na presença de condições de saúde específicas ou utilização de outros produtos, procure orientação de um profissional habilitado.</p><p>Manter o produto adequadamente armazenado e fora do alcance de crianças. Não utilize com o prazo de validade vencido. Imagens meramente ilustrativas.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
     },
-    destaque: true,
+    destaque: false,
     mostrarlancamento: false,
     mostrarVideo: false,
     textoParcelamento: "🎟️ Cupom válido no carrinho. 💳 Consulte parcelamento no checkout",
@@ -1333,7 +1333,7 @@ const produtos = [
     ],
     descricao: {
       resumo: "<p>Uma fórmula desenvolvida para os cuidados com a <strong>saúde capilar</strong>, reunindo Verbascosideo e Eclipta Alba em uma composição direcionada ao cuidado dos cabelos e à proteção celular.</p>",
-      oQueE: "<p>Verbascosideo + Eclipta Alba é uma fórmula composta por dois ativos, Verbascosideo e Eclipta Alba extrato seco, desenvolvida para integrar uma rotina de cuidados voltada à <strong>saúde capilar</strong> e ao equilíbrio celular.</p><p>Sua finalidade está relacionada principalmente aos <strong>cuidados com a queda capilar</strong> e ao estímulo dos cuidados com os cabelos, além de fornecer componentes associados à ação antioxidante e ao cuidado da pele e do equilíbrio celular.</p><p>É indicado para pessoas que buscam complementar sua rotina de cuidados com os cabelos, especialmente aquelas interessadas em <strong>cuidados capilares e redução da queda</strong>. A utilização deve considerar as necessidades individuais e, quando necessário, contar com orientação de um profissional de saúde.</p>",
+      oQueE: "<p>Verbascosideo + Eclipta Alba é uma fórmula composta por dois ativos, Verbascosideo e Eclipta Alba extrato seco, desenvolvida para integrar uma rotina de cuidados voltada à <strong>sa��de capilar</strong> e ao equilíbrio celular.</p><p>Sua finalidade está relacionada principalmente aos <strong>cuidados com a queda capilar</strong> e ao estímulo dos cuidados com os cabelos, além de fornecer componentes associados à ação antioxidante e ao cuidado da pele e do equilíbrio celular.</p><p>É indicado para pessoas que buscam complementar sua rotina de cuidados com os cabelos, especialmente aquelas interessadas em <strong>cuidados capilares e redução da queda</strong>. A utilização deve considerar as necessidades individuais e, quando necessário, contar com orientação de um profissional de saúde.</p>",
       composicao: "<ul>\n<li>VERBASCOSIDEO — 15MG</li>\n<li>ECLIPTA ALBA EXTRATO SECO — 150MG</li>\n</ul><p><strong>Apresentação:</strong> 30 Cápsulas</p>",
       comoUsar: "<p>Utilize o produto conforme as <strong>instruções do fabricante</strong> ou de acordo com a orientação de um profissional de saúde. Não altere a forma de utilização recomendada na embalagem ou na orientação profissional.</p>",
       advertencias: "<p>Utilize este produto de acordo com as orientações do fabricante. Em caso de dúvidas sobre a utilização, procure orientação de um profissional de saúde. Mantenha o produto fora do alcance de crianças e conserve-o conforme as condições indicadas pelo fabricante.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
@@ -1371,7 +1371,7 @@ const produtos = [
       comoUsar: "<p>Para resultados eficazes, recomenda-se o uso contínuo com a ingestão de <strong>2 cápsulas ao dia</strong>. Siga o passo a passo para maximizar os benefícios.</p><p><strong>Uso diário:</strong> Tomar 2 cápsulas do Testo Black com água, preferencialmente 30 minutos antes do treino, para garantir uma ação constante no aumento dos níveis de testosterona e na melhoria do desempenho físico.</p><p><strong>Rotina de treinamento:</strong> Combine o uso do Testo Black com uma rotina de exercícios regulares para potencializar os efeitos do suplemento e maximizar os ganhos em força e resistência.</p><p><strong>Acompanhe os resultados:</strong> Após algumas semanas de uso contínuo, observe as melhorias na força, resistência e vitalidade geral, acompanhando a evolução do seu desempenho físico e bem-estar.</p>",
       advertencias: "<p>Não deve ser utilizado por mulheres, sendo indicado, conforme as informações fornecidas, para uso exclusivo por homens. Não se deve utilizar Ginseng no curso de enfermidades agudas, trombose coronária, doenças cardíacas severas e hemorragias. Pessoas com hipersensibilidade nervosa, esquizofrenia ou histeria devem ter atenção especial.</p><p>Deverão ser tomados cuidados em caso de hipertensão arterial, terapias estrogênicas e diabetes. Alguns ativos podem interagir com medicamentos ou condições de saúde específicas. A administração de Tadalafil a pacientes em uso de qualquer forma de nitrato orgânico é contraindicada, pois pode potencializar os efeitos hipotensivos dos nitratos. A administração concomitante com antiácidos, como hidróxido de magnésio e hidróxido de alumínio, diminui a absorção de tadalafil.</p><p>Não deve ser usado em pacientes com insuficiência hepática ou renal grave. Tadalafil não é indicado para homens que não apresentam disfunção erétil. Pessoas com hipersensibilidade à substância não devem fazer uso do produto. Em caso de hipersensibilidade ao produto, recomenda-se descontinuar o uso e consultar o médico.</p><p>Não use o produto com o prazo de validade vencido. Manter em temperatura ambiente, entre 15 e 30ºC, protegido da luz, do calor e da umidade. Manter fora do alcance das crianças. Nunca compre um produto sem orientação de um profissional habilitado. Este produto não deve ser utilizado por mulheres grávidas sem orientação médica. O uso durante o período de amamentação também não é recomendado. Este produto não deve ser utilizado por menores de 18 anos sem orientação médica. Siga corretamente o modo de usar.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
     },
-    destaque: true,
+    destaque: false,
     mostrarlancamento: false,
     mostrarVideo: false,
     textoParcelamento: "🎟️ Cupom válido no carrinho. 💳 Consulte parcelamento no checkout",
@@ -1386,7 +1386,7 @@ const produtos = [
     promoCompreXPreco: 0.01,
     promoCompreXMensagemTag: "",
     promoCompreXOcultarTag: false,
-    promoCompreXValidade: "FALSE",
+    promoCompreXValidade: "",
   },
   {
     id: "57",
@@ -1437,7 +1437,7 @@ const produtos = [
       comoUsar: "<p>Utilize o produto <strong>conforme as instruções do fabricante ou orientação de profissional habilitado</strong>. Não altere a forma de utilização, dose ou frequência recomendada sem orientação profissional.</p>",
       advertencias: "<p>Uso conforme orientação do fabricante e de profissional habilitado. Por conter tadalafil, sua utilização deve ser realizada com <strong>orientação profissional adequada</strong>. Não utilize de forma diferente da recomendada na prescrição ou orientação recebida.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
     },
-    destaque: true,
+    destaque: false,
     mostrarlancamento: false,
     mostrarVideo: false,
     textoParcelamento: "🎟️ Cupom válido no carrinho. 💳 Consulte parcelamento no checkout",
@@ -1452,7 +1452,7 @@ const produtos = [
     promoCompreXPreco: 0.01,
     promoCompreXMensagemTag: "",
     promoCompreXOcultarTag: false,
-    promoCompreXValidade: "FALSE",
+    promoCompreXValidade: "",
   },
   {
     id: "59",
@@ -1470,7 +1470,7 @@ const produtos = [
       comoUsar: "<p>Utilize o produto <strong>conforme as instruções do fabricante ou orientação de profissional habilitado</strong>. Não altere a dose, frequência ou forma de utilização recomendada sem orientação profissional.</p>",
       advertencias: "<p>Utilize o produto de acordo com as orientações do fabricante e, quando necessário, com acompanhamento de profissional habilitado. Não exceda a recomendação de uso indicada na embalagem ou orientação recebida.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
     },
-    destaque: true,
+    destaque: false,
     mostrarlancamento: false,
     mostrarVideo: false,
     textoParcelamento: "🎟️ Cupom válido no carrinho. 💳 Consulte parcelamento no checkout",
@@ -1485,7 +1485,7 @@ const produtos = [
     promoCompreXPreco: 0.01,
     promoCompreXMensagemTag: "",
     promoCompreXOcultarTag: false,
-    promoCompreXValidade: "FALSE",
+    promoCompreXValidade: "",
   },
   {
     id: "60",
@@ -1569,7 +1569,7 @@ const produtos = [
       comoUsar: "<p>Para resultados eficazes, recomenda-se o uso contínuo, ingerindo <strong>1 cápsula ao dia</strong> com um copo de água. O Long Jack pode ser tomado em dois momentos diferentes, dependendo dos seus objetivos: antes do treino, para otimizar o desempenho físico, ou ao acordar, para começar o dia com mais disposição e energia.</p><p><strong>A consistência é fundamental:</strong> utilize diariamente para manter os efeitos constantes. Com o uso contínuo, acompanhe os resultados relacionados aos níveis de energia, desempenho físico e mental e função sexual.</p>",
       advertencias: "<p>Utilize o produto conforme a posologia indicada. Em caso de dúvidas sobre o uso, recomenda-se buscar orientação de um profissional de saúde.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
     },
-    destaque: true,
+    destaque: false,
     mostrarlancamento: false,
     mostrarVideo: false,
     textoParcelamento: "🎟️ Cupom válido no carrinho. 💳 Consulte parcelamento no checkout",
@@ -1584,7 +1584,7 @@ const produtos = [
     promoCompreXPreco: 0.01,
     promoCompreXMensagemTag: "",
     promoCompreXOcultarTag: false,
-    promoCompreXValidade: "FALSE",
+    promoCompreXValidade: "",
   },
   {
     id: "63",
@@ -1635,7 +1635,7 @@ const produtos = [
       comoUsar: "<p>Utilize o produto <strong>conforme as instruções do fabricante</strong> ou de acordo com a orientação de médico, nutricionista ou outro profissional de saúde habilitado. Não altere a forma de utilização recomendada sem orientação profissional.</p>",
       advertencias: "<p>Este produto deve ser utilizado de acordo com sua finalidade e orientação de uso. <strong>Não exceda a recomendação de uso</strong> indicada pelo fabricante ou profissional de saúde. Mantenha fora do alcance de crianças e conserve o produto conforme as orientações de armazenamento da embalagem.</p><p>Em caso de dúvidas sobre a utilização, especialmente durante períodos de gestação, amamentação ou diante de condições específicas de saúde, procure orientação de um profissional de saúde antes do uso.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
     },
-    destaque: true,
+    destaque: false,
     mostrarlancamento: false,
     mostrarVideo: false,
     textoParcelamento: "🎟️ Cupom válido no carrinho. 💳 Consulte parcelamento no checkout",
@@ -1796,7 +1796,7 @@ const produtos = [
     descricao: {
       resumo: "<p><strong>TPC com Clomifeno</strong> é uma fórmula desenvolvida para auxiliar na <strong>recuperação e equilíbrio hormonal masculino</strong>, oferecendo suporte à produção natural de testosterona, libido, disposição, próstata e metabolismo.</p>",
       oQueE: "<p>O <strong>TPC com Clomifeno</strong> é uma fórmula composta por ativos selecionados para oferecer suporte ao <strong>equilíbrio hormonal masculino</strong>, especialmente em situações relacionadas à redução da produção natural de testosterona.</p><p>Sua finalidade é <strong>auxiliar na recuperação do equilíbrio hormonal</strong>, contribuindo para o suporte à produção natural de testosterona, à libido e à disposição, além de oferecer componentes voltados ao suporte da próstata, função urinária, fígado e metabolismo.</p><p>Pode ser indicado para <strong>homens que necessitam de suporte à recuperação e ao equilíbrio hormonal</strong>, conforme avaliação e orientação de profissional habilitado. A utilização de seus componentes hormonais deve ser acompanhada por orientação profissional.</p>",
-      composicao: "<ul>\n<li>Silimarina — 150MG</li>\n<li>Pygeum Africanum — 80MG</li>\n<li>Indol 3 Carbinol — 30MG</li>\n<li>Urtiga Dioica Extrato Seco — 80MG</li>\n<li>Tribulus Terrestris L. — 200MG</li>\n<li>Metionina — 50MG</li>\n<li>Tamoxifeno Citrato — 10MG</li>\n<li>Clomifeno Cloridrato — 50MG</li>\n</ul><p><strong>Apresentação:</strong> 60 Cápsulas</p>",
+      composicao: "<ul>\n<li>Silimarina — 150MG</li>\n<li>Pygeum Africanum — 80MG</li>\n<li>Indol 3 Carbinol — 30MG</li>\n<li>Urtiga Dioica Extrato Seco — 80MG</li>\n<li>Tribulus Terrestris L. — 200MG</li>\n<li>Metionina — 50MG</li>\n<li>Tamoxifeno Citrato — 10MG</li>\n<li>Clomifeno Cloridrato — 50MG</li>\n</ul><p><strong>Apresentaç��o:</strong> 60 Cápsulas</p>",
       comoUsar: "<p>Utilize o produto <strong>conforme as instruções do fabricante ou orientação de profissional habilitado</strong>. Não utilize por conta própria nem altere a forma de uso recomendada.</p>",
       advertencias: "<p>Este produto deve ser utilizado de acordo com as orientações do fabricante ou de profissional habilitado. Em caso de dúvidas sobre sua utilização, procure orientação profissional.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
     },
@@ -1833,7 +1833,7 @@ const produtos = [
       comoUsar: "<p>Utilize o produto <strong>conforme as instruções do fabricante ou orientação de profissional habilitado</strong>. Não altere a forma de uso recomendada e, em caso de dúvidas, procure orientação profissional.</p>",
       advertencias: "<p>O uso do produto é contraindicado para pessoas com <strong>cálculo biliar, obstrução dos ductos biliares ou úlcera gastroduodenal</strong>, bem como para pessoas com hipersensibilidade à substância. Não deve ser utilizado simultaneamente com anticoagulantes sem orientação profissional.</p><p>Em caso de hipersensibilidade ao produto, recomenda-se descontinuar o uso e consultar um médico. Este produto não deve ser utilizado por mulheres grávidas ou durante o período de amamentação sem orientação médica. Não deve ser utilizado por menores de 18 anos sem orientação médica.</p><p>Não use o produto com o prazo de validade vencido. Manter em temperatura ambiente (15 a 30ºC), protegido da luz, do calor e da umidade e fora do alcance das crianças. Nunca compre medicamento sem orientação de um profissional habilitado. Siga corretamente o modo de usar. Imagens meramente ilustrativas.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
     },
-    destaque: true,
+    destaque: false,
     mostrarlancamento: false,
     mostrarVideo: false,
     textoParcelamento: "🎟️ Cupom válido no carrinho. 💳 Consulte parcelamento no checkout",
@@ -1848,7 +1848,7 @@ const produtos = [
     promoCompreXPreco: 0.01,
     promoCompreXMensagemTag: "",
     promoCompreXOcultarTag: false,
-    promoCompreXValidade: "FALSE",
+    promoCompreXValidade: "",
   },
   {
     id: "72",
@@ -1930,9 +1930,9 @@ const produtos = [
       oQueE: "<p>O <strong>Fome Control</strong> é um suplemento alimentar em cápsulas que combina diferentes ativos, como Garcinia Cambogia, Gymnema Silvestre, Vanádio Quelato, Picolinato de Cromo e Psyllium.</p><p>Sua formulação foi desenvolvida para auxiliar na <strong>redução da vontade por doces</strong>, no aumento da saciedade e no controle do apetite, além de contribuir como suporte aos objetivos relacionados ao controle do peso e à redução de gordura corporal.</p><p>É indicado para <strong>homens e mulheres</strong> que estejam buscando apoio durante processos de emagrecimento e reeducação alimentar, especialmente aqueles que desejam controlar o apetite, aumentar a saciedade e diminuir a vontade de consumir doces.</p>",
       composicao: "<ul>\n<li>GARCINIA CAMBOGIA EXTRATO — 400MG</li>\n<li>GYMNEMA SILVESTRE — 200MG</li>\n<li>VANADIO QUELATO — 55MCG</li>\n<li>PICOLINATO DE CROMO — 200MCG</li>\n<li>PSYLLIUM — 300MG</li>\n</ul><p><strong>Apresentação:</strong> 30 Cápsulas</p>",
       comoUsar: "<p>Tomar <strong>1 dose (2 cápsulas) ao dia</strong>, com água.</p>",
-      advertencias: "<p>Pessoas com hipersensibilidade à substância não devem fazer uso do produto. Em caso de hipersensibilidade ao produto, recomenda-se descontinuar o uso e consultar o médico. Não use o produto com o prazo de validade vencido. Manter em temperatura ambiente (15 a 30ºC), protegido da luz, do calor e da umidade, e fora do alcance das crianças.</p><p>Nunca compre medicamento sem orientação de um profissional habilitado. Este produto não deve ser utilizado por mulheres grávidas sem orientação médica. O uso do produto durante o período de amamentação também não é recomendado. Este produto não deve ser utilizado por menores de 18 anos sem orientação médica. Siga corretamente o modo de usar e, não desaparecendo os sintomas, procure orientação médica.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
+      advertencias: "<p>Pessoas com hipersensibilidade à substância não devem fazer uso do produto. Em caso de hipersensibilidade ao produto, recomenda-se descontinuar o uso e consultar o médico. Não use o produto com o prazo de validade vencido. Manter em temperatura ambiente (15 a 30ºC), protegido da luz, do calor e da umidade, e fora do alcance das crianças.</p><p>Nunca compre medicamento sem orientação de um profissional habilitado. Este produto não deve ser utilizado por mulheres grávidas sem orientação médica. O uso do produto durante o período de amamentação também não é recomendado. Este produto não deve ser utilizado por menores de 18 anos sem orientação médica. Siga corretamente o modo de usar e, não desaparecendo os sintomas, procure orientação médica.</p><p>SE PERSISTIREM OS SINTOMAS, O M��DICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
     },
-    destaque: true,
+    destaque: false,
     mostrarlancamento: false,
     mostrarVideo: false,
     textoParcelamento: "🎟️ Cupom válido no carrinho. 💳 Consulte parcelamento no checkout",
@@ -1947,7 +1947,7 @@ const produtos = [
     promoCompreXPreco: 0.01,
     promoCompreXMensagemTag: "",
     promoCompreXOcultarTag: false,
-    promoCompreXValidade: "FALSE",
+    promoCompreXValidade: "",
   },
   {
     id: "75",
@@ -2124,7 +2124,7 @@ const produtos = [
       
     ],
     descricao: {
-      resumo: "<p>A <strong>Própolis 500mg</strong> é uma fórmula desenvolvida para complementar a rotina de cuidados com o organismo, oferecendo suporte às <strong>defesas naturais</strong> e à proteção antioxidante.</p>",
+      resumo: "<p>A <strong>Própolis 500mg</strong> é uma fórmula desenvolvida para complementar a rotina de cuidados com o organismo, oferecendo suporte às <strong>defesas naturais</strong> e à prote��ão antioxidante.</p>",
       oQueE: "<p>A <strong>Própolis 500mg</strong> é um suplemento em cápsulas à base de extrato de própolis verde, uma substância resinosa produzida pelas abelhas a partir de materiais vegetais.</p><p>O produto fornece <strong>500mg de extrato de própolis verde</strong> e é utilizado como suporte antioxidante e ao funcionamento adequado do sistema imunológico, além de contribuir para a manutenção do bem-estar geral.</p><p>Pode ser indicada para adultos que buscam complementar a rotina de cuidados com a saúde e o aporte de compostos presentes na própolis, especialmente aqueles interessados em <strong>suporte antioxidante e imunológico</strong>. A utilização deve considerar a orientação de um profissional de saúde quando necessário.</p>",
       composicao: "<ul>\n<li>PROPOLIS VERDE EXTRATO — 500MG</li>\n</ul><p><strong>Apresentação:</strong> 60 Cápsulas</p>",
       comoUsar: "<p>Tomar <strong>1 ou 2 cápsulas ao dia</strong> ou conforme a orientação profissional.</p>",
@@ -2328,7 +2328,7 @@ const produtos = [
       comoUsar: "<p>Utilize o produto exclusivamente conforme as <strong>instruções do fabricante</strong> ou de acordo com a orientação de profissional habilitado. Não utilize dose, frequência ou horário diferentes daqueles recomendados para o produto.</p>",
       advertencias: "<p>Pessoas com hipersensibilidade à substância não devem fazer uso do produto. Em caso de hipersensibilidade ao produto, recomenda-se descontinuar o uso e consultar o médico. Não use o produto com o prazo de validade vencido. Manter em temperatura ambiente (15 a 30ºC), protegido da luz, do calor e da umidade e fora do alcance das crianças. Nunca compre medicamento sem orientação de um profissional habilitado. Este produto não deve ser utilizado por mulheres grávidas sem orientação médica. Siga corretamente o modo de usar. O uso do produto durante o período de amamentação também não é recomendado. Este produto não deve ser utilizado por menores de 18 anos sem orientação médica.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
     },
-    destaque: true,
+    destaque: false,
     mostrarlancamento: false,
     mostrarVideo: false,
     textoParcelamento: "🎟️ Cupom válido no carrinho. 💳 Consulte parcelamento no checkout",
@@ -2343,7 +2343,7 @@ const produtos = [
     promoCompreXPreco: 0.01,
     promoCompreXMensagemTag: "",
     promoCompreXOcultarTag: false,
-    promoCompreXValidade: "FALSE",
+    promoCompreXValidade: "",
   },
   {
     id: "87",
@@ -2460,7 +2460,7 @@ const produtos = [
       comoUsar: "<p>Utilize o produto <strong>conforme as instruções do fabricante</strong> ou de acordo com a orientação de um profissional de saúde. Não altere a forma de utilização recomendada.</p>",
       advertencias: "<p>Este produto é destinado à <strong>suplementação nutricional</strong> e não substitui uma alimentação equilibrada. Utilize conforme as orientações do fabricante. Em caso de dúvidas sobre a utilização ou sobre a necessidade de suplementação, procure orientação de um profissional de saúde.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
     },
-    destaque: true,
+    destaque: false,
     mostrarlancamento: false,
     mostrarVideo: false,
     textoParcelamento: "🎟️ Cupom válido no carrinho. 💳 Consulte parcelamento no checkout",
@@ -2493,7 +2493,7 @@ const produtos = [
       comoUsar: "<p>Tomar <strong>1 cápsula duas vezes ao dia</strong>, preferencialmente antes do almoço e do jantar.</p>",
       advertencias: "<p>A administração de colágeno hidrolisado em pó não é recomendada para pessoas portadoras de doenças renais e hepáticas, com níveis elevados de ácido úrico ou gota. Pessoas com hipersensibilidade à substância não devem usar o produto. Em caso de hipersensibilidade ao produto, recomenda-se descontinuar o uso e consultar o médico.</p><p>Não use o produto com o prazo de validade vencido. Manter em temperatura ambiente (15 a 30ºC), protegido da luz, do calor e da umidade. Manter fora do alcance das crianças.</p><p>Este produto não deve ser utilizado por mulheres grávidas sem orientação médica. O uso durante o período de amamentação também não é recomendado. Este produto não deve ser utilizado por menores de 18 anos sem orientação médica. Siga corretamente o modo de usar. Nunca compre um produto sem orientação de um profissional habilitado. Não desaparecendo os sintomas, procure orientação médica.</p><p>Imagens meramente ilustrativas. Nestas condições de armazenamento, o produto se manterá próprio para o consumo, respeitando o prazo de validade indicado na embalagem.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
     },
-    destaque: true,
+    destaque: false,
     mostrarlancamento: false,
     mostrarVideo: false,
     textoParcelamento: "🎟️ Cupom válido no carrinho. 💳 Consulte parcelamento no checkout",
@@ -2508,7 +2508,7 @@ const produtos = [
     promoCompreXPreco: 0.01,
     promoCompreXMensagemTag: "",
     promoCompreXOcultarTag: false,
-    promoCompreXValidade: "FALSE",
+    promoCompreXValidade: "",
   },
   {
     id: "92",
@@ -2625,7 +2625,7 @@ const produtos = [
       comoUsar: "<p>Para resultados eficazes, recomenda-se o uso contínuo com a ingestão de <strong>4 cápsulas ao dia</strong>. Siga o passo a passo para maximizar os benefícios:</p><p><strong>Uso Diário:</strong> Tome 4 cápsulas do Termogênico Abelhinha com água, ajustando o horário de acordo com sua rotina de treinos.</p><p><strong>Caso treine no período da tarde:</strong> 2 cápsulas pela manhã e 2 cápsulas antes do treino.</p><p><strong>Caso treine no período da manhã:</strong> 2 cápsulas antes do treino e 2 cápsulas antes do café da manhã.</p><p><strong>Para treinos mais intensos:</strong> Tomar as 4 cápsulas antes do treino.</p><p><strong>Consistência:</strong> Use diariamente para garantir uma ação constante na queima de calorias, aceleração do metabolismo e melhora do desempenho físico.</p><p><strong>Acompanhe os Resultados:</strong> Com o uso contínuo, você começará a perceber melhorias na definição corporal, aumento da energia e foco durante os treinos.</p>",
       advertencias: "<p>Este produto deve ser utilizado conforme a orientação de uso indicada e não substitui uma alimentação equilibrada nem a prática de hábitos saudáveis. <strong>O uso deve considerar as necessidades individuais e a orientação de um profissional de saúde quando necessário.</strong></p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
     },
-    destaque: true,
+    destaque: false,
     mostrarlancamento: false,
     mostrarVideo: false,
     textoParcelamento: "🎟️ Cupom válido no carrinho. 💳 Consulte parcelamento no checkout",
@@ -2889,7 +2889,7 @@ const produtos = [
       comoUsar: "<p>Utilize o produto conforme as <strong>instruções do fabricante</strong> ou de acordo com a orientação de um profissional habilitado. Não altere a forma de utilização recomendada na embalagem ou pelo profissional responsável.</p>",
       advertencias: "<p>Este produto deve ser utilizado conforme as orientações do fabricante. Mantenha fora do alcance de crianças e conserve de acordo com as condições indicadas na embalagem. Em caso de dúvidas sobre o uso, procure orientação de um profissional de saúde.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
     },
-    destaque: true,
+    destaque: false,
     mostrarlancamento: false,
     mostrarVideo: false,
     textoParcelamento: "🎟️ Cupom válido no carrinho. 💳 Consulte parcelamento no checkout",
@@ -3016,7 +3016,7 @@ const produtos = [
     ],
     descricao: {
       resumo: "<p>ORLISTAT 120 mg é um medicamento utilizado como parte de estratégias de <strong>controle e redução de peso</strong>, atuando na diminuição da absorção de parte das gorduras provenientes da alimentação.</p>",
-      oQueE: "<p>ORLISTAT 120 mg é uma formulação que contém <strong>Orlistat</strong>, ativo que atua no trato gastrointestinal reduzindo a absorção de parte da gordura ingerida nas refeições.</p><p>Sua finalidade é auxiliar no <strong>controle do peso</strong> em conjunto com uma alimentação adequada e estratégias de emagrecimento, contribuindo para a redução da quantidade de gordura absorvida pelo organismo.</p><p>Pode ser indicado para pessoas que necessitam de <strong>auxílio no controle do peso</strong>, especialmente como parte de uma estratégia de emagrecimento orientada por profissional habilitado.</p>",
+      oQueE: "<p>ORLISTAT 120 mg �� uma formulação que contém <strong>Orlistat</strong>, ativo que atua no trato gastrointestinal reduzindo a absorção de parte da gordura ingerida nas refeições.</p><p>Sua finalidade é auxiliar no <strong>controle do peso</strong> em conjunto com uma alimentação adequada e estratégias de emagrecimento, contribuindo para a redução da quantidade de gordura absorvida pelo organismo.</p><p>Pode ser indicado para pessoas que necessitam de <strong>auxílio no controle do peso</strong>, especialmente como parte de uma estratégia de emagrecimento orientada por profissional habilitado.</p>",
       composicao: "<ul>\n<li>ORLISTAT — 120MG</li>\n</ul><p><strong>Apresentação:</strong> 30 Cápsulas</p>",
       comoUsar: "<p>A dose indicada é de <strong>1 cápsula, 2 vezes ao dia</strong>, antes ou durante as refeições, especificamente no almoço e no jantar.</p><p>Doses superiores a <strong>360 mg por dia (3 cápsulas/dia)</strong> não apresentam eficácia superior, por isso, não estão indicadas.</p>",
       advertencias: "<p>Utilize o produto conforme orientação de profissional habilitado e siga corretamente a forma de uso recomendada. Não utilize doses superiores às indicadas. Em caso de dúvidas sobre o tratamento ou sobre a utilização do produto, procure orientação médica.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
@@ -3049,12 +3049,12 @@ const produtos = [
     ],
     descricao: {
       resumo: "<p>A N-Acetilcisteína (NAC) 600 mg é uma fórmula desenvolvida para complementar cuidados com a <strong>proteção antioxidante e a saúde respiratória</strong>, fornecendo um precursor da glutationa.</p>",
-      oQueE: "<p>A N-Acetilcisteína (NAC) é um composto utilizado como precursor da <strong>glutationa</strong>, um importante antioxidante produzido pelo organismo. A fórmula fornece 600 mg de N-Acetilcisteína por cápsula.</p><p>Sua finalidade é complementar estratégias voltadas à <strong>defesa antioxidante e ao bem-estar respiratório</strong>. A NAC também apresenta propriedades mucolíticas, contribuindo para a fluidificação das secreções respiratórias.</p><p>Pode ser indicada para pessoas que buscam <strong>suporte antioxidante e respiratório</strong>, incluindo praticantes de atividades físicas que desejam complementar sua rotina de cuidados. Seu uso deve considerar as necessidades individuais e orientação de profissional habilitado.</p>",
+      oQueE: "<p>A N-Acetilcisteína (NAC) é um composto utilizado como precursor da <strong>glutationa</strong>, um importante antioxidante produzido pelo organismo. A fórmula fornece 600 mg de N-Acetilcisteína por cápsula.</p><p>Sua finalidade é complementar estrat��gias voltadas à <strong>defesa antioxidante e ao bem-estar respiratório</strong>. A NAC também apresenta propriedades mucolíticas, contribuindo para a fluidificação das secreções respiratórias.</p><p>Pode ser indicada para pessoas que buscam <strong>suporte antioxidante e respiratório</strong>, incluindo praticantes de atividades físicas que desejam complementar sua rotina de cuidados. Seu uso deve considerar as necessidades individuais e orientação de profissional habilitado.</p>",
       composicao: "<ul>\n<li>N ACETIL CISTEINA — 600MG</li>\n</ul><p><strong>Apresentação:</strong> 60 Cápsulas</p>",
       comoUsar: "<p>Tomar <strong>1 cápsula ao dia</strong>. O consumo da N-Acetilcisteína (NAC) deve ser feito em conjunto com água.</p><p>A cápsula pode ser tomada <strong>em jejum</strong> ou <strong>após o almoço</strong>, conforme a orientação fornecida.</p>",
       advertencias: "<p>Pessoas com hipersensibilidade à substância não devem fazer uso do produto. Em caso de hipersensibilidade ao produto, recomenda-se descontinuar o uso e consultar o médico. Não use o produto com o prazo de validade vencido. Manter em temperatura ambiente (15 a 30ºC), protegido da luz, do calor e da umidade. Manter fora do alcance das crianças. Nunca compre um produto sem orientação de um profissional habilitado. Este produto não deve ser utilizado por mulheres grávidas sem orientação médica. O uso durante o período de amamentação e por menores de 18 anos deve ocorrer somente mediante orientação médica. Siga corretamente o modo de usar.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
     },
-    destaque: true,
+    destaque: false,
     mostrarlancamento: false,
     mostrarVideo: false,
     textoParcelamento: "🎟️ Cupom válido no carrinho. 💳 Consulte parcelamento no checkout",
@@ -3115,7 +3115,7 @@ const produtos = [
     ],
     descricao: {
       resumo: "<p>A <strong>Metilcobalamina 1000mcg Sublingual</strong> é uma fórmula de vitamina B12 desenvolvida para complementar a ingestão desse nutriente, contribuindo para funções importantes do organismo, como o metabolismo energético e o funcionamento do sistema nervoso.</p>",
-      oQueE: "<p>A Metilcobalamina 1000mcg é uma fórmula de <strong>vitamina B12 na forma de metilcobalamina</strong>, apresentada em cápsulas sublinguais e desenvolvida para complementar a ingestão desse nutriente na rotina.</p><p>A vitamina B12 contribui para o <strong>metabolismo energético</strong>, o funcionamento normal do sistema nervoso e a formação das células vermelhas do sangue. Também participa do metabolismo de proteínas e carboidratos.</p><p>É indicada para pessoas que necessitam complementar a ingestão de <strong>vitamina B12</strong>, especialmente quando houver orientação profissional para suplementação desse nutriente.</p>",
+      oQueE: "<p>A Metilcobalamina 1000mcg é uma fórmula de <strong>vitamina B12 na forma de metilcobalamina</strong>, apresentada em cápsulas sublinguais e desenvolvida para complementar a ingestão desse nutriente na rotina.</p><p>A vitamina B12 contribui para o <strong>metabolismo energético</strong>, o funcionamento normal do sistema nervoso e a formação das células vermelhas do sangue. Também participa do metabolismo de proteínas e carboidratos.</p><p>É indicada para pessoas que necessitam complementar a ingestão de <strong>vitamina B12</strong>, especialmente quando houver orientaç��o profissional para suplementação desse nutriente.</p>",
       composicao: "<ul>\n<li>METILCOBALAMINA — 1000MCG</li>\n<li>SUBLINGUAL TAPIOCA CAPS — MG</li>\n</ul><p><strong>Apresentação:</strong> 30 Cápsulas Sublingual</p>",
       comoUsar: "<p>Utilizar conforme as <strong>instruções do fabricante</strong> ou de acordo com a orientação de profissional habilitado. Não altere a forma de uso recomendada sem orientação profissional.</p>",
       advertencias: "<p>Este produto deve ser utilizado de acordo com as orientações fornecidas pelo fabricante ou por profissional habilitado. Em caso de dúvidas sobre a utilização, procure orientação profissional.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
@@ -3285,7 +3285,7 @@ const produtos = [
       comoUsar: "<p>Tomar <strong>2 cápsulas ao dia</strong>, sendo 1 cápsula antes do almoço e 1 cápsula antes de dormir, ou conforme orientação profissional.</p>",
       advertencias: "<p>Utilize o produto conforme a orientação de uso. Em caso de dúvidas sobre a utilização ou necessidade de suplementação, procure orientação de um profissional de saúde.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
     },
-    destaque: true,
+    destaque: false,
     mostrarlancamento: false,
     mostrarVideo: false,
     textoParcelamento: "🎟️ Cupom válido no carrinho. 💳 Consulte parcelamento no checkout",
@@ -3318,7 +3318,7 @@ const produtos = [
       comoUsar: "<p>Tomar <strong>1 cápsula duas vezes ao dia</strong>, ou conforme orientação de profissional habilitado.</p>",
       advertencias: "<p>Utilize o produto conforme a orientação de uso. Em caso de dúvidas sobre a utilização ou necessidade de suplementação, procure orientação de um profissional habilitado.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
     },
-    destaque: true,
+    destaque: false,
     mostrarlancamento: false,
     mostrarVideo: false,
     textoParcelamento: "🎟️ Cupom válido no carrinho. 💳 Consulte parcelamento no checkout",
@@ -3351,7 +3351,7 @@ const produtos = [
       comoUsar: "<p>Tomar de <strong>1 a 3 cápsulas diariamente</strong> com um copo de água.</p><p>Para obter os benefícios do Magnésio Dimalato, é importante seguir a dosagem recomendada e incorporá-lo à sua rotina diária.</p>",
       advertencias: "<p>Utilize o produto conforme a orientação de uso. Em caso de dúvidas sobre a utilização ou necessidade de suplementação, procure orientação de um profissional de saúde.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
     },
-    destaque: true,
+    destaque: false,
     mostrarlancamento: false,
     mostrarVideo: false,
     textoParcelamento: "🎟️ Cupom válido no carrinho. 💳 Consulte parcelamento no checkout",
@@ -3379,7 +3379,7 @@ const produtos = [
     ],
     descricao: {
       resumo: "<p><strong>Magnésio Glicinato 250 mg</strong> é uma fonte de magnésio em uma forma geralmente bem tolerada, desenvolvida para complementar a ingestão desse mineral e auxiliar em funções importantes do organismo.</p>",
-      oQueE: "<p>O <strong>Magnésio Glicinato 250 mg</strong> é uma forma de magnésio ligada ao aminoácido glicina, utilizada como fonte desse mineral essencial para o organismo.</p><p>O magnésio auxilia no <strong>funcionamento normal do sistema nervoso e muscular</strong>, participa do metabolismo energético, contribui para a redução do cansaço e da fadiga e auxilia na manutenção do equilíbrio eletrolítico, além de contribuir para a manutenção de ossos e dentes.</p><p>É recomendado para pessoas que desejam <strong>complementar a ingestão de magnésio</strong>, especialmente quando a alimentação não fornece quantidade suficiente desse mineral, sempre considerando as orientações do fabricante ou de um profissional de saúde.</p>",
+      oQueE: "<p>O <strong>Magnésio Glicinato 250 mg</strong> é uma forma de magn��sio ligada ao aminoácido glicina, utilizada como fonte desse mineral essencial para o organismo.</p><p>O magnésio auxilia no <strong>funcionamento normal do sistema nervoso e muscular</strong>, participa do metabolismo energético, contribui para a redução do cansaço e da fadiga e auxilia na manutenção do equilíbrio eletrolítico, além de contribuir para a manutenção de ossos e dentes.</p><p>É recomendado para pessoas que desejam <strong>complementar a ingestão de magnésio</strong>, especialmente quando a alimentação não fornece quantidade suficiente desse mineral, sempre considerando as orientações do fabricante ou de um profissional de saúde.</p>",
       composicao: "<ul>\n<li>Magnésio Glicinato — 250 mg</li>\n</ul><p><strong>Apresentação:</strong> 30 Cápsulas</p>",
       comoUsar: "<p>Utilize o produto conforme as <strong>instruções do fabricante</strong> presentes na embalagem ou de acordo com a orientação de um profissional de saúde. Não exceda a recomendação indicada.</p>",
       advertencias: "<p>Este produto deve ser utilizado de acordo com as orientações do fabricante. Em caso de dúvidas sobre o uso, procure orientação de um profissional de saúde.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
@@ -3450,7 +3450,7 @@ const produtos = [
       comoUsar: "<p>Utilize o produto conforme as <strong>instruções do fabricante</strong> presentes na embalagem ou de acordo com a orientação de um profissional de saúde. Não exceda a recomendação indicada.</p>",
       advertencias: "<p>Este produto deve ser utilizado de acordo com as orientações do fabricante. Em caso de dúvidas sobre o uso, procure orientação de um profissional de saúde.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
     },
-    destaque: true,
+    destaque: false,
     mostrarlancamento: false,
     mostrarVideo: false,
     textoParcelamento: "🎟️ Cupom válido no carrinho. 💳 Consulte parcelamento no checkout",
@@ -3483,10 +3483,10 @@ const produtos = [
       comoUsar: "<p>Utilize o produto conforme as <strong>instruções do fabricante</strong> presentes na embalagem ou de acordo com a orientação de um profissional de saúde. Não exceda a recomendação indicada.</p>",
       advertencias: "<p>Este produto deve ser utilizado de acordo com as orientações do fabricante. Em caso de dúvidas sobre o uso, procure orientação de um profissional de saúde.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
     },
-    destaque: true,
+    destaque: false,
     mostrarlancamento: false,
     mostrarVideo: false,
-    textoParcelamento: "����️ Cupom válido no carrinho. 💳 Consulte parcelamento no checkout",
+    textoParcelamento: "🎟️ Cupom válido no carrinho. 💳 Consulte parcelamento no checkout",
     cupomAtivo: false,
     cupomPorcentagem: 0,
     cupomCodigo: "",
@@ -3516,7 +3516,7 @@ const produtos = [
       comoUsar: "<p>Solubilizar <strong>1 sachê em 150ml de água</strong> e tomar 1 vez ao dia. Consumir imediatamente após o preparo.</p>",
       advertencias: "<p>Utilize o produto conforme a orientação de uso indicada. Em situações que necessitem de acompanhamento profissional, recomenda-se orientação de médico ou nutricionista.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
     },
-    destaque: true,
+    destaque: false,
     mostrarlancamento: false,
     mostrarVideo: false,
     textoParcelamento: "🎟️ Cupom válido no carrinho. 💳 Consulte parcelamento no checkout",
@@ -3549,7 +3549,7 @@ const produtos = [
       comoUsar: "<p>Solubilizar <strong>1 sachê em 150ml de água</strong> e tomar 1 vez ao dia. Consumir imediatamente após o preparo.</p>",
       advertencias: "<p>Utilize o produto conforme a orientação de uso indicada. Em situações que necessitem de acompanhamento profissional, recomenda-se orientação de médico ou nutricionista.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
     },
-    destaque: true,
+    destaque: false,
     mostrarlancamento: false,
     mostrarVideo: false,
     textoParcelamento: "🎟️ Cupom válido no carrinho. 💳 Consulte parcelamento no checkout",
@@ -4303,7 +4303,7 @@ const produtos = [
     ],
     descricao: {
       resumo: "<p>Mind Clean Clareza Mental é uma fórmula nutricional composta por <strong>L-teanina, Rhodiola rosea, metilcobalamina, Bacopa monnieri e hexanicotinato de inositol</strong>, desenvolvida para complementar a rotina de cuidados com foco em clareza mental e bem-estar.</p>",
-      oQueE: "<p>Mind Clean Clareza Mental é um suplemento alimentar em cápsulas que reúne ingredientes selecionados para complementar a ingest��o de nutrientes e compostos utilizados em formulações voltadas ao <strong>bem-estar mental e à rotina cognitiva</strong>.</p><p>Sua finalidade é oferecer suporte nutricional à rotina de pessoas que buscam manter <strong>clareza, equilíbrio e bem-estar mental</strong>, sem substituir uma alimentação equilibrada ou cuidados profissionais.</p><p>É indicado para adultos que desejam complementar sua rotina com uma fórmula composta por L-teanina, Rhodiola rosea, metilcobalamina, Bacopa monnieri e hexanicotinato de inositol, especialmente dentro de uma rotina que valorize <strong>atenção ao bem-estar e à qualidade de vida</strong>.</p>",
+      oQueE: "<p>Mind Clean Clareza Mental é um suplemento alimentar em cápsulas que reúne ingredientes selecionados para complementar a ingestão de nutrientes e compostos utilizados em formulações voltadas ao <strong>bem-estar mental e à rotina cognitiva</strong>.</p><p>Sua finalidade é oferecer suporte nutricional à rotina de pessoas que buscam manter <strong>clareza, equilíbrio e bem-estar mental</strong>, sem substituir uma alimentação equilibrada ou cuidados profissionais.</p><p>É indicado para adultos que desejam complementar sua rotina com uma fórmula composta por L-teanina, Rhodiola rosea, metilcobalamina, Bacopa monnieri e hexanicotinato de inositol, especialmente dentro de uma rotina que valorize <strong>atenção ao bem-estar e à qualidade de vida</strong>.</p>",
       composicao: "<ul>\n<li>L-Teanina — MG</li>\n<li>Rhodiola Rosea — MG</li>\n<li>Metilcobalamina — MCG</li>\n<li>Bacopa Monnieri — MG</li>\n<li>Hexanicotinato de Inositol — MG</li>\n</ul><p><strong>Apresentação:</strong> 30 Cápsulas</p>",
       comoUsar: "<p>Utilize o produto conforme as <strong>instruções do fabricante</strong> presentes na embalagem ou de acordo com a orientação de um profissional habilitado. Não ultrapasse a recomendação indicada.</p>",
       advertencias: "<p>Este produto é um suplemento alimentar e não substitui uma alimentação equilibrada nem hábitos de vida saudáveis. Mantenha fora do alcance de crianças. Em caso de dúvidas sobre o uso, procure orientação de um profissional de saúde.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
@@ -4369,7 +4369,7 @@ const produtos = [
     ],
     descricao: {
       resumo: "<p>Coenzima Q10 100mg é um suplemento desenvolvido para complementar a rotina de cuidados com <strong>energia, vitalidade e proteção antioxidante</strong>, fornecendo 100mg de Coenzima Q10 por cápsula.</p>",
-      oQueE: "<p>A Coenzima Q10 é uma substância naturalmente encontrada no organismo e relacionada aos processos de produção de energia celular. Com o passar dos anos, sua presença pode diminuir, tornando a suplementação uma opção para complementar a ingestão desse composto.</p><p>O produto é destinado à suplementação de Coenzima Q10, contribuindo para uma rotina voltada à <strong>vitalidade e proteção antioxidante</strong>. Sua composição concentra 100mg de Coenzima Q10 por cápsula.</p><p>É indicado para adultos que desejam complementar sua rotina com Coenzima Q10, especialmente aqueles que buscam suporte nutricional relacionado à <strong>energia e ao bem-estar geral</strong>, respeitando suas necessidades individuais e orientação profissional quando necessária.</p>",
+      oQueE: "<p>A Coenzima Q10 é uma substância naturalmente encontrada no organismo e relacionada aos processos de produção de energia celular. Com o passar dos anos, sua presença pode diminuir, tornando a suplementação uma opção para complementar a ingestão desse composto.</p><p>O produto é destinado à suplementação de Coenzima Q10, contribuindo para uma rotina voltada à <strong>vitalidade e proteção antioxidante</strong>. Sua composi��ão concentra 100mg de Coenzima Q10 por cápsula.</p><p>É indicado para adultos que desejam complementar sua rotina com Coenzima Q10, especialmente aqueles que buscam suporte nutricional relacionado à <strong>energia e ao bem-estar geral</strong>, respeitando suas necessidades individuais e orientação profissional quando necessária.</p>",
       composicao: "<ul>\n<li>COENZIMA Q 10 PO — 100MG</li>\n</ul><p><strong>Apresentação:</strong> 30 Cápsulas</p>",
       comoUsar: "<p><strong>Tomar 2 cápsulas ao dia.</strong></p><p>O consumo da Coenzima Q10 deve ser feito por meio da ingestão das cápsulas com água.</p><p>Podendo ser:</p><p>Tomar 1 cápsula antes do almoço e 1 cápsula antes do jantar.</p><p>ou então</p><p>Tomar 1 cápsula ao acordar e 1 cápsula antes de dormir.</p>",
       advertencias: "<p>Utilize o produto conforme a orientação de uso indicada. Em caso de dúvidas sobre a utilização ou sobre a adequação do produto às suas necessidades individuais, procure orientação de um profissional de saúde.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
@@ -4786,6 +4786,171 @@ const produtos = [
     promoCompreXMensagemTag: "Compre 2 Leve +1",
     promoCompreXOcultarTag: false,
     promoCompreXValidade: "FALSE",
+  },
+  {
+    id: "161",
+    nome: "LIPEDEMA TINTURA - Solução 60ml",
+    categoria: "saude",
+    preco: 40.00,
+    imagem: "assets/img/lipedema-tintura-solucao-60ml-mvpin485.png",
+    videos: [
+      
+    ],
+    descricao: {
+      resumo: "<p>A <strong>LIPEDEMA TINTURA – Solução 60ml</strong> é uma preparação composta por extratos vegetais de Centella asiatica, Camellia sinensis e Equisetum arvense, tradicionalmente utilizados em cuidados relacionados à circulação, à ação antioxidante e ao equilíbrio de líquidos do organismo. Seu uso como complemento aos cuidados com o lipedema deve contar com orientação profissional.</p>",
+      oQueE: "<p>A <strong>LIPEDEMA TINTURA</strong> é uma preparação fitoterápica líquida que reúne três componentes de origem vegetal: Centella asiatica, Camellia sinensis (chá-verde) e Equisetum arvense (cavalinha). Sua composição combina plantas conhecidas por seus diferentes compostos naturais, estudados por suas propriedades antioxidantes e por possíveis efeitos relacionados à microcirculação e ao equilíbrio de líquidos.</p><p>A fórmula foi desenvolvida para integrar estratégias complementares de cuidado, com foco no <strong>suporte à circulação, na proteção antioxidante e nos cuidados relacionados à sensação de inchaço</strong>. Seus componentes apresentam propriedades tradicionalmente exploradas na fitoterapia, mas não há evidências clínicas suficientes para afirmar que a combinação trata o lipedema, reduz o tecido adiposo característico da condição ou impede sua progressão.</p><p>O produto pode ser considerado por <strong>adultos que buscam cuidados complementares relacionados ao lipedema e ao conforto das pernas</strong>, desde que haja avaliação e orientação de um profissional habilitado. A indicação deve considerar as condições individuais, os medicamentos em uso e a adequação da fórmula às necessidades de cada pessoa.</p>",
+      composicao: "<ul>\n  <li>TM CENTELA ASIATICA — ML</li>\n  <li>TM CAMELLIA SINENSIS — ML</li>\n  <li>TM EQUISETUM ARVENSE — ML</li>\n</ul><p><strong>Apresentação:</strong> Solução 60ml</p>",
+      comoUsar: "<p>Utilize o produto conforme as instruções do fabricante ou a orientação de um profissional habilitado. <strong>Não estabeleça a dose, a frequência ou a duração do uso por conta própria</strong>, pois esses parâmetros dependem da formulação e da avaliação individual.</p>",
+      advertencias: "<p>Utilize somente com orientação profissional. Informe ao profissional responsável sobre medicamentos em uso e condições de saúde preexistentes. A cavalinha pode influenciar a eliminação de líquidos e o equilíbrio de eletrólitos. Em caso de reação indesejada, interrompa o uso e procure orientação profissional. Este produto não substitui a avaliação médica nem os cuidados específicos para o lipedema. Mantenha fora do alcance de crianças e siga as orientações de conservação do fabricante.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
+    },
+    destaque: false,
+    mostrarlancamento: false,
+    mostrarVideo: false,
+    textoParcelamento: "🎟️ Cupom válido no carrinho. 💳 Consulte parcelamento no checkout",
+    cupomAtivo: false,
+    cupomPorcentagem: 0,
+    cupomCodigo: "",
+    cupomValidade: "",
+    cupomMensagemTag: "",
+    cupomOcultarTag: false,
+    promoCompreXAtivo: false,
+    promoCompreXQtd: 2,
+    promoCompreXPreco: 0.01,
+    promoCompreXMensagemTag: "",
+    promoCompreXOcultarTag: false,
+    promoCompreXValidade: "",
+  },
+  {
+    id: "162",
+    nome: "LIPEDEMA PRO BEAUTY - 30 Cápsulas",
+    categoria: "saude",
+    preco: 150.00,
+    imagem: "assets/img/lipedema-pro-beauty-30-capsulas-mvpixnls.png",
+    videos: [
+      
+    ],
+    descricao: {
+      resumo: "<p>O <strong>LIPEDEMA PRO BEAUTY – 30 Cápsulas</strong> combina nutrientes, vitaminas e compostos bioativos selecionados para integrar estratégias de cuidado nutricional, suporte ao metabolismo e proteção antioxidante. Uma fórmula que pode ser avaliada como complemento de um plano individualizado de cuidados relacionados ao lipedema, com orientação profissional.</p>",
+      oQueE: "<p>O <strong>LIPEDEMA PRO BEAUTY</strong> é uma fórmula em cápsulas que reúne ômega 3, ácido alfa-lipoico, hesperidina, vitaminas B3 e B6, trans-resveratrol, astaxantina, curcumina, piperina e outros ingredientes. Sua composição combina componentes estudados por suas propriedades antioxidantes e por sua participação em diferentes processos metabólicos do organismo.</p><p>A fórmula foi desenvolvida para integrar estratégias de <strong>suporte nutricional, metabolismo energético e proteção antioxidante</strong>. Seus componentes apresentam funções distintas no organismo, mas não há evidências clínicas suficientes para afirmar que essa combinação trata o lipedema, reduz o tecido adiposo característico da condição ou impede sua progressão.</p><p>O produto pode ser considerado por <strong>adultos que buscam complementar seus cuidados nutricionais</strong>, inclusive no contexto de um plano individualizado para pessoas com lipedema, desde que haja avaliação de um profissional habilitado. A indicação deve considerar as necessidades individuais, as condições de saúde e os medicamentos utilizados.</p>",
+      composicao: "<ul>\n  <li>OMEGA 3 PO — MG</li>\n  <li>DRENOW C — MG</li>\n  <li>ACIDO ALFA LIPOICO — MG</li>\n  <li>HESPERIDINA — MG</li>\n  <li>VIT B6 — MG</li>\n  <li>VIT B3 — MG</li>\n  <li>TRANS RESVERATROL EXTRATO — MG</li>\n  <li>ASTAXANTINA — MG</li>\n  <li>DIMPLESS — MG</li>\n  <li>CURCUMINA — MG</li>\n  <li>PIPERINA — MG</li>\n  <li>MAGNESIO GLICIL-GLUTAMINA — MG</li>\n</ul><p><strong>Apresentação:</strong> 30 Cápsulas</p>",
+      comoUsar: "<p>Utilize o produto conforme as instruções do fabricante ou a orientação de um profissional habilitado. A dose, a frequência e a duração do uso devem ser definidas de acordo com a formulação e as necessidades individuais. <strong>Não utilize por conta própria sem verificar a adequação da composição.</strong></p>",
+      advertencias: "<p>Produto destinado ao uso conforme orientação profissional. Informe ao profissional responsável sobre medicamentos em uso, suplementos e condições de saúde preexistentes. A piperina pode interferir no metabolismo de determinados medicamentos. Gestantes, lactantes e pessoas em tratamento médico devem consultar um profissional habilitado antes de utilizar o produto. Mantenha fora do alcance de crianças e siga as orientações de conservação do fabricante. Este produto não substitui uma alimentação equilibrada, a avaliação médica ou o acompanhamento específico do lipedema.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
+    },
+    destaque: false,
+    mostrarlancamento: false,
+    mostrarVideo: false,
+    textoParcelamento: "🎟️ Cupom válido no carrinho. 💳 Consulte parcelamento no checkout",
+    cupomAtivo: false,
+    cupomPorcentagem: 0,
+    cupomCodigo: "",
+    cupomValidade: "",
+    cupomMensagemTag: "",
+    cupomOcultarTag: false,
+    promoCompreXAtivo: false,
+    promoCompreXQtd: 2,
+    promoCompreXPreco: 0.01,
+    promoCompreXMensagemTag: "",
+    promoCompreXOcultarTag: false,
+    promoCompreXValidade: "",
+  },
+  {
+    id: "163",
+    nome: "KIT LIPEDEMA PRO BEAUTY - 30 Cápsulas + LIPEDEMA TINTURA - Solução 60ml",
+    categoria: "saude",
+    preco: 160.00,
+    imagem: "assets/img/kit-lipedema-pro-beauty-30-capsulas-lipedema-tintura-solucao-60ml-mvpjrt6t.png",
+    videos: [
+      
+    ],
+    descricao: {
+      resumo: "<p>O <strong>KIT LIPEDEMA PRO BEAUTY - 30 Cápsulas + LIPEDEMA TINTURA - Solução 60ml </strong> combina uma fórmula em cápsulas com uma tintura de extratos vegetais, reunindo ingredientes utilizados em estratégias de suporte nutricional, proteção antioxidante e cuidados relacionados à circulação. Uma opção complementar para integrar um plano individualizado de cuidados, com orientação profissional.</p>",
+      oQueE: "<p>O <strong>KIT LIPEDEMA PRO BEAUTY - 30 Cápsulas + LIPEDEMA TINTURA - Solução 60ml</strong> reúne dois produtos: LIPEDEMA PRO BEAUTY, em cápsulas, com nutrientes, vitaminas e compostos bioativos, e LIPEDEMA TINTURA, uma solução líquida composta por extratos vegetais de Centella asiatica, Camellia sinensis e Equisetum arvense. A combinação reúne ingredientes com diferentes propriedades, estudados em contextos de suporte nutricional, atividade antioxidante e função vascular.</p><p>A proposta do kit é complementar estratégias de cuidado relacionadas ao <strong>suporte nutricional, à proteção antioxidante e à circulação</strong>. Seus componentes participam de diferentes processos fisiológicos ou são tradicionalmente utilizados em preparações fitoterápicas.</p><p>O kit pode ser considerado por <strong>adultos que buscam complementar seus cuidados nutricionais</strong>, inclusive no contexto de um plano individualizado para pessoas com lipedema, mediante avaliação de um profissional habilitado. A indicação deve considerar as condições de saúde, as necessidades individuais, a composição completa e os medicamentos utilizados.</p>",
+      composicao: "<ul>\n  <li>LIPEDEMA TINTURA - Solução 60ml:</li>\n  <li>TM CENTELA ASIATICA — ML</li>\n  <li>TM CAMELLIA SINENSIS — ML</li>\n  <li>TM EQUISETUM ARVENSE — ML</li>\n</ul><p><strong>Apresentação:</strong> 30 Cápsulas </p><br><br><ul>\n  <li>LIPEDEMA PRO BEAUTY - 30 Cápsulas:</li>\n  <li>OMEGA 3 PO — MG</li>\n  <li>DRENOW C — MG</li>\n  <li>ACIDO ALFA LIPOICO — MG</li>\n  <li>HESPERIDINA — MG</li>\n  <li>VIT B6 — MG</li>\n  <li>VIT B3 — MG</li>\n  <li>TRANS RESVERATROL EXTRATO — MG</li>\n  <li>ASTAXANTINA — MG</li>\n  <li>DIMPLESS — MG</li>\n  <li>CURCUMINA — MG</li>\n  <li>PIPERINA — MG</li>\n  <li>MAGNESIO GLICIL-GLUTAMINA — MG</li>\n</ul><p><strong>Apresentação:</strong> Solução 60ml</p>",
+      comoUsar: "<p>Utilize os produtos conforme as instruções do fabricante ou a orientação de um profissional habilitado. A dose, a frequência e a duração do uso devem respeitar a formulação específica e as necessidades individuais. <strong>Não estabeleça a posologia por conta própria</strong> nem combine os produtos sem avaliar a adequação da utilização conjunta.</p>",
+      advertencias: "<p>Utilize o kit somente após avaliação profissional. Informe sobre medicamentos em uso, suplementos e condições de saúde preexistentes. A cavalinha pode influenciar o equilíbrio de líquidos e eletrólitos, enquanto a piperina pode interferir no metabolismo de determinados medicamentos. Pessoas com condições de saúde preexistentes, gestantes e lactantes devem consultar um profissional habilitado antes do uso. Este kit não substitui a avaliação médica nem o acompanhamento específico do lipedema. Mantenha os produtos fora do alcance de crianças e siga as orientações de conservação do fabricante.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
+    },
+    destaque: true,
+    mostrarlancamento: true,
+    mostrarVideo: false,
+    textoParcelamento: "🎟️ Cupom válido no carrinho. 💳 Consulte parcelamento no checkout",
+    cupomAtivo: false,
+    cupomPorcentagem: 0,
+    cupomCodigo: "",
+    cupomValidade: "",
+    cupomMensagemTag: "",
+    cupomOcultarTag: false,
+    promoCompreXAtivo: false,
+    promoCompreXQtd: 2,
+    promoCompreXPreco: 0.01,
+    promoCompreXMensagemTag: "",
+    promoCompreXOcultarTag: false,
+    promoCompreXValidade: "",
+  },
+  {
+    id: "164",
+    nome: "KSM-66 300mg - 30 Cápsulas",
+    categoria: "desempenhofisico",
+    preco: 50.00,
+    imagem: "assets/img/ksm-66-300mg-30-capsulas-mvpk1ug7.png",
+    videos: [
+      
+    ],
+    descricao: {
+      resumo: "<p>KSM-66 300mg é um suplemento à base de extrato de Ashwagandha, desenvolvido para complementar a rotina de quem busca <strong>equilíbrio, disposição e bem-estar</strong> no dia a dia.</p>",
+      oQueE: "<p><strong>KSM-66 300mg</strong> é uma fórmula em cápsulas à base de KSM 66, um extrato de Ashwagandha desenvolvido para uma suplementação prática voltada ao equilíbrio e ao bem-estar.</p><p>Sua composição auxilia no <strong>suporte ao estresse do dia a dia</strong>, contribuindo para disposição, foco e uma rotina de maior equilíbrio e qualidade de vida.</p><p>Pode ser indicado para adultos que buscam complementar sua rotina com Ashwagandha, especialmente aqueles que desejam suporte ao <strong>bem-estar, foco e disposição</strong> diante das demandas do cotidiano.</p>",
+      composicao: "<ul>\n<li>KSM 66 — 300MG</li>\n</ul><p><strong>Apresentação:</strong> 30 Cápsulas</p>",
+      comoUsar: "<p>Tomar <strong>1 cápsula duas vezes ao dia</strong>, ou conforme orientação de profissional habilitado.</p>",
+      advertencias: "<p>Utilize o produto conforme a orientação de uso. Em caso de dúvidas sobre a utilização ou necessidade de suplementação, procure orientação de um profissional habilitado.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
+    },
+    destaque: false,
+    mostrarlancamento: false,
+    mostrarVideo: false,
+    textoParcelamento: "🎟️ Cupom válido no carrinho. 💳 Consulte parcelamento no checkout",
+    cupomAtivo: false,
+    cupomPorcentagem: 0,
+    cupomCodigo: "",
+    cupomValidade: "",
+    cupomMensagemTag: "",
+    cupomOcultarTag: false,
+    promoCompreXAtivo: false,
+    promoCompreXQtd: 2,
+    promoCompreXPreco: 0.01,
+    promoCompreXMensagemTag: "",
+    promoCompreXOcultarTag: false,
+    promoCompreXValidade: "",
+  },
+  {
+    id: "165",
+    nome: "KIT KSM-66 300mg - 30 Cápsulas + TESTO BLACK - 30 Cápsulas",
+    categoria: "saude",
+    preco: 125.00,
+    imagem: "assets/img/kit-ksm-66-300mg-30-capsulas-testo-black-30-capsulas-mvpkoq77.png",
+    videos: [
+      
+    ],
+    descricao: {
+      resumo: "<p>O <strong>KIT KSM-66 - 30 Cápsulas + TESTO BLACK - 30 Cápsulas</strong> reúne duas fórmulas em cápsulas com composições distintas, combinando extrato de ashwagandha e ingredientes vegetais com uma formulação que contém tadalafila. A utilização deve considerar os objetivos individuais, a avaliação profissional e os cuidados necessários com a saúde masculina.</p>",
+      oQueE: "<p>O <strong>KIT KSM-66 - 30 Cápsulas + TESTO BLACK - 30 Cápsulas</strong> combina o KSM-66, extrato de <em>Withania somnifera</em> (ashwagandha), com o TESTO BLACK, composto por Epimedium com icariina, extrato seco de Long Jack (<em>Eurycoma longifolia</em>), ginseng coreano e tadalafila. As duas fórmulas apresentam componentes com características e finalidades distintas.</p><p>O KSM-66 é estudado por seus possíveis efeitos relacionados ao estresse, ao sono e ao bem-estar. Já o TESTO BLACK reúne ingredientes investigados em pesquisas sobre saúde sexual masculina, incluindo a <strong>tadalafila, um medicamento utilizado no tratamento da disfunção erétil</strong>, conforme avaliação e prescrição médica. Os efeitos dependem de cada componente, da dose e das condições individuais. Não há evidências suficientes para afirmar que a combinação aumenta a testosterona ou garante melhora da libido e do desempenho sexual.</p><p>O kit destina-se a adultos que buscam orientação profissional para questões relacionadas ao bem-estar e à saúde masculina. Entretanto, devido à presença de tadalafila, o uso do TESTO BLACK exige <strong>avaliação médica e prescrição quando aplicável</strong>. A adequação da combinação deve ser determinada individualmente, considerando o histórico de saúde, os medicamentos utilizados e os riscos de interação.</p>",
+      composicao: "<ul>\n  <li>KSM-66 300mg - 30 Cápsulas:</li>\n  <li>KSM-66 300MG</li>\n</ul><p><strong>Apresentação:</strong> 30 Cápsulas</p>\n<br>\n<ul>\n  <li>TESTO BLACK - 30 Cápsulas:</li>\n  <li>EPIMEDIUM ICARIIN - 200MG</li>\n  <li>LONG JACK EXTRATO SECO - 300MG</li>\n  <li>GINSENG COREANO - 80MG</li>\n  <li>TADALAFIL - 3MG</li>\n</ul><p><strong>Apresentação:</strong> 30 Cápsulas</p>",
+      comoUsar: "<p>Utilize somente conforme a prescrição médica e as orientações da farmácia responsável pela preparação. A dose, a frequência e a duração do uso devem ser definidas por um profissional habilitado. <strong>Não inicie o uso nem combine as fórmulas por conta própria.</strong></p>",
+      advertencias: "<p>O TESTO BLACK contém tadalafila, um medicamento que exige cuidados específicos. Não utilize em associação com nitratos, como nitroglicerina, devido ao risco de queda grave da pressão arterial. Informe ao médico sobre todos os medicamentos e suplementos utilizados. A ashwagandha também pode apresentar efeitos adversos e requer avaliação em determinadas condições de saúde. Em caso de dor no peito, perda súbita de visão ou audição ou ereção prolongada por quatro horas ou mais, procure atendimento médico imediato. Mantenha fora do alcance de crianças. Antes da comercialização, confirme com a farmácia responsável a regularidade da formulação e as condições de dispensação aplicáveis.</p><p>SE PERSISTIREM OS SINTOMAS, O MÉDICO DEVERÁ SER CONSULTADO. Os resultados e indicações referentes ao uso desse produto foram avaliados e comprovados pelo fabricante deste insumo farmacêutico. Não garantimos os resultados descritos, estes variam de pessoa para pessoa dependendo de diversos fatores como alimentação, prática de exercícios físicos, presença de outras patologias, bem como, o uso correto do produto conforme descrito na posologia.</p>"
+    },
+    destaque: true,
+    mostrarlancamento: true,
+    mostrarVideo: false,
+    textoParcelamento: "🎟️ Cupom válido no carrinho. 💳 Consulte parcelamento no checkout",
+    cupomAtivo: false,
+    cupomPorcentagem: 0,
+    cupomCodigo: "",
+    cupomValidade: "",
+    cupomMensagemTag: "",
+    cupomOcultarTag: false,
+    promoCompreXAtivo: false,
+    promoCompreXQtd: 2,
+    promoCompreXPreco: 0.01,
+    promoCompreXMensagemTag: "",
+    promoCompreXOcultarTag: false,
+    promoCompreXValidade: "",
   }
 ];
 
