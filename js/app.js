@@ -127,7 +127,8 @@ const bannersIntermediarios = [
        { src: "assets/adsmeio/cyanotis.png", alt: "Cyanotis" },
        { src: "assets/adsmeio/oliveleaf.png", alt: "Olive" },
        { src: "assets/adsmeio/redrice.png", alt: "Red Rice" },
-       { src: "assets/adsmeio/peg4000350gr.png", alt: "PEG 4000" }
+       { src: "assets/adsmeio/peg4000350gr.png", alt: "PEG 4000" },
+       { src: "assets/adsmeio/berberinapic.png", alt: "Berberina Pic" }
        
      ]
    },
@@ -143,7 +144,8 @@ const bannersIntermediarios = [
        { src: "assets/adsmeio/formulaemagrecedora.png", alt: "Fórmula Emagrecedora" },
        { src: "assets/adsmeio/rhodiola.png", alt: "Rhodiola" },
        { src: "assets/adsmeio/circulacao.png", alt: "Circulação Retenção Líquido" },
-       { src: "assets/adsmeio/fomecontrol.png", alt: "Fome Control" }
+       { src: "assets/adsmeio/fomecontrol.png", alt: "Fome Control" },
+       { src: "assets/adsmeio/powderlimp.png", alt: "Powder Limp" }
        
      ]
    },
@@ -158,7 +160,8 @@ const bannersIntermediarios = [
        { src: "assets/adsmeio/rhodiola2.png", alt: "Rhodiola" },
        { src: "assets/adsmeio/propolis2.png", alt: "Própolis" },
        { src: "assets/adsmeio/pillfoodturbinado.png", alt: "Pill Food Turbinado" },
-       { src: "assets/adsmeio/Peptistrongmeio.png", alt: "Peptistrong Capuccino" }
+       { src: "assets/adsmeio/Peptistrongmeio.png", alt: "Peptistrong Capuccino" },
+       { src: "assets/adsmeio/mitburn.png", alt: "Mitburn" }
               
      ]
    },
@@ -173,7 +176,8 @@ const bannersIntermediarios = [
        { src: "assets/adsmeio/50mais.png", alt: "50 + Suplemento" },
        { src: "assets/adsmeio/retinol.png", alt: "8:1 Retinol" },
        { src: "assets/adsmeio/phormulavet.png", alt: "Biscoito Veterinário" },
-       { src: "assets/adsmeio/ProGofrutasvermelhas.png", alt: "ProGo" }
+       { src: "assets/adsmeio/ProGofrutasvermelhas.png", alt: "ProGo" },
+       { src: "assets/adsmeio/orlistat.png", alt: "Orlistat" }
                      
      ]
    },
