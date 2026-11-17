@@ -100,7 +100,8 @@ const bannersIntermediarios = [
        { src: "assets/adsmeio/blackginger.png", alt: "Black Ginger" },
        { src: "assets/adsmeio/akkermat.png", alt: "Akkermat" },
        { src: "assets/adsmeio/canetamicose.png", alt: "Caneta Micose" },
-       { src: "assets/adsmeio/3mmagnesio1.png", alt: "3M Magnésio" }
+       { src: "assets/adsmeio/3mmagnesio1.png", alt: "3M Magnésio" },
+       { src: "assets/adsmeio/magnesiotreonato.png", alt: "Magnésio Treonato" }
        
      ]
    },
@@ -128,7 +129,8 @@ const bannersIntermediarios = [
        { src: "assets/adsmeio/oliveleaf.png", alt: "Olive" },
        { src: "assets/adsmeio/redrice.png", alt: "Red Rice" },
        { src: "assets/adsmeio/peg4000350gr.png", alt: "PEG 4000" },
-       { src: "assets/adsmeio/berberinapic.png", alt: "Berberina Pic" }
+       { src: "assets/adsmeio/berberinapic.png", alt: "Berberina Pic" },
+       { src: "assets/adsmeio/magnesiodimalato.png", alt: "Magnésio Dimalato" }
        
      ]
    },
@@ -145,7 +147,8 @@ const bannersIntermediarios = [
        { src: "assets/adsmeio/rhodiola.png", alt: "Rhodiola" },
        { src: "assets/adsmeio/circulacao.png", alt: "Circulação Retenção Líquido" },
        { src: "assets/adsmeio/fomecontrol.png", alt: "Fome Control" },
-       { src: "assets/adsmeio/powderlimp.png", alt: "Powder Limp" }
+       { src: "assets/adsmeio/powderlimp.png", alt: "Powder Limp" },
+       { src: "assets/adsmeio/pinuspinaster.png", alt: "Pinus Pinaster" }
        
      ]
    },
@@ -161,7 +164,9 @@ const bannersIntermediarios = [
        { src: "assets/adsmeio/propolis2.png", alt: "Própolis" },
        { src: "assets/adsmeio/pillfoodturbinado.png", alt: "Pill Food Turbinado" },
        { src: "assets/adsmeio/Peptistrongmeio.png", alt: "Peptistrong Capuccino" },
-       { src: "assets/adsmeio/mitburn.png", alt: "Mitburn" }
+       { src: "assets/adsmeio/mitburn.png", alt: "Mitburn" },
+       { src: "assets/adsmeio/Peptistrongfv.png", alt: "Peptistrong FV" },
+       { src: "assets/adsmeio/magnesioinositol.png", alt: "Magnésio Inositol Relax" }
               
      ]
    },
@@ -177,7 +182,8 @@ const bannersIntermediarios = [
        { src: "assets/adsmeio/retinol.png", alt: "8:1 Retinol" },
        { src: "assets/adsmeio/phormulavet.png", alt: "Biscoito Veterinário" },
        { src: "assets/adsmeio/ProGofrutasvermelhas.png", alt: "ProGo" },
-       { src: "assets/adsmeio/orlistat.png", alt: "Orlistat" }
+       { src: "assets/adsmeio/orlistat.png", alt: "Orlistat" },
+       { src: "assets/adsmeio/magnesioglicinato.png", alt: "Magnésio Glicinato" }
                      
      ]
    },
